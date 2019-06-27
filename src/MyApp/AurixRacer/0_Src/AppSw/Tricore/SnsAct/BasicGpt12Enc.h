@@ -22,7 +22,7 @@
 #define IR_getEncPosition() IR_Encoder.rawPosition
 #define IR_getEncDirection() IR_Encoder.direction
 #define IR_getEncTurn() IR_Encoder.turn
-
+#define PI 3.141592
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/
@@ -49,6 +49,8 @@ IFX_EXTERN IR_Encoder_t IR_Encoder;
 IFX_EXTERN void BasicGpt12Enc_init(void);
 IFX_EXTERN void BasicGpt12Enc_run(void);
 IFX_EXTERN void BasicGpt12Enc_IR_Encoder_reset(void);
+void SpeedCalculation(void);
+
 
 #ifdef ENCODER_EMUL
 IFX_EXTERN void EncoderEmul_init(void);

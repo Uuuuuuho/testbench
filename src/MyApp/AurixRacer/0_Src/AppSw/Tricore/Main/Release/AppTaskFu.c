@@ -11,7 +11,7 @@ boolean task_flag_100m = FALSE;
 boolean task_flag_1000m = FALSE;
 
 
-
+float32 testVol = -1;
 
 
 
@@ -63,7 +63,6 @@ void appTaskfu_10ms(void)
 	task_cnt_10m++;
 	if(task_cnt_10m == 1000){
 		task_cnt_10m = 0;
-        InfineonRacer_detectLane(LineIndex, LineAmount, THICKNESS)
 		//BasicGpt12Enc_IR_Encoder_reset();
 	}
 
@@ -83,7 +82,7 @@ void appTaskfu_10ms(void)
 
 			#endif
 		}
-		AsclinShellInterface_runEncScan();
+//		AsclinShellInterface_runEncScan();
 	}
 
 }
@@ -91,6 +90,12 @@ void appTaskfu_10ms(void)
 void appTaskfu_100ms(void)
 {
 	task_cnt_100m++;
+    testVol += 0.1;
+    IR_setMotor0Vol(testVol);
+
+    if(testVol == 1.0)
+        testVol = -1.0;
+    
 	if(task_cnt_100m == 1000){
 		task_cnt_100m = 0;
 	}

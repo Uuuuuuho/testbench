@@ -159,8 +159,12 @@ void BasicGpt12Enc_run(void){
 	IR_Encoder.direction   = IfxGpt12_IncrEnc_getDirection(&g_Gpt12Enc.incrEnc);
 	IR_Encoder.turn   	   = IfxGpt12_IncrEnc_getTurn(&g_Gpt12Enc.incrEnc);
 	//g_Gpt12Enc.incrEnc.turn = 0;
+	SpeedCalculation(void);
 }
 
+void SpeedCalculation(void){
+    IR_Encoder.speed = IR_Encoder.speed * 22 * 3.6 / PI;
+}
 
 /******************************************************************************/
 /* The following code is conditional compiled area.
