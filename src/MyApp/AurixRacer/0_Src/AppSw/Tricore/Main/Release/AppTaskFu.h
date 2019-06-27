@@ -28,8 +28,10 @@ void appTaskfu_1000ms(void);
 void appTaskfu_idle(void);
 void appIsrCb_1ms(void);
 
-void median_filter();
-void convolutionOP();
-void getLineData (uint16 LineIndex[64][2], uint16* LineAmount, uint8* thickness);
+
+
+void PID(uint16 Speed);
+
+
 
 #endif /* APPTASKFU_H_ */

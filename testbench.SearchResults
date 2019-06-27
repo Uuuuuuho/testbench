@@ -1,0 +1,17 @@
+---- InfineonRacer_detectLane Matches (4 in 4 files) ----
+AppTaskFu.c (src\...\release):85
+		InfineonRacer_detectLane();
+		BasicPort_run();
+		BasicGtmTom_run();
+AppTaskFu.h (src\...\release):36
+IFX_EXTERN void InfineonRacer_detectLane(uint16 LineIndex [ 64 ] [ 2 ], uint16 * LineAmount, uint8 * thickness);
+
+
+InfineonRacer.c (src\...\handcode):40
+void InfineonRacer_detectLane(void){
+	/* IR_LineScan.adcResult 의 정보를 읽어들여서
+	 * IR_Ctrl.Ls0Margin, IR_Ctrl.Ls1Margin 정보를 계산한다
+InfineonRacer.h (src\...\handcode):42
+IFX_EXTERN void InfineonRacer_detectLane(void);
+IFX_EXTERN void InfineonRacer_control(void);
+

@@ -10,6 +10,12 @@ boolean task_flag_10m = FALSE;
 boolean task_flag_100m = FALSE;
 boolean task_flag_1000m = FALSE;
 
+
+
+
+
+
+
 void appTaskfu_init(void){
 	BasicLineScan_init();
 	BasicPort_init();
@@ -57,6 +63,7 @@ void appTaskfu_10ms(void)
 	task_cnt_10m++;
 	if(task_cnt_10m == 1000){
 		task_cnt_10m = 0;
+        InfineonRacer_detectLane(LineIndex, LineAmount, THICKNESS)
 		//BasicGpt12Enc_IR_Encoder_reset();
 	}
 
@@ -125,4 +132,32 @@ void appTaskfu_idle(void){
 void appIsrCb_1ms(void){
 	BasicGpt12Enc_run();
 }
+
+
+void PID(uint16 Speed) // 엔코더를 이용한 P제어
+{
+	int P;
+	P = Speed - IR_getEncSpeed();	//get_tim0_cnt() return speed
+
+	if(P > 0)
+	{
+		if(slowchange02 < 100)
+			*SPEED = ((float)*SPEED + (float)(P>>4));
+		else
+			*SPEED = ((float)*SPEED + (float)(P>>2));
+
+	}
+	else
+	{
+		if(slowchange01 < 10)
+			*SPEED = ((float)*SPEED + (float)(P));
+		else
+			*SPEED = ((float)*SPEED + (float)(P>>1));
+	}
+
+}
+
+
+
+
 
