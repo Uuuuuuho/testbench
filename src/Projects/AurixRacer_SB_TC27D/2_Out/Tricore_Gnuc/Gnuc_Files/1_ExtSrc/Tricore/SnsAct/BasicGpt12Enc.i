@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.c"
-# 1 "C:\\Users\\kim\\eclipse-workspace\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\JB\\Documents\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.c"
@@ -25665,6 +25665,7 @@ extern IR_Encoder_t IR_Encoder;
 extern void BasicGpt12Enc_init(void);
 extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
+void SpeedCalculation(void);
 # 13 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.c" 2
 
 
@@ -25758,4 +25759,9 @@ void BasicGpt12Enc_run(void){
  IR_Encoder.direction = IfxGpt12_IncrEnc_getDirection(&g_Gpt12Enc.incrEnc);
  IR_Encoder.turn = IfxGpt12_IncrEnc_getTurn(&g_Gpt12Enc.incrEnc);
 
+ SpeedCalculation();
+}
+
+void SpeedCalculation(void){
+    IR_Encoder.speed = IR_Encoder.speed * 22 * 3.6 / 3.141592;
 }

@@ -159,7 +159,7 @@ void BasicGpt12Enc_run(void){
 	IR_Encoder.direction   = IfxGpt12_IncrEnc_getDirection(&g_Gpt12Enc.incrEnc);
 	IR_Encoder.turn   	   = IfxGpt12_IncrEnc_getTurn(&g_Gpt12Enc.incrEnc);
 	//g_Gpt12Enc.incrEnc.turn = 0;
-	SpeedCalculation(void);
+	SpeedCalculation();
 }
 
 void SpeedCalculation(void){

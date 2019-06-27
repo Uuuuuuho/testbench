@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_data.c"
-# 1 "C:\\Users\\kim\\eclipse-workspace\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\JB\\Documents\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_data.c"
@@ -31823,24 +31823,36 @@ extern IR_Encoder_t IR_Encoder;
 extern void BasicGpt12Enc_init(void);
 extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
+void SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 26 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_private.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 1
-# 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 34 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
  boolean basicTest;
 }InfineonRacer_t;
 
+typedef struct{
+    uint32 Result[128 + 3 -1];
+    uint32 Transfer[3];
+
+    uint32 sample[5];
+    float32 temp;
+
+
+    uint16 LineAmount;
+    uint16 head;
+    uint16 tail;
+}LineData;
+
 
 
 
 extern InfineonRacer_t IR_Ctrl;
-
-
-
-
+extern LineData IR_LineData;
+# 66 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane(void);
 extern void InfineonRacer_control(void);

@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
-# 1 "C:\\Users\\kim\\eclipse-workspace\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\JB\\Documents\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
@@ -31670,6 +31670,7 @@ extern IR_Encoder_t IR_Encoder;
 extern void BasicGpt12Enc_init(void);
 extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
+void SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 7 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.h" 1
@@ -35407,21 +35408,32 @@ extern void AsclinShellInterface_run(void);
 extern void AsclinShellInterface_runLineScan(void);
 # 8 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 1
-# 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 34 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
  boolean basicTest;
 }InfineonRacer_t;
 
+typedef struct{
+    uint32 Result[128 + 3 -1];
+    uint32 Transfer[3];
+
+    uint32 sample[5];
+    float32 temp;
+
+
+    uint16 LineAmount;
+    uint16 head;
+    uint16 tail;
+}LineData;
+
 
 
 
 extern InfineonRacer_t IR_Ctrl;
-
-
-
-
+extern LineData IR_LineData;
+# 66 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane(void);
 extern void InfineonRacer_control(void);
@@ -35606,6 +35618,12 @@ boolean task_flag_10m = 0;
 boolean task_flag_100m = 0;
 boolean task_flag_1000m = 0;
 
+
+float32 testVol = -1;
+
+
+
+
 void appTaskfu_init(void){
  BasicLineScan_init();
  BasicPort_init();
@@ -35613,7 +35631,7 @@ void appTaskfu_init(void){
     BasicVadcBgScan_init();
     BasicGpt12Enc_init();
     AsclinShellInterface_init();
-# 29 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
     InfineonRacer_init();
 
 
@@ -35664,7 +35682,7 @@ void appTaskfu_10ms(void)
 
 
   }
-  AsclinShellInterface_runEncScan();
+
  }
 
 }
@@ -35672,10 +35690,16 @@ void appTaskfu_10ms(void)
 void appTaskfu_100ms(void)
 {
  task_cnt_100m++;
+    testVol += 0.1;
+    IR_setMotor0Vol(testVol);
+
+    if(testVol == 1.0)
+        testVol = -1.0;
+
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 101 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 113 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)

@@ -139,28 +139,6 @@ void appIsrCb_1ms(void){
 }
 
 
-void PID(uint16 Speed) // 엔코더를 이용한 P제어
-{
-	int P;
-	P = Speed - IR_getEncSpeed();	//get_tim0_cnt() return speed
-
-	if(P > 0)
-	{
-		if(slowchange02 < 100)
-			*SPEED = ((float)*SPEED + (float)(P>>4));
-		else
-			*SPEED = ((float)*SPEED + (float)(P>>2));
-
-	}
-	else
-	{
-		if(slowchange01 < 10)
-			*SPEED = ((float)*SPEED + (float)(P));
-		else
-			*SPEED = ((float)*SPEED + (float)(P>>1));
-	}
-
-}
 
 
 

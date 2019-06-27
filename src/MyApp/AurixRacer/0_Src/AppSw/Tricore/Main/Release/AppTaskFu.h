@@ -30,7 +30,6 @@ void appIsrCb_1ms(void);
 
 
 
-void PID(uint16 Speed);
 
 
 

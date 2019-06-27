@@ -37,21 +37,25 @@ typedef struct{
 	boolean basicTest;
 }InfineonRacer_t;
 
+typedef struct{
+    uint32 Result[SignalLen + TransferLen -1];
+    uint32 Transfer[3];
+    
+    uint32 sample[MEDIAN_SIZE];
+    float32 temp;
+    
+    
+    uint16 LineAmount;
+    uint16 head;
+    uint16 tail;
+}LineData;
+
 /******************************************************************************/
 /*------------------------------Global variables------------------------------*/
 /******************************************************************************/
 IFX_EXTERN InfineonRacer_t IR_Ctrl;
-uint32 Result[SignalLen + TransferLen -1] = {0};
-uint32 Transfer[3] = {-1, 0, 1};
+IFX_EXTERN LineData IR_LineData;
 
-uint16 Ratio = 68;
-uint32 sample[MEDIAN_SIZE] = {0};
-float32 temp = 0;
-
-
-IFX_EXTERN uint16 LineAmount = 0;
-IFX_EXTERN uint16 head = 0;
-IFX_EXTERN uint16 tail = 0;
 
 
 
@@ -63,9 +67,9 @@ IFX_EXTERN void InfineonRacer_init(void);
 IFX_EXTERN void InfineonRacer_detectLane(void);
 IFX_EXTERN void InfineonRacer_control(void);
 
-void median_filter();
-void convolutionOP();
-void getLineData ();
+//IFX_EXTERN void median_filter(void);
+//IFX_EXTERN void convolutionOP(void);
+//IFX_EXTERN void getLineData (void);
 
 
 #endif

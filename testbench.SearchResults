@@ -1,17 +1,313 @@
----- InfineonRacer_detectLane Matches (4 in 4 files) ----
-AppTaskFu.c (src\...\release):85
-		InfineonRacer_detectLane();
-		BasicPort_run();
-		BasicGtmTom_run();
-AppTaskFu.h (src\...\release):36
-IFX_EXTERN void InfineonRacer_detectLane(uint16 LineIndex [ 64 ] [ 2 ], uint16 * LineAmount, uint8 * thickness);
+---- sample Matches (66 in 24 files) ----
+IfxAsclin.h (src\...\std):306
+    IfxAsclin_SamplePointPosition_1  = 1,   /**< \brief sample point position at 1 */
+    IfxAsclin_SamplePointPosition_2  = 2,   /**< \brief sample point position at 2 */
+    IfxAsclin_SamplePointPosition_3  = 3,   /**< \brief sample point position at 3 */
+    IfxAsclin_SamplePointPosition_4  = 4,   /**< \brief sample point position at 4 */
+    IfxAsclin_SamplePointPosition_5  = 5,   /**< \brief sample point position at 5 */
+    IfxAsclin_SamplePointPosition_6  = 6,   /**< \brief sample point position at 6 */
+    IfxAsclin_SamplePointPosition_7  = 7,   /**< \brief sample point position at 7 */
+    IfxAsclin_SamplePointPosition_8  = 8,   /**< \brief sample point position at 8 */
+    IfxAsclin_SamplePointPosition_9  = 9,   /**< \brief sample point position at 9 */
+    IfxAsclin_SamplePointPosition_10 = 10,  /**< \brief sample point position at 10 */
+    IfxAsclin_SamplePointPosition_11 = 11,  /**< \brief sample point position at 11 */
+    IfxAsclin_SamplePointPosition_12 = 12,  /**< \brief sample point position at 12 */
+    IfxAsclin_SamplePointPosition_13 = 13,  /**< \brief sample point position at 13 */
+    IfxAsclin_SamplePointPosition_14 = 14,  /**< \brief sample point position at 14 */
+    IfxAsclin_SamplePointPosition_15 = 15   /**< \brief sample point position at 15 */
+} IfxAsclin_SamplePointPosition;
 
+/** \brief Number of samples per bit, sample mode/medianfilter\n
+ * Definition in Ifx_ASCLIN.BITCON.B.SM
+ */
+IfxAsclin.h (src\...\std):328
+    IfxAsclin_SamplesPerBit_one   = 0, /**< \brief one sample per bit */
+    IfxAsclin_SamplesPerBit_three = 1  /**< \brief three samples per bit */
+} IfxAsclin_SamplesPerBit;
+IfxAsclin.h (src\...\std):764
+/** \brief Sets the sample mode (number of samples per bit / median filter)
+ * \param asclin pointer to ASCLIN registers
+ * \param medianFilter value of the median filter
+IfxAsclin.h (src\...\std):773
+ * \param spPosition sample point position selection
+ * \return None
+ */
+IfxAsclin.h (src\...\std):1363
+ * \param samplepoint The sample point position
+ * \param medianFilter Number of samples per bit (median filter)
+ * \return TRUE if configuration was successfull
+IfxAsclin_Asc.c (src\...\asc):344
+    config->bitTiming.medianFilter        = IfxAsclin_SamplesPerBit_one;       /* one sample per bit*/
+    config->bitTiming.samplePointPosition = IfxAsclin_SamplePointPosition_3;   /* sample point position at 3*/
+    /* Default Values for Frame Control */
+    config->frame.idleDelay               = IfxAsclin_IdleDelay_0;             /* no idle delay*/
+IfxAsclin_Asc.h (src\...\asc):256
+    IfxAsclin_SamplesPerBit       medianFilter;              /**< \brief BITCON.SM, number of samples per bit (1 or 3), sample mode/median filter */
+    IfxAsclin_SamplePointPosition samplePointPosition;       /**< \brief BITCON.SAMPLEPOINT, sample point position */
+} IfxAsclin_Asc_BitTimingControl;
 
-InfineonRacer.c (src\...\handcode):40
-void InfineonRacer_detectLane(void){
-	/* IR_LineScan.adcResult 의 정보를 읽어들여서
-	 * IR_Ctrl.Ls0Margin, IR_Ctrl.Ls1Margin 정보를 계산한다
-InfineonRacer.h (src\...\handcode):42
-IFX_EXTERN void InfineonRacer_detectLane(void);
-IFX_EXTERN void InfineonRacer_control(void);
+IfxAsclin_Lin.c (src\...\lin):375
+    config->bsc.medianFilter               = IfxAsclin_SamplesPerBit_one;                      /* one sample per bit*/
+    config->bsc.samplePointPosition        = IfxAsclin_SamplePointPosition_3;                  /* sample point position at 3*/
+    /* Default Values for Frame Control */
+    config->frame.parityEnable             = FALSE;                                            /* disable parity*/
+IfxAsclin_Lin.h (src\...\lin):268
+    IfxAsclin_SamplePointPosition samplePointPosition;       /**< \brief BITCON.SAMPLEPOINT, sample point position */
+} IfxAsclin_Lin_BitSamplingControl;
+
+IfxAsclin_Spi.c (src\...\spi):112
+    IfxAsclin_SamplePointPosition samplePointPosition = (IfxAsclin_SamplePointPosition)((config->baudrate.oversampling + 1) / 2); /* sample point position at half of oversampling factor */
+
+    /* baudrate generation */
+IfxAsclin_Spi.c (src\...\spi):261
+            .medianFilter         = IfxAsclin_SamplesPerBit_one, /* one sample per bit */
+        },
+
+IfxCif.h (src\...\std):213
+    IfxCif_IspFieldSelection_AllFields      = 0,  /**< \brief sample all fields (don't care about fields) */
+    IfxCif_IspFieldSelection_OnlyEvenFields = 1,  /**< \brief sample only even fields */
+    IfxCif_IspFieldSelection_OnlyOddFields  = 2   /**< \brief sample only odd fields */
+} IfxCif_IspFieldSelection;
+
+IfxCif.h (src\...\std):858
+/** \brief Function to query the currently set field sample mode
+ * \return Currently set fields sample mode (one member of @ref IfxCif_IspFieldSelection)
+ */
+IFX_INLINE IfxCif_IspFieldSelection IfxCif_getIspFieldSelection(void);
+IfxCif.h (src\...\std):956
+/** \brief Function to select fields to sample
+ * \param selection Sampled fields selector
+ * \return None
+IfxCif.h (src\...\std):1007
+ * \param edge @ref IfxCif_IspSamplingEdge_NegativeEdge to sample at negative clock edges, @ref IfxCif_IspSamplingEdge_PositiveEdge to sample at positive clock edges
+ * \return None
+ */
+IfxCif_regdef.h (src\...\_reg):353
+    Ifx_Strict_32Bit ACQ_H_OFFS:13;         /**< \brief [12:0] Horizontal sample offset (rw) */
+    Ifx_Strict_32Bit reserved_13:19;        /**< \brief \internal Reserved */
+} Ifx_CIF_ISP_ACQ_H_OFFS_Bits;
+IfxCif_regdef.h (src\...\_reg):360
+    Ifx_Strict_32Bit ACQ_H_SIZE:13;         /**< \brief [12:0] Horizontal sample size (rw) */
+    Ifx_Strict_32Bit reserved_13:19;        /**< \brief \internal Reserved */
+} Ifx_CIF_ISP_ACQ_H_SIZE_Bits;
+IfxCif_regdef.h (src\...\_reg):390
+    Ifx_Strict_32Bit ACQ_V_OFFS:12;         /**< \brief [11:0] Vertical sample offset (rw) */
+    Ifx_Strict_32Bit reserved_12:20;        /**< \brief \internal Reserved */
+} Ifx_CIF_ISP_ACQ_V_OFFS_Bits;
+IfxCif_regdef.h (src\...\_reg):397
+    Ifx_Strict_32Bit ACQ_V_SIZE:12;         /**< \brief [11:0] Vertical sample size (rw) */
+    Ifx_Strict_32Bit reserved_12:20;        /**< \brief \internal Reserved */
+} Ifx_CIF_ISP_ACQ_V_SIZE_Bits;
+IfxDsadc.h (src\...\std):318
+/** \brief Demodulator sample clock source select\n
+ * Definition in Ifx_DSADC.DICFG.B.CSRC
+ */
+IfxDsadc.h (src\...\std):335
+    IfxDsadc_SampleStrobe_sampleOnRisingEdge      = 1, /**< \brief Direct clock, a sample trigger is generated at each rising clock edge */
+    IfxDsadc_SampleStrobe_sampleOnFallingEdge     = 2, /**< \brief Direct clock, a sample trigger is generated at each falling clock edge */
+    IfxDsadc_SampleStrobe_sampleOnBothEdges       = 3, /**< \brief Double data, a sample trigger is generated at each rising and falling clock edge */
+    IfxDsadc_SampleStrobe_reserved                = 4, /**< \brief don't use */
+    IfxDsadc_SampleStrobe_sampleOnTwoRisingEdges  = 5, /**< \brief Double clock, a sample trigger is generated at every 2nd rising clock edge */
+    IfxDsadc_SampleStrobe_sampleOnTwoFallingEdges = 6  /**< \brief Double clock, a sample trigger is generated at every 2nd falling clock edge */
+} IfxDsadc_SampleStrobe;
+
+IfxDsadc.h (src\...\std):479
+/** \brief Get the sample frequency of the integrator output in Hz
+ * \param dsadc Pointer to the DSADC register space
+ * \param channel Channel Id
+IfxDsadc.h (src\...\std):486
+/** \brief Get the sample frequency of the main COMB filter output in Hz
+ * \param dsadc Pointer to the DSADC register space
+ * \param channel Channel Id
+IfxDsadc_Dsadc.h (src\...\dsadc):223
+    IfxDsadc_SampleClockSource sampleClockSource;        /**< \brief Demodulator sample clock source selection */
+    IfxDsadc_SampleStrobe      sampleStrobe;             /**< \brief Demodulator data strobe generation mode selection */
+} IfxDsadc_Dsadc_DemodulatorConfig;
+IfxDsadc_Rdc.c (src\...\rdc):375
+    /** - Initialize TIM channel which is triggered by DSADC sample event */
+    {
+        hwHandle->rdcTimCh = IfxDsadc_Rdc_initGtmTim(gtm, tsConfig->rdcTim, tsConfig->rdcTimChannel, TRUE);
+IfxDsadc_Rdc.h (src\...\rdc):150
+ * disabled and integration count = 32), the output sample rate is:
+ *   10MHz / (32 * 32) = ~9.7kHz
+ *
+ * In each acquired sample, interrupt service is requested by the first DSADC channel
+ * initialised by IfxDsadc_Rdc_init(). User's application shall provide an interrupt service
+ * routine (ISR) to handle this request. In the ISR, or an OS task which is synchronised to
+IfxDsadc_Rdc.h (src\...\rdc):174
+ * - first timer capture unit, to capture the time at the DSADC sample output event, i.e.
+ *   using GTM TIM channel
+ * - second timer capture unit, to capture the time at the application sample point (e.g.
+ *   PWM event), i.e. using GTM TIM channel.
+ *
+IfxEray.h (src\...\std):1013
+/** \brief Sets sample point for strobing.
+ * \param eray pointer to ERAY module registers.
+ * \param strobePosition strobing sample count.
+ * \return None
+ */
+IfxEray_Eray.h (src\...\eray):658
+    IfxEray_StrobePosition strobePosition;                   /**< \brief sample count value for strobing. */
+    IfxEray_Baudrate       baudrate;                         /**< \brief baud rate on the flexray bus. */
+    uint8                  receiveWakeupTestDuration;        /**< \brief duration of received wakeup pattern in bit times. */
+IfxGpt12_IncrEnc.h (src\...\increnc):48
+ *          - twoFold: sample on both edges of TxIn
+ *          - fourFold: sample on both edges of TxIn and TxEUD
+ *          - Reverse of direction supported by GPT12
+ *          - T2 value diff is used for speed calculation at high speed
+IfxMultican.c (src\...\std):698
+    /* search for best sample point */
+    bestError = samplePoint * 0.15; /* 15% tolerance in sample point as max error */
+
+    bestTSEG1 = maxTSEG1;
+IfxMultican.c (src\...\std):864
+    /* search for best sample point */
+    bestError = samplePoint * 0.15; /* 15% tolerance in sample point as max error */
+
+    bestTSEG1 = maxTSEG1;
+IfxMultican.c (src\...\std):1028
+    /* search for best sample point */
+    bestError = samplePoint * 0.15; /* 15% tolerance in sample point as max error */
+
+    bestTSEG1 = maxTSEG1;
+IfxMultican.h (src\...\std):373
+ * \param samplePoint Specifies the sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time.
+ * \param synchJumpWidth synchJumpWidth Specifies the re-synchronization jump width.\n
+ * Range = [0, 10000] resp. [0%, 100%] of the total bit time.
+IfxMultican.h (src\...\std):384
+ * \param samplePoint Specifies the sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time.
+ * \param synchJumpWidth synchJumpWidth Specifies the re-synchronization jump width.\n
+ * Range = [0, 10000] resp. [0%, 100%] of the total bit time.
+IfxMultican.h (src\...\std):654
+ * \param samplePoint Specifies the sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time.
+ * \param synchJumpWidth synchJumpWidth Specifies the re-synchronization jump width.\n
+ * Range = [0, 10000] resp. [0%, 100%] of the total bit time.
+IfxMultican_Can.h (src\...\can):767
+    uint16 nominalSamplePoint;          /**< \brief Specifies the FD nominal sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time */
+    uint32 fastBaudrate;                /**< \brief Specifies the FD fast baudrate (Data Bit rate) */
+    uint16 fastSynchJumpWidth;          /**< \brief Specifies the FD fast resynchronisation jump width. Range = [0, 10000] resp. [0%, 100%] of the total fast bit time */
+    uint16 fastSamplePoint;             /**< \brief Specifies the FD fast sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time */
+    uint16 loopDelayOffset;             /**< \brief Specifies the transceiver delay ompensation offset that is added to the measured transceiver delay. Range = [0, 15] */
+} IfxMultican_Can_FdConfig;
+IfxMultican_Can.h (src\...\can):884
+    uint16                          samplePoint;                  /**< \brief Specifies the sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time */
+    uint16                          synchJumpWidth;               /**< \brief Specifies the resynchronisation jump width. Range = [0, 10000] resp. [0%, 100%] of the total bit time */
+    boolean                         flexibleDataRate;             /**< \brief CANFD enable/disable */
+IfxPsi5_Psi5.h (src\...\psi5):427
+/** \brief Get the current channel configuration (e.g. sample settings)
+ * \param config pointer to the PSI5 channel configuration
+ * \param psi5 pointer to the PSI5 module
+IfxVadc.h (src\...\std):209
+/** \brief External Multiplexer sample time control
+ * defined in Ifx_VADC.G[x].EMUXCTR.B.EMXST
+ */
+IfxVadc.h (src\...\std):583
+/** \brief get global input class sample time in sec
+ * \param vadc Pointer to the VADC Group Register space
+ * \param inputClassNum ADC input class number
+IfxVadc.h (src\...\std):587
+ * \return ADC input class channel sample time in sec.
+ */
+IFX_INLINE float32 IfxVadc_getGlobalSampleTime(Ifx_VADC *vadc, uint8 inputClassNum, float32 analogFrequency);
+IfxVadc.h (src\...\std):1091
+ * \param sampleTime sample time in sec.
+ * \return sample time in sec.
+ */
+IFX_INLINE uint32 IfxVadc_calculateSampleTime(float32 analogFrequency, float32 sampleTime);
+IfxVadc.h (src\...\std):1185
+/** \brief Sets the ADC input class sample time.
+ * \param vadcG pointer to VADC group registers.
+ * \param inputClassNum input class number.
+IfxVadc.h (src\...\std):1189
+ * \param sampleTime request sample time in sec for input class.
+ * \return None
+ */
+IfxVadc.h (src\...\std):1269
+/** \brief Sets the sample time of ADC global class.
+ * \param vadc pointer to VADC module registers.
+ * \param inputClassNum global input class  number.
+IfxVadc.h (src\...\std):1273
+ * \param sampleTime the requested sample time for input class in sec.
+ * \return None
+ */
+IfxVadc.h (src\...\std):1442
+/** \brief Gets the ADC input class channel sample time.
+ * \param vadcG pointer to VADC group registers.
+ * \param inputClassNum ADC input class number.
+IfxVadc.h (src\...\std):1446
+ * \return ADC input class channel sample time in sec.
+ */
+IFX_INLINE float32 IfxVadc_getGroupSampleTime(Ifx_VADC_G *vadcG, uint8 inputClassNum, float32 analogFrequency);
+IfxVadc.h (src\...\std):1599
+/** \brief Get the sample time of ADC global class for external channel.
+ * \param vadc pointer to VADC Module space
+ * \param inputClassNum Adc input class number
+IfxVadc.h (src\...\std):1603
+ * \return ADC input class external channel sample time in sec.
+ */
+IFX_INLINE float32 IfxVadc_getEmuxGlobalSampleTime(Ifx_VADC *vadc, uint8 inputClassNum, float32 analogFrequency);
+IfxVadc.h (src\...\std):1614
+/** \brief Gets the ADC input class sample time of external channel.
+ * \param vadcG Pointer to Register Group space
+ * \param inputClassNum ADC input class number
+IfxVadc.h (src\...\std):1618
+ * \return ADC input class external channel sample time in sec.
+ */
+IFX_INLINE float32 IfxVadc_getEmuxGroupSampleTime(Ifx_VADC_G *vadcG, uint8 inputClassNum, float32 analogFrequency);
+IfxVadc.h (src\...\std):1630
+/** \brief Sets the sample time of ADC global class for external channel.
+ * \param vadc Pointer to VADC Module space
+ * \param inputClassNum Adc input class number
+IfxVadc.h (src\...\std):1634
+ * \param sampleTime the requested sample time for input class in sec
+ * \return None
+ */
+IfxVadc.h (src\...\std):1647
+/** \brief Sets the ADC input class sample time for external channel.
+ * \param vadcG Pointer to VADC Group Register Space
+ * \param inputClassNum input class number
+IfxVadc.h (src\...\std):1651
+ * \param sampleTime request sample time in sec for input class.
+ * \return None
+ */
+IfxVadc.h (src\...\std):1675
+ * \param sampleTimeControl specifies when to use a sample time for external channel
+ * \param channelSelectionStyle External Multiplexer Channel Selection Style
+ * \return None
+IfxVadc_Adc.c (src\...\adc):703
+        .inputClass[0].sampleTime = 1.0e-6,                           /* Set sample time to 1us */
+        .inputClass[1].resolution = IfxVadc_ChannelResolution_12bit,
+        .inputClass[1].sampleTime = 1.0e-6,                           /* Set sample time to 1us */
+    };
+
+IfxVadc_Adc.h (src\...\adc):403
+    float32                   sampleTime;       /**< \brief Specifies the requested sample time for input class */
+    IfxVadc_ChannelResolution resolution;       /**< \brief Specifies the conversion Mode 8,10,12Bit or 10bit fast compare */
+} IfxVadc_Adc_ClassConfig;
+IfxVadc_Adc.h (src\...\adc):505
+    IfxVadc_EmuxSampleTimeControl   sampleTimeControl;           /**< \brief specifies when to use sample time control */
+    IfxVadc_GroupId                 groupId;                     /**< \brief specifies groupId */
+    uint8                           channels;                    /**< \brief specifies channel number */
+IfxVadc_Adc.h (src\...\adc):869
+/** \brief Get the current channel configuration (e.g. sample settings)
+ * \param channel pointer to the VADC channel
+ * \param config pointer to the VADC channel configuration
+InfineonRacer.c (src\...\handcode):77
+			sample[j + (MEDIAN_SIZE / 2)] = IR_LineScan.adcResult[0][i + j];
+			if (j == MEDIAN_SIZE / 2) {
+				for (uint32 m = 0; m < MEDIAN_SIZE - 1; m++) { //Sample을 정렬(Selection Sort)
+InfineonRacer.c (src\...\handcode):81
+						if (sample[m] < sample[n]) {
+							temp = sample[m];
+							sample[m] = sample[n];
+							sample[n] = temp;
+						}
+					}
+InfineonRacer.c (src\...\handcode):88
+				IR_LineScan.adcResult[0][i] = sample[j];
+			}
+		}
+InfineonRacer.h (src\...\handcode):48
+uint32 sample[MEDIAN_SIZE] = {0};
+float32 temp = 0;
 
