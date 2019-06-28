@@ -34,7 +34,7 @@ typedef struct{
 }Global_flag;
 
 //global variable
-Global_flag Test_flag;
+
 
 
 

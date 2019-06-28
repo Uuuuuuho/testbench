@@ -151,6 +151,11 @@ void BasicGpt12Enc_IR_Encoder_reset(void){
 	IfxGpt12_IncrEnc_resetTurn(&g_Gpt12Enc.incrEnc);
 }
 
+void Speed_Avg(void){
+    IR_Encoder.speed = IR_Encoder.buff / 10;
+}
+
+
 void BasicGpt12Enc_run(void){
 	IfxGpt12_IncrEnc_update(&g_Gpt12Enc.incrEnc);
 
@@ -160,10 +165,12 @@ void BasicGpt12Enc_run(void){
 	IR_Encoder.turn   	   = IfxGpt12_IncrEnc_getTurn(&g_Gpt12Enc.incrEnc);
 	//g_Gpt12Enc.incrEnc.turn = 0;
 	SpeedCalculation();
+    
+    IR_Encoder.buff += IR_Encoder.speed;
 }
 
 void SpeedCalculation(void){
-    IR_Encoder.speed = IR_Encoder.speed * 0.22 * 3.6 / PI;
+    IR_Encoder.speed = IR_Encoder.speed * 0.22 * 100 / 2 / PI;
 }
 
 /******************************************************************************/

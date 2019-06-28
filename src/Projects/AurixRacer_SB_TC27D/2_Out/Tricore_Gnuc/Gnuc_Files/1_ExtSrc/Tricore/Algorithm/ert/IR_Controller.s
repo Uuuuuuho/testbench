@@ -339,7 +339,7 @@ IR_Controller_DWork:
 	.file 13 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicPort.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x8e7
+	.uaword	0x900
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -640,10 +640,10 @@ IR_Controller_DWork:
 	.byte	0x50
 	.uaword	0x52a
 	.uleb128 0x4
-	.byte	0x10
+	.byte	0x18
 	.byte	0x9
 	.byte	0x21
-	.uaword	0x5e7
+	.uaword	0x600
 	.uleb128 0x5
 	.string	"speed"
 	.byte	0x9
@@ -668,41 +668,53 @@ IR_Controller_DWork:
 	.byte	0x25
 	.uaword	0x422
 	.byte	0xc
+	.uleb128 0x5
+	.string	"buff"
+	.byte	0x9
+	.byte	0x26
+	.uaword	0x43e
+	.byte	0x10
+	.uleb128 0x5
+	.string	"avg"
+	.byte	0x9
+	.byte	0x27
+	.uaword	0x43e
+	.byte	0x14
 	.byte	0
 	.uleb128 0x3
 	.string	"IR_Encoder_t"
 	.byte	0x9
-	.byte	0x27
+	.byte	0x28
 	.uaword	0x59d
 	.uleb128 0x4
 	.byte	0xc
 	.byte	0xa
-	.byte	0x22
-	.uaword	0x63a
+	.byte	0x23
+	.uaword	0x653
 	.uleb128 0x5
 	.string	"Ls0Margin"
 	.byte	0xa
-	.byte	0x23
+	.byte	0x24
 	.uaword	0x422
 	.byte	0
 	.uleb128 0x5
 	.string	"Ls1Margin"
 	.byte	0xa
-	.byte	0x24
+	.byte	0x25
 	.uaword	0x422
 	.byte	0x4
 	.uleb128 0x5
 	.string	"basicTest"
 	.byte	0xa
-	.byte	0x25
+	.byte	0x26
 	.uaword	0x44d
 	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"InfineonRacer_t"
 	.byte	0xa
-	.byte	0x26
-	.uaword	0x5fb
+	.byte	0x27
+	.uaword	0x614
 	.uleb128 0xd
 	.byte	0x1
 	.string	"IR_Controller_step"
@@ -714,7 +726,7 @@ IR_Controller_DWork:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x718
+	.uaword	0x731
 	.uleb128 0xe
 	.string	"rtb_LaneOffset"
 	.byte	0x1
@@ -747,13 +759,13 @@ IR_Controller_DWork:
 	.uaword	.LLST4
 	.uleb128 0xf
 	.uaword	.LVL17
-	.uaword	0x875
+	.uaword	0x88e
 	.uleb128 0xf
 	.uaword	.LVL28
-	.uaword	0x895
+	.uaword	0x8ae
 	.uleb128 0xf
 	.uaword	.LVL30
-	.uaword	0x8b4
+	.uaword	0x8cd
 	.byte	0
 	.uleb128 0x10
 	.byte	0x1
@@ -766,11 +778,11 @@ IR_Controller_DWork:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x756
+	.uaword	0x76f
 	.uleb128 0x11
 	.uaword	.LVL38
 	.byte	0x1
-	.uaword	0x8cf
+	.uaword	0x8e8
 	.uleb128 0x12
 	.byte	0x1
 	.byte	0x54
@@ -809,19 +821,19 @@ IR_Controller_DWork:
 	.string	"IR_Controller_M"
 	.byte	0x1
 	.byte	0x1c
-	.uaword	0x7d7
+	.uaword	0x7f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IR_Controller_M
 	.uleb128 0x9
-	.uaword	0x7dc
+	.uaword	0x7f5
 	.uleb128 0x8
 	.byte	0x4
 	.uaword	0x300
 	.uleb128 0x16
 	.uaword	0x4b4
-	.uaword	0x7f2
+	.uaword	0x80b
 	.uleb128 0x17
 	.uaword	0x4ce
 	.byte	0x2
@@ -830,11 +842,11 @@ IR_Controller_DWork:
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x7
 	.byte	0x96
-	.uaword	0x80f
+	.uaword	0x828
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x9
-	.uaword	0x7e2
+	.uaword	0x7fb
 	.uleb128 0x14
 	.string	"Assert_verboseLevel"
 	.byte	0xb
@@ -845,15 +857,15 @@ IR_Controller_DWork:
 	.uleb128 0x14
 	.string	"IR_Encoder"
 	.byte	0x9
-	.byte	0x2c
-	.uaword	0x5e7
+	.byte	0x2d
+	.uaword	0x600
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x14
 	.string	"IR_Ctrl"
 	.byte	0xa
-	.byte	0x38
-	.uaword	0x63a
+	.byte	0x3a
+	.uaword	0x653
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
@@ -872,7 +884,7 @@ IR_Controller_DWork:
 	.byte	0x74
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x895
+	.uaword	0x8ae
 	.uleb128 0x19
 	.uaword	0x43e
 	.byte	0
@@ -883,7 +895,7 @@ IR_Controller_DWork:
 	.byte	0x76
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x8b4
+	.uaword	0x8cd
 	.uleb128 0x19
 	.uaword	0x43e
 	.byte	0
@@ -894,7 +906,7 @@ IR_Controller_DWork:
 	.byte	0x54
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x8cf
+	.uaword	0x8e8
 	.uleb128 0x19
 	.uaword	0x44d
 	.byte	0
@@ -1472,5 +1484,5 @@ IR_Controller_DWork:
 	.extern	IR_Ctrl,STT_OBJECT,12
 	.extern	IR_setMotor0Vol,STT_FUNC,0
 	.extern	IR_Controller_P,STT_OBJECT,64
-	.extern	IR_Encoder,STT_OBJECT,16
+	.extern	IR_Encoder,STT_OBJECT,24
 	.ident	"GCC: (HighTec Release HDP-v4.9.1.0-infineon-2.0-df254e8) 4.9.4 build on 2018-04-18"

@@ -35,7 +35,8 @@ typedef struct{
         float32          rawPosition;  /* pulse position */
         IfxStdIf_Pos_Dir direction;  /* IfxStdIf_Pos_Dir_forward or IfxStdIf_Pos_Dir_backward */
         sint32			 turn;
-
+        float32          buff;
+        float32          avg;
 }IR_Encoder_t;
 
 /******************************************************************************/
@@ -49,6 +50,8 @@ IFX_EXTERN IR_Encoder_t IR_Encoder;
 IFX_EXTERN void BasicGpt12Enc_init(void);
 IFX_EXTERN void BasicGpt12Enc_run(void);
 IFX_EXTERN void BasicGpt12Enc_IR_Encoder_reset(void);
+IFX_EXTERN void Speed_Avg(void);
+
 void SpeedCalculation(void);
 
 

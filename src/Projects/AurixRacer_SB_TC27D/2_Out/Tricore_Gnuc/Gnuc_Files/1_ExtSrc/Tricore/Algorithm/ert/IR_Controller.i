@@ -31809,7 +31809,8 @@ typedef struct{
         float32 rawPosition;
         IfxStdIf_Pos_Dir direction;
         sint32 turn;
-
+        float32 buff;
+        float32 avg;
 }IR_Encoder_t;
 
 
@@ -31823,11 +31824,13 @@ extern IR_Encoder_t IR_Encoder;
 extern void BasicGpt12Enc_init(void);
 extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
+extern void Speed_Avg(void);
+
 void SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 26 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_private.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 1
-# 34 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
@@ -31845,6 +31848,7 @@ typedef struct{
     uint16 LineAmount;
     uint16 head;
     uint16 tail;
+    uint16 center;
 }LineData;
 
 
@@ -31852,11 +31856,13 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 66 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 68 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
 
+extern void Line_avgerage(void);
+extern void Line_Buffer(void);
 extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);

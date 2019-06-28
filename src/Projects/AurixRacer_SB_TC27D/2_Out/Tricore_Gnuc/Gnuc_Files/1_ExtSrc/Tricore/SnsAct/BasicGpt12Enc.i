@@ -25651,7 +25651,8 @@ typedef struct{
         float32 rawPosition;
         IfxStdIf_Pos_Dir direction;
         sint32 turn;
-
+        float32 buff;
+        float32 avg;
 }IR_Encoder_t;
 
 
@@ -25665,6 +25666,8 @@ extern IR_Encoder_t IR_Encoder;
 extern void BasicGpt12Enc_init(void);
 extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
+extern void Speed_Avg(void);
+
 void SpeedCalculation(void);
 # 13 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.c" 2
 
@@ -25751,6 +25754,11 @@ void BasicGpt12Enc_IR_Encoder_reset(void){
  IfxGpt12_IncrEnc_resetTurn(&g_Gpt12Enc.incrEnc);
 }
 
+void Speed_Avg(void){
+    IR_Encoder.speed = IR_Encoder.buff / 10;
+}
+
+
 void BasicGpt12Enc_run(void){
  IfxGpt12_IncrEnc_update(&g_Gpt12Enc.incrEnc);
 
@@ -25760,8 +25768,10 @@ void BasicGpt12Enc_run(void){
  IR_Encoder.turn = IfxGpt12_IncrEnc_getTurn(&g_Gpt12Enc.incrEnc);
 
  SpeedCalculation();
+
+    IR_Encoder.buff += IR_Encoder.speed;
 }
 
 void SpeedCalculation(void){
-    IR_Encoder.speed = IR_Encoder.speed * 22 * 3.6 / 3.141592;
+    IR_Encoder.speed = IR_Encoder.speed * 0.22 * 100 / 2 / 3.141592;
 }

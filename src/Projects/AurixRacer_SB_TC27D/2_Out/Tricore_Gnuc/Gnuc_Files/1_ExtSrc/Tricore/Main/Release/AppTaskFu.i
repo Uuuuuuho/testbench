@@ -31656,7 +31656,8 @@ typedef struct{
         float32 rawPosition;
         IfxStdIf_Pos_Dir direction;
         sint32 turn;
-
+        float32 buff;
+        float32 avg;
 }IR_Encoder_t;
 
 
@@ -31670,6 +31671,8 @@ extern IR_Encoder_t IR_Encoder;
 extern void BasicGpt12Enc_init(void);
 extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
+extern void Speed_Avg(void);
+
 void SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 7 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
@@ -35408,7 +35411,7 @@ extern void AsclinShellInterface_run(void);
 extern void AsclinShellInterface_runLineScan(void);
 # 8 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 1
-# 34 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
@@ -35426,6 +35429,7 @@ typedef struct{
     uint16 LineAmount;
     uint16 head;
     uint16 tail;
+    uint16 center;
 }LineData;
 
 
@@ -35433,11 +35437,13 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 66 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 68 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
 
+extern void Line_avgerage(void);
+extern void Line_Buffer(void);
 extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);
@@ -35610,6 +35616,11 @@ void appTaskfu_100ms(void);
 void appTaskfu_1000ms(void);
 void appTaskfu_idle(void);
 void appIsrCb_1ms(void);
+
+typedef struct{
+    boolean AEB_flag;
+    boolean Avoid_flag;
+}Global_flag;
 # 2 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c" 2
 
 static sint32 task_cnt_1m = 0;
@@ -35623,7 +35634,8 @@ boolean task_flag_100m = 0;
 boolean task_flag_1000m = 0;
 
 
-float32 testVol = -1;
+float32 testVol = 0;
+float32 testSrv = -0.5;
 
 
 
@@ -35635,7 +35647,8 @@ void appTaskfu_init(void){
     BasicVadcBgScan_init();
     BasicGpt12Enc_init();
     AsclinShellInterface_init();
-# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+    IR_Encoder.buff = 0;
+# 37 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
     InfineonRacer_init();
 
 
@@ -35665,6 +35678,12 @@ void appTaskfu_1ms(void)
 void appTaskfu_10ms(void)
 {
  task_cnt_10m++;
+
+    Speed_Avg();
+    IR_Encoder.buff = 0;
+
+ IR_setMotor0Vol(testVol);
+ IR_setSrvAngle(testSrv);
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
 
@@ -35672,9 +35691,8 @@ void appTaskfu_10ms(void)
 
  if(task_cnt_10m%2 == 0){
   BasicLineScan_run();
-  median_filter();
-  convolutionOP();
-  getLineData();
+        median_filter();
+        Line_Buffer();
 
   BasicPort_run();
   BasicGtmTom_run();
@@ -35697,21 +35715,39 @@ void appTaskfu_10ms(void)
 void appTaskfu_100ms(void)
 {
  task_cnt_100m++;
-    testVol += 0.1;
-    IR_setMotor0Vol(testVol);
 
-    if(testVol == 1.0)
-        testVol = -1.0;
+    Line_avgerage();
+    convolutionOP();
+ getLineData();
 
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 116 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 122 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
+
+    printf("%f\n", IR_Encoder.speed);
+
+ if(testVol > 1.0)
+  testVol = 0;
+
+ testSrv += 0.1;
+ if(testSrv > 0.5)
+  testSrv = -0.5;
+
+
+
+
+
+
+    if(task_cnt_1000m % 5 == 0){
+        testVol += 0.1;
+    }
+
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
  }
@@ -35733,4 +35769,5 @@ void appTaskfu_idle(void){
 
 void appIsrCb_1ms(void){
  BasicGpt12Enc_run();
+    Speed_Avg();
 }

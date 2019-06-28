@@ -16893,7 +16893,7 @@ extern IfxGtm_Tom_ToutMap IfxGtm_TOM2_9_TOUT52_P21_1_OUT;
 extern IfxGtm_Tom_ToutMap IfxGtm_TOM2_9_TOUT69_P20_13_OUT;
 # 19 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Cfg_Illd/Configuration.h" 2
 # 11 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 2
-# 34 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
@@ -16911,6 +16911,7 @@ typedef struct{
     uint16 LineAmount;
     uint16 head;
     uint16 tail;
+    uint16 center;
 }LineData;
 
 
@@ -16918,11 +16919,13 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 66 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 68 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
 
+extern void Line_avgerage(void);
+extern void Line_Buffer(void);
 extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);
@@ -31691,7 +31694,8 @@ typedef struct{
         float32 rawPosition;
         IfxStdIf_Pos_Dir direction;
         sint32 turn;
-
+        float32 buff;
+        float32 avg;
 }IR_Encoder_t;
 
 
@@ -31705,6 +31709,8 @@ extern IR_Encoder_t IR_Encoder;
 extern void BasicGpt12Enc_init(void);
 extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
+extern void Speed_Avg(void);
+
 void SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 6 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c" 2
@@ -31712,10 +31718,12 @@ void SpeedCalculation(void);
 InfineonRacer_t IR_Ctrl
   ={64, 64, 0 };
 LineData IR_LineData
-  ={0,{-1,0,1},0,0,0,0,0};
+  ={0,0,0,0,0,0,0};
 # 38 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
 void InfineonRacer_init(void){
- ;
+    IR_LineData.Transfer[0] = -1;
+    IR_LineData.Transfer[1] = 0;
+    IR_LineData.Transfer[2] = 1;
 }
 
 void InfineonRacer_detectLane(){
@@ -31731,6 +31739,17 @@ void InfineonRacer_control(void){
  ;
 }
 
+void Line_Buffer(void){
+    for(uint32 index = 5; index < 128 - 5; index++){
+        IR_LineScan.adcResult[0][index] += IR_LineScan.adcResult[0][index];
+    }
+}
+
+void Line_avgerage(void){
+    for(uint32 index = 5; index < 128 - 5; index++){
+        IR_LineScan.adcResult[0][index] = IR_LineScan.adcResult[0][index] / 10;
+    }
+}
 
 void convolutionOP(void){
     uint32 n;
@@ -31772,25 +31791,30 @@ void median_filter(void) {
 }
 
 void getLineData (void){
-  uint32 index = 0;
-   uint16 pixelCounter = 0;
+    uint32 index = 0;
+ uint16 pixelCounter = 0;
 
 
 
-   index = 0;
+ index = 0;
 
-   for(index = 5; index < 128 - 5; index++){
-           if(IR_LineData.Result[index] == 0){
-               if(pixelCounter == 0){
-                   IR_LineData.head = index;
-                   pixelCounter++;
-               }
-               else if(pixelCounter == 1){
-                   pixelCounter++;
-               }
-               else{
-                   IR_LineData.tail = index;
-               }
-           }
-   }
+ for(index = 5; index < 128 - 5; index++){
+        if(IR_LineData.Result[index] < 0){
+            if(pixelCounter == 0){
+                IR_LineData.head = index;
+                pixelCounter++;
+            }
+
+            else if(pixelCounter == 2){
+                IR_LineData.tail = index;
+            }
+        }
+        if(IR_LineData.Result[index] > 0){
+            if(pixelCounter == 1){
+                pixelCounter++;
+            }
+        }
+    }
+
+    IR_LineData.center = (IR_LineData.head + IR_LineData.tail) / 2;
 }

@@ -23,7 +23,7 @@
 InfineonRacer_t IR_Ctrl  /**< \brief  global data */
 		={64, 64, FALSE  };
 LineData IR_LineData
-		={0,{-1,0,1},0,0,0,0,0};
+		={0,0,0,0,0,0,0};
 /******************************************************************************/
 /*-------------------------Function Prototypes--------------------------------*/
 /******************************************************************************/
@@ -36,7 +36,9 @@ LineData IR_LineData
 /*-------------------------Function Implementations---------------------------*/
 /******************************************************************************/
 void InfineonRacer_init(void){
-	;
+    IR_LineData.Transfer[0] = -1;
+    IR_LineData.Transfer[1] = 0;
+    IR_LineData.Transfer[2] = 1;
 }
 
 void InfineonRacer_detectLane(){
@@ -52,6 +54,17 @@ void InfineonRacer_control(void){
 	;
 }
 
+void Line_Buffer(void){
+    for(uint32 index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+        IR_LineScan.adcResult[0][index] += IR_LineScan.adcResult[0][index];
+    }
+}
+
+void Line_avgerage(void){
+    for(uint32 index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+        IR_LineScan.adcResult[0][index] = IR_LineScan.adcResult[0][index] / 10;
+    }
+}
 
 void convolutionOP(void){
     uint32 n;
@@ -101,19 +114,24 @@ void getLineData (void){
 	index = 0;
 
 	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-        if(IR_LineData.Result[index] == 0){
+        if(IR_LineData.Result[index] < 0){
             if(pixelCounter == 0){
                 IR_LineData.head = index;
                 pixelCounter++;
             }
-            else if(pixelCounter == 1){
-                pixelCounter++;
-            }
-            else{
+            
+            else if(pixelCounter == 2){
                 IR_LineData.tail = index;
             }
         }
+        if(IR_LineData.Result[index] > 0){
+            if(pixelCounter == 1){
+                pixelCounter++;
+            }
+        }
     }
+
+    IR_LineData.center = (IR_LineData.head + IR_LineData.tail) / 2;
 }
 
 

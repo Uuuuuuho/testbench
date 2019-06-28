@@ -49,6 +49,7 @@ typedef struct{
     uint16 LineAmount;
     uint16 head;
     uint16 tail;
+    uint16 center;
 }LineData;
 
 /******************************************************************************/
@@ -68,6 +69,8 @@ IFX_EXTERN void InfineonRacer_init(void);
 IFX_EXTERN void InfineonRacer_detectLane();
 IFX_EXTERN void InfineonRacer_control(void);
 
+IFX_EXTERN void Line_avgerage(void);
+IFX_EXTERN void Line_Buffer(void);
 IFX_EXTERN void median_filter(void);
 IFX_EXTERN void convolutionOP(void);
 IFX_EXTERN void getLineData (void);
