@@ -115,7 +115,7 @@ void BasicGpt12Enc_init(void)
 #else
     {
         /* Test implementation with T2 as core */
-        config.base.offset                    = 100;
+        config.base.offset                    = 10;
         config.base.reversed                  = FALSE;
         config.base.resolution                = 1024;// 2048;
         config.base.periodPerRotation         = 1;
@@ -164,13 +164,13 @@ void BasicGpt12Enc_run(void){
 	IR_Encoder.direction   = IfxGpt12_IncrEnc_getDirection(&g_Gpt12Enc.incrEnc);
 	IR_Encoder.turn   	   = IfxGpt12_IncrEnc_getTurn(&g_Gpt12Enc.incrEnc);
 	//g_Gpt12Enc.incrEnc.turn = 0;
-	SpeedCalculation();
+//	SpeedCalculation();
     
-    IR_Encoder.buff += IR_Encoder.speed;
+//    IR_Encoder.buff += IR_Encoder.speed;
 }
 
 void SpeedCalculation(void){
-    IR_Encoder.speed = IR_Encoder.speed * 0.22 * 100 / 2 / PI;
+    IR_Encoder.speed = IR_Encoder.speed * 0.22 * 100 * 15 / 72 / 2 / PI;
 }
 
 /******************************************************************************/

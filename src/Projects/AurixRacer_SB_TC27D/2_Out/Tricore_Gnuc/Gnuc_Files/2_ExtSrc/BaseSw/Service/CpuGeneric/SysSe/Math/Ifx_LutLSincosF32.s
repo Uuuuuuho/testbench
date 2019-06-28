@@ -280,7 +280,7 @@ Ifx_g_LutLSincosF32_table:
 	.file 3 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutLSincosF32.c"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x3a8
+	.uaword	0x3aa
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -288,7 +288,7 @@ Ifx_g_LutLSincosF32_table:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutLSincosF32.c"
-	.string	"C:\\\\Users\\\\kim\\\\eclipse-workspace\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.byte	0x4
@@ -306,7 +306,7 @@ Ifx_g_LutLSincosF32_table:
 	.string	"sint8"
 	.byte	0x1
 	.byte	0x58
-	.uaword	0x1e5
+	.uaword	0x1e7
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
@@ -323,7 +323,7 @@ Ifx_g_LutLSincosF32_table:
 	.string	"uint16"
 	.byte	0x1
 	.byte	0x5b
-	.uaword	0x220
+	.uaword	0x222
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -332,7 +332,7 @@ Ifx_g_LutLSincosF32_table:
 	.string	"float32"
 	.byte	0x1
 	.byte	0x5e
-	.uaword	0x245
+	.uaword	0x247
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -357,64 +357,64 @@ Ifx_g_LutLSincosF32_table:
 	.byte	0x8
 	.byte	0x2
 	.byte	0x25
-	.uaword	0x2b0
+	.uaword	0x2b2
 	.uleb128 0x5
 	.string	"gain"
 	.byte	0x2
 	.byte	0x27
-	.uaword	0x236
+	.uaword	0x238
 	.byte	0
 	.uleb128 0x5
 	.string	"offset"
 	.byte	0x2
 	.byte	0x28
-	.uaword	0x236
+	.uaword	0x238
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_LutIndexedLinearF32_Item"
 	.byte	0x2
 	.byte	0x29
-	.uaword	0x28b
+	.uaword	0x28d
 	.uleb128 0x4
 	.byte	0x8
 	.byte	0x2
 	.byte	0x2b
-	.uaword	0x311
+	.uaword	0x313
 	.uleb128 0x5
 	.string	"segmentCount"
 	.byte	0x2
 	.byte	0x2d
-	.uaword	0x212
+	.uaword	0x214
 	.byte	0
 	.uleb128 0x5
 	.string	"shift"
 	.byte	0x2
 	.byte	0x2e
-	.uaword	0x1d8
+	.uaword	0x1da
 	.byte	0x2
 	.uleb128 0x5
 	.string	"segments"
 	.byte	0x2
 	.byte	0x2f
-	.uaword	0x311
+	.uaword	0x313
 	.byte	0x4
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x317
+	.uaword	0x319
 	.uleb128 0x7
-	.uaword	0x2b0
+	.uaword	0x2b2
 	.uleb128 0x3
 	.string	"Ifx_LutIndexedLinearF32"
 	.byte	0x2
 	.byte	0x30
-	.uaword	0x2d4
+	.uaword	0x2d6
 	.uleb128 0x8
-	.uaword	0x2b0
-	.uaword	0x34b
+	.uaword	0x2b2
+	.uaword	0x34d
 	.uleb128 0x9
-	.uaword	0x34b
+	.uaword	0x34d
 	.byte	0x7f
 	.byte	0
 	.uleb128 0x2
@@ -425,24 +425,24 @@ Ifx_g_LutLSincosF32_table:
 	.string	"Ifx_g_LutLSincosF32_table"
 	.byte	0x3
 	.byte	0x2d
-	.uaword	0x37f
+	.uaword	0x381
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	Ifx_g_LutLSincosF32_table
 	.uleb128 0x7
-	.uaword	0x33b
+	.uaword	0x33d
 	.uleb128 0xa
 	.string	"Ifx_g_LutLSincosF32"
 	.byte	0x3
 	.byte	0xb0
-	.uaword	0x3a6
+	.uaword	0x3a8
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	Ifx_g_LutLSincosF32
 	.uleb128 0x7
-	.uaword	0x31c
+	.uaword	0x31e
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

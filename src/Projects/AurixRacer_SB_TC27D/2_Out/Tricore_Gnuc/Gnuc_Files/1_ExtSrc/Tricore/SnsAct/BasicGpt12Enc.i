@@ -25718,7 +25718,7 @@ void BasicGpt12Enc_init(void)
 # 116 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.c"
     {
 
-        config.base.offset = 100;
+        config.base.offset = 10;
         config.base.reversed = 0;
         config.base.resolution = 1024;
         config.base.periodPerRotation = 1;
@@ -25767,11 +25767,11 @@ void BasicGpt12Enc_run(void){
  IR_Encoder.direction = IfxGpt12_IncrEnc_getDirection(&g_Gpt12Enc.incrEnc);
  IR_Encoder.turn = IfxGpt12_IncrEnc_getTurn(&g_Gpt12Enc.incrEnc);
 
- SpeedCalculation();
 
-    IR_Encoder.buff += IR_Encoder.speed;
+
+
 }
 
 void SpeedCalculation(void){
-    IR_Encoder.speed = IR_Encoder.speed * 0.22 * 100 / 2 / 3.141592;
+    IR_Encoder.speed = IR_Encoder.speed * 0.22 * 100 * 15 / 72 / 2 / 3.141592;
 }

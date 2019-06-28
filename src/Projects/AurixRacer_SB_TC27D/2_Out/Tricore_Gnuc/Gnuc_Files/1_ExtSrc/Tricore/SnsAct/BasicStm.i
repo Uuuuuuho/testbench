@@ -35636,6 +35636,10 @@ typedef struct{
     boolean AEB_flag;
     boolean Avoid_flag;
 }Global_flag;
+
+
+
+void PID(void);
 # 17 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicStm.c" 2
 # 29 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicStm.c"
 typedef struct

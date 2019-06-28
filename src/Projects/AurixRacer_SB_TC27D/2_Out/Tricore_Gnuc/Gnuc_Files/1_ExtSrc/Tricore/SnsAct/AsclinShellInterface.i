@@ -35646,6 +35646,10 @@ typedef struct{
     boolean AEB_flag;
     boolean Avoid_flag;
 }Global_flag;
+
+
+
+void PID(void);
 # 18 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.c" 2
 # 36 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.c"
 typedef struct{

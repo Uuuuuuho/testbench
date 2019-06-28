@@ -10,6 +10,8 @@ boolean task_flag_10m = FALSE;
 boolean task_flag_100m = FALSE;
 boolean task_flag_1000m = FALSE;
 
+float32 testVol = -0.5;
+
 void appTaskfu_init(void){
 	BasicPort_init();
 	BasicGtmTom_init();
@@ -50,6 +52,11 @@ void appTaskfu_100ms(void)
 void appTaskfu_1000ms(void)
 {
 	task_cnt_1000m++;
+	testVol += 0.1;
+	IR_setMotor0Vol(testVol);
+	if(testVol > 0.5)
+		testVol = -0.5;
+
 	if(task_cnt_1000m == 1000){
 		task_cnt_1000m = 0;
 	}

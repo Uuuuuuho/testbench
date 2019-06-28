@@ -35621,6 +35621,10 @@ typedef struct{
     boolean AEB_flag;
     boolean Avoid_flag;
 }Global_flag;
+
+
+
+void PID(void);
 # 2 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c" 2
 
 static sint32 task_cnt_1m = 0;
@@ -35633,10 +35637,12 @@ boolean task_flag_10m = 0;
 boolean task_flag_100m = 0;
 boolean task_flag_1000m = 0;
 
+boolean Turn_Left_flag = 0;
+boolean Turn_Right_flag = 0;
 
-float32 testVol = 0;
-float32 testSrv = -0.5;
-
+float32 testVol = -0.5;
+float32 testSrv = 0;
+float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0;
 
 
 
@@ -35648,7 +35654,7 @@ void appTaskfu_init(void){
     BasicGpt12Enc_init();
     AsclinShellInterface_init();
     IR_Encoder.buff = 0;
-# 37 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 39 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
     InfineonRacer_init();
 
 
@@ -35679,14 +35685,13 @@ void appTaskfu_10ms(void)
 {
  task_cnt_10m++;
 
-    Speed_Avg();
+
     IR_Encoder.buff = 0;
 
  IR_setMotor0Vol(testVol);
- IR_setSrvAngle(testSrv);
+# 82 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
-
  }
 
  if(task_cnt_10m%2 == 0){
@@ -35694,8 +35699,8 @@ void appTaskfu_10ms(void)
         median_filter();
         Line_Buffer();
 
+        BasicGtmTom_run();
   BasicPort_run();
-  BasicGtmTom_run();
   BasicVadcBgScan_run();
 
   if(IR_Ctrl.basicTest == 0){
@@ -35707,7 +35712,7 @@ void appTaskfu_10ms(void)
 
 
   }
-
+  AsclinShellInterface_runEncScan();
  }
 
 }
@@ -35716,43 +35721,47 @@ void appTaskfu_100ms(void)
 {
  task_cnt_100m++;
 
+
     Line_avgerage();
     convolutionOP();
  getLineData();
 
+    printf("%f\n", IR_Encoder.speed);
+
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 122 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 134 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
 
-    printf("%f\n", IR_Encoder.speed);
 
- if(testVol > 1.0)
-  testVol = 0;
+    if(task_cnt_1000m % 2 == 0){
+        testSrv = -0.3;
+    }
 
- testSrv += 0.1;
- if(testSrv > 0.5)
-  testSrv = -0.5;
-
-
-
-
+    if(task_cnt_1000m % 2 == 1){
+        testSrv =-1;
+    }
 
 
     if(task_cnt_1000m % 5 == 0){
         testVol += 0.1;
     }
 
+ if(testVol > 0.5)
+  testVol = -1;
+# 164 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
+
  }
 
 
+ IR_setSrvAngle(testSrv);
 
 }
 
@@ -35768,6 +35777,12 @@ void appTaskfu_idle(void){
 }
 
 void appIsrCb_1ms(void){
- BasicGpt12Enc_run();
-    Speed_Avg();
+
+
+}
+
+void PID(void){
+    Current_Speed = IR_Encoder.speed;
+    error = Target_speeed - Current_Speed;
+    Current_Speed = Current_Speed + Kp * error;
 }

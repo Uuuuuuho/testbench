@@ -61,55 +61,55 @@ BasicGpt12Enc_init:
 	.loc 1 83 0
 	sub.a	%SP, 64
 .LCFI0:
-.LBB8:
-.LBB9:
+.LBB6:
+.LBB7:
 	.file 2 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Gpt12/Std/IfxGpt12.h"
 	.loc 2 1608 0
 	lea	%a15, -268423680
-.LBE9:
-.LBE8:
+.LBE7:
+.LBE6:
 	.loc 1 87 0
 	lea	%a4, -268423680
 	call	IfxGpt12_enableModule
 .LVL1:
+.LBB11:
+.LBB8:
+	.loc 2 1608 0
+	ld.w	%d15, [%a15] 20
+.LBE8:
+.LBE11:
+	.loc 1 92 0
+	mov.aa	%a4, %SP
+.LBB12:
+.LBB9:
+	.loc 2 1608 0
+	insert	%d15, %d15, 0, 11, 2
+.LBE9:
+.LBE12:
+	.loc 1 92 0
+	mov.aa	%a5, %a15
 .LBB13:
 .LBB10:
 	.loc 2 1608 0
-	ld.w	%d15, [%a15] 20
-.LBE10:
-.LBE13:
-	.loc 1 92 0
-	mov.aa	%a4, %SP
-.LBB14:
-.LBB11:
-	.loc 2 1608 0
-	insert	%d15, %d15, 0, 11, 2
-.LBE11:
-.LBE14:
-	.loc 1 92 0
-	mov.aa	%a5, %a15
-.LBB15:
-.LBB12:
-	.loc 2 1608 0
 	st.w	[%a15] 20, %d15
 .LVL2:
-.LBE12:
-.LBE15:
-.LBB16:
-.LBB17:
+.LBE10:
+.LBE13:
+.LBB14:
+.LBB15:
 	.loc 2 1614 0
 	ld.w	%d15, [%a15] 32
 	insert	%d15, %d15, 0, 11, 2
 	st.w	[%a15] 32, %d15
-.LBE17:
-.LBE16:
+.LBE15:
+.LBE14:
 	.loc 1 92 0
 	call	IfxGpt12_IncrEnc_initConfig
 .LVL3:
 	.loc 1 122 0
 	mov	%d3, 4
 	.loc 1 118 0
-	mov	%d15, 100
+	mov	%d15, 10
 	.loc 1 120 0
 	mov	%d2, 1024
 	.loc 1 122 0
@@ -253,10 +253,6 @@ Speed_Avg:
 	ret
 .LFE424:
 	.size	Speed_Avg, .-Speed_Avg
-	.global	__extendsfdf2
-	.global	__muldf3
-	.global	__divdf3
-	.global	__truncdfsf2
 .section .text.BasicGpt12Enc_run,"ax",@progbits
 	.align 1
 	.global	BasicGpt12Enc_run
@@ -274,17 +270,16 @@ BasicGpt12Enc_run:
 	mov.aa	%a4, %a15
 	call	IfxGpt12_IncrEnc_getSpeed
 .LVL10:
-	movh.a	%a13, hi:IR_Encoder
+	movh.a	%a2, hi:IR_Encoder
 	.loc 1 163 0
 	mov.aa	%a4, %a15
 	.loc 1 162 0
-	st.w	[%a13] lo:IR_Encoder, %d2
+	lea	%a12, [%a2] lo:IR_Encoder
+	st.w	[%a2] lo:IR_Encoder, %d2
 	.loc 1 163 0
 	call	IfxGpt12_IncrEnc_getRawPosition
 .LVL11:
 	itof	%d2, %d2
-	.loc 1 162 0
-	lea	%a12, [%a13] lo:IR_Encoder
 	.loc 1 164 0
 	mov.aa	%a4, %a15
 	.loc 1 163 0
@@ -299,17 +294,24 @@ BasicGpt12Enc_run:
 	.loc 1 165 0
 	call	IfxGpt12_IncrEnc_getTurn
 .LVL13:
-.LBB18:
-.LBB19:
-	.loc 1 173 0
-	ld.w	%d4, [%a13] lo:IR_Encoder
-.LBE19:
-.LBE18:
-	.loc 1 165 0
 	st.w	[%a12] 12, %d2
-.LBB22:
-.LBB20:
+	ret
+.LFE425:
+	.size	BasicGpt12Enc_run, .-BasicGpt12Enc_run
+	.global	__extendsfdf2
+	.global	__muldf3
+	.global	__divdf3
+	.global	__truncdfsf2
+.section .text.SpeedCalculation,"ax",@progbits
+	.align 1
+	.global	SpeedCalculation
+	.type	SpeedCalculation, @function
+SpeedCalculation:
+.LFB426:
+	.loc 1 172 0
 	.loc 1 173 0
+	movh.a	%a15, hi:IR_Encoder
+	ld.w	%d4, [%a15] lo:IR_Encoder
 	call	__extendsfdf2
 .LVL14:
 	mov	%e4, %d3, %d2
@@ -324,74 +326,30 @@ BasicGpt12Enc_run:
 	movh	%d7, 16473
 	call	__muldf3
 .LVL16:
-	imask	%e6, 0, 21, 9
 	mov	%e4, %d3, %d2
+	mov	%d6, 0
+	movh	%d7, 16430
 	call	__muldf3
 .LVL17:
 	mov	%e4, %d3, %d2
-	movh	%d7, 16393
-	movh	%d6, 64651
-	addi	%d7, %d7, 8698
-	addi	%d6, %d6, 122
+	mov	%d6, 0
+	movh	%d7, 16466
 	call	__divdf3
 .LVL18:
-	mov	%e4, %d3, %d2
-	call	__truncdfsf2
-.LVL19:
-.LBE20:
-.LBE22:
-	.loc 1 169 0
-	ld.w	%d15, [%a12] 16
-.LBB23:
-.LBB21:
-	.loc 1 173 0
-	st.w	[%a13] lo:IR_Encoder, %d2
-.LBE21:
-.LBE23:
-	.loc 1 169 0
-	add.f	%d2, %d15, %d2
-	st.w	[%a12] 16, %d2
-	ret
-.LFE425:
-	.size	BasicGpt12Enc_run, .-BasicGpt12Enc_run
-.section .text.SpeedCalculation,"ax",@progbits
-	.align 1
-	.global	SpeedCalculation
-	.type	SpeedCalculation, @function
-SpeedCalculation:
-.LFB426:
-	.loc 1 172 0
-	.loc 1 173 0
-	movh.a	%a15, hi:IR_Encoder
-	ld.w	%d4, [%a15] lo:IR_Encoder
-	call	__extendsfdf2
-.LVL20:
-	mov	%e4, %d3, %d2
-	movh	%d7, 16332
-	movh	%d6, 49807
-	addi	%d7, %d7, 10485
-	addi	%d6, %d6, 23593
-	call	__muldf3
-.LVL21:
-	mov	%e4, %d3, %d2
-	mov	%d6, 0
-	movh	%d7, 16473
-	call	__muldf3
-.LVL22:
 	imask	%e6, 0, 21, 9
 	mov	%e4, %d3, %d2
 	call	__muldf3
-.LVL23:
+.LVL19:
 	mov	%e4, %d3, %d2
 	movh	%d7, 16393
 	movh	%d6, 64651
 	addi	%d7, %d7, 8698
 	addi	%d6, %d6, 122
 	call	__divdf3
-.LVL24:
+.LVL20:
 	mov	%e4, %d3, %d2
 	call	__truncdfsf2
-.LVL25:
+.LVL21:
 	st.w	[%a15] lo:IR_Encoder, %d2
 	ret
 .LFE426:
@@ -516,7 +474,7 @@ g_Gpt12Enc:
 	.file 16 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Assert.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x4c85
+	.uaword	0x4c70
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -525,7 +483,7 @@ g_Gpt12Enc:
 	.byte	0x1
 	.string	"../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.c"
 	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
-	.uaword	.Ldebug_ranges0+0x48
+	.uaword	.Ldebug_ranges0+0x28
 	.uaword	0
 	.uaword	0
 	.uaword	.Ldebug_line0
@@ -7809,13 +7767,6 @@ g_Gpt12Enc:
 	.byte	0
 	.uleb128 0x23
 	.byte	0x1
-	.string	"SpeedCalculation"
-	.byte	0x1
-	.byte	0xac
-	.byte	0x1
-	.byte	0x1
-	.uleb128 0x24
-	.byte	0x1
 	.string	"ISR_IncrIncZero"
 	.byte	0x1
 	.byte	0x40
@@ -7825,11 +7776,11 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x46a2
-	.uleb128 0x25
+	.uaword	0x468b
+	.uleb128 0x24
 	.uaword	.LVL0
-	.uaword	0x4a2f
-	.uleb128 0x26
+	.uaword	0x4a1a
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
@@ -7837,7 +7788,7 @@ g_Gpt12Enc:
 	.uaword	g_Gpt12Enc
 	.byte	0
 	.byte	0
-	.uleb128 0x24
+	.uleb128 0x23
 	.byte	0x1
 	.string	"BasicGpt12Enc_init"
 	.byte	0x1
@@ -7848,8 +7799,8 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x47b4
-	.uleb128 0x27
+	.uaword	0x479d
+	.uleb128 0x26
 	.string	"config"
 	.byte	0x1
 	.byte	0x5b
@@ -7857,115 +7808,115 @@ g_Gpt12Enc:
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -64
-	.uleb128 0x28
+	.uleb128 0x27
 	.string	"__func__"
-	.uaword	0x47c4
+	.uaword	0x47ad
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	__func__.19370
-	.uleb128 0x29
+	.uleb128 0x28
 	.uaword	0x45c9
-	.uaword	.LBB8
+	.uaword	.LBB6
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x58
-	.uaword	0x4713
-	.uleb128 0x2a
+	.uaword	0x46fc
+	.uleb128 0x29
 	.uaword	0x4600
 	.byte	0
-	.uleb128 0x2b
+	.uleb128 0x2a
 	.uaword	0x45f2
 	.sleb128 -268423680
 	.byte	0
-	.uleb128 0x2c
+	.uleb128 0x2b
 	.uaword	0x460e
-	.uaword	.LBB16
-	.uaword	.LBE16
+	.uaword	.LBB14
+	.uaword	.LBE14
 	.byte	0x1
 	.byte	0x59
-	.uaword	0x4737
-	.uleb128 0x2a
+	.uaword	0x4720
+	.uleb128 0x29
 	.uaword	0x4645
 	.byte	0
-	.uleb128 0x2b
+	.uleb128 0x2a
 	.uaword	0x4637
 	.sleb128 -268423680
 	.byte	0
-	.uleb128 0x2d
+	.uleb128 0x2c
 	.uaword	.LVL1
-	.uaword	0x4a61
-	.uaword	0x474b
-	.uleb128 0x26
+	.uaword	0x4a4c
+	.uaword	0x4734
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x8f
 	.sleb128 0
 	.byte	0
-	.uleb128 0x2d
+	.uleb128 0x2c
 	.uaword	.LVL3
-	.uaword	0x4a88
-	.uaword	0x4765
-	.uleb128 0x26
+	.uaword	0x4a73
+	.uaword	0x474e
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8f
 	.sleb128 0
-	.uleb128 0x26
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
 	.byte	0x8a
 	.sleb128 0
 	.byte	0
-	.uleb128 0x2d
+	.uleb128 0x2c
 	.uaword	.LVL4
-	.uaword	0x4ac0
-	.uaword	0x4782
-	.uleb128 0x26
+	.uaword	0x4aab
+	.uaword	0x476b
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x65
 	.byte	0x2
 	.byte	0x8a
 	.sleb128 0
-	.uleb128 0x26
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
 	.byte	0x3
 	.uaword	g_Gpt12Enc
 	.byte	0
-	.uleb128 0x2e
+	.uleb128 0x2d
 	.uaword	.LVL5
 	.byte	0x1
-	.uaword	0x4afb
-	.uleb128 0x26
+	.uaword	0x4ae6
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x66
 	.byte	0x5
 	.byte	0x3
 	.uaword	__func__.19370
-	.uleb128 0x26
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x56
 	.byte	0x2
 	.byte	0x8
 	.byte	0x8a
-	.uleb128 0x26
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x65
 	.byte	0x5
 	.byte	0x3
 	.uaword	.LC1
-	.uleb128 0x26
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
 	.byte	0x3
 	.uaword	.LC0
-	.uleb128 0x26
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x55
 	.byte	0x1
@@ -7974,14 +7925,14 @@ g_Gpt12Enc:
 	.byte	0
 	.uleb128 0x3
 	.uaword	0x263
-	.uaword	0x47c4
+	.uaword	0x47ad
 	.uleb128 0x4
 	.uaword	0x255
 	.byte	0x12
 	.byte	0
 	.uleb128 0x7
-	.uaword	0x47b4
-	.uleb128 0x24
+	.uaword	0x479d
+	.uleb128 0x23
 	.byte	0x1
 	.string	"Gpt12Demo_init"
 	.byte	0x1
@@ -7992,13 +7943,13 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x47f7
-	.uleb128 0x2f
+	.uaword	0x47e0
+	.uleb128 0x2e
 	.uaword	.LVL6
 	.byte	0x1
-	.uaword	0x46a2
+	.uaword	0x468b
 	.byte	0
-	.uleb128 0x24
+	.uleb128 0x23
 	.byte	0x1
 	.string	"BasicGpt12Enc_IR_Encoder_turn"
 	.byte	0x1
@@ -8009,12 +7960,12 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x483e
-	.uleb128 0x2e
+	.uaword	0x4827
+	.uleb128 0x2d
 	.uaword	.LVL7
 	.byte	0x1
-	.uaword	0x4b3e
-	.uleb128 0x26
+	.uaword	0x4b29
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
@@ -8022,7 +7973,7 @@ g_Gpt12Enc:
 	.uaword	g_Gpt12Enc
 	.byte	0
 	.byte	0
-	.uleb128 0x24
+	.uleb128 0x23
 	.byte	0x1
 	.string	"BasicGpt12Enc_IR_Encoder_reset"
 	.byte	0x1
@@ -8033,12 +7984,12 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4886
-	.uleb128 0x2e
+	.uaword	0x486f
+	.uleb128 0x2d
 	.uaword	.LVL8
 	.byte	0x1
-	.uaword	0x4b72
-	.uleb128 0x26
+	.uaword	0x4b5d
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
 	.byte	0x5
@@ -8046,7 +7997,7 @@ g_Gpt12Enc:
 	.uaword	g_Gpt12Enc
 	.byte	0
 	.byte	0
-	.uleb128 0x30
+	.uleb128 0x2f
 	.byte	0x1
 	.string	"Speed_Avg"
 	.byte	0x1
@@ -8057,7 +8008,7 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uleb128 0x31
+	.uleb128 0x23
 	.byte	0x1
 	.string	"BasicGpt12Enc_run"
 	.byte	0x1
@@ -8068,61 +8019,55 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4936
-	.uleb128 0x32
-	.uaword	0x4653
-	.uaword	.LBB18
-	.uaword	.Ldebug_ranges0+0x28
-	.byte	0x1
-	.byte	0xa7
-	.uleb128 0x2d
+	.uaword	0x4910
+	.uleb128 0x2c
 	.uaword	.LVL9
-	.uaword	0x4b9e
-	.uaword	0x48e9
-	.uleb128 0x26
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x8f
-	.sleb128 0
-	.byte	0
-	.uleb128 0x2d
-	.uaword	.LVL10
-	.uaword	0x4bc7
-	.uaword	0x48fd
-	.uleb128 0x26
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x8f
-	.sleb128 0
-	.byte	0
-	.uleb128 0x2d
-	.uaword	.LVL11
-	.uaword	0x4bf6
-	.uaword	0x4911
-	.uleb128 0x26
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x8f
-	.sleb128 0
-	.byte	0
-	.uleb128 0x2d
-	.uaword	.LVL12
-	.uaword	0x4c2b
-	.uaword	0x4925
-	.uleb128 0x26
-	.byte	0x1
-	.byte	0x64
-	.byte	0x2
-	.byte	0x8f
-	.sleb128 0
-	.byte	0
+	.uaword	0x4b89
+	.uaword	0x48c3
 	.uleb128 0x25
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8f
+	.sleb128 0
+	.byte	0
+	.uleb128 0x2c
+	.uaword	.LVL10
+	.uaword	0x4bb2
+	.uaword	0x48d7
+	.uleb128 0x25
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8f
+	.sleb128 0
+	.byte	0
+	.uleb128 0x2c
+	.uaword	.LVL11
+	.uaword	0x4be1
+	.uaword	0x48eb
+	.uleb128 0x25
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8f
+	.sleb128 0
+	.byte	0
+	.uleb128 0x2c
+	.uaword	.LVL12
+	.uaword	0x4c16
+	.uaword	0x48ff
+	.uleb128 0x25
+	.byte	0x1
+	.byte	0x64
+	.byte	0x2
+	.byte	0x8f
+	.sleb128 0
+	.byte	0
+	.uleb128 0x24
 	.uaword	.LVL13
-	.uaword	0x4c5e
-	.uleb128 0x26
+	.uaword	0x4c49
+	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
 	.byte	0x2
@@ -8130,14 +8075,18 @@ g_Gpt12Enc:
 	.sleb128 0
 	.byte	0
 	.byte	0
-	.uleb128 0x33
-	.uaword	0x4653
+	.uleb128 0x30
+	.byte	0x1
+	.string	"SpeedCalculation"
+	.byte	0x1
+	.byte	0xac
+	.byte	0x1
 	.uaword	.LFB426
 	.uaword	.LFE426
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uleb128 0x34
+	.uleb128 0x31
 	.string	"Assert_verboseLevel"
 	.byte	0x10
 	.byte	0x79
@@ -8146,42 +8095,42 @@ g_Gpt12Enc:
 	.byte	0x1
 	.uleb128 0x3
 	.uaword	0x3b3
-	.uaword	0x4973
+	.uaword	0x495e
 	.uleb128 0x4
 	.uaword	0x255
 	.byte	0x2
 	.byte	0
-	.uleb128 0x34
+	.uleb128 0x31
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xb
 	.byte	0x96
-	.uaword	0x4990
+	.uaword	0x497b
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x7
-	.uaword	0x4963
-	.uleb128 0x34
+	.uaword	0x494e
+	.uleb128 0x31
 	.string	"IfxGpt120_T2EUDA_P00_8_IN"
 	.byte	0xd
 	.byte	0x4a
 	.uaword	0x4123
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x34
+	.uleb128 0x31
 	.string	"IfxGpt120_T4EUDA_P00_9_IN"
 	.byte	0xd
 	.byte	0x4e
 	.uaword	0x4123
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x34
+	.uleb128 0x31
 	.string	"IfxGpt120_T2INA_P00_7_IN"
 	.byte	0xd
 	.byte	0x54
 	.uaword	0x417f
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x35
+	.uleb128 0x32
 	.string	"IR_Encoder"
 	.byte	0x1
 	.byte	0x23
@@ -8190,7 +8139,7 @@ g_Gpt12Enc:
 	.byte	0x5
 	.byte	0x3
 	.uaword	IR_Encoder
-	.uleb128 0x35
+	.uleb128 0x32
 	.string	"g_Gpt12Enc"
 	.byte	0x1
 	.byte	0x22
@@ -8199,48 +8148,48 @@ g_Gpt12Enc:
 	.byte	0x5
 	.byte	0x3
 	.uaword	g_Gpt12Enc
-	.uleb128 0x36
+	.uleb128 0x33
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_onZeroIrq"
 	.byte	0xe
 	.uahalf	0x168
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.uleb128 0x1d
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
 	.uaword	0x4451
-	.uleb128 0x36
+	.uleb128 0x33
 	.byte	0x1
 	.string	"IfxGpt12_enableModule"
 	.byte	0x2
 	.uahalf	0x301
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4a88
+	.uaword	0x4a73
 	.uleb128 0x1d
 	.uaword	0x40df
 	.byte	0
-	.uleb128 0x36
+	.uleb128 0x33
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_initConfig"
 	.byte	0xe
 	.uahalf	0x10c
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4aba
+	.uaword	0x4aa5
 	.uleb128 0x1d
-	.uaword	0x4aba
+	.uaword	0x4aa5
 	.uleb128 0x1d
 	.uaword	0x40df
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
 	.uaword	0x4510
-	.uleb128 0x37
+	.uleb128 0x34
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_init"
 	.byte	0xe
@@ -8248,18 +8197,18 @@ g_Gpt12Enc:
 	.byte	0x1
 	.uaword	0x2cf
 	.byte	0x1
-	.uaword	0x4af0
+	.uaword	0x4adb
 	.uleb128 0x1d
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.uleb128 0x1d
-	.uaword	0x4af0
+	.uaword	0x4adb
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x4af6
+	.uaword	0x4ae1
 	.uleb128 0x7
 	.uaword	0x4510
-	.uleb128 0x38
+	.uleb128 0x35
 	.byte	0x1
 	.string	"Ifx_Assert_doValidate"
 	.byte	0x10
@@ -8267,7 +8216,7 @@ g_Gpt12Enc:
 	.byte	0x1
 	.uaword	0x2cf
 	.byte	0x1
-	.uaword	0x4b3e
+	.uaword	0x4b29
 	.uleb128 0x1d
 	.uaword	0x2cf
 	.uleb128 0x1d
@@ -8281,40 +8230,40 @@ g_Gpt12Enc:
 	.uleb128 0x1d
 	.uaword	0x2de
 	.byte	0
-	.uleb128 0x36
+	.uleb128 0x33
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_updateFromT2_buff"
 	.byte	0xe
 	.uahalf	0x165
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4b72
+	.uaword	0x4b5d
 	.uleb128 0x1d
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.byte	0
-	.uleb128 0x36
+	.uleb128 0x33
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_resetTurn"
 	.byte	0xe
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4b9e
+	.uaword	0x4b89
 	.uleb128 0x1d
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.byte	0
-	.uleb128 0x36
+	.uleb128 0x33
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_update"
 	.byte	0xe
 	.uahalf	0x188
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4bc7
+	.uaword	0x4bb2
 	.uleb128 0x1d
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.byte	0
-	.uleb128 0x37
+	.uleb128 0x34
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_getSpeed"
 	.byte	0xe
@@ -8322,11 +8271,11 @@ g_Gpt12Enc:
 	.byte	0x1
 	.uaword	0x2ad
 	.byte	0x1
-	.uaword	0x4bf6
+	.uaword	0x4be1
 	.uleb128 0x1d
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.byte	0
-	.uleb128 0x37
+	.uleb128 0x34
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_getRawPosition"
 	.byte	0xe
@@ -8334,11 +8283,11 @@ g_Gpt12Enc:
 	.byte	0x1
 	.uaword	0x291
 	.byte	0x1
-	.uaword	0x4c2b
+	.uaword	0x4c16
 	.uleb128 0x1d
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.byte	0
-	.uleb128 0x37
+	.uleb128 0x34
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_getDirection"
 	.byte	0xe
@@ -8346,11 +8295,11 @@ g_Gpt12Enc:
 	.byte	0x1
 	.uaword	0x2ab9
 	.byte	0x1
-	.uaword	0x4c5e
+	.uaword	0x4c49
 	.uleb128 0x1d
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.byte	0
-	.uleb128 0x39
+	.uleb128 0x36
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_getTurn"
 	.byte	0xe
@@ -8359,7 +8308,7 @@ g_Gpt12Enc:
 	.uaword	0x291
 	.byte	0x1
 	.uleb128 0x1d
-	.uaword	0x4a5b
+	.uaword	0x4a46
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -8812,23 +8761,6 @@ g_Gpt12Enc:
 	.byte	0
 	.uleb128 0x23
 	.uleb128 0x2e
-	.byte	0
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x20
-	.uleb128 0xb
-	.byte	0
-	.byte	0
-	.uleb128 0x24
-	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
 	.uleb128 0xc
@@ -8852,7 +8784,7 @@ g_Gpt12Enc:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x25
+	.uleb128 0x24
 	.uleb128 0x4109
 	.byte	0x1
 	.uleb128 0x11
@@ -8861,7 +8793,7 @@ g_Gpt12Enc:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x26
+	.uleb128 0x25
 	.uleb128 0x410a
 	.byte	0
 	.uleb128 0x2
@@ -8870,7 +8802,7 @@ g_Gpt12Enc:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x27
+	.uleb128 0x26
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -8885,7 +8817,7 @@ g_Gpt12Enc:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x28
+	.uleb128 0x27
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -8898,7 +8830,7 @@ g_Gpt12Enc:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x29
+	.uleb128 0x28
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
@@ -8915,7 +8847,7 @@ g_Gpt12Enc:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x2a
+	.uleb128 0x29
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x31
@@ -8924,7 +8856,7 @@ g_Gpt12Enc:
 	.uleb128 0xb
 	.byte	0
 	.byte	0
-	.uleb128 0x2b
+	.uleb128 0x2a
 	.uleb128 0x5
 	.byte	0
 	.uleb128 0x31
@@ -8933,7 +8865,7 @@ g_Gpt12Enc:
 	.uleb128 0xd
 	.byte	0
 	.byte	0
-	.uleb128 0x2c
+	.uleb128 0x2b
 	.uleb128 0x1d
 	.byte	0x1
 	.uleb128 0x31
@@ -8950,7 +8882,7 @@ g_Gpt12Enc:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x2d
+	.uleb128 0x2c
 	.uleb128 0x4109
 	.byte	0x1
 	.uleb128 0x11
@@ -8961,9 +8893,20 @@ g_Gpt12Enc:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0x2e
+	.uleb128 0x2d
 	.uleb128 0x4109
 	.byte	0x1
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x2115
+	.uleb128 0xc
+	.uleb128 0x31
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x2e
+	.uleb128 0x4109
+	.byte	0
 	.uleb128 0x11
 	.uleb128 0x1
 	.uleb128 0x2115
@@ -8973,14 +8916,26 @@ g_Gpt12Enc:
 	.byte	0
 	.byte	0
 	.uleb128 0x2f
-	.uleb128 0x4109
+	.uleb128 0x2e
 	.byte	0
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
 	.uleb128 0x11
 	.uleb128 0x1
-	.uleb128 0x2115
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x40
+	.uleb128 0xa
+	.uleb128 0x2117
 	.uleb128 0xc
-	.uleb128 0x31
-	.uleb128 0x13
 	.byte	0
 	.byte	0
 	.uleb128 0x30
@@ -9002,66 +8957,11 @@ g_Gpt12Enc:
 	.uleb128 0x1
 	.uleb128 0x40
 	.uleb128 0xa
-	.uleb128 0x2117
-	.uleb128 0xc
-	.byte	0
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x40
-	.uleb128 0xa
-	.uleb128 0x2116
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x32
-	.uleb128 0x1d
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x52
-	.uleb128 0x1
-	.uleb128 0x55
-	.uleb128 0x6
-	.uleb128 0x58
-	.uleb128 0xb
-	.uleb128 0x59
-	.uleb128 0xb
-	.byte	0
-	.byte	0
-	.uleb128 0x33
-	.uleb128 0x2e
-	.byte	0
-	.uleb128 0x31
-	.uleb128 0x13
-	.uleb128 0x11
-	.uleb128 0x1
-	.uleb128 0x12
-	.uleb128 0x1
-	.uleb128 0x40
-	.uleb128 0xa
 	.uleb128 0x2116
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x34
+	.uleb128 0x31
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -9078,7 +8978,7 @@ g_Gpt12Enc:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x35
+	.uleb128 0x32
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -9095,68 +8995,68 @@ g_Gpt12Enc:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
+	.uleb128 0x33
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0x5
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x34
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0x5
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
+	.uleb128 0x35
+	.uleb128 0x2e
+	.byte	0x1
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x3c
+	.uleb128 0xc
+	.uleb128 0x1
+	.uleb128 0x13
+	.byte	0
+	.byte	0
 	.uleb128 0x36
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x37
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0x5
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x38
-	.uleb128 0x2e
-	.byte	0x1
-	.uleb128 0x3f
-	.uleb128 0xc
-	.uleb128 0x3
-	.uleb128 0x8
-	.uleb128 0x3a
-	.uleb128 0xb
-	.uleb128 0x3b
-	.uleb128 0xb
-	.uleb128 0x27
-	.uleb128 0xc
-	.uleb128 0x49
-	.uleb128 0x13
-	.uleb128 0x3c
-	.uleb128 0xc
-	.uleb128 0x1
-	.uleb128 0x13
-	.byte	0
-	.byte	0
-	.uleb128 0x39
 	.uleb128 0x2e
 	.byte	0x1
 	.uleb128 0x3f
@@ -9204,22 +9104,14 @@ g_Gpt12Enc:
 	.uaword	0
 .section .debug_ranges,"",@progbits
 .Ldebug_ranges0:
-	.uaword	.LBB8
-	.uaword	.LBE8
+	.uaword	.LBB6
+	.uaword	.LBE6
+	.uaword	.LBB11
+	.uaword	.LBE11
+	.uaword	.LBB12
+	.uaword	.LBE12
 	.uaword	.LBB13
 	.uaword	.LBE13
-	.uaword	.LBB14
-	.uaword	.LBE14
-	.uaword	.LBB15
-	.uaword	.LBE15
-	.uaword	0
-	.uaword	0
-	.uaword	.LBB18
-	.uaword	.LBE18
-	.uaword	.LBB22
-	.uaword	.LBE22
-	.uaword	.LBB23
-	.uaword	.LBE23
 	.uaword	0
 	.uaword	0
 	.uaword	.LFB419

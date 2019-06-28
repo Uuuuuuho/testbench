@@ -1227,7 +1227,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.file 7 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x1a15
+	.uaword	0x1a17
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -1235,7 +1235,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_AngleTrkF32.c"
-	.string	"C:\\\\Users\\\\kim\\\\eclipse-workspace\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0x88
 	.uaword	0
 	.uaword	0
@@ -1268,7 +1268,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"sint16"
 	.byte	0x3
 	.byte	0x5a
-	.uaword	0x219
+	.uaword	0x21b
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x5
@@ -1277,7 +1277,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"uint16"
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x234
+	.uaword	0x236
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -1286,17 +1286,17 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"sint32"
 	.byte	0x3
 	.byte	0x5c
-	.uaword	0x1c3
+	.uaword	0x1c5
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x3
 	.byte	0x5d
-	.uaword	0x1cf
+	.uaword	0x1d1
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x1ba
+	.uaword	0x1bc
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -1305,7 +1305,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"boolean"
 	.byte	0x3
 	.byte	0x68
-	.uaword	0x1fa
+	.uaword	0x1fc
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -1324,31 +1324,31 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"IfxStdIf_InterfaceDriver"
 	.byte	0x4
 	.byte	0x62
-	.uaword	0x2c1
+	.uaword	0x2c3
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x2e9
+	.uaword	0x2eb
 	.uleb128 0x6
 	.byte	0x1
-	.uaword	0x24a
-	.uaword	0x2f9
+	.uaword	0x24c
+	.uaword	0x2fb
 	.uleb128 0x7
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x2ff
+	.uaword	0x301
 	.uleb128 0x8
 	.byte	0x1
-	.uaword	0x30b
+	.uaword	0x30d
 	.uleb128 0x7
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0x9
 	.byte	0x1
 	.byte	0x5
 	.byte	0x41
-	.uaword	0x3dc
+	.uaword	0x3de
 	.uleb128 0xa
 	.string	"IfxStdIf_Pos_SensorType_encoder"
 	.sleb128 0
@@ -1372,12 +1372,12 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"IfxStdIf_Pos_SensorType"
 	.byte	0x5
 	.byte	0x48
-	.uaword	0x30b
+	.uaword	0x30d
 	.uleb128 0x9
 	.byte	0x1
 	.byte	0x5
 	.byte	0x4c
-	.uaword	0x456
+	.uaword	0x458
 	.uleb128 0xa
 	.string	"IfxStdIf_Pos_Dir_forward"
 	.sleb128 0
@@ -1392,17 +1392,17 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"IfxStdIf_Pos_Dir"
 	.byte	0x5
 	.byte	0x50
-	.uaword	0x3fb
+	.uaword	0x3fd
 	.uleb128 0xb
 	.byte	0x1
 	.byte	0x5
 	.byte	0x56
-	.uaword	0x4f2
+	.uaword	0x4f4
 	.uleb128 0xc
 	.string	"notSynchronised"
 	.byte	0x5
 	.byte	0x58
-	.uaword	0x258
+	.uaword	0x25a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1411,7 +1411,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"signalLoss"
 	.byte	0x5
 	.byte	0x59
-	.uaword	0x258
+	.uaword	0x25a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1420,7 +1420,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"signalDegradation"
 	.byte	0x5
 	.byte	0x5a
-	.uaword	0x258
+	.uaword	0x25a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1429,7 +1429,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"trackingLoss"
 	.byte	0x5
 	.byte	0x5b
-	.uaword	0x258
+	.uaword	0x25a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1438,7 +1438,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.string	"commError"
 	.byte	0x5
 	.byte	0x5c
-	.uaword	0x258
+	.uaword	0x25a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1448,717 +1448,717 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x4
 	.byte	0x5
 	.byte	0x53
-	.uaword	0x512
+	.uaword	0x514
 	.uleb128 0xe
 	.string	"status"
 	.byte	0x5
 	.byte	0x55
-	.uaword	0x258
+	.uaword	0x25a
 	.uleb128 0xe
 	.string	"B"
 	.byte	0x5
 	.byte	0x5d
-	.uaword	0x46e
+	.uaword	0x470
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_Status"
 	.byte	0x5
 	.byte	0x5e
-	.uaword	0x4f2
+	.uaword	0x4f4
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_RawAngle"
 	.byte	0x5
 	.byte	0x60
-	.uaword	0x24a
+	.uaword	0x24c
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos"
 	.byte	0x5
 	.byte	0x63
-	.uaword	0x55e
+	.uaword	0x560
 	.uleb128 0xf
 	.string	"IfxStdIf_Pos_"
 	.byte	0x5c
 	.byte	0x5
 	.uahalf	0x10a
-	.uaword	0x756
+	.uaword	0x758
 	.uleb128 0x10
 	.uaword	.LASF0
 	.byte	0x5
 	.uahalf	0x10c
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0x11
 	.string	"onZeroIrq"
 	.byte	0x5
 	.uahalf	0x10d
-	.uaword	0x794
+	.uaword	0x796
 	.byte	0x4
 	.uleb128 0x11
 	.string	"getAbsolutePosition"
 	.byte	0x5
 	.uahalf	0x10e
-	.uaword	0x756
+	.uaword	0x758
 	.byte	0x8
 	.uleb128 0x11
 	.string	"getOffset"
 	.byte	0x5
 	.uahalf	0x10f
-	.uaword	0x7b2
+	.uaword	0x7b4
 	.byte	0xc
 	.uleb128 0x11
 	.string	"getPosition"
 	.byte	0x5
 	.uahalf	0x110
-	.uaword	0x7d0
+	.uaword	0x7d2
 	.byte	0x10
 	.uleb128 0x11
 	.string	"getDirection"
 	.byte	0x5
 	.uahalf	0x111
-	.uaword	0x7f0
+	.uaword	0x7f2
 	.byte	0x14
 	.uleb128 0x11
 	.string	"getFault"
 	.byte	0x5
 	.uahalf	0x112
-	.uaword	0x827
+	.uaword	0x829
 	.byte	0x18
 	.uleb128 0x11
 	.string	"getRawPosition"
 	.byte	0x5
 	.uahalf	0x113
-	.uaword	0x899
+	.uaword	0x89b
 	.byte	0x1c
 	.uleb128 0x11
 	.string	"getPeriodPerRotation"
 	.byte	0x5
 	.uahalf	0x114
-	.uaword	0x85a
+	.uaword	0x85c
 	.byte	0x20
 	.uleb128 0x11
 	.string	"getRefreshPeriod"
 	.byte	0x5
 	.uahalf	0x115
-	.uaword	0x8bc
+	.uaword	0x8be
 	.byte	0x24
 	.uleb128 0x11
 	.string	"getResolution"
 	.byte	0x5
 	.uahalf	0x116
-	.uaword	0x8e1
+	.uaword	0x8e3
 	.byte	0x28
 	.uleb128 0x11
 	.string	"getSensorType"
 	.byte	0x5
 	.uahalf	0x117
-	.uaword	0x903
+	.uaword	0x905
 	.byte	0x2c
 	.uleb128 0x11
 	.string	"getTurn"
 	.byte	0x5
 	.uahalf	0x118
-	.uaword	0x958
+	.uaword	0x95a
 	.byte	0x30
 	.uleb128 0x11
 	.string	"onEventA"
 	.byte	0x5
 	.uahalf	0x119
-	.uaword	0x974
+	.uaword	0x976
 	.byte	0x34
 	.uleb128 0x11
 	.string	"reset"
 	.byte	0x5
 	.uahalf	0x11a
-	.uaword	0x9ac
+	.uaword	0x9ae
 	.byte	0x38
 	.uleb128 0x11
 	.string	"resetFaults"
 	.byte	0x5
 	.uahalf	0x11b
-	.uaword	0x9c6
+	.uaword	0x9c8
 	.byte	0x3c
 	.uleb128 0x11
 	.string	"getSpeed"
 	.byte	0x5
 	.uahalf	0x11c
-	.uaword	0x93b
+	.uaword	0x93d
 	.byte	0x40
 	.uleb128 0x11
 	.string	"update"
 	.byte	0x5
 	.uahalf	0x11d
-	.uaword	0x991
+	.uaword	0x993
 	.byte	0x44
 	.uleb128 0x11
 	.string	"setOffset"
 	.byte	0x5
 	.uahalf	0x11e
-	.uaword	0x9e6
+	.uaword	0x9e8
 	.byte	0x48
 	.uleb128 0x11
 	.string	"setPosition"
 	.byte	0x5
 	.uahalf	0x11f
-	.uaword	0xa1b
+	.uaword	0xa1d
 	.byte	0x4c
 	.uleb128 0x11
 	.string	"setRawPosition"
 	.byte	0x5
 	.uahalf	0x120
-	.uaword	0xa52
+	.uaword	0xa54
 	.byte	0x50
 	.uleb128 0x11
 	.string	"setSpeed"
 	.byte	0x5
 	.uahalf	0x121
-	.uaword	0xa75
+	.uaword	0xa77
 	.byte	0x54
 	.uleb128 0x11
 	.string	"setRefreshPeriod"
 	.byte	0x5
 	.uahalf	0x122
-	.uaword	0xa92
+	.uaword	0xa94
 	.byte	0x58
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetAbsolutePosition"
 	.byte	0x5
 	.byte	0x6d
-	.uaword	0x77e
+	.uaword	0x780
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x784
+	.uaword	0x786
 	.uleb128 0x6
 	.byte	0x1
-	.uaword	0x266
-	.uaword	0x794
+	.uaword	0x268
+	.uaword	0x796
 	.uleb128 0x7
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_OnZeroIrq"
 	.byte	0x5
 	.byte	0x73
-	.uaword	0x2f9
+	.uaword	0x2fb
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetOffset"
 	.byte	0x5
 	.byte	0x7a
-	.uaword	0x2e3
+	.uaword	0x2e5
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetPosition"
 	.byte	0x5
 	.byte	0x84
-	.uaword	0x77e
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetDirection"
 	.byte	0x5
 	.byte	0x8d
-	.uaword	0x811
+	.uaword	0x813
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x817
+	.uaword	0x819
 	.uleb128 0x6
 	.byte	0x1
-	.uaword	0x456
-	.uaword	0x827
+	.uaword	0x458
+	.uaword	0x829
 	.uleb128 0x7
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetFault"
 	.byte	0x5
 	.byte	0x94
-	.uaword	0x844
+	.uaword	0x846
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x84a
+	.uaword	0x84c
 	.uleb128 0x6
 	.byte	0x1
-	.uaword	0x512
-	.uaword	0x85a
+	.uaword	0x514
+	.uaword	0x85c
 	.uleb128 0x7
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetPeriodPerRotation"
 	.byte	0x5
 	.byte	0x9b
-	.uaword	0x883
+	.uaword	0x885
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x889
+	.uaword	0x88b
 	.uleb128 0x6
 	.byte	0x1
-	.uaword	0x226
-	.uaword	0x899
+	.uaword	0x228
+	.uaword	0x89b
 	.uleb128 0x7
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetRawPosition"
 	.byte	0x5
 	.byte	0xa4
-	.uaword	0x2e3
+	.uaword	0x2e5
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetRefreshPeriod"
 	.byte	0x5
 	.byte	0xaa
-	.uaword	0x77e
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetResolution"
 	.byte	0x5
 	.byte	0xb0
-	.uaword	0x2e3
+	.uaword	0x2e5
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetSensorType"
 	.byte	0x5
 	.byte	0xb6
-	.uaword	0x925
+	.uaword	0x927
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x92b
+	.uaword	0x92d
 	.uleb128 0x6
 	.byte	0x1
-	.uaword	0x3dc
-	.uaword	0x93b
+	.uaword	0x3de
+	.uaword	0x93d
 	.uleb128 0x7
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetSpeed"
 	.byte	0x5
 	.byte	0xbc
-	.uaword	0x77e
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetTurn"
 	.byte	0x5
 	.byte	0xc2
-	.uaword	0x2e3
+	.uaword	0x2e5
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_OnEventA"
 	.byte	0x5
 	.byte	0xc9
-	.uaword	0x2f9
+	.uaword	0x2fb
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_Update"
 	.byte	0x5
 	.byte	0xd2
-	.uaword	0x2f9
+	.uaword	0x2fb
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_Reset"
 	.byte	0x5
 	.byte	0xdb
-	.uaword	0x2f9
+	.uaword	0x2fb
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_ResetFaults"
 	.byte	0x5
 	.byte	0xe4
-	.uaword	0x2f9
+	.uaword	0x2fb
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_SetOffset"
 	.byte	0x5
 	.byte	0xeb
-	.uaword	0xa04
+	.uaword	0xa06
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0xa0a
+	.uaword	0xa0c
 	.uleb128 0x8
 	.byte	0x1
-	.uaword	0xa1b
+	.uaword	0xa1d
 	.uleb128 0x7
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.uleb128 0x7
-	.uaword	0x24a
+	.uaword	0x24c
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_SetPosition"
 	.byte	0x5
 	.byte	0xf2
-	.uaword	0xa3b
+	.uaword	0xa3d
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0xa41
+	.uaword	0xa43
 	.uleb128 0x8
 	.byte	0x1
-	.uaword	0xa52
+	.uaword	0xa54
 	.uleb128 0x7
-	.uaword	0x2c3
+	.uaword	0x2c5
 	.uleb128 0x7
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_SetRawPosition"
 	.byte	0x5
 	.byte	0xf8
-	.uaword	0xa04
+	.uaword	0xa06
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_SetSpeed"
 	.byte	0x5
 	.byte	0xff
-	.uaword	0xa3b
+	.uaword	0xa3d
 	.uleb128 0x12
 	.string	"IfxStdIf_Pos_SetRefreshPeriod"
 	.byte	0x5
 	.uahalf	0x106
-	.uaword	0xa3b
+	.uaword	0xa3d
 	.uleb128 0xb
 	.byte	0xc
 	.byte	0x2
 	.byte	0x2c
-	.uaword	0xae1
+	.uaword	0xae3
 	.uleb128 0x13
 	.string	"a"
 	.byte	0x2
 	.byte	0x2e
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x13
 	.string	"b"
 	.byte	0x2
 	.byte	0x2f
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x4
 	.uleb128 0x13
 	.string	"out"
 	.byte	0x2
 	.byte	0x30
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_LowPassPt1F32"
 	.byte	0x2
 	.byte	0x31
-	.uaword	0xab8
+	.uaword	0xaba
 	.uleb128 0xb
 	.byte	0xc
 	.byte	0x2
 	.byte	0x34
-	.uaword	0xb3d
+	.uaword	0xb3f
 	.uleb128 0x13
 	.string	"cutOffFrequency"
 	.byte	0x2
 	.byte	0x36
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x13
 	.string	"gain"
 	.byte	0x2
 	.byte	0x37
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x4
 	.uleb128 0x13
 	.string	"samplingTime"
 	.byte	0x2
 	.byte	0x38
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_LowPassPt1F32_Config"
 	.byte	0x2
 	.byte	0x39
-	.uaword	0xafa
+	.uaword	0xafc
 	.uleb128 0xb
 	.byte	0x30
 	.byte	0x6
 	.byte	0x33
-	.uaword	0xc06
+	.uaword	0xc08
 	.uleb128 0x13
 	.string	"kp"
 	.byte	0x6
 	.byte	0x35
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x13
 	.string	"ki"
 	.byte	0x6
 	.byte	0x36
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x4
 	.uleb128 0x13
 	.string	"kd"
 	.byte	0x6
 	.byte	0x37
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x8
 	.uleb128 0x13
 	.string	"speedLpfFc"
 	.byte	0x6
 	.byte	0x38
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0xc
 	.uleb128 0x14
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x39
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x10
 	.uleb128 0x14
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x3a
-	.uaword	0x24a
+	.uaword	0x24c
 	.byte	0x14
 	.uleb128 0x14
 	.uaword	.LASF3
 	.byte	0x6
 	.byte	0x3b
-	.uaword	0x24a
+	.uaword	0x24c
 	.byte	0x18
 	.uleb128 0x14
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0x3c
-	.uaword	0x226
+	.uaword	0x228
 	.byte	0x1c
 	.uleb128 0x14
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0x3d
-	.uaword	0x27f
+	.uaword	0x281
 	.byte	0x1e
 	.uleb128 0x14
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0x3e
-	.uaword	0x24a
+	.uaword	0x24c
 	.byte	0x20
 	.uleb128 0x14
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0x3f
-	.uaword	0x52d
+	.uaword	0x52f
 	.byte	0x24
 	.uleb128 0x14
 	.uaword	.LASF8
 	.byte	0x6
 	.byte	0x40
-	.uaword	0xc06
+	.uaword	0xc08
 	.byte	0x28
 	.uleb128 0x14
 	.uaword	.LASF9
 	.byte	0x6
 	.byte	0x41
-	.uaword	0xc06
+	.uaword	0xc08
 	.byte	0x2c
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x20b
+	.uaword	0x20d
 	.uleb128 0x3
 	.string	"Ifx_AngleTrkF32_Config"
 	.byte	0x6
 	.byte	0x42
-	.uaword	0xb5d
+	.uaword	0xb5f
 	.uleb128 0xb
 	.byte	0x18
 	.byte	0x6
 	.byte	0x44
-	.uaword	0xc78
+	.uaword	0xc7a
 	.uleb128 0x13
 	.string	"kp"
 	.byte	0x6
 	.byte	0x46
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x13
 	.string	"ki"
 	.byte	0x6
 	.byte	0x47
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x4
 	.uleb128 0x13
 	.string	"kd"
 	.byte	0x6
 	.byte	0x48
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x8
 	.uleb128 0x14
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x49
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0xc
 	.uleb128 0x14
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x4a
-	.uaword	0x24a
+	.uaword	0x24c
 	.byte	0x10
 	.uleb128 0x14
 	.uaword	.LASF3
 	.byte	0x6
 	.byte	0x4b
-	.uaword	0x24a
+	.uaword	0x24c
 	.byte	0x14
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_AngleTrkF32_CfgData"
 	.byte	0x6
 	.byte	0x4c
-	.uaword	0xc2a
+	.uaword	0xc2c
 	.uleb128 0xb
 	.byte	0x24
 	.byte	0x6
 	.byte	0x4e
-	.uaword	0xd33
+	.uaword	0xd35
 	.uleb128 0x13
 	.string	"rawPosition"
 	.byte	0x6
 	.byte	0x50
-	.uaword	0x52d
+	.uaword	0x52f
 	.byte	0
 	.uleb128 0x13
 	.string	"turn"
 	.byte	0x6
 	.byte	0x51
-	.uaword	0x24a
+	.uaword	0x24c
 	.byte	0x4
 	.uleb128 0x13
 	.string	"direction"
 	.byte	0x6
 	.byte	0x52
-	.uaword	0x456
+	.uaword	0x458
 	.byte	0x8
 	.uleb128 0x13
 	.string	"status"
 	.byte	0x6
 	.byte	0x53
-	.uaword	0x512
+	.uaword	0x514
 	.byte	0xc
 	.uleb128 0x14
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0x55
-	.uaword	0x52d
+	.uaword	0x52f
 	.byte	0x10
 	.uleb128 0x14
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0x56
-	.uaword	0x27f
+	.uaword	0x281
 	.byte	0x14
 	.uleb128 0x14
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0x57
-	.uaword	0x226
+	.uaword	0x228
 	.byte	0x16
 	.uleb128 0x14
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0x58
-	.uaword	0x52d
+	.uaword	0x52f
 	.byte	0x18
 	.uleb128 0x13
 	.string	"Ts"
 	.byte	0x6
 	.byte	0x59
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x1c
 	.uleb128 0x13
 	.string	"positionConst"
 	.byte	0x6
 	.byte	0x5a
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x20
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_AngleTrkF32_PosIf"
 	.byte	0x6
 	.byte	0x5b
-	.uaword	0xc97
+	.uaword	0xc99
 	.uleb128 0xb
 	.byte	0x70
 	.byte	0x6
 	.byte	0x5e
-	.uaword	0xe1a
+	.uaword	0xe1c
 	.uleb128 0x13
 	.string	"base"
 	.byte	0x6
 	.byte	0x60
-	.uaword	0xd33
+	.uaword	0xd35
 	.byte	0
 	.uleb128 0x14
 	.uaword	.LASF10
 	.byte	0x6
 	.byte	0x61
-	.uaword	0xc78
+	.uaword	0xc7a
 	.byte	0x24
 	.uleb128 0x14
 	.uaword	.LASF8
 	.byte	0x6
 	.byte	0x62
-	.uaword	0xc06
+	.uaword	0xc08
 	.byte	0x3c
 	.uleb128 0x14
 	.uaword	.LASF9
 	.byte	0x6
 	.byte	0x63
-	.uaword	0xc06
+	.uaword	0xc08
 	.byte	0x40
 	.uleb128 0x13
 	.string	"halfTs"
 	.byte	0x6
 	.byte	0x64
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x44
 	.uleb128 0x13
 	.string	"angleAtan"
 	.byte	0x6
 	.byte	0x65
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x48
 	.uleb128 0x14
 	.uaword	.LASF11
 	.byte	0x6
 	.byte	0x66
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x4c
 	.uleb128 0x14
 	.uaword	.LASF12
 	.byte	0x6
 	.byte	0x67
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x50
 	.uleb128 0x13
 	.string	"speedEstA"
 	.byte	0x6
 	.byte	0x68
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x54
 	.uleb128 0x13
 	.string	"speedEstB"
 	.byte	0x6
 	.byte	0x69
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x58
 	.uleb128 0x13
 	.string	"accelEst"
 	.byte	0x6
 	.byte	0x6a
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x5c
 	.uleb128 0x13
 	.string	"angleErr"
 	.byte	0x6
 	.byte	0x6b
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x60
 	.uleb128 0x13
 	.string	"speedLpf"
 	.byte	0x6
 	.byte	0x6c
-	.uaword	0xae1
+	.uaword	0xae3
 	.byte	0x64
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_AngleTrkF32"
 	.byte	0x6
 	.byte	0x6d
-	.uaword	0xd50
+	.uaword	0xd52
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -2177,39 +2177,39 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x49
 	.byte	0x1
 	.byte	0x3
-	.uaword	0xe8c
+	.uaword	0xe8e
 	.uleb128 0x16
 	.string	"filter"
 	.byte	0x2
 	.byte	0x49
-	.uaword	0xe8c
+	.uaword	0xe8e
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0xae1
+	.uaword	0xae3
 	.uleb128 0x17
 	.string	"Ifx_AngleTrkF32_bound"
 	.byte	0x1
 	.byte	0x35
 	.byte	0x1
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x3
-	.uaword	0xee0
+	.uaword	0xee2
 	.uleb128 0x16
 	.string	"angle"
 	.byte	0x1
 	.byte	0x35
-	.uaword	0x266
+	.uaword	0x268
 	.uleb128 0x18
 	.uaword	.LASF4
 	.byte	0x1
 	.byte	0x35
-	.uaword	0x266
+	.uaword	0x268
 	.uleb128 0x19
 	.string	"fullPeriod"
 	.byte	0x1
 	.byte	0x37
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x1a
 	.byte	0x1
@@ -2218,31 +2218,31 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x67
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xf33
+	.uaword	0xf35
 	.uleb128 0x18
 	.uaword	.LASF10
 	.byte	0x1
 	.byte	0x67
-	.uaword	0xf33
+	.uaword	0xf35
 	.uleb128 0x16
 	.string	"K"
 	.byte	0x1
 	.byte	0x67
-	.uaword	0x266
+	.uaword	0x268
 	.uleb128 0x16
 	.string	"T"
 	.byte	0x1
 	.byte	0x67
-	.uaword	0x266
+	.uaword	0x268
 	.uleb128 0x16
 	.string	"psi"
 	.byte	0x1
 	.byte	0x67
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0xc78
+	.uaword	0xc7a
 	.uleb128 0x1a
 	.byte	0x1
 	.string	"Ifx_AngleTrkF32_setUserSampling"
@@ -2250,34 +2250,34 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x84
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xf79
+	.uaword	0xf7b
 	.uleb128 0x18
 	.uaword	.LASF13
 	.byte	0x1
 	.byte	0x84
-	.uaword	0xf79
+	.uaword	0xf7b
 	.uleb128 0x16
 	.string	"Ts"
 	.byte	0x1
 	.byte	0x84
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0xe1a
+	.uaword	0xe1c
 	.uleb128 0x17
 	.string	"Ifx_AngleTrkF32_boundInput"
 	.byte	0x1
 	.byte	0x48
 	.byte	0x1
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x3
-	.uaword	0xfb5
+	.uaword	0xfb7
 	.uleb128 0x16
 	.string	"input"
 	.byte	0x1
 	.byte	0x48
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x1b
 	.byte	0x1
@@ -2286,36 +2286,36 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.uahalf	0x10a
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x101f
+	.uaword	0x1021
 	.uleb128 0x1c
 	.uaword	.LASF13
 	.byte	0x1
 	.uahalf	0x10a
-	.uaword	0xf79
+	.uaword	0xf7b
 	.uleb128 0x1c
 	.uaword	.LASF8
 	.byte	0x1
 	.uahalf	0x10a
-	.uaword	0x20b
+	.uaword	0x20d
 	.uleb128 0x1c
 	.uaword	.LASF9
 	.byte	0x1
 	.uahalf	0x10a
-	.uaword	0x20b
+	.uaword	0x20d
 	.uleb128 0x1d
 	.string	"base"
 	.byte	0x1
 	.uahalf	0x10c
-	.uaword	0x101f
+	.uaword	0x1021
 	.uleb128 0x1d
 	.string	"sqrAmpl"
 	.byte	0x1
 	.uahalf	0x10d
-	.uaword	0x24a
+	.uaword	0x24c
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0xd33
+	.uaword	0xd35
 	.uleb128 0x1e
 	.byte	0x1
 	.string	"Ifx_AngleTrkF32_setOffset"
@@ -2327,26 +2327,26 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x107c
+	.uaword	0x107e
 	.uleb128 0x1f
 	.uaword	.LASF13
 	.byte	0x1
 	.byte	0xfd
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1f
 	.uaword	.LASF7
 	.byte	0x1
 	.byte	0xfd
-	.uaword	0x52d
+	.uaword	0x52f
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x20
 	.string	"base"
 	.byte	0x1
 	.byte	0xff
-	.uaword	0x101f
+	.uaword	0x1021
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2356,25 +2356,25 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x128
 	.byte	0x1
-	.uaword	0x52d
+	.uaword	0x52f
 	.uaword	.LFB218
 	.uaword	.LFE218
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x10d2
+	.uaword	0x10d4
 	.uleb128 0x22
 	.uaword	.LASF13
 	.byte	0x1
 	.uahalf	0x128
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x23
 	.string	"base"
 	.byte	0x1
 	.uahalf	0x12a
-	.uaword	0x101f
+	.uaword	0x1021
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2384,18 +2384,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x132
 	.byte	0x1
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LFB219
 	.uaword	.LFE219
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1113
+	.uaword	0x1115
 	.uleb128 0x22
 	.uaword	.LASF13
 	.byte	0x1
 	.uahalf	0x132
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2405,17 +2405,17 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x13a
 	.byte	0x1
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LFB220
 	.uaword	.LFE220
 	.byte	0x1
 	.byte	0x9c
-	.uaword	0x1160
+	.uaword	0x1162
 	.uleb128 0x25
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x13a
-	.uaword	0xf79
+	.uaword	0xf7b
 	.uaword	.LLST0
 	.byte	0
 	.uleb128 0x21
@@ -2424,18 +2424,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x140
 	.byte	0x1
-	.uaword	0x456
+	.uaword	0x458
 	.uaword	.LFB221
 	.uaword	.LFE221
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x11a5
+	.uaword	0x11a7
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x140
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2445,18 +2445,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x146
 	.byte	0x1
-	.uaword	0x512
+	.uaword	0x514
 	.uaword	.LFB222
 	.uaword	.LFE222
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x11e6
+	.uaword	0x11e8
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x146
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2466,18 +2466,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x14c
 	.byte	0x1
-	.uaword	0x24a
+	.uaword	0x24c
 	.uaword	.LFB223
 	.uaword	.LFE223
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1228
+	.uaword	0x122a
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x14c
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2487,18 +2487,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x152
 	.byte	0x1
-	.uaword	0x226
+	.uaword	0x228
 	.uaword	.LFB224
 	.uaword	.LFE224
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1275
+	.uaword	0x1277
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x152
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2508,18 +2508,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x158
 	.byte	0x1
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LFB225
 	.uaword	.LFE225
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x12b9
+	.uaword	0x12bb
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x158
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2529,18 +2529,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x15e
 	.byte	0x1
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LFB226
 	.uaword	.LFE226
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1302
+	.uaword	0x1304
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x15e
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2550,18 +2550,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x164
 	.byte	0x1
-	.uaword	0x24a
+	.uaword	0x24c
 	.uaword	.LFB227
 	.uaword	.LFE227
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1348
+	.uaword	0x134a
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x164
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2571,18 +2571,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x16a
 	.byte	0x1
-	.uaword	0x3dc
+	.uaword	0x3de
 	.uaword	.LFB228
 	.uaword	.LFE228
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x138e
+	.uaword	0x1390
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x16a
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2592,18 +2592,18 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x170
 	.byte	0x1
-	.uaword	0x24a
+	.uaword	0x24c
 	.uaword	.LFB229
 	.uaword	.LFE229
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x13ce
+	.uaword	0x13d0
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x170
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2618,12 +2618,12 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x140e
+	.uaword	0x1410
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x176
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -2638,19 +2638,19 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x146a
+	.uaword	0x146c
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x17c
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x27
 	.string	"updatePeriod"
 	.byte	0x1
 	.uahalf	0x17c
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x1
 	.byte	0x54
 	.byte	0
@@ -2665,22 +2665,22 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x14bf
+	.uaword	0x14c1
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x182
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x28
-	.uaword	0xe5c
+	.uaword	0xe5e
 	.uaword	.LBB23
 	.uaword	.LBE23
 	.byte	0x1
 	.uahalf	0x18e
 	.uleb128 0x29
-	.uaword	0xe7d
+	.uaword	0xe7f
 	.byte	0x4
 	.byte	0x84
 	.sleb128 100
@@ -2688,25 +2688,25 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0
 	.byte	0
 	.uleb128 0x2a
-	.uaword	0xee0
+	.uaword	0xee2
 	.uaword	.LFB210
 	.uaword	.LFE210
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x14f6
+	.uaword	0x14f8
 	.uleb128 0x29
-	.uaword	0xf0a
+	.uaword	0xf0c
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x2b
-	.uaword	0xf15
+	.uaword	0xf17
 	.uaword	.LLST1
 	.uleb128 0x2b
-	.uaword	0xf1e
+	.uaword	0xf20
 	.uaword	.LLST2
 	.uleb128 0x2b
-	.uaword	0xf27
+	.uaword	0xf29
 	.uaword	.LLST3
 	.byte	0
 	.uleb128 0x1e
@@ -2720,33 +2720,33 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1576
+	.uaword	0x1578
 	.uleb128 0x2c
 	.string	"config"
 	.byte	0x1
 	.byte	0x70
-	.uaword	0x1576
+	.uaword	0x1578
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x1f
 	.uaword	.LASF8
 	.byte	0x1
 	.byte	0x70
-	.uaword	0xc06
+	.uaword	0xc08
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x1f
 	.uaword	.LASF9
 	.byte	0x1
 	.byte	0x70
-	.uaword	0xc06
+	.uaword	0xc08
 	.byte	0x1
 	.byte	0x66
 	.uleb128 0x2d
 	.uaword	.LASF10
 	.byte	0x1
 	.byte	0x72
-	.uaword	0xc78
+	.uaword	0xc7a
 	.byte	0x1a
 	.byte	0x9e
 	.uleb128 0x4
@@ -2768,21 +2768,21 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0xc0c
+	.uaword	0xc0e
 	.uleb128 0x2a
-	.uaword	0xf39
+	.uaword	0xf3b
 	.uaword	.LFB212
 	.uaword	.LFE212
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x15a1
+	.uaword	0x15a3
 	.uleb128 0x29
-	.uaword	0xf63
+	.uaword	0xf65
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x2b
-	.uaword	0xf6e
+	.uaword	0xf70
 	.uaword	.LLST4
 	.byte	0
 	.uleb128 0x2e
@@ -2796,54 +2796,54 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x168d
+	.uaword	0x168f
 	.uleb128 0x2f
 	.uaword	.LASF13
 	.byte	0x1
 	.byte	0x90
-	.uaword	0xf79
+	.uaword	0xf7b
 	.uaword	.LLST5
 	.uleb128 0x30
 	.string	"config"
 	.byte	0x1
 	.byte	0x90
-	.uaword	0x168d
+	.uaword	0x168f
 	.uaword	.LLST6
 	.uleb128 0x30
 	.string	"Ts"
 	.byte	0x1
 	.byte	0x90
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LLST7
 	.uleb128 0x31
-	.uaword	0xf39
+	.uaword	0xf3b
 	.uaword	.LBB25
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0xac
-	.uaword	0x161f
+	.uaword	0x1621
 	.uleb128 0x2b
-	.uaword	0xf6e
+	.uaword	0xf70
 	.uaword	.LLST8
 	.uleb128 0x2b
-	.uaword	0xf63
+	.uaword	0xf65
 	.uaword	.LLST9
 	.byte	0
 	.uleb128 0x32
 	.uaword	.Ldebug_ranges0+0x18
-	.uaword	0x1655
+	.uaword	0x1657
 	.uleb128 0x20
 	.string	"lpfConfig"
 	.byte	0x1
 	.byte	0xb5
-	.uaword	0xb3d
+	.uaword	0xb3f
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -12
 	.uleb128 0x33
 	.uaword	.LVL36
 	.byte	0x1
-	.uaword	0x1986
+	.uaword	0x1988
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x65
@@ -2859,25 +2859,25 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0xee0
+	.uaword	0xee2
 	.uaword	.LBB32
 	.uaword	.LBE32
 	.byte	0x1
 	.byte	0xa9
 	.uleb128 0x36
-	.uaword	0xf27
+	.uaword	0xf29
 	.byte	0x4
 	.uaword	0x4096cbe4
 	.uleb128 0x36
-	.uaword	0xf1e
+	.uaword	0xf20
 	.byte	0x4
 	.uaword	0x3c75c28f
 	.uleb128 0x36
-	.uaword	0xf15
+	.uaword	0xf17
 	.byte	0x4
 	.uaword	0x421c3333
 	.uleb128 0x29
-	.uaword	0xf0a
+	.uaword	0xf0c
 	.byte	0x3
 	.byte	0x8f
 	.sleb128 36
@@ -2886,143 +2886,143 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x1693
+	.uaword	0x1695
 	.uleb128 0x37
-	.uaword	0xc0c
+	.uaword	0xc0e
 	.uleb128 0x38
 	.byte	0x1
 	.string	"Ifx_AngleTrkF32_step"
 	.byte	0x1
 	.byte	0xca
 	.byte	0x1
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LFB214
 	.uaword	.LFE214
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x181b
+	.uaword	0x181d
 	.uleb128 0x2f
 	.uaword	.LASF13
 	.byte	0x1
 	.byte	0xca
-	.uaword	0xf79
+	.uaword	0xf7b
 	.uaword	.LLST10
 	.uleb128 0x2f
 	.uaword	.LASF8
 	.byte	0x1
 	.byte	0xca
-	.uaword	0x20b
+	.uaword	0x20d
 	.uaword	.LLST11
 	.uleb128 0x2f
 	.uaword	.LASF9
 	.byte	0x1
 	.byte	0xca
-	.uaword	0x20b
+	.uaword	0x20d
 	.uaword	.LLST12
 	.uleb128 0x30
 	.string	"phase"
 	.byte	0x1
 	.byte	0xca
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LLST13
 	.uleb128 0x39
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0xcc
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LLST14
 	.uleb128 0x39
 	.uaword	.LASF12
 	.byte	0x1
 	.byte	0xcc
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LLST15
 	.uleb128 0x3a
 	.string	"dAccel"
 	.byte	0x1
 	.byte	0xcc
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LLST16
 	.uleb128 0x3a
 	.string	"dSpeed"
 	.byte	0x1
 	.byte	0xcc
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LLST17
 	.uleb128 0x3a
 	.string	"dAngle"
 	.byte	0x1
 	.byte	0xcc
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LLST18
 	.uleb128 0x31
-	.uaword	0xf7f
+	.uaword	0xf81
 	.uaword	.LBB34
 	.uaword	.Ldebug_ranges0+0x38
 	.byte	0x1
 	.byte	0xe9
-	.uaword	0x17a5
+	.uaword	0x17a7
 	.uleb128 0x2b
-	.uaword	0xfa7
+	.uaword	0xfa9
 	.uaword	.LLST15
 	.uleb128 0x3b
-	.uaword	0xe92
+	.uaword	0xe94
 	.uaword	.LBB35
 	.uaword	.Ldebug_ranges0+0x38
 	.byte	0x1
 	.byte	0x4a
 	.uleb128 0x2b
-	.uaword	0xec2
+	.uaword	0xec4
 	.uaword	.LLST20
 	.uleb128 0x2b
-	.uaword	0xeb5
+	.uaword	0xeb7
 	.uaword	.LLST21
 	.uleb128 0x3c
 	.uaword	.Ldebug_ranges0+0x38
 	.uleb128 0x3d
-	.uaword	0xecd
+	.uaword	0xecf
 	.uaword	.LLST22
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x31
-	.uaword	0xf7f
+	.uaword	0xf81
 	.uaword	.LBB39
 	.uaword	.Ldebug_ranges0+0x50
 	.byte	0x1
 	.byte	0xec
-	.uaword	0x17f3
+	.uaword	0x17f5
 	.uleb128 0x2b
-	.uaword	0xfa7
+	.uaword	0xfa9
 	.uaword	.LLST23
 	.uleb128 0x3b
-	.uaword	0xe92
+	.uaword	0xe94
 	.uaword	.LBB40
 	.uaword	.Ldebug_ranges0+0x50
 	.byte	0x1
 	.byte	0x4a
 	.uleb128 0x2b
-	.uaword	0xec2
+	.uaword	0xec4
 	.uaword	.LLST24
 	.uleb128 0x2b
-	.uaword	0xeb5
+	.uaword	0xeb7
 	.uaword	.LLST25
 	.uleb128 0x3c
 	.uaword	.Ldebug_ranges0+0x50
 	.uleb128 0x3d
-	.uaword	0xecd
+	.uaword	0xecf
 	.uaword	.LLST26
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x3e
 	.uaword	.LVL41
-	.uaword	0x19bd
+	.uaword	0x19bf
 	.uleb128 0x3f
 	.uaword	.LVL55
-	.uaword	0x19ee
-	.uaword	0x1811
+	.uaword	0x19f0
+	.uaword	0x1813
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x64
@@ -3032,7 +3032,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0
 	.uleb128 0x3e
 	.uaword	.LVL61
-	.uaword	0x19bd
+	.uaword	0x19bf
 	.byte	0
 	.uleb128 0x26
 	.byte	0x1
@@ -3045,67 +3045,67 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x18ed
+	.uaword	0x18ef
 	.uleb128 0x25
 	.uaword	.LASF13
 	.byte	0x1
 	.uahalf	0x117
-	.uaword	0xf79
+	.uaword	0xf7b
 	.uaword	.LLST27
 	.uleb128 0x40
 	.string	"base"
 	.byte	0x1
 	.uahalf	0x119
-	.uaword	0x101f
+	.uaword	0x1021
 	.uaword	.LLST27
 	.uleb128 0x41
 	.uaword	.LASF12
 	.byte	0x1
 	.uahalf	0x11a
-	.uaword	0x266
+	.uaword	0x268
 	.uaword	.LLST29
 	.uleb128 0x1d
 	.string	"newPosition"
 	.byte	0x1
 	.uahalf	0x11c
-	.uaword	0x52d
+	.uaword	0x52f
 	.uleb128 0x42
-	.uaword	0xfb5
+	.uaword	0xfb7
 	.uaword	.LBB46
 	.uaword	.Ldebug_ranges0+0x68
 	.byte	0x1
 	.uahalf	0x120
-	.uaword	0x18d0
+	.uaword	0x18d2
 	.uleb128 0x2b
-	.uaword	0xff5
+	.uaword	0xff7
 	.uaword	.LLST30
 	.uleb128 0x2b
-	.uaword	0xfe9
+	.uaword	0xfeb
 	.uaword	.LLST31
 	.uleb128 0x29
-	.uaword	0xfdd
+	.uaword	0xfdf
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x3c
 	.uaword	.Ldebug_ranges0+0x68
 	.uleb128 0x43
-	.uaword	0x1001
+	.uaword	0x1003
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x3d
-	.uaword	0x100e
+	.uaword	0x1010
 	.uaword	.LLST32
 	.byte	0
 	.byte	0
 	.uleb128 0x44
 	.uaword	.LVL65
-	.uaword	0x1698
+	.uaword	0x169a
 	.uleb128 0x34
 	.byte	0x1
 	.byte	0x56
 	.byte	0x8
 	.byte	0xf4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x4
 	.uaword	0
 	.uleb128 0x34
@@ -3117,29 +3117,29 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0
 	.byte	0
 	.uleb128 0x2a
-	.uaword	0xfb5
+	.uaword	0xfb7
 	.uaword	.LFB216
 	.uaword	.LFE216
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x192b
+	.uaword	0x192d
 	.uleb128 0x29
-	.uaword	0xfdd
+	.uaword	0xfdf
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x2b
-	.uaword	0xfe9
+	.uaword	0xfeb
 	.uaword	.LLST33
 	.uleb128 0x2b
-	.uaword	0xff5
+	.uaword	0xff7
 	.uaword	.LLST34
 	.uleb128 0x43
-	.uaword	0x1001
+	.uaword	0x1003
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3d
-	.uaword	0x100e
+	.uaword	0x1010
 	.uaword	.LLST35
 	.byte	0
 	.uleb128 0x21
@@ -3148,31 +3148,31 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x1
 	.uahalf	0x195
 	.byte	0x1
-	.uaword	0x27f
+	.uaword	0x281
 	.uaword	.LFB233
 	.uaword	.LFE233
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1980
+	.uaword	0x1982
 	.uleb128 0x27
 	.string	"stdif"
 	.byte	0x1
 	.uahalf	0x195
-	.uaword	0x1980
+	.uaword	0x1982
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x22
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x195
-	.uaword	0xf79
+	.uaword	0xf7b
 	.byte	0x1
 	.byte	0x65
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x54a
+	.uaword	0x54c
 	.uleb128 0x45
 	.byte	0x1
 	.string	"Ifx_LowPassPt1F32_init"
@@ -3180,30 +3180,30 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x3f
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x19b2
+	.uaword	0x19b4
 	.uleb128 0x7
-	.uaword	0xe8c
+	.uaword	0xe8e
 	.uleb128 0x7
-	.uaword	0x19b2
+	.uaword	0x19b4
 	.byte	0
 	.uleb128 0x5
 	.byte	0x4
-	.uaword	0x19b8
+	.uaword	0x19ba
 	.uleb128 0x37
-	.uaword	0xb3d
+	.uaword	0xb3f
 	.uleb128 0x46
 	.byte	0x1
 	.string	"Ifx_LutAtan2F32_float32"
 	.byte	0x7
 	.byte	0x36
 	.byte	0x1
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x1
-	.uaword	0x19ee
+	.uaword	0x19f0
 	.uleb128 0x7
-	.uaword	0x266
+	.uaword	0x268
 	.uleb128 0x7
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.uleb128 0x47
 	.byte	0x1
@@ -3211,12 +3211,12 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.byte	0x2
 	.byte	0x41
 	.byte	0x1
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0x1
 	.uleb128 0x7
-	.uaword	0xe8c
+	.uaword	0xe8e
 	.uleb128 0x7
-	.uaword	0x266
+	.uaword	0x268
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -4283,7 +4283,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -4299,7 +4299,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -4315,7 +4315,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x6
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -4463,7 +4463,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x6
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x9f
 	.uaword	.LVL58
 	.uaword	.LVL61-1
@@ -4480,7 +4480,7 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x6
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -4526,12 +4526,12 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.uahalf	0xc
 	.byte	0xf5
 	.uleb128 0x3
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x8f
 	.sleb128 40
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x1e
 	.byte	0x9f
 	.uaword	.LVL47
@@ -4541,12 +4541,12 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.sleb128 96
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x8f
 	.sleb128 40
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x1e
 	.byte	0x9f
 	.uaword	.LVL56
@@ -4556,12 +4556,12 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.sleb128 96
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x8f
 	.sleb128 40
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x1e
 	.byte	0x9f
 	.uaword	.LVL62
@@ -4571,12 +4571,12 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.sleb128 96
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x8f
 	.sleb128 40
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x1e
 	.byte	0x9f
 	.uaword	0
@@ -4587,16 +4587,16 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.uahalf	0x11
 	.byte	0xf5
 	.uleb128 0x3
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x8f
 	.sleb128 36
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x1e
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x22
 	.byte	0x9f
 	.uaword	.LVL45
@@ -4691,12 +4691,12 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.sleb128 76
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x8f
 	.sleb128 80
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x1c
 	.byte	0x9f
 	.uaword	.LVL62
@@ -4710,12 +4710,12 @@ Ifx_AngleTrkF32_stdIfPosInit:
 	.sleb128 76
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x8f
 	.sleb128 80
 	.byte	0xf6
 	.byte	0x4
-	.uleb128 0x1ba
+	.uleb128 0x1bc
 	.byte	0x1c
 	.byte	0x9f
 	.uaword	0
