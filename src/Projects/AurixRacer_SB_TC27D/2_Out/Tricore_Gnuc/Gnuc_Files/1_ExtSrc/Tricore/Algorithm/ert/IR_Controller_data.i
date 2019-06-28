@@ -31854,8 +31854,12 @@ extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
 # 66 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
-extern void InfineonRacer_detectLane(void);
+extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
+
+extern void median_filter(void);
+extern void convolutionOP(void);
+extern void getLineData (void);
 # 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_private.h" 2
 # 22 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_data.c" 2
 

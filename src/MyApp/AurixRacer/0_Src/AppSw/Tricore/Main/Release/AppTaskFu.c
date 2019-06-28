@@ -13,6 +13,8 @@ boolean task_flag_1000m = FALSE;
 
 float32 testVol = -1;
 
+Global_flag Test_flag
+    = {FALSE, FALSE};
 
 
 
@@ -68,7 +70,10 @@ void appTaskfu_10ms(void)
 
 	if(task_cnt_10m%2 == 0){
 		BasicLineScan_run();
-		InfineonRacer_detectLane();
+		median_filter();
+		convolutionOP();
+		getLineData();
+		//InfineonRacer_detectLane();
 		BasicPort_run();
 		BasicGtmTom_run();
 		BasicVadcBgScan_run();

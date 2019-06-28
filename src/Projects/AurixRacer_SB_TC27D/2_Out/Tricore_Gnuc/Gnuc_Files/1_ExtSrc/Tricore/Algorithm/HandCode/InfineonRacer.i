@@ -16920,8 +16920,12 @@ extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
 # 66 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
-extern void InfineonRacer_detectLane(void);
+extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
+
+extern void median_filter(void);
+extern void convolutionOP(void);
+extern void getLineData (void);
 # 5 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 1
 
@@ -31707,15 +31711,86 @@ void SpeedCalculation(void);
 # 23 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
 InfineonRacer_t IR_Ctrl
   ={64, 64, 0 };
-# 36 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
+LineData IR_LineData
+  ={0,{-1,0,1},0,0,0,0,0};
+# 38 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
 void InfineonRacer_init(void){
  ;
 }
 
 void InfineonRacer_detectLane(){
-# 50 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
+
+
+
+
+
+
 }
 
 void InfineonRacer_control(void){
  ;
+}
+
+
+void convolutionOP(void){
+    uint32 n;
+    for (n = 0; n < 128 + 3 - 1; n++)
+  {
+    uint32 kmin, kmax, k;
+
+    IR_LineData.Result[n] = 0;
+
+    kmin = (n >= 3 - 1) ? n - (3 - 1) : 0;
+    kmax = (n < 128 - 1) ? n : 128 - 1;
+
+    for (k = kmin; k <= kmax; k++)
+    {
+     IR_LineData.Result[n] += IR_LineScan.adcResult[0][k] * IR_LineData.Transfer[n - k];
+    }
+  }
+}
+
+
+void median_filter(void) {
+ for (uint32 i = (5 / 2); i < 128 - (5 / 2); i++) {
+       for (uint32 j = -(5 / 2); j <= 5 / 2; j++) {
+           IR_LineData.sample[j + (5 / 2)] = IR_LineScan.adcResult[0][i + j];
+           if (j == 5 / 2) {
+               for (uint32 m = 0; m < 5 - 1; m++) {
+                   for (uint32 n = m + 1; n < 5; n++) {
+                       if (IR_LineData.sample[m] < IR_LineData.sample[n]) {
+                           IR_LineData.temp = IR_LineData.sample[m];
+                           IR_LineData.sample[m] = IR_LineData.sample[n];
+                           IR_LineData.sample[n] = IR_LineData.temp;
+                       }
+                   }
+               }
+               IR_LineScan.adcResult[0][i] = IR_LineData.sample[j];
+           }
+       }
+   }
+}
+
+void getLineData (void){
+  uint32 index = 0;
+   uint16 pixelCounter = 0;
+
+
+
+   index = 0;
+
+   for(index = 5; index < 128 - 5; index++){
+           if(IR_LineData.Result[index] == 0){
+               if(pixelCounter == 0){
+                   IR_LineData.head = index;
+                   pixelCounter++;
+               }
+               else if(pixelCounter == 1){
+                   pixelCounter++;
+               }
+               else{
+                   IR_LineData.tail = index;
+               }
+           }
+   }
 }

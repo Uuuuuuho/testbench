@@ -163,7 +163,7 @@ void BasicGpt12Enc_run(void){
 }
 
 void SpeedCalculation(void){
-    IR_Encoder.speed = IR_Encoder.speed * 22 * 3.6 / PI;
+    IR_Encoder.speed = IR_Encoder.speed * 0.22 * 3.6 / PI;
 }
 
 /******************************************************************************/

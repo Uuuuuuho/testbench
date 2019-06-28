@@ -19,7 +19,8 @@
 #define SignalLen LINEMAX
 #define MEDIAN_SIZE 5
 #define IGNOREIDX 5
-
+#define LEFTLINESCAN 0  //linescanner index
+#define RIGHTLINESCAN 1 //linescanner index
 
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
@@ -64,12 +65,12 @@ IFX_EXTERN LineData IR_LineData;
 /*-------------------------Function Prototypes--------------------------------*/
 /******************************************************************************/
 IFX_EXTERN void InfineonRacer_init(void);
-IFX_EXTERN void InfineonRacer_detectLane(void);
+IFX_EXTERN void InfineonRacer_detectLane();
 IFX_EXTERN void InfineonRacer_control(void);
 
-//IFX_EXTERN void median_filter(void);
-//IFX_EXTERN void convolutionOP(void);
-//IFX_EXTERN void getLineData (void);
+IFX_EXTERN void median_filter(void);
+IFX_EXTERN void convolutionOP(void);
+IFX_EXTERN void getLineData (void);
 
 
 #endif

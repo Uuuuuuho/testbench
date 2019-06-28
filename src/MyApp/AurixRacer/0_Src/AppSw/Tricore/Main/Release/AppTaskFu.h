@@ -28,8 +28,13 @@ void appTaskfu_1000ms(void);
 void appTaskfu_idle(void);
 void appIsrCb_1ms(void);
 
+typedef struct{
+    boolean AEB_flag;
+    boolean Avoid_flag;
+}Global_flag;
 
-
+//global variable
+Global_flag Test_flag;
 
 
 
