@@ -39,6 +39,9 @@ void InfineonRacer_init(void){
     IR_LineData.Transfer[0] = -1;
     IR_LineData.Transfer[1] = 0;
     IR_LineData.Transfer[2] = 1;
+    
+    IR_LineData.School_Zone_flag = FALSE;
+    
 }
 
 void InfineonRacer_detectLane(){
@@ -105,16 +108,16 @@ void median_filter(void) {
 	  }
 }
 
-void getLineData (void){
+void getLineData (void){    //left linescanner only
     uint32 index = 0;
-	uint16 pixelCounter = 0;
+	uint32 pixelCounter = 0;
 
 
 
 	index = 0;
 
 	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-        if(IR_LineData.Result[index] < 0){
+        if(IR_LineData.Result[index - 1] > 0 && IR_LineData.Result[index] < 0){
             if(pixelCounter == 0){
                 IR_LineData.head = index;
                 pixelCounter++;
@@ -122,19 +125,30 @@ void getLineData (void){
             
             else if(pixelCounter == 2){
                 IR_LineData.tail = index;
+                pixelCounter++;
+                
             }
         }
-        if(IR_LineData.Result[index] > 0){
+        if(IR_LineData.Result[index - 1] < 0 && IR_LineData.Result[index] > 0){
             if(pixelCounter == 1){
+                IR_LineData.center = index;
                 pixelCounter++;
             }
+            else if (pixelCounter == 3)
+                IR_LineData.School_Zone_flag = TRUE;
         }
     }
 
-    IR_LineData.center = (IR_LineData.head + IR_LineData.tail) / 2;
 }
 
-
+uint32 Direction(void){
+    if(IR_LineData.center < CENTER_INDEX-BOUNDARY)
+        return TURN_LEFT;
+    else if(IR_LineData.center > CENTER_INDEX-BOUNDARY)
+        return TURN_RIGHT;
+    else 
+        return STAY;
+}
 
 
 

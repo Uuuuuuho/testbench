@@ -10,12 +10,9 @@ boolean task_flag_10m = FALSE;
 boolean task_flag_100m = FALSE;
 boolean task_flag_1000m = FALSE;
 
-boolean Turn_Left_flag = FALSE;
-boolean Turn_Right_flag = FALSE;
-
 float32 testVol = -0.5;
 float32 testSrv = 0;
-float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0;
+float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0, NextVol = 0;
 
 
 
@@ -68,16 +65,14 @@ void appTaskfu_10ms(void)
     //empty buffer after calculating average of speed
 //    Speed_Avg();
     IR_Encoder.buff = 0;
-    
+#if ENCODER_TEST == ON
 	IR_setMotor0Vol(testVol);
-    /*
-    if(Turn_Left_flag){
-    	IR_setMotor0Vol(-0.2);        
-    }
-    if(Turn_Right_flag){
-    	IR_setMotor0Vol(0.2);
-    }
-    */
+#endif
+
+#if PID_TEST == ON
+    IR_setMotor0Vol(NextVol);   //calculated by PID & Speed2Vol(void)
+#endif
+
     
 	if(task_cnt_10m == 1000){
 		task_cnt_10m = 0;
@@ -90,8 +85,11 @@ void appTaskfu_10ms(void)
         
         BasicGtmTom_run();
 		BasicPort_run();
-		BasicVadcBgScan_run();
 
+        //checking PSD
+        BasicVadcBgScan_run();
+        Checking_PSD();
+        
 		if(IR_Ctrl.basicTest == FALSE){
 			#if CODE == CODE_HAND
 				InfineonRacer_control();
@@ -115,8 +113,27 @@ void appTaskfu_100ms(void)
     convolutionOP();
 	getLineData();
     
-    printf("%f\n", IR_Encoder.speed);
+    switch(Direction()){//determine wheel direction
+        case 0 : //STAY
+        	IR_setSrvAngle(-0.4);   //gotta figure out which angle mapping to center of the wheel
+            break;
+        case 1 : //TURN_LEFT
+        	IR_setSrvAngle(-0.2);
+            break;
+        case 2 : //TURN_RIGHT
+        	IR_setSrvAngle(-0.6);
+            break;
+    }
+
+#if PID_TEST == ON
+    PID(void);
+    Speed2Vol(void);
     
+#endif
+#if ENCODER_TEST == ON
+    printf("%f\n", IR_Encoder.speed);
+#endif
+
 	if(task_cnt_100m == 1000){
 		task_cnt_100m = 0;
 	}
@@ -137,7 +154,7 @@ void appTaskfu_1000ms(void)
 {
 	task_cnt_1000m++;
     
-    
+#if ENCODER_TEST == ON
     if(task_cnt_1000m % 2 == 0){
         testSrv = -0.3;
     }
@@ -154,6 +171,7 @@ void appTaskfu_1000ms(void)
 	if(testVol > 0.5)
 		testVol = -1;
 
+#endif
 
 	//IR_setMotor0Vol(testVol);
 	//testVol++;
@@ -167,7 +185,9 @@ void appTaskfu_1000ms(void)
 	}
 	//printf("1000ms!\n");
 
+#if ENCODER_TEST == ON
 	IR_setSrvAngle(testSrv);
+#endif
 
 }
 
@@ -193,7 +213,10 @@ void PID(void){
     Current_Speed = Current_Speed + Kp * error;
 }
 
-
+void Speed2Vol(void){
+    //write equation to convert 'Current_Speed' to Vol through the linear equation
+    //NextVol = ~~~
+}
 
 
 

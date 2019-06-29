@@ -30,6 +30,7 @@
 #define IR_getBeeperOn() 	IR_Beeper.On
 #define IR_getBeeperFreq() 	IR_Beeper.Frequency
 #define IR_getBeeperVol()  	IR_Beeper.Volume
+
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/
@@ -46,6 +47,7 @@ typedef struct{
 
 typedef struct{
 	float32 Angle;
+    char_T Direction;
 }IR_Srv_t;
 
 typedef struct{

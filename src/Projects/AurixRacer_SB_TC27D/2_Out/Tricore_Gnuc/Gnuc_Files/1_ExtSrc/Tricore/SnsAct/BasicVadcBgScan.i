@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.c"
-# 1 "C:\\Users\\JB\\Documents\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\user\\Documents\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.c"
@@ -16205,7 +16205,15 @@ static inline __attribute__ ((always_inline)) Ifx_VADC_G_RESD IfxVadc_Adc_getDeb
     return IfxVadc_getDebugResult(channel->group->group, channel->resultreg);
 }
 # 16 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h" 2
-# 34 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h"
+# 32 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h"
+typedef struct{
+ uint16 PSD_counter;
+    boolean Stop;
+}IR_PSD_cnt;
+
+
+
+
 extern float32 IR_AdcResult[];
 
 
@@ -16215,6 +16223,7 @@ extern float32 IR_AdcResult[];
 
 extern void BasicVadcBgScan_init(void);
 extern void BasicVadcBgScan_run(void);
+extern void Checking_PSD(void);
 # 14 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.c" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Cfg_Illd/Configuration.h" 1
 # 13 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Cfg_Illd/Configuration.h"
@@ -27293,7 +27302,9 @@ static uint32 adcChannelNum[4] = {
 
 
 float32 IR_AdcResult[4];
-# 69 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.c"
+
+IR_PSD_cnt IR_PSD_counter;
+# 70 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.c"
 void BasicVadcBgScan_init(void)
 {
 
@@ -27381,4 +27392,12 @@ void BasicVadcBgScan_run(void)
    IR_AdcResult[chnIx] = (float32) conversionResult.B.RESULT / 4095;
 
         }
+}
+
+void Checking_PSD(void){
+    if(IR_AdcResult[1] > 0.4)
+        IR_PSD_counter.PSD_counter++;
+
+    if(IR_PSD_counter.PSD_counter > 10)
+        IR_PSD_counter.Stop = 1;
 }

@@ -14,12 +14,16 @@ InfineonRacer_init:
 	movh.a	%a15, hi:IR_LineData
 	lea	%a15, [%a15] lo:IR_LineData
 	st.w	[%a15] 520, %d15
+	.loc 1 41 0
+	mov	%d2, 1
 	.loc 1 40 0
 	mov	%d15, 0
-	st.w	[%a15] 524, %d15
 	.loc 1 41 0
-	mov	%d15, 1
-	st.w	[%a15] 528, %d15
+	st.w	[%a15] 528, %d2
+	.loc 1 40 0
+	st.w	[%a15] 524, %d15
+	.loc 1 43 0
+	st.b	[%a15] 572, %d15
 	ret
 .LFE577:
 	.size	InfineonRacer_init, .-InfineonRacer_init
@@ -29,7 +33,7 @@ InfineonRacer_init:
 	.type	InfineonRacer_detectLane, @function
 InfineonRacer_detectLane:
 .LFB578:
-	.loc 1 44 0
+	.loc 1 47 0
 	ret
 .LFE578:
 	.size	InfineonRacer_detectLane, .-InfineonRacer_detectLane
@@ -39,7 +43,7 @@ InfineonRacer_detectLane:
 	.type	InfineonRacer_control, @function
 InfineonRacer_control:
 .LFB579:
-	.loc 1 53 0
+	.loc 1 56 0
 	ret
 .LFE579:
 	.size	InfineonRacer_control, .-InfineonRacer_control
@@ -49,29 +53,29 @@ InfineonRacer_control:
 	.type	Line_Buffer, @function
 Line_Buffer:
 .LFB580:
-	.loc 1 57 0
+	.loc 1 60 0
 .LVL0:
 	movh.a	%a3, hi:IR_LineScan
 .LBB2:
-	.loc 1 58 0
+	.loc 1 61 0
 	mov	%d15, 5
 	lea	%a3, [%a3] lo:IR_LineScan
 	lea	%a15, 117
 .LVL1:
 .L5:
-	.loc 1 59 0 discriminator 3
+	.loc 1 62 0 discriminator 3
 	addsc.a	%a2, %a3, %d15, 2
-	.loc 1 58 0 discriminator 3
+	.loc 1 61 0 discriminator 3
 	add	%d15, 1
 .LVL2:
-	.loc 1 59 0 discriminator 3
+	.loc 1 62 0 discriminator 3
 	ld.w	%d2, [%a2]0
 	sh	%d2, 1
 	st.w	[%a2]0, %d2
-	.loc 1 58 0 discriminator 3
+	.loc 1 61 0 discriminator 3
 	loop	%a15, .L5
 .LBE2:
-	.loc 1 61 0
+	.loc 1 64 0
 	ret
 .LFE580:
 	.size	Line_Buffer, .-Line_Buffer
@@ -81,32 +85,32 @@ Line_Buffer:
 	.type	Line_avgerage, @function
 Line_avgerage:
 .LFB581:
-	.loc 1 63 0
+	.loc 1 66 0
 .LVL3:
 	movh.a	%a3, hi:IR_LineScan
 .LBB3:
-	.loc 1 64 0
+	.loc 1 67 0
 	mov	%d15, 5
 	lea	%a3, [%a3] lo:IR_LineScan
 	lea	%a15, 117
 .LVL4:
 .L9:
-	.loc 1 65 0 discriminator 3
+	.loc 1 68 0 discriminator 3
 	addsc.a	%a2, %a3, %d15, 2
 	movh	%d2, 52429
 	ld.w	%d3, [%a2]0
 	addi	%d2, %d2, -13107
 	mul.u	%e2, %d3, %d2
-	.loc 1 64 0 discriminator 3
+	.loc 1 67 0 discriminator 3
 	add	%d15, 1
 .LVL5:
-	.loc 1 65 0 discriminator 3
+	.loc 1 68 0 discriminator 3
 	sh	%d2, %d3, -3
 	st.w	[%a2]0, %d2
-	.loc 1 64 0 discriminator 3
+	.loc 1 67 0 discriminator 3
 	loop	%a15, .L9
 .LBE3:
-	.loc 1 67 0
+	.loc 1 70 0
 	ret
 .LFE581:
 	.size	Line_avgerage, .-Line_avgerage
@@ -116,62 +120,62 @@ Line_avgerage:
 	.type	convolutionOP, @function
 convolutionOP:
 .LFB582:
-	.loc 1 69 0
+	.loc 1 72 0
 .LVL6:
 	movh.a	%a3, hi:IR_LineData
 	lea	%a3, [%a3] lo:IR_LineData
 	movh.a	%a4, hi:IR_LineScan
-	.loc 1 71 0
+	.loc 1 74 0
 	mov	%d7, 0
 .LBB4:
-	.loc 1 75 0
+	.loc 1 78 0
 	mov	%d1, 0
 	lea	%a4, [%a4] lo:IR_LineScan
-	.loc 1 82 0
+	.loc 1 85 0
 	mov.d	%d8, %a3
 	lea	%a5, 129
 .LVL7:
 .L14:
-	.loc 1 75 0
+	.loc 1 78 0
 	sh	%d0, %d7, 2
 	addsc.a	%a15, %a3, %d0, 0
 	st.w	[%a15]0, %d1
-	.loc 1 77 0
+	.loc 1 80 0
 	jlt.u	%d7, 2, .L12
-	.loc 1 77 0 is_stmt 0 discriminator 1
+	.loc 1 80 0 is_stmt 0 discriminator 1
 	add	%d15, %d7, -2
 .LVL8:
-	.loc 1 78 0 is_stmt 1 discriminator 1
+	.loc 1 81 0 is_stmt 1 discriminator 1
 	min.u	%d4, %d7, 127
 .LVL9:
-	.loc 1 80 0 discriminator 1
+	.loc 1 83 0 discriminator 1
 	jlt.u	%d4, %d15, .L17
 .LVL10:
 .L13:
 	sub	%d3, %d7, %d15
-	.loc 1 77 0 discriminator 3
+	.loc 1 80 0 discriminator 3
 	mov	%d2, 0
 .LVL11:
 .L16:
-	.loc 1 82 0 discriminator 3
+	.loc 1 85 0 discriminator 3
 	addsc.a	%a2, %a3, %d3, 2
 	addsc.a	%a15, %a4, %d15, 2
 	ld.w	%d6, [%a2] 520
 	ld.w	%d5, [%a15]0
-	.loc 1 80 0 discriminator 3
+	.loc 1 83 0 discriminator 3
 	add	%d15, 1
 .LVL12:
-	.loc 1 82 0 discriminator 3
+	.loc 1 85 0 discriminator 3
 	madd	%d2, %d2, %d6, %d5
 	add	%d3, -1
-	.loc 1 80 0 discriminator 3
+	.loc 1 83 0 discriminator 3
 	jge.u	%d4, %d15, .L16
 	mov.a	%a2, %d8
 	addsc.a	%a15, %a2, %d0, 0
 	st.w	[%a15]0, %d2
 .L17:
 .LBE4:
-	.loc 1 71 0
+	.loc 1 74 0
 	add	%d7, 1
 .LVL13:
 	loop	%a5, .L14
@@ -179,10 +183,10 @@ convolutionOP:
 .LVL14:
 .L12:
 .LBB5:
-	.loc 1 78 0
+	.loc 1 81 0
 	min.u	%d4, %d7, 127
 .LVL15:
-	.loc 1 77 0
+	.loc 1 80 0
 	mov	%d15, 0
 	j	.L13
 .LBE5:
@@ -194,7 +198,7 @@ convolutionOP:
 	.type	median_filter, @function
 median_filter:
 .LFB583:
-	.loc 1 88 0
+	.loc 1 91 0
 .LVL16:
 	ret
 .LFE583:
@@ -205,26 +209,43 @@ median_filter:
 	.type	getLineData, @function
 getLineData:
 .LFB584:
-	.loc 1 108 0
+	.loc 1 111 0
 .LVL17:
-	.loc 1 134 0
-	movh.a	%a15, hi:IR_LineData
-	lea	%a15, [%a15] lo:IR_LineData
-	ld.hu	%d2, [%a15] 558
-	ld.hu	%d15, [%a15] 560
-	add	%d15, %d2
-	sha	%d15, -1
-	st.h	[%a15] 562, %d15
 	ret
 .LFE584:
 	.size	getLineData, .-getLineData
+.section .text.Direction,"ax",@progbits
+	.align 1
+	.global	Direction
+	.type	Direction, @function
+Direction:
+.LFB585:
+	.loc 1 144 0
+	.loc 1 145 0
+	movh.a	%a15, hi:IR_LineData
+	lea	%a15, [%a15] lo:IR_LineData
+	ld.w	%d3, [%a15] 568
+	.loc 1 146 0
+	mov	%d2, 1
+	.loc 1 145 0
+	lt.u	%d15, %d3, 54
+	jnz	%d15, .L24
+	.loc 1 147 0
+	ne	%d2, %d3, 54
+	.loc 1 150 0
+	sh	%d2, 1
+.L24:
+	.loc 1 151 0
+	ret
+.LFE585:
+	.size	Direction, .-Direction
 	.global	IR_LineData
 .section .bss.IR_LineData,"aw",@nobits
 	.align 2
 	.type	IR_LineData, @object
-	.size	IR_LineData, 564
+	.size	IR_LineData, 576
 IR_LineData:
-	.zero	564
+	.zero	576
 	.global	IR_Ctrl
 .section .data.IR_Ctrl,"aw",@progbits
 	.align 2
@@ -314,6 +335,14 @@ IR_Ctrl:
 	.uaword	.LFE584-.LFB584
 	.align 2
 .LEFDE14:
+.LSFDE16:
+	.uaword	.LEFDE16-.LASFDE16
+.LASFDE16:
+	.uaword	.Lframe0
+	.uaword	.LFB585
+	.uaword	.LFE585-.LFB585
+	.align 2
+.LEFDE16:
 .section .text,"ax",@progbits
 .Letext0:
 	.file 2 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h"
@@ -324,7 +353,7 @@ IR_Ctrl:
 	.file 7 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Assert.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x6f6
+	.uaword	0x72a
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -332,7 +361,7 @@ IR_Ctrl:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\user\\\\Documents\\\\GitHub\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0x18
 	.uaword	0
 	.uaword	0
@@ -361,11 +390,6 @@ IR_Ctrl:
 	.byte	0x2
 	.byte	0x5
 	.string	"short int"
-	.uleb128 0x3
-	.string	"uint16"
-	.byte	0x2
-	.byte	0x5b
-	.uaword	0x20e
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -374,17 +398,17 @@ IR_Ctrl:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x5c
-	.uaword	0x1ab
+	.uaword	0x1b5
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x1b7
+	.uaword	0x1c1
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x2
 	.byte	0x5e
-	.uaword	0x24f
+	.uaword	0x24b
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -397,7 +421,7 @@ IR_Ctrl:
 	.string	"boolean"
 	.byte	0x2
 	.byte	0x68
-	.uaword	0x1e2
+	.uaword	0x1ec
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -412,31 +436,31 @@ IR_Ctrl:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2aa
+	.uaword	0x2a6
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x3
 	.byte	0x7e
-	.uaword	0x2cf
+	.uaword	0x2cb
 	.uleb128 0x7
 	.string	"module"
 	.byte	0x3
 	.byte	0x80
-	.uaword	0x2a4
+	.uaword	0x2a0
 	.byte	0
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x81
-	.uaword	0x224
+	.uaword	0x220
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x2ab
+	.uaword	0x2a7
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -448,117 +472,123 @@ IR_Ctrl:
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0x4
-	.byte	0x23
-	.uaword	0x344
+	.byte	0x2a
+	.uaword	0x340
 	.uleb128 0x7
 	.string	"Ls0Margin"
 	.byte	0x4
-	.byte	0x24
-	.uaword	0x224
+	.byte	0x2b
+	.uaword	0x220
 	.byte	0
 	.uleb128 0x7
 	.string	"Ls1Margin"
 	.byte	0x4
-	.byte	0x25
-	.uaword	0x224
+	.byte	0x2c
+	.uaword	0x220
 	.byte	0x4
 	.uleb128 0x7
 	.string	"basicTest"
 	.byte	0x4
-	.byte	0x26
-	.uaword	0x262
+	.byte	0x2d
+	.uaword	0x25e
 	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"InfineonRacer_t"
 	.byte	0x4
-	.byte	0x27
-	.uaword	0x305
+	.byte	0x2e
+	.uaword	0x301
 	.uleb128 0x9
-	.uahalf	0x234
+	.uahalf	0x240
 	.byte	0x4
-	.byte	0x29
-	.uaword	0x3e4
+	.byte	0x30
+	.uaword	0x3fa
 	.uleb128 0x7
 	.string	"Result"
 	.byte	0x4
-	.byte	0x2a
-	.uaword	0x3e4
+	.byte	0x31
+	.uaword	0x3fa
 	.byte	0
 	.uleb128 0xa
 	.string	"Transfer"
 	.byte	0x4
-	.byte	0x2b
-	.uaword	0x3f4
+	.byte	0x32
+	.uaword	0x40a
 	.uahalf	0x208
 	.uleb128 0xa
 	.string	"sample"
 	.byte	0x4
-	.byte	0x2d
-	.uaword	0x404
+	.byte	0x34
+	.uaword	0x41a
 	.uahalf	0x214
 	.uleb128 0xa
 	.string	"temp"
 	.byte	0x4
-	.byte	0x2e
-	.uaword	0x240
+	.byte	0x35
+	.uaword	0x23c
 	.uahalf	0x228
 	.uleb128 0xa
 	.string	"LineAmount"
 	.byte	0x4
-	.byte	0x31
-	.uaword	0x200
+	.byte	0x38
+	.uaword	0x22e
 	.uahalf	0x22c
 	.uleb128 0xa
 	.string	"head"
 	.byte	0x4
-	.byte	0x32
-	.uaword	0x200
-	.uahalf	0x22e
+	.byte	0x39
+	.uaword	0x22e
+	.uahalf	0x230
 	.uleb128 0xa
 	.string	"tail"
 	.byte	0x4
-	.byte	0x33
-	.uaword	0x200
-	.uahalf	0x230
+	.byte	0x3a
+	.uaword	0x22e
+	.uahalf	0x234
 	.uleb128 0xa
 	.string	"center"
 	.byte	0x4
-	.byte	0x34
-	.uaword	0x200
-	.uahalf	0x232
+	.byte	0x3b
+	.uaword	0x22e
+	.uahalf	0x238
+	.uleb128 0xa
+	.string	"School_Zone_flag"
+	.byte	0x4
+	.byte	0x3d
+	.uaword	0x25e
+	.uahalf	0x23c
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x232
-	.uaword	0x3f4
+	.uaword	0x22e
+	.uaword	0x40a
 	.uleb128 0xc
-	.uaword	0x2f9
+	.uaword	0x2f5
 	.byte	0x81
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x232
-	.uaword	0x404
+	.uaword	0x22e
+	.uaword	0x41a
 	.uleb128 0xc
-	.uaword	0x2f9
+	.uaword	0x2f5
 	.byte	0x2
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x232
-	.uaword	0x414
+	.uaword	0x22e
+	.uaword	0x42a
 	.uleb128 0xc
-	.uaword	0x2f9
+	.uaword	0x2f5
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"LineData"
 	.byte	0x4
-	.byte	0x35
-	.uaword	0x35b
+	.byte	0x3e
+	.uaword	0x357
 	.uleb128 0xd
 	.byte	0x1
 	.byte	0x6
 	.byte	0x76
-	.uaword	0x474
+	.uaword	0x48a
 	.uleb128 0xe
 	.string	"IfxCpu_Index_0"
 	.sleb128 0
@@ -576,29 +606,29 @@ IR_Ctrl:
 	.uahalf	0x400
 	.byte	0x5
 	.byte	0x1b
-	.uaword	0x490
+	.uaword	0x4a6
 	.uleb128 0x7
 	.string	"adcResult"
 	.byte	0x5
 	.byte	0x1c
-	.uaword	0x490
+	.uaword	0x4a6
 	.byte	0
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x232
-	.uaword	0x4a6
+	.uaword	0x22e
+	.uaword	0x4bc
 	.uleb128 0xc
-	.uaword	0x2f9
+	.uaword	0x2f5
 	.byte	0x1
 	.uleb128 0xc
-	.uaword	0x2f9
+	.uaword	0x2f5
 	.byte	0x7f
 	.byte	0
 	.uleb128 0x3
 	.string	"IR_LineScan_t"
 	.byte	0x5
 	.byte	0x1d
-	.uaword	0x474
+	.uaword	0x48a
 	.uleb128 0xf
 	.byte	0x1
 	.string	"InfineonRacer_init"
@@ -614,7 +644,7 @@ IR_Ctrl:
 	.byte	0x1
 	.string	"InfineonRacer_detectLane"
 	.byte	0x1
-	.byte	0x2c
+	.byte	0x2f
 	.uaword	.LFB578
 	.uaword	.LFE578
 	.byte	0x1
@@ -624,7 +654,7 @@ IR_Ctrl:
 	.byte	0x1
 	.string	"InfineonRacer_control"
 	.byte	0x1
-	.byte	0x35
+	.byte	0x38
 	.byte	0x1
 	.uaword	.LFB579
 	.uaword	.LFE579
@@ -635,22 +665,22 @@ IR_Ctrl:
 	.byte	0x1
 	.string	"Line_Buffer"
 	.byte	0x1
-	.byte	0x39
+	.byte	0x3c
 	.byte	0x1
 	.uaword	.LFB580
 	.uaword	.LFE580
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x566
+	.uaword	0x57c
 	.uleb128 0x12
 	.uaword	.LBB2
 	.uaword	.LBE2
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
-	.byte	0x3a
-	.uaword	0x232
+	.byte	0x3d
+	.uaword	0x22e
 	.uaword	.LLST0
 	.byte	0
 	.byte	0
@@ -658,22 +688,22 @@ IR_Ctrl:
 	.byte	0x1
 	.string	"Line_avgerage"
 	.byte	0x1
-	.byte	0x3f
+	.byte	0x42
 	.byte	0x1
 	.uaword	.LFB581
 	.uaword	.LFE581
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x5a2
+	.uaword	0x5b8
 	.uleb128 0x12
 	.uaword	.LBB3
 	.uaword	.LBE3
 	.uleb128 0x13
 	.uaword	.LASF0
 	.byte	0x1
-	.byte	0x40
-	.uaword	0x232
+	.byte	0x43
+	.uaword	0x22e
 	.uaword	.LLST1
 	.byte	0
 	.byte	0
@@ -681,39 +711,39 @@ IR_Ctrl:
 	.byte	0x1
 	.string	"convolutionOP"
 	.byte	0x1
-	.byte	0x45
+	.byte	0x48
 	.byte	0x1
 	.uaword	.LFB582
 	.uaword	.LFE582
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x605
+	.uaword	0x61b
 	.uleb128 0x14
 	.string	"n"
 	.byte	0x1
-	.byte	0x46
-	.uaword	0x232
+	.byte	0x49
+	.uaword	0x22e
 	.uaword	.LLST2
 	.uleb128 0x15
 	.uaword	.Ldebug_ranges0+0
 	.uleb128 0x14
 	.string	"kmin"
 	.byte	0x1
-	.byte	0x49
-	.uaword	0x232
+	.byte	0x4c
+	.uaword	0x22e
 	.uaword	.LLST3
 	.uleb128 0x14
 	.string	"kmax"
 	.byte	0x1
-	.byte	0x49
-	.uaword	0x232
+	.byte	0x4c
+	.uaword	0x22e
 	.uaword	.LLST4
 	.uleb128 0x14
 	.string	"k"
 	.byte	0x1
-	.byte	0x49
-	.uaword	0x232
+	.byte	0x4c
+	.uaword	0x22e
 	.uaword	.LLST5
 	.byte	0
 	.byte	0
@@ -721,7 +751,7 @@ IR_Ctrl:
 	.byte	0x1
 	.string	"median_filter"
 	.byte	0x1
-	.byte	0x58
+	.byte	0x5b
 	.byte	0x1
 	.uaword	.LFB583
 	.uaword	.LFE583
@@ -732,73 +762,85 @@ IR_Ctrl:
 	.byte	0x1
 	.string	"getLineData"
 	.byte	0x1
-	.byte	0x6c
+	.byte	0x6f
 	.byte	0x1
 	.uaword	.LFB584
 	.uaword	.LFE584
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x665
+	.uaword	0x67b
 	.uleb128 0x16
 	.uaword	.LASF0
 	.byte	0x1
-	.byte	0x6d
-	.uaword	0x232
+	.byte	0x70
+	.uaword	0x22e
 	.byte	0x5
 	.uleb128 0x17
 	.string	"pixelCounter"
 	.byte	0x1
-	.byte	0x6e
-	.uaword	0x200
+	.byte	0x71
+	.uaword	0x22e
 	.byte	0
 	.byte	0
 	.uleb128 0x18
+	.byte	0x1
+	.string	"Direction"
+	.byte	0x1
+	.byte	0x90
+	.byte	0x1
+	.uaword	0x22e
+	.uaword	.LFB585
+	.uaword	.LFE585
+	.byte	0x1
+	.byte	0x9c
+	.byte	0x1
+	.uleb128 0x19
 	.string	"IR_Ctrl"
 	.byte	0x1
 	.byte	0x17
-	.uaword	0x344
+	.uaword	0x340
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IR_Ctrl
-	.uleb128 0x18
+	.uleb128 0x19
 	.string	"IR_LineData"
 	.byte	0x1
 	.byte	0x19
-	.uaword	0x414
+	.uaword	0x42a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IR_LineData
 	.uleb128 0xb
-	.uaword	0x2cf
-	.uaword	0x6a5
+	.uaword	0x2cb
+	.uaword	0x6d9
 	.uleb128 0xc
-	.uaword	0x2f9
+	.uaword	0x2f5
 	.byte	0x2
 	.byte	0
-	.uleb128 0x19
+	.uleb128 0x1a
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x6
 	.byte	0x96
-	.uaword	0x6c2
+	.uaword	0x6f6
 	.byte	0x1
 	.byte	0x1
+	.uleb128 0x1b
+	.uaword	0x6c9
 	.uleb128 0x1a
-	.uaword	0x695
-	.uleb128 0x19
 	.string	"Assert_verboseLevel"
 	.byte	0x7
 	.byte	0x79
-	.uaword	0x232
+	.uaword	0x22e
 	.byte	0x1
 	.byte	0x1
-	.uleb128 0x19
+	.uleb128 0x1a
 	.string	"IR_LineScan"
 	.byte	0x5
 	.byte	0x22
-	.uaword	0x4a6
+	.uaword	0x4bc
 	.byte	0x1
 	.byte	0x1
 	.byte	0
@@ -1120,6 +1162,31 @@ IR_Ctrl:
 	.byte	0
 	.byte	0
 	.uleb128 0x18
+	.uleb128 0x2e
+	.byte	0
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x27
+	.uleb128 0xc
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x40
+	.uleb128 0xa
+	.uleb128 0x2117
+	.uleb128 0xc
+	.byte	0
+	.byte	0
+	.uleb128 0x19
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -1136,7 +1203,7 @@ IR_Ctrl:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0x19
+	.uleb128 0x1a
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -1153,7 +1220,7 @@ IR_Ctrl:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x1a
+	.uleb128 0x1b
 	.uleb128 0x26
 	.byte	0
 	.uleb128 0x49
@@ -1235,7 +1302,7 @@ IR_Ctrl:
 	.uaword	0
 	.uaword	0
 .section .debug_aranges,"",@progbits
-	.uaword	0x54
+	.uaword	0x5c
 	.uahalf	0x2
 	.uaword	.Ldebug_info0
 	.byte	0x4
@@ -1258,6 +1325,8 @@ IR_Ctrl:
 	.uaword	.LFE583-.LFB583
 	.uaword	.LFB584
 	.uaword	.LFE584-.LFB584
+	.uaword	.LFB585
+	.uaword	.LFE585-.LFB585
 	.uaword	0
 	.uaword	0
 .section .debug_ranges,"",@progbits
@@ -1284,6 +1353,8 @@ IR_Ctrl:
 	.uaword	.LFE583
 	.uaword	.LFB584
 	.uaword	.LFE584
+	.uaword	.LFB585
+	.uaword	.LFE585
 	.uaword	0
 	.uaword	0
 .section .debug_line,"",@progbits

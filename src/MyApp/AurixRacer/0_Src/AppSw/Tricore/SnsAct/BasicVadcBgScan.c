@@ -49,6 +49,7 @@ static uint32 adcChannelNum[ADC_CHN_MAX] = {
 
 float32 IR_AdcResult[ADC_CHN_MAX];
 
+IR_PSD_cnt IR_PSD_counter; 
 
 /******************************************************************************/
 /*-------------------------Function Prototypes--------------------------------*/
@@ -153,4 +154,12 @@ void BasicVadcBgScan_run(void)
 			IR_AdcResult[chnIx] = (float32) conversionResult.B.RESULT / 4095;
 
         }
+}
+
+void Checking_PSD(void){
+    if(IR_AdcResult[1] > THRESHOLD_VOL) //assuming #1 channel is used only
+        IR_PSD_counter.PSD_counter++;
+    
+    if(IR_PSD_counter.PSD_counter > 10)
+        IR_PSD_counter.Stop = TRUE;
 }

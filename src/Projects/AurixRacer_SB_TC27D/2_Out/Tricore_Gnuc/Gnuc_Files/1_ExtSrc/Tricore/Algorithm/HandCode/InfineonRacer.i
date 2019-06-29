@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
-# 1 "C:\\Users\\JB\\Documents\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\user\\Documents\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
@@ -16893,7 +16893,7 @@ extern IfxGtm_Tom_ToutMap IfxGtm_TOM2_9_TOUT52_P21_1_OUT;
 extern IfxGtm_Tom_ToutMap IfxGtm_TOM2_9_TOUT69_P20_13_OUT;
 # 19 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Cfg_Illd/Configuration.h" 2
 # 11 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 2
-# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 42 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
@@ -16908,10 +16908,12 @@ typedef struct{
     float32 temp;
 
 
-    uint16 LineAmount;
-    uint16 head;
-    uint16 tail;
-    uint16 center;
+    uint32 LineAmount;
+    uint32 head;
+    uint32 tail;
+    uint32 center;
+
+    boolean School_Zone_flag;
 }LineData;
 
 
@@ -16919,7 +16921,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 68 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 77 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -16929,6 +16931,7 @@ extern void Line_Buffer(void);
 extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);
+extern uint32 Direction(void);
 # 5 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 1
 
@@ -28955,7 +28958,7 @@ extern void IfxGtm_Tom_PwmHl_setupChannels(IfxGtm_Tom_PwmHl *driver, boolean *ac
 
 extern boolean IfxGtm_Tom_PwmHl_stdIfPwmHlInit(IfxStdIf_PwmHl *stdif, IfxGtm_Tom_PwmHl *driver);
 # 19 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGtmTom.h" 2
-# 95 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGtmTom.h"
+# 97 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGtmTom.h"
 typedef struct{
  float32 Motor0Vol;
  float32 Motor0VolU;
@@ -28988,7 +28991,15 @@ extern void BasicGtmTom_init(void);
 extern void BasicGtmTom_run(void);
 # 7 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h" 1
-# 34 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h"
+# 32 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h"
+typedef struct{
+ uint16 PSD_counter;
+    boolean Stop;
+}IR_PSD_cnt;
+
+
+
+
 extern float32 IR_AdcResult[];
 
 
@@ -28998,6 +29009,7 @@ extern float32 IR_AdcResult[];
 
 extern void BasicVadcBgScan_init(void);
 extern void BasicVadcBgScan_run(void);
+extern void Checking_PSD(void);
 # 8 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.h" 1
 # 16 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.h"
@@ -31724,6 +31736,9 @@ void InfineonRacer_init(void){
     IR_LineData.Transfer[0] = -1;
     IR_LineData.Transfer[1] = 0;
     IR_LineData.Transfer[2] = 1;
+
+    IR_LineData.School_Zone_flag = 0;
+
 }
 
 void InfineonRacer_detectLane(){
@@ -31792,14 +31807,14 @@ void median_filter(void) {
 
 void getLineData (void){
     uint32 index = 0;
- uint16 pixelCounter = 0;
+ uint32 pixelCounter = 0;
 
 
 
  index = 0;
 
  for(index = 5; index < 128 - 5; index++){
-        if(IR_LineData.Result[index] < 0){
+        if(IR_LineData.Result[index - 1] > 0 && IR_LineData.Result[index] < 0){
             if(pixelCounter == 0){
                 IR_LineData.head = index;
                 pixelCounter++;
@@ -31807,14 +31822,27 @@ void getLineData (void){
 
             else if(pixelCounter == 2){
                 IR_LineData.tail = index;
+                pixelCounter++;
+
             }
         }
-        if(IR_LineData.Result[index] > 0){
+        if(IR_LineData.Result[index - 1] < 0 && IR_LineData.Result[index] > 0){
             if(pixelCounter == 1){
+                IR_LineData.center = index;
                 pixelCounter++;
             }
+            else if (pixelCounter == 3)
+                IR_LineData.School_Zone_flag = 1;
         }
     }
 
-    IR_LineData.center = (IR_LineData.head + IR_LineData.tail) / 2;
+}
+
+uint32 Direction(void){
+    if(IR_LineData.center < 64 -10)
+        return 1;
+    else if(IR_LineData.center > 64 -10)
+        return 2;
+    else
+        return 0;
 }

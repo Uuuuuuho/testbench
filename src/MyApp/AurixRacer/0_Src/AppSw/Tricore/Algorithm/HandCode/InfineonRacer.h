@@ -19,9 +19,16 @@
 #define SignalLen LINEMAX
 #define MEDIAN_SIZE 5
 #define IGNOREIDX 5
+
 #define LEFTLINESCAN 0  //linescanner index
 #define RIGHTLINESCAN 1 //linescanner index
 
+#define CENTER_INDEX 64
+#define BOUNDARY 10
+
+#define STAY 0
+#define TURN_LEFT 1
+#define TURN_RIGHT 2
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/
@@ -46,10 +53,12 @@ typedef struct{
     float32 temp;
     
     
-    uint16 LineAmount;
-    uint16 head;
-    uint16 tail;
-    uint16 center;
+    uint32 LineAmount;
+    uint32 head;
+    uint32 tail;
+    uint32 center;
+
+    boolean School_Zone_flag;
 }LineData;
 
 /******************************************************************************/
@@ -74,6 +83,7 @@ IFX_EXTERN void Line_Buffer(void);
 IFX_EXTERN void median_filter(void);
 IFX_EXTERN void convolutionOP(void);
 IFX_EXTERN void getLineData (void);
+IFX_EXTERN uint32 Direction(void);
 
 
 #endif
