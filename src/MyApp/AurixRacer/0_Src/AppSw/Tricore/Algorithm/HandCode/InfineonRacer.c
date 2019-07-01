@@ -133,7 +133,7 @@ void getLineData (void){    //left linescanner only
             if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION)
                 IR_LineData.School_Zone_flag = TRUE;
             else
-                IR_LineData.School_Zone_flag = FALSE;
+                IR_LineData.School_Zone_flag = FALSE;   //should be modified. only for checking whether line scanner working properly for school line marker
         }
         IR_LineData.Direction_Determined = TRUE;
     }

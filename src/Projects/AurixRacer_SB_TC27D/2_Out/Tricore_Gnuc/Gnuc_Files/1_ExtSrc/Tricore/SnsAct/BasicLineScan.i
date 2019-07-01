@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicLineScan.c"
-# 1 "C:\\Users\\JB\\Documents\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\user\\Documents\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicLineScan.c"
@@ -17035,6 +17035,7 @@ static inline __attribute__ ((always_inline)) Ifx_VADC_G_RESD IfxVadc_Adc_getDeb
 # 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicLineScan.h"
 typedef struct{
  uint32 adcResult[2][128];
+    uint32 adcBuffer[2][128];
 }IR_LineScan_t;
 
 

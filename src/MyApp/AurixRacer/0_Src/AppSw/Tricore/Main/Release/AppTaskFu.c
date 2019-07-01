@@ -54,8 +54,8 @@ void appTaskfu_1ms(void)
 		BasicGpt12Enc_IR_Encoder_reset();
 	}
 	BasicGpt12Enc_run();
-    SpeedCalculation(void);
-    Speed_Buff(void);
+    SpeedCalculation();
+    Speed_Buff();
 	//printf("1ms!\n");
 
 }

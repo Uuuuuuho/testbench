@@ -244,59 +244,79 @@ Speed_Avg:
 .LFB424:
 	.loc 1 154 0
 	.loc 1 155 0
-	movh.a	%a15, hi:IR_Encoder
-	lea	%a2, [%a15] lo:IR_Encoder
-	ld.w	%d2, [%a2] 16
+	movh.a	%a2, hi:IR_Encoder
+	lea	%a15, [%a2] lo:IR_Encoder
+	ld.w	%d2, [%a15] 16
 	movh	%d15, 16672
 	div.f	%d15, %d2, %d15
-	st.w	[%a15] lo:IR_Encoder, %d15
+	st.w	[%a2] lo:IR_Encoder, %d15
+	.loc 1 156 0
+	mov	%d15, 0
+	st.w	[%a15] 16, %d15
 	ret
 .LFE424:
 	.size	Speed_Avg, .-Speed_Avg
+.section .text.Speed_Buff,"ax",@progbits
+	.align 1
+	.global	Speed_Buff
+	.type	Speed_Buff, @function
+Speed_Buff:
+.LFB425:
+	.loc 1 159 0
+	.loc 1 160 0
+	movh.a	%a2, hi:IR_Encoder
+	lea	%a15, [%a2] lo:IR_Encoder
+	ld.w	%d2, [%a15] 16
+	ld.w	%d15, [%a2] lo:IR_Encoder
+	add.f	%d15, %d2, %d15
+	st.w	[%a15] 16, %d15
+	ret
+.LFE425:
+	.size	Speed_Buff, .-Speed_Buff
 .section .text.BasicGpt12Enc_run,"ax",@progbits
 	.align 1
 	.global	BasicGpt12Enc_run
 	.type	BasicGpt12Enc_run, @function
 BasicGpt12Enc_run:
-.LFB425:
-	.loc 1 159 0
-	.loc 1 160 0
+.LFB426:
+	.loc 1 164 0
+	.loc 1 165 0
 	movh.a	%a15, hi:g_Gpt12Enc
 	lea	%a15, [%a15] lo:g_Gpt12Enc
 	mov.aa	%a4, %a15
 	call	IfxGpt12_IncrEnc_update
 .LVL9:
-	.loc 1 162 0
+	.loc 1 167 0
 	mov.aa	%a4, %a15
 	call	IfxGpt12_IncrEnc_getSpeed
 .LVL10:
 	movh.a	%a2, hi:IR_Encoder
-	.loc 1 163 0
+	.loc 1 168 0
 	mov.aa	%a4, %a15
-	.loc 1 162 0
+	.loc 1 167 0
 	lea	%a12, [%a2] lo:IR_Encoder
 	st.w	[%a2] lo:IR_Encoder, %d2
-	.loc 1 163 0
+	.loc 1 168 0
 	call	IfxGpt12_IncrEnc_getRawPosition
 .LVL11:
 	itof	%d2, %d2
-	.loc 1 164 0
+	.loc 1 169 0
 	mov.aa	%a4, %a15
-	.loc 1 163 0
+	.loc 1 168 0
 	st.w	[%a12] 4, %d2
-	.loc 1 164 0
+	.loc 1 169 0
 	call	IfxGpt12_IncrEnc_getDirection
 .LVL12:
-	.loc 1 165 0
+	.loc 1 170 0
 	mov.aa	%a4, %a15
-	.loc 1 164 0
+	.loc 1 169 0
 	st.b	[%a12] 8, %d2
-	.loc 1 165 0
+	.loc 1 170 0
 	call	IfxGpt12_IncrEnc_getTurn
 .LVL13:
 	st.w	[%a12] 12, %d2
 	ret
-.LFE425:
+.LFE426:
 	.size	BasicGpt12Enc_run, .-BasicGpt12Enc_run
 	.global	__extendsfdf2
 	.global	__muldf3
@@ -307,9 +327,9 @@ BasicGpt12Enc_run:
 	.global	SpeedCalculation
 	.type	SpeedCalculation, @function
 SpeedCalculation:
-.LFB426:
-	.loc 1 172 0
+.LFB427:
 	.loc 1 173 0
+	.loc 1 174 0
 	movh.a	%a15, hi:IR_Encoder
 	ld.w	%d4, [%a15] lo:IR_Encoder
 	call	__extendsfdf2
@@ -352,7 +372,7 @@ SpeedCalculation:
 .LVL21:
 	st.w	[%a15] lo:IR_Encoder, %d2
 	ret
-.LFE426:
+.LFE427:
 	.size	SpeedCalculation, .-SpeedCalculation
 .section .rodata.__func__.19370,"a",@progbits
 	.type	__func__.19370, @object
@@ -456,6 +476,14 @@ g_Gpt12Enc:
 	.uaword	.LFE426-.LFB426
 	.align 2
 .LEFDE14:
+.LSFDE16:
+	.uaword	.LEFDE16-.LASFDE16
+.LASFDE16:
+	.uaword	.Lframe0
+	.uaword	.LFB427
+	.uaword	.LFE427-.LFB427
+	.align 2
+.LEFDE16:
 .section .text,"ax",@progbits
 .Letext0:
 	.file 3 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h"
@@ -474,7 +502,7 @@ g_Gpt12Enc:
 	.file 16 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Assert.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x4c70
+	.uaword	0x4c95
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -482,7 +510,7 @@ g_Gpt12Enc:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\user\\\\Documents\\\\GitHub\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0x28
 	.uaword	0
 	.uaword	0
@@ -528,10 +556,10 @@ g_Gpt12Enc:
 	.byte	0x5
 	.string	"long int"
 	.uleb128 0x3
-	.uaword	0x1c3
-	.uaword	0x255
+	.uaword	0x1cd
+	.uaword	0x25f
 	.uleb128 0x4
-	.uaword	0x255
+	.uaword	0x25f
 	.byte	0x3
 	.byte	0
 	.uleb128 0x2
@@ -546,34 +574,34 @@ g_Gpt12Enc:
 	.string	"char"
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x271
+	.uaword	0x27b
 	.uleb128 0x7
-	.uaword	0x263
+	.uaword	0x26d
 	.uleb128 0x8
 	.string	"uint8"
 	.byte	0x3
 	.byte	0x59
-	.uaword	0x1c3
+	.uaword	0x1cd
 	.uleb128 0x8
 	.string	"uint16"
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x1e1
+	.uaword	0x1eb
 	.uleb128 0x8
 	.string	"sint32"
 	.byte	0x3
 	.byte	0x5c
-	.uaword	0x239
+	.uaword	0x243
 	.uleb128 0x8
 	.string	"uint32"
 	.byte	0x3
 	.byte	0x5d
-	.uaword	0x19f
+	.uaword	0x1a9
 	.uleb128 0x8
 	.string	"float32"
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x2bc
+	.uaword	0x2c6
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -586,26 +614,26 @@ g_Gpt12Enc:
 	.string	"boolean"
 	.byte	0x3
 	.byte	0x68
-	.uaword	0x1c3
+	.uaword	0x1cd
 	.uleb128 0x8
 	.string	"pchar"
 	.byte	0x4
 	.byte	0x27
-	.uaword	0x26b
+	.uaword	0x275
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x2f1
+	.uaword	0x2fb
 	.uleb128 0x9
 	.uleb128 0x8
 	.string	"Ifx_Priority"
 	.byte	0x4
 	.byte	0x56
-	.uaword	0x283
+	.uaword	0x28d
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0x4
 	.byte	0x72
-	.uaword	0x37f
+	.uaword	0x389
 	.uleb128 0xb
 	.string	"Ifx_RxSel_a"
 	.sleb128 0
@@ -635,42 +663,42 @@ g_Gpt12Enc:
 	.string	"Ifx_RxSel"
 	.byte	0x4
 	.byte	0x7b
-	.uaword	0x306
+	.uaword	0x310
 	.uleb128 0xc
 	.byte	0x8
 	.byte	0x4
 	.byte	0x7e
-	.uaword	0x3b3
+	.uaword	0x3bd
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0x80
-	.uaword	0x2eb
+	.uaword	0x2f5
 	.byte	0
 	.uleb128 0xe
 	.string	"index"
 	.byte	0x4
 	.byte	0x81
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0x4
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxModule_IndexMap"
 	.byte	0x4
 	.byte	0x82
-	.uaword	0x390
+	.uaword	0x39a
 	.uleb128 0x3
-	.uaword	0x1c3
-	.uaword	0x3dd
+	.uaword	0x1cd
+	.uaword	0x3e7
 	.uleb128 0x4
-	.uaword	0x255
+	.uaword	0x25f
 	.byte	0x7
 	.byte	0
 	.uleb128 0x3
-	.uaword	0x1c3
-	.uaword	0x3ed
+	.uaword	0x1cd
+	.uaword	0x3f7
 	.uleb128 0x4
-	.uaword	0x255
+	.uaword	0x25f
 	.byte	0xb
 	.byte	0
 	.uleb128 0xf
@@ -678,12 +706,12 @@ g_Gpt12Enc:
 	.byte	0x4
 	.byte	0x5
 	.byte	0x2d
-	.uaword	0x5ff
+	.uaword	0x609
 	.uleb128 0x10
 	.string	"EN0"
 	.byte	0x5
 	.byte	0x2f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -692,7 +720,7 @@ g_Gpt12Enc:
 	.string	"EN1"
 	.byte	0x5
 	.byte	0x30
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -701,7 +729,7 @@ g_Gpt12Enc:
 	.string	"EN2"
 	.byte	0x5
 	.byte	0x31
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -710,7 +738,7 @@ g_Gpt12Enc:
 	.string	"EN3"
 	.byte	0x5
 	.byte	0x32
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -719,7 +747,7 @@ g_Gpt12Enc:
 	.string	"EN4"
 	.byte	0x5
 	.byte	0x33
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -728,7 +756,7 @@ g_Gpt12Enc:
 	.string	"EN5"
 	.byte	0x5
 	.byte	0x34
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -737,7 +765,7 @@ g_Gpt12Enc:
 	.string	"EN6"
 	.byte	0x5
 	.byte	0x35
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -746,7 +774,7 @@ g_Gpt12Enc:
 	.string	"EN7"
 	.byte	0x5
 	.byte	0x36
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -755,7 +783,7 @@ g_Gpt12Enc:
 	.string	"EN8"
 	.byte	0x5
 	.byte	0x37
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -764,7 +792,7 @@ g_Gpt12Enc:
 	.string	"EN9"
 	.byte	0x5
 	.byte	0x38
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -773,7 +801,7 @@ g_Gpt12Enc:
 	.string	"EN10"
 	.byte	0x5
 	.byte	0x39
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -782,7 +810,7 @@ g_Gpt12Enc:
 	.string	"EN11"
 	.byte	0x5
 	.byte	0x3a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -791,7 +819,7 @@ g_Gpt12Enc:
 	.string	"EN12"
 	.byte	0x5
 	.byte	0x3b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -800,7 +828,7 @@ g_Gpt12Enc:
 	.string	"EN13"
 	.byte	0x5
 	.byte	0x3c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -809,7 +837,7 @@ g_Gpt12Enc:
 	.string	"EN14"
 	.byte	0x5
 	.byte	0x3d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -818,7 +846,7 @@ g_Gpt12Enc:
 	.string	"EN15"
 	.byte	0x5
 	.byte	0x3e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -827,7 +855,7 @@ g_Gpt12Enc:
 	.string	"EN16"
 	.byte	0x5
 	.byte	0x3f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -836,7 +864,7 @@ g_Gpt12Enc:
 	.string	"EN17"
 	.byte	0x5
 	.byte	0x40
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -845,7 +873,7 @@ g_Gpt12Enc:
 	.string	"EN18"
 	.byte	0x5
 	.byte	0x41
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -854,7 +882,7 @@ g_Gpt12Enc:
 	.string	"EN19"
 	.byte	0x5
 	.byte	0x42
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -863,7 +891,7 @@ g_Gpt12Enc:
 	.string	"EN20"
 	.byte	0x5
 	.byte	0x43
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -872,7 +900,7 @@ g_Gpt12Enc:
 	.string	"EN21"
 	.byte	0x5
 	.byte	0x44
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -881,7 +909,7 @@ g_Gpt12Enc:
 	.string	"EN22"
 	.byte	0x5
 	.byte	0x45
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -890,7 +918,7 @@ g_Gpt12Enc:
 	.string	"EN23"
 	.byte	0x5
 	.byte	0x46
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -899,7 +927,7 @@ g_Gpt12Enc:
 	.string	"EN24"
 	.byte	0x5
 	.byte	0x47
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -908,7 +936,7 @@ g_Gpt12Enc:
 	.string	"EN25"
 	.byte	0x5
 	.byte	0x48
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -917,7 +945,7 @@ g_Gpt12Enc:
 	.string	"EN26"
 	.byte	0x5
 	.byte	0x49
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -926,7 +954,7 @@ g_Gpt12Enc:
 	.string	"EN27"
 	.byte	0x5
 	.byte	0x4a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -935,7 +963,7 @@ g_Gpt12Enc:
 	.string	"EN28"
 	.byte	0x5
 	.byte	0x4b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -944,7 +972,7 @@ g_Gpt12Enc:
 	.string	"EN29"
 	.byte	0x5
 	.byte	0x4c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -953,7 +981,7 @@ g_Gpt12Enc:
 	.string	"EN30"
 	.byte	0x5
 	.byte	0x4d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -962,7 +990,7 @@ g_Gpt12Enc:
 	.string	"EN31"
 	.byte	0x5
 	.byte	0x4e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -972,18 +1000,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x5
 	.byte	0x4f
-	.uaword	0x3ed
+	.uaword	0x3f7
 	.uleb128 0xf
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0x52
-	.uaword	0x643
+	.uaword	0x64d
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0x54
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -993,18 +1021,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x5
 	.byte	0x55
-	.uaword	0x618
+	.uaword	0x622
 	.uleb128 0xf
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0x58
-	.uaword	0x77a
+	.uaword	0x784
 	.uleb128 0x10
 	.string	"EN0"
 	.byte	0x5
 	.byte	0x5a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1013,7 +1041,7 @@ g_Gpt12Enc:
 	.string	"EN1"
 	.byte	0x5
 	.byte	0x5b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1022,7 +1050,7 @@ g_Gpt12Enc:
 	.string	"EN2"
 	.byte	0x5
 	.byte	0x5c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1031,7 +1059,7 @@ g_Gpt12Enc:
 	.string	"EN3"
 	.byte	0x5
 	.byte	0x5d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1040,7 +1068,7 @@ g_Gpt12Enc:
 	.string	"EN4"
 	.byte	0x5
 	.byte	0x5e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1049,7 +1077,7 @@ g_Gpt12Enc:
 	.string	"EN5"
 	.byte	0x5
 	.byte	0x5f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1058,7 +1086,7 @@ g_Gpt12Enc:
 	.string	"EN6"
 	.byte	0x5
 	.byte	0x60
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1067,7 +1095,7 @@ g_Gpt12Enc:
 	.string	"EN7"
 	.byte	0x5
 	.byte	0x61
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1076,7 +1104,7 @@ g_Gpt12Enc:
 	.string	"EN8"
 	.byte	0x5
 	.byte	0x62
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1085,7 +1113,7 @@ g_Gpt12Enc:
 	.string	"EN9"
 	.byte	0x5
 	.byte	0x63
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1094,7 +1122,7 @@ g_Gpt12Enc:
 	.string	"EN10"
 	.byte	0x5
 	.byte	0x64
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1103,7 +1131,7 @@ g_Gpt12Enc:
 	.string	"EN11"
 	.byte	0x5
 	.byte	0x65
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1112,7 +1140,7 @@ g_Gpt12Enc:
 	.string	"EN12"
 	.byte	0x5
 	.byte	0x66
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1121,7 +1149,7 @@ g_Gpt12Enc:
 	.string	"EN13"
 	.byte	0x5
 	.byte	0x67
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1130,7 +1158,7 @@ g_Gpt12Enc:
 	.string	"EN14"
 	.byte	0x5
 	.byte	0x68
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1139,7 +1167,7 @@ g_Gpt12Enc:
 	.string	"EN15"
 	.byte	0x5
 	.byte	0x69
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1148,7 +1176,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0x6a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1158,18 +1186,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x5
 	.byte	0x6b
-	.uaword	0x65c
+	.uaword	0x666
 	.uleb128 0xf
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0x6e
-	.uaword	0x7dc
+	.uaword	0x7e6
 	.uleb128 0x10
 	.string	"MODREV"
 	.byte	0x5
 	.byte	0x70
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1178,7 +1206,7 @@ g_Gpt12Enc:
 	.string	"MODTYPE"
 	.byte	0x5
 	.byte	0x71
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1187,7 +1215,7 @@ g_Gpt12Enc:
 	.uaword	.LASF3
 	.byte	0x5
 	.byte	0x72
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1197,18 +1225,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x5
 	.byte	0x73
-	.uaword	0x790
+	.uaword	0x79a
 	.uleb128 0xf
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0x76
-	.uaword	0x8fe
+	.uaword	0x908
 	.uleb128 0x10
 	.string	"P0"
 	.byte	0x5
 	.byte	0x78
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1217,7 +1245,7 @@ g_Gpt12Enc:
 	.string	"P1"
 	.byte	0x5
 	.byte	0x79
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1226,7 +1254,7 @@ g_Gpt12Enc:
 	.string	"P2"
 	.byte	0x5
 	.byte	0x7a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1235,7 +1263,7 @@ g_Gpt12Enc:
 	.string	"P3"
 	.byte	0x5
 	.byte	0x7b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1244,7 +1272,7 @@ g_Gpt12Enc:
 	.string	"P4"
 	.byte	0x5
 	.byte	0x7c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1253,7 +1281,7 @@ g_Gpt12Enc:
 	.string	"P5"
 	.byte	0x5
 	.byte	0x7d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1262,7 +1290,7 @@ g_Gpt12Enc:
 	.string	"P6"
 	.byte	0x5
 	.byte	0x7e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1271,7 +1299,7 @@ g_Gpt12Enc:
 	.string	"P7"
 	.byte	0x5
 	.byte	0x7f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1280,7 +1308,7 @@ g_Gpt12Enc:
 	.string	"P8"
 	.byte	0x5
 	.byte	0x80
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1289,7 +1317,7 @@ g_Gpt12Enc:
 	.string	"P9"
 	.byte	0x5
 	.byte	0x81
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1298,7 +1326,7 @@ g_Gpt12Enc:
 	.string	"P10"
 	.byte	0x5
 	.byte	0x82
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1307,7 +1335,7 @@ g_Gpt12Enc:
 	.string	"P11"
 	.byte	0x5
 	.byte	0x83
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1316,7 +1344,7 @@ g_Gpt12Enc:
 	.string	"P12"
 	.byte	0x5
 	.byte	0x84
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1325,7 +1353,7 @@ g_Gpt12Enc:
 	.string	"P13"
 	.byte	0x5
 	.byte	0x85
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1334,7 +1362,7 @@ g_Gpt12Enc:
 	.string	"P14"
 	.byte	0x5
 	.byte	0x86
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1343,7 +1371,7 @@ g_Gpt12Enc:
 	.string	"P15"
 	.byte	0x5
 	.byte	0x87
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1352,7 +1380,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0x88
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1362,18 +1390,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x5
 	.byte	0x89
-	.uaword	0x7f1
+	.uaword	0x7fb
 	.uleb128 0xf
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8c
-	.uaword	0x9a6
+	.uaword	0x9b0
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0x8e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1382,7 +1410,7 @@ g_Gpt12Enc:
 	.string	"PC0"
 	.byte	0x5
 	.byte	0x8f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1391,7 +1419,7 @@ g_Gpt12Enc:
 	.uaword	.LASF4
 	.byte	0x5
 	.byte	0x90
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1400,7 +1428,7 @@ g_Gpt12Enc:
 	.string	"PC1"
 	.byte	0x5
 	.byte	0x91
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1409,7 +1437,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0x92
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1418,7 +1446,7 @@ g_Gpt12Enc:
 	.string	"PC2"
 	.byte	0x5
 	.byte	0x93
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1427,7 +1455,7 @@ g_Gpt12Enc:
 	.uaword	.LASF5
 	.byte	0x5
 	.byte	0x94
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1436,7 +1464,7 @@ g_Gpt12Enc:
 	.string	"PC3"
 	.byte	0x5
 	.byte	0x95
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1446,18 +1474,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x5
 	.byte	0x96
-	.uaword	0x913
+	.uaword	0x91d
 	.uleb128 0xf
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0x99
-	.uaword	0xa56
+	.uaword	0xa60
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0x9b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1466,7 +1494,7 @@ g_Gpt12Enc:
 	.string	"PC12"
 	.byte	0x5
 	.byte	0x9c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1475,7 +1503,7 @@ g_Gpt12Enc:
 	.uaword	.LASF4
 	.byte	0x5
 	.byte	0x9d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1484,7 +1512,7 @@ g_Gpt12Enc:
 	.string	"PC13"
 	.byte	0x5
 	.byte	0x9e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1493,7 +1521,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0x9f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1502,7 +1530,7 @@ g_Gpt12Enc:
 	.string	"PC14"
 	.byte	0x5
 	.byte	0xa0
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1511,7 +1539,7 @@ g_Gpt12Enc:
 	.uaword	.LASF5
 	.byte	0x5
 	.byte	0xa1
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1520,7 +1548,7 @@ g_Gpt12Enc:
 	.string	"PC15"
 	.byte	0x5
 	.byte	0xa2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1530,18 +1558,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x5
 	.byte	0xa3
-	.uaword	0x9be
+	.uaword	0x9c8
 	.uleb128 0xf
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0xa6
-	.uaword	0xb02
+	.uaword	0xb0c
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xa8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1550,7 +1578,7 @@ g_Gpt12Enc:
 	.string	"PC4"
 	.byte	0x5
 	.byte	0xa9
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1559,7 +1587,7 @@ g_Gpt12Enc:
 	.uaword	.LASF4
 	.byte	0x5
 	.byte	0xaa
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1568,7 +1596,7 @@ g_Gpt12Enc:
 	.string	"PC5"
 	.byte	0x5
 	.byte	0xab
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1577,7 +1605,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0xac
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1586,7 +1614,7 @@ g_Gpt12Enc:
 	.string	"PC6"
 	.byte	0x5
 	.byte	0xad
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1595,7 +1623,7 @@ g_Gpt12Enc:
 	.uaword	.LASF5
 	.byte	0x5
 	.byte	0xae
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1604,7 +1632,7 @@ g_Gpt12Enc:
 	.string	"PC7"
 	.byte	0x5
 	.byte	0xaf
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1614,18 +1642,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x5
 	.byte	0xb0
-	.uaword	0xa6f
+	.uaword	0xa79
 	.uleb128 0xf
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb3
-	.uaword	0xbaf
+	.uaword	0xbb9
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xb5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1634,7 +1662,7 @@ g_Gpt12Enc:
 	.string	"PC8"
 	.byte	0x5
 	.byte	0xb6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1643,7 +1671,7 @@ g_Gpt12Enc:
 	.uaword	.LASF4
 	.byte	0x5
 	.byte	0xb7
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1652,7 +1680,7 @@ g_Gpt12Enc:
 	.string	"PC9"
 	.byte	0x5
 	.byte	0xb8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1661,7 +1689,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0xb9
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1670,7 +1698,7 @@ g_Gpt12Enc:
 	.string	"PC10"
 	.byte	0x5
 	.byte	0xba
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1679,7 +1707,7 @@ g_Gpt12Enc:
 	.uaword	.LASF5
 	.byte	0x5
 	.byte	0xbb
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1688,7 +1716,7 @@ g_Gpt12Enc:
 	.string	"PC11"
 	.byte	0x5
 	.byte	0xbc
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1698,18 +1726,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x5
 	.byte	0xbd
-	.uaword	0xb1a
+	.uaword	0xb24
 	.uleb128 0xf
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0xc0
-	.uaword	0xc0f
+	.uaword	0xc19
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xc2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1718,7 +1746,7 @@ g_Gpt12Enc:
 	.string	"PS1"
 	.byte	0x5
 	.byte	0xc3
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1727,7 +1755,7 @@ g_Gpt12Enc:
 	.uaword	.LASF6
 	.byte	0x5
 	.byte	0xc4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -1737,18 +1765,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x5
 	.byte	0xc5
-	.uaword	0xbc7
+	.uaword	0xbd1
 	.uleb128 0xf
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0xc8
-	.uaword	0xc6f
+	.uaword	0xc79
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xca
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1757,7 +1785,7 @@ g_Gpt12Enc:
 	.string	"PS1"
 	.byte	0x5
 	.byte	0xcb
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1766,7 +1794,7 @@ g_Gpt12Enc:
 	.uaword	.LASF6
 	.byte	0x5
 	.byte	0xcc
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -1776,18 +1804,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x5
 	.byte	0xcd
-	.uaword	0xc27
+	.uaword	0xc31
 	.uleb128 0xf
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0xd0
-	.uaword	0xcff
+	.uaword	0xd09
 	.uleb128 0x10
 	.string	"RDIS_CTRL"
 	.byte	0x5
 	.byte	0xd2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1796,7 +1824,7 @@ g_Gpt12Enc:
 	.string	"RX_DIS"
 	.byte	0x5
 	.byte	0xd3
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1805,7 +1833,7 @@ g_Gpt12Enc:
 	.string	"TERM"
 	.byte	0x5
 	.byte	0xd4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1814,7 +1842,7 @@ g_Gpt12Enc:
 	.string	"LRXTERM"
 	.byte	0x5
 	.byte	0xd5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1823,7 +1851,7 @@ g_Gpt12Enc:
 	.uaword	.LASF4
 	.byte	0x5
 	.byte	0xd6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -1833,18 +1861,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x5
 	.byte	0xd7
-	.uaword	0xc87
+	.uaword	0xc91
 	.uleb128 0xf
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0xda
-	.uaword	0xdd2
+	.uaword	0xddc
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xdc
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1853,7 +1881,7 @@ g_Gpt12Enc:
 	.string	"LVDSR"
 	.byte	0x5
 	.byte	0xdd
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1862,7 +1890,7 @@ g_Gpt12Enc:
 	.string	"LVDSRL"
 	.byte	0x5
 	.byte	0xde
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1871,7 +1899,7 @@ g_Gpt12Enc:
 	.uaword	.LASF7
 	.byte	0x5
 	.byte	0xdf
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -1880,7 +1908,7 @@ g_Gpt12Enc:
 	.string	"TDIS_CTRL"
 	.byte	0x5
 	.byte	0xe0
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1889,7 +1917,7 @@ g_Gpt12Enc:
 	.string	"TX_DIS"
 	.byte	0x5
 	.byte	0xe1
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1898,7 +1926,7 @@ g_Gpt12Enc:
 	.string	"TX_PD"
 	.byte	0x5
 	.byte	0xe2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1907,7 +1935,7 @@ g_Gpt12Enc:
 	.string	"TX_PWDPD"
 	.byte	0x5
 	.byte	0xe3
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1916,7 +1944,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.byte	0xe4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1926,18 +1954,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x5
 	.byte	0xe5
-	.uaword	0xd1b
+	.uaword	0xd25
 	.uleb128 0xf
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0xe8
-	.uaword	0xe63
+	.uaword	0xe6d
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xea
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -1946,7 +1974,7 @@ g_Gpt12Enc:
 	.string	"PCL0"
 	.byte	0x5
 	.byte	0xeb
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1955,7 +1983,7 @@ g_Gpt12Enc:
 	.string	"PCL1"
 	.byte	0x5
 	.byte	0xec
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1964,7 +1992,7 @@ g_Gpt12Enc:
 	.string	"PCL2"
 	.byte	0x5
 	.byte	0xed
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1973,7 +2001,7 @@ g_Gpt12Enc:
 	.string	"PCL3"
 	.byte	0x5
 	.byte	0xee
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1982,7 +2010,7 @@ g_Gpt12Enc:
 	.uaword	.LASF8
 	.byte	0x5
 	.byte	0xef
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -1992,18 +2020,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x5
 	.byte	0xf0
-	.uaword	0xdea
+	.uaword	0xdf4
 	.uleb128 0xf
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0xf3
-	.uaword	0xeea
+	.uaword	0xef4
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xf5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -2012,7 +2040,7 @@ g_Gpt12Enc:
 	.string	"PCL12"
 	.byte	0x5
 	.byte	0xf6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2021,7 +2049,7 @@ g_Gpt12Enc:
 	.string	"PCL13"
 	.byte	0x5
 	.byte	0xf7
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2030,7 +2058,7 @@ g_Gpt12Enc:
 	.string	"PCL14"
 	.byte	0x5
 	.byte	0xf8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2039,7 +2067,7 @@ g_Gpt12Enc:
 	.string	"PCL15"
 	.byte	0x5
 	.byte	0xf9
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2049,18 +2077,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x5
 	.byte	0xfa
-	.uaword	0xe7b
+	.uaword	0xe85
 	.uleb128 0xf
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x5
 	.byte	0xfd
-	.uaword	0xf81
+	.uaword	0xf8b
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x5
 	.byte	0xff
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -2069,7 +2097,7 @@ g_Gpt12Enc:
 	.string	"PCL4"
 	.byte	0x5
 	.uahalf	0x100
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2078,7 +2106,7 @@ g_Gpt12Enc:
 	.string	"PCL5"
 	.byte	0x5
 	.uahalf	0x101
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2087,7 +2115,7 @@ g_Gpt12Enc:
 	.string	"PCL6"
 	.byte	0x5
 	.uahalf	0x102
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2096,7 +2124,7 @@ g_Gpt12Enc:
 	.string	"PCL7"
 	.byte	0x5
 	.uahalf	0x103
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2105,7 +2133,7 @@ g_Gpt12Enc:
 	.uaword	.LASF5
 	.byte	0x5
 	.uahalf	0x104
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2115,18 +2143,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x5
 	.uahalf	0x105
-	.uaword	0xf03
+	.uaword	0xf0d
 	.uleb128 0x15
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x108
-	.uaword	0x101c
+	.uaword	0x1026
 	.uleb128 0x13
 	.uaword	.LASF1
 	.byte	0x5
 	.uahalf	0x10a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -2135,7 +2163,7 @@ g_Gpt12Enc:
 	.string	"PCL8"
 	.byte	0x5
 	.uahalf	0x10b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2144,7 +2172,7 @@ g_Gpt12Enc:
 	.string	"PCL9"
 	.byte	0x5
 	.uahalf	0x10c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2153,7 +2181,7 @@ g_Gpt12Enc:
 	.string	"PCL10"
 	.byte	0x5
 	.uahalf	0x10d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2162,7 +2190,7 @@ g_Gpt12Enc:
 	.string	"PCL11"
 	.byte	0x5
 	.uahalf	0x10e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2171,7 +2199,7 @@ g_Gpt12Enc:
 	.uaword	.LASF9
 	.byte	0x5
 	.uahalf	0x10f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -2181,18 +2209,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x5
 	.uahalf	0x110
-	.uaword	0xf9a
+	.uaword	0xfa4
 	.uleb128 0x15
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x113
-	.uaword	0x1176
+	.uaword	0x1180
 	.uleb128 0x13
 	.uaword	.LASF1
 	.byte	0x5
 	.uahalf	0x115
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2201,7 +2229,7 @@ g_Gpt12Enc:
 	.string	"PCL0"
 	.byte	0x5
 	.uahalf	0x116
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2210,7 +2238,7 @@ g_Gpt12Enc:
 	.string	"PCL1"
 	.byte	0x5
 	.uahalf	0x117
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2219,7 +2247,7 @@ g_Gpt12Enc:
 	.string	"PCL2"
 	.byte	0x5
 	.uahalf	0x118
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2228,7 +2256,7 @@ g_Gpt12Enc:
 	.string	"PCL3"
 	.byte	0x5
 	.uahalf	0x119
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2237,7 +2265,7 @@ g_Gpt12Enc:
 	.string	"PCL4"
 	.byte	0x5
 	.uahalf	0x11a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2246,7 +2274,7 @@ g_Gpt12Enc:
 	.string	"PCL5"
 	.byte	0x5
 	.uahalf	0x11b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2255,7 +2283,7 @@ g_Gpt12Enc:
 	.string	"PCL6"
 	.byte	0x5
 	.uahalf	0x11c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2264,7 +2292,7 @@ g_Gpt12Enc:
 	.string	"PCL7"
 	.byte	0x5
 	.uahalf	0x11d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2273,7 +2301,7 @@ g_Gpt12Enc:
 	.string	"PCL8"
 	.byte	0x5
 	.uahalf	0x11e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2282,7 +2310,7 @@ g_Gpt12Enc:
 	.string	"PCL9"
 	.byte	0x5
 	.uahalf	0x11f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2291,7 +2319,7 @@ g_Gpt12Enc:
 	.string	"PCL10"
 	.byte	0x5
 	.uahalf	0x120
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2300,7 +2328,7 @@ g_Gpt12Enc:
 	.string	"PCL11"
 	.byte	0x5
 	.uahalf	0x121
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2309,7 +2337,7 @@ g_Gpt12Enc:
 	.string	"PCL12"
 	.byte	0x5
 	.uahalf	0x122
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2318,7 +2346,7 @@ g_Gpt12Enc:
 	.string	"PCL13"
 	.byte	0x5
 	.uahalf	0x123
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2327,7 +2355,7 @@ g_Gpt12Enc:
 	.string	"PCL14"
 	.byte	0x5
 	.uahalf	0x124
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2336,7 +2364,7 @@ g_Gpt12Enc:
 	.string	"PCL15"
 	.byte	0x5
 	.uahalf	0x125
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2346,18 +2374,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x5
 	.uahalf	0x126
-	.uaword	0x1035
+	.uaword	0x103f
 	.uleb128 0x15
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x129
-	.uaword	0x13c4
+	.uaword	0x13ce
 	.uleb128 0x12
 	.string	"PS0"
 	.byte	0x5
 	.uahalf	0x12b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2366,7 +2394,7 @@ g_Gpt12Enc:
 	.string	"PS1"
 	.byte	0x5
 	.uahalf	0x12c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2375,7 +2403,7 @@ g_Gpt12Enc:
 	.string	"PS2"
 	.byte	0x5
 	.uahalf	0x12d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2384,7 +2412,7 @@ g_Gpt12Enc:
 	.string	"PS3"
 	.byte	0x5
 	.uahalf	0x12e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2393,7 +2421,7 @@ g_Gpt12Enc:
 	.string	"PS4"
 	.byte	0x5
 	.uahalf	0x12f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2402,7 +2430,7 @@ g_Gpt12Enc:
 	.string	"PS5"
 	.byte	0x5
 	.uahalf	0x130
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2411,7 +2439,7 @@ g_Gpt12Enc:
 	.string	"PS6"
 	.byte	0x5
 	.uahalf	0x131
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2420,7 +2448,7 @@ g_Gpt12Enc:
 	.string	"PS7"
 	.byte	0x5
 	.uahalf	0x132
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2429,7 +2457,7 @@ g_Gpt12Enc:
 	.string	"PS8"
 	.byte	0x5
 	.uahalf	0x133
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2438,7 +2466,7 @@ g_Gpt12Enc:
 	.string	"PS9"
 	.byte	0x5
 	.uahalf	0x134
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2447,7 +2475,7 @@ g_Gpt12Enc:
 	.string	"PS10"
 	.byte	0x5
 	.uahalf	0x135
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2456,7 +2484,7 @@ g_Gpt12Enc:
 	.string	"PS11"
 	.byte	0x5
 	.uahalf	0x136
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2465,7 +2493,7 @@ g_Gpt12Enc:
 	.string	"PS12"
 	.byte	0x5
 	.uahalf	0x137
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2474,7 +2502,7 @@ g_Gpt12Enc:
 	.string	"PS13"
 	.byte	0x5
 	.uahalf	0x138
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2483,7 +2511,7 @@ g_Gpt12Enc:
 	.string	"PS14"
 	.byte	0x5
 	.uahalf	0x139
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2492,7 +2520,7 @@ g_Gpt12Enc:
 	.string	"PS15"
 	.byte	0x5
 	.uahalf	0x13a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2501,7 +2529,7 @@ g_Gpt12Enc:
 	.string	"PCL0"
 	.byte	0x5
 	.uahalf	0x13b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2510,7 +2538,7 @@ g_Gpt12Enc:
 	.string	"PCL1"
 	.byte	0x5
 	.uahalf	0x13c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2519,7 +2547,7 @@ g_Gpt12Enc:
 	.string	"PCL2"
 	.byte	0x5
 	.uahalf	0x13d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2528,7 +2556,7 @@ g_Gpt12Enc:
 	.string	"PCL3"
 	.byte	0x5
 	.uahalf	0x13e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2537,7 +2565,7 @@ g_Gpt12Enc:
 	.string	"PCL4"
 	.byte	0x5
 	.uahalf	0x13f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2546,7 +2574,7 @@ g_Gpt12Enc:
 	.string	"PCL5"
 	.byte	0x5
 	.uahalf	0x140
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2555,7 +2583,7 @@ g_Gpt12Enc:
 	.string	"PCL6"
 	.byte	0x5
 	.uahalf	0x141
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2564,7 +2592,7 @@ g_Gpt12Enc:
 	.string	"PCL7"
 	.byte	0x5
 	.uahalf	0x142
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2573,7 +2601,7 @@ g_Gpt12Enc:
 	.string	"PCL8"
 	.byte	0x5
 	.uahalf	0x143
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2582,7 +2610,7 @@ g_Gpt12Enc:
 	.string	"PCL9"
 	.byte	0x5
 	.uahalf	0x144
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2591,7 +2619,7 @@ g_Gpt12Enc:
 	.string	"PCL10"
 	.byte	0x5
 	.uahalf	0x145
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2600,7 +2628,7 @@ g_Gpt12Enc:
 	.string	"PCL11"
 	.byte	0x5
 	.uahalf	0x146
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2609,7 +2637,7 @@ g_Gpt12Enc:
 	.string	"PCL12"
 	.byte	0x5
 	.uahalf	0x147
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2618,7 +2646,7 @@ g_Gpt12Enc:
 	.string	"PCL13"
 	.byte	0x5
 	.uahalf	0x148
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2627,7 +2655,7 @@ g_Gpt12Enc:
 	.string	"PCL14"
 	.byte	0x5
 	.uahalf	0x149
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2636,7 +2664,7 @@ g_Gpt12Enc:
 	.string	"PCL15"
 	.byte	0x5
 	.uahalf	0x14a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2646,18 +2674,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x5
 	.uahalf	0x14b
-	.uaword	0x118e
+	.uaword	0x1198
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x14e
-	.uaword	0x1447
+	.uaword	0x1451
 	.uleb128 0x12
 	.string	"PS0"
 	.byte	0x5
 	.uahalf	0x150
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2666,7 +2694,7 @@ g_Gpt12Enc:
 	.string	"PS1"
 	.byte	0x5
 	.uahalf	0x151
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2675,7 +2703,7 @@ g_Gpt12Enc:
 	.string	"PS2"
 	.byte	0x5
 	.uahalf	0x152
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2684,7 +2712,7 @@ g_Gpt12Enc:
 	.string	"PS3"
 	.byte	0x5
 	.uahalf	0x153
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2693,7 +2721,7 @@ g_Gpt12Enc:
 	.uaword	.LASF10
 	.byte	0x5
 	.uahalf	0x154
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -2703,18 +2731,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x5
 	.uahalf	0x155
-	.uaword	0x13db
+	.uaword	0x13e5
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x158
-	.uaword	0x14e1
+	.uaword	0x14eb
 	.uleb128 0x13
 	.uaword	.LASF1
 	.byte	0x5
 	.uahalf	0x15a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -2723,7 +2751,7 @@ g_Gpt12Enc:
 	.string	"PS12"
 	.byte	0x5
 	.uahalf	0x15b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2732,7 +2760,7 @@ g_Gpt12Enc:
 	.string	"PS13"
 	.byte	0x5
 	.uahalf	0x15c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2741,7 +2769,7 @@ g_Gpt12Enc:
 	.string	"PS14"
 	.byte	0x5
 	.uahalf	0x15d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2750,7 +2778,7 @@ g_Gpt12Enc:
 	.string	"PS15"
 	.byte	0x5
 	.uahalf	0x15e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2759,7 +2787,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.uahalf	0x15f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2769,18 +2797,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x5
 	.uahalf	0x160
-	.uaword	0x1460
+	.uaword	0x146a
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x163
-	.uaword	0x1577
+	.uaword	0x1581
 	.uleb128 0x13
 	.uaword	.LASF1
 	.byte	0x5
 	.uahalf	0x165
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2789,7 +2817,7 @@ g_Gpt12Enc:
 	.string	"PS4"
 	.byte	0x5
 	.uahalf	0x166
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2798,7 +2826,7 @@ g_Gpt12Enc:
 	.string	"PS5"
 	.byte	0x5
 	.uahalf	0x167
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2807,7 +2835,7 @@ g_Gpt12Enc:
 	.string	"PS6"
 	.byte	0x5
 	.uahalf	0x168
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2816,7 +2844,7 @@ g_Gpt12Enc:
 	.string	"PS7"
 	.byte	0x5
 	.uahalf	0x169
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2825,7 +2853,7 @@ g_Gpt12Enc:
 	.uaword	.LASF4
 	.byte	0x5
 	.uahalf	0x16a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -2835,18 +2863,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x5
 	.uahalf	0x16b
-	.uaword	0x14fb
+	.uaword	0x1505
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x16e
-	.uaword	0x160e
+	.uaword	0x1618
 	.uleb128 0x13
 	.uaword	.LASF1
 	.byte	0x5
 	.uahalf	0x170
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2855,7 +2883,7 @@ g_Gpt12Enc:
 	.string	"PS8"
 	.byte	0x5
 	.uahalf	0x171
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2864,7 +2892,7 @@ g_Gpt12Enc:
 	.string	"PS9"
 	.byte	0x5
 	.uahalf	0x172
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2873,7 +2901,7 @@ g_Gpt12Enc:
 	.string	"PS10"
 	.byte	0x5
 	.uahalf	0x173
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2882,7 +2910,7 @@ g_Gpt12Enc:
 	.string	"PS11"
 	.byte	0x5
 	.uahalf	0x174
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2891,7 +2919,7 @@ g_Gpt12Enc:
 	.uaword	.LASF11
 	.byte	0x5
 	.uahalf	0x175
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -2901,18 +2929,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x5
 	.uahalf	0x176
-	.uaword	0x1590
+	.uaword	0x159a
 	.uleb128 0x15
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x179
-	.uaword	0x1758
+	.uaword	0x1762
 	.uleb128 0x12
 	.string	"PS0"
 	.byte	0x5
 	.uahalf	0x17b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2921,7 +2949,7 @@ g_Gpt12Enc:
 	.string	"PS1"
 	.byte	0x5
 	.uahalf	0x17c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2930,7 +2958,7 @@ g_Gpt12Enc:
 	.string	"PS2"
 	.byte	0x5
 	.uahalf	0x17d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2939,7 +2967,7 @@ g_Gpt12Enc:
 	.string	"PS3"
 	.byte	0x5
 	.uahalf	0x17e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2948,7 +2976,7 @@ g_Gpt12Enc:
 	.string	"PS4"
 	.byte	0x5
 	.uahalf	0x17f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2957,7 +2985,7 @@ g_Gpt12Enc:
 	.string	"PS5"
 	.byte	0x5
 	.uahalf	0x180
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2966,7 +2994,7 @@ g_Gpt12Enc:
 	.string	"PS6"
 	.byte	0x5
 	.uahalf	0x181
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2975,7 +3003,7 @@ g_Gpt12Enc:
 	.string	"PS7"
 	.byte	0x5
 	.uahalf	0x182
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2984,7 +3012,7 @@ g_Gpt12Enc:
 	.string	"PS8"
 	.byte	0x5
 	.uahalf	0x183
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2993,7 +3021,7 @@ g_Gpt12Enc:
 	.string	"PS9"
 	.byte	0x5
 	.uahalf	0x184
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3002,7 +3030,7 @@ g_Gpt12Enc:
 	.string	"PS10"
 	.byte	0x5
 	.uahalf	0x185
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3011,7 +3039,7 @@ g_Gpt12Enc:
 	.string	"PS11"
 	.byte	0x5
 	.uahalf	0x186
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3020,7 +3048,7 @@ g_Gpt12Enc:
 	.string	"PS12"
 	.byte	0x5
 	.uahalf	0x187
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3029,7 +3057,7 @@ g_Gpt12Enc:
 	.string	"PS13"
 	.byte	0x5
 	.uahalf	0x188
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3038,7 +3066,7 @@ g_Gpt12Enc:
 	.string	"PS14"
 	.byte	0x5
 	.uahalf	0x189
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3047,7 +3075,7 @@ g_Gpt12Enc:
 	.string	"PS15"
 	.byte	0x5
 	.uahalf	0x18a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3056,7 +3084,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.uahalf	0x18b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3066,18 +3094,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x5
 	.uahalf	0x18c
-	.uaword	0x1627
+	.uaword	0x1631
 	.uleb128 0x15
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x18f
-	.uaword	0x1890
+	.uaword	0x189a
 	.uleb128 0x12
 	.string	"P0"
 	.byte	0x5
 	.uahalf	0x191
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3086,7 +3114,7 @@ g_Gpt12Enc:
 	.string	"P1"
 	.byte	0x5
 	.uahalf	0x192
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3095,7 +3123,7 @@ g_Gpt12Enc:
 	.string	"P2"
 	.byte	0x5
 	.uahalf	0x193
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3104,7 +3132,7 @@ g_Gpt12Enc:
 	.string	"P3"
 	.byte	0x5
 	.uahalf	0x194
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3113,7 +3141,7 @@ g_Gpt12Enc:
 	.string	"P4"
 	.byte	0x5
 	.uahalf	0x195
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3122,7 +3150,7 @@ g_Gpt12Enc:
 	.string	"P5"
 	.byte	0x5
 	.uahalf	0x196
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3131,7 +3159,7 @@ g_Gpt12Enc:
 	.string	"P6"
 	.byte	0x5
 	.uahalf	0x197
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3140,7 +3168,7 @@ g_Gpt12Enc:
 	.string	"P7"
 	.byte	0x5
 	.uahalf	0x198
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3149,7 +3177,7 @@ g_Gpt12Enc:
 	.string	"P8"
 	.byte	0x5
 	.uahalf	0x199
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3158,7 +3186,7 @@ g_Gpt12Enc:
 	.string	"P9"
 	.byte	0x5
 	.uahalf	0x19a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3167,7 +3195,7 @@ g_Gpt12Enc:
 	.string	"P10"
 	.byte	0x5
 	.uahalf	0x19b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3176,7 +3204,7 @@ g_Gpt12Enc:
 	.string	"P11"
 	.byte	0x5
 	.uahalf	0x19c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3185,7 +3213,7 @@ g_Gpt12Enc:
 	.string	"P12"
 	.byte	0x5
 	.uahalf	0x19d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3194,7 +3222,7 @@ g_Gpt12Enc:
 	.string	"P13"
 	.byte	0x5
 	.uahalf	0x19e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3203,7 +3231,7 @@ g_Gpt12Enc:
 	.string	"P14"
 	.byte	0x5
 	.uahalf	0x19f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3212,7 +3240,7 @@ g_Gpt12Enc:
 	.string	"P15"
 	.byte	0x5
 	.uahalf	0x1a0
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3221,7 +3249,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.uahalf	0x1a1
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3231,18 +3259,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x5
 	.uahalf	0x1a2
-	.uaword	0x1770
+	.uaword	0x177a
 	.uleb128 0x15
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x1a5
-	.uaword	0x1994
+	.uaword	0x199e
 	.uleb128 0x12
 	.string	"SEL0"
 	.byte	0x5
 	.uahalf	0x1a7
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3251,7 +3279,7 @@ g_Gpt12Enc:
 	.string	"SEL1"
 	.byte	0x5
 	.uahalf	0x1a8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3260,7 +3288,7 @@ g_Gpt12Enc:
 	.string	"SEL2"
 	.byte	0x5
 	.uahalf	0x1a9
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3269,7 +3297,7 @@ g_Gpt12Enc:
 	.string	"SEL3"
 	.byte	0x5
 	.uahalf	0x1aa
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3278,7 +3306,7 @@ g_Gpt12Enc:
 	.string	"SEL4"
 	.byte	0x5
 	.uahalf	0x1ab
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3287,7 +3315,7 @@ g_Gpt12Enc:
 	.string	"SEL5"
 	.byte	0x5
 	.uahalf	0x1ac
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3296,7 +3324,7 @@ g_Gpt12Enc:
 	.string	"SEL6"
 	.byte	0x5
 	.uahalf	0x1ad
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3305,7 +3333,7 @@ g_Gpt12Enc:
 	.string	"reserved_7"
 	.byte	0x5
 	.uahalf	0x1ae
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -3314,7 +3342,7 @@ g_Gpt12Enc:
 	.string	"SEL10"
 	.byte	0x5
 	.uahalf	0x1af
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3323,7 +3351,7 @@ g_Gpt12Enc:
 	.string	"SEL11"
 	.byte	0x5
 	.uahalf	0x1b0
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3332,7 +3360,7 @@ g_Gpt12Enc:
 	.uaword	.LASF11
 	.byte	0x5
 	.uahalf	0x1b1
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -3341,7 +3369,7 @@ g_Gpt12Enc:
 	.string	"LCK"
 	.byte	0x5
 	.uahalf	0x1b2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3351,18 +3379,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x5
 	.uahalf	0x1b3
-	.uaword	0x18a7
+	.uaword	0x18b1
 	.uleb128 0x15
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x1b6
-	.uaword	0x1afe
+	.uaword	0x1b08
 	.uleb128 0x12
 	.string	"PDIS0"
 	.byte	0x5
 	.uahalf	0x1b8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3371,7 +3399,7 @@ g_Gpt12Enc:
 	.string	"PDIS1"
 	.byte	0x5
 	.uahalf	0x1b9
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3380,7 +3408,7 @@ g_Gpt12Enc:
 	.string	"PDIS2"
 	.byte	0x5
 	.uahalf	0x1ba
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3389,7 +3417,7 @@ g_Gpt12Enc:
 	.string	"PDIS3"
 	.byte	0x5
 	.uahalf	0x1bb
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3398,7 +3426,7 @@ g_Gpt12Enc:
 	.string	"PDIS4"
 	.byte	0x5
 	.uahalf	0x1bc
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3407,7 +3435,7 @@ g_Gpt12Enc:
 	.string	"PDIS5"
 	.byte	0x5
 	.uahalf	0x1bd
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3416,7 +3444,7 @@ g_Gpt12Enc:
 	.string	"PDIS6"
 	.byte	0x5
 	.uahalf	0x1be
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3425,7 +3453,7 @@ g_Gpt12Enc:
 	.string	"PDIS7"
 	.byte	0x5
 	.uahalf	0x1bf
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3434,7 +3462,7 @@ g_Gpt12Enc:
 	.string	"PDIS8"
 	.byte	0x5
 	.uahalf	0x1c0
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3443,7 +3471,7 @@ g_Gpt12Enc:
 	.string	"PDIS9"
 	.byte	0x5
 	.uahalf	0x1c1
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3452,7 +3480,7 @@ g_Gpt12Enc:
 	.string	"PDIS10"
 	.byte	0x5
 	.uahalf	0x1c2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3461,7 +3489,7 @@ g_Gpt12Enc:
 	.string	"PDIS11"
 	.byte	0x5
 	.uahalf	0x1c3
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3470,7 +3498,7 @@ g_Gpt12Enc:
 	.string	"PDIS12"
 	.byte	0x5
 	.uahalf	0x1c4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3479,7 +3507,7 @@ g_Gpt12Enc:
 	.string	"PDIS13"
 	.byte	0x5
 	.uahalf	0x1c5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3488,7 +3516,7 @@ g_Gpt12Enc:
 	.string	"PDIS14"
 	.byte	0x5
 	.uahalf	0x1c6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3497,7 +3525,7 @@ g_Gpt12Enc:
 	.string	"PDIS15"
 	.byte	0x5
 	.uahalf	0x1c7
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3506,7 +3534,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0x5
 	.uahalf	0x1c8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3516,18 +3544,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x5
 	.uahalf	0x1c9
-	.uaword	0x19ac
+	.uaword	0x19b6
 	.uleb128 0x15
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x1cc
-	.uaword	0x1c32
+	.uaword	0x1c3c
 	.uleb128 0x12
 	.string	"PD0"
 	.byte	0x5
 	.uahalf	0x1ce
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3536,7 +3564,7 @@ g_Gpt12Enc:
 	.string	"PL0"
 	.byte	0x5
 	.uahalf	0x1cf
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3545,7 +3573,7 @@ g_Gpt12Enc:
 	.string	"PD1"
 	.byte	0x5
 	.uahalf	0x1d0
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -3554,7 +3582,7 @@ g_Gpt12Enc:
 	.string	"PL1"
 	.byte	0x5
 	.uahalf	0x1d1
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3563,7 +3591,7 @@ g_Gpt12Enc:
 	.string	"PD2"
 	.byte	0x5
 	.uahalf	0x1d2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -3572,7 +3600,7 @@ g_Gpt12Enc:
 	.string	"PL2"
 	.byte	0x5
 	.uahalf	0x1d3
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3581,7 +3609,7 @@ g_Gpt12Enc:
 	.string	"PD3"
 	.byte	0x5
 	.uahalf	0x1d4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -3590,7 +3618,7 @@ g_Gpt12Enc:
 	.string	"PL3"
 	.byte	0x5
 	.uahalf	0x1d5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3599,7 +3627,7 @@ g_Gpt12Enc:
 	.string	"PD4"
 	.byte	0x5
 	.uahalf	0x1d6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3608,7 +3636,7 @@ g_Gpt12Enc:
 	.string	"PL4"
 	.byte	0x5
 	.uahalf	0x1d7
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3617,7 +3645,7 @@ g_Gpt12Enc:
 	.string	"PD5"
 	.byte	0x5
 	.uahalf	0x1d8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -3626,7 +3654,7 @@ g_Gpt12Enc:
 	.string	"PL5"
 	.byte	0x5
 	.uahalf	0x1d9
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3635,7 +3663,7 @@ g_Gpt12Enc:
 	.string	"PD6"
 	.byte	0x5
 	.uahalf	0x1da
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -3644,7 +3672,7 @@ g_Gpt12Enc:
 	.string	"PL6"
 	.byte	0x5
 	.uahalf	0x1db
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3653,7 +3681,7 @@ g_Gpt12Enc:
 	.string	"PD7"
 	.byte	0x5
 	.uahalf	0x1dc
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -3662,7 +3690,7 @@ g_Gpt12Enc:
 	.string	"PL7"
 	.byte	0x5
 	.uahalf	0x1dd
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3672,18 +3700,18 @@ g_Gpt12Enc:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x5
 	.uahalf	0x1de
-	.uaword	0x1b17
+	.uaword	0x1b21
 	.uleb128 0x15
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x1e1
-	.uaword	0x1d71
+	.uaword	0x1d7b
 	.uleb128 0x12
 	.string	"PD8"
 	.byte	0x5
 	.uahalf	0x1e3
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3692,7 +3720,7 @@ g_Gpt12Enc:
 	.string	"PL8"
 	.byte	0x5
 	.uahalf	0x1e4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3701,7 +3729,7 @@ g_Gpt12Enc:
 	.string	"PD9"
 	.byte	0x5
 	.uahalf	0x1e5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -3710,7 +3738,7 @@ g_Gpt12Enc:
 	.string	"PL9"
 	.byte	0x5
 	.uahalf	0x1e6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3719,7 +3747,7 @@ g_Gpt12Enc:
 	.string	"PD10"
 	.byte	0x5
 	.uahalf	0x1e7
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -3728,7 +3756,7 @@ g_Gpt12Enc:
 	.string	"PL10"
 	.byte	0x5
 	.uahalf	0x1e8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3737,7 +3765,7 @@ g_Gpt12Enc:
 	.string	"PD11"
 	.byte	0x5
 	.uahalf	0x1e9
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -3746,7 +3774,7 @@ g_Gpt12Enc:
 	.string	"PL11"
 	.byte	0x5
 	.uahalf	0x1ea
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3755,7 +3783,7 @@ g_Gpt12Enc:
 	.string	"PD12"
 	.byte	0x5
 	.uahalf	0x1eb
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3764,7 +3792,7 @@ g_Gpt12Enc:
 	.string	"PL12"
 	.byte	0x5
 	.uahalf	0x1ec
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3773,7 +3801,7 @@ g_Gpt12Enc:
 	.string	"PD13"
 	.byte	0x5
 	.uahalf	0x1ed
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -3782,7 +3810,7 @@ g_Gpt12Enc:
 	.string	"PL13"
 	.byte	0x5
 	.uahalf	0x1ee
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3791,7 +3819,7 @@ g_Gpt12Enc:
 	.string	"PD14"
 	.byte	0x5
 	.uahalf	0x1ef
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -3800,7 +3828,7 @@ g_Gpt12Enc:
 	.string	"PL14"
 	.byte	0x5
 	.uahalf	0x1f0
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3809,7 +3837,7 @@ g_Gpt12Enc:
 	.string	"PD15"
 	.byte	0x5
 	.uahalf	0x1f1
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -3818,7 +3846,7 @@ g_Gpt12Enc:
 	.string	"PL15"
 	.byte	0x5
 	.uahalf	0x1f2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3828,992 +3856,992 @@ g_Gpt12Enc:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x5
 	.uahalf	0x1f3
-	.uaword	0x1c4a
+	.uaword	0x1c54
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x1fb
-	.uaword	0x1db1
+	.uaword	0x1dbb
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x1fd
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x1fe
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x1ff
-	.uaword	0x5ff
+	.uaword	0x609
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x5
 	.uahalf	0x200
-	.uaword	0x1d89
+	.uaword	0x1d93
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x203
-	.uaword	0x1dee
+	.uaword	0x1df8
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x205
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x206
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x207
-	.uaword	0x643
+	.uaword	0x64d
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x5
 	.uahalf	0x208
-	.uaword	0x1dc6
+	.uaword	0x1dd0
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x20b
-	.uaword	0x1e2b
+	.uaword	0x1e35
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x20d
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x20e
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x20f
-	.uaword	0x77a
+	.uaword	0x784
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_ESR"
 	.byte	0x5
 	.uahalf	0x210
-	.uaword	0x1e03
+	.uaword	0x1e0d
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x213
-	.uaword	0x1e65
+	.uaword	0x1e6f
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x215
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x216
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x217
-	.uaword	0x7dc
+	.uaword	0x7e6
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_ID"
 	.byte	0x5
 	.uahalf	0x218
-	.uaword	0x1e3d
+	.uaword	0x1e47
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x21b
-	.uaword	0x1e9e
+	.uaword	0x1ea8
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x21d
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x21e
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x21f
-	.uaword	0x8fe
+	.uaword	0x908
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IN"
 	.byte	0x5
 	.uahalf	0x220
-	.uaword	0x1e76
+	.uaword	0x1e80
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x223
-	.uaword	0x1ed7
+	.uaword	0x1ee1
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x225
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x226
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x227
-	.uaword	0x9a6
+	.uaword	0x9b0
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IOCR0"
 	.byte	0x5
 	.uahalf	0x228
-	.uaword	0x1eaf
+	.uaword	0x1eb9
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x22b
-	.uaword	0x1f13
+	.uaword	0x1f1d
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x22d
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x22e
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x22f
-	.uaword	0xa56
+	.uaword	0xa60
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IOCR12"
 	.byte	0x5
 	.uahalf	0x230
-	.uaword	0x1eeb
+	.uaword	0x1ef5
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x233
-	.uaword	0x1f50
+	.uaword	0x1f5a
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x235
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x236
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x237
-	.uaword	0xb02
+	.uaword	0xb0c
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IOCR4"
 	.byte	0x5
 	.uahalf	0x238
-	.uaword	0x1f28
+	.uaword	0x1f32
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x23b
-	.uaword	0x1f8c
+	.uaword	0x1f96
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x23d
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x23e
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x23f
-	.uaword	0xbaf
+	.uaword	0xbb9
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_IOCR8"
 	.byte	0x5
 	.uahalf	0x240
-	.uaword	0x1f64
+	.uaword	0x1f6e
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x243
-	.uaword	0x1fc8
+	.uaword	0x1fd2
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x245
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x246
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x247
-	.uaword	0xc0f
+	.uaword	0xc19
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_LPCR0"
 	.byte	0x5
 	.uahalf	0x248
-	.uaword	0x1fa0
+	.uaword	0x1faa
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x24b
-	.uaword	0x2012
+	.uaword	0x201c
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x24d
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x24e
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x24f
-	.uaword	0xc6f
+	.uaword	0xc79
 	.uleb128 0x17
 	.string	"B_P21"
 	.byte	0x5
 	.uahalf	0x250
-	.uaword	0xcff
+	.uaword	0xd09
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_LPCR1"
 	.byte	0x5
 	.uahalf	0x251
-	.uaword	0x1fdc
+	.uaword	0x1fe6
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x254
-	.uaword	0x204e
+	.uaword	0x2058
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x256
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x257
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x258
-	.uaword	0xdd2
+	.uaword	0xddc
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_LPCR2"
 	.byte	0x5
 	.uahalf	0x259
-	.uaword	0x2026
+	.uaword	0x2030
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x25c
-	.uaword	0x208a
+	.uaword	0x2094
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x25e
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x25f
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x260
-	.uaword	0x1176
+	.uaword	0x1180
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR"
 	.byte	0x5
 	.uahalf	0x261
-	.uaword	0x2062
+	.uaword	0x206c
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x264
-	.uaword	0x20c5
+	.uaword	0x20cf
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x266
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x267
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x268
-	.uaword	0xe63
+	.uaword	0xe6d
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR0"
 	.byte	0x5
 	.uahalf	0x269
-	.uaword	0x209d
+	.uaword	0x20a7
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x26c
-	.uaword	0x2101
+	.uaword	0x210b
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x26e
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x26f
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x270
-	.uaword	0xeea
+	.uaword	0xef4
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR12"
 	.byte	0x5
 	.uahalf	0x271
-	.uaword	0x20d9
+	.uaword	0x20e3
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x274
-	.uaword	0x213e
+	.uaword	0x2148
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x276
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x277
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x278
-	.uaword	0xf81
+	.uaword	0xf8b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR4"
 	.byte	0x5
 	.uahalf	0x279
-	.uaword	0x2116
+	.uaword	0x2120
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x27c
-	.uaword	0x217a
+	.uaword	0x2184
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x27e
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x27f
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x280
-	.uaword	0x101c
+	.uaword	0x1026
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMCR8"
 	.byte	0x5
 	.uahalf	0x281
-	.uaword	0x2152
+	.uaword	0x215c
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x284
-	.uaword	0x21b6
+	.uaword	0x21c0
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x286
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x287
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x288
-	.uaword	0x13c4
+	.uaword	0x13ce
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMR"
 	.byte	0x5
 	.uahalf	0x289
-	.uaword	0x218e
+	.uaword	0x2198
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x28c
-	.uaword	0x21f0
+	.uaword	0x21fa
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x28e
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x28f
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x290
-	.uaword	0x1758
+	.uaword	0x1762
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR"
 	.byte	0x5
 	.uahalf	0x291
-	.uaword	0x21c8
+	.uaword	0x21d2
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x294
-	.uaword	0x222b
+	.uaword	0x2235
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x296
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x297
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x298
-	.uaword	0x1447
+	.uaword	0x1451
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR0"
 	.byte	0x5
 	.uahalf	0x299
-	.uaword	0x2203
+	.uaword	0x220d
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x29c
-	.uaword	0x2267
+	.uaword	0x2271
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x29e
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x29f
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x2a0
-	.uaword	0x14e1
+	.uaword	0x14eb
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR12"
 	.byte	0x5
 	.uahalf	0x2a1
-	.uaword	0x223f
+	.uaword	0x2249
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x2a4
-	.uaword	0x22a4
+	.uaword	0x22ae
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x2a6
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x2a7
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x2a8
-	.uaword	0x1577
+	.uaword	0x1581
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR4"
 	.byte	0x5
 	.uahalf	0x2a9
-	.uaword	0x227c
+	.uaword	0x2286
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x2ac
-	.uaword	0x22e0
+	.uaword	0x22ea
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x2ae
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x2af
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x2b0
-	.uaword	0x160e
+	.uaword	0x1618
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OMSR8"
 	.byte	0x5
 	.uahalf	0x2b1
-	.uaword	0x22b8
+	.uaword	0x22c2
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x2b4
-	.uaword	0x231c
+	.uaword	0x2326
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x2b6
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x2b7
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x2b8
-	.uaword	0x1890
+	.uaword	0x189a
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_OUT"
 	.byte	0x5
 	.uahalf	0x2b9
-	.uaword	0x22f4
+	.uaword	0x22fe
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x2bc
-	.uaword	0x2356
+	.uaword	0x2360
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x2be
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x2bf
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x2c0
-	.uaword	0x1994
+	.uaword	0x199e
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_PCSR"
 	.byte	0x5
 	.uahalf	0x2c1
-	.uaword	0x232e
+	.uaword	0x2338
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x2c4
-	.uaword	0x2391
+	.uaword	0x239b
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x2c6
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x2c7
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x2c8
-	.uaword	0x1afe
+	.uaword	0x1b08
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_PDISC"
 	.byte	0x5
 	.uahalf	0x2c9
-	.uaword	0x2369
+	.uaword	0x2373
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x2cc
-	.uaword	0x23cd
+	.uaword	0x23d7
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x2ce
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x2cf
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x2d0
-	.uaword	0x1c32
+	.uaword	0x1c3c
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_PDR0"
 	.byte	0x5
 	.uahalf	0x2d1
-	.uaword	0x23a5
+	.uaword	0x23af
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0x5
 	.uahalf	0x2d4
-	.uaword	0x2408
+	.uaword	0x2412
 	.uleb128 0x17
 	.string	"U"
 	.byte	0x5
 	.uahalf	0x2d6
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0x5
 	.uahalf	0x2d7
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0x5
 	.uahalf	0x2d8
-	.uaword	0x1d71
+	.uaword	0x1d7b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P_PDR1"
 	.byte	0x5
 	.uahalf	0x2d9
-	.uaword	0x23e0
+	.uaword	0x23ea
 	.uleb128 0x18
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x5
 	.uahalf	0x2e4
-	.uaword	0x264d
+	.uaword	0x2657
 	.uleb128 0x19
 	.string	"OUT"
 	.byte	0x5
 	.uahalf	0x2e6
-	.uaword	0x231c
+	.uaword	0x2326
 	.byte	0
 	.uleb128 0x19
 	.string	"OMR"
 	.byte	0x5
 	.uahalf	0x2e7
-	.uaword	0x21b6
+	.uaword	0x21c0
 	.byte	0x4
 	.uleb128 0x19
 	.string	"ID"
 	.byte	0x5
 	.uahalf	0x2e8
-	.uaword	0x1e65
+	.uaword	0x1e6f
 	.byte	0x8
 	.uleb128 0x1a
 	.uaword	.LASF12
 	.byte	0x5
 	.uahalf	0x2e9
-	.uaword	0x245
+	.uaword	0x24f
 	.byte	0xc
 	.uleb128 0x19
 	.string	"IOCR0"
 	.byte	0x5
 	.uahalf	0x2ea
-	.uaword	0x1ed7
+	.uaword	0x1ee1
 	.byte	0x10
 	.uleb128 0x19
 	.string	"IOCR4"
 	.byte	0x5
 	.uahalf	0x2eb
-	.uaword	0x1f50
+	.uaword	0x1f5a
 	.byte	0x14
 	.uleb128 0x19
 	.string	"IOCR8"
 	.byte	0x5
 	.uahalf	0x2ec
-	.uaword	0x1f8c
+	.uaword	0x1f96
 	.byte	0x18
 	.uleb128 0x19
 	.string	"IOCR12"
 	.byte	0x5
 	.uahalf	0x2ed
-	.uaword	0x1f13
+	.uaword	0x1f1d
 	.byte	0x1c
 	.uleb128 0x1a
 	.uaword	.LASF8
 	.byte	0x5
 	.uahalf	0x2ee
-	.uaword	0x245
+	.uaword	0x24f
 	.byte	0x20
 	.uleb128 0x19
 	.string	"IN"
 	.byte	0x5
 	.uahalf	0x2ef
-	.uaword	0x1e9e
+	.uaword	0x1ea8
 	.byte	0x24
 	.uleb128 0x1a
 	.uaword	.LASF9
 	.byte	0x5
 	.uahalf	0x2f0
-	.uaword	0x264d
+	.uaword	0x2657
 	.byte	0x28
 	.uleb128 0x19
 	.string	"PDR0"
 	.byte	0x5
 	.uahalf	0x2f1
-	.uaword	0x23cd
+	.uaword	0x23d7
 	.byte	0x40
 	.uleb128 0x19
 	.string	"PDR1"
 	.byte	0x5
 	.uahalf	0x2f2
-	.uaword	0x2408
+	.uaword	0x2412
 	.byte	0x44
 	.uleb128 0x1a
 	.uaword	.LASF13
 	.byte	0x5
 	.uahalf	0x2f3
-	.uaword	0x3cd
+	.uaword	0x3d7
 	.byte	0x48
 	.uleb128 0x19
 	.string	"ESR"
 	.byte	0x5
 	.uahalf	0x2f4
-	.uaword	0x1e2b
+	.uaword	0x1e35
 	.byte	0x50
 	.uleb128 0x19
 	.string	"reserved_54"
 	.byte	0x5
 	.uahalf	0x2f5
-	.uaword	0x3dd
+	.uaword	0x3e7
 	.byte	0x54
 	.uleb128 0x19
 	.string	"PDISC"
 	.byte	0x5
 	.uahalf	0x2f6
-	.uaword	0x2391
+	.uaword	0x239b
 	.byte	0x60
 	.uleb128 0x19
 	.string	"PCSR"
 	.byte	0x5
 	.uahalf	0x2f7
-	.uaword	0x2356
+	.uaword	0x2360
 	.byte	0x64
 	.uleb128 0x19
 	.string	"reserved_68"
 	.byte	0x5
 	.uahalf	0x2f8
-	.uaword	0x3cd
+	.uaword	0x3d7
 	.byte	0x68
 	.uleb128 0x19
 	.string	"OMSR0"
 	.byte	0x5
 	.uahalf	0x2f9
-	.uaword	0x222b
+	.uaword	0x2235
 	.byte	0x70
 	.uleb128 0x19
 	.string	"OMSR4"
 	.byte	0x5
 	.uahalf	0x2fa
-	.uaword	0x22a4
+	.uaword	0x22ae
 	.byte	0x74
 	.uleb128 0x19
 	.string	"OMSR8"
 	.byte	0x5
 	.uahalf	0x2fb
-	.uaword	0x22e0
+	.uaword	0x22ea
 	.byte	0x78
 	.uleb128 0x19
 	.string	"OMSR12"
 	.byte	0x5
 	.uahalf	0x2fc
-	.uaword	0x2267
+	.uaword	0x2271
 	.byte	0x7c
 	.uleb128 0x19
 	.string	"OMCR0"
 	.byte	0x5
 	.uahalf	0x2fd
-	.uaword	0x20c5
+	.uaword	0x20cf
 	.byte	0x80
 	.uleb128 0x19
 	.string	"OMCR4"
 	.byte	0x5
 	.uahalf	0x2fe
-	.uaword	0x213e
+	.uaword	0x2148
 	.byte	0x84
 	.uleb128 0x19
 	.string	"OMCR8"
 	.byte	0x5
 	.uahalf	0x2ff
-	.uaword	0x217a
+	.uaword	0x2184
 	.byte	0x88
 	.uleb128 0x19
 	.string	"OMCR12"
 	.byte	0x5
 	.uahalf	0x300
-	.uaword	0x2101
+	.uaword	0x210b
 	.byte	0x8c
 	.uleb128 0x19
 	.string	"OMSR"
 	.byte	0x5
 	.uahalf	0x301
-	.uaword	0x21f0
+	.uaword	0x21fa
 	.byte	0x90
 	.uleb128 0x19
 	.string	"OMCR"
 	.byte	0x5
 	.uahalf	0x302
-	.uaword	0x208a
+	.uaword	0x2094
 	.byte	0x94
 	.uleb128 0x19
 	.string	"reserved_98"
 	.byte	0x5
 	.uahalf	0x303
-	.uaword	0x3cd
+	.uaword	0x3d7
 	.byte	0x98
 	.uleb128 0x19
 	.string	"LPCR0"
 	.byte	0x5
 	.uahalf	0x304
-	.uaword	0x1fc8
+	.uaword	0x1fd2
 	.byte	0xa0
 	.uleb128 0x19
 	.string	"LPCR1"
 	.byte	0x5
 	.uahalf	0x305
-	.uaword	0x2012
+	.uaword	0x201c
 	.byte	0xa4
 	.uleb128 0x19
 	.string	"LPCR2"
 	.byte	0x5
 	.uahalf	0x306
-	.uaword	0x204e
+	.uaword	0x2058
 	.byte	0xa8
 	.uleb128 0x19
 	.string	"reserved_A4"
 	.byte	0x5
 	.uahalf	0x307
-	.uaword	0x265d
+	.uaword	0x2667
 	.byte	0xac
 	.uleb128 0x19
 	.string	"ACCEN1"
 	.byte	0x5
 	.uahalf	0x308
-	.uaword	0x1dee
+	.uaword	0x1df8
 	.byte	0xf8
 	.uleb128 0x19
 	.string	"ACCEN0"
 	.byte	0x5
 	.uahalf	0x309
-	.uaword	0x1db1
+	.uaword	0x1dbb
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x3
-	.uaword	0x1c3
-	.uaword	0x265d
+	.uaword	0x1cd
+	.uaword	0x2667
 	.uleb128 0x4
-	.uaword	0x255
+	.uaword	0x25f
 	.byte	0x17
 	.byte	0
 	.uleb128 0x3
-	.uaword	0x1c3
-	.uaword	0x266d
+	.uaword	0x1cd
+	.uaword	0x2677
 	.uleb128 0x4
-	.uaword	0x255
+	.uaword	0x25f
 	.byte	0x4b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_P"
 	.byte	0x5
 	.uahalf	0x30a
-	.uaword	0x267b
+	.uaword	0x2685
 	.uleb128 0x1b
-	.uaword	0x241b
+	.uaword	0x2425
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x266d
+	.uaword	0x2677
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0x6
 	.byte	0x40
-	.uaword	0x2706
+	.uaword	0x2710
 	.uleb128 0xb
 	.string	"IfxPort_InputMode_undefined"
 	.sleb128 -1
@@ -4831,12 +4859,12 @@ g_Gpt12Enc:
 	.string	"IfxPort_InputMode"
 	.byte	0x6
 	.byte	0x45
-	.uaword	0x2686
+	.uaword	0x2690
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0x6
 	.byte	0x7d
-	.uaword	0x28c0
+	.uaword	0x28ca
 	.uleb128 0xb
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -4878,35 +4906,35 @@ g_Gpt12Enc:
 	.string	"IfxPort_PadDriver"
 	.byte	0x6
 	.byte	0x8a
-	.uaword	0x271f
+	.uaword	0x2729
 	.uleb128 0xc
 	.byte	0x8
 	.byte	0x6
 	.byte	0xaa
-	.uaword	0x2900
+	.uaword	0x290a
 	.uleb128 0xe
 	.string	"port"
 	.byte	0x6
 	.byte	0xac
-	.uaword	0x2680
+	.uaword	0x268a
 	.byte	0
 	.uleb128 0xe
 	.string	"pinIndex"
 	.byte	0x6
 	.byte	0xad
-	.uaword	0x276
+	.uaword	0x280
 	.byte	0x4
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxPort_Pin"
 	.byte	0x6
 	.byte	0xae
-	.uaword	0x28d9
+	.uaword	0x28e3
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0x7
 	.byte	0x32
-	.uaword	0x2963
+	.uaword	0x296d
 	.uleb128 0xb
 	.string	"IfxSrc_Tos_cpu0"
 	.sleb128 0
@@ -4924,33 +4952,33 @@ g_Gpt12Enc:
 	.string	"IfxSrc_Tos"
 	.byte	0x7
 	.byte	0x37
-	.uaword	0x2913
+	.uaword	0x291d
 	.uleb128 0x3
-	.uaword	0x1c3
-	.uaword	0x2985
+	.uaword	0x1cd
+	.uaword	0x298f
 	.uleb128 0x4
-	.uaword	0x255
+	.uaword	0x25f
 	.byte	0x9f
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxStdIf_InterfaceDriver"
 	.byte	0x8
 	.byte	0x62
-	.uaword	0x261
+	.uaword	0x26b
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x29ab
+	.uaword	0x29b5
 	.uleb128 0x1c
 	.byte	0x1
-	.uaword	0x29b7
+	.uaword	0x29c1
 	.uleb128 0x1d
-	.uaword	0x2985
+	.uaword	0x298f
 	.byte	0
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0x9
 	.byte	0x39
-	.uaword	0x2a39
+	.uaword	0x2a43
 	.uleb128 0xb
 	.string	"IfxStdIf_Pos_ResolutionFactor_oneFold"
 	.sleb128 1
@@ -4965,12 +4993,12 @@ g_Gpt12Enc:
 	.string	"IfxStdIf_Pos_ResolutionFactor"
 	.byte	0x9
 	.byte	0x3d
-	.uaword	0x29b7
+	.uaword	0x29c1
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0x9
 	.byte	0x4c
-	.uaword	0x2ab9
+	.uaword	0x2ac3
 	.uleb128 0xb
 	.string	"IfxStdIf_Pos_Dir_forward"
 	.sleb128 0
@@ -4985,17 +5013,17 @@ g_Gpt12Enc:
 	.string	"IfxStdIf_Pos_Dir"
 	.byte	0x9
 	.byte	0x50
-	.uaword	0x2a5e
+	.uaword	0x2a68
 	.uleb128 0xc
 	.byte	0x1
 	.byte	0x9
 	.byte	0x56
-	.uaword	0x2b55
+	.uaword	0x2b5f
 	.uleb128 0x10
 	.string	"notSynchronised"
 	.byte	0x9
 	.byte	0x58
-	.uaword	0x29f
+	.uaword	0x2a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5004,7 +5032,7 @@ g_Gpt12Enc:
 	.string	"signalLoss"
 	.byte	0x9
 	.byte	0x59
-	.uaword	0x29f
+	.uaword	0x2a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5013,7 +5041,7 @@ g_Gpt12Enc:
 	.string	"signalDegradation"
 	.byte	0x9
 	.byte	0x5a
-	.uaword	0x29f
+	.uaword	0x2a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5022,7 +5050,7 @@ g_Gpt12Enc:
 	.string	"trackingLoss"
 	.byte	0x9
 	.byte	0x5b
-	.uaword	0x29f
+	.uaword	0x2a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5031,7 +5059,7 @@ g_Gpt12Enc:
 	.string	"commError"
 	.byte	0x9
 	.byte	0x5c
-	.uaword	0x29f
+	.uaword	0x2a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5041,139 +5069,139 @@ g_Gpt12Enc:
 	.byte	0x4
 	.byte	0x9
 	.byte	0x53
-	.uaword	0x2b75
+	.uaword	0x2b7f
 	.uleb128 0x1f
 	.string	"status"
 	.byte	0x9
 	.byte	0x55
-	.uaword	0x29f
+	.uaword	0x2a9
 	.uleb128 0x1f
 	.string	"B"
 	.byte	0x9
 	.byte	0x5d
-	.uaword	0x2ad1
+	.uaword	0x2adb
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxStdIf_Pos_Status"
 	.byte	0x9
 	.byte	0x5e
-	.uaword	0x2b55
+	.uaword	0x2b5f
 	.uleb128 0x8
 	.string	"IfxStdIf_Pos_Update"
 	.byte	0x9
 	.byte	0xd2
-	.uaword	0x29a5
+	.uaword	0x29af
 	.uleb128 0x20
 	.byte	0x28
 	.byte	0x9
 	.uahalf	0x126
-	.uaword	0x2c7d
+	.uaword	0x2c87
 	.uleb128 0x19
 	.string	"offset"
 	.byte	0x9
 	.uahalf	0x128
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0
 	.uleb128 0x19
 	.string	"reversed"
 	.byte	0x9
 	.uahalf	0x129
-	.uaword	0x2cf
+	.uaword	0x2d9
 	.byte	0x4
 	.uleb128 0x1a
 	.uaword	.LASF14
 	.byte	0x9
 	.uahalf	0x12a
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0x8
 	.uleb128 0x19
 	.string	"periodPerRotation"
 	.byte	0x9
 	.uahalf	0x12b
-	.uaword	0x283
+	.uaword	0x28d
 	.byte	0xc
 	.uleb128 0x19
 	.string	"resolutionFactor"
 	.byte	0x9
 	.uahalf	0x12c
-	.uaword	0x2a39
+	.uaword	0x2a43
 	.byte	0xe
 	.uleb128 0x1a
 	.uaword	.LASF15
 	.byte	0x9
 	.uahalf	0x12d
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x10
 	.uleb128 0x1a
 	.uaword	.LASF16
 	.byte	0x9
 	.uahalf	0x12e
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x14
 	.uleb128 0x1a
 	.uaword	.LASF17
 	.byte	0x9
 	.uahalf	0x12f
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x18
 	.uleb128 0x1a
 	.uaword	.LASF18
 	.byte	0x9
 	.uahalf	0x130
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x1c
 	.uleb128 0x1a
 	.uaword	.LASF19
 	.byte	0x9
 	.uahalf	0x131
-	.uaword	0x2cf
+	.uaword	0x2d9
 	.byte	0x20
 	.uleb128 0x19
 	.string	"speedFilerCutOffFrequency"
 	.byte	0x9
 	.uahalf	0x132
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x24
 	.byte	0
 	.uleb128 0x14
 	.string	"IfxStdIf_Pos_Config"
 	.byte	0x9
 	.uahalf	0x133
-	.uaword	0x2bab
+	.uaword	0x2bb5
 	.uleb128 0xc
 	.byte	0xc
 	.byte	0xa
 	.byte	0x2c
-	.uaword	0x2cc2
+	.uaword	0x2ccc
 	.uleb128 0xe
 	.string	"a"
 	.byte	0xa
 	.byte	0x2e
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0
 	.uleb128 0xe
 	.string	"b"
 	.byte	0xa
 	.byte	0x2f
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x4
 	.uleb128 0xe
 	.string	"out"
 	.byte	0xa
 	.byte	0x30
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x8
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_LowPassPt1F32"
 	.byte	0xa
 	.byte	0x31
-	.uaword	0x2c99
+	.uaword	0x2ca3
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0xb
 	.byte	0x76
-	.uaword	0x2d2b
+	.uaword	0x2d35
 	.uleb128 0xb
 	.string	"IfxCpu_Index_0"
 	.sleb128 0
@@ -5192,12 +5220,12 @@ g_Gpt12Enc:
 	.byte	0x4
 	.byte	0xc
 	.byte	0x2d
-	.uaword	0x2f41
+	.uaword	0x2f4b
 	.uleb128 0x10
 	.string	"EN0"
 	.byte	0xc
 	.byte	0x2f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5206,7 +5234,7 @@ g_Gpt12Enc:
 	.string	"EN1"
 	.byte	0xc
 	.byte	0x30
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5215,7 +5243,7 @@ g_Gpt12Enc:
 	.string	"EN2"
 	.byte	0xc
 	.byte	0x31
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5224,7 +5252,7 @@ g_Gpt12Enc:
 	.string	"EN3"
 	.byte	0xc
 	.byte	0x32
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5233,7 +5261,7 @@ g_Gpt12Enc:
 	.string	"EN4"
 	.byte	0xc
 	.byte	0x33
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5242,7 +5270,7 @@ g_Gpt12Enc:
 	.string	"EN5"
 	.byte	0xc
 	.byte	0x34
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5251,7 +5279,7 @@ g_Gpt12Enc:
 	.string	"EN6"
 	.byte	0xc
 	.byte	0x35
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5260,7 +5288,7 @@ g_Gpt12Enc:
 	.string	"EN7"
 	.byte	0xc
 	.byte	0x36
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5269,7 +5297,7 @@ g_Gpt12Enc:
 	.string	"EN8"
 	.byte	0xc
 	.byte	0x37
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5278,7 +5306,7 @@ g_Gpt12Enc:
 	.string	"EN9"
 	.byte	0xc
 	.byte	0x38
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5287,7 +5315,7 @@ g_Gpt12Enc:
 	.string	"EN10"
 	.byte	0xc
 	.byte	0x39
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5296,7 +5324,7 @@ g_Gpt12Enc:
 	.string	"EN11"
 	.byte	0xc
 	.byte	0x3a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5305,7 +5333,7 @@ g_Gpt12Enc:
 	.string	"EN12"
 	.byte	0xc
 	.byte	0x3b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5314,7 +5342,7 @@ g_Gpt12Enc:
 	.string	"EN13"
 	.byte	0xc
 	.byte	0x3c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5323,7 +5351,7 @@ g_Gpt12Enc:
 	.string	"EN14"
 	.byte	0xc
 	.byte	0x3d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5332,7 +5360,7 @@ g_Gpt12Enc:
 	.string	"EN15"
 	.byte	0xc
 	.byte	0x3e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5341,7 +5369,7 @@ g_Gpt12Enc:
 	.string	"EN16"
 	.byte	0xc
 	.byte	0x3f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5350,7 +5378,7 @@ g_Gpt12Enc:
 	.string	"EN17"
 	.byte	0xc
 	.byte	0x40
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5359,7 +5387,7 @@ g_Gpt12Enc:
 	.string	"EN18"
 	.byte	0xc
 	.byte	0x41
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -5368,7 +5396,7 @@ g_Gpt12Enc:
 	.string	"EN19"
 	.byte	0xc
 	.byte	0x42
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5377,7 +5405,7 @@ g_Gpt12Enc:
 	.string	"EN20"
 	.byte	0xc
 	.byte	0x43
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5386,7 +5414,7 @@ g_Gpt12Enc:
 	.string	"EN21"
 	.byte	0xc
 	.byte	0x44
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5395,7 +5423,7 @@ g_Gpt12Enc:
 	.string	"EN22"
 	.byte	0xc
 	.byte	0x45
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5404,7 +5432,7 @@ g_Gpt12Enc:
 	.string	"EN23"
 	.byte	0xc
 	.byte	0x46
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5413,7 +5441,7 @@ g_Gpt12Enc:
 	.string	"EN24"
 	.byte	0xc
 	.byte	0x47
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -5422,7 +5450,7 @@ g_Gpt12Enc:
 	.string	"EN25"
 	.byte	0xc
 	.byte	0x48
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -5431,7 +5459,7 @@ g_Gpt12Enc:
 	.string	"EN26"
 	.byte	0xc
 	.byte	0x49
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -5440,7 +5468,7 @@ g_Gpt12Enc:
 	.string	"EN27"
 	.byte	0xc
 	.byte	0x4a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -5449,7 +5477,7 @@ g_Gpt12Enc:
 	.string	"EN28"
 	.byte	0xc
 	.byte	0x4b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -5458,7 +5486,7 @@ g_Gpt12Enc:
 	.string	"EN29"
 	.byte	0xc
 	.byte	0x4c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -5467,7 +5495,7 @@ g_Gpt12Enc:
 	.string	"EN30"
 	.byte	0xc
 	.byte	0x4d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5476,7 +5504,7 @@ g_Gpt12Enc:
 	.string	"EN31"
 	.byte	0xc
 	.byte	0x4e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5486,18 +5514,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_ACCEN0_Bits"
 	.byte	0xc
 	.byte	0x4f
-	.uaword	0x2d2b
+	.uaword	0x2d35
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x52
-	.uaword	0x2f8d
+	.uaword	0x2f97
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xc
 	.byte	0x54
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -5507,18 +5535,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_ACCEN1_Bits"
 	.byte	0xc
 	.byte	0x55
-	.uaword	0x2f5e
+	.uaword	0x2f68
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_CAPREL_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x58
-	.uaword	0x2feb
+	.uaword	0x2ff5
 	.uleb128 0x10
 	.string	"CAPREL"
 	.byte	0xc
 	.byte	0x5a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -5527,7 +5555,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0x5b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5537,18 +5565,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_CAPREL_Bits"
 	.byte	0xc
 	.byte	0x5c
-	.uaword	0x2faa
+	.uaword	0x2fb4
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_CLC_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x5f
-	.uaword	0x3073
+	.uaword	0x307d
 	.uleb128 0x10
 	.string	"DISR"
 	.byte	0xc
 	.byte	0x61
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5557,7 +5585,7 @@ g_Gpt12Enc:
 	.string	"DISS"
 	.byte	0xc
 	.byte	0x62
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5566,7 +5594,7 @@ g_Gpt12Enc:
 	.uaword	.LASF6
 	.byte	0xc
 	.byte	0x63
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5575,7 +5603,7 @@ g_Gpt12Enc:
 	.string	"EDIS"
 	.byte	0xc
 	.byte	0x64
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5584,7 +5612,7 @@ g_Gpt12Enc:
 	.uaword	.LASF10
 	.byte	0xc
 	.byte	0x65
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -5594,18 +5622,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_CLC_Bits"
 	.byte	0xc
 	.byte	0x66
-	.uaword	0x3008
+	.uaword	0x3012
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_ID_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x69
-	.uaword	0x30dd
+	.uaword	0x30e7
 	.uleb128 0x10
 	.string	"MODREV"
 	.byte	0xc
 	.byte	0x6b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5614,7 +5642,7 @@ g_Gpt12Enc:
 	.string	"MODTYPE"
 	.byte	0xc
 	.byte	0x6c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -5623,7 +5651,7 @@ g_Gpt12Enc:
 	.uaword	.LASF3
 	.byte	0xc
 	.byte	0x6d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5633,18 +5661,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_ID_Bits"
 	.byte	0xc
 	.byte	0x6e
-	.uaword	0x308d
+	.uaword	0x3097
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_KRST0_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x71
-	.uaword	0x3146
+	.uaword	0x3150
 	.uleb128 0x10
 	.string	"RST"
 	.byte	0xc
 	.byte	0x73
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5653,7 +5681,7 @@ g_Gpt12Enc:
 	.string	"RSTSTAT"
 	.byte	0xc
 	.byte	0x74
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5662,7 +5690,7 @@ g_Gpt12Enc:
 	.uaword	.LASF6
 	.byte	0xc
 	.byte	0x75
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -5672,18 +5700,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_KRST0_Bits"
 	.byte	0xc
 	.byte	0x76
-	.uaword	0x30f6
+	.uaword	0x3100
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_KRST1_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x79
-	.uaword	0x319f
+	.uaword	0x31a9
 	.uleb128 0x10
 	.string	"RST"
 	.byte	0xc
 	.byte	0x7b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5692,7 +5720,7 @@ g_Gpt12Enc:
 	.uaword	.LASF20
 	.byte	0xc
 	.byte	0x7c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -5702,18 +5730,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_KRST1_Bits"
 	.byte	0xc
 	.byte	0x7d
-	.uaword	0x3162
+	.uaword	0x316c
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x80
-	.uaword	0x31fa
+	.uaword	0x3204
 	.uleb128 0x10
 	.string	"CLR"
 	.byte	0xc
 	.byte	0x82
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5722,7 +5750,7 @@ g_Gpt12Enc:
 	.uaword	.LASF20
 	.byte	0xc
 	.byte	0x83
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -5732,18 +5760,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_KRSTCLR_Bits"
 	.byte	0xc
 	.byte	0x84
-	.uaword	0x31bb
+	.uaword	0x31c5
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_OCS_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x87
-	.uaword	0x328d
+	.uaword	0x3297
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0xc
 	.byte	0x89
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -5752,7 +5780,7 @@ g_Gpt12Enc:
 	.string	"SUS"
 	.byte	0xc
 	.byte	0x8a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -5761,7 +5789,7 @@ g_Gpt12Enc:
 	.string	"SUS_P"
 	.byte	0xc
 	.byte	0x8b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -5770,7 +5798,7 @@ g_Gpt12Enc:
 	.string	"SUSSTA"
 	.byte	0xc
 	.byte	0x8c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -5779,7 +5807,7 @@ g_Gpt12Enc:
 	.string	"reserved_30"
 	.byte	0xc
 	.byte	0x8d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -5789,18 +5817,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_OCS_Bits"
 	.byte	0xc
 	.byte	0x8e
-	.uaword	0x3218
+	.uaword	0x3222
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_PISEL_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0x91
-	.uaword	0x33a1
+	.uaword	0x33ab
 	.uleb128 0x10
 	.string	"IST2IN"
 	.byte	0xc
 	.byte	0x93
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5809,7 +5837,7 @@ g_Gpt12Enc:
 	.string	"IST2EUD"
 	.byte	0xc
 	.byte	0x94
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5818,7 +5846,7 @@ g_Gpt12Enc:
 	.string	"IST3IN"
 	.byte	0xc
 	.byte	0x95
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -5827,7 +5855,7 @@ g_Gpt12Enc:
 	.string	"IST3EUD"
 	.byte	0xc
 	.byte	0x96
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -5836,7 +5864,7 @@ g_Gpt12Enc:
 	.string	"IST4IN"
 	.byte	0xc
 	.byte	0x97
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -5845,7 +5873,7 @@ g_Gpt12Enc:
 	.string	"IST4EUD"
 	.byte	0xc
 	.byte	0x98
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -5854,7 +5882,7 @@ g_Gpt12Enc:
 	.string	"IST5IN"
 	.byte	0xc
 	.byte	0x99
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5863,7 +5891,7 @@ g_Gpt12Enc:
 	.string	"IST5EUD"
 	.byte	0xc
 	.byte	0x9a
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5872,7 +5900,7 @@ g_Gpt12Enc:
 	.string	"IST6IN"
 	.byte	0xc
 	.byte	0x9b
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5881,7 +5909,7 @@ g_Gpt12Enc:
 	.string	"IST6EUD"
 	.byte	0xc
 	.byte	0x9c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5890,7 +5918,7 @@ g_Gpt12Enc:
 	.string	"ISCAPIN"
 	.byte	0xc
 	.byte	0x9d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -5899,7 +5927,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0x9e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5909,18 +5937,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_PISEL_Bits"
 	.byte	0xc
 	.byte	0x9f
-	.uaword	0x32a7
+	.uaword	0x32b1
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_T2_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xa2
-	.uaword	0x33f6
+	.uaword	0x3400
 	.uleb128 0x10
 	.string	"T2"
 	.byte	0xc
 	.byte	0xa4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -5929,7 +5957,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0xa5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5939,18 +5967,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T2_Bits"
 	.byte	0xc
 	.byte	0xa6
-	.uaword	0x33bd
+	.uaword	0x33c7
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_T2CON_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xa9
-	.uaword	0x34f4
+	.uaword	0x34fe
 	.uleb128 0x10
 	.string	"T2I"
 	.byte	0xc
 	.byte	0xab
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -5959,7 +5987,7 @@ g_Gpt12Enc:
 	.string	"T2M"
 	.byte	0xc
 	.byte	0xac
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -5968,7 +5996,7 @@ g_Gpt12Enc:
 	.string	"T2R"
 	.byte	0xc
 	.byte	0xad
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5977,7 +6005,7 @@ g_Gpt12Enc:
 	.string	"T2UD"
 	.byte	0xc
 	.byte	0xae
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5986,7 +6014,7 @@ g_Gpt12Enc:
 	.string	"T2UDE"
 	.byte	0xc
 	.byte	0xaf
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5995,7 +6023,7 @@ g_Gpt12Enc:
 	.string	"T2RC"
 	.byte	0xc
 	.byte	0xb0
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6004,7 +6032,7 @@ g_Gpt12Enc:
 	.uaword	.LASF7
 	.byte	0xc
 	.byte	0xb1
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -6013,7 +6041,7 @@ g_Gpt12Enc:
 	.string	"T2IRDIS"
 	.byte	0xc
 	.byte	0xb2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6022,7 +6050,7 @@ g_Gpt12Enc:
 	.string	"T2EDGE"
 	.byte	0xc
 	.byte	0xb3
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6031,7 +6059,7 @@ g_Gpt12Enc:
 	.string	"T2CHDIR"
 	.byte	0xc
 	.byte	0xb4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6040,7 +6068,7 @@ g_Gpt12Enc:
 	.string	"T2RDIR"
 	.byte	0xc
 	.byte	0xb5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6049,7 +6077,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0xb6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6059,18 +6087,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T2CON_Bits"
 	.byte	0xc
 	.byte	0xb7
-	.uaword	0x340f
+	.uaword	0x3419
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_T3_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xba
-	.uaword	0x3549
+	.uaword	0x3553
 	.uleb128 0x10
 	.string	"T3"
 	.byte	0xc
 	.byte	0xbc
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6079,7 +6107,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0xbd
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6089,18 +6117,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T3_Bits"
 	.byte	0xc
 	.byte	0xbe
-	.uaword	0x3510
+	.uaword	0x351a
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_T3CON_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xc1
-	.uaword	0x3646
+	.uaword	0x3650
 	.uleb128 0x10
 	.string	"T3I"
 	.byte	0xc
 	.byte	0xc3
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6109,7 +6137,7 @@ g_Gpt12Enc:
 	.string	"T3M"
 	.byte	0xc
 	.byte	0xc4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -6118,7 +6146,7 @@ g_Gpt12Enc:
 	.string	"T3R"
 	.byte	0xc
 	.byte	0xc5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6127,7 +6155,7 @@ g_Gpt12Enc:
 	.string	"T3UD"
 	.byte	0xc
 	.byte	0xc6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6136,7 +6164,7 @@ g_Gpt12Enc:
 	.string	"T3UDE"
 	.byte	0xc
 	.byte	0xc7
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6145,7 +6173,7 @@ g_Gpt12Enc:
 	.string	"T3OE"
 	.byte	0xc
 	.byte	0xc8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6154,7 +6182,7 @@ g_Gpt12Enc:
 	.string	"T3OTL"
 	.byte	0xc
 	.byte	0xc9
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6163,7 +6191,7 @@ g_Gpt12Enc:
 	.string	"BPS1"
 	.byte	0xc
 	.byte	0xca
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -6172,7 +6200,7 @@ g_Gpt12Enc:
 	.string	"T3EDGE"
 	.byte	0xc
 	.byte	0xcb
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6181,7 +6209,7 @@ g_Gpt12Enc:
 	.string	"T3CHDIR"
 	.byte	0xc
 	.byte	0xcc
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6190,7 +6218,7 @@ g_Gpt12Enc:
 	.string	"T3RDIR"
 	.byte	0xc
 	.byte	0xcd
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6199,7 +6227,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0xce
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6209,18 +6237,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T3CON_Bits"
 	.byte	0xc
 	.byte	0xcf
-	.uaword	0x3562
+	.uaword	0x356c
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_T4_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xd2
-	.uaword	0x369b
+	.uaword	0x36a5
 	.uleb128 0x10
 	.string	"T4"
 	.byte	0xc
 	.byte	0xd4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6229,7 +6257,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0xd5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6239,18 +6267,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T4_Bits"
 	.byte	0xc
 	.byte	0xd6
-	.uaword	0x3662
+	.uaword	0x366c
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_T4CON_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xd9
-	.uaword	0x37b0
+	.uaword	0x37ba
 	.uleb128 0x10
 	.string	"T4I"
 	.byte	0xc
 	.byte	0xdb
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6259,7 +6287,7 @@ g_Gpt12Enc:
 	.string	"T4M"
 	.byte	0xc
 	.byte	0xdc
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -6268,7 +6296,7 @@ g_Gpt12Enc:
 	.string	"T4R"
 	.byte	0xc
 	.byte	0xdd
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6277,7 +6305,7 @@ g_Gpt12Enc:
 	.string	"T4UD"
 	.byte	0xc
 	.byte	0xde
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6286,7 +6314,7 @@ g_Gpt12Enc:
 	.string	"T4UDE"
 	.byte	0xc
 	.byte	0xdf
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6295,7 +6323,7 @@ g_Gpt12Enc:
 	.string	"T4RC"
 	.byte	0xc
 	.byte	0xe0
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6304,7 +6332,7 @@ g_Gpt12Enc:
 	.string	"CLRT2EN"
 	.byte	0xc
 	.byte	0xe1
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6313,7 +6341,7 @@ g_Gpt12Enc:
 	.string	"CLRT3EN"
 	.byte	0xc
 	.byte	0xe2
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6322,7 +6350,7 @@ g_Gpt12Enc:
 	.string	"T4IRDIS"
 	.byte	0xc
 	.byte	0xe3
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6331,7 +6359,7 @@ g_Gpt12Enc:
 	.string	"T4EDGE"
 	.byte	0xc
 	.byte	0xe4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6340,7 +6368,7 @@ g_Gpt12Enc:
 	.string	"T4CHDIR"
 	.byte	0xc
 	.byte	0xe5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6349,7 +6377,7 @@ g_Gpt12Enc:
 	.string	"T4RDIR"
 	.byte	0xc
 	.byte	0xe6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6358,7 +6386,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0xe7
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6368,18 +6396,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T4CON_Bits"
 	.byte	0xc
 	.byte	0xe8
-	.uaword	0x36b4
+	.uaword	0x36be
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_T5_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xeb
-	.uaword	0x3805
+	.uaword	0x380f
 	.uleb128 0x10
 	.string	"T5"
 	.byte	0xc
 	.byte	0xed
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6388,7 +6416,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0xee
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6398,18 +6426,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T5_Bits"
 	.byte	0xc
 	.byte	0xef
-	.uaword	0x37cc
+	.uaword	0x37d6
 	.uleb128 0xf
 	.string	"_Ifx_GPT12_T5CON_Bits"
 	.byte	0x4
 	.byte	0xc
 	.byte	0xf2
-	.uaword	0x38ff
+	.uaword	0x3909
 	.uleb128 0x10
 	.string	"T5I"
 	.byte	0xc
 	.byte	0xf4
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6418,7 +6446,7 @@ g_Gpt12Enc:
 	.string	"T5M"
 	.byte	0xc
 	.byte	0xf5
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -6427,7 +6455,7 @@ g_Gpt12Enc:
 	.string	"T5R"
 	.byte	0xc
 	.byte	0xf6
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6436,7 +6464,7 @@ g_Gpt12Enc:
 	.string	"T5UD"
 	.byte	0xc
 	.byte	0xf7
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6445,7 +6473,7 @@ g_Gpt12Enc:
 	.string	"T5UDE"
 	.byte	0xc
 	.byte	0xf8
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6454,7 +6482,7 @@ g_Gpt12Enc:
 	.string	"T5RC"
 	.byte	0xc
 	.byte	0xf9
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6463,7 +6491,7 @@ g_Gpt12Enc:
 	.string	"CT3"
 	.byte	0xc
 	.byte	0xfa
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6472,7 +6500,7 @@ g_Gpt12Enc:
 	.string	"reserved_11"
 	.byte	0xc
 	.byte	0xfb
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6481,7 +6509,7 @@ g_Gpt12Enc:
 	.string	"CI"
 	.byte	0xc
 	.byte	0xfc
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -6490,7 +6518,7 @@ g_Gpt12Enc:
 	.string	"T5CLR"
 	.byte	0xc
 	.byte	0xfd
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6499,7 +6527,7 @@ g_Gpt12Enc:
 	.string	"T5SC"
 	.byte	0xc
 	.byte	0xfe
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6508,7 +6536,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.byte	0xff
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6518,18 +6546,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T5CON_Bits"
 	.byte	0xc
 	.uahalf	0x100
-	.uaword	0x381e
+	.uaword	0x3828
 	.uleb128 0x15
 	.string	"_Ifx_GPT12_T6_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x103
-	.uaword	0x3958
+	.uaword	0x3962
 	.uleb128 0x12
 	.string	"T6"
 	.byte	0xc
 	.uahalf	0x105
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6538,7 +6566,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.uahalf	0x106
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6548,18 +6576,18 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T6_Bits"
 	.byte	0xc
 	.uahalf	0x107
-	.uaword	0x391c
+	.uaword	0x3926
 	.uleb128 0x15
 	.string	"_Ifx_GPT12_T6CON_Bits"
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x10a
-	.uaword	0x3a64
+	.uaword	0x3a6e
 	.uleb128 0x12
 	.string	"T6I"
 	.byte	0xc
 	.uahalf	0x10c
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6568,7 +6596,7 @@ g_Gpt12Enc:
 	.string	"T6M"
 	.byte	0xc
 	.uahalf	0x10d
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1a
@@ -6577,7 +6605,7 @@ g_Gpt12Enc:
 	.string	"T6R"
 	.byte	0xc
 	.uahalf	0x10e
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6586,7 +6614,7 @@ g_Gpt12Enc:
 	.string	"T6UD"
 	.byte	0xc
 	.uahalf	0x10f
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6595,7 +6623,7 @@ g_Gpt12Enc:
 	.string	"T6UDE"
 	.byte	0xc
 	.uahalf	0x110
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6604,7 +6632,7 @@ g_Gpt12Enc:
 	.string	"T6OE"
 	.byte	0xc
 	.uahalf	0x111
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6613,7 +6641,7 @@ g_Gpt12Enc:
 	.string	"T6OTL"
 	.byte	0xc
 	.uahalf	0x112
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6622,7 +6650,7 @@ g_Gpt12Enc:
 	.string	"BPS2"
 	.byte	0xc
 	.uahalf	0x113
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -6631,7 +6659,7 @@ g_Gpt12Enc:
 	.string	"reserved_13"
 	.byte	0xc
 	.uahalf	0x114
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6640,7 +6668,7 @@ g_Gpt12Enc:
 	.string	"T6CLR"
 	.byte	0xc
 	.uahalf	0x115
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6649,7 +6677,7 @@ g_Gpt12Enc:
 	.string	"T6SR"
 	.byte	0xc
 	.uahalf	0x116
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6658,7 +6686,7 @@ g_Gpt12Enc:
 	.uaword	.LASF2
 	.byte	0xc
 	.uahalf	0x117
-	.uaword	0x1fe
+	.uaword	0x208
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6668,761 +6696,761 @@ g_Gpt12Enc:
 	.string	"Ifx_GPT12_T6CON_Bits"
 	.byte	0xc
 	.uahalf	0x118
-	.uaword	0x3972
+	.uaword	0x397c
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x120
-	.uaword	0x3aa9
+	.uaword	0x3ab3
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x122
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x123
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x124
-	.uaword	0x2f41
+	.uaword	0x2f4b
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_ACCEN0"
 	.byte	0xc
 	.uahalf	0x125
-	.uaword	0x3a81
+	.uaword	0x3a8b
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x128
-	.uaword	0x3aea
+	.uaword	0x3af4
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x12a
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x12b
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x12c
-	.uaword	0x2f8d
+	.uaword	0x2f97
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_ACCEN1"
 	.byte	0xc
 	.uahalf	0x12d
-	.uaword	0x3ac2
+	.uaword	0x3acc
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x130
-	.uaword	0x3b2b
+	.uaword	0x3b35
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x132
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x133
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x134
-	.uaword	0x2feb
+	.uaword	0x2ff5
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_CAPREL"
 	.byte	0xc
 	.uahalf	0x135
-	.uaword	0x3b03
+	.uaword	0x3b0d
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x138
-	.uaword	0x3b6c
+	.uaword	0x3b76
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x13a
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x13b
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x13c
-	.uaword	0x3073
+	.uaword	0x307d
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_CLC"
 	.byte	0xc
 	.uahalf	0x13d
-	.uaword	0x3b44
+	.uaword	0x3b4e
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x140
-	.uaword	0x3baa
+	.uaword	0x3bb4
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x142
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x143
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x144
-	.uaword	0x30dd
+	.uaword	0x30e7
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_ID"
 	.byte	0xc
 	.uahalf	0x145
-	.uaword	0x3b82
+	.uaword	0x3b8c
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x148
-	.uaword	0x3be7
+	.uaword	0x3bf1
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x14a
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x14b
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x14c
-	.uaword	0x3146
+	.uaword	0x3150
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_KRST0"
 	.byte	0xc
 	.uahalf	0x14d
-	.uaword	0x3bbf
+	.uaword	0x3bc9
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x150
-	.uaword	0x3c27
+	.uaword	0x3c31
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x152
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x153
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x154
-	.uaword	0x319f
+	.uaword	0x31a9
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_KRST1"
 	.byte	0xc
 	.uahalf	0x155
-	.uaword	0x3bff
+	.uaword	0x3c09
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x158
-	.uaword	0x3c67
+	.uaword	0x3c71
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x15a
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x15b
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x15c
-	.uaword	0x31fa
+	.uaword	0x3204
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_KRSTCLR"
 	.byte	0xc
 	.uahalf	0x15d
-	.uaword	0x3c3f
+	.uaword	0x3c49
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x160
-	.uaword	0x3ca9
+	.uaword	0x3cb3
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x162
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x163
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x164
-	.uaword	0x328d
+	.uaword	0x3297
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_OCS"
 	.byte	0xc
 	.uahalf	0x165
-	.uaword	0x3c81
+	.uaword	0x3c8b
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x168
-	.uaword	0x3ce7
+	.uaword	0x3cf1
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x16a
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x16b
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x16c
-	.uaword	0x33a1
+	.uaword	0x33ab
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_PISEL"
 	.byte	0xc
 	.uahalf	0x16d
-	.uaword	0x3cbf
+	.uaword	0x3cc9
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x170
-	.uaword	0x3d27
+	.uaword	0x3d31
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x172
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x173
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x174
-	.uaword	0x33f6
+	.uaword	0x3400
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T2"
 	.byte	0xc
 	.uahalf	0x175
-	.uaword	0x3cff
+	.uaword	0x3d09
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x178
-	.uaword	0x3d64
+	.uaword	0x3d6e
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x17a
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x17b
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x17c
-	.uaword	0x34f4
+	.uaword	0x34fe
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T2CON"
 	.byte	0xc
 	.uahalf	0x17d
-	.uaword	0x3d3c
+	.uaword	0x3d46
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x180
-	.uaword	0x3da4
+	.uaword	0x3dae
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x182
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x183
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x184
-	.uaword	0x3549
+	.uaword	0x3553
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T3"
 	.byte	0xc
 	.uahalf	0x185
-	.uaword	0x3d7c
+	.uaword	0x3d86
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x188
-	.uaword	0x3de1
+	.uaword	0x3deb
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x18a
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x18b
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x18c
-	.uaword	0x3646
+	.uaword	0x3650
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T3CON"
 	.byte	0xc
 	.uahalf	0x18d
-	.uaword	0x3db9
+	.uaword	0x3dc3
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x190
-	.uaword	0x3e21
+	.uaword	0x3e2b
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x192
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x193
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x194
-	.uaword	0x369b
+	.uaword	0x36a5
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T4"
 	.byte	0xc
 	.uahalf	0x195
-	.uaword	0x3df9
+	.uaword	0x3e03
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x198
-	.uaword	0x3e5e
+	.uaword	0x3e68
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x19a
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x19b
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x19c
-	.uaword	0x37b0
+	.uaword	0x37ba
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T4CON"
 	.byte	0xc
 	.uahalf	0x19d
-	.uaword	0x3e36
+	.uaword	0x3e40
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1a0
-	.uaword	0x3e9e
+	.uaword	0x3ea8
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x1a2
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x1a3
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x1a4
-	.uaword	0x3805
+	.uaword	0x380f
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T5"
 	.byte	0xc
 	.uahalf	0x1a5
-	.uaword	0x3e76
+	.uaword	0x3e80
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1a8
-	.uaword	0x3edb
+	.uaword	0x3ee5
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x1aa
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x1ab
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x1ac
-	.uaword	0x38ff
+	.uaword	0x3909
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T5CON"
 	.byte	0xc
 	.uahalf	0x1ad
-	.uaword	0x3eb3
+	.uaword	0x3ebd
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1b0
-	.uaword	0x3f1b
+	.uaword	0x3f25
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x1b2
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x1b3
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x1b4
-	.uaword	0x3958
+	.uaword	0x3962
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T6"
 	.byte	0xc
 	.uahalf	0x1b5
-	.uaword	0x3ef3
+	.uaword	0x3efd
 	.uleb128 0x16
 	.byte	0x4
 	.byte	0xc
 	.uahalf	0x1b8
-	.uaword	0x3f58
+	.uaword	0x3f62
 	.uleb128 0x17
 	.string	"U"
 	.byte	0xc
 	.uahalf	0x1ba
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x17
 	.string	"I"
 	.byte	0xc
 	.uahalf	0x1bb
-	.uaword	0x1f7
+	.uaword	0x201
 	.uleb128 0x17
 	.string	"B"
 	.byte	0xc
 	.uahalf	0x1bc
-	.uaword	0x3a64
+	.uaword	0x3a6e
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12_T6CON"
 	.byte	0xc
 	.uahalf	0x1bd
-	.uaword	0x3f30
+	.uaword	0x3f3a
 	.uleb128 0x18
 	.string	"_Ifx_GPT12"
 	.uahalf	0x100
 	.byte	0xc
 	.uahalf	0x1c8
-	.uaword	0x40c8
+	.uaword	0x40d2
 	.uleb128 0x19
 	.string	"CLC"
 	.byte	0xc
 	.uahalf	0x1ca
-	.uaword	0x3b6c
+	.uaword	0x3b76
 	.byte	0
 	.uleb128 0x19
 	.string	"PISEL"
 	.byte	0xc
 	.uahalf	0x1cb
-	.uaword	0x3ce7
+	.uaword	0x3cf1
 	.byte	0x4
 	.uleb128 0x19
 	.string	"ID"
 	.byte	0xc
 	.uahalf	0x1cc
-	.uaword	0x3baa
+	.uaword	0x3bb4
 	.byte	0x8
 	.uleb128 0x1a
 	.uaword	.LASF12
 	.byte	0xc
 	.uahalf	0x1cd
-	.uaword	0x245
+	.uaword	0x24f
 	.byte	0xc
 	.uleb128 0x19
 	.string	"T2CON"
 	.byte	0xc
 	.uahalf	0x1ce
-	.uaword	0x3d64
+	.uaword	0x3d6e
 	.byte	0x10
 	.uleb128 0x19
 	.string	"T3CON"
 	.byte	0xc
 	.uahalf	0x1cf
-	.uaword	0x3de1
+	.uaword	0x3deb
 	.byte	0x14
 	.uleb128 0x19
 	.string	"T4CON"
 	.byte	0xc
 	.uahalf	0x1d0
-	.uaword	0x3e5e
+	.uaword	0x3e68
 	.byte	0x18
 	.uleb128 0x19
 	.string	"T5CON"
 	.byte	0xc
 	.uahalf	0x1d1
-	.uaword	0x3edb
+	.uaword	0x3ee5
 	.byte	0x1c
 	.uleb128 0x19
 	.string	"T6CON"
 	.byte	0xc
 	.uahalf	0x1d2
-	.uaword	0x3f58
+	.uaword	0x3f62
 	.byte	0x20
 	.uleb128 0x1a
 	.uaword	.LASF5
 	.byte	0xc
 	.uahalf	0x1d3
-	.uaword	0x3dd
+	.uaword	0x3e7
 	.byte	0x24
 	.uleb128 0x19
 	.string	"CAPREL"
 	.byte	0xc
 	.uahalf	0x1d4
-	.uaword	0x3b2b
+	.uaword	0x3b35
 	.byte	0x30
 	.uleb128 0x19
 	.string	"T2"
 	.byte	0xc
 	.uahalf	0x1d5
-	.uaword	0x3d27
+	.uaword	0x3d31
 	.byte	0x34
 	.uleb128 0x19
 	.string	"T3"
 	.byte	0xc
 	.uahalf	0x1d6
-	.uaword	0x3da4
+	.uaword	0x3dae
 	.byte	0x38
 	.uleb128 0x19
 	.string	"T4"
 	.byte	0xc
 	.uahalf	0x1d7
-	.uaword	0x3e21
+	.uaword	0x3e2b
 	.byte	0x3c
 	.uleb128 0x19
 	.string	"T5"
 	.byte	0xc
 	.uahalf	0x1d8
-	.uaword	0x3e9e
+	.uaword	0x3ea8
 	.byte	0x40
 	.uleb128 0x19
 	.string	"T6"
 	.byte	0xc
 	.uahalf	0x1d9
-	.uaword	0x3f1b
+	.uaword	0x3f25
 	.byte	0x44
 	.uleb128 0x1a
 	.uaword	.LASF13
 	.byte	0xc
 	.uahalf	0x1da
-	.uaword	0x2975
+	.uaword	0x297f
 	.byte	0x48
 	.uleb128 0x19
 	.string	"OCS"
 	.byte	0xc
 	.uahalf	0x1db
-	.uaword	0x3ca9
+	.uaword	0x3cb3
 	.byte	0xe8
 	.uleb128 0x19
 	.string	"KRSTCLR"
 	.byte	0xc
 	.uahalf	0x1dc
-	.uaword	0x3c67
+	.uaword	0x3c71
 	.byte	0xec
 	.uleb128 0x19
 	.string	"KRST1"
 	.byte	0xc
 	.uahalf	0x1dd
-	.uaword	0x3c27
+	.uaword	0x3c31
 	.byte	0xf0
 	.uleb128 0x19
 	.string	"KRST0"
 	.byte	0xc
 	.uahalf	0x1de
-	.uaword	0x3be7
+	.uaword	0x3bf1
 	.byte	0xf4
 	.uleb128 0x19
 	.string	"ACCEN1"
 	.byte	0xc
 	.uahalf	0x1df
-	.uaword	0x3aea
+	.uaword	0x3af4
 	.byte	0xf8
 	.uleb128 0x19
 	.string	"ACCEN0"
 	.byte	0xc
 	.uahalf	0x1e0
-	.uaword	0x3aa9
+	.uaword	0x3ab3
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x14
 	.string	"Ifx_GPT12"
 	.byte	0xc
 	.uahalf	0x1e1
-	.uaword	0x40da
+	.uaword	0x40e4
 	.uleb128 0x1b
-	.uaword	0x3f70
+	.uaword	0x3f7a
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x40c8
+	.uaword	0x40d2
 	.uleb128 0xc
 	.byte	0x14
 	.byte	0xd
 	.byte	0x2f
-	.uaword	0x4123
+	.uaword	0x412d
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xd
 	.byte	0x31
-	.uaword	0x40df
+	.uaword	0x40e9
 	.byte	0
 	.uleb128 0xe
 	.string	"timer"
 	.byte	0xd
 	.byte	0x32
-	.uaword	0x276
+	.uaword	0x280
 	.byte	0x4
 	.uleb128 0xe
 	.string	"pin"
 	.byte	0xd
 	.byte	0x33
-	.uaword	0x2900
+	.uaword	0x290a
 	.byte	0x8
 	.uleb128 0xe
 	.string	"select"
 	.byte	0xd
 	.byte	0x34
-	.uaword	0x37f
+	.uaword	0x389
 	.byte	0x10
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxGpt12_TxEud_In"
 	.byte	0xd
 	.byte	0x35
-	.uaword	0x413c
+	.uaword	0x4146
 	.uleb128 0x7
-	.uaword	0x40e5
+	.uaword	0x40ef
 	.uleb128 0xc
 	.byte	0x14
 	.byte	0xd
 	.byte	0x38
-	.uaword	0x417f
+	.uaword	0x4189
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xd
 	.byte	0x3a
-	.uaword	0x40df
+	.uaword	0x40e9
 	.byte	0
 	.uleb128 0xe
 	.string	"timer"
 	.byte	0xd
 	.byte	0x3b
-	.uaword	0x276
+	.uaword	0x280
 	.byte	0x4
 	.uleb128 0xe
 	.string	"pin"
 	.byte	0xd
 	.byte	0x3c
-	.uaword	0x2900
+	.uaword	0x290a
 	.byte	0x8
 	.uleb128 0xe
 	.string	"select"
 	.byte	0xd
 	.byte	0x3d
-	.uaword	0x37f
+	.uaword	0x389
 	.byte	0x10
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxGpt12_TxIn_In"
 	.byte	0xd
 	.byte	0x3e
-	.uaword	0x4197
+	.uaword	0x41a1
 	.uleb128 0x7
-	.uaword	0x4141
+	.uaword	0x414b
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0x2
 	.byte	0x7e
-	.uaword	0x4227
+	.uaword	0x4231
 	.uleb128 0xb
 	.string	"IfxGpt12_Gpt1BlockPrescaler_8"
 	.sleb128 0
@@ -7440,12 +7468,12 @@ g_Gpt12Enc:
 	.string	"IfxGpt12_Gpt1BlockPrescaler"
 	.byte	0x2
 	.byte	0x83
-	.uaword	0x419c
+	.uaword	0x41a6
 	.uleb128 0xa
 	.byte	0x1
 	.byte	0x2
 	.byte	0x89
-	.uaword	0x42d4
+	.uaword	0x42de
 	.uleb128 0xb
 	.string	"IfxGpt12_Gpt2BlockPrescaler_4"
 	.sleb128 0
@@ -7463,289 +7491,289 @@ g_Gpt12Enc:
 	.string	"IfxGpt12_Gpt2BlockPrescaler"
 	.byte	0x2
 	.byte	0x8e
-	.uaword	0x424a
+	.uaword	0x4254
 	.uleb128 0x8
 	.string	"IfxGpt12_IncrEnc_Update"
 	.byte	0xe
 	.byte	0xb8
-	.uaword	0x2b90
+	.uaword	0x2b9a
 	.uleb128 0xc
 	.byte	0x54
 	.byte	0xe
 	.byte	0xc2
-	.uaword	0x4451
+	.uaword	0x445b
 	.uleb128 0xd
 	.uaword	.LASF21
 	.byte	0xe
 	.byte	0xc4
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0
 	.uleb128 0xe
 	.string	"speed"
 	.byte	0xe
 	.byte	0xc5
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x4
 	.uleb128 0xe
 	.string	"turn"
 	.byte	0xe
 	.byte	0xc6
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0x8
 	.uleb128 0xd
 	.uaword	.LASF22
 	.byte	0xe
 	.byte	0xc7
-	.uaword	0x2ab9
+	.uaword	0x2ac3
 	.byte	0xc
 	.uleb128 0xe
 	.string	"status"
 	.byte	0xe
 	.byte	0xc8
-	.uaword	0x2b75
+	.uaword	0x2b7f
 	.byte	0x10
 	.uleb128 0xe
 	.string	"offset"
 	.byte	0xe
 	.byte	0xc9
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0x14
 	.uleb128 0xd
 	.uaword	.LASF14
 	.byte	0xe
 	.byte	0xca
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0x18
 	.uleb128 0xd
 	.uaword	.LASF15
 	.byte	0xe
 	.byte	0xcb
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x1c
 	.uleb128 0xe
 	.string	"speedConstPulseCount"
 	.byte	0xe
 	.byte	0xcc
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x20
 	.uleb128 0xe
 	.string	"speedConstTimeDiff"
 	.byte	0xe
 	.byte	0xcd
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x24
 	.uleb128 0xe
 	.string	"positionConst"
 	.byte	0xe
 	.byte	0xce
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x28
 	.uleb128 0xd
 	.uaword	.LASF16
 	.byte	0xe
 	.byte	0xcf
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x2c
 	.uleb128 0xe
 	.string	"speedModeThresholdTick"
 	.byte	0xe
 	.byte	0xd0
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0x30
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xe
 	.byte	0xd1
-	.uaword	0x40df
+	.uaword	0x40e9
 	.byte	0x34
 	.uleb128 0xd
 	.uaword	.LASF17
 	.byte	0xe
 	.byte	0xd2
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x38
 	.uleb128 0xd
 	.uaword	.LASF18
 	.byte	0xe
 	.byte	0xd3
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x3c
 	.uleb128 0xe
 	.string	"speedLpf"
 	.byte	0xe
 	.byte	0xd4
-	.uaword	0x2cc2
+	.uaword	0x2ccc
 	.byte	0x40
 	.uleb128 0xe
 	.string	"update"
 	.byte	0xe
 	.byte	0xd5
-	.uaword	0x42f7
+	.uaword	0x4301
 	.byte	0x4c
 	.uleb128 0xd
 	.uaword	.LASF19
 	.byte	0xe
 	.byte	0xd6
-	.uaword	0x2cf
+	.uaword	0x2d9
 	.byte	0x50
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxGpt12_IncrEnc"
 	.byte	0xe
 	.byte	0xd7
-	.uaword	0x4316
+	.uaword	0x4320
 	.uleb128 0xc
 	.byte	0x40
 	.byte	0xe
 	.byte	0xdb
-	.uaword	0x4504
+	.uaword	0x450e
 	.uleb128 0xe
 	.string	"base"
 	.byte	0xe
 	.byte	0xdd
-	.uaword	0x2c7d
+	.uaword	0x2c87
 	.byte	0
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xe
 	.byte	0xde
-	.uaword	0x40df
+	.uaword	0x40e9
 	.byte	0x28
 	.uleb128 0xe
 	.string	"pinA"
 	.byte	0xe
 	.byte	0xdf
-	.uaword	0x4504
+	.uaword	0x450e
 	.byte	0x2c
 	.uleb128 0xe
 	.string	"pinB"
 	.byte	0xe
 	.byte	0xe0
-	.uaword	0x450a
+	.uaword	0x4514
 	.byte	0x30
 	.uleb128 0xe
 	.string	"pinZ"
 	.byte	0xe
 	.byte	0xe1
-	.uaword	0x4504
+	.uaword	0x450e
 	.byte	0x34
 	.uleb128 0xe
 	.string	"pinMode"
 	.byte	0xe
 	.byte	0xe2
-	.uaword	0x2706
+	.uaword	0x2710
 	.byte	0x38
 	.uleb128 0xe
 	.string	"zeroIsrPriority"
 	.byte	0xe
 	.byte	0xe3
-	.uaword	0x2f2
+	.uaword	0x2fc
 	.byte	0x3a
 	.uleb128 0xe
 	.string	"zeroIsrProvider"
 	.byte	0xe
 	.byte	0xe4
-	.uaword	0x2963
+	.uaword	0x296d
 	.byte	0x3c
 	.uleb128 0xe
 	.string	"pinDriver"
 	.byte	0xe
 	.byte	0xe5
-	.uaword	0x28c0
+	.uaword	0x28ca
 	.byte	0x3d
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x417f
+	.uaword	0x4189
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x4123
+	.uaword	0x412d
 	.uleb128 0x8
 	.string	"IfxGpt12_IncrEnc_Config"
 	.byte	0xe
 	.byte	0xe6
-	.uaword	0x4469
+	.uaword	0x4473
 	.uleb128 0xc
 	.byte	0x18
 	.byte	0xf
 	.byte	0x21
-	.uaword	0x4584
+	.uaword	0x458e
 	.uleb128 0xe
 	.string	"speed"
 	.byte	0xf
 	.byte	0x22
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0
 	.uleb128 0xd
 	.uaword	.LASF21
 	.byte	0xf
 	.byte	0x23
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x4
 	.uleb128 0xd
 	.uaword	.LASF22
 	.byte	0xf
 	.byte	0x24
-	.uaword	0x2ab9
+	.uaword	0x2ac3
 	.byte	0x8
 	.uleb128 0xe
 	.string	"turn"
 	.byte	0xf
 	.byte	0x25
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0xc
 	.uleb128 0xe
 	.string	"buff"
 	.byte	0xf
 	.byte	0x26
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x10
 	.uleb128 0xe
 	.string	"avg"
 	.byte	0xf
 	.byte	0x27
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x14
 	.byte	0
 	.uleb128 0x8
 	.string	"IR_Encoder_t"
 	.byte	0xf
 	.byte	0x28
-	.uaword	0x452f
+	.uaword	0x4539
 	.uleb128 0xc
 	.byte	0x54
 	.byte	0x1
 	.byte	0x1d
-	.uaword	0x45b1
+	.uaword	0x45bb
 	.uleb128 0xe
 	.string	"incrEnc"
 	.byte	0x1
 	.byte	0x1f
-	.uaword	0x4451
+	.uaword	0x445b
 	.byte	0
 	.byte	0
 	.uleb128 0x8
 	.string	"Basic_Gpt12Enc_t"
 	.byte	0x1
 	.byte	0x20
-	.uaword	0x4598
+	.uaword	0x45a2
 	.uleb128 0x21
 	.string	"IfxGpt12_setGpt1BlockPrescaler"
 	.byte	0x2
 	.uahalf	0x646
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x460e
+	.uaword	0x4618
 	.uleb128 0x22
 	.string	"gpt12"
 	.byte	0x2
 	.uahalf	0x646
-	.uaword	0x40df
+	.uaword	0x40e9
 	.uleb128 0x22
 	.string	"bps1"
 	.byte	0x2
 	.uahalf	0x646
-	.uaword	0x4227
+	.uaword	0x4231
 	.byte	0
 	.uleb128 0x21
 	.string	"IfxGpt12_setGpt2BlockPrescaler"
@@ -7753,17 +7781,17 @@ g_Gpt12Enc:
 	.uahalf	0x64c
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x4653
+	.uaword	0x465d
 	.uleb128 0x22
 	.string	"gpt12"
 	.byte	0x2
 	.uahalf	0x64c
-	.uaword	0x40df
+	.uaword	0x40e9
 	.uleb128 0x22
 	.string	"bps2"
 	.byte	0x2
 	.uahalf	0x64c
-	.uaword	0x42d4
+	.uaword	0x42de
 	.byte	0
 	.uleb128 0x23
 	.byte	0x1
@@ -7776,10 +7804,10 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x468b
+	.uaword	0x4695
 	.uleb128 0x24
 	.uaword	.LVL0
-	.uaword	0x4a1a
+	.uaword	0x4a3f
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
@@ -7799,54 +7827,54 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x479d
+	.uaword	0x47a7
 	.uleb128 0x26
 	.string	"config"
 	.byte	0x1
 	.byte	0x5b
-	.uaword	0x4510
+	.uaword	0x451a
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -64
 	.uleb128 0x27
 	.string	"__func__"
-	.uaword	0x47ad
+	.uaword	0x47b7
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	__func__.19370
 	.uleb128 0x28
-	.uaword	0x45c9
+	.uaword	0x45d3
 	.uaword	.LBB6
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x58
-	.uaword	0x46fc
+	.uaword	0x4706
 	.uleb128 0x29
-	.uaword	0x4600
+	.uaword	0x460a
 	.byte	0
 	.uleb128 0x2a
-	.uaword	0x45f2
+	.uaword	0x45fc
 	.sleb128 -268423680
 	.byte	0
 	.uleb128 0x2b
-	.uaword	0x460e
+	.uaword	0x4618
 	.uaword	.LBB14
 	.uaword	.LBE14
 	.byte	0x1
 	.byte	0x59
-	.uaword	0x4720
+	.uaword	0x472a
 	.uleb128 0x29
-	.uaword	0x4645
+	.uaword	0x464f
 	.byte	0
 	.uleb128 0x2a
-	.uaword	0x4637
+	.uaword	0x4641
 	.sleb128 -268423680
 	.byte	0
 	.uleb128 0x2c
 	.uaword	.LVL1
-	.uaword	0x4a4c
-	.uaword	0x4734
+	.uaword	0x4a71
+	.uaword	0x473e
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
@@ -7856,8 +7884,8 @@ g_Gpt12Enc:
 	.byte	0
 	.uleb128 0x2c
 	.uaword	.LVL3
-	.uaword	0x4a73
-	.uaword	0x474e
+	.uaword	0x4a98
+	.uaword	0x4758
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x65
@@ -7873,8 +7901,8 @@ g_Gpt12Enc:
 	.byte	0
 	.uleb128 0x2c
 	.uaword	.LVL4
-	.uaword	0x4aab
-	.uaword	0x476b
+	.uaword	0x4ad0
+	.uaword	0x4775
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x65
@@ -7891,7 +7919,7 @@ g_Gpt12Enc:
 	.uleb128 0x2d
 	.uaword	.LVL5
 	.byte	0x1
-	.uaword	0x4ae6
+	.uaword	0x4b0b
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x66
@@ -7924,14 +7952,14 @@ g_Gpt12Enc:
 	.byte	0
 	.byte	0
 	.uleb128 0x3
-	.uaword	0x263
-	.uaword	0x47ad
+	.uaword	0x26d
+	.uaword	0x47b7
 	.uleb128 0x4
-	.uaword	0x255
+	.uaword	0x25f
 	.byte	0x12
 	.byte	0
 	.uleb128 0x7
-	.uaword	0x479d
+	.uaword	0x47a7
 	.uleb128 0x23
 	.byte	0x1
 	.string	"Gpt12Demo_init"
@@ -7943,11 +7971,11 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x47e0
+	.uaword	0x47ea
 	.uleb128 0x2e
 	.uaword	.LVL6
 	.byte	0x1
-	.uaword	0x468b
+	.uaword	0x4695
 	.byte	0
 	.uleb128 0x23
 	.byte	0x1
@@ -7960,11 +7988,11 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4827
+	.uaword	0x4831
 	.uleb128 0x2d
 	.uaword	.LVL7
 	.byte	0x1
-	.uaword	0x4b29
+	.uaword	0x4b4e
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
@@ -7984,11 +8012,11 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x486f
+	.uaword	0x4879
 	.uleb128 0x2d
 	.uaword	.LVL8
 	.byte	0x1
-	.uaword	0x4b5d
+	.uaword	0x4b82
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
@@ -8008,9 +8036,9 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uleb128 0x23
+	.uleb128 0x2f
 	.byte	0x1
-	.string	"BasicGpt12Enc_run"
+	.string	"Speed_Buff"
 	.byte	0x1
 	.byte	0x9f
 	.byte	0x1
@@ -8019,11 +8047,22 @@ g_Gpt12Enc:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4910
+	.uleb128 0x23
+	.byte	0x1
+	.string	"BasicGpt12Enc_run"
+	.byte	0x1
+	.byte	0xa4
+	.byte	0x1
+	.uaword	.LFB426
+	.uaword	.LFE426
+	.byte	0x1
+	.byte	0x9c
+	.byte	0x1
+	.uaword	0x4935
 	.uleb128 0x2c
 	.uaword	.LVL9
-	.uaword	0x4b89
-	.uaword	0x48c3
+	.uaword	0x4bae
+	.uaword	0x48e8
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
@@ -8033,8 +8072,8 @@ g_Gpt12Enc:
 	.byte	0
 	.uleb128 0x2c
 	.uaword	.LVL10
-	.uaword	0x4bb2
-	.uaword	0x48d7
+	.uaword	0x4bd7
+	.uaword	0x48fc
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
@@ -8044,8 +8083,8 @@ g_Gpt12Enc:
 	.byte	0
 	.uleb128 0x2c
 	.uaword	.LVL11
-	.uaword	0x4be1
-	.uaword	0x48eb
+	.uaword	0x4c06
+	.uaword	0x4910
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
@@ -8055,8 +8094,8 @@ g_Gpt12Enc:
 	.byte	0
 	.uleb128 0x2c
 	.uaword	.LVL12
-	.uaword	0x4c16
-	.uaword	0x48ff
+	.uaword	0x4c3b
+	.uaword	0x4924
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
@@ -8066,7 +8105,7 @@ g_Gpt12Enc:
 	.byte	0
 	.uleb128 0x24
 	.uaword	.LVL13
-	.uaword	0x4c49
+	.uaword	0x4c6e
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x64
@@ -8079,10 +8118,10 @@ g_Gpt12Enc:
 	.byte	0x1
 	.string	"SpeedCalculation"
 	.byte	0x1
-	.byte	0xac
+	.byte	0xad
 	.byte	0x1
-	.uaword	.LFB426
-	.uaword	.LFE426
+	.uaword	.LFB427
+	.uaword	.LFE427
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
@@ -8090,51 +8129,51 @@ g_Gpt12Enc:
 	.string	"Assert_verboseLevel"
 	.byte	0x10
 	.byte	0x79
-	.uaword	0x29f
+	.uaword	0x2a9
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3
-	.uaword	0x3b3
-	.uaword	0x495e
+	.uaword	0x3bd
+	.uaword	0x4983
 	.uleb128 0x4
-	.uaword	0x255
+	.uaword	0x25f
 	.byte	0x2
 	.byte	0
 	.uleb128 0x31
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xb
 	.byte	0x96
-	.uaword	0x497b
+	.uaword	0x49a0
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x7
-	.uaword	0x494e
+	.uaword	0x4973
 	.uleb128 0x31
 	.string	"IfxGpt120_T2EUDA_P00_8_IN"
 	.byte	0xd
 	.byte	0x4a
-	.uaword	0x4123
+	.uaword	0x412d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x31
 	.string	"IfxGpt120_T4EUDA_P00_9_IN"
 	.byte	0xd
 	.byte	0x4e
-	.uaword	0x4123
+	.uaword	0x412d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x31
 	.string	"IfxGpt120_T2INA_P00_7_IN"
 	.byte	0xd
 	.byte	0x54
-	.uaword	0x417f
+	.uaword	0x4189
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x32
 	.string	"IR_Encoder"
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x4584
+	.uaword	0x458e
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -8143,7 +8182,7 @@ g_Gpt12Enc:
 	.string	"g_Gpt12Enc"
 	.byte	0x1
 	.byte	0x22
-	.uaword	0x45b1
+	.uaword	0x45bb
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -8155,13 +8194,13 @@ g_Gpt12Enc:
 	.uahalf	0x168
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.uleb128 0x1d
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x4451
+	.uaword	0x445b
 	.uleb128 0x33
 	.byte	0x1
 	.string	"IfxGpt12_enableModule"
@@ -8169,9 +8208,9 @@ g_Gpt12Enc:
 	.uahalf	0x301
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4a73
+	.uaword	0x4a98
 	.uleb128 0x1d
-	.uaword	0x40df
+	.uaword	0x40e9
 	.byte	0
 	.uleb128 0x33
 	.byte	0x1
@@ -8180,55 +8219,55 @@ g_Gpt12Enc:
 	.uahalf	0x10c
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4aa5
+	.uaword	0x4aca
 	.uleb128 0x1d
-	.uaword	0x4aa5
+	.uaword	0x4aca
 	.uleb128 0x1d
-	.uaword	0x40df
+	.uaword	0x40e9
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x4510
+	.uaword	0x451a
 	.uleb128 0x34
 	.byte	0x1
 	.string	"IfxGpt12_IncrEnc_init"
 	.byte	0xe
 	.uahalf	0x102
 	.byte	0x1
-	.uaword	0x2cf
+	.uaword	0x2d9
 	.byte	0x1
-	.uaword	0x4adb
+	.uaword	0x4b00
 	.uleb128 0x1d
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.uleb128 0x1d
-	.uaword	0x4adb
+	.uaword	0x4b00
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x4ae1
+	.uaword	0x4b06
 	.uleb128 0x7
-	.uaword	0x4510
+	.uaword	0x451a
 	.uleb128 0x35
 	.byte	0x1
 	.string	"Ifx_Assert_doValidate"
 	.byte	0x10
 	.byte	0x76
 	.byte	0x1
-	.uaword	0x2cf
+	.uaword	0x2d9
 	.byte	0x1
-	.uaword	0x4b29
+	.uaword	0x4b4e
 	.uleb128 0x1d
-	.uaword	0x2cf
+	.uaword	0x2d9
 	.uleb128 0x1d
-	.uaword	0x276
+	.uaword	0x280
 	.uleb128 0x1d
-	.uaword	0x2de
+	.uaword	0x2e8
 	.uleb128 0x1d
-	.uaword	0x2de
+	.uaword	0x2e8
 	.uleb128 0x1d
-	.uaword	0x1fe
+	.uaword	0x208
 	.uleb128 0x1d
-	.uaword	0x2de
+	.uaword	0x2e8
 	.byte	0
 	.uleb128 0x33
 	.byte	0x1
@@ -8237,9 +8276,9 @@ g_Gpt12Enc:
 	.uahalf	0x165
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4b5d
+	.uaword	0x4b82
 	.uleb128 0x1d
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.byte	0
 	.uleb128 0x33
 	.byte	0x1
@@ -8248,9 +8287,9 @@ g_Gpt12Enc:
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4b89
+	.uaword	0x4bae
 	.uleb128 0x1d
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.byte	0
 	.uleb128 0x33
 	.byte	0x1
@@ -8259,9 +8298,9 @@ g_Gpt12Enc:
 	.uahalf	0x188
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x4bb2
+	.uaword	0x4bd7
 	.uleb128 0x1d
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.byte	0
 	.uleb128 0x34
 	.byte	0x1
@@ -8269,11 +8308,11 @@ g_Gpt12Enc:
 	.byte	0xe
 	.uahalf	0x157
 	.byte	0x1
-	.uaword	0x2ad
+	.uaword	0x2b7
 	.byte	0x1
-	.uaword	0x4be1
+	.uaword	0x4c06
 	.uleb128 0x1d
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.byte	0
 	.uleb128 0x34
 	.byte	0x1
@@ -8281,11 +8320,11 @@ g_Gpt12Enc:
 	.byte	0xe
 	.uahalf	0x13f
 	.byte	0x1
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0x1
-	.uaword	0x4c16
+	.uaword	0x4c3b
 	.uleb128 0x1d
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.byte	0
 	.uleb128 0x34
 	.byte	0x1
@@ -8293,11 +8332,11 @@ g_Gpt12Enc:
 	.byte	0xe
 	.uahalf	0x121
 	.byte	0x1
-	.uaword	0x2ab9
+	.uaword	0x2ac3
 	.byte	0x1
-	.uaword	0x4c49
+	.uaword	0x4c6e
 	.uleb128 0x1d
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.byte	0
 	.uleb128 0x36
 	.byte	0x1
@@ -8305,10 +8344,10 @@ g_Gpt12Enc:
 	.byte	0xe
 	.uahalf	0x15d
 	.byte	0x1
-	.uaword	0x291
+	.uaword	0x29b
 	.byte	0x1
 	.uleb128 0x1d
-	.uaword	0x4a46
+	.uaword	0x4a6b
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -9077,7 +9116,7 @@ g_Gpt12Enc:
 	.byte	0
 	.byte	0
 .section .debug_aranges,"",@progbits
-	.uaword	0x54
+	.uaword	0x5c
 	.uahalf	0x2
 	.uaword	.Ldebug_info0
 	.byte	0x4
@@ -9100,6 +9139,8 @@ g_Gpt12Enc:
 	.uaword	.LFE425-.LFB425
 	.uaword	.LFB426
 	.uaword	.LFE426-.LFB426
+	.uaword	.LFB427
+	.uaword	.LFE427-.LFB427
 	.uaword	0
 	.uaword	0
 .section .debug_ranges,"",@progbits
@@ -9130,6 +9171,8 @@ g_Gpt12Enc:
 	.uaword	.LFE425
 	.uaword	.LFB426
 	.uaword	.LFE426
+	.uaword	.LFB427
+	.uaword	.LFE427
 	.uaword	0
 	.uaword	0
 .section .debug_line,"",@progbits

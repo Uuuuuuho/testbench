@@ -16901,18 +16901,16 @@ typedef struct{
 }InfineonRacer_t;
 
 typedef struct{
-    uint32 Result[128 + 3 -1];
-    uint32 Transfer[3];
+    int Result[128 + 3 -1];
+    int Transfer[3];
 
     uint32 sample[5];
     float32 temp;
 
+    uint32 previous;
+    uint32 present;
 
-    uint32 LineAmount;
-    uint32 head;
-    uint32 tail;
-    uint32 center;
-
+    boolean Direction_Determined;
     boolean School_Zone_flag;
 }LineData;
 
@@ -16921,7 +16919,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 77 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 75 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -16931,7 +16929,9 @@ extern void Line_Buffer(void);
 extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);
-extern uint32 Direction(void);
+extern void clearBuffer(void);
+
+extern float32 Direction(void);
 # 5 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 1
 
@@ -26570,6 +26570,7 @@ static inline __attribute__ ((always_inline)) Ifx_VADC_G_RESD IfxVadc_Adc_getDeb
 # 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicLineScan.h"
 typedef struct{
  uint32 adcResult[2][128];
+    uint32 adcBuffer[2][128];
 }IR_LineScan_t;
 
 
@@ -31733,12 +31734,12 @@ LineData IR_LineData
   ={0,0,0,0,0,0,0};
 # 38 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
 void InfineonRacer_init(void){
-    IR_LineData.Transfer[0] = -1;
+    IR_LineData.Transfer[0] = 1;
     IR_LineData.Transfer[1] = 0;
-    IR_LineData.Transfer[2] = 1;
+    IR_LineData.Transfer[2] = -1;
 
     IR_LineData.School_Zone_flag = 0;
-
+    IR_LineData.Direction_Determined = 0;
 }
 
 void InfineonRacer_detectLane(){
@@ -31755,35 +31756,41 @@ void InfineonRacer_control(void){
 }
 
 void Line_Buffer(void){
-    for(uint32 index = 5; index < 128 - 5; index++){
-        IR_LineScan.adcResult[0][index] += IR_LineScan.adcResult[0][index];
+    for(uint32 index = 0; index < 128; index++){
+        IR_LineScan.adcBuffer[0][index] += IR_LineScan.adcResult[0][index];
     }
 }
 
 void Line_avgerage(void){
-    for(uint32 index = 5; index < 128 - 5; index++){
-        IR_LineScan.adcResult[0][index] = IR_LineScan.adcResult[0][index] / 10;
+    for(uint32 index = 0; index < 128; index++){
+        IR_LineScan.adcBuffer[0][index] = IR_LineScan.adcBuffer[0][index] / 5;
     }
+
 }
 
 void convolutionOP(void){
     uint32 n;
     for (n = 0; n < 128 + 3 - 1; n++)
-  {
-    uint32 kmin, kmax, k;
-
-    IR_LineData.Result[n] = 0;
-
-    kmin = (n >= 3 - 1) ? n - (3 - 1) : 0;
-    kmax = (n < 128 - 1) ? n : 128 - 1;
-
-    for (k = kmin; k <= kmax; k++)
     {
-     IR_LineData.Result[n] += IR_LineScan.adcResult[0][k] * IR_LineData.Transfer[n - k];
+        uint32 kmin, kmax, k;
+
+        IR_LineData.Result[n] = 0;
+
+        kmin = (n >= 3 - 1) ? n - (3 - 1) : 0;
+        kmax = (n < 128 - 1) ? n : 128 - 1;
+
+        for (k = kmin; k <= kmax; k++)
+        {
+         IR_LineData.Result[n] += IR_LineScan.adcBuffer[0][k] * IR_LineData.Transfer[n - k];
+        }
     }
-  }
 }
 
+void clearBuffer(void){
+    for(uint32 index = 0; index < 128; index++){
+        IR_LineScan.adcBuffer[0][index] = 0;
+    }
+}
 
 void median_filter(void) {
  for (uint32 i = (5 / 2); i < 128 - (5 / 2); i++) {
@@ -31808,41 +31815,47 @@ void median_filter(void) {
 void getLineData (void){
     uint32 index = 0;
  uint32 pixelCounter = 0;
-
-
-
+    uint32 MaxVal = 0;
  index = 0;
-
- for(index = 5; index < 128 - 5; index++){
-        if(IR_LineData.Result[index - 1] > 0 && IR_LineData.Result[index] < 0){
-            if(pixelCounter == 0){
-                IR_LineData.head = index;
-                pixelCounter++;
-            }
-
-            else if(pixelCounter == 2){
-                IR_LineData.tail = index;
-                pixelCounter++;
-
+    if(!IR_LineData.Direction_Determined){
+     for(index = 5; index < 128 - 5; index++){
+            if(IR_LineData.Result[index] > MaxVal){
+                IR_LineData.previous = index;
+                MaxVal = IR_LineData.Result[index];
             }
         }
-        if(IR_LineData.Result[index - 1] < 0 && IR_LineData.Result[index] > 0){
-            if(pixelCounter == 1){
-                IR_LineData.center = index;
-                pixelCounter++;
-            }
-            else if (pixelCounter == 3)
+
+        uint32 SCHOOLZONE_DETECTION = MaxVal/2;
+
+     for(index = 5; index < 128 - 5; index++){
+            if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION)
+                IR_LineData.School_Zone_flag = 1;
+            else
+                IR_LineData.School_Zone_flag = 0;
+        }
+        IR_LineData.Direction_Determined = 1;
+    }
+    else{
+     for(index = 5; index < 128 - 5; index++){
+            if(IR_LineData.Result[index] > MaxVal)
+                IR_LineData.present= index;
+                MaxVal = IR_LineData.Result[index];
+            else
+                IR_LineData.School_Zone_flag = 0;
+        }
+
+        uint32 SCHOOLZONE_DETECTION = MaxVal/2;
+
+     for(index = 5; index < 128 - 5; index++){
+            if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION)
                 IR_LineData.School_Zone_flag = 1;
         }
+        IR_LineData.Direction_Determined = 0;
     }
+
 
 }
 
-uint32 Direction(void){
-    if(IR_LineData.center < 64 -10)
-        return 1;
-    else if(IR_LineData.center > 64 -10)
-        return 2;
-    else
-        return 0;
+float32 Direction(void){
+    return (IR_LineData.present - IR_LineData.previous);
 }

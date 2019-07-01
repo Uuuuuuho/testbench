@@ -15478,6 +15478,7 @@ static inline __attribute__ ((always_inline)) Ifx_VADC_G_RESD IfxVadc_Adc_getDeb
 # 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicLineScan.h"
 typedef struct{
  uint32 adcResult[2][128];
+    uint32 adcBuffer[2][128];
 }IR_LineScan_t;
 
 
@@ -35428,18 +35429,16 @@ typedef struct{
 }InfineonRacer_t;
 
 typedef struct{
-    uint32 Result[128 + 3 -1];
-    uint32 Transfer[3];
+    int Result[128 + 3 -1];
+    int Transfer[3];
 
     uint32 sample[5];
     float32 temp;
 
+    uint32 previous;
+    uint32 present;
 
-    uint32 LineAmount;
-    uint32 head;
-    uint32 tail;
-    uint32 center;
-
+    boolean Direction_Determined;
     boolean School_Zone_flag;
 }LineData;
 
@@ -35448,7 +35447,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 77 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 75 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -35458,7 +35457,9 @@ extern void Line_Buffer(void);
 extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);
-extern uint32 Direction(void);
+extern void clearBuffer(void);
+
+extern float32 Direction(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h" 1
 # 24 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h"
@@ -35638,6 +35639,7 @@ typedef struct{
 
 void PID(void);
 void Speed2Vol(void);
+void SrvControl(float32);
 # 2 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c" 2
 
 static sint32 task_cnt_1m = 0;
@@ -35686,6 +35688,8 @@ void appTaskfu_1ms(void)
   BasicGpt12Enc_IR_Encoder_reset();
  }
  BasicGpt12Enc_run();
+    SpeedCalculation();
+    Speed_Buff();
 
 
 }
@@ -35695,24 +35699,19 @@ void appTaskfu_10ms(void)
 {
  task_cnt_10m++;
 
-
-    IR_Encoder.buff = 0;
-# 77 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+    Speed_Avg();
+# 79 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
  }
 
  if(task_cnt_10m%2 == 0){
-  BasicLineScan_run();
-        median_filter();
-        Line_Buffer();
 
         BasicGtmTom_run();
   BasicPort_run();
 
 
         BasicVadcBgScan_run();
-        Checking_PSD();
 
   if(IR_Ctrl.basicTest == 0){
 
@@ -35733,32 +35732,30 @@ void appTaskfu_100ms(void)
  task_cnt_100m++;
 
 
-    Line_avgerage();
-    convolutionOP();
- getLineData();
-
-    switch(Direction()){
-        case 0 :
-         IR_setSrvAngle(-0.4);
-            break;
-        case 1 :
-         IR_setSrvAngle(-0.2);
-            break;
-        case 2 :
-         IR_setSrvAngle(-0.6);
-            break;
+    BasicLineScan_run();
+    median_filter();
+    Line_Buffer();
+    if(task_cnt_100m % 5 == 0){
+        Line_avgerage();
+        convolutionOP();
+     getLineData();
     }
-# 137 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+
+    if(task_cnt_100m % 10 == 0){
+        SrvControl(Direction());
+
+    }
+# 134 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 151 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 148 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
-# 182 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 179 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
 
@@ -35796,4 +35793,9 @@ void PID(void){
 void Speed2Vol(void){
 
 
+}
+
+void SrvControl(float32 diff){
+    float32 result = -0.4 - diff * 0.3 / 88;
+    IR_setMotor0Vol(result);
 }

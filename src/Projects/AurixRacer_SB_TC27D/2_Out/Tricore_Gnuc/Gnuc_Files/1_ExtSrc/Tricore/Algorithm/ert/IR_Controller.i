@@ -15629,6 +15629,7 @@ static inline __attribute__ ((always_inline)) Ifx_VADC_G_RESD IfxVadc_Adc_getDeb
 # 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicLineScan.h"
 typedef struct{
  uint32 adcResult[2][128];
+    uint32 adcBuffer[2][128];
 }IR_LineScan_t;
 
 
@@ -31847,18 +31848,16 @@ typedef struct{
 }InfineonRacer_t;
 
 typedef struct{
-    uint32 Result[128 + 3 -1];
-    uint32 Transfer[3];
+    int Result[128 + 3 -1];
+    int Transfer[3];
 
     uint32 sample[5];
     float32 temp;
 
+    uint32 previous;
+    uint32 present;
 
-    uint32 LineAmount;
-    uint32 head;
-    uint32 tail;
-    uint32 center;
-
+    boolean Direction_Determined;
     boolean School_Zone_flag;
 }LineData;
 
@@ -31867,7 +31866,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 77 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 75 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -31877,7 +31876,9 @@ extern void Line_Buffer(void);
 extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);
-extern uint32 Direction(void);
+extern void clearBuffer(void);
+
+extern float32 Direction(void);
 # 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_private.h" 2
 # 22 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.c" 2
 

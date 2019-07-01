@@ -1,313 +1,451 @@
----- sample Matches (66 in 24 files) ----
-IfxAsclin.h (src\...\std):306
-    IfxAsclin_SamplePointPosition_1  = 1,   /**< \brief sample point position at 1 */
-    IfxAsclin_SamplePointPosition_2  = 2,   /**< \brief sample point position at 2 */
-    IfxAsclin_SamplePointPosition_3  = 3,   /**< \brief sample point position at 3 */
-    IfxAsclin_SamplePointPosition_4  = 4,   /**< \brief sample point position at 4 */
-    IfxAsclin_SamplePointPosition_5  = 5,   /**< \brief sample point position at 5 */
-    IfxAsclin_SamplePointPosition_6  = 6,   /**< \brief sample point position at 6 */
-    IfxAsclin_SamplePointPosition_7  = 7,   /**< \brief sample point position at 7 */
-    IfxAsclin_SamplePointPosition_8  = 8,   /**< \brief sample point position at 8 */
-    IfxAsclin_SamplePointPosition_9  = 9,   /**< \brief sample point position at 9 */
-    IfxAsclin_SamplePointPosition_10 = 10,  /**< \brief sample point position at 10 */
-    IfxAsclin_SamplePointPosition_11 = 11,  /**< \brief sample point position at 11 */
-    IfxAsclin_SamplePointPosition_12 = 12,  /**< \brief sample point position at 12 */
-    IfxAsclin_SamplePointPosition_13 = 13,  /**< \brief sample point position at 13 */
-    IfxAsclin_SamplePointPosition_14 = 14,  /**< \brief sample point position at 14 */
-    IfxAsclin_SamplePointPosition_15 = 15   /**< \brief sample point position at 15 */
-} IfxAsclin_SamplePointPosition;
+---- tOn Matches (93 in 8 files) ----
+BasicGtmTom.c (src\...\snsact):37
+    Ifx_TimerValue    tOn[2];  /**< \brief PwmHl onTime value */
+#elif BOARD == SHIELD_BUDDY
+    Ifx_TimerValue    tOn[3];  /**< \brief PwmHl onTime value */
+#endif
+    struct
+BasicGtmTom.c (src\...\snsact):335
+		g_GtmTomPwmHl.tOn[0] = g_GtmTomPwmHl.pwmPeriod /2;
+		g_GtmTomPwmHl.tOn[1] = g_GtmTomPwmHl.pwmPeriod /2;
+    }
+#elif BOARD == SHIELD_BUDDY
+BasicGtmTom.c (src\...\snsact):342
+		g_GtmTomPwmHl.tOn[0] = g_GtmTomPwmHl.pwmPeriod /2;
+		g_GtmTomPwmHl.tOn[1] = g_GtmTomPwmHl.pwmPeriod /2;
+		g_GtmTomPwmHl.tOn[2] = g_GtmTomPwmHl.pwmPeriod /2;
+    }
+#endif
+BasicGtmTom.c (src\...\snsact):381
+    g_GtmTomPwmHl.tOn[0] =  halfPeriod + halfPeriod * IR_Motor.Motor0Vol;
+    g_GtmTomPwmHl.tOn[1] =  halfPeriod - halfPeriod * IR_Motor.Motor0Vol;
+#elif BOARD == SHIELD_BUDDY
+    IR_Motor.Motor0VolU = IR_Motor.Motor0Vol;
+BasicGtmTom.c (src\...\snsact):387
+    g_GtmTomPwmHl.tOn[0] =  halfPeriod + halfPeriod * IR_Motor.Motor0VolU;
+    g_GtmTomPwmHl.tOn[1] =  halfPeriod + halfPeriod * IR_Motor.Motor0VolV;
+    //g_GtmTomPwmHl.tOn[2] =  halfPeriod + halfPeriod * IR_Motor.Motor0VolW;
+#endif
 
-/** \brief Number of samples per bit, sample mode/medianfilter\n
- * Definition in Ifx_ASCLIN.BITCON.B.SM
- */
-IfxAsclin.h (src\...\std):328
-    IfxAsclin_SamplesPerBit_one   = 0, /**< \brief one sample per bit */
-    IfxAsclin_SamplesPerBit_three = 1  /**< \brief three samples per bit */
-} IfxAsclin_SamplesPerBit;
-IfxAsclin.h (src\...\std):764
-/** \brief Sets the sample mode (number of samples per bit / median filter)
- * \param asclin pointer to ASCLIN registers
- * \param medianFilter value of the median filter
-IfxAsclin.h (src\...\std):773
- * \param spPosition sample point position selection
+BasicGtmTom.c (src\...\snsact):395
+	IfxGtm_Tom_PwmHl_setOnTime(pwmHl, g_GtmTomPwmHl.tOn);
+	IfxGtm_Tom_Timer_applyUpdate(timer);
+
+IfxCcu6_PwmHl.c (src\...\pwmhl):72
+ * \param tOn T on
  * \return None
  */
-IfxAsclin.h (src\...\std):1363
- * \param samplepoint The sample point position
- * \param medianFilter Number of samples per bit (median filter)
- * \return TRUE if configuration was successfull
-IfxAsclin_Asc.c (src\...\asc):344
-    config->bitTiming.medianFilter        = IfxAsclin_SamplesPerBit_one;       /* one sample per bit*/
-    config->bitTiming.samplePointPosition = IfxAsclin_SamplePointPosition_3;   /* sample point position at 3*/
-    /* Default Values for Frame Control */
-    config->frame.idleDelay               = IfxAsclin_IdleDelay_0;             /* no idle delay*/
-IfxAsclin_Asc.h (src\...\asc):256
-    IfxAsclin_SamplesPerBit       medianFilter;              /**< \brief BITCON.SM, number of samples per bit (1 or 3), sample mode/median filter */
-    IfxAsclin_SamplePointPosition samplePointPosition;       /**< \brief BITCON.SAMPLEPOINT, sample point position */
-} IfxAsclin_Asc_BitTimingControl;
+IFX_STATIC void IfxCcu6_PwmHl_updateCenterAligned(IfxCcu6_PwmHl *driver, Ifx_TimerValue *tOn);
 
-IfxAsclin_Lin.c (src\...\lin):375
-    config->bsc.medianFilter               = IfxAsclin_SamplesPerBit_one;                      /* one sample per bit*/
-    config->bsc.samplePointPosition        = IfxAsclin_SamplePointPosition_3;                  /* sample point position at 3*/
-    /* Default Values for Frame Control */
-    config->frame.parityEnable             = FALSE;                                            /* disable parity*/
-IfxAsclin_Lin.h (src\...\lin):268
-    IfxAsclin_SamplePointPosition samplePointPosition;       /**< \brief BITCON.SAMPLEPOINT, sample point position */
-} IfxAsclin_Lin_BitSamplingControl;
-
-IfxAsclin_Spi.c (src\...\spi):112
-    IfxAsclin_SamplePointPosition samplePointPosition = (IfxAsclin_SamplePointPosition)((config->baudrate.oversampling + 1) / 2); /* sample point position at half of oversampling factor */
-
-    /* baudrate generation */
-IfxAsclin_Spi.c (src\...\spi):261
-            .medianFilter         = IfxAsclin_SamplesPerBit_one, /* one sample per bit */
-        },
-
-IfxCif.h (src\...\std):213
-    IfxCif_IspFieldSelection_AllFields      = 0,  /**< \brief sample all fields (don't care about fields) */
-    IfxCif_IspFieldSelection_OnlyEvenFields = 1,  /**< \brief sample only even fields */
-    IfxCif_IspFieldSelection_OnlyOddFields  = 2   /**< \brief sample only odd fields */
-} IfxCif_IspFieldSelection;
-
-IfxCif.h (src\...\std):858
-/** \brief Function to query the currently set field sample mode
- * \return Currently set fields sample mode (one member of @ref IfxCif_IspFieldSelection)
- */
-IFX_INLINE IfxCif_IspFieldSelection IfxCif_getIspFieldSelection(void);
-IfxCif.h (src\...\std):956
-/** \brief Function to select fields to sample
- * \param selection Sampled fields selector
- * \return None
-IfxCif.h (src\...\std):1007
- * \param edge @ref IfxCif_IspSamplingEdge_NegativeEdge to sample at negative clock edges, @ref IfxCif_IspSamplingEdge_PositiveEdge to sample at positive clock edges
+/** \brief Updates the x output duty cycle in edge aligned modes (left and right aligned)
+IfxCcu6_PwmHl.c (src\...\pwmhl):79
+ * \param tOn T on
  * \return None
  */
-IfxCif_regdef.h (src\...\_reg):353
-    Ifx_Strict_32Bit ACQ_H_OFFS:13;         /**< \brief [12:0] Horizontal sample offset (rw) */
-    Ifx_Strict_32Bit reserved_13:19;        /**< \brief \internal Reserved */
-} Ifx_CIF_ISP_ACQ_H_OFFS_Bits;
-IfxCif_regdef.h (src\...\_reg):360
-    Ifx_Strict_32Bit ACQ_H_SIZE:13;         /**< \brief [12:0] Horizontal sample size (rw) */
-    Ifx_Strict_32Bit reserved_13:19;        /**< \brief \internal Reserved */
-} Ifx_CIF_ISP_ACQ_H_SIZE_Bits;
-IfxCif_regdef.h (src\...\_reg):390
-    Ifx_Strict_32Bit ACQ_V_OFFS:12;         /**< \brief [11:0] Vertical sample offset (rw) */
-    Ifx_Strict_32Bit reserved_12:20;        /**< \brief \internal Reserved */
-} Ifx_CIF_ISP_ACQ_V_OFFS_Bits;
-IfxCif_regdef.h (src\...\_reg):397
-    Ifx_Strict_32Bit ACQ_V_SIZE:12;         /**< \brief [11:0] Vertical sample size (rw) */
-    Ifx_Strict_32Bit reserved_12:20;        /**< \brief \internal Reserved */
-} Ifx_CIF_ISP_ACQ_V_SIZE_Bits;
-IfxDsadc.h (src\...\std):318
-/** \brief Demodulator sample clock source select\n
- * Definition in Ifx_DSADC.DICFG.B.CSRC
- */
-IfxDsadc.h (src\...\std):335
-    IfxDsadc_SampleStrobe_sampleOnRisingEdge      = 1, /**< \brief Direct clock, a sample trigger is generated at each rising clock edge */
-    IfxDsadc_SampleStrobe_sampleOnFallingEdge     = 2, /**< \brief Direct clock, a sample trigger is generated at each falling clock edge */
-    IfxDsadc_SampleStrobe_sampleOnBothEdges       = 3, /**< \brief Double data, a sample trigger is generated at each rising and falling clock edge */
-    IfxDsadc_SampleStrobe_reserved                = 4, /**< \brief don't use */
-    IfxDsadc_SampleStrobe_sampleOnTwoRisingEdges  = 5, /**< \brief Double clock, a sample trigger is generated at every 2nd rising clock edge */
-    IfxDsadc_SampleStrobe_sampleOnTwoFallingEdges = 6  /**< \brief Double clock, a sample trigger is generated at every 2nd falling clock edge */
-} IfxDsadc_SampleStrobe;
+IFX_STATIC void IfxCcu6_PwmHl_updateEdgeAligned(IfxCcu6_PwmHl *driver, Ifx_TimerValue *tOn);
 
-IfxDsadc.h (src\...\std):479
-/** \brief Get the sample frequency of the integrator output in Hz
- * \param dsadc Pointer to the DSADC register space
- * \param channel Channel Id
-IfxDsadc.h (src\...\std):486
-/** \brief Get the sample frequency of the main COMB filter output in Hz
- * \param dsadc Pointer to the DSADC register space
- * \param channel Channel Id
-IfxDsadc_Dsadc.h (src\...\dsadc):223
-    IfxDsadc_SampleClockSource sampleClockSource;        /**< \brief Demodulator sample clock source selection */
-    IfxDsadc_SampleStrobe      sampleStrobe;             /**< \brief Demodulator data strobe generation mode selection */
-} IfxDsadc_Dsadc_DemodulatorConfig;
-IfxDsadc_Rdc.c (src\...\rdc):375
-    /** - Initialize TIM channel which is triggered by DSADC sample event */
-    {
-        hwHandle->rdcTimCh = IfxDsadc_Rdc_initGtmTim(gtm, tsConfig->rdcTim, tsConfig->rdcTimChannel, TRUE);
-IfxDsadc_Rdc.h (src\...\rdc):150
- * disabled and integration count = 32), the output sample rate is:
- *   10MHz / (32 * 32) = ~9.7kHz
+/** \brief Set the outputs to inactive
+IfxCcu6_PwmHl.c (src\...\pwmhl):86
+ * \param tOn T on
+ * \return None
+ */
+IFX_STATIC void IfxCcu6_PwmHl_updateOff(IfxCcu6_PwmHl *driver, Ifx_TimerValue *tOn);
+
+/** \} */
+IfxCcu6_PwmHl.c (src\...\pwmhl):115
+    Ifx_TimerValue            tOn[3] = {0, 0, 0};
+    IfxCcu6_PwmHl_setOnTime(driver, tOn); /* FIXME move to IfxCcu6_PwmHl_updateOff() */
+
+    /** - All TOP and BOTTOM channel (COUTx) states equals CC6xST */
+IfxCcu6_PwmHl.c (src\...\pwmhl):254
+    Ifx_TimerValue tOn[IFXCCU6_PWMHL_MAX_CHANNELS] = {0};
+    IfxCcu6_PwmHl_updateOff(driver, tOn); /* tOn do not need defined values */
+
+    mcmouts.U         = module->MCMOUTS.U;
+IfxCcu6_PwmHl.c (src\...\pwmhl):341
+void IfxCcu6_PwmHl_setOnTime(IfxCcu6_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    // Period = 12
+IfxCcu6_PwmHl.c (src\...\pwmhl):369
+        Ifx_TimerValue tOnX = tOn[i];
+
+        if (tOnX < driver->base.minPulse)
+IfxCcu6_PwmHl.c (src\...\pwmhl):482
+IFX_STATIC void IfxCcu6_PwmHl_updateCenterAligned(IfxCcu6_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    IfxCcu6_PwmHl_setOnTime(driver, tOn);
+}
+
+IfxCcu6_PwmHl.c (src\...\pwmhl):488
+IFX_STATIC void IfxCcu6_PwmHl_updateEdgeAligned(IfxCcu6_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    IfxCcu6_PwmHl_setOnTime(driver, tOn);
+}
+
+IfxCcu6_PwmHl.c (src\...\pwmhl):494
+IFX_STATIC void IfxCcu6_PwmHl_updateOff(IfxCcu6_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    /* Nothing to do */
+IfxCcu6_PwmHl.h (src\...\pwmhl):69
+typedef void                 (*IfxCcu6_PwmHl_Update)(IfxCcu6_PwmHl *driver, Ifx_TimerValue *tOn);
+
+/******************************************************************************/
+IfxCcu6_PwmHl.h (src\...\pwmhl):242
+ * \param tOn ON time
+ * \return None
  *
- * In each acquired sample, interrupt service is requested by the first DSADC channel
- * initialised by IfxDsadc_Rdc_init(). User's application shall provide an interrupt service
- * routine (ISR) to handle this request. In the ISR, or an OS task which is synchronised to
-IfxDsadc_Rdc.h (src\...\rdc):174
- * - first timer capture unit, to capture the time at the DSADC sample output event, i.e.
- *   using GTM TIM channel
- * - second timer capture unit, to capture the time at the application sample point (e.g.
- *   PWM event), i.e. using GTM TIM channel.
- *
-IfxEray.h (src\...\std):1013
-/** \brief Sets sample point for strobing.
- * \param eray pointer to ERAY module registers.
- * \param strobePosition strobing sample count.
- * \return None
- */
-IfxEray_Eray.h (src\...\eray):658
-    IfxEray_StrobePosition strobePosition;                   /**< \brief sample count value for strobing. */
-    IfxEray_Baudrate       baudrate;                         /**< \brief baud rate on the flexray bus. */
-    uint8                  receiveWakeupTestDuration;        /**< \brief duration of received wakeup pattern in bit times. */
-IfxGpt12_IncrEnc.h (src\...\increnc):48
- *          - twoFold: sample on both edges of TxIn
- *          - fourFold: sample on both edges of TxIn and TxEUD
- *          - Reverse of direction supported by GPT12
- *          - T2 value diff is used for speed calculation at high speed
-IfxMultican.c (src\...\std):698
-    /* search for best sample point */
-    bestError = samplePoint * 0.15; /* 15% tolerance in sample point as max error */
+IfxCcu6_PwmHl.h (src\...\pwmhl):248
+IFX_EXTERN void IfxCcu6_PwmHl_setOnTime(IfxCcu6_PwmHl *driver, Ifx_TimerValue *tOn);
 
-    bestTSEG1 = maxTSEG1;
-IfxMultican.c (src\...\std):864
-    /* search for best sample point */
-    bestError = samplePoint * 0.15; /* 15% tolerance in sample point as max error */
+/** \brief Set channels which are generating PWM or in "stuck-at" state.
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):52
+ * \param tOn ON time
+ * \param shift Shift value in ticks
+ * \return None
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):56
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateAndShiftOff(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift);
 
-    bestTSEG1 = maxTSEG1;
-IfxMultican.c (src\...\std):1028
-    /* search for best sample point */
-    bestError = samplePoint * 0.15; /* 15% tolerance in sample point as max error */
+/** \brief Updates the x output duty cycle in center aligned and center aligned inverted modes
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):60
+ * \param tOn T on
+ * \return None
+ */
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateCenterAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn);
 
-    bestTSEG1 = maxTSEG1;
-IfxMultican.h (src\...\std):373
- * \param samplePoint Specifies the sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time.
- * \param synchJumpWidth synchJumpWidth Specifies the re-synchronization jump width.\n
- * Range = [0, 10000] resp. [0%, 100%] of the total bit time.
-IfxMultican.h (src\...\std):384
- * \param samplePoint Specifies the sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time.
- * \param synchJumpWidth synchJumpWidth Specifies the re-synchronization jump width.\n
- * Range = [0, 10000] resp. [0%, 100%] of the total bit time.
-IfxMultican.h (src\...\std):654
- * \param samplePoint Specifies the sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time.
- * \param synchJumpWidth synchJumpWidth Specifies the re-synchronization jump width.\n
- * Range = [0, 10000] resp. [0%, 100%] of the total bit time.
-IfxMultican_Can.h (src\...\can):767
-    uint16 nominalSamplePoint;          /**< \brief Specifies the FD nominal sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time */
-    uint32 fastBaudrate;                /**< \brief Specifies the FD fast baudrate (Data Bit rate) */
-    uint16 fastSynchJumpWidth;          /**< \brief Specifies the FD fast resynchronisation jump width. Range = [0, 10000] resp. [0%, 100%] of the total fast bit time */
-    uint16 fastSamplePoint;             /**< \brief Specifies the FD fast sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time */
-    uint16 loopDelayOffset;             /**< \brief Specifies the transceiver delay ompensation offset that is added to the measured transceiver delay. Range = [0, 15] */
-} IfxMultican_Can_FdConfig;
-IfxMultican_Can.h (src\...\can):884
-    uint16                          samplePoint;                  /**< \brief Specifies the sample point. Range = [0, 10000] resp. [0%, 100%] of the total bit time */
-    uint16                          synchJumpWidth;               /**< \brief Specifies the resynchronisation jump width. Range = [0, 10000] resp. [0%, 100%] of the total bit time */
-    boolean                         flexibleDataRate;             /**< \brief CANFD enable/disable */
-IfxPsi5_Psi5.h (src\...\psi5):427
-/** \brief Get the current channel configuration (e.g. sample settings)
- * \param config pointer to the PSI5 channel configuration
- * \param psi5 pointer to the PSI5 module
-IfxVadc.h (src\...\std):209
-/** \brief External Multiplexer sample time control
- * defined in Ifx_VADC.G[x].EMUXCTR.B.EMXST
- */
-IfxVadc.h (src\...\std):583
-/** \brief get global input class sample time in sec
- * \param vadc Pointer to the VADC Group Register space
- * \param inputClassNum ADC input class number
-IfxVadc.h (src\...\std):587
- * \return ADC input class channel sample time in sec.
- */
-IFX_INLINE float32 IfxVadc_getGlobalSampleTime(Ifx_VADC *vadc, uint8 inputClassNum, float32 analogFrequency);
-IfxVadc.h (src\...\std):1091
- * \param sampleTime sample time in sec.
- * \return sample time in sec.
- */
-IFX_INLINE uint32 IfxVadc_calculateSampleTime(float32 analogFrequency, float32 sampleTime);
-IfxVadc.h (src\...\std):1185
-/** \brief Sets the ADC input class sample time.
- * \param vadcG pointer to VADC group registers.
- * \param inputClassNum input class number.
-IfxVadc.h (src\...\std):1189
- * \param sampleTime request sample time in sec for input class.
+/** \brief Updates the x output duty cycle in edge aligned modes (left and right aligned)
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):67
+ * \param tOn T on
  * \return None
  */
-IfxVadc.h (src\...\std):1269
-/** \brief Sets the sample time of ADC global class.
- * \param vadc pointer to VADC module registers.
- * \param inputClassNum global input class  number.
-IfxVadc.h (src\...\std):1273
- * \param sampleTime the requested sample time for input class in sec.
- * \return None
- */
-IfxVadc.h (src\...\std):1442
-/** \brief Gets the ADC input class channel sample time.
- * \param vadcG pointer to VADC group registers.
- * \param inputClassNum ADC input class number.
-IfxVadc.h (src\...\std):1446
- * \return ADC input class channel sample time in sec.
- */
-IFX_INLINE float32 IfxVadc_getGroupSampleTime(Ifx_VADC_G *vadcG, uint8 inputClassNum, float32 analogFrequency);
-IfxVadc.h (src\...\std):1599
-/** \brief Get the sample time of ADC global class for external channel.
- * \param vadc pointer to VADC Module space
- * \param inputClassNum Adc input class number
-IfxVadc.h (src\...\std):1603
- * \return ADC input class external channel sample time in sec.
- */
-IFX_INLINE float32 IfxVadc_getEmuxGlobalSampleTime(Ifx_VADC *vadc, uint8 inputClassNum, float32 analogFrequency);
-IfxVadc.h (src\...\std):1614
-/** \brief Gets the ADC input class sample time of external channel.
- * \param vadcG Pointer to Register Group space
- * \param inputClassNum ADC input class number
-IfxVadc.h (src\...\std):1618
- * \return ADC input class external channel sample time in sec.
- */
-IFX_INLINE float32 IfxVadc_getEmuxGroupSampleTime(Ifx_VADC_G *vadcG, uint8 inputClassNum, float32 analogFrequency);
-IfxVadc.h (src\...\std):1630
-/** \brief Sets the sample time of ADC global class for external channel.
- * \param vadc Pointer to VADC Module space
- * \param inputClassNum Adc input class number
-IfxVadc.h (src\...\std):1634
- * \param sampleTime the requested sample time for input class in sec
- * \return None
- */
-IfxVadc.h (src\...\std):1647
-/** \brief Sets the ADC input class sample time for external channel.
- * \param vadcG Pointer to VADC Group Register Space
- * \param inputClassNum input class number
-IfxVadc.h (src\...\std):1651
- * \param sampleTime request sample time in sec for input class.
- * \return None
- */
-IfxVadc.h (src\...\std):1675
- * \param sampleTimeControl specifies when to use a sample time for external channel
- * \param channelSelectionStyle External Multiplexer Channel Selection Style
- * \return None
-IfxVadc_Adc.c (src\...\adc):703
-        .inputClass[0].sampleTime = 1.0e-6,                           /* Set sample time to 1us */
-        .inputClass[1].resolution = IfxVadc_ChannelResolution_12bit,
-        .inputClass[1].sampleTime = 1.0e-6,                           /* Set sample time to 1us */
-    };
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateEdgeAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn);
 
-IfxVadc_Adc.h (src\...\adc):403
-    float32                   sampleTime;       /**< \brief Specifies the requested sample time for input class */
-    IfxVadc_ChannelResolution resolution;       /**< \brief Specifies the conversion Mode 8,10,12Bit or 10bit fast compare */
-} IfxVadc_Adc_ClassConfig;
-IfxVadc_Adc.h (src\...\adc):505
-    IfxVadc_EmuxSampleTimeControl   sampleTimeControl;           /**< \brief specifies when to use sample time control */
-    IfxVadc_GroupId                 groupId;                     /**< \brief specifies groupId */
-    uint8                           channels;                    /**< \brief specifies channel number */
-IfxVadc_Adc.h (src\...\adc):869
-/** \brief Get the current channel configuration (e.g. sample settings)
- * \param channel pointer to the VADC channel
- * \param config pointer to the VADC channel configuration
-InfineonRacer.c (src\...\handcode):77
-			sample[j + (MEDIAN_SIZE / 2)] = IR_LineScan.adcResult[0][i + j];
-			if (j == MEDIAN_SIZE / 2) {
-				for (uint32 m = 0; m < MEDIAN_SIZE - 1; m++) { //SampleÀ» Á¤·Ä(Selection Sort)
-InfineonRacer.c (src\...\handcode):81
-						if (sample[m] < sample[n]) {
-							temp = sample[m];
-							sample[m] = sample[n];
-							sample[n] = temp;
-						}
-					}
-InfineonRacer.c (src\...\handcode):88
-				IR_LineScan.adcResult[0][i] = sample[j];
-			}
-		}
-InfineonRacer.h (src\...\handcode):48
-uint32 sample[MEDIAN_SIZE] = {0};
-float32 temp = 0;
+/** \brief Set the outputs to inactive
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):74
+ * \param tOn T on
+ * \return None
+ */
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateOff(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn);
+
+/** \brief Update Pulse
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):81
+ * \param tOn ON times. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \param offset Offset value in ticks. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \return None
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):85
+IFX_STATIC void IfxGtm_Atom_PwmHl_updatePulse(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset);
+
+/** \brief Set Pulse to OFF
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):89
+ * \param tOn ON times. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \param offset Offset value in ticks. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \return None
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):93
+IFX_STATIC void IfxGtm_Atom_PwmHl_updatePulseOff(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset);
+
+/** \brief Update Shift Center Aligned
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):97
+ * \param tOn ON time
+ * \param shift Shift value in ticks
+ * \return None
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):101
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateShiftCenterAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift);
+
+/** \} */
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):219
+    Ifx_TimerValue tOn[IFXGTM_ATOM_PWMHL_MAX_NUM_CHANNELS] = {0};
+    IfxGtm_Atom_PwmHl_updateOff(driver, tOn); /* tOn do not need defined values */
+
+    /* Transfer the shadow registers */
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):340
+void IfxGtm_Atom_PwmHl_setOnTime(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    driver->update(driver, tOn);
+}
+
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):346
+void IfxGtm_Atom_PwmHl_setOnTimeAndShift(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+{
+    driver->updateAndShift(driver, tOn, shift);
+}
+
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):352
+void IfxGtm_Atom_PwmHl_setPulse(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset)
+{
+    driver->updatePulse(driver, tOn, offset);
+}
+
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):389
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateAndShiftOff(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+{
+    IfxGtm_Atom_PwmHl_updateOff(driver, NULL_PTR);
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):395
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateCenterAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    uint8          channelIndex;
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):407
+        x = tOn[channelIndex];
+
+        if (driver->base.inverted != FALSE)
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):455
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateEdgeAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    uint8          channelIndex;
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):467
+        x = tOn[channelIndex];
+
+        if (driver->base.inverted != FALSE)
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):515
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateOff(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    uint8          channelIndex;
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):530
+IFX_STATIC void IfxGtm_Atom_PwmHl_updatePulse(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset)
+{
+    uint8          channelIndex;
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):544
+        x = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, tOn[channelIndex]);
+        o = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, offset[channelIndex]);
+
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):593
+        x = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, tOn[channelIndex + driver->base.channelCount]);
+        o = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, offset[channelIndex + driver->base.channelCount]);
+
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):637
+IFX_STATIC void IfxGtm_Atom_PwmHl_updatePulseOff(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset)
+{
+    IfxGtm_Atom_PwmHl_updateOff(driver, NULL_PTR);
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):643
+IFX_STATIC void IfxGtm_Atom_PwmHl_updateShiftCenterAligned(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+{
+    uint8          channelIndex;
+IfxGtm_Atom_PwmHl.c (src\...\pwmhl):656
+        x = tOn[channelIndex];
+
+        if (driver->base.inverted != FALSE)
+IfxGtm_Atom_PwmHl.h (src\...\pwmhl):97
+typedef void                     (*IfxGtm_Atom_PwmHl_Update)(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn);
+
+typedef void                     (*IfxGtm_Atom_PwmHl_UpdateShift)(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift);
+
+typedef void                     (*IfxGtm_Atom_PwmHl_UpdatePulse)(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset);
+
+/******************************************************************************/
+IfxGtm_Atom_PwmHl.h (src\...\pwmhl):247
+ * \param tOn ON time
+ * \return None
+ */
+IFX_EXTERN void IfxGtm_Atom_PwmHl_setOnTime(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn);
+
+/** \brief Sets the ON time and Shift
+IfxGtm_Atom_PwmHl.h (src\...\pwmhl):254
+ * \param tOn ON time
+ * \param shift Shift value in ticks
+ * \return None
+IfxGtm_Atom_PwmHl.h (src\...\pwmhl):258
+IFX_EXTERN void IfxGtm_Atom_PwmHl_setOnTimeAndShift(IfxGtm_Atom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift);
+
+/** \brief Sets the ON time and offset, all switched are independent
+IfxGtm_Atom_PwmHl.h (src\...\pwmhl):262
+ * \param tOn ON times. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \param offset Offset value in ticks. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \return None
+IfxGtm_Atom_PwmHl.h (src\...\pwmhl):266
+IFX_EXTERN void IfxGtm_Atom_PwmHl_setPulse(IfxGtm_Atom_PwmHl *driver, float32 *tOn, float32 *offset);
+
+/** \brief Set up channels
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):52
+ * \param tOn ON time
+ * \param shift Shift value in ticks
+ * \return None
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):56
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateAndShiftOff(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift);
+
+/** \brief Updates the x output duty cycle in center aligned and center aligned inverted modes
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):60
+ * \param tOn T on
+ * \return None
+ */
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateCenterAligned(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn);
+
+/** \brief Updates the x output duty cycle in edge aligned modes (left and right aligned)
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):67
+ * \param tOn T on
+ * \return None
+ */
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateEdgeAligned(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn);
+
+/** \brief Set the outputs to inactive
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):74
+ * \param tOn T on
+ * \return None
+ */
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateOff(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn);
+
+/** \brief Update Pulse
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):81
+ * \param tOn ON times. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \param offset Offset value in ticks. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \return None
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):85
+IFX_STATIC void IfxGtm_Tom_PwmHl_updatePulse(IfxGtm_Tom_PwmHl *driver, float32 *tOn, float32 *offset);
+
+/** \brief Set Pulse to OFF
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):89
+ * \param tOn ON times. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \param offset Offset value in ticks. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \return None
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):93
+IFX_STATIC void IfxGtm_Tom_PwmHl_updatePulseOff(IfxGtm_Tom_PwmHl *driver, float32 *tOn, float32 *offset);
+
+/** \brief Update Shift Center Aligned
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):97
+ * \param tOn ON time
+ * \param shift Shift value in ticks
+ * \return None
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):101
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateShiftCenterAligned(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift);
+
+/** \} */
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):249
+    Ifx_TimerValue tOn[IFXGTM_TOM_PWMHL_MAX_NUM_CHANNELS] = {0};
+    IfxGtm_Tom_PwmHl_updateOff(driver, tOn);     /* tOn do not need defined values */
+
+    /* Transfer the shadow registers */
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):369
+void IfxGtm_Tom_PwmHl_setOnTime(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    driver->update(driver, tOn);
+}
+
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):375
+void IfxGtm_Tom_PwmHl_setOnTimeAndShift(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+{
+    driver->updateAndShift(driver, tOn, shift);
+}
+
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):381
+void IfxGtm_Tom_PwmHl_setPulse(IfxGtm_Tom_PwmHl *driver, float32 *tOn, float32 *offset)
+{
+    driver->updatePulse(driver, tOn, offset);
+}
+
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):418
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateAndShiftOff(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+{
+    IfxGtm_Tom_PwmHl_updateOff(driver, NULL_PTR);
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):424
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateCenterAligned(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    uint8          channelIndex;
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):436
+        x = tOn[channelIndex];
+
+        if (driver->base.inverted != FALSE)
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):484
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateEdgeAligned(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    uint8          channelIndex;
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):496
+        x = tOn[channelIndex];
+
+        if (driver->base.inverted != FALSE)
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):544
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateOff(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn)
+{
+    uint8          channelIndex;
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):560
+IFX_STATIC void IfxGtm_Tom_PwmHl_updatePulse(IfxGtm_Tom_PwmHl *driver, float32 *tOn, float32 *offset)
+{
+    uint8          channelIndex;
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):574
+        x = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, tOn[channelIndex]);
+        o = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, offset[channelIndex]);
+
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):623
+        x = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, tOn[channelIndex + driver->base.channelCount]);
+        o = IfxStdIf_Timer_sToTick(driver->timer->base.clockFreq, offset[channelIndex + driver->base.channelCount]);
+
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):667
+IFX_STATIC void IfxGtm_Tom_PwmHl_updatePulseOff(IfxGtm_Tom_PwmHl *driver, float32 *tOn, float32 *offset)
+{
+    IfxGtm_Tom_PwmHl_updateOff(driver, NULL_PTR);
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):673
+IFX_STATIC void IfxGtm_Tom_PwmHl_updateShiftCenterAligned(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+{
+    uint8          channelIndex;
+IfxGtm_Tom_PwmHl.c (src\...\pwmhl):686
+        x = tOn[channelIndex];
+
+        if (driver->base.inverted != FALSE)
+IfxGtm_Tom_PwmHl.h (src\...\pwmhl):137
+typedef void                    (*IfxGtm_Tom_PwmHl_Update)(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn);
+
+typedef void                    (*IfxGtm_Tom_PwmHl_UpdateShift)(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift);
+
+typedef void                    (*IfxGtm_Tom_PwmHl_UpdatePulse)(IfxGtm_Tom_PwmHl *driver, float32 *tOn, float32 *offset);
+
+/******************************************************************************/
+IfxGtm_Tom_PwmHl.h (src\...\pwmhl):289
+ * \param tOn ON time
+ * \return None
+ */
+IFX_EXTERN void IfxGtm_Tom_PwmHl_setOnTime(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn);
+
+/** \brief Sets the ON time and Shift
+IfxGtm_Tom_PwmHl.h (src\...\pwmhl):296
+ * \param tOn ON time
+ * \param shift Shift value in ticks
+ * \return None
+IfxGtm_Tom_PwmHl.h (src\...\pwmhl):300
+IFX_EXTERN void IfxGtm_Tom_PwmHl_setOnTimeAndShift(IfxGtm_Tom_PwmHl *driver, Ifx_TimerValue *tOn, Ifx_TimerValue *shift);
+
+/** \brief Sets the ON time and offset, all switched are independent
+IfxGtm_Tom_PwmHl.h (src\...\pwmhl):304
+ * \param tOn ON times. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \param offset Offset value in ticks. Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \return None
+IfxGtm_Tom_PwmHl.h (src\...\pwmhl):308
+IFX_EXTERN void IfxGtm_Tom_PwmHl_setPulse(IfxGtm_Tom_PwmHl *driver, float32 *tOn, float32 *offset);
+
+/** \brief Set up channels
+IfxStdIf_PwmHl.h (src\...\stdif):113
+ * \param tOn Pointer to an array of ON times in ticks. The array size must be equal to the number of PWM channels
+ * \return none
+ */
+typedef void (*IfxStdIf_PwmHl_SetOnTime)(IfxStdIf_InterfaceDriver stdIf, Ifx_TimerValue *tOn);
+
+/** \brief Set the pwm ON time and shift value
+IfxStdIf_PwmHl.h (src\...\stdif):120
+ * \param tOn Pointer to an array of ON times in ticks. The array size must be equal to the number of PWM channels
+ * \param shift Pointer to an array of shift values in ticks. The array size must be equal to the number of PWM channels
+ * \return none
+IfxStdIf_PwmHl.h (src\...\stdif):124
+typedef void (*IfxStdIf_PwmHl_SetOnTimeAndShift)(IfxStdIf_InterfaceDriver stdIf, Ifx_TimerValue *tOn, Ifx_TimerValue *shift);
+
+/** \brief Set the pwm pulse of all switched independently
+IfxStdIf_PwmHl.h (src\...\stdif):128
+ * \param tOn Pointer to an array of ON times in s. The array size must be equal to the number of PWM channels times 2. Parameters order is  Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \param offset Pointer to an array of offset values in s. The array size must be equal to the number of PWM channels times 2. Parameters order is  Phase 0 top, phase 1 top, ... phase 0 bottom, phase 1 botteom, ...
+ * \return none
+IfxStdIf_PwmHl.h (src\...\stdif):132
+typedef void (*IfxStdIf_PwmHl_SetPulse)(IfxStdIf_InterfaceDriver stdIf, float32 *tOn, float32 *offset);
+
+/** \brief Set channels which are generating PWM or in "stuck-at" state.
+IfxStdIf_PwmHl.h (src\...\stdif):250
+IFX_INLINE void IfxStdIf_PwmHl_setOnTime(IfxStdIf_PwmHl *stdIf, Ifx_TimerValue *tOn)
+{
+    stdIf->setOnTime(stdIf->driver, tOn);
+}
+
+IfxStdIf_PwmHl.h (src\...\stdif):259
+IFX_INLINE void IfxStdIf_PwmHl_setOnTimeAndShift(IfxStdIf_PwmHl *stdIf, Ifx_TimerValue *tOn, Ifx_TimerValue *shift)
+{
+    stdIf->setOnTimeAndShift(stdIf->driver, tOn, shift);
+}
+
+IfxStdIf_PwmHl.h (src\...\stdif):268
+IFX_INLINE void IfxStdIf_PwmHl_setPulse(IfxStdIf_PwmHl *stdIf, float32 *tOn, float32 *offset)
+{
+    stdIf->setPulse(stdIf->driver, tOn, offset);
+}
 
