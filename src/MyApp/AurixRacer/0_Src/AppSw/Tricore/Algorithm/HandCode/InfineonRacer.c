@@ -137,13 +137,15 @@ void getLineData (void){    //left linescanner only
         }
         IR_LineData.Direction_Determined = TRUE;
     }
+
     else{
     	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-            if(IR_LineData.Result[index] > MaxVal)
+            if(IR_LineData.Result[index] > MaxVal){
                 IR_LineData.present= index;
                 MaxVal = IR_LineData.Result[index];
+            }
             else
-                IR_LineData.School_Zone_flag = FALSE;
+            	IR_LineData.School_Zone_flag = FALSE;
         }
 
         uint32 SCHOOLZONE_DETECTION = MaxVal/2;
