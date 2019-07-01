@@ -52,12 +52,10 @@ typedef struct{
     uint32 sample[MEDIAN_SIZE];
     float32 temp;
     
+    uint32 previous;
+    uint32 present;
     
-    uint32 LineAmount;
-    uint32 head;
-    uint32 tail;
-    uint32 center;
-
+    boolean Direction_Determined;
     boolean School_Zone_flag;
 }LineData;
 
@@ -85,7 +83,7 @@ IFX_EXTERN void convolutionOP(void);
 IFX_EXTERN void getLineData (void);
 IFX_EXTERN void clearBuffer(void);
 
-IFX_EXTERN uint32 Direction(void);
+IFX_EXTERN float32 Direction(void);
 
 
 

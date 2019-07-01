@@ -81,9 +81,6 @@ void appTaskfu_10ms(void)
 	}
 
 	if(task_cnt_10m%2 == 0){
-		BasicLineScan_run();
-        median_filter();
-        Line_Buffer();
         
         BasicGtmTom_run();
 		BasicPort_run();
@@ -110,20 +107,18 @@ void appTaskfu_100ms(void)
 	task_cnt_100m++;
     //get line data in every 0.1 sec
     
-    Line_avgerage();
-    convolutionOP();
-	getLineData();
-    
-    switch(Direction()){//determine wheel direction
-        case 0 : //STAY
-        	IR_setSrvAngle(-0.4);   //gotta figure out which angle mapping to center of the wheel
-            break;
-        case 1 : //TURN_LEFT
-        	IR_setSrvAngle(-0.2);
-            break;
-        case 2 : //TURN_RIGHT
-        	IR_setSrvAngle(-0.6);
-            break;
+    BasicLineScan_run();
+    median_filter();
+    Line_Buffer();
+    if(task_cnt_100m % 5 == 0){
+        Line_avgerage();
+        convolutionOP();
+    	getLineData();
+    }
+
+    if(task_cnt_100m % 10 == 0){
+        SrvControl(Direction());    //determine wheel direction
+     
     }
 
 #if PID_TEST == ON
@@ -220,5 +215,9 @@ void Speed2Vol(void){
     //NextVol = ~~~
 }
 
+void SrvControl(float32 diff){
+    float32 result = -0.4 - diff * 0.3 / 88;
+    IR_setMotor0Vol(result);
+}
 
 

@@ -44,7 +44,7 @@ typedef struct{
 
 void PID(void);
 void Speed2Vol(void);
-
+void SrvControl(float32);
 
 
 #endif /* APPTASKFU_H_ */
