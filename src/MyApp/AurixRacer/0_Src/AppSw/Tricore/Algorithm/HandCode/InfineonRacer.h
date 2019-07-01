@@ -46,8 +46,8 @@ typedef struct{
 }InfineonRacer_t;
 
 typedef struct{
-    uint32 Result[SignalLen + TransferLen -1];
-    uint32 Transfer[3];
+    int Result[SignalLen + TransferLen -1];
+    int Transfer[3];
     
     uint32 sample[MEDIAN_SIZE];
     float32 temp;
@@ -83,7 +83,10 @@ IFX_EXTERN void Line_Buffer(void);
 IFX_EXTERN void median_filter(void);
 IFX_EXTERN void convolutionOP(void);
 IFX_EXTERN void getLineData (void);
+IFX_EXTERN void clearBuffer(void);
+
 IFX_EXTERN uint32 Direction(void);
+
 
 
 #endif

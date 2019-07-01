@@ -36,9 +36,9 @@ LineData IR_LineData
 /*-------------------------Function Implementations---------------------------*/
 /******************************************************************************/
 void InfineonRacer_init(void){
-    IR_LineData.Transfer[0] = -1;
+    IR_LineData.Transfer[0] = 1;
     IR_LineData.Transfer[1] = 0;
-    IR_LineData.Transfer[2] = 1;
+    IR_LineData.Transfer[2] = -1;
     
     IR_LineData.School_Zone_flag = FALSE;
     
@@ -59,34 +59,40 @@ void InfineonRacer_control(void){
 
 void Line_Buffer(void){
     for(uint32 index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-        IR_LineScan.adcResult[0][index] += IR_LineScan.adcResult[0][index];
+        IR_LineScan.adcBuffer[0][index] += IR_LineScan.adcResult[0][index];
     }
 }
 
 void Line_avgerage(void){
     for(uint32 index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-        IR_LineScan.adcResult[0][index] = IR_LineScan.adcResult[0][index] / 10;
+        IR_LineScan.adcBuffer[0][index] = IR_LineScan.adcBuffer[0][index] / 5;
     }
+    
 }
 
 void convolutionOP(void){
     uint32 n;
     for (n = 0; n < SignalLen + TransferLen - 1; n++)
-  {
-    uint32 kmin, kmax, k;
-
-    IR_LineData.Result[n] = 0;
-
-    kmin = (n >= TransferLen - 1) ? n - (TransferLen - 1) : 0;
-    kmax = (n < SignalLen - 1) ? n : SignalLen - 1;
-
-    for (k = kmin; k <= kmax; k++)
     {
-    	IR_LineData.Result[n] += IR_LineScan.adcResult[LEFTLINESCAN][k] * IR_LineData.Transfer[n - k];
+        uint32 kmin, kmax, k;
+
+        IR_LineData.Result[n] = 0;
+
+        kmin = (n >= TransferLen - 1) ? n - (TransferLen - 1) : 0;
+        kmax = (n < SignalLen - 1) ? n : SignalLen - 1;
+
+        for (k = kmin; k <= kmax; k++)
+        {
+        	IR_LineData.Result[n] += IR_LineScan.adcBuffer[LEFTLINESCAN][k] * IR_LineData.Transfer[n - k];
+        }
     }
-  }
 }
 
+void clearBuffer(void){ //clear buffer function
+    for(uint32 index = 0; index < LINEMAX; index++){
+        IR_LineScan.adcBuffer[0][index] = 0;
+    }
+}
 
 void median_filter(void) {
 	for (uint32 i = (MEDIAN_SIZE / 2); i < LINEMAX- (MEDIAN_SIZE / 2); i++) {
@@ -111,40 +117,27 @@ void median_filter(void) {
 void getLineData (void){    //left linescanner only
     uint32 index = 0;
 	uint32 pixelCounter = 0;
-
-
-
+    uint32 MaxVal = 0;
 	index = 0;
 
 	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-        if(IR_LineData.Result[index - 1] > 0 && IR_LineData.Result[index] < 0){
-            if(pixelCounter == 0){
-                IR_LineData.head = index;
-                pixelCounter++;
-            }
-            
-            else if(pixelCounter == 2){
-                IR_LineData.tail = index;
-                pixelCounter++;
-                
-            }
-        }
-        if(IR_LineData.Result[index - 1] < 0 && IR_LineData.Result[index] > 0){
-            if(pixelCounter == 1){
-                IR_LineData.center = index;
-                pixelCounter++;
-            }
-            else if (pixelCounter == 3)
-                IR_LineData.School_Zone_flag = TRUE;
-        }
+        if(IR_LineData.Result[index] > MaxVal)
+            IR_LineData.head = index;
+    }
+
+    uint32 SCHOOLZONE_DETECTION = MaxVal/2;
+    
+	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION)
+            IR_LineData.School_Zone_flag = TRUE;
     }
 
 }
 
 uint32 Direction(void){
-    if(IR_LineData.center < CENTER_INDEX-BOUNDARY)
+    if(IR_LineData.head > CENTER_INDEX+BOUNDARY)
         return TURN_LEFT;
-    else if(IR_LineData.center > CENTER_INDEX-BOUNDARY)
+    else if(IR_LineData.head < CENTER_INDEX)
         return TURN_RIGHT;
     else 
         return STAY;

@@ -54,6 +54,8 @@ void appTaskfu_1ms(void)
 		BasicGpt12Enc_IR_Encoder_reset();
 	}
 	BasicGpt12Enc_run();
+    SpeedCalculation(void);
+    Speed_Buff(void);
 	//printf("1ms!\n");
 
 }
@@ -63,8 +65,8 @@ void appTaskfu_10ms(void)
 {
 	task_cnt_10m++;
     //empty buffer after calculating average of speed
-//    Speed_Avg();
-    IR_Encoder.buff = 0;
+    Speed_Avg();
+    
 #if ENCODER_TEST == ON
 	IR_setMotor0Vol(testVol);
 #endif
@@ -88,7 +90,6 @@ void appTaskfu_10ms(void)
 
         //checking PSD
         BasicVadcBgScan_run();
-        Checking_PSD();
         
 		if(IR_Ctrl.basicTest == FALSE){
 			#if CODE == CODE_HAND
@@ -130,6 +131,7 @@ void appTaskfu_100ms(void)
     Speed2Vol(void);
     
 #endif
+
 #if ENCODER_TEST == ON
     printf("%f\n", IR_Encoder.speed);
 #endif

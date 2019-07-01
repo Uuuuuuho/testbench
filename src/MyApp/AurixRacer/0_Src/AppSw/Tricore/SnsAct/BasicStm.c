@@ -84,6 +84,7 @@ void STM_Int0Handler(void)
     task_flag_1m = TRUE;
 
     if(g_Stm.counter % 10 == 0){
+        Checking_PSD();
     	task_flag_10m = TRUE;
     }
     if(g_Stm.counter % 100 == 0){
