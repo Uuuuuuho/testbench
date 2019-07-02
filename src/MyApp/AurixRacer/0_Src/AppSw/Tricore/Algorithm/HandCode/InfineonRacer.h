@@ -30,6 +30,9 @@
 #define TURN_LEFT 1
 #define TURN_RIGHT 2
 #define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
+
+#define CENTER_INDEX 60
+#define BOUNDARY 5
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/
@@ -80,12 +83,23 @@ IFX_EXTERN void InfineonRacer_control(void);
 IFX_EXTERN void Line_avgerage(void);
 IFX_EXTERN void Line_Buffer(void);
 IFX_EXTERN void median_filter(void);
+
+IFX_EXTERN void Line_avgerage_RIGHT(void);
+IFX_EXTERN void Line_Buffer_RIGHT(void);
+IFX_EXTERN void median_filter_RIGHT(void);
+
 IFX_EXTERN void convolutionOP(void);
 IFX_EXTERN void getLineData (void);
 IFX_EXTERN void clearBuffer(void);
+
+IFX_EXTERN void convolutionOP_RIGHT(void);
+IFX_EXTERN void getLineData_RIGHT (void);
+IFX_EXTERN void clearBuffer_RIGHT(void);
+
+
 IFX_EXTERN boolean IsOutSchoolZone(void);
 IFX_EXTERN boolean IsInSchoolZone(void);
-
+IFX_EXTERN boolean Boundary(void);
 
 IFX_EXTERN float32 Direction(void);
 

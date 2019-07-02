@@ -54,7 +54,7 @@ IfxVadc_cfg_srcAddresses:
 	.file 3 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x439
+	.uaword	0x447
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -62,7 +62,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\boldasl\\\\SEUNGHO\\\\Workspace\\\\GitHub\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.byte	0x4
@@ -96,7 +96,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x1bb
+	.uaword	0x1c9
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -122,12 +122,12 @@ IfxVadc_cfg_srcAddresses:
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2d
-	.uaword	0x393
+	.uaword	0x3a1
 	.uleb128 0x5
 	.string	"SRPN"
 	.byte	0x1
 	.byte	0x2f
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -136,7 +136,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"reserved_8"
 	.byte	0x1
 	.byte	0x30
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -145,7 +145,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SRE"
 	.byte	0x1
 	.byte	0x31
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -154,7 +154,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"TOS"
 	.byte	0x1
 	.byte	0x32
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -163,7 +163,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"reserved_13"
 	.byte	0x1
 	.byte	0x33
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -172,7 +172,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"ECC"
 	.byte	0x1
 	.byte	0x34
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -181,7 +181,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"reserved_22"
 	.byte	0x1
 	.byte	0x35
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -190,7 +190,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SRR"
 	.byte	0x1
 	.byte	0x36
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -199,7 +199,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"CLRR"
 	.byte	0x1
 	.byte	0x37
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -208,7 +208,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SETR"
 	.byte	0x1
 	.byte	0x38
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -217,7 +217,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"IOV"
 	.byte	0x1
 	.byte	0x39
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -226,7 +226,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"IOVCLR"
 	.byte	0x1
 	.byte	0x3a
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -235,7 +235,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SWS"
 	.byte	0x1
 	.byte	0x3b
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -244,7 +244,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"SWSCLR"
 	.byte	0x1
 	.byte	0x3c
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -253,7 +253,7 @@ IfxVadc_cfg_srcAddresses:
 	.string	"reserved_31"
 	.byte	0x1
 	.byte	0x3d
-	.uaword	0x393
+	.uaword	0x3a1
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -267,55 +267,55 @@ IfxVadc_cfg_srcAddresses:
 	.string	"Ifx_SRC_SRCR_Bits"
 	.byte	0x1
 	.byte	0x3e
-	.uaword	0x26e
+	.uaword	0x27c
 	.uleb128 0x6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x46
-	.uaword	0x3e0
+	.uaword	0x3ee
 	.uleb128 0x7
 	.string	"U"
 	.byte	0x1
 	.byte	0x48
-	.uaword	0x393
+	.uaword	0x3a1
 	.uleb128 0x7
 	.string	"I"
 	.byte	0x1
 	.byte	0x49
-	.uaword	0x1d0
+	.uaword	0x1de
 	.uleb128 0x7
 	.string	"B"
 	.byte	0x1
 	.byte	0x4a
-	.uaword	0x3a3
+	.uaword	0x3b1
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_SRC_SRCR"
 	.byte	0x1
 	.byte	0x4b
-	.uaword	0x3bc
+	.uaword	0x3ca
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x8
-	.uaword	0x21a
-	.uaword	0x410
+	.uaword	0x228
+	.uaword	0x41e
 	.uleb128 0x9
-	.uaword	0x3f4
+	.uaword	0x402
 	.byte	0x27
 	.byte	0
 	.uleb128 0xa
 	.string	"IfxVadc_cfg_srcAddresses"
 	.byte	0x3
 	.byte	0x23
-	.uaword	0x437
+	.uaword	0x445
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxVadc_cfg_srcAddresses
 	.uleb128 0xb
-	.uaword	0x400
+	.uaword	0x40e
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

@@ -215,7 +215,7 @@ IfxStdIf_Pos_printStatus:
 	.file 6 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_DPipe.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x1376
+	.uaword	0x1384
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -223,7 +223,7 @@ IfxStdIf_Pos_printStatus:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_Pos.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\boldasl\\\\SEUNGHO\\\\Workspace\\\\GitHub\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0x20
 	.uaword	0
 	.uaword	0
@@ -252,7 +252,7 @@ IfxStdIf_Pos_printStatus:
 	.string	"sint16"
 	.byte	0x3
 	.byte	0x5a
-	.uaword	0x212
+	.uaword	0x220
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x5
@@ -261,7 +261,7 @@ IfxStdIf_Pos_printStatus:
 	.string	"uint16"
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x22d
+	.uaword	0x23b
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -270,17 +270,17 @@ IfxStdIf_Pos_printStatus:
 	.string	"sint32"
 	.byte	0x3
 	.byte	0x5c
-	.uaword	0x1bc
+	.uaword	0x1ca
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x3
 	.byte	0x5d
-	.uaword	0x1c8
+	.uaword	0x1d6
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x26e
+	.uaword	0x27c
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -293,12 +293,12 @@ IfxStdIf_Pos_printStatus:
 	.string	"boolean"
 	.byte	0x3
 	.byte	0x68
-	.uaword	0x1f3
+	.uaword	0x201
 	.uleb128 0x3
 	.string	"sint64"
 	.byte	0x4
 	.byte	0x24
-	.uaword	0x29e
+	.uaword	0x2ac
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -311,12 +311,12 @@ IfxStdIf_Pos_printStatus:
 	.string	"pchar"
 	.byte	0x4
 	.byte	0x27
-	.uaword	0x2d6
+	.uaword	0x2e4
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2dc
+	.uaword	0x2ea
 	.uleb128 0x5
-	.uaword	0x2e1
+	.uaword	0x2ef
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
@@ -327,352 +327,352 @@ IfxStdIf_Pos_printStatus:
 	.string	"Ifx_TickTime"
 	.byte	0x4
 	.byte	0x3e
-	.uaword	0x290
+	.uaword	0x29e
 	.uleb128 0x3
 	.string	"Ifx_SizeT"
 	.byte	0x4
 	.byte	0x4b
-	.uaword	0x204
+	.uaword	0x212
 	.uleb128 0x3
 	.string	"IfxStdIf_InterfaceDriver"
 	.byte	0x5
 	.byte	0x62
-	.uaword	0x2e9
+	.uaword	0x2f7
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe"
 	.byte	0x6
 	.byte	0x33
-	.uaword	0x346
+	.uaword	0x354
 	.uleb128 0x7
 	.string	"IfxStdIf_DPipe_"
 	.byte	0x4c
 	.byte	0x6
 	.byte	0xd5
-	.uaword	0x4c2
+	.uaword	0x4d0
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x6
 	.byte	0xd7
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x9
 	.string	"txDisabled"
 	.byte	0x6
 	.byte	0xd8
-	.uaword	0x281
+	.uaword	0x28f
 	.byte	0x4
 	.uleb128 0x9
 	.string	"write"
 	.byte	0x6
 	.byte	0xdb
-	.uaword	0x50e
+	.uaword	0x51c
 	.byte	0x8
 	.uleb128 0x9
 	.string	"read"
 	.byte	0x6
 	.byte	0xdc
-	.uaword	0x555
+	.uaword	0x563
 	.byte	0xc
 	.uleb128 0x9
 	.string	"getReadCount"
 	.byte	0x6
 	.byte	0xdd
-	.uaword	0x570
+	.uaword	0x57e
 	.byte	0x10
 	.uleb128 0x9
 	.string	"getReadEvent"
 	.byte	0x6
 	.byte	0xde
-	.uaword	0x5a9
+	.uaword	0x5b7
 	.byte	0x14
 	.uleb128 0x9
 	.string	"getWriteCount"
 	.byte	0x6
 	.byte	0xdf
-	.uaword	0x656
+	.uaword	0x664
 	.byte	0x18
 	.uleb128 0x9
 	.string	"getWriteEvent"
 	.byte	0x6
 	.byte	0xe0
-	.uaword	0x67a
+	.uaword	0x688
 	.byte	0x1c
 	.uleb128 0x9
 	.string	"canReadCount"
 	.byte	0x6
 	.byte	0xe1
-	.uaword	0x6b4
+	.uaword	0x6c2
 	.byte	0x20
 	.uleb128 0x9
 	.string	"canWriteCount"
 	.byte	0x6
 	.byte	0xe2
-	.uaword	0x6f7
+	.uaword	0x705
 	.byte	0x24
 	.uleb128 0x9
 	.string	"flushTx"
 	.byte	0x6
 	.byte	0xe3
-	.uaword	0x71b
+	.uaword	0x729
 	.byte	0x28
 	.uleb128 0x9
 	.string	"clearTx"
 	.byte	0x6
 	.byte	0xe4
-	.uaword	0x784
+	.uaword	0x792
 	.byte	0x2c
 	.uleb128 0x9
 	.string	"clearRx"
 	.byte	0x6
 	.byte	0xe5
-	.uaword	0x754
+	.uaword	0x762
 	.byte	0x30
 	.uleb128 0x9
 	.string	"onReceive"
 	.byte	0x6
 	.byte	0xe6
-	.uaword	0x7a2
+	.uaword	0x7b0
 	.byte	0x34
 	.uleb128 0x9
 	.string	"onTransmit"
 	.byte	0x6
 	.byte	0xe7
-	.uaword	0x7c2
+	.uaword	0x7d0
 	.byte	0x38
 	.uleb128 0x9
 	.string	"onError"
 	.byte	0x6
 	.byte	0xe8
-	.uaword	0x7e3
+	.uaword	0x7f1
 	.byte	0x3c
 	.uleb128 0x9
 	.string	"getSendCount"
 	.byte	0x6
 	.byte	0xea
-	.uaword	0x5e2
+	.uaword	0x5f0
 	.byte	0x40
 	.uleb128 0x9
 	.string	"getTxTimeStamp"
 	.byte	0x6
 	.byte	0xeb
-	.uaword	0x61b
+	.uaword	0x629
 	.byte	0x44
 	.uleb128 0x9
 	.string	"resetSendCount"
 	.byte	0x6
 	.byte	0xec
-	.uaword	0x801
+	.uaword	0x80f
 	.byte	0x48
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_WriteEvent"
 	.byte	0x6
 	.byte	0x35
-	.uaword	0x4e3
+	.uaword	0x4f1
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x4e9
+	.uaword	0x4f7
 	.uleb128 0xa
-	.uaword	0x281
+	.uaword	0x28f
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_ReadEvent"
 	.byte	0x6
 	.byte	0x36
-	.uaword	0x4e3
+	.uaword	0x4f1
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_Write"
 	.byte	0x6
 	.byte	0x48
-	.uaword	0x52a
+	.uaword	0x538
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x530
+	.uaword	0x53e
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x281
-	.uaword	0x54f
+	.uaword	0x28f
+	.uaword	0x55d
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.uleb128 0xc
-	.uaword	0x2e9
+	.uaword	0x2f7
 	.uleb128 0xc
-	.uaword	0x54f
+	.uaword	0x55d
 	.uleb128 0xc
-	.uaword	0x2eb
+	.uaword	0x2f9
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2ff
+	.uaword	0x30d
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_Read"
 	.byte	0x6
 	.byte	0x57
-	.uaword	0x52a
+	.uaword	0x538
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_GetReadCount"
 	.byte	0x6
 	.byte	0x5f
-	.uaword	0x593
+	.uaword	0x5a1
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x599
+	.uaword	0x5a7
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x243
-	.uaword	0x5a9
+	.uaword	0x251
+	.uaword	0x5b7
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_GetReadEvent"
 	.byte	0x6
 	.byte	0x67
-	.uaword	0x5cc
+	.uaword	0x5da
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5d2
+	.uaword	0x5e0
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x4ee
-	.uaword	0x5e2
+	.uaword	0x4fc
+	.uaword	0x5f0
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_GetSendCount"
 	.byte	0x6
 	.byte	0x6f
-	.uaword	0x605
+	.uaword	0x613
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x60b
+	.uaword	0x619
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x251
-	.uaword	0x61b
+	.uaword	0x25f
+	.uaword	0x629
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_GetTxTimeStamp"
 	.byte	0x6
 	.byte	0x77
-	.uaword	0x640
+	.uaword	0x64e
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x646
+	.uaword	0x654
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x2eb
-	.uaword	0x656
+	.uaword	0x2f9
+	.uaword	0x664
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_GetWriteCount"
 	.byte	0x6
 	.byte	0x7f
-	.uaword	0x593
+	.uaword	0x5a1
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_GetWriteEvent"
 	.byte	0x6
 	.byte	0x87
-	.uaword	0x69e
+	.uaword	0x6ac
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6a4
+	.uaword	0x6b2
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x4c2
-	.uaword	0x6b4
+	.uaword	0x4d0
+	.uaword	0x6c2
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_CanReadCount"
 	.byte	0x6
 	.byte	0x92
-	.uaword	0x6d7
+	.uaword	0x6e5
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6dd
+	.uaword	0x6eb
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x281
-	.uaword	0x6f7
+	.uaword	0x28f
+	.uaword	0x705
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.uleb128 0xc
-	.uaword	0x2ff
+	.uaword	0x30d
 	.uleb128 0xc
-	.uaword	0x2eb
+	.uaword	0x2f9
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_CanWriteCount"
 	.byte	0x6
 	.byte	0x9d
-	.uaword	0x6d7
+	.uaword	0x6e5
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_FlushTx"
 	.byte	0x6
 	.byte	0xa6
-	.uaword	0x739
+	.uaword	0x747
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x73f
+	.uaword	0x74d
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x281
-	.uaword	0x754
+	.uaword	0x28f
+	.uaword	0x762
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.uleb128 0xc
-	.uaword	0x2eb
+	.uaword	0x2f9
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_ClearRx"
 	.byte	0x6
 	.byte	0xad
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x778
+	.uaword	0x786
 	.uleb128 0xd
 	.byte	0x1
-	.uaword	0x784
+	.uaword	0x792
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_ClearTx"
 	.byte	0x6
 	.byte	0xb4
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_OnReceive"
 	.byte	0x6
 	.byte	0xbc
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_OnTransmit"
 	.byte	0x6
 	.byte	0xc3
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_OnError"
 	.byte	0x6
 	.byte	0xca
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_DPipe_ResetSendCount"
 	.byte	0x6
 	.byte	0xd1
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0xe
 	.byte	0x1
 	.byte	0x2
 	.byte	0x39
-	.uaword	0x8a8
+	.uaword	0x8b6
 	.uleb128 0xf
 	.string	"IfxStdIf_Pos_ResolutionFactor_oneFold"
 	.sleb128 1
@@ -687,12 +687,12 @@ IfxStdIf_Pos_printStatus:
 	.string	"IfxStdIf_Pos_ResolutionFactor"
 	.byte	0x2
 	.byte	0x3d
-	.uaword	0x826
+	.uaword	0x834
 	.uleb128 0xe
 	.byte	0x1
 	.byte	0x2
 	.byte	0x41
-	.uaword	0x99e
+	.uaword	0x9ac
 	.uleb128 0xf
 	.string	"IfxStdIf_Pos_SensorType_encoder"
 	.sleb128 0
@@ -716,12 +716,12 @@ IfxStdIf_Pos_printStatus:
 	.string	"IfxStdIf_Pos_SensorType"
 	.byte	0x2
 	.byte	0x48
-	.uaword	0x8cd
+	.uaword	0x8db
 	.uleb128 0xe
 	.byte	0x1
 	.byte	0x2
 	.byte	0x4c
-	.uaword	0xa18
+	.uaword	0xa26
 	.uleb128 0xf
 	.string	"IfxStdIf_Pos_Dir_forward"
 	.sleb128 0
@@ -736,17 +736,17 @@ IfxStdIf_Pos_printStatus:
 	.string	"IfxStdIf_Pos_Dir"
 	.byte	0x2
 	.byte	0x50
-	.uaword	0x9bd
+	.uaword	0x9cb
 	.uleb128 0x10
 	.byte	0x1
 	.byte	0x2
 	.byte	0x56
-	.uaword	0xab4
+	.uaword	0xac2
 	.uleb128 0x11
 	.string	"notSynchronised"
 	.byte	0x2
 	.byte	0x58
-	.uaword	0x251
+	.uaword	0x25f
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -755,7 +755,7 @@ IfxStdIf_Pos_printStatus:
 	.string	"signalLoss"
 	.byte	0x2
 	.byte	0x59
-	.uaword	0x251
+	.uaword	0x25f
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -764,7 +764,7 @@ IfxStdIf_Pos_printStatus:
 	.string	"signalDegradation"
 	.byte	0x2
 	.byte	0x5a
-	.uaword	0x251
+	.uaword	0x25f
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -773,7 +773,7 @@ IfxStdIf_Pos_printStatus:
 	.string	"trackingLoss"
 	.byte	0x2
 	.byte	0x5b
-	.uaword	0x251
+	.uaword	0x25f
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -782,7 +782,7 @@ IfxStdIf_Pos_printStatus:
 	.string	"commError"
 	.byte	0x2
 	.byte	0x5c
-	.uaword	0x251
+	.uaword	0x25f
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -792,449 +792,449 @@ IfxStdIf_Pos_printStatus:
 	.byte	0x4
 	.byte	0x2
 	.byte	0x53
-	.uaword	0xad4
+	.uaword	0xae2
 	.uleb128 0x13
 	.string	"status"
 	.byte	0x2
 	.byte	0x55
-	.uaword	0x251
+	.uaword	0x25f
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0xa30
+	.uaword	0xa3e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_Status"
 	.byte	0x2
 	.byte	0x5e
-	.uaword	0xab4
+	.uaword	0xac2
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos"
 	.byte	0x2
 	.byte	0x63
-	.uaword	0xb03
+	.uaword	0xb11
 	.uleb128 0x14
 	.string	"IfxStdIf_Pos_"
 	.byte	0x5c
 	.byte	0x2
 	.uahalf	0x10a
-	.uaword	0xcfb
+	.uaword	0xd09
 	.uleb128 0x15
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x10c
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x16
 	.string	"onZeroIrq"
 	.byte	0x2
 	.uahalf	0x10d
-	.uaword	0xd39
+	.uaword	0xd47
 	.byte	0x4
 	.uleb128 0x16
 	.string	"getAbsolutePosition"
 	.byte	0x2
 	.uahalf	0x10e
-	.uaword	0xcfb
+	.uaword	0xd09
 	.byte	0x8
 	.uleb128 0x16
 	.string	"getOffset"
 	.byte	0x2
 	.uahalf	0x10f
-	.uaword	0xd57
+	.uaword	0xd65
 	.byte	0xc
 	.uleb128 0x16
 	.string	"getPosition"
 	.byte	0x2
 	.uahalf	0x110
-	.uaword	0xd75
+	.uaword	0xd83
 	.byte	0x10
 	.uleb128 0x16
 	.string	"getDirection"
 	.byte	0x2
 	.uahalf	0x111
-	.uaword	0xd95
+	.uaword	0xda3
 	.byte	0x14
 	.uleb128 0x16
 	.string	"getFault"
 	.byte	0x2
 	.uahalf	0x112
-	.uaword	0xdcc
+	.uaword	0xdda
 	.byte	0x18
 	.uleb128 0x16
 	.string	"getRawPosition"
 	.byte	0x2
 	.uahalf	0x113
-	.uaword	0xe3e
+	.uaword	0xe4c
 	.byte	0x1c
 	.uleb128 0x16
 	.string	"getPeriodPerRotation"
 	.byte	0x2
 	.uahalf	0x114
-	.uaword	0xdff
+	.uaword	0xe0d
 	.byte	0x20
 	.uleb128 0x16
 	.string	"getRefreshPeriod"
 	.byte	0x2
 	.uahalf	0x115
-	.uaword	0xe61
+	.uaword	0xe6f
 	.byte	0x24
 	.uleb128 0x16
 	.string	"getResolution"
 	.byte	0x2
 	.uahalf	0x116
-	.uaword	0xe86
+	.uaword	0xe94
 	.byte	0x28
 	.uleb128 0x16
 	.string	"getSensorType"
 	.byte	0x2
 	.uahalf	0x117
-	.uaword	0xea8
+	.uaword	0xeb6
 	.byte	0x2c
 	.uleb128 0x16
 	.string	"getTurn"
 	.byte	0x2
 	.uahalf	0x118
-	.uaword	0xefd
+	.uaword	0xf0b
 	.byte	0x30
 	.uleb128 0x16
 	.string	"onEventA"
 	.byte	0x2
 	.uahalf	0x119
-	.uaword	0xf19
+	.uaword	0xf27
 	.byte	0x34
 	.uleb128 0x16
 	.string	"reset"
 	.byte	0x2
 	.uahalf	0x11a
-	.uaword	0xf51
+	.uaword	0xf5f
 	.byte	0x38
 	.uleb128 0x16
 	.string	"resetFaults"
 	.byte	0x2
 	.uahalf	0x11b
-	.uaword	0xf6b
+	.uaword	0xf79
 	.byte	0x3c
 	.uleb128 0x16
 	.string	"getSpeed"
 	.byte	0x2
 	.uahalf	0x11c
-	.uaword	0xee0
+	.uaword	0xeee
 	.byte	0x40
 	.uleb128 0x16
 	.string	"update"
 	.byte	0x2
 	.uahalf	0x11d
-	.uaword	0xf36
+	.uaword	0xf44
 	.byte	0x44
 	.uleb128 0x16
 	.string	"setOffset"
 	.byte	0x2
 	.uahalf	0x11e
-	.uaword	0xf8b
+	.uaword	0xf99
 	.byte	0x48
 	.uleb128 0x16
 	.string	"setPosition"
 	.byte	0x2
 	.uahalf	0x11f
-	.uaword	0xfc0
+	.uaword	0xfce
 	.byte	0x4c
 	.uleb128 0x16
 	.string	"setRawPosition"
 	.byte	0x2
 	.uahalf	0x120
-	.uaword	0xff7
+	.uaword	0x1005
 	.byte	0x50
 	.uleb128 0x16
 	.string	"setSpeed"
 	.byte	0x2
 	.uahalf	0x121
-	.uaword	0x101a
+	.uaword	0x1028
 	.byte	0x54
 	.uleb128 0x16
 	.string	"setRefreshPeriod"
 	.byte	0x2
 	.uahalf	0x122
-	.uaword	0x1037
+	.uaword	0x1045
 	.byte	0x58
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetAbsolutePosition"
 	.byte	0x2
 	.byte	0x6d
-	.uaword	0xd23
+	.uaword	0xd31
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xd29
+	.uaword	0xd37
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x25f
-	.uaword	0xd39
+	.uaword	0x26d
+	.uaword	0xd47
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_OnZeroIrq"
 	.byte	0x2
 	.byte	0x73
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetOffset"
 	.byte	0x2
 	.byte	0x7a
-	.uaword	0x593
+	.uaword	0x5a1
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetPosition"
 	.byte	0x2
 	.byte	0x84
-	.uaword	0xd23
+	.uaword	0xd31
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetDirection"
 	.byte	0x2
 	.byte	0x8d
-	.uaword	0xdb6
+	.uaword	0xdc4
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xdbc
+	.uaword	0xdca
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0xa18
-	.uaword	0xdcc
+	.uaword	0xa26
+	.uaword	0xdda
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetFault"
 	.byte	0x2
 	.byte	0x94
-	.uaword	0xde9
+	.uaword	0xdf7
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xdef
+	.uaword	0xdfd
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0xad4
-	.uaword	0xdff
+	.uaword	0xae2
+	.uaword	0xe0d
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetPeriodPerRotation"
 	.byte	0x2
 	.byte	0x9b
-	.uaword	0xe28
+	.uaword	0xe36
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xe2e
+	.uaword	0xe3c
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x21f
-	.uaword	0xe3e
+	.uaword	0x22d
+	.uaword	0xe4c
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetRawPosition"
 	.byte	0x2
 	.byte	0xa4
-	.uaword	0x593
+	.uaword	0x5a1
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetRefreshPeriod"
 	.byte	0x2
 	.byte	0xaa
-	.uaword	0xd23
+	.uaword	0xd31
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetResolution"
 	.byte	0x2
 	.byte	0xb0
-	.uaword	0x593
+	.uaword	0x5a1
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetSensorType"
 	.byte	0x2
 	.byte	0xb6
-	.uaword	0xeca
+	.uaword	0xed8
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xed0
+	.uaword	0xede
 	.uleb128 0xb
 	.byte	0x1
-	.uaword	0x99e
-	.uaword	0xee0
+	.uaword	0x9ac
+	.uaword	0xeee
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetSpeed"
 	.byte	0x2
 	.byte	0xbc
-	.uaword	0xd23
+	.uaword	0xd31
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_GetTurn"
 	.byte	0x2
 	.byte	0xc2
-	.uaword	0x593
+	.uaword	0x5a1
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_OnEventA"
 	.byte	0x2
 	.byte	0xc9
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_Update"
 	.byte	0x2
 	.byte	0xd2
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_Reset"
 	.byte	0x2
 	.byte	0xdb
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_ResetFaults"
 	.byte	0x2
 	.byte	0xe4
-	.uaword	0x772
+	.uaword	0x780
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_SetOffset"
 	.byte	0x2
 	.byte	0xeb
-	.uaword	0xfa9
+	.uaword	0xfb7
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xfaf
+	.uaword	0xfbd
 	.uleb128 0xd
 	.byte	0x1
-	.uaword	0xfc0
+	.uaword	0xfce
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.uleb128 0xc
-	.uaword	0x243
+	.uaword	0x251
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_SetPosition"
 	.byte	0x2
 	.byte	0xf2
-	.uaword	0xfe0
+	.uaword	0xfee
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xfe6
+	.uaword	0xff4
 	.uleb128 0xd
 	.byte	0x1
-	.uaword	0xff7
+	.uaword	0x1005
 	.uleb128 0xc
-	.uaword	0x310
+	.uaword	0x31e
 	.uleb128 0xc
-	.uaword	0x25f
+	.uaword	0x26d
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_SetRawPosition"
 	.byte	0x2
 	.byte	0xf8
-	.uaword	0xfa9
+	.uaword	0xfb7
 	.uleb128 0x3
 	.string	"IfxStdIf_Pos_SetSpeed"
 	.byte	0x2
 	.byte	0xff
-	.uaword	0xfe0
+	.uaword	0xfee
 	.uleb128 0x17
 	.string	"IfxStdIf_Pos_SetRefreshPeriod"
 	.byte	0x2
 	.uahalf	0x106
-	.uaword	0xfe0
+	.uaword	0xfee
 	.uleb128 0x18
 	.byte	0x28
 	.byte	0x2
 	.uahalf	0x126
-	.uaword	0x1167
+	.uaword	0x1175
 	.uleb128 0x16
 	.string	"offset"
 	.byte	0x2
 	.uahalf	0x128
-	.uaword	0x243
+	.uaword	0x251
 	.byte	0
 	.uleb128 0x16
 	.string	"reversed"
 	.byte	0x2
 	.uahalf	0x129
-	.uaword	0x281
+	.uaword	0x28f
 	.byte	0x4
 	.uleb128 0x16
 	.string	"resolution"
 	.byte	0x2
 	.uahalf	0x12a
-	.uaword	0x243
+	.uaword	0x251
 	.byte	0x8
 	.uleb128 0x16
 	.string	"periodPerRotation"
 	.byte	0x2
 	.uahalf	0x12b
-	.uaword	0x21f
+	.uaword	0x22d
 	.byte	0xc
 	.uleb128 0x16
 	.string	"resolutionFactor"
 	.byte	0x2
 	.uahalf	0x12c
-	.uaword	0x8a8
+	.uaword	0x8b6
 	.byte	0xe
 	.uleb128 0x16
 	.string	"updatePeriod"
 	.byte	0x2
 	.uahalf	0x12d
-	.uaword	0x25f
+	.uaword	0x26d
 	.byte	0x10
 	.uleb128 0x16
 	.string	"speedModeThreshold"
 	.byte	0x2
 	.uahalf	0x12e
-	.uaword	0x25f
+	.uaword	0x26d
 	.byte	0x14
 	.uleb128 0x16
 	.string	"minSpeed"
 	.byte	0x2
 	.uahalf	0x12f
-	.uaword	0x25f
+	.uaword	0x26d
 	.byte	0x18
 	.uleb128 0x16
 	.string	"maxSpeed"
 	.byte	0x2
 	.uahalf	0x130
-	.uaword	0x25f
+	.uaword	0x26d
 	.byte	0x1c
 	.uleb128 0x16
 	.string	"speedFilterEnabled"
 	.byte	0x2
 	.uahalf	0x131
-	.uaword	0x281
+	.uaword	0x28f
 	.byte	0x20
 	.uleb128 0x16
 	.string	"speedFilerCutOffFrequency"
 	.byte	0x2
 	.uahalf	0x132
-	.uaword	0x25f
+	.uaword	0x26d
 	.byte	0x24
 	.byte	0
 	.uleb128 0x17
 	.string	"IfxStdIf_Pos_Config"
 	.byte	0x2
 	.uahalf	0x133
-	.uaword	0x105d
+	.uaword	0x106b
 	.uleb128 0x19
 	.string	"IfxStdIf_Pos_getFault"
 	.byte	0x2
 	.uahalf	0x14d
 	.byte	0x1
-	.uaword	0xad4
+	.uaword	0xae2
 	.byte	0x3
-	.uaword	0x11b6
+	.uaword	0x11c4
 	.uleb128 0x1a
 	.string	"stdIf"
 	.byte	0x2
 	.uahalf	0x14d
-	.uaword	0x11b6
+	.uaword	0x11c4
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0xaef
+	.uaword	0xafd
 	.uleb128 0x1b
 	.byte	0x1
 	.string	"IfxStdIf_Pos_initConfig"
@@ -1246,18 +1246,18 @@ IfxStdIf_Pos_printStatus:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x11f9
+	.uaword	0x1207
 	.uleb128 0x1c
 	.string	"config"
 	.byte	0x1
 	.byte	0x1c
-	.uaword	0x11f9
+	.uaword	0x1207
 	.byte	0x1
 	.byte	0x64
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1167
+	.uaword	0x1175
 	.uleb128 0x1d
 	.byte	0x1
 	.string	"IfxStdIf_Pos_printStatus"
@@ -1269,43 +1269,43 @@ IfxStdIf_Pos_printStatus:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x134b
+	.uaword	0x1359
 	.uleb128 0x1e
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x2c
-	.uaword	0x11b6
+	.uaword	0x11c4
 	.uaword	.LLST0
 	.uleb128 0x1f
 	.string	"io"
 	.byte	0x1
 	.byte	0x2c
-	.uaword	0x134b
+	.uaword	0x1359
 	.uaword	.LLST1
 	.uleb128 0x20
 	.string	"status"
 	.byte	0x1
 	.byte	0x2e
-	.uaword	0xad4
+	.uaword	0xae2
 	.uaword	.LLST2
 	.uleb128 0x21
-	.uaword	0x1183
+	.uaword	0x1191
 	.uaword	.LBB4
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x2f
-	.uaword	0x1281
+	.uaword	0x128f
 	.uleb128 0x22
-	.uaword	0x11a7
+	.uaword	0x11b5
 	.uaword	.LLST0
 	.uleb128 0x22
-	.uaword	0x11a7
+	.uaword	0x11b5
 	.uaword	.LLST0
 	.byte	0
 	.uleb128 0x23
 	.uaword	.LVL5
-	.uaword	0x1351
-	.uaword	0x129e
+	.uaword	0x135f
+	.uaword	0x12ac
 	.uleb128 0x24
 	.byte	0x1
 	.byte	0x65
@@ -1321,8 +1321,8 @@ IfxStdIf_Pos_printStatus:
 	.byte	0
 	.uleb128 0x23
 	.uaword	.LVL6
-	.uaword	0x1351
-	.uaword	0x12bb
+	.uaword	0x135f
+	.uaword	0x12c9
 	.uleb128 0x24
 	.byte	0x1
 	.byte	0x65
@@ -1339,8 +1339,8 @@ IfxStdIf_Pos_printStatus:
 	.uleb128 0x25
 	.uaword	.LVL7
 	.byte	0x1
-	.uaword	0x1351
-	.uaword	0x12d9
+	.uaword	0x135f
+	.uaword	0x12e7
 	.uleb128 0x24
 	.byte	0x1
 	.byte	0x65
@@ -1356,8 +1356,8 @@ IfxStdIf_Pos_printStatus:
 	.byte	0
 	.uleb128 0x23
 	.uaword	.LVL8
-	.uaword	0x1351
-	.uaword	0x12f6
+	.uaword	0x135f
+	.uaword	0x1304
 	.uleb128 0x24
 	.byte	0x1
 	.byte	0x65
@@ -1373,8 +1373,8 @@ IfxStdIf_Pos_printStatus:
 	.byte	0
 	.uleb128 0x23
 	.uaword	.LVL9
-	.uaword	0x1351
-	.uaword	0x1313
+	.uaword	0x135f
+	.uaword	0x1321
 	.uleb128 0x24
 	.byte	0x1
 	.byte	0x65
@@ -1390,8 +1390,8 @@ IfxStdIf_Pos_printStatus:
 	.byte	0
 	.uleb128 0x23
 	.uaword	.LVL10
-	.uaword	0x1351
-	.uaword	0x1330
+	.uaword	0x135f
+	.uaword	0x133e
 	.uleb128 0x24
 	.byte	0x1
 	.byte	0x65
@@ -1408,7 +1408,7 @@ IfxStdIf_Pos_printStatus:
 	.uleb128 0x26
 	.uaword	.LVL12
 	.byte	0x1
-	.uaword	0x1351
+	.uaword	0x135f
 	.uleb128 0x24
 	.byte	0x1
 	.byte	0x65
@@ -1425,7 +1425,7 @@ IfxStdIf_Pos_printStatus:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x330
+	.uaword	0x33e
 	.uleb128 0x27
 	.byte	0x1
 	.string	"IfxStdIf_DPipe_print"
@@ -1434,9 +1434,9 @@ IfxStdIf_Pos_printStatus:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xc
-	.uaword	0x134b
+	.uaword	0x1359
 	.uleb128 0xc
-	.uaword	0x2c9
+	.uaword	0x2d7
 	.uleb128 0x28
 	.byte	0
 	.byte	0

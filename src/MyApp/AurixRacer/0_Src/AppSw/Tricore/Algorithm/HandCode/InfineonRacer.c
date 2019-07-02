@@ -63,11 +63,23 @@ void Line_Buffer(void){
     }
 }
 
+void Line_Buffer_RIGHT(void){
+    for(uint32 index = 0; index < LINEMAX; index++){
+        IR_LineScan.adcBuffer[1][index] += IR_LineScan.adcResult[1][index];
+    }
+}
+
 void Line_avgerage(void){
     for(uint32 index = 0; index < LINEMAX; index++){
         IR_LineScan.adcBuffer[0][index] = IR_LineScan.adcBuffer[0][index] / 5;
     }
     
+}
+
+void Line_avgerage_RIGHT(void){
+    for(uint32 index = 0; index < LINEMAX; index++){
+        IR_LineScan.adcBuffer[1][index] = IR_LineScan.adcBuffer[1][index] / 5;
+    }
 }
 
 void convolutionOP(void){
@@ -88,9 +100,33 @@ void convolutionOP(void){
     }
 }
 
+void convolutionOP_RIGHT(void){
+    uint32 n;
+    for (n = 0; n < SignalLen + TransferLen - 1; n++)
+    {
+        uint32 kmin, kmax, k;
+
+        IR_LineData.Result[n] = 0;
+
+        kmin = (n >= TransferLen - 1) ? n - (TransferLen - 1) : 0;
+        kmax = (n < SignalLen - 1) ? n : SignalLen - 1;
+
+        for (k = kmin; k <= kmax; k++)
+        {
+        	IR_LineData.Result[n] += IR_LineScan.adcBuffer[RIGHTLINESCAN][k] * IR_LineData.Transfer[n - k];
+        }
+    }
+}
+
 void clearBuffer(void){ //clear buffer function
     for(uint32 index = 0; index < LINEMAX; index++){
         IR_LineScan.adcBuffer[0][index] = 0;
+    }
+}
+
+void clearBuffer_RIGHT(void){ //clear buffer function
+    for(uint32 index = 0; index < LINEMAX; index++){
+        IR_LineScan.adcBuffer[1][index] = 0;
     }
 }
 
@@ -114,9 +150,29 @@ void median_filter(void) {
 	  }
 }
 
+void median_filter_RIGHT(void) {
+	for (uint32 i = (MEDIAN_SIZE / 2); i < LINEMAX- (MEDIAN_SIZE / 2); i++) {
+	      for (uint32 j = -(MEDIAN_SIZE / 2); j <= MEDIAN_SIZE / 2; j++) {
+	          IR_LineData.sample[j + (MEDIAN_SIZE / 2)] = IR_LineScan.adcResult[1][i + j];
+	          if (j == MEDIAN_SIZE / 2) {
+	              for (uint32 m = 0; m < MEDIAN_SIZE - 1; m++) { //SampleÀ» Á¤·Ä(Selection Sort)
+	                  for (uint32 n = m + 1; n < MEDIAN_SIZE; n++) {
+	                      if (IR_LineData.sample[m] < IR_LineData.sample[n]) {
+	                          IR_LineData.temp = IR_LineData.sample[m];
+	                          IR_LineData.sample[m] = IR_LineData.sample[n];
+	                          IR_LineData.sample[n] = IR_LineData.temp;
+	                      }
+	                  }
+	              }
+	              IR_LineScan.adcResult[1][i] = IR_LineData.sample[j];
+	          }
+	      }
+	  }
+}
+
 void getLineData (void){    //left linescanner only
     uint32 index = 0;
-    uint32 MaxVal = 0;
+    int MaxVal = 0;
 
     if(!IR_LineData.Direction_Determined){
     	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
@@ -125,6 +181,7 @@ void getLineData (void){    //left linescanner only
                 MaxVal = IR_LineData.Result[index];
             }
         }
+    	IR_LineData.Direction_Determined = TRUE;
     }
 
     else{
@@ -134,9 +191,36 @@ void getLineData (void){    //left linescanner only
                 MaxVal = IR_LineData.Result[index];
             }
         }
-
+    	IR_LineData.Direction_Determined = FALSE;
     }
     
+
+}
+
+void getLineData_RIGHT (void){    //left linescanner only
+    uint32 index = 0;
+    int MaxVal = 0;
+
+    if(!IR_LineData.Direction_Determined){
+    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+            if(IR_LineData.Result[index] > MaxVal){
+                IR_LineData.previous = index;
+                MaxVal = IR_LineData.Result[index];
+            }
+        }
+    	IR_LineData.Direction_Determined = TRUE;
+    }
+
+    else{
+    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+            if(IR_LineData.Result[index] > MaxVal){
+                IR_LineData.present= index;
+                MaxVal = IR_LineData.Result[index];
+            }
+        }
+    	IR_LineData.Direction_Determined = FALSE;
+    }
+
 
 }
 
@@ -146,12 +230,13 @@ boolean IsInSchoolZone(void){
     
     uint32 SCHOOLZONE_DETECTION = MaxVal/2;
 
-    for(index = IR_LineData.present; index < LINEMAX - IGNOREIDX; index++){
+    for(index = IR_LineData.present + IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
         if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION){
             IR_LineData.School_Zone_flag = TRUE;
-            return TRUE;
+
         }
     }
+    return IR_LineData.School_Zone_flag;
 }
 
 boolean IsOutSchoolZone(void){
@@ -160,20 +245,28 @@ boolean IsOutSchoolZone(void){
     
     uint32 SCHOOLZONE_DETECTION = MaxVal/2;
 
-    for(index = IR_LineData.present; index < LINEMAX - IGNOREIDX; index++){
+    for(index = IR_LineData.present + IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
         if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION){
             IR_LineData.School_Zone_flag = FALSE;
-            return FALSE;
         }
     }
+    return IR_LineData.School_Zone_flag;
 }
 
 
 float32 Direction(void){
-    return (IR_LineData.present - IR_LineData.previous);
+   // return (IR_LineData.present - IR_LineData.previous);
+	return (IR_LineData.present - CENTER_INDEX);
 }
 
-
+boolean Boundary(void){
+	if(IR_LineData.present < CENTER_INDEX + BOUNDARY)    		//keep servo angle
+		return FALSE;
+	else if(IR_LineData.present > CENTER_INDEX - BOUNDARY)
+		return FALSE;
+	else
+		return TRUE;
+}
 
 
 

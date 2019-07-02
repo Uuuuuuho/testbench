@@ -122,14 +122,27 @@ void appTaskfu_100ms(void)
 {
 	task_cnt_100m++;
     //get line data in every 0.1 sec
-    
-    BasicLineScan_run();
+	BasicLineScan_run();
+
+	//LEFT LINE
     median_filter();
     Line_Buffer();
+
+    //RIGHT LINE
+    median_filter_RIGHT();
+    Line_Buffer_RIGHT();
+
     if(task_cnt_100m % 5 == 0){
-        convolutionOP();
-        Line_avgerage();
+    	//LEFT LINE
+    	Line_avgerage();
+    	convolutionOP();
         getLineData();
+
+        //RIGHT LINE
+        Line_avgerage_RIGHT();
+        convolutionOP_RIGHT();
+        getLineData_RIGHT();
+
     }
 
     if(task_cnt_100m % 10 == 0){
@@ -137,9 +150,12 @@ void appTaskfu_100ms(void)
             IsInSchoolZone();
         else
             IsOutSchoolZone();
-        
+
+//        if(Boundary()){
+  //      	SrvControl(Direction());    //determine wheel direction
+    //    }
         SrvControl(Direction());    //determine wheel direction
-     
+        
     }
 
 #if PID_TEST == ON
@@ -237,8 +253,11 @@ void Speed2Vol(void){
 }
 
 void SrvControl(float32 diff){
-    float32 result = -0.4 - diff * 0.3 / 108;
-    IR_setSrvAngle(result);
+
+	        	 float32 result = -0.6 - diff * 0.3 / 108;
+	        	    IR_setSrvAngle(result);
+
+
 }
 
 void AEB(void){
@@ -246,6 +265,6 @@ void AEB(void){
 }
 
 void Avoid(void){
-    IR_setSrvAngle(-0.6);   //first turn left, assuming second line is on the left
+    IR_setSrvAngle(-1);   //first turn left, assuming second line is on the left
     resetPSD();             //reset PSD counter
 }
