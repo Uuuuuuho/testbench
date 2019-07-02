@@ -29,6 +29,7 @@
 #define STAY 0
 #define TURN_LEFT 1
 #define TURN_RIGHT 2
+#define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/
@@ -83,6 +84,7 @@ IFX_EXTERN void convolutionOP(void);
 IFX_EXTERN void getLineData (void);
 IFX_EXTERN void clearBuffer(void);
 IFX_EXTERN boolean IsOutSchoolZone(void);
+IFX_EXTERN boolean IsInSchoolZone(void);
 
 
 IFX_EXTERN float32 Direction(void);

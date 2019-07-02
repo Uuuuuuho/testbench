@@ -72,11 +72,10 @@ void appTaskfu_10ms(void)
     
     if(Checking_PSD()){
         if(!IR_LineData.School_Zone_flag){
-            IR_setMotor0Vol(-1);            
+            AEB();
         }
         else{
-            IR_setSrvAngle(-0.2);   //first turn left, assuming second line is on the left
-            resetPSD();             //reset PSD counter
+            Avoid();
         }
     }
 
@@ -128,12 +127,17 @@ void appTaskfu_100ms(void)
     median_filter();
     Line_Buffer();
     if(task_cnt_100m % 5 == 0){
-        Line_avgerage();
         convolutionOP();
-    	getLineData();
+        Line_avgerage();
+        getLineData();
     }
 
     if(task_cnt_100m % 10 == 0){
+        if(!IR_LineData.School_Zone_flag)
+            IsInSchoolZone();
+        else
+            IsOutSchoolZone();
+        
         SrvControl(Direction());    //determine wheel direction
      
     }
@@ -237,4 +241,11 @@ void SrvControl(float32 diff){
     IR_setSrvAngle(result);
 }
 
+void AEB(void){
+    IR_setMotor0Vol(-1);
+}
 
+void Avoid(void){
+    IR_setSrvAngle(-0.6);   //first turn left, assuming second line is on the left
+    resetPSD();             //reset PSD counter
+}

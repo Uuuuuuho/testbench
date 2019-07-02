@@ -232,6 +232,8 @@ Checking_PSD:
 	extr.u	%d15, %d15, 0, 16
 	st.h	[%a15] lo:IR_PSD_counter, %d15
 .L13:
+	.loc 1 168 0
+	mov	%d2, 0
 	.loc 1 163 0
 	jlt.u	%d15, 11, .L14
 	.loc 1 164 0
@@ -241,9 +243,8 @@ Checking_PSD:
 	mov	%d2, 1
 	.loc 1 164 0
 	st.b	[%a15] 2, %d15
-	ret
 .L14:
-	.loc 1 167 0
+	.loc 1 169 0
 	ret
 .LFE394:
 	.size	Checking_PSD, .-Checking_PSD
@@ -253,8 +254,8 @@ Checking_PSD:
 	.type	resetPSD, @function
 resetPSD:
 .LFB395:
-	.loc 1 169 0
-	.loc 1 170 0
+	.loc 1 171 0
+	.loc 1 172 0
 	mov	%d15, 0
 	movh.a	%a15, hi:IR_PSD_counter
 	st.h	[%a15] lo:IR_PSD_counter, %d15
@@ -10368,7 +10369,7 @@ g_VadcBackgroundScan:
 	.byte	0x1
 	.string	"resetPSD"
 	.byte	0x1
-	.byte	0xa9
+	.byte	0xab
 	.byte	0x1
 	.uaword	.LFB395
 	.uaword	.LFE395

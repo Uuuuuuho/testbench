@@ -35447,7 +35447,7 @@ void SpeedCalculation(void);
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.h" 1
 # 8 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 1
-# 42 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 43 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
@@ -35473,7 +35473,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 75 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 76 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -35485,6 +35485,7 @@ extern void convolutionOP(void);
 extern void getLineData (void);
 extern void clearBuffer(void);
 extern boolean IsOutSchoolZone(void);
+extern boolean IsInSchoolZone(void);
 
 
 extern float32 Direction(void);
@@ -35668,6 +35669,9 @@ typedef struct{
 void PID(void);
 void Speed2Vol(void);
 void SrvControl(float32);
+
+void AEB(void);
+void Avoid(void);
 # 18 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.c" 2
 # 36 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.c"
 typedef struct{

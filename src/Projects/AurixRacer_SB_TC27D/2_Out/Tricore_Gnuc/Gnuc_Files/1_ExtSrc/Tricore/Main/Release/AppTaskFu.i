@@ -35422,7 +35422,7 @@ extern void AsclinShellInterface_run(void);
 extern void AsclinShellInterface_runLineScan(void);
 # 8 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 1
-# 42 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 43 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
@@ -35448,7 +35448,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 75 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 76 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -35460,6 +35460,7 @@ extern void convolutionOP(void);
 extern void getLineData (void);
 extern void clearBuffer(void);
 extern boolean IsOutSchoolZone(void);
+extern boolean IsInSchoolZone(void);
 
 
 extern float32 Direction(void);
@@ -35643,6 +35644,9 @@ typedef struct{
 void PID(void);
 void Speed2Vol(void);
 void SrvControl(float32);
+
+void AEB(void);
+void Avoid(void);
 # 2 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c" 2
 
 static sint32 task_cnt_1m = 0;
@@ -35709,18 +35713,17 @@ void appTaskfu_10ms(void)
 
     if(Checking_PSD()){
         if(!IR_LineData.School_Zone_flag){
-            IR_setMotor0Vol(-1);
+            AEB();
         }
         else{
-            IR_setSrvAngle(-0.2);
-            resetPSD();
+            Avoid();
         }
     }
 
     else{
         IR_setMotor0Vol(testVol);
     }
-# 96 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 95 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
  }
@@ -35756,26 +35759,31 @@ void appTaskfu_100ms(void)
     median_filter();
     Line_Buffer();
     if(task_cnt_100m % 5 == 0){
-        Line_avgerage();
         convolutionOP();
-     getLineData();
+        Line_avgerage();
+        getLineData();
     }
 
     if(task_cnt_100m % 10 == 0){
+        if(!IR_LineData.School_Zone_flag)
+            IsInSchoolZone();
+        else
+            IsOutSchoolZone();
+
         SrvControl(Direction());
 
     }
-# 151 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 155 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 165 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 169 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
-# 196 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 200 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
 
@@ -35818,4 +35826,13 @@ void Speed2Vol(void){
 void SrvControl(float32 diff){
     float32 result = -0.4 - diff * 0.3 / 108;
     IR_setSrvAngle(result);
+}
+
+void AEB(void){
+    IR_setMotor0Vol(-1);
+}
+
+void Avoid(void){
+    IR_setSrvAngle(-0.6);
+    resetPSD();
 }

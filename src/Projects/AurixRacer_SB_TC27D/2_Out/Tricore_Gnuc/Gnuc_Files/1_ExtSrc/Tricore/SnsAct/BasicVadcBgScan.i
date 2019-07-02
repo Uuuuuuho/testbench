@@ -27403,6 +27403,8 @@ boolean Checking_PSD(void){
         IR_PSD_counter.Stop = 1;
         return 1;
     }
+
+    return 0;
 }
 
 void resetPSD(void){

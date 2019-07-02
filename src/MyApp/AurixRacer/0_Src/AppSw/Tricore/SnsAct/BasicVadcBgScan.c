@@ -164,6 +164,8 @@ boolean Checking_PSD(void){
         IR_PSD_counter.Stop = TRUE;
         return TRUE;
     }
+
+    return FALSE;
 }
 
 void resetPSD(void){

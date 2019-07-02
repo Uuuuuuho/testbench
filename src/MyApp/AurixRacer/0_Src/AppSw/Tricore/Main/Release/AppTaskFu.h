@@ -46,5 +46,8 @@ void PID(void);
 void Speed2Vol(void);
 void SrvControl(float32);
 
+void AEB(void);
+void Avoid(void);
+
 
 #endif /* APPTASKFU_H_ */
