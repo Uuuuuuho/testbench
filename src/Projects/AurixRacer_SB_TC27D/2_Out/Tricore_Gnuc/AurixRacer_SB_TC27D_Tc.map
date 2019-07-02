@@ -7382,7 +7382,7 @@ Discarded input sections
 
 Linker version: GNU ld version (GNU Binutils) 2.20 (TriCore) using BFD version (GNU Binutils) 2.20 (v2.3), Tool Version v2.7
 Name of linker executable: c:/hightec/toolchains/tricore/v4.9.1.0-infineon-2.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/bin/ld.exe
-Date of link run: Tue Jul 02 15:03:05 2019
+Date of link run: Tue Jul 02 15:05:37 2019
 Name of linker map file: 2_Out/Tricore_Gnuc/AurixRacer_SB_TC27D_Tc.map
 
 >>> Symbols (global (S = g) and static (S = l); sorted by address)

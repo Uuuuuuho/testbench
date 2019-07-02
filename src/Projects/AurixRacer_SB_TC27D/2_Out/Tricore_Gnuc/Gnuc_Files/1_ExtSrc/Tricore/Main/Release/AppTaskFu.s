@@ -246,7 +246,7 @@ appTaskfu_100ms:
 .LVL31:
 	mov	%e4, %d3, %d2
 	mov	%d6, 0
-	movh	%d7, 16470
+	movh	%d7, 16475
 	call	__divdf3
 .LVL32:
 	mov	%e6, %d3, %d2
@@ -384,7 +384,7 @@ SrvControl:
 .LVL43:
 	mov	%e4, %d3, %d2
 	mov	%d6, 0
-	movh	%d7, 16470
+	movh	%d7, 16475
 	call	__divdf3
 .LVL44:
 	mov	%e6, %d3, %d2
@@ -2668,7 +2668,7 @@ task_cnt_1m:
 	.uleb128 0x1a9
 	.byte	0x8
 	.uaword	0
-	.uaword	0x40560000
+	.uaword	0x405b0000
 	.byte	0x1b
 	.byte	0x1c
 	.byte	0xf7
@@ -2716,7 +2716,7 @@ task_cnt_1m:
 	.uleb128 0x1a9
 	.byte	0x8
 	.uaword	0
-	.uaword	0x40560000
+	.uaword	0x405b0000
 	.byte	0x1b
 	.byte	0x1c
 	.byte	0xf7
@@ -2747,7 +2747,7 @@ task_cnt_1m:
 	.uleb128 0x1a9
 	.byte	0x8
 	.uaword	0
-	.uaword	0x40560000
+	.uaword	0x405b0000
 	.byte	0x1b
 	.byte	0x1c
 	.byte	0xf7
