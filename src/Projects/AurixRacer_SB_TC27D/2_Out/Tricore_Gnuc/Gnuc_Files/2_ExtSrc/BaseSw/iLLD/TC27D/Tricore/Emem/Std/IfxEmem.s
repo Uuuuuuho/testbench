@@ -101,7 +101,7 @@ IfxEmem_setClockEnableState:
 	.file 4 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Emem/Std/IfxEmem.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x1096
+	.uaword	0x109e
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -109,7 +109,7 @@ IfxEmem_setClockEnableState:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Emem/Std/IfxEmem.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0x18
 	.uaword	0
 	.uaword	0
@@ -167,12 +167,12 @@ IfxEmem_setClockEnableState:
 	.byte	0x4
 	.byte	0x3
 	.byte	0x2d
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.uleb128 0x4
 	.string	"DISR"
 	.byte	0x3
 	.byte	0x2f
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -181,7 +181,7 @@ IfxEmem_setClockEnableState:
 	.string	"DISS"
 	.byte	0x3
 	.byte	0x30
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -190,14 +190,14 @@ IfxEmem_setClockEnableState:
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x31
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x6
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -206,18 +206,18 @@ IfxEmem_setClockEnableState:
 	.string	"Ifx_EMEM_CLC_Bits"
 	.byte	0x3
 	.byte	0x32
-	.uaword	0x263
+	.uaword	0x26b
 	.uleb128 0x3
 	.string	"_Ifx_EMEM_ID_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x35
-	.uaword	0x333
+	.uaword	0x33b
 	.uleb128 0x4
 	.string	"MOD_REV"
 	.byte	0x3
 	.byte	0x37
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -226,7 +226,7 @@ IfxEmem_setClockEnableState:
 	.string	"MOD_TYPE"
 	.byte	0x3
 	.byte	0x38
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -235,7 +235,7 @@ IfxEmem_setClockEnableState:
 	.string	"MODNUMBER"
 	.byte	0x3
 	.byte	0x39
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -245,18 +245,18 @@ IfxEmem_setClockEnableState:
 	.string	"Ifx_EMEM_ID_Bits"
 	.byte	0x3
 	.byte	0x3a
-	.uaword	0x2dc
+	.uaword	0x2e4
 	.uleb128 0x3
 	.string	"_Ifx_EMEM_SBRCTR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x3d
-	.uaword	0x541
+	.uaword	0x549
 	.uleb128 0x4
 	.string	"STBLOCK"
 	.byte	0x3
 	.byte	0x3f
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -265,7 +265,7 @@ IfxEmem_setClockEnableState:
 	.string	"STBULK"
 	.byte	0x3
 	.byte	0x40
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -274,7 +274,7 @@ IfxEmem_setClockEnableState:
 	.string	"STBSLK"
 	.byte	0x3
 	.byte	0x41
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -283,7 +283,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGSXCM0"
 	.byte	0x3
 	.byte	0x42
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -292,7 +292,7 @@ IfxEmem_setClockEnableState:
 	.string	"reserved_9"
 	.byte	0x3
 	.byte	0x43
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -301,7 +301,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGEN"
 	.byte	0x3
 	.byte	0x44
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -310,7 +310,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGSXTM0"
 	.byte	0x3
 	.byte	0x45
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -319,7 +319,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGSXTM1"
 	.byte	0x3
 	.byte	0x46
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -328,7 +328,7 @@ IfxEmem_setClockEnableState:
 	.string	"reserved_15"
 	.byte	0x3
 	.byte	0x47
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -337,7 +337,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST0"
 	.byte	0x3
 	.byte	0x48
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -346,7 +346,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST1"
 	.byte	0x3
 	.byte	0x49
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -355,7 +355,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST2"
 	.byte	0x3
 	.byte	0x4a
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -364,7 +364,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST3"
 	.byte	0x3
 	.byte	0x4b
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -373,7 +373,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST4"
 	.byte	0x3
 	.byte	0x4c
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -382,7 +382,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST5"
 	.byte	0x3
 	.byte	0x4d
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -391,7 +391,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST6"
 	.byte	0x3
 	.byte	0x4e
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -400,7 +400,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST7"
 	.byte	0x3
 	.byte	0x4f
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -409,7 +409,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST8"
 	.byte	0x3
 	.byte	0x50
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -418,7 +418,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST9"
 	.byte	0x3
 	.byte	0x51
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -427,7 +427,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST10"
 	.byte	0x3
 	.byte	0x52
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -436,7 +436,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST11"
 	.byte	0x3
 	.byte	0x53
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -445,7 +445,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST12"
 	.byte	0x3
 	.byte	0x54
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -454,7 +454,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST13"
 	.byte	0x3
 	.byte	0x55
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -463,7 +463,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST14"
 	.byte	0x3
 	.byte	0x56
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -472,7 +472,7 @@ IfxEmem_setClockEnableState:
 	.string	"ACGST15"
 	.byte	0x3
 	.byte	0x57
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -482,18 +482,18 @@ IfxEmem_setClockEnableState:
 	.string	"Ifx_EMEM_SBRCTR_Bits"
 	.byte	0x3
 	.byte	0x58
-	.uaword	0x34b
+	.uaword	0x353
 	.uleb128 0x3
 	.string	"_Ifx_EMEM_TILECC_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x691
+	.uaword	0x699
 	.uleb128 0x4
 	.string	"T0"
 	.byte	0x3
 	.byte	0x5d
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -502,7 +502,7 @@ IfxEmem_setClockEnableState:
 	.string	"T1"
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -511,7 +511,7 @@ IfxEmem_setClockEnableState:
 	.string	"T2"
 	.byte	0x3
 	.byte	0x5f
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -520,7 +520,7 @@ IfxEmem_setClockEnableState:
 	.string	"T3"
 	.byte	0x3
 	.byte	0x60
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -529,7 +529,7 @@ IfxEmem_setClockEnableState:
 	.string	"T4"
 	.byte	0x3
 	.byte	0x61
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -538,7 +538,7 @@ IfxEmem_setClockEnableState:
 	.string	"T5"
 	.byte	0x3
 	.byte	0x62
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -547,7 +547,7 @@ IfxEmem_setClockEnableState:
 	.string	"T6"
 	.byte	0x3
 	.byte	0x63
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -556,7 +556,7 @@ IfxEmem_setClockEnableState:
 	.string	"T7"
 	.byte	0x3
 	.byte	0x64
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -565,7 +565,7 @@ IfxEmem_setClockEnableState:
 	.string	"T8"
 	.byte	0x3
 	.byte	0x65
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -574,7 +574,7 @@ IfxEmem_setClockEnableState:
 	.string	"T9"
 	.byte	0x3
 	.byte	0x66
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -583,7 +583,7 @@ IfxEmem_setClockEnableState:
 	.string	"T10"
 	.byte	0x3
 	.byte	0x67
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -592,7 +592,7 @@ IfxEmem_setClockEnableState:
 	.string	"T11"
 	.byte	0x3
 	.byte	0x68
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -601,7 +601,7 @@ IfxEmem_setClockEnableState:
 	.string	"T12"
 	.byte	0x3
 	.byte	0x69
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -610,7 +610,7 @@ IfxEmem_setClockEnableState:
 	.string	"T13"
 	.byte	0x3
 	.byte	0x6a
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -619,7 +619,7 @@ IfxEmem_setClockEnableState:
 	.string	"T14"
 	.byte	0x3
 	.byte	0x6b
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -628,7 +628,7 @@ IfxEmem_setClockEnableState:
 	.string	"T15"
 	.byte	0x3
 	.byte	0x6c
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -637,7 +637,7 @@ IfxEmem_setClockEnableState:
 	.string	"XTM0"
 	.byte	0x3
 	.byte	0x6d
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -646,7 +646,7 @@ IfxEmem_setClockEnableState:
 	.string	"XTM1"
 	.byte	0x3
 	.byte	0x6e
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -655,7 +655,7 @@ IfxEmem_setClockEnableState:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x6f
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -665,18 +665,18 @@ IfxEmem_setClockEnableState:
 	.string	"Ifx_EMEM_TILECC_Bits"
 	.byte	0x3
 	.byte	0x70
-	.uaword	0x55d
+	.uaword	0x565
 	.uleb128 0x3
 	.string	"_Ifx_EMEM_TILECONFIG_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x73
-	.uaword	0x7b6
+	.uaword	0x7be
 	.uleb128 0x4
 	.string	"T0"
 	.byte	0x3
 	.byte	0x75
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -685,7 +685,7 @@ IfxEmem_setClockEnableState:
 	.string	"T1"
 	.byte	0x3
 	.byte	0x76
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -694,7 +694,7 @@ IfxEmem_setClockEnableState:
 	.string	"T2"
 	.byte	0x3
 	.byte	0x77
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -703,7 +703,7 @@ IfxEmem_setClockEnableState:
 	.string	"T3"
 	.byte	0x3
 	.byte	0x78
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -712,7 +712,7 @@ IfxEmem_setClockEnableState:
 	.string	"T4"
 	.byte	0x3
 	.byte	0x79
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -721,7 +721,7 @@ IfxEmem_setClockEnableState:
 	.string	"T5"
 	.byte	0x3
 	.byte	0x7a
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -730,7 +730,7 @@ IfxEmem_setClockEnableState:
 	.string	"T6"
 	.byte	0x3
 	.byte	0x7b
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -739,7 +739,7 @@ IfxEmem_setClockEnableState:
 	.string	"T7"
 	.byte	0x3
 	.byte	0x7c
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -748,7 +748,7 @@ IfxEmem_setClockEnableState:
 	.string	"T8"
 	.byte	0x3
 	.byte	0x7d
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -757,7 +757,7 @@ IfxEmem_setClockEnableState:
 	.string	"T9"
 	.byte	0x3
 	.byte	0x7e
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -766,7 +766,7 @@ IfxEmem_setClockEnableState:
 	.string	"T10"
 	.byte	0x3
 	.byte	0x7f
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -775,7 +775,7 @@ IfxEmem_setClockEnableState:
 	.string	"T11"
 	.byte	0x3
 	.byte	0x80
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -784,7 +784,7 @@ IfxEmem_setClockEnableState:
 	.string	"T12"
 	.byte	0x3
 	.byte	0x81
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -793,7 +793,7 @@ IfxEmem_setClockEnableState:
 	.string	"T13"
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -802,7 +802,7 @@ IfxEmem_setClockEnableState:
 	.string	"T14"
 	.byte	0x3
 	.byte	0x83
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -811,7 +811,7 @@ IfxEmem_setClockEnableState:
 	.string	"T15"
 	.byte	0x3
 	.byte	0x84
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -821,18 +821,18 @@ IfxEmem_setClockEnableState:
 	.string	"Ifx_EMEM_TILECONFIG_Bits"
 	.byte	0x3
 	.byte	0x85
-	.uaword	0x6ad
+	.uaword	0x6b5
 	.uleb128 0x3
 	.string	"_Ifx_EMEM_TILECONFIGXM_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x88
-	.uaword	0x849
+	.uaword	0x851
 	.uleb128 0x4
 	.string	"XCM0"
 	.byte	0x3
 	.byte	0x8a
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -841,7 +841,7 @@ IfxEmem_setClockEnableState:
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x8b
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -850,7 +850,7 @@ IfxEmem_setClockEnableState:
 	.string	"XTM0"
 	.byte	0x3
 	.byte	0x8c
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -859,7 +859,7 @@ IfxEmem_setClockEnableState:
 	.string	"XTM1"
 	.byte	0x3
 	.byte	0x8d
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -868,7 +868,7 @@ IfxEmem_setClockEnableState:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0x8e
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -878,18 +878,18 @@ IfxEmem_setClockEnableState:
 	.string	"Ifx_EMEM_TILECONFIGXM_Bits"
 	.byte	0x3
 	.byte	0x8f
-	.uaword	0x7d6
+	.uaword	0x7de
 	.uleb128 0x3
 	.string	"_Ifx_EMEM_TILECT_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x92
-	.uaword	0x99f
+	.uaword	0x9a7
 	.uleb128 0x4
 	.string	"T0"
 	.byte	0x3
 	.byte	0x94
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -898,7 +898,7 @@ IfxEmem_setClockEnableState:
 	.string	"T1"
 	.byte	0x3
 	.byte	0x95
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -907,7 +907,7 @@ IfxEmem_setClockEnableState:
 	.string	"T2"
 	.byte	0x3
 	.byte	0x96
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -916,7 +916,7 @@ IfxEmem_setClockEnableState:
 	.string	"T3"
 	.byte	0x3
 	.byte	0x97
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -925,7 +925,7 @@ IfxEmem_setClockEnableState:
 	.string	"T4"
 	.byte	0x3
 	.byte	0x98
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -934,7 +934,7 @@ IfxEmem_setClockEnableState:
 	.string	"T5"
 	.byte	0x3
 	.byte	0x99
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -943,7 +943,7 @@ IfxEmem_setClockEnableState:
 	.string	"T6"
 	.byte	0x3
 	.byte	0x9a
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -952,7 +952,7 @@ IfxEmem_setClockEnableState:
 	.string	"T7"
 	.byte	0x3
 	.byte	0x9b
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -961,7 +961,7 @@ IfxEmem_setClockEnableState:
 	.string	"T8"
 	.byte	0x3
 	.byte	0x9c
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -970,7 +970,7 @@ IfxEmem_setClockEnableState:
 	.string	"T9"
 	.byte	0x3
 	.byte	0x9d
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -979,7 +979,7 @@ IfxEmem_setClockEnableState:
 	.string	"T10"
 	.byte	0x3
 	.byte	0x9e
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -988,7 +988,7 @@ IfxEmem_setClockEnableState:
 	.string	"T11"
 	.byte	0x3
 	.byte	0x9f
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -997,7 +997,7 @@ IfxEmem_setClockEnableState:
 	.string	"T12"
 	.byte	0x3
 	.byte	0xa0
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1006,7 +1006,7 @@ IfxEmem_setClockEnableState:
 	.string	"T13"
 	.byte	0x3
 	.byte	0xa1
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1015,7 +1015,7 @@ IfxEmem_setClockEnableState:
 	.string	"T14"
 	.byte	0x3
 	.byte	0xa2
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1024,7 +1024,7 @@ IfxEmem_setClockEnableState:
 	.string	"T15"
 	.byte	0x3
 	.byte	0xa3
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1033,7 +1033,7 @@ IfxEmem_setClockEnableState:
 	.string	"XTM0"
 	.byte	0x3
 	.byte	0xa4
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1042,7 +1042,7 @@ IfxEmem_setClockEnableState:
 	.string	"XTM1"
 	.byte	0x3
 	.byte	0xa5
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1051,7 +1051,7 @@ IfxEmem_setClockEnableState:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xa6
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -1061,18 +1061,18 @@ IfxEmem_setClockEnableState:
 	.string	"Ifx_EMEM_TILECT_Bits"
 	.byte	0x3
 	.byte	0xa7
-	.uaword	0x86b
+	.uaword	0x873
 	.uleb128 0x3
 	.string	"_Ifx_EMEM_TILESTATE_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xaa
-	.uaword	0xaf3
+	.uaword	0xafb
 	.uleb128 0x4
 	.string	"TILE0"
 	.byte	0x3
 	.byte	0xac
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -1081,7 +1081,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE1"
 	.byte	0x3
 	.byte	0xad
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -1090,7 +1090,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE2"
 	.byte	0x3
 	.byte	0xae
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -1099,7 +1099,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE3"
 	.byte	0x3
 	.byte	0xaf
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -1108,7 +1108,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE4"
 	.byte	0x3
 	.byte	0xb0
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -1117,7 +1117,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE5"
 	.byte	0x3
 	.byte	0xb1
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -1126,7 +1126,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE6"
 	.byte	0x3
 	.byte	0xb2
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -1135,7 +1135,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE7"
 	.byte	0x3
 	.byte	0xb3
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -1144,7 +1144,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE8"
 	.byte	0x3
 	.byte	0xb4
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -1153,7 +1153,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE9"
 	.byte	0x3
 	.byte	0xb5
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -1162,7 +1162,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE10"
 	.byte	0x3
 	.byte	0xb6
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -1171,7 +1171,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE11"
 	.byte	0x3
 	.byte	0xb7
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -1180,7 +1180,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE12"
 	.byte	0x3
 	.byte	0xb8
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -1189,7 +1189,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE13"
 	.byte	0x3
 	.byte	0xb9
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -1198,7 +1198,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE14"
 	.byte	0x3
 	.byte	0xba
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -1207,7 +1207,7 @@ IfxEmem_setClockEnableState:
 	.string	"TILE15"
 	.byte	0x3
 	.byte	0xbb
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -1217,18 +1217,18 @@ IfxEmem_setClockEnableState:
 	.string	"Ifx_EMEM_TILESTATE_Bits"
 	.byte	0x3
 	.byte	0xbc
-	.uaword	0x9bb
+	.uaword	0x9c3
 	.uleb128 0x3
 	.string	"_Ifx_EMEM_TILESTATEXM_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xbf
-	.uaword	0xb84
+	.uaword	0xb8c
 	.uleb128 0x4
 	.string	"XCM0"
 	.byte	0x3
 	.byte	0xc1
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -1237,7 +1237,7 @@ IfxEmem_setClockEnableState:
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xc2
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -1246,7 +1246,7 @@ IfxEmem_setClockEnableState:
 	.string	"XTM0"
 	.byte	0x3
 	.byte	0xc3
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -1255,7 +1255,7 @@ IfxEmem_setClockEnableState:
 	.string	"XTM1"
 	.byte	0x3
 	.byte	0xc4
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -1264,7 +1264,7 @@ IfxEmem_setClockEnableState:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xc5
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -1274,343 +1274,343 @@ IfxEmem_setClockEnableState:
 	.string	"Ifx_EMEM_TILESTATEXM_Bits"
 	.byte	0x3
 	.byte	0xc6
-	.uaword	0xb12
+	.uaword	0xb1a
 	.uleb128 0x8
 	.byte	0x4
 	.byte	0x3
 	.byte	0xce
-	.uaword	0xbc9
+	.uaword	0xbd1
 	.uleb128 0x9
 	.string	"U"
 	.byte	0x3
 	.byte	0xd0
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0x9
 	.string	"I"
 	.byte	0x3
 	.byte	0xd1
-	.uaword	0x1d3
+	.uaword	0x1db
 	.uleb128 0x9
 	.string	"B"
 	.byte	0x3
 	.byte	0xd2
-	.uaword	0x2c3
+	.uaword	0x2cb
 	.byte	0
 	.uleb128 0x7
 	.string	"Ifx_EMEM_CLC"
 	.byte	0x3
 	.byte	0xd3
-	.uaword	0xba5
+	.uaword	0xbad
 	.uleb128 0x8
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd6
-	.uaword	0xc01
+	.uaword	0xc09
 	.uleb128 0x9
 	.string	"U"
 	.byte	0x3
 	.byte	0xd8
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0x9
 	.string	"I"
 	.byte	0x3
 	.byte	0xd9
-	.uaword	0x1d3
+	.uaword	0x1db
 	.uleb128 0x9
 	.string	"B"
 	.byte	0x3
 	.byte	0xda
-	.uaword	0x333
+	.uaword	0x33b
 	.byte	0
 	.uleb128 0x7
 	.string	"Ifx_EMEM_ID"
 	.byte	0x3
 	.byte	0xdb
-	.uaword	0xbdd
+	.uaword	0xbe5
 	.uleb128 0x8
 	.byte	0x4
 	.byte	0x3
 	.byte	0xde
-	.uaword	0xc38
+	.uaword	0xc40
 	.uleb128 0x9
 	.string	"U"
 	.byte	0x3
 	.byte	0xe0
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0x9
 	.string	"I"
 	.byte	0x3
 	.byte	0xe1
-	.uaword	0x1d3
+	.uaword	0x1db
 	.uleb128 0x9
 	.string	"B"
 	.byte	0x3
 	.byte	0xe2
-	.uaword	0x541
+	.uaword	0x549
 	.byte	0
 	.uleb128 0x7
 	.string	"Ifx_EMEM_SBRCTR"
 	.byte	0x3
 	.byte	0xe3
-	.uaword	0xc14
+	.uaword	0xc1c
 	.uleb128 0x8
 	.byte	0x4
 	.byte	0x3
 	.byte	0xe6
-	.uaword	0xc73
+	.uaword	0xc7b
 	.uleb128 0x9
 	.string	"U"
 	.byte	0x3
 	.byte	0xe8
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0x9
 	.string	"I"
 	.byte	0x3
 	.byte	0xe9
-	.uaword	0x1d3
+	.uaword	0x1db
 	.uleb128 0x9
 	.string	"B"
 	.byte	0x3
 	.byte	0xea
-	.uaword	0x691
+	.uaword	0x699
 	.byte	0
 	.uleb128 0x7
 	.string	"Ifx_EMEM_TILECC"
 	.byte	0x3
 	.byte	0xeb
-	.uaword	0xc4f
+	.uaword	0xc57
 	.uleb128 0x8
 	.byte	0x4
 	.byte	0x3
 	.byte	0xee
-	.uaword	0xcae
+	.uaword	0xcb6
 	.uleb128 0x9
 	.string	"U"
 	.byte	0x3
 	.byte	0xf0
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0x9
 	.string	"I"
 	.byte	0x3
 	.byte	0xf1
-	.uaword	0x1d3
+	.uaword	0x1db
 	.uleb128 0x9
 	.string	"B"
 	.byte	0x3
 	.byte	0xf2
-	.uaword	0x7b6
+	.uaword	0x7be
 	.byte	0
 	.uleb128 0x7
 	.string	"Ifx_EMEM_TILECONFIG"
 	.byte	0x3
 	.byte	0xf3
-	.uaword	0xc8a
+	.uaword	0xc92
 	.uleb128 0x8
 	.byte	0x4
 	.byte	0x3
 	.byte	0xf6
-	.uaword	0xced
+	.uaword	0xcf5
 	.uleb128 0x9
 	.string	"U"
 	.byte	0x3
 	.byte	0xf8
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0x9
 	.string	"I"
 	.byte	0x3
 	.byte	0xf9
-	.uaword	0x1d3
+	.uaword	0x1db
 	.uleb128 0x9
 	.string	"B"
 	.byte	0x3
 	.byte	0xfa
-	.uaword	0x849
+	.uaword	0x851
 	.byte	0
 	.uleb128 0x7
 	.string	"Ifx_EMEM_TILECONFIGXM"
 	.byte	0x3
 	.byte	0xfb
-	.uaword	0xcc9
+	.uaword	0xcd1
 	.uleb128 0x8
 	.byte	0x4
 	.byte	0x3
 	.byte	0xfe
-	.uaword	0xd31
+	.uaword	0xd39
 	.uleb128 0xa
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x100
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0xa
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x101
-	.uaword	0x1d3
+	.uaword	0x1db
 	.uleb128 0xa
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x102
-	.uaword	0x99f
+	.uaword	0x9a7
 	.byte	0
 	.uleb128 0xb
 	.string	"Ifx_EMEM_TILECT"
 	.byte	0x3
 	.uahalf	0x103
-	.uaword	0xd0a
+	.uaword	0xd12
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x106
-	.uaword	0xd71
+	.uaword	0xd79
 	.uleb128 0xa
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x108
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0xa
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x109
-	.uaword	0x1d3
+	.uaword	0x1db
 	.uleb128 0xa
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x10a
-	.uaword	0xaf3
+	.uaword	0xafb
 	.byte	0
 	.uleb128 0xb
 	.string	"Ifx_EMEM_TILESTATE"
 	.byte	0x3
 	.uahalf	0x10b
-	.uaword	0xd49
+	.uaword	0xd51
 	.uleb128 0xc
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x10e
-	.uaword	0xdb4
+	.uaword	0xdbc
 	.uleb128 0xa
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x110
-	.uaword	0x2b3
+	.uaword	0x2bb
 	.uleb128 0xa
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x111
-	.uaword	0x1d3
+	.uaword	0x1db
 	.uleb128 0xa
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x112
-	.uaword	0xb84
+	.uaword	0xb8c
 	.byte	0
 	.uleb128 0xb
 	.string	"Ifx_EMEM_TILESTATEXM"
 	.byte	0x3
 	.uahalf	0x113
-	.uaword	0xd8c
+	.uaword	0xd94
 	.uleb128 0xd
 	.string	"_Ifx_EMEM"
 	.uahalf	0x100
 	.byte	0x3
 	.uahalf	0x11e
-	.uaword	0xefd
+	.uaword	0xf05
 	.uleb128 0xe
 	.string	"CLC"
 	.byte	0x3
 	.uahalf	0x120
-	.uaword	0xbc9
+	.uaword	0xbd1
 	.byte	0
 	.uleb128 0xe
 	.string	"reserved_4"
 	.byte	0x3
 	.uahalf	0x121
-	.uaword	0xefd
+	.uaword	0xf05
 	.byte	0x4
 	.uleb128 0xe
 	.string	"ID"
 	.byte	0x3
 	.uahalf	0x122
-	.uaword	0xc01
+	.uaword	0xc09
 	.byte	0x8
 	.uleb128 0xe
 	.string	"reserved_C"
 	.byte	0x3
 	.uahalf	0x123
-	.uaword	0xf19
+	.uaword	0xf21
 	.byte	0xc
 	.uleb128 0xe
 	.string	"TILECONFIG"
 	.byte	0x3
 	.uahalf	0x124
-	.uaword	0xcae
+	.uaword	0xcb6
 	.byte	0x20
 	.uleb128 0xe
 	.string	"TILECC"
 	.byte	0x3
 	.uahalf	0x125
-	.uaword	0xc73
+	.uaword	0xc7b
 	.byte	0x24
 	.uleb128 0xe
 	.string	"TILECT"
 	.byte	0x3
 	.uahalf	0x126
-	.uaword	0xd31
+	.uaword	0xd39
 	.byte	0x28
 	.uleb128 0xe
 	.string	"TILESTATE"
 	.byte	0x3
 	.uahalf	0x127
-	.uaword	0xd71
+	.uaword	0xd79
 	.byte	0x2c
 	.uleb128 0xe
 	.string	"reserved_30"
 	.byte	0x3
 	.uahalf	0x128
-	.uaword	0xefd
+	.uaword	0xf05
 	.byte	0x30
 	.uleb128 0xe
 	.string	"SBRCTR"
 	.byte	0x3
 	.uahalf	0x129
-	.uaword	0xc38
+	.uaword	0xc40
 	.byte	0x34
 	.uleb128 0xe
 	.string	"reserved_38"
 	.byte	0x3
 	.uahalf	0x12a
-	.uaword	0xf29
+	.uaword	0xf31
 	.byte	0x38
 	.uleb128 0xe
 	.string	"TILECONFIGXM"
 	.byte	0x3
 	.uahalf	0x12b
-	.uaword	0xced
+	.uaword	0xcf5
 	.byte	0x40
 	.uleb128 0xe
 	.string	"reserved_44"
 	.byte	0x3
 	.uahalf	0x12c
-	.uaword	0xf29
+	.uaword	0xf31
 	.byte	0x44
 	.uleb128 0xe
 	.string	"TILESTATEXM"
 	.byte	0x3
 	.uahalf	0x12d
-	.uaword	0xdb4
+	.uaword	0xdbc
 	.byte	0x4c
 	.uleb128 0xe
 	.string	"reserved_50"
 	.byte	0x3
 	.uahalf	0x12e
-	.uaword	0xf39
+	.uaword	0xf41
 	.byte	0x50
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x1e9
-	.uaword	0xf0d
+	.uaword	0x1f1
+	.uaword	0xf15
 	.uleb128 0x10
-	.uaword	0xf0d
+	.uaword	0xf15
 	.byte	0x3
 	.byte	0
 	.uleb128 0x2
@@ -1618,38 +1618,38 @@ IfxEmem_setClockEnableState:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0xf
-	.uaword	0x1e9
-	.uaword	0xf29
+	.uaword	0x1f1
+	.uaword	0xf31
 	.uleb128 0x10
-	.uaword	0xf0d
+	.uaword	0xf15
 	.byte	0x13
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x1e9
-	.uaword	0xf39
+	.uaword	0x1f1
+	.uaword	0xf41
 	.uleb128 0x10
-	.uaword	0xf0d
+	.uaword	0xf15
 	.byte	0x7
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x1e9
-	.uaword	0xf49
+	.uaword	0x1f1
+	.uaword	0xf51
 	.uleb128 0x10
-	.uaword	0xf0d
+	.uaword	0xf15
 	.byte	0xaf
 	.byte	0
 	.uleb128 0xb
 	.string	"Ifx_EMEM"
 	.byte	0x3
 	.uahalf	0x12f
-	.uaword	0xf5a
+	.uaword	0xf62
 	.uleb128 0x6
-	.uaword	0xdd1
+	.uaword	0xdd9
 	.uleb128 0x11
 	.byte	0x1
 	.byte	0x4
 	.byte	0x31
-	.uaword	0xfa4
+	.uaword	0xfac
 	.uleb128 0x12
 	.string	"IfxEmem_LockedState_locked"
 	.sleb128 0
@@ -1661,12 +1661,12 @@ IfxEmem_setClockEnableState:
 	.string	"IfxEmem_LockedState"
 	.byte	0x4
 	.byte	0x34
-	.uaword	0xf5f
+	.uaword	0xf67
 	.uleb128 0x11
 	.byte	0x1
 	.byte	0x4
 	.byte	0x39
-	.uaword	0xff9
+	.uaword	0x1001
 	.uleb128 0x12
 	.string	"IfxEmem_State_disabled"
 	.sleb128 0
@@ -1678,7 +1678,7 @@ IfxEmem_setClockEnableState:
 	.string	"IfxEmem_State"
 	.byte	0x4
 	.byte	0x3c
-	.uaword	0xfbf
+	.uaword	0xfc7
 	.uleb128 0x13
 	.string	"__nop"
 	.byte	0x2
@@ -1691,7 +1691,7 @@ IfxEmem_setClockEnableState:
 	.byte	0x1
 	.byte	0x24
 	.byte	0x1
-	.uaword	0xfa4
+	.uaword	0xfac
 	.uaword	.LFB175
 	.uaword	.LFE175
 	.byte	0x1
@@ -1708,23 +1708,23 @@ IfxEmem_setClockEnableState:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1094
+	.uaword	0x109c
 	.uleb128 0x16
 	.string	"state"
 	.byte	0x1
 	.byte	0x2a
-	.uaword	0x1094
+	.uaword	0x109c
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x17
-	.uaword	0x100e
+	.uaword	0x1016
 	.uaword	.LBB4
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x37
 	.byte	0
 	.uleb128 0x18
-	.uaword	0xff9
+	.uaword	0x1001
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

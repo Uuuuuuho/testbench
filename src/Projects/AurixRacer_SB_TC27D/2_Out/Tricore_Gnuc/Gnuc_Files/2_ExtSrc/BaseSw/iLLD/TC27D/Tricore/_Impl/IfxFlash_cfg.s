@@ -314,7 +314,7 @@ IfxFlash_dFlashTableEepLog:
 	.file 3 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.c"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x40c
+	.uaword	0x414
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -322,7 +322,7 @@ IfxFlash_dFlashTableEepLog:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.byte	0x4
@@ -356,7 +356,7 @@ IfxFlash_dFlashTableEepLog:
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x1b4
+	.uaword	0x1bc
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -381,30 +381,30 @@ IfxFlash_dFlashTableEepLog:
 	.byte	0x8
 	.byte	0x1
 	.byte	0x91
-	.uaword	0x28a
+	.uaword	0x292
 	.uleb128 0x5
 	.string	"start"
 	.byte	0x1
 	.byte	0x93
-	.uaword	0x213
+	.uaword	0x21b
 	.byte	0
 	.uleb128 0x5
 	.string	"end"
 	.byte	0x1
 	.byte	0x94
-	.uaword	0x213
+	.uaword	0x21b
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxFlash_flashSector"
 	.byte	0x1
 	.byte	0x95
-	.uaword	0x267
+	.uaword	0x26f
 	.uleb128 0x6
-	.uaword	0x28a
-	.uaword	0x2b6
+	.uaword	0x292
+	.uaword	0x2be
 	.uleb128 0x7
-	.uaword	0x2b6
+	.uaword	0x2be
 	.byte	0x2f
 	.byte	0
 	.uleb128 0x2
@@ -415,96 +415,96 @@ IfxFlash_dFlashTableEepLog:
 	.string	"IfxFlash_dFlashTableEepLog"
 	.byte	0x3
 	.byte	0x23
-	.uaword	0x2eb
+	.uaword	0x2f3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxFlash_dFlashTableEepLog
 	.uleb128 0x9
-	.uaword	0x2a6
+	.uaword	0x2ae
 	.uleb128 0x6
-	.uaword	0x28a
-	.uaword	0x300
+	.uaword	0x292
+	.uaword	0x308
 	.uleb128 0x7
-	.uaword	0x2b6
+	.uaword	0x2be
 	.byte	0x7
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxFlash_dFlashTableHsmLog"
 	.byte	0x3
 	.byte	0x56
-	.uaword	0x329
+	.uaword	0x331
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxFlash_dFlashTableHsmLog
 	.uleb128 0x9
-	.uaword	0x2f0
+	.uaword	0x2f8
 	.uleb128 0x6
-	.uaword	0x28a
-	.uaword	0x33e
+	.uaword	0x292
+	.uaword	0x346
 	.uleb128 0x7
-	.uaword	0x2b6
+	.uaword	0x2be
 	.byte	0
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxFlash_dFlashTablePhys"
 	.byte	0x3
 	.byte	0x61
-	.uaword	0x365
+	.uaword	0x36d
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxFlash_dFlashTablePhys
 	.uleb128 0x9
-	.uaword	0x32e
+	.uaword	0x336
 	.uleb128 0x6
-	.uaword	0x28a
-	.uaword	0x37a
+	.uaword	0x292
+	.uaword	0x382
 	.uleb128 0x7
-	.uaword	0x2b6
+	.uaword	0x2be
 	.byte	0xf
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxFlash_dFlashTableUcbLog"
 	.byte	0x3
 	.byte	0x65
-	.uaword	0x3a3
+	.uaword	0x3ab
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxFlash_dFlashTableUcbLog
 	.uleb128 0x9
-	.uaword	0x36a
+	.uaword	0x372
 	.uleb128 0x6
-	.uaword	0x28a
-	.uaword	0x3b8
+	.uaword	0x292
+	.uaword	0x3c0
 	.uleb128 0x7
-	.uaword	0x2b6
+	.uaword	0x2be
 	.byte	0x35
 	.byte	0
 	.uleb128 0x8
 	.string	"IfxFlash_pFlashTableLog"
 	.byte	0x3
 	.byte	0x78
-	.uaword	0x3de
+	.uaword	0x3e6
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxFlash_pFlashTableLog
 	.uleb128 0x9
-	.uaword	0x3a8
+	.uaword	0x3b0
 	.uleb128 0x8
 	.string	"IfxFlash_pFlashTablePhys"
 	.byte	0x3
 	.byte	0xb1
-	.uaword	0x40a
+	.uaword	0x412
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxFlash_pFlashTablePhys
 	.uleb128 0x9
-	.uaword	0x2f0
+	.uaword	0x2f8
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

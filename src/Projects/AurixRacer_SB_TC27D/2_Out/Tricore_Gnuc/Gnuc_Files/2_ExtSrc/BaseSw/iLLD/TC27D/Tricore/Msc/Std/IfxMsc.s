@@ -528,7 +528,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.file 9 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x2f5d
+	.uaword	0x2f65
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -536,7 +536,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Msc/Std/IfxMsc.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -581,7 +581,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"uint16"
 	.byte	0x2
 	.byte	0x5b
-	.uaword	0x246
+	.uaword	0x24e
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -590,17 +590,17 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x5c
-	.uaword	0x1e3
+	.uaword	0x1eb
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x1ef
+	.uaword	0x1f7
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x2
 	.byte	0x5e
-	.uaword	0x1b0
+	.uaword	0x1b8
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -609,7 +609,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"boolean"
 	.byte	0x2
 	.byte	0x68
-	.uaword	0x21a
+	.uaword	0x222
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -618,49 +618,49 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"uint64"
 	.byte	0x3
 	.byte	0x25
-	.uaword	0x1c9
+	.uaword	0x1d1
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2cd
+	.uaword	0x2d5
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x3
 	.byte	0x7e
-	.uaword	0x2f4
+	.uaword	0x2fc
 	.uleb128 0x7
 	.string	"module"
 	.byte	0x3
 	.byte	0x80
-	.uaword	0x2c7
+	.uaword	0x2cf
 	.byte	0
 	.uleb128 0x7
 	.string	"index"
 	.byte	0x3
 	.byte	0x81
-	.uaword	0x25c
+	.uaword	0x264
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x2ce
+	.uaword	0x2d6
 	.uleb128 0x8
 	.string	"_Ifx_MSC_ABC_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x2d
-	.uaword	0x445
+	.uaword	0x44d
 	.uleb128 0x9
 	.string	"LOW"
 	.byte	0x4
 	.byte	0x2f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -669,7 +669,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"HIGH"
 	.byte	0x4
 	.byte	0x30
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -678,7 +678,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"OIP"
 	.byte	0x4
 	.byte	0x31
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -687,7 +687,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"OASR"
 	.byte	0x4
 	.byte	0x32
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -696,7 +696,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"reserved_11"
 	.byte	0x4
 	.byte	0x33
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -705,7 +705,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"OVF"
 	.byte	0x4
 	.byte	0x34
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -714,7 +714,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"OFM"
 	.byte	0x4
 	.byte	0x35
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -723,7 +723,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"OIE"
 	.byte	0x4
 	.byte	0x36
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -732,7 +732,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"NDA"
 	.byte	0x4
 	.byte	0x37
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -741,7 +741,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"UIP"
 	.byte	0x4
 	.byte	0x38
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xb
@@ -750,7 +750,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"UASR"
 	.byte	0x4
 	.byte	0x39
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -759,7 +759,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0x3a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -768,7 +768,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"UNF"
 	.byte	0x4
 	.byte	0x3b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -777,7 +777,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"UFM"
 	.byte	0x4
 	.byte	0x3c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -786,7 +786,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"UIE"
 	.byte	0x4
 	.byte	0x3d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -795,7 +795,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CLKSEL"
 	.byte	0x4
 	.byte	0x3e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x3
 	.byte	0x2
@@ -804,7 +804,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF1
 	.byte	0x4
 	.byte	0x3f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -813,7 +813,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ABB"
 	.byte	0x4
 	.byte	0x40
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -823,18 +823,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_ABC_Bits"
 	.byte	0x4
 	.byte	0x41
-	.uaword	0x30e
+	.uaword	0x316
 	.uleb128 0x8
 	.string	"_Ifx_MSC_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x44
-	.uaword	0x671
+	.uaword	0x679
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x4
 	.byte	0x46
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -843,7 +843,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN1"
 	.byte	0x4
 	.byte	0x47
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -852,7 +852,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN2"
 	.byte	0x4
 	.byte	0x48
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -861,7 +861,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN3"
 	.byte	0x4
 	.byte	0x49
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -870,7 +870,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN4"
 	.byte	0x4
 	.byte	0x4a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -879,7 +879,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN5"
 	.byte	0x4
 	.byte	0x4b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -888,7 +888,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN6"
 	.byte	0x4
 	.byte	0x4c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -897,7 +897,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN7"
 	.byte	0x4
 	.byte	0x4d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -906,7 +906,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN8"
 	.byte	0x4
 	.byte	0x4e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -915,7 +915,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN9"
 	.byte	0x4
 	.byte	0x4f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -924,7 +924,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN10"
 	.byte	0x4
 	.byte	0x50
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -933,7 +933,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN11"
 	.byte	0x4
 	.byte	0x51
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -942,7 +942,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN12"
 	.byte	0x4
 	.byte	0x52
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -951,7 +951,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN13"
 	.byte	0x4
 	.byte	0x53
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -960,7 +960,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN14"
 	.byte	0x4
 	.byte	0x54
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -969,7 +969,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN15"
 	.byte	0x4
 	.byte	0x55
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -978,7 +978,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN16"
 	.byte	0x4
 	.byte	0x56
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -987,7 +987,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN17"
 	.byte	0x4
 	.byte	0x57
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -996,7 +996,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN18"
 	.byte	0x4
 	.byte	0x58
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1005,7 +1005,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN19"
 	.byte	0x4
 	.byte	0x59
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1014,7 +1014,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN20"
 	.byte	0x4
 	.byte	0x5a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1023,7 +1023,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN21"
 	.byte	0x4
 	.byte	0x5b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1032,7 +1032,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN22"
 	.byte	0x4
 	.byte	0x5c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1041,7 +1041,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN23"
 	.byte	0x4
 	.byte	0x5d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1050,7 +1050,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN24"
 	.byte	0x4
 	.byte	0x5e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1059,7 +1059,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN25"
 	.byte	0x4
 	.byte	0x5f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1068,7 +1068,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN26"
 	.byte	0x4
 	.byte	0x60
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1077,7 +1077,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN27"
 	.byte	0x4
 	.byte	0x61
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1086,7 +1086,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN28"
 	.byte	0x4
 	.byte	0x62
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1095,7 +1095,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN29"
 	.byte	0x4
 	.byte	0x63
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1104,7 +1104,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN30"
 	.byte	0x4
 	.byte	0x64
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1113,7 +1113,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EN31"
 	.byte	0x4
 	.byte	0x65
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1123,18 +1123,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x66
-	.uaword	0x45d
+	.uaword	0x465
 	.uleb128 0x8
 	.string	"_Ifx_MSC_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x69
-	.uaword	0x6b9
+	.uaword	0x6c1
 	.uleb128 0xa
 	.uaword	.LASF2
 	.byte	0x4
 	.byte	0x6b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1144,18 +1144,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x6c
-	.uaword	0x68c
+	.uaword	0x694
 	.uleb128 0x8
 	.string	"_Ifx_MSC_CLC_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x6f
-	.uaword	0x73d
+	.uaword	0x745
 	.uleb128 0x9
 	.string	"DISR"
 	.byte	0x4
 	.byte	0x71
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1164,7 +1164,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DISS"
 	.byte	0x4
 	.byte	0x72
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1173,7 +1173,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF3
 	.byte	0x4
 	.byte	0x73
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1182,7 +1182,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EDIS"
 	.byte	0x4
 	.byte	0x74
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1191,7 +1191,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF4
 	.byte	0x4
 	.byte	0x75
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -1201,18 +1201,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_CLC_Bits"
 	.byte	0x4
 	.byte	0x76
-	.uaword	0x6d4
+	.uaword	0x6dc
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DC_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x79
-	.uaword	0x78d
+	.uaword	0x795
 	.uleb128 0x9
 	.string	"DCL"
 	.byte	0x4
 	.byte	0x7b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -1221,7 +1221,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DCH"
 	.byte	0x4
 	.byte	0x7c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1231,18 +1231,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DC_Bits"
 	.byte	0x4
 	.byte	0x7d
-	.uaword	0x755
+	.uaword	0x75d
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DD_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x80
-	.uaword	0x7dc
+	.uaword	0x7e4
 	.uleb128 0x9
 	.string	"DDL"
 	.byte	0x4
 	.byte	0x82
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -1251,7 +1251,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DDH"
 	.byte	0x4
 	.byte	0x83
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1261,18 +1261,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DD_Bits"
 	.byte	0x4
 	.byte	0x84
-	.uaword	0x7a4
+	.uaword	0x7ac
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DDE_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x87
-	.uaword	0x82e
+	.uaword	0x836
 	.uleb128 0x9
 	.string	"DDLE"
 	.byte	0x4
 	.byte	0x89
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -1281,7 +1281,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DDHE"
 	.byte	0x4
 	.byte	0x8a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1291,18 +1291,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DDE_Bits"
 	.byte	0x4
 	.byte	0x8b
-	.uaword	0x7f3
+	.uaword	0x7fb
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DDM_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8e
-	.uaword	0x881
+	.uaword	0x889
 	.uleb128 0x9
 	.string	"DDLM"
 	.byte	0x4
 	.byte	0x90
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -1311,7 +1311,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DDHM"
 	.byte	0x4
 	.byte	0x91
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1321,18 +1321,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DDM_Bits"
 	.byte	0x4
 	.byte	0x92
-	.uaword	0x846
+	.uaword	0x84e
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DSC_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x95
-	.uaword	0x977
+	.uaword	0x97f
 	.uleb128 0x9
 	.string	"TM"
 	.byte	0x4
 	.byte	0x97
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1341,7 +1341,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CP"
 	.byte	0x4
 	.byte	0x98
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1350,7 +1350,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DP"
 	.byte	0x4
 	.byte	0x99
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1359,7 +1359,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"NDBL"
 	.byte	0x4
 	.byte	0x9a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1368,7 +1368,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"NDBH"
 	.byte	0x4
 	.byte	0x9b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -1377,7 +1377,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENSELL"
 	.byte	0x4
 	.byte	0x9c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1386,7 +1386,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENSELH"
 	.byte	0x4
 	.byte	0x9d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1395,7 +1395,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DSDIS"
 	.byte	0x4
 	.byte	0x9e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1404,7 +1404,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"NBC"
 	.byte	0x4
 	.byte	0x9f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -1413,7 +1413,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0xa0
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -1422,7 +1422,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"PPD"
 	.byte	0x4
 	.byte	0xa1
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -1431,7 +1431,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"reserved_29"
 	.byte	0x4
 	.byte	0xa2
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -1441,18 +1441,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DSC_Bits"
 	.byte	0x4
 	.byte	0xa3
-	.uaword	0x899
+	.uaword	0x8a1
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DSCE_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xa6
-	.uaword	0xa68
+	.uaword	0xa70
 	.uleb128 0x9
 	.string	"NDBHE"
 	.byte	0x4
 	.byte	0xa8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1461,7 +1461,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"NDBLE"
 	.byte	0x4
 	.byte	0xa9
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1470,7 +1470,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF3
 	.byte	0x4
 	.byte	0xaa
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0xc
 	.byte	0x12
@@ -1479,7 +1479,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EXEN"
 	.byte	0x4
 	.byte	0xab
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1488,7 +1488,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CCF"
 	.byte	0x4
 	.byte	0xac
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1497,7 +1497,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"INJENP0"
 	.byte	0x4
 	.byte	0xad
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1506,7 +1506,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"INJPOSP0"
 	.byte	0x4
 	.byte	0xae
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x6
 	.byte	0x9
@@ -1515,7 +1515,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF5
 	.byte	0x4
 	.byte	0xaf
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1524,7 +1524,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"INJENP1"
 	.byte	0x4
 	.byte	0xb0
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1533,7 +1533,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"INJPOSP1"
 	.byte	0x4
 	.byte	0xb1
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1
@@ -1542,7 +1542,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CDCM"
 	.byte	0x4
 	.byte	0xb2
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1552,18 +1552,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DSCE_Bits"
 	.byte	0x4
 	.byte	0xb3
-	.uaword	0x98f
+	.uaword	0x997
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DSDSH_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xb6
-	.uaword	0xb94
+	.uaword	0xb9c
 	.uleb128 0x9
 	.string	"SH0"
 	.byte	0x4
 	.byte	0xb8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -1572,7 +1572,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH1"
 	.byte	0x4
 	.byte	0xb9
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -1581,7 +1581,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH2"
 	.byte	0x4
 	.byte	0xba
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -1590,7 +1590,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH3"
 	.byte	0x4
 	.byte	0xbb
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -1599,7 +1599,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH4"
 	.byte	0x4
 	.byte	0xbc
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -1608,7 +1608,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH5"
 	.byte	0x4
 	.byte	0xbd
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -1617,7 +1617,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH6"
 	.byte	0x4
 	.byte	0xbe
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -1626,7 +1626,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH7"
 	.byte	0x4
 	.byte	0xbf
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -1635,7 +1635,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH8"
 	.byte	0x4
 	.byte	0xc0
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -1644,7 +1644,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH9"
 	.byte	0x4
 	.byte	0xc1
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -1653,7 +1653,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH10"
 	.byte	0x4
 	.byte	0xc2
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -1662,7 +1662,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH11"
 	.byte	0x4
 	.byte	0xc3
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -1671,7 +1671,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH12"
 	.byte	0x4
 	.byte	0xc4
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -1680,7 +1680,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH13"
 	.byte	0x4
 	.byte	0xc5
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -1689,7 +1689,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH14"
 	.byte	0x4
 	.byte	0xc6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -1698,7 +1698,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH15"
 	.byte	0x4
 	.byte	0xc7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -1708,18 +1708,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DSDSH_Bits"
 	.byte	0x4
 	.byte	0xc8
-	.uaword	0xa81
+	.uaword	0xa89
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DSDSHE_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xcb
-	.uaword	0xccc
+	.uaword	0xcd4
 	.uleb128 0x9
 	.string	"SH16"
 	.byte	0x4
 	.byte	0xcd
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -1728,7 +1728,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH17"
 	.byte	0x4
 	.byte	0xce
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -1737,7 +1737,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH18"
 	.byte	0x4
 	.byte	0xcf
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -1746,7 +1746,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH19"
 	.byte	0x4
 	.byte	0xd0
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -1755,7 +1755,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH20"
 	.byte	0x4
 	.byte	0xd1
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -1764,7 +1764,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH21"
 	.byte	0x4
 	.byte	0xd2
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -1773,7 +1773,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH22"
 	.byte	0x4
 	.byte	0xd3
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -1782,7 +1782,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH23"
 	.byte	0x4
 	.byte	0xd4
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -1791,7 +1791,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH24"
 	.byte	0x4
 	.byte	0xd5
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -1800,7 +1800,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH25"
 	.byte	0x4
 	.byte	0xd6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -1809,7 +1809,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH26"
 	.byte	0x4
 	.byte	0xd7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -1818,7 +1818,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH27"
 	.byte	0x4
 	.byte	0xd8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -1827,7 +1827,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH28"
 	.byte	0x4
 	.byte	0xd9
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -1836,7 +1836,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH29"
 	.byte	0x4
 	.byte	0xda
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -1845,7 +1845,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH30"
 	.byte	0x4
 	.byte	0xdb
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -1854,7 +1854,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SH31"
 	.byte	0x4
 	.byte	0xdc
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -1864,18 +1864,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DSDSHE_Bits"
 	.byte	0x4
 	.byte	0xdd
-	.uaword	0xbae
+	.uaword	0xbb6
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DSDSL_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xe0
-	.uaword	0xdfa
+	.uaword	0xe02
 	.uleb128 0x9
 	.string	"SL0"
 	.byte	0x4
 	.byte	0xe2
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -1884,7 +1884,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL1"
 	.byte	0x4
 	.byte	0xe3
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -1893,7 +1893,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL2"
 	.byte	0x4
 	.byte	0xe4
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -1902,7 +1902,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL3"
 	.byte	0x4
 	.byte	0xe5
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -1911,7 +1911,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL4"
 	.byte	0x4
 	.byte	0xe6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -1920,7 +1920,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL5"
 	.byte	0x4
 	.byte	0xe7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -1929,7 +1929,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL6"
 	.byte	0x4
 	.byte	0xe8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -1938,7 +1938,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL7"
 	.byte	0x4
 	.byte	0xe9
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -1947,7 +1947,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL8"
 	.byte	0x4
 	.byte	0xea
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -1956,7 +1956,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL9"
 	.byte	0x4
 	.byte	0xeb
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -1965,7 +1965,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL10"
 	.byte	0x4
 	.byte	0xec
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -1974,7 +1974,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL11"
 	.byte	0x4
 	.byte	0xed
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -1983,7 +1983,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL12"
 	.byte	0x4
 	.byte	0xee
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -1992,7 +1992,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL13"
 	.byte	0x4
 	.byte	0xef
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -2001,7 +2001,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL14"
 	.byte	0x4
 	.byte	0xf0
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2010,7 +2010,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL15"
 	.byte	0x4
 	.byte	0xf1
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -2020,18 +2020,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DSDSL_Bits"
 	.byte	0x4
 	.byte	0xf2
-	.uaword	0xce7
+	.uaword	0xcef
 	.uleb128 0x8
 	.string	"_Ifx_MSC_DSDSLE_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xf5
-	.uaword	0xf39
+	.uaword	0xf41
 	.uleb128 0x9
 	.string	"SL16"
 	.byte	0x4
 	.byte	0xf7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -2040,7 +2040,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL17"
 	.byte	0x4
 	.byte	0xf8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -2049,7 +2049,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL18"
 	.byte	0x4
 	.byte	0xf9
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -2058,7 +2058,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL19"
 	.byte	0x4
 	.byte	0xfa
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -2067,7 +2067,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL20"
 	.byte	0x4
 	.byte	0xfb
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -2076,7 +2076,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL21"
 	.byte	0x4
 	.byte	0xfc
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -2085,7 +2085,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL22"
 	.byte	0x4
 	.byte	0xfd
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -2094,7 +2094,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL23"
 	.byte	0x4
 	.byte	0xfe
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -2103,7 +2103,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL24"
 	.byte	0x4
 	.byte	0xff
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -2112,7 +2112,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL25"
 	.byte	0x4
 	.uahalf	0x100
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -2121,7 +2121,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL26"
 	.byte	0x4
 	.uahalf	0x101
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -2130,7 +2130,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL27"
 	.byte	0x4
 	.uahalf	0x102
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -2139,7 +2139,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL28"
 	.byte	0x4
 	.uahalf	0x103
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -2148,7 +2148,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL29"
 	.byte	0x4
 	.uahalf	0x104
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -2157,7 +2157,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL30"
 	.byte	0x4
 	.uahalf	0x105
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -2166,7 +2166,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SL31"
 	.byte	0x4
 	.uahalf	0x106
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -2176,18 +2176,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DSDSLE_Bits"
 	.byte	0x4
 	.uahalf	0x107
-	.uaword	0xe14
+	.uaword	0xe1c
 	.uleb128 0xd
 	.string	"_Ifx_MSC_DSS_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x10a
-	.uaword	0xff1
+	.uaword	0xff9
 	.uleb128 0xb
 	.string	"PFC"
 	.byte	0x4
 	.uahalf	0x10c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2196,7 +2196,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF4
 	.byte	0x4
 	.uahalf	0x10d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2205,7 +2205,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"NPTF"
 	.byte	0x4
 	.uahalf	0x10e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2214,7 +2214,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF6
 	.byte	0x4
 	.uahalf	0x10f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -2223,7 +2223,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DC"
 	.byte	0x4
 	.uahalf	0x110
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -2232,7 +2232,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DFA"
 	.byte	0x4
 	.uahalf	0x111
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2241,7 +2241,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CFA"
 	.byte	0x4
 	.uahalf	0x112
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2250,7 +2250,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF7
 	.byte	0x4
 	.uahalf	0x113
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -2260,18 +2260,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DSS_Bits"
 	.byte	0x4
 	.uahalf	0x114
-	.uaword	0xf55
+	.uaword	0xf5d
 	.uleb128 0xd
 	.string	"_Ifx_MSC_DSTE_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x117
-	.uaword	0x1069
+	.uaword	0x1071
 	.uleb128 0xb
 	.string	"PPDE"
 	.byte	0x4
 	.uahalf	0x119
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -2280,7 +2280,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"PPCE"
 	.byte	0x4
 	.uahalf	0x11a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x6
 	.byte	0x18
@@ -2289,7 +2289,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"NDD"
 	.byte	0x4
 	.uahalf	0x11b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2298,7 +2298,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF6
 	.byte	0x4
 	.uahalf	0x11c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -2308,18 +2308,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_DSTE_Bits"
 	.byte	0x4
 	.uahalf	0x11d
-	.uaword	0x100a
+	.uaword	0x1012
 	.uleb128 0xd
 	.string	"_Ifx_MSC_ESR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x120
-	.uaword	0x12cb
+	.uaword	0x12d3
 	.uleb128 0xb
 	.string	"ENL0"
 	.byte	0x4
 	.uahalf	0x122
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2328,7 +2328,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL1"
 	.byte	0x4
 	.uahalf	0x123
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2337,7 +2337,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL2"
 	.byte	0x4
 	.uahalf	0x124
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2346,7 +2346,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL3"
 	.byte	0x4
 	.uahalf	0x125
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2355,7 +2355,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL4"
 	.byte	0x4
 	.uahalf	0x126
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2364,7 +2364,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL5"
 	.byte	0x4
 	.uahalf	0x127
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2373,7 +2373,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL6"
 	.byte	0x4
 	.uahalf	0x128
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2382,7 +2382,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL7"
 	.byte	0x4
 	.uahalf	0x129
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2391,7 +2391,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL8"
 	.byte	0x4
 	.uahalf	0x12a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2400,7 +2400,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL9"
 	.byte	0x4
 	.uahalf	0x12b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2409,7 +2409,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL10"
 	.byte	0x4
 	.uahalf	0x12c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2418,7 +2418,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL11"
 	.byte	0x4
 	.uahalf	0x12d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2427,7 +2427,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL12"
 	.byte	0x4
 	.uahalf	0x12e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2436,7 +2436,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL13"
 	.byte	0x4
 	.uahalf	0x12f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2445,7 +2445,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL14"
 	.byte	0x4
 	.uahalf	0x130
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2454,7 +2454,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL15"
 	.byte	0x4
 	.uahalf	0x131
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2463,7 +2463,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH0"
 	.byte	0x4
 	.uahalf	0x132
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2472,7 +2472,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH1"
 	.byte	0x4
 	.uahalf	0x133
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2481,7 +2481,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH2"
 	.byte	0x4
 	.uahalf	0x134
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2490,7 +2490,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH3"
 	.byte	0x4
 	.uahalf	0x135
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2499,7 +2499,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH4"
 	.byte	0x4
 	.uahalf	0x136
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2508,7 +2508,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH5"
 	.byte	0x4
 	.uahalf	0x137
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2517,7 +2517,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH6"
 	.byte	0x4
 	.uahalf	0x138
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2526,7 +2526,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH7"
 	.byte	0x4
 	.uahalf	0x139
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2535,7 +2535,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH8"
 	.byte	0x4
 	.uahalf	0x13a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2544,7 +2544,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH9"
 	.byte	0x4
 	.uahalf	0x13b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2553,7 +2553,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH10"
 	.byte	0x4
 	.uahalf	0x13c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2562,7 +2562,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH11"
 	.byte	0x4
 	.uahalf	0x13d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2571,7 +2571,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH12"
 	.byte	0x4
 	.uahalf	0x13e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2580,7 +2580,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH13"
 	.byte	0x4
 	.uahalf	0x13f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2589,7 +2589,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH14"
 	.byte	0x4
 	.uahalf	0x140
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2598,7 +2598,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH15"
 	.byte	0x4
 	.uahalf	0x141
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2608,18 +2608,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_ESR_Bits"
 	.byte	0x4
 	.uahalf	0x142
-	.uaword	0x1083
+	.uaword	0x108b
 	.uleb128 0xd
 	.string	"_Ifx_MSC_ESRE_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x145
-	.uaword	0x1541
+	.uaword	0x1549
 	.uleb128 0xb
 	.string	"ENL16"
 	.byte	0x4
 	.uahalf	0x147
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2628,7 +2628,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL17"
 	.byte	0x4
 	.uahalf	0x148
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2637,7 +2637,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL18"
 	.byte	0x4
 	.uahalf	0x149
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2646,7 +2646,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL19"
 	.byte	0x4
 	.uahalf	0x14a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2655,7 +2655,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL20"
 	.byte	0x4
 	.uahalf	0x14b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2664,7 +2664,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL21"
 	.byte	0x4
 	.uahalf	0x14c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2673,7 +2673,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL22"
 	.byte	0x4
 	.uahalf	0x14d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2682,7 +2682,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL23"
 	.byte	0x4
 	.uahalf	0x14e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2691,7 +2691,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL24"
 	.byte	0x4
 	.uahalf	0x14f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2700,7 +2700,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL25"
 	.byte	0x4
 	.uahalf	0x150
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2709,7 +2709,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL26"
 	.byte	0x4
 	.uahalf	0x151
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2718,7 +2718,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL27"
 	.byte	0x4
 	.uahalf	0x152
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2727,7 +2727,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL28"
 	.byte	0x4
 	.uahalf	0x153
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2736,7 +2736,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL29"
 	.byte	0x4
 	.uahalf	0x154
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2745,7 +2745,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL30"
 	.byte	0x4
 	.uahalf	0x155
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2754,7 +2754,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENL31"
 	.byte	0x4
 	.uahalf	0x156
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2763,7 +2763,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH16"
 	.byte	0x4
 	.uahalf	0x157
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2772,7 +2772,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH17"
 	.byte	0x4
 	.uahalf	0x158
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2781,7 +2781,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH18"
 	.byte	0x4
 	.uahalf	0x159
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2790,7 +2790,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH19"
 	.byte	0x4
 	.uahalf	0x15a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2799,7 +2799,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH20"
 	.byte	0x4
 	.uahalf	0x15b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2808,7 +2808,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH21"
 	.byte	0x4
 	.uahalf	0x15c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2817,7 +2817,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH22"
 	.byte	0x4
 	.uahalf	0x15d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2826,7 +2826,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH23"
 	.byte	0x4
 	.uahalf	0x15e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2835,7 +2835,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH24"
 	.byte	0x4
 	.uahalf	0x15f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2844,7 +2844,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH25"
 	.byte	0x4
 	.uahalf	0x160
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2853,7 +2853,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH26"
 	.byte	0x4
 	.uahalf	0x161
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2862,7 +2862,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH27"
 	.byte	0x4
 	.uahalf	0x162
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2871,7 +2871,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH28"
 	.byte	0x4
 	.uahalf	0x163
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2880,7 +2880,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH29"
 	.byte	0x4
 	.uahalf	0x164
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2889,7 +2889,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH30"
 	.byte	0x4
 	.uahalf	0x165
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2898,7 +2898,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENH31"
 	.byte	0x4
 	.uahalf	0x166
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2908,18 +2908,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_ESRE_Bits"
 	.byte	0x4
 	.uahalf	0x167
-	.uaword	0x12e4
+	.uaword	0x12ec
 	.uleb128 0xd
 	.string	"_Ifx_MSC_FDR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x16a
-	.uaword	0x15ee
+	.uaword	0x15f6
 	.uleb128 0xb
 	.string	"STEP"
 	.byte	0x4
 	.uahalf	0x16c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -2928,7 +2928,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF8
 	.byte	0x4
 	.uahalf	0x16d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -2937,7 +2937,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DM"
 	.byte	0x4
 	.uahalf	0x16e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -2946,7 +2946,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"RESULT"
 	.byte	0x4
 	.uahalf	0x16f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -2955,7 +2955,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF7
 	.byte	0x4
 	.uahalf	0x170
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x2
@@ -2964,7 +2964,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ENHW"
 	.byte	0x4
 	.uahalf	0x171
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2973,7 +2973,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DISCLK"
 	.byte	0x4
 	.uahalf	0x172
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2983,18 +2983,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_FDR_Bits"
 	.byte	0x4
 	.uahalf	0x173
-	.uaword	0x155b
+	.uaword	0x1563
 	.uleb128 0xd
 	.string	"_Ifx_MSC_ICR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x176
-	.uaword	0x16db
+	.uaword	0x16e3
 	.uleb128 0xb
 	.string	"EDIP"
 	.byte	0x4
 	.uahalf	0x178
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -3003,7 +3003,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"EDIE"
 	.byte	0x4
 	.uahalf	0x179
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -3012,7 +3012,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ECIP"
 	.byte	0x4
 	.uahalf	0x17a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -3021,7 +3021,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF9
 	.byte	0x4
 	.uahalf	0x17b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3030,7 +3030,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ECIE"
 	.byte	0x4
 	.uahalf	0x17c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3039,7 +3039,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"TFIP"
 	.byte	0x4
 	.uahalf	0x17d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -3048,7 +3048,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF8
 	.byte	0x4
 	.uahalf	0x17e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3057,7 +3057,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"TFIE"
 	.byte	0x4
 	.uahalf	0x17f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3066,7 +3066,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"RDIP"
 	.byte	0x4
 	.uahalf	0x180
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -3075,7 +3075,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"RDIE"
 	.byte	0x4
 	.uahalf	0x181
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -3084,7 +3084,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF10
 	.byte	0x4
 	.uahalf	0x182
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3094,18 +3094,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_ICR_Bits"
 	.byte	0x4
 	.uahalf	0x183
-	.uaword	0x1607
+	.uaword	0x160f
 	.uleb128 0xd
 	.string	"_Ifx_MSC_ID_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x186
-	.uaword	0x174c
+	.uaword	0x1754
 	.uleb128 0xb
 	.string	"MODREV"
 	.byte	0x4
 	.uahalf	0x188
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3114,7 +3114,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"MODTYPE"
 	.byte	0x4
 	.uahalf	0x189
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3123,7 +3123,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"MODNUMBER"
 	.byte	0x4
 	.uahalf	0x18a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3133,18 +3133,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_ID_Bits"
 	.byte	0x4
 	.uahalf	0x18b
-	.uaword	0x16f4
+	.uaword	0x16fc
 	.uleb128 0xd
 	.string	"_Ifx_MSC_ISC_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x18e
-	.uaword	0x189b
+	.uaword	0x18a3
 	.uleb128 0xb
 	.string	"CDEDI"
 	.byte	0x4
 	.uahalf	0x190
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3153,7 +3153,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CDECI"
 	.byte	0x4
 	.uahalf	0x191
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3162,7 +3162,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CDTFI"
 	.byte	0x4
 	.uahalf	0x192
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3171,7 +3171,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CURDI"
 	.byte	0x4
 	.uahalf	0x193
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3180,7 +3180,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CDP"
 	.byte	0x4
 	.uahalf	0x194
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3189,7 +3189,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CCP"
 	.byte	0x4
 	.uahalf	0x195
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3198,7 +3198,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CDDIS"
 	.byte	0x4
 	.uahalf	0x196
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3207,7 +3207,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"reserved_7"
 	.byte	0x4
 	.uahalf	0x197
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x9
 	.byte	0x10
@@ -3216,7 +3216,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SDEDI"
 	.byte	0x4
 	.uahalf	0x198
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3225,7 +3225,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SDECI"
 	.byte	0x4
 	.uahalf	0x199
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3234,7 +3234,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SDTFI"
 	.byte	0x4
 	.uahalf	0x19a
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3243,7 +3243,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SURDI"
 	.byte	0x4
 	.uahalf	0x19b
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3252,7 +3252,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SDP"
 	.byte	0x4
 	.uahalf	0x19c
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3261,7 +3261,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SCP"
 	.byte	0x4
 	.uahalf	0x19d
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3270,7 +3270,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SDDIS"
 	.byte	0x4
 	.uahalf	0x19e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3279,7 +3279,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF5
 	.byte	0x4
 	.uahalf	0x19f
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -3289,18 +3289,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_ISC_Bits"
 	.byte	0x4
 	.uahalf	0x1a0
-	.uaword	0x1764
+	.uaword	0x176c
 	.uleb128 0xd
 	.string	"_Ifx_MSC_ISR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1a3
-	.uaword	0x1924
+	.uaword	0x192c
 	.uleb128 0xb
 	.string	"DEDI"
 	.byte	0x4
 	.uahalf	0x1a5
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3309,7 +3309,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DECI"
 	.byte	0x4
 	.uahalf	0x1a6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3318,7 +3318,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"DTFI"
 	.byte	0x4
 	.uahalf	0x1a7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3327,7 +3327,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"URDI"
 	.byte	0x4
 	.uahalf	0x1a8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3336,7 +3336,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF4
 	.byte	0x4
 	.uahalf	0x1a9
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -3346,18 +3346,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_ISR_Bits"
 	.byte	0x4
 	.uahalf	0x1aa
-	.uaword	0x18b4
+	.uaword	0x18bc
 	.uleb128 0xd
 	.string	"_Ifx_MSC_KRST0_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1ad
-	.uaword	0x198f
+	.uaword	0x1997
 	.uleb128 0xb
 	.string	"RST"
 	.byte	0x4
 	.uahalf	0x1af
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3366,7 +3366,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"RSTSTAT"
 	.byte	0x4
 	.uahalf	0x1b0
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3375,7 +3375,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF3
 	.byte	0x4
 	.uahalf	0x1b1
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -3385,18 +3385,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_KRST0_Bits"
 	.byte	0x4
 	.uahalf	0x1b2
-	.uaword	0x193d
+	.uaword	0x1945
 	.uleb128 0xd
 	.string	"_Ifx_MSC_KRST1_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1b5
-	.uaword	0x19e8
+	.uaword	0x19f0
 	.uleb128 0xb
 	.string	"RST"
 	.byte	0x4
 	.uahalf	0x1b7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3405,7 +3405,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF11
 	.byte	0x4
 	.uahalf	0x1b8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -3415,18 +3415,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_KRST1_Bits"
 	.byte	0x4
 	.uahalf	0x1b9
-	.uaword	0x19aa
+	.uaword	0x19b2
 	.uleb128 0xd
 	.string	"_Ifx_MSC_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1bc
-	.uaword	0x1a43
+	.uaword	0x1a4b
 	.uleb128 0xb
 	.string	"CLR"
 	.byte	0x4
 	.uahalf	0x1be
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3435,7 +3435,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF11
 	.byte	0x4
 	.uahalf	0x1bf
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -3445,18 +3445,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_KRSTCLR_Bits"
 	.byte	0x4
 	.uahalf	0x1c0
-	.uaword	0x1a03
+	.uaword	0x1a0b
 	.uleb128 0xd
 	.string	"_Ifx_MSC_OCR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1c3
-	.uaword	0x1b54
+	.uaword	0x1b5c
 	.uleb128 0xb
 	.string	"CLP"
 	.byte	0x4
 	.uahalf	0x1c5
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3465,7 +3465,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SLP"
 	.byte	0x4
 	.uahalf	0x1c6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3474,7 +3474,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CSLP"
 	.byte	0x4
 	.uahalf	0x1c7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3483,7 +3483,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"ILP"
 	.byte	0x4
 	.uahalf	0x1c8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3492,7 +3492,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF4
 	.byte	0x4
 	.uahalf	0x1c9
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -3501,7 +3501,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CLKCTRL"
 	.byte	0x4
 	.uahalf	0x1ca
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3510,7 +3510,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CSL"
 	.byte	0x4
 	.uahalf	0x1cb
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x15
@@ -3519,7 +3519,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CSH"
 	.byte	0x4
 	.uahalf	0x1cc
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -3528,7 +3528,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"CSC"
 	.byte	0x4
 	.uahalf	0x1cd
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -3537,7 +3537,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"reserved_15"
 	.byte	0x4
 	.uahalf	0x1ce
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3546,7 +3546,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SDISEL"
 	.byte	0x4
 	.uahalf	0x1cf
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3555,7 +3555,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"reserved_19"
 	.byte	0x4
 	.uahalf	0x1d0
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0xd
 	.byte	0
@@ -3565,18 +3565,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_OCR_Bits"
 	.byte	0x4
 	.uahalf	0x1d1
-	.uaword	0x1a60
+	.uaword	0x1a68
 	.uleb128 0xd
 	.string	"_Ifx_MSC_OCS_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1d4
-	.uaword	0x1bde
+	.uaword	0x1be6
 	.uleb128 0xe
 	.uaword	.LASF2
 	.byte	0x4
 	.uahalf	0x1d6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -3585,7 +3585,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SUS"
 	.byte	0x4
 	.uahalf	0x1d7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -3594,7 +3594,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SUS_P"
 	.byte	0x4
 	.uahalf	0x1d8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3603,7 +3603,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SUSSTA"
 	.byte	0x4
 	.uahalf	0x1d9
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3612,7 +3612,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF1
 	.byte	0x4
 	.uahalf	0x1da
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -3622,18 +3622,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_OCS_Bits"
 	.byte	0x4
 	.uahalf	0x1db
-	.uaword	0x1b6d
+	.uaword	0x1b75
 	.uleb128 0xd
 	.string	"_Ifx_MSC_UD_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1de
-	.uaword	0x1ca6
+	.uaword	0x1cae
 	.uleb128 0xb
 	.string	"DATA"
 	.byte	0x4
 	.uahalf	0x1e0
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3642,7 +3642,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"reserved_8"
 	.byte	0x4
 	.uahalf	0x1e1
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3651,7 +3651,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"V"
 	.byte	0x4
 	.uahalf	0x1e2
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3660,7 +3660,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"P"
 	.byte	0x4
 	.uahalf	0x1e3
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3669,7 +3669,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"C"
 	.byte	0x4
 	.uahalf	0x1e4
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3678,7 +3678,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"LABF"
 	.byte	0x4
 	.uahalf	0x1e5
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0xb
@@ -3687,7 +3687,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"IPF"
 	.byte	0x4
 	.uahalf	0x1e6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3696,7 +3696,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"PERR"
 	.byte	0x4
 	.uahalf	0x1e7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3705,7 +3705,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF5
 	.byte	0x4
 	.uahalf	0x1e8
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -3715,18 +3715,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_UD_Bits"
 	.byte	0x4
 	.uahalf	0x1e9
-	.uaword	0x1bf7
+	.uaword	0x1bff
 	.uleb128 0xd
 	.string	"_Ifx_MSC_USCE_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1ec
-	.uaword	0x1d8e
+	.uaword	0x1d96
 	.uleb128 0xb
 	.string	"USTOPRE"
 	.byte	0x4
 	.uahalf	0x1ee
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3735,7 +3735,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"USTOVAL"
 	.byte	0x4
 	.uahalf	0x1ef
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -3744,7 +3744,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"USTOEN"
 	.byte	0x4
 	.uahalf	0x1f0
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3753,7 +3753,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"USTF"
 	.byte	0x4
 	.uahalf	0x1f1
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3762,7 +3762,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"USTC"
 	.byte	0x4
 	.uahalf	0x1f2
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3771,7 +3771,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"USTS"
 	.byte	0x4
 	.uahalf	0x1f3
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3780,7 +3780,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF6
 	.byte	0x4
 	.uahalf	0x1f4
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3789,7 +3789,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"UTASR"
 	.byte	0x4
 	.uahalf	0x1f5
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3798,7 +3798,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"USTOIP"
 	.byte	0x4
 	.uahalf	0x1f6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -3807,7 +3807,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF10
 	.byte	0x4
 	.uahalf	0x1f7
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3817,18 +3817,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_USCE_Bits"
 	.byte	0x4
 	.uahalf	0x1f8
-	.uaword	0x1cbe
+	.uaword	0x1cc6
 	.uleb128 0xd
 	.string	"_Ifx_MSC_USR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1fb
-	.uaword	0x1e3d
+	.uaword	0x1e45
 	.uleb128 0xb
 	.string	"UFT"
 	.byte	0x4
 	.uahalf	0x1fd
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3837,7 +3837,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"URR"
 	.byte	0x4
 	.uahalf	0x1fe
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -3846,7 +3846,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"PCTR"
 	.byte	0x4
 	.uahalf	0x1ff
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3855,7 +3855,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"SRDC"
 	.byte	0x4
 	.uahalf	0x200
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3864,7 +3864,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LASF9
 	.byte	0x4
 	.uahalf	0x201
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0xa
 	.byte	0x10
@@ -3873,7 +3873,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"UC"
 	.byte	0x4
 	.uahalf	0x202
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -3882,7 +3882,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"reserved_21"
 	.byte	0x4
 	.uahalf	0x203
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.byte	0x4
 	.byte	0xb
 	.byte	0
@@ -3892,1035 +3892,1035 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"Ifx_MSC_USR_Bits"
 	.byte	0x4
 	.uahalf	0x204
-	.uaword	0x1da8
+	.uaword	0x1db0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x20c
-	.uaword	0x1e7e
+	.uaword	0x1e86
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x20e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x20f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x210
-	.uaword	0x445
+	.uaword	0x44d
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_ABC"
 	.byte	0x4
 	.uahalf	0x211
-	.uaword	0x1e56
+	.uaword	0x1e5e
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x214
-	.uaword	0x1eba
+	.uaword	0x1ec2
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x216
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x217
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x218
-	.uaword	0x671
+	.uaword	0x679
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_ACCEN0"
 	.byte	0x4
 	.uahalf	0x219
-	.uaword	0x1e92
+	.uaword	0x1e9a
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x21c
-	.uaword	0x1ef9
+	.uaword	0x1f01
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x21e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x21f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x220
-	.uaword	0x6b9
+	.uaword	0x6c1
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_ACCEN1"
 	.byte	0x4
 	.uahalf	0x221
-	.uaword	0x1ed1
+	.uaword	0x1ed9
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x224
-	.uaword	0x1f38
+	.uaword	0x1f40
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x226
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x227
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x228
-	.uaword	0x73d
+	.uaword	0x745
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_CLC"
 	.byte	0x4
 	.uahalf	0x229
-	.uaword	0x1f10
+	.uaword	0x1f18
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x22c
-	.uaword	0x1f74
+	.uaword	0x1f7c
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x22e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x22f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x230
-	.uaword	0x78d
+	.uaword	0x795
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DC"
 	.byte	0x4
 	.uahalf	0x231
-	.uaword	0x1f4c
+	.uaword	0x1f54
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x234
-	.uaword	0x1faf
+	.uaword	0x1fb7
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x236
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x237
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x238
-	.uaword	0x7dc
+	.uaword	0x7e4
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DD"
 	.byte	0x4
 	.uahalf	0x239
-	.uaword	0x1f87
+	.uaword	0x1f8f
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x23c
-	.uaword	0x1fea
+	.uaword	0x1ff2
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x23e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x23f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x240
-	.uaword	0x82e
+	.uaword	0x836
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DDE"
 	.byte	0x4
 	.uahalf	0x241
-	.uaword	0x1fc2
+	.uaword	0x1fca
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x244
-	.uaword	0x2026
+	.uaword	0x202e
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x246
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x247
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x248
-	.uaword	0x881
+	.uaword	0x889
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DDM"
 	.byte	0x4
 	.uahalf	0x249
-	.uaword	0x1ffe
+	.uaword	0x2006
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x24c
-	.uaword	0x2062
+	.uaword	0x206a
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x24e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x24f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x250
-	.uaword	0x977
+	.uaword	0x97f
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DSC"
 	.byte	0x4
 	.uahalf	0x251
-	.uaword	0x203a
+	.uaword	0x2042
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x254
-	.uaword	0x209e
+	.uaword	0x20a6
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x256
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x257
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x258
-	.uaword	0xa68
+	.uaword	0xa70
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DSCE"
 	.byte	0x4
 	.uahalf	0x259
-	.uaword	0x2076
+	.uaword	0x207e
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x25c
-	.uaword	0x20db
+	.uaword	0x20e3
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x25e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x25f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x260
-	.uaword	0xb94
+	.uaword	0xb9c
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DSDSH"
 	.byte	0x4
 	.uahalf	0x261
-	.uaword	0x20b3
+	.uaword	0x20bb
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x264
-	.uaword	0x2119
+	.uaword	0x2121
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x266
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x267
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x268
-	.uaword	0xccc
+	.uaword	0xcd4
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DSDSHE"
 	.byte	0x4
 	.uahalf	0x269
-	.uaword	0x20f1
+	.uaword	0x20f9
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x26c
-	.uaword	0x2158
+	.uaword	0x2160
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x26e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x26f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x270
-	.uaword	0xdfa
+	.uaword	0xe02
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DSDSL"
 	.byte	0x4
 	.uahalf	0x271
-	.uaword	0x2130
+	.uaword	0x2138
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x274
-	.uaword	0x2196
+	.uaword	0x219e
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x276
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x277
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x278
-	.uaword	0xf39
+	.uaword	0xf41
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DSDSLE"
 	.byte	0x4
 	.uahalf	0x279
-	.uaword	0x216e
+	.uaword	0x2176
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x27c
-	.uaword	0x21d5
+	.uaword	0x21dd
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x27e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x27f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x280
-	.uaword	0xff1
+	.uaword	0xff9
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DSS"
 	.byte	0x4
 	.uahalf	0x281
-	.uaword	0x21ad
+	.uaword	0x21b5
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x284
-	.uaword	0x2211
+	.uaword	0x2219
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x286
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x287
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x288
-	.uaword	0x1069
+	.uaword	0x1071
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_DSTE"
 	.byte	0x4
 	.uahalf	0x289
-	.uaword	0x21e9
+	.uaword	0x21f1
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x28c
-	.uaword	0x224e
+	.uaword	0x2256
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x28e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x28f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x290
-	.uaword	0x12cb
+	.uaword	0x12d3
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_ESR"
 	.byte	0x4
 	.uahalf	0x291
-	.uaword	0x2226
+	.uaword	0x222e
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x294
-	.uaword	0x228a
+	.uaword	0x2292
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x296
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x297
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x298
-	.uaword	0x1541
+	.uaword	0x1549
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_ESRE"
 	.byte	0x4
 	.uahalf	0x299
-	.uaword	0x2262
+	.uaword	0x226a
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x29c
-	.uaword	0x22c7
+	.uaword	0x22cf
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x29e
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x29f
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2a0
-	.uaword	0x15ee
+	.uaword	0x15f6
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_FDR"
 	.byte	0x4
 	.uahalf	0x2a1
-	.uaword	0x229f
+	.uaword	0x22a7
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2a4
-	.uaword	0x2303
+	.uaword	0x230b
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2a6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2a7
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2a8
-	.uaword	0x16db
+	.uaword	0x16e3
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_ICR"
 	.byte	0x4
 	.uahalf	0x2a9
-	.uaword	0x22db
+	.uaword	0x22e3
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2ac
-	.uaword	0x233f
+	.uaword	0x2347
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2ae
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2af
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2b0
-	.uaword	0x174c
+	.uaword	0x1754
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_ID"
 	.byte	0x4
 	.uahalf	0x2b1
-	.uaword	0x2317
+	.uaword	0x231f
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2b4
-	.uaword	0x237a
+	.uaword	0x2382
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2b6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2b7
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2b8
-	.uaword	0x189b
+	.uaword	0x18a3
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_ISC"
 	.byte	0x4
 	.uahalf	0x2b9
-	.uaword	0x2352
+	.uaword	0x235a
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2bc
-	.uaword	0x23b6
+	.uaword	0x23be
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2be
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2bf
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2c0
-	.uaword	0x1924
+	.uaword	0x192c
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_ISR"
 	.byte	0x4
 	.uahalf	0x2c1
-	.uaword	0x238e
+	.uaword	0x2396
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2c4
-	.uaword	0x23f2
+	.uaword	0x23fa
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2c6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2c7
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2c8
-	.uaword	0x198f
+	.uaword	0x1997
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_KRST0"
 	.byte	0x4
 	.uahalf	0x2c9
-	.uaword	0x23ca
+	.uaword	0x23d2
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2cc
-	.uaword	0x2430
+	.uaword	0x2438
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2ce
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2cf
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2d0
-	.uaword	0x19e8
+	.uaword	0x19f0
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_KRST1"
 	.byte	0x4
 	.uahalf	0x2d1
-	.uaword	0x2408
+	.uaword	0x2410
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2d4
-	.uaword	0x246e
+	.uaword	0x2476
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2d6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2d7
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2d8
-	.uaword	0x1a43
+	.uaword	0x1a4b
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_KRSTCLR"
 	.byte	0x4
 	.uahalf	0x2d9
-	.uaword	0x2446
+	.uaword	0x244e
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2dc
-	.uaword	0x24ae
+	.uaword	0x24b6
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2de
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2df
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2e0
-	.uaword	0x1b54
+	.uaword	0x1b5c
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_OCR"
 	.byte	0x4
 	.uahalf	0x2e1
-	.uaword	0x2486
+	.uaword	0x248e
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2e4
-	.uaword	0x24ea
+	.uaword	0x24f2
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2e6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2e7
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2e8
-	.uaword	0x1bde
+	.uaword	0x1be6
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_OCS"
 	.byte	0x4
 	.uahalf	0x2e9
-	.uaword	0x24c2
+	.uaword	0x24ca
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2ec
-	.uaword	0x2526
+	.uaword	0x252e
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2ee
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2ef
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2f0
-	.uaword	0x1ca6
+	.uaword	0x1cae
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_UD"
 	.byte	0x4
 	.uahalf	0x2f1
-	.uaword	0x24fe
+	.uaword	0x2506
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2f4
-	.uaword	0x2561
+	.uaword	0x2569
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2f6
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2f7
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2f8
-	.uaword	0x1d8e
+	.uaword	0x1d96
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_USCE"
 	.byte	0x4
 	.uahalf	0x2f9
-	.uaword	0x2539
+	.uaword	0x2541
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2fc
-	.uaword	0x259e
+	.uaword	0x25a6
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2fe
-	.uaword	0x1b9
+	.uaword	0x1c1
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2ff
-	.uaword	0x204
+	.uaword	0x20c
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x300
-	.uaword	0x1e3d
+	.uaword	0x1e45
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC_USR"
 	.byte	0x4
 	.uahalf	0x301
-	.uaword	0x2576
+	.uaword	0x257e
 	.uleb128 0x11
 	.string	"_Ifx_MSC"
 	.uahalf	0x100
 	.byte	0x4
 	.uahalf	0x30c
-	.uaword	0x27bd
+	.uaword	0x27c5
 	.uleb128 0x12
 	.string	"CLC"
 	.byte	0x4
 	.uahalf	0x30e
-	.uaword	0x1f38
+	.uaword	0x1f40
 	.byte	0
 	.uleb128 0x13
 	.uaword	.LASF4
 	.byte	0x4
 	.uahalf	0x30f
-	.uaword	0x27bd
+	.uaword	0x27c5
 	.byte	0x4
 	.uleb128 0x12
 	.string	"ID"
 	.byte	0x4
 	.uahalf	0x310
-	.uaword	0x233f
+	.uaword	0x2347
 	.byte	0x8
 	.uleb128 0x12
 	.string	"FDR"
 	.byte	0x4
 	.uahalf	0x311
-	.uaword	0x22c7
+	.uaword	0x22cf
 	.byte	0xc
 	.uleb128 0x12
 	.string	"USR"
 	.byte	0x4
 	.uahalf	0x312
-	.uaword	0x259e
+	.uaword	0x25a6
 	.byte	0x10
 	.uleb128 0x12
 	.string	"DSC"
 	.byte	0x4
 	.uahalf	0x313
-	.uaword	0x2062
+	.uaword	0x206a
 	.byte	0x14
 	.uleb128 0x12
 	.string	"DSS"
 	.byte	0x4
 	.uahalf	0x314
-	.uaword	0x21d5
+	.uaword	0x21dd
 	.byte	0x18
 	.uleb128 0x12
 	.string	"DD"
 	.byte	0x4
 	.uahalf	0x315
-	.uaword	0x1faf
+	.uaword	0x1fb7
 	.byte	0x1c
 	.uleb128 0x12
 	.string	"DC"
 	.byte	0x4
 	.uahalf	0x316
-	.uaword	0x1f74
+	.uaword	0x1f7c
 	.byte	0x20
 	.uleb128 0x12
 	.string	"DSDSL"
 	.byte	0x4
 	.uahalf	0x317
-	.uaword	0x2158
+	.uaword	0x2160
 	.byte	0x24
 	.uleb128 0x12
 	.string	"DSDSH"
 	.byte	0x4
 	.uahalf	0x318
-	.uaword	0x20db
+	.uaword	0x20e3
 	.byte	0x28
 	.uleb128 0x12
 	.string	"ESR"
 	.byte	0x4
 	.uahalf	0x319
-	.uaword	0x224e
+	.uaword	0x2256
 	.byte	0x2c
 	.uleb128 0x12
 	.string	"UD"
 	.byte	0x4
 	.uahalf	0x31a
-	.uaword	0x27d9
+	.uaword	0x27e1
 	.byte	0x30
 	.uleb128 0x12
 	.string	"ICR"
 	.byte	0x4
 	.uahalf	0x31b
-	.uaword	0x2303
+	.uaword	0x230b
 	.byte	0x40
 	.uleb128 0x12
 	.string	"ISR"
 	.byte	0x4
 	.uahalf	0x31c
-	.uaword	0x23b6
+	.uaword	0x23be
 	.byte	0x44
 	.uleb128 0x12
 	.string	"ISC"
 	.byte	0x4
 	.uahalf	0x31d
-	.uaword	0x237a
+	.uaword	0x2382
 	.byte	0x48
 	.uleb128 0x12
 	.string	"OCR"
 	.byte	0x4
 	.uahalf	0x31e
-	.uaword	0x24ae
+	.uaword	0x24b6
 	.byte	0x4c
 	.uleb128 0x12
 	.string	"reserved_50"
 	.byte	0x4
 	.uahalf	0x31f
-	.uaword	0x27e9
+	.uaword	0x27f1
 	.byte	0x50
 	.uleb128 0x12
 	.string	"DSCE"
 	.byte	0x4
 	.uahalf	0x320
-	.uaword	0x209e
+	.uaword	0x20a6
 	.byte	0x58
 	.uleb128 0x12
 	.string	"USCE"
 	.byte	0x4
 	.uahalf	0x321
-	.uaword	0x2561
+	.uaword	0x2569
 	.byte	0x5c
 	.uleb128 0x12
 	.string	"DSDSLE"
 	.byte	0x4
 	.uahalf	0x322
-	.uaword	0x2196
+	.uaword	0x219e
 	.byte	0x60
 	.uleb128 0x12
 	.string	"DSDSHE"
 	.byte	0x4
 	.uahalf	0x323
-	.uaword	0x2119
+	.uaword	0x2121
 	.byte	0x64
 	.uleb128 0x12
 	.string	"ESRE"
 	.byte	0x4
 	.uahalf	0x324
-	.uaword	0x228a
+	.uaword	0x2292
 	.byte	0x68
 	.uleb128 0x12
 	.string	"DDE"
 	.byte	0x4
 	.uahalf	0x325
-	.uaword	0x1fea
+	.uaword	0x1ff2
 	.byte	0x6c
 	.uleb128 0x12
 	.string	"DDM"
 	.byte	0x4
 	.uahalf	0x326
-	.uaword	0x2026
+	.uaword	0x202e
 	.byte	0x70
 	.uleb128 0x12
 	.string	"DSTE"
 	.byte	0x4
 	.uahalf	0x327
-	.uaword	0x2211
+	.uaword	0x2219
 	.byte	0x74
 	.uleb128 0x12
 	.string	"reserved_78"
 	.byte	0x4
 	.uahalf	0x328
-	.uaword	0x27e9
+	.uaword	0x27f1
 	.byte	0x78
 	.uleb128 0x12
 	.string	"ABC"
 	.byte	0x4
 	.uahalf	0x329
-	.uaword	0x1e7e
+	.uaword	0x1e86
 	.byte	0x80
 	.uleb128 0x12
 	.string	"reserved_84"
 	.byte	0x4
 	.uahalf	0x32a
-	.uaword	0x27f9
+	.uaword	0x2801
 	.byte	0x84
 	.uleb128 0x12
 	.string	"OCS"
 	.byte	0x4
 	.uahalf	0x32b
-	.uaword	0x24ea
+	.uaword	0x24f2
 	.byte	0xe8
 	.uleb128 0x12
 	.string	"KRSTCLR"
 	.byte	0x4
 	.uahalf	0x32c
-	.uaword	0x246e
+	.uaword	0x2476
 	.byte	0xec
 	.uleb128 0x12
 	.string	"KRST1"
 	.byte	0x4
 	.uahalf	0x32d
-	.uaword	0x2430
+	.uaword	0x2438
 	.byte	0xf0
 	.uleb128 0x12
 	.string	"KRST0"
 	.byte	0x4
 	.uahalf	0x32e
-	.uaword	0x23f2
+	.uaword	0x23fa
 	.byte	0xf4
 	.uleb128 0x12
 	.string	"ACCEN1"
 	.byte	0x4
 	.uahalf	0x32f
-	.uaword	0x1ef9
+	.uaword	0x1f01
 	.byte	0xf8
 	.uleb128 0x12
 	.string	"ACCEN0"
 	.byte	0x4
 	.uahalf	0x330
-	.uaword	0x1eba
+	.uaword	0x1ec2
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x21a
-	.uaword	0x27cd
+	.uaword	0x222
+	.uaword	0x27d5
 	.uleb128 0x15
-	.uaword	0x27cd
+	.uaword	0x27d5
 	.byte	0x3
 	.byte	0
 	.uleb128 0x2
@@ -4928,38 +4928,38 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x14
-	.uaword	0x2526
-	.uaword	0x27e9
+	.uaword	0x252e
+	.uaword	0x27f1
 	.uleb128 0x15
-	.uaword	0x27cd
+	.uaword	0x27d5
 	.byte	0x3
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x21a
-	.uaword	0x27f9
+	.uaword	0x222
+	.uaword	0x2801
 	.uleb128 0x15
-	.uaword	0x27cd
+	.uaword	0x27d5
 	.byte	0x7
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x21a
-	.uaword	0x2809
+	.uaword	0x222
+	.uaword	0x2811
 	.uleb128 0x15
-	.uaword	0x27cd
+	.uaword	0x27d5
 	.byte	0x63
 	.byte	0
 	.uleb128 0xc
 	.string	"Ifx_MSC"
 	.byte	0x4
 	.uahalf	0x331
-	.uaword	0x2819
+	.uaword	0x2821
 	.uleb128 0x16
-	.uaword	0x25b2
+	.uaword	0x25ba
 	.uleb128 0x17
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3d
-	.uaword	0x285d
+	.uaword	0x2865
 	.uleb128 0x18
 	.string	"IfxMsc_Index_none"
 	.sleb128 -1
@@ -4974,10 +4974,10 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.string	"IfxMsc_Index"
 	.byte	0x5
 	.byte	0x41
-	.uaword	0x281e
+	.uaword	0x2826
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2809
+	.uaword	0x2811
 	.uleb128 0x19
 	.byte	0x1
 	.string	"IfxMsc_clearDataFrameInterruptFlag"
@@ -4989,12 +4989,12 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x28bc
+	.uaword	0x28c4
 	.uleb128 0x1a
 	.string	"msc"
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x2871
+	.uaword	0x2879
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -5009,26 +5009,26 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x292f
+	.uaword	0x2937
 	.uleb128 0x1b
 	.string	"msc"
 	.byte	0x1
 	.byte	0x2a
-	.uaword	0x2871
+	.uaword	0x2879
 	.uaword	.LLST0
 	.uleb128 0x1c
 	.uaword	.LASF12
 	.byte	0x1
 	.byte	0x2c
-	.uaword	0x238
+	.uaword	0x240
 	.uaword	.LLST1
 	.uleb128 0x1d
 	.uaword	.LVL2
-	.uaword	0x2ebd
+	.uaword	0x2ec5
 	.uleb128 0x1e
 	.uaword	.LVL4
-	.uaword	0x2ee9
-	.uaword	0x291d
+	.uaword	0x2ef1
+	.uaword	0x2925
 	.uleb128 0x1f
 	.byte	0x1
 	.byte	0x54
@@ -5039,7 +5039,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uleb128 0x20
 	.uaword	.LVL5
 	.byte	0x1
-	.uaword	0x2f13
+	.uaword	0x2f1b
 	.uleb128 0x1f
 	.byte	0x1
 	.byte	0x54
@@ -5059,26 +5059,26 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x29a5
+	.uaword	0x29ad
 	.uleb128 0x1b
 	.string	"msc"
 	.byte	0x1
 	.byte	0x39
-	.uaword	0x2871
+	.uaword	0x2879
 	.uaword	.LLST2
 	.uleb128 0x1c
 	.uaword	.LASF12
 	.byte	0x1
 	.byte	0x3b
-	.uaword	0x238
+	.uaword	0x240
 	.uaword	.LLST3
 	.uleb128 0x1d
 	.uaword	.LVL7
-	.uaword	0x2ebd
+	.uaword	0x2ec5
 	.uleb128 0x1e
 	.uaword	.LVL9
-	.uaword	0x2ee9
-	.uaword	0x2993
+	.uaword	0x2ef1
+	.uaword	0x299b
 	.uleb128 0x1f
 	.byte	0x1
 	.byte	0x54
@@ -5089,7 +5089,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uleb128 0x20
 	.uaword	.LVL10
 	.byte	0x1
-	.uaword	0x2f13
+	.uaword	0x2f1b
 	.uleb128 0x1f
 	.byte	0x1
 	.byte	0x54
@@ -5104,34 +5104,34 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x43
 	.byte	0x1
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LFB280
 	.uaword	.LFE280
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2a1a
+	.uaword	0x2a22
 	.uleb128 0x1b
 	.string	"baud"
 	.byte	0x1
 	.byte	0x43
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST4
 	.uleb128 0x22
 	.string	"fsys"
 	.byte	0x1
 	.byte	0x45
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST5
 	.uleb128 0x22
 	.string	"ndd"
 	.byte	0x1
 	.byte	0x46
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST6
 	.uleb128 0x1d
 	.uaword	.LVL12
-	.uaword	0x2f3b
+	.uaword	0x2f43
 	.byte	0
 	.uleb128 0x23
 	.byte	0x1
@@ -5139,39 +5139,39 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x50
 	.byte	0x1
-	.uaword	0x2b1
+	.uaword	0x2b9
 	.uaword	.LFB281
 	.uaword	.LFE281
 	.byte	0x1
 	.byte	0x9c
-	.uaword	0x2aa4
+	.uaword	0x2aac
 	.uleb128 0x1b
 	.string	"msc"
 	.byte	0x1
 	.byte	0x50
-	.uaword	0x2871
+	.uaword	0x2879
 	.uaword	.LLST7
 	.uleb128 0x1b
 	.string	"baud"
 	.byte	0x1
 	.byte	0x50
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST8
 	.uleb128 0x22
 	.string	"fsys"
 	.byte	0x1
 	.byte	0x52
-	.uaword	0x278
+	.uaword	0x280
 	.uaword	.LLST9
 	.uleb128 0x22
 	.string	"step"
 	.byte	0x1
 	.byte	0x53
-	.uaword	0x2b1
+	.uaword	0x2b9
 	.uaword	.LLST10
 	.uleb128 0x1d
 	.uaword	.LVL16
-	.uaword	0x2f3b
+	.uaword	0x2f43
 	.byte	0
 	.uleb128 0x21
 	.byte	0x1
@@ -5179,40 +5179,40 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x5b
 	.byte	0x1
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LFB282
 	.uaword	.LFE282
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2b2b
+	.uaword	0x2b33
 	.uleb128 0x1b
 	.string	"msc"
 	.byte	0x1
 	.byte	0x5b
-	.uaword	0x2871
+	.uaword	0x2879
 	.uaword	.LLST11
 	.uleb128 0x1b
 	.string	"baud"
 	.byte	0x1
 	.byte	0x5b
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST12
 	.uleb128 0x22
 	.string	"fsys"
 	.byte	0x1
 	.byte	0x5d
-	.uaword	0x278
+	.uaword	0x280
 	.uaword	.LLST13
 	.uleb128 0x22
 	.string	"step"
 	.byte	0x1
 	.byte	0x5e
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST14
 	.uleb128 0x1d
 	.uaword	.LVL19
-	.uaword	0x2f3b
+	.uaword	0x2f43
 	.byte	0
 	.uleb128 0x19
 	.byte	0x1
@@ -5225,12 +5225,12 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2b61
+	.uaword	0x2b69
 	.uleb128 0x1a
 	.string	"msc"
 	.byte	0x1
 	.byte	0x68
-	.uaword	0x2871
+	.uaword	0x2879
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -5240,18 +5240,18 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x6f
 	.byte	0x1
-	.uaword	0x291
+	.uaword	0x299
 	.uaword	.LFB284
 	.uaword	.LFE284
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2ba7
+	.uaword	0x2baf
 	.uleb128 0x1a
 	.string	"msc"
 	.byte	0x1
 	.byte	0x6f
-	.uaword	0x2871
+	.uaword	0x2879
 	.byte	0x1
 	.byte	0x64
 	.byte	0
@@ -5261,25 +5261,25 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x75
 	.byte	0x1
-	.uaword	0x2871
+	.uaword	0x2879
 	.uaword	.LFB285
 	.uaword	.LFE285
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2bef
+	.uaword	0x2bf7
 	.uleb128 0x1a
 	.string	"msc"
 	.byte	0x1
 	.byte	0x75
-	.uaword	0x285d
+	.uaword	0x2865
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x24
 	.string	"module"
 	.byte	0x1
 	.byte	0x77
-	.uaword	0x2871
+	.uaword	0x2879
 	.byte	0x1
 	.byte	0x62
 	.byte	0
@@ -5289,25 +5289,25 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x86
 	.byte	0x1
-	.uaword	0x291
+	.uaword	0x299
 	.uaword	.LFB286
 	.uaword	.LFE286
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2c46
+	.uaword	0x2c4e
 	.uleb128 0x1a
 	.string	"msc"
 	.byte	0x1
 	.byte	0x86
-	.uaword	0x2871
+	.uaword	0x2879
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x22
 	.string	"flag"
 	.byte	0x1
 	.byte	0x88
-	.uaword	0x291
+	.uaword	0x299
 	.uaword	.LLST15
 	.byte	0
 	.uleb128 0x21
@@ -5316,31 +5316,31 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x90
 	.byte	0x1
-	.uaword	0x285d
+	.uaword	0x2865
 	.uaword	.LFB287
 	.uaword	.LFE287
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2c9f
+	.uaword	0x2ca7
 	.uleb128 0x1a
 	.string	"msc"
 	.byte	0x1
 	.byte	0x90
-	.uaword	0x2871
+	.uaword	0x2879
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x22
 	.string	"index"
 	.byte	0x1
 	.byte	0x92
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST16
 	.uleb128 0x22
 	.string	"result"
 	.byte	0x1
 	.byte	0x93
-	.uaword	0x285d
+	.uaword	0x2865
 	.uaword	.LLST17
 	.byte	0
 	.uleb128 0x19
@@ -5354,26 +5354,26 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2d13
+	.uaword	0x2d1b
 	.uleb128 0x1b
 	.string	"msc"
 	.byte	0x1
 	.byte	0xa4
-	.uaword	0x2871
+	.uaword	0x2879
 	.uaword	.LLST18
 	.uleb128 0x1c
 	.uaword	.LASF12
 	.byte	0x1
 	.byte	0xa6
-	.uaword	0x238
+	.uaword	0x240
 	.uaword	.LLST19
 	.uleb128 0x1d
 	.uaword	.LVL38
-	.uaword	0x2ebd
+	.uaword	0x2ec5
 	.uleb128 0x1e
 	.uaword	.LVL40
-	.uaword	0x2ee9
-	.uaword	0x2d01
+	.uaword	0x2ef1
+	.uaword	0x2d09
 	.uleb128 0x1f
 	.byte	0x1
 	.byte	0x54
@@ -5384,7 +5384,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uleb128 0x20
 	.uaword	.LVL41
 	.byte	0x1
-	.uaword	0x2f13
+	.uaword	0x2f1b
 	.uleb128 0x1f
 	.byte	0x1
 	.byte	0x54
@@ -5399,45 +5399,45 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0xb9
 	.byte	0x1
-	.uaword	0x2b1
+	.uaword	0x2b9
 	.uaword	.LFB289
 	.uaword	.LFE289
 	.byte	0x1
 	.byte	0x9c
-	.uaword	0x2da9
+	.uaword	0x2db1
 	.uleb128 0x1b
 	.string	"msc"
 	.byte	0x1
 	.byte	0xb9
-	.uaword	0x2871
+	.uaword	0x2879
 	.uaword	.LLST20
 	.uleb128 0x1b
 	.string	"baud"
 	.byte	0x1
 	.byte	0xb9
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST21
 	.uleb128 0x22
 	.string	"fsys"
 	.byte	0x1
 	.byte	0xbb
-	.uaword	0x278
+	.uaword	0x280
 	.uaword	.LLST22
 	.uleb128 0x22
 	.string	"step"
 	.byte	0x1
 	.byte	0xbc
-	.uaword	0x2b1
+	.uaword	0x2b9
 	.uaword	.LLST23
 	.uleb128 0x22
 	.string	"df"
 	.byte	0x1
 	.byte	0xbd
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST24
 	.uleb128 0x1d
 	.uaword	.LVL43
-	.uaword	0x2f3b
+	.uaword	0x2f43
 	.byte	0
 	.uleb128 0x21
 	.byte	0x1
@@ -5445,84 +5445,84 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x1
 	.byte	0xd0
 	.byte	0x1
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LFB290
 	.uaword	.LFE290
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2e3c
+	.uaword	0x2e44
 	.uleb128 0x1b
 	.string	"msc"
 	.byte	0x1
 	.byte	0xd0
-	.uaword	0x2871
+	.uaword	0x2879
 	.uaword	.LLST25
 	.uleb128 0x1b
 	.string	"baud"
 	.byte	0x1
 	.byte	0xd0
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST26
 	.uleb128 0x22
 	.string	"fsys"
 	.byte	0x1
 	.byte	0xd2
-	.uaword	0x278
+	.uaword	0x280
 	.uaword	.LLST27
 	.uleb128 0x22
 	.string	"step"
 	.byte	0x1
 	.byte	0xd3
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST28
 	.uleb128 0x22
 	.string	"df"
 	.byte	0x1
 	.byte	0xd4
-	.uaword	0x26a
+	.uaword	0x272
 	.uaword	.LLST29
 	.uleb128 0x1d
 	.uaword	.LVL50
-	.uaword	0x2f3b
+	.uaword	0x2f43
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x2f4
-	.uaword	0x2e4c
+	.uaword	0x2fc
+	.uaword	0x2e54
 	.uleb128 0x15
-	.uaword	0x27cd
+	.uaword	0x27d5
 	.byte	0x1
 	.byte	0
 	.uleb128 0x25
 	.string	"IfxMsc_cfg_indexMap"
 	.byte	0x5
 	.byte	0x49
-	.uaword	0x2e69
+	.uaword	0x2e71
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x26
-	.uaword	0x2e3c
+	.uaword	0x2e44
 	.uleb128 0x14
-	.uaword	0x2f4
-	.uaword	0x2e7e
+	.uaword	0x2fc
+	.uaword	0x2e86
 	.uleb128 0x15
-	.uaword	0x27cd
+	.uaword	0x27d5
 	.byte	0x2
 	.byte	0
 	.uleb128 0x25
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x6
 	.byte	0x96
-	.uaword	0x2e9b
+	.uaword	0x2ea3
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x26
-	.uaword	0x2e6e
+	.uaword	0x2e76
 	.uleb128 0x25
 	.string	"Assert_verboseLevel"
 	.byte	0x7
 	.byte	0x79
-	.uaword	0x26a
+	.uaword	0x272
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x27
@@ -5531,7 +5531,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x8
 	.uahalf	0x16d
 	.byte	0x1
-	.uaword	0x238
+	.uaword	0x240
 	.byte	0x1
 	.uleb128 0x28
 	.byte	0x1
@@ -5540,9 +5540,9 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0xc5
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2f13
+	.uaword	0x2f1b
 	.uleb128 0x29
-	.uaword	0x238
+	.uaword	0x240
 	.byte	0
 	.uleb128 0x28
 	.byte	0x1
@@ -5551,9 +5551,9 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0xdb
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2f3b
+	.uaword	0x2f43
 	.uleb128 0x29
-	.uaword	0x238
+	.uaword	0x240
 	.byte	0
 	.uleb128 0x27
 	.byte	0x1
@@ -5561,7 +5561,7 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x9
 	.uahalf	0x3a0
 	.byte	0x1
-	.uaword	0x278
+	.uaword	0x280
 	.byte	0x1
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -6223,9 +6223,9 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uahalf	0x8
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0x9f
 	.uaword	.LVL13
 	.uaword	.LVL14
@@ -6239,15 +6239,15 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uahalf	0x12
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0x7f
 	.sleb128 0
 	.byte	0x31
 	.byte	0x24
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0x1b
 	.byte	0xf7
 	.uleb128 0
@@ -6295,15 +6295,15 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.byte	0x3b
 	.byte	0x24
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0xf7
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x1b
 	.byte	0xf7
-	.uleb128 0x1c9
+	.uleb128 0x1d1
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -6351,92 +6351,92 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LVL20
 	.uahalf	0x1c
 	.byte	0xf4
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x7f
 	.sleb128 0
 	.byte	0x31
 	.byte	0x24
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0xf7
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x1b
 	.byte	0x1c
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0x9f
 	.uaword	.LVL20
 	.uaword	.LVL21
 	.uahalf	0x1a
 	.byte	0xf4
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x74
 	.sleb128 0
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0xf7
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x1b
 	.byte	0x1c
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0x9f
 	.uaword	.LVL21
 	.uaword	.LVL22
 	.uahalf	0x1c
 	.byte	0xf4
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x7f
 	.sleb128 0
 	.byte	0x31
 	.byte	0x24
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0xf7
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x1b
 	.byte	0x1c
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0x9f
 	.uaword	.LVL22
 	.uaword	.LVL23
 	.uahalf	0x1d
 	.byte	0xf4
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0xf3
 	.uleb128 0x1
 	.byte	0x54
 	.byte	0x31
 	.byte	0x24
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0xf7
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x1b
 	.byte	0x1c
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -6561,13 +6561,13 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uahalf	0xd
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x1b
 	.byte	0xf7
-	.uleb128 0x1c9
+	.uleb128 0x1d1
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -6644,19 +6644,19 @@ IfxMsc_upstreamNormalBaudCalculator:
 	.uaword	.LVL54
 	.uahalf	0x16
 	.byte	0xf4
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0xf5
 	.uleb128 0x2
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0xf5
 	.uleb128 0xf
-	.uleb128 0x1b0
+	.uleb128 0x1b8
 	.byte	0x1b
 	.byte	0x1c
 	.byte	0xf7
-	.uleb128 0x1b9
+	.uleb128 0x1c1
 	.byte	0x9f
 	.uaword	.LVL56
 	.uaword	.LFE290

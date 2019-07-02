@@ -49,7 +49,7 @@ core1_main:
 	.file 3 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x301
+	.uaword	0x309
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -57,7 +57,7 @@ core1_main:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/Cpu1_Main.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -98,7 +98,7 @@ core1_main:
 	.string	"uint16"
 	.byte	0x2
 	.byte	0x5b
-	.uaword	0x220
+	.uaword	0x228
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -134,13 +134,13 @@ core1_main:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.uleb128 0x5
 	.uaword	.LVL0
-	.uaword	0x2ae
+	.uaword	0x2b6
 	.uleb128 0x5
 	.uaword	.LVL1
-	.uaword	0x2da
+	.uaword	0x2e2
 	.byte	0
 	.uleb128 0x6
 	.byte	0x1
@@ -148,7 +148,7 @@ core1_main:
 	.byte	0x3
 	.uahalf	0x16d
 	.byte	0x1
-	.uaword	0x212
+	.uaword	0x21a
 	.byte	0x1
 	.uleb128 0x7
 	.byte	0x1
@@ -158,7 +158,7 @@ core1_main:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x8
-	.uaword	0x212
+	.uaword	0x21a
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits

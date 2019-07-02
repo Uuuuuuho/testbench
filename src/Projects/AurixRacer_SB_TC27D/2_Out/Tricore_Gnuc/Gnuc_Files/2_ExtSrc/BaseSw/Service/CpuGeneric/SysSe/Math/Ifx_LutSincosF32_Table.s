@@ -1038,7 +1038,7 @@ Ifx_g_LutSincosF32_table:
 	.file 2 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutSincosF32_Table.c"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x2bd
+	.uaword	0x2c5
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -1046,7 +1046,7 @@ Ifx_g_LutSincosF32_table:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutSincosF32_Table.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.byte	0x4
@@ -1080,7 +1080,7 @@ Ifx_g_LutSincosF32_table:
 	.string	"float32"
 	.byte	0x1
 	.byte	0x5e
-	.uaword	0x231
+	.uaword	0x239
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -1102,10 +1102,10 @@ Ifx_g_LutSincosF32_table:
 	.byte	0x6
 	.string	"char"
 	.uleb128 0x4
-	.uaword	0x222
-	.uaword	0x288
+	.uaword	0x22a
+	.uaword	0x290
 	.uleb128 0x5
-	.uaword	0x288
+	.uaword	0x290
 	.uahalf	0x400
 	.byte	0
 	.uleb128 0x2
@@ -1116,13 +1116,13 @@ Ifx_g_LutSincosF32_table:
 	.string	"Ifx_g_LutSincosF32_table"
 	.byte	0x2
 	.byte	0x29
-	.uaword	0x2bb
+	.uaword	0x2c3
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	Ifx_g_LutSincosF32_table
 	.uleb128 0x7
-	.uaword	0x277
+	.uaword	0x27f
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

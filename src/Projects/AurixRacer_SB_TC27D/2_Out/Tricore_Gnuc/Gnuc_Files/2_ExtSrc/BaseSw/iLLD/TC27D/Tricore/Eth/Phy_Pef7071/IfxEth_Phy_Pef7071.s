@@ -321,7 +321,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.file 6 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x810
+	.uaword	0x818
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -329,7 +329,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Eth/Phy_Pef7071/IfxEth_Phy_Pef7071.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -366,12 +366,12 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x5c
-	.uaword	0x1c4
+	.uaword	0x1cc
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x1d0
+	.uaword	0x1d8
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -384,7 +384,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"boolean"
 	.byte	0x2
 	.byte	0x68
-	.uaword	0x1fb
+	.uaword	0x203
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -399,31 +399,31 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2a6
+	.uaword	0x2ae
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x3
 	.byte	0x7e
-	.uaword	0x2cd
+	.uaword	0x2d5
 	.uleb128 0x7
 	.string	"module"
 	.byte	0x3
 	.byte	0x80
-	.uaword	0x2a0
+	.uaword	0x2a8
 	.byte	0
 	.uleb128 0x7
 	.string	"index"
 	.byte	0x3
 	.byte	0x81
-	.uaword	0x22f
+	.uaword	0x237
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x2a7
+	.uaword	0x2af
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -433,12 +433,12 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.byte	0x4
 	.byte	0x4
 	.byte	0xb8
-	.uaword	0x370
+	.uaword	0x378
 	.uleb128 0x9
 	.string	"GB"
 	.byte	0x4
 	.byte	0xba
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -447,7 +447,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"GW"
 	.byte	0x4
 	.byte	0xbb
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -456,7 +456,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"CR"
 	.byte	0x4
 	.byte	0xbc
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1a
@@ -465,7 +465,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"GR"
 	.byte	0x4
 	.byte	0xbd
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.byte	0x4
 	.byte	0x5
 	.byte	0x15
@@ -474,7 +474,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"PA"
 	.byte	0x4
 	.byte	0xbe
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -483,7 +483,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0xbf
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -493,18 +493,18 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"Ifx_ETH_GMII_ADDRESS_Bits"
 	.byte	0x4
 	.byte	0xc0
-	.uaword	0x2f7
+	.uaword	0x2ff
 	.uleb128 0x8
 	.string	"_Ifx_ETH_GMII_DATA_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc3
-	.uaword	0x3cf
+	.uaword	0x3d7
 	.uleb128 0x9
 	.string	"GD"
 	.byte	0x4
 	.byte	0xc5
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -513,7 +513,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0xc6
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -523,59 +523,59 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"Ifx_ETH_GMII_DATA_Bits"
 	.byte	0x4
 	.byte	0xc7
-	.uaword	0x391
+	.uaword	0x399
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x5cf
-	.uaword	0x415
+	.uaword	0x41d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x5d1
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x5d2
-	.uaword	0x1e5
+	.uaword	0x1ed
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x5d3
-	.uaword	0x370
+	.uaword	0x378
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_ETH_GMII_ADDRESS"
 	.byte	0x4
 	.uahalf	0x5d4
-	.uaword	0x3ed
+	.uaword	0x3f5
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x5d7
-	.uaword	0x45a
+	.uaword	0x462
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x5d9
-	.uaword	0x2e7
+	.uaword	0x2ef
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x5da
-	.uaword	0x1e5
+	.uaword	0x1ed
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x5db
-	.uaword	0x3cf
+	.uaword	0x3d7
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_ETH_GMII_DATA"
 	.byte	0x4
 	.uahalf	0x5dc
-	.uaword	0x432
+	.uaword	0x43a
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -584,7 +584,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.byte	0x1
 	.byte	0x6
 	.byte	0x76
-	.uaword	0x4d0
+	.uaword	0x4d8
 	.uleb128 0xf
 	.string	"IfxCpu_Index_0"
 	.sleb128 0
@@ -605,26 +605,26 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.byte	0xa4
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x523
+	.uaword	0x52b
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x1
 	.byte	0xa4
-	.uaword	0x23d
+	.uaword	0x245
 	.uleb128 0x12
 	.string	"regaddr"
 	.byte	0x1
 	.byte	0xa4
-	.uaword	0x23d
+	.uaword	0x245
 	.uleb128 0x12
 	.string	"pdata"
 	.byte	0x1
 	.byte	0xa4
-	.uaword	0x523
+	.uaword	0x52b
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x23d
+	.uaword	0x245
 	.uleb128 0x10
 	.byte	0x1
 	.string	"IfxEth_Phy_Pef7071_write_mdio_reg"
@@ -632,22 +632,22 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.byte	0xb0
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x57c
+	.uaword	0x584
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x1
 	.byte	0xb0
-	.uaword	0x23d
+	.uaword	0x245
 	.uleb128 0x12
 	.string	"regaddr"
 	.byte	0x1
 	.byte	0xb0
-	.uaword	0x23d
+	.uaword	0x245
 	.uleb128 0x12
 	.string	"data"
 	.byte	0x1
 	.byte	0xb0
-	.uaword	0x23d
+	.uaword	0x245
 	.byte	0
 	.uleb128 0x13
 	.byte	0x1
@@ -655,121 +655,121 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.byte	0x1
 	.byte	0x6f
 	.byte	0x1
-	.uaword	0x23d
+	.uaword	0x245
 	.uaword	.LFB306
 	.uaword	.LFE306
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x6a8
+	.uaword	0x6b0
 	.uleb128 0x14
 	.string	"value"
 	.byte	0x1
 	.byte	0x7d
-	.uaword	0x23d
+	.uaword	0x245
 	.uaword	.LLST0
 	.uleb128 0x15
-	.uaword	0x529
+	.uaword	0x531
 	.uaword	.LBB17
 	.uaword	.LBE17
 	.byte	0x1
 	.byte	0x7c
-	.uaword	0x5e4
+	.uaword	0x5ec
 	.uleb128 0x16
-	.uaword	0x56f
+	.uaword	0x577
 	.uahalf	0x8000
 	.uleb128 0x17
-	.uaword	0x560
+	.uaword	0x568
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x555
+	.uaword	0x55d
 	.byte	0
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x4d0
+	.uaword	0x4d8
 	.uaword	.LBB19
 	.uaword	.LBE19
 	.byte	0x1
 	.byte	0x81
-	.uaword	0x610
+	.uaword	0x618
 	.uleb128 0x18
-	.uaword	0x515
+	.uaword	0x51d
 	.byte	0x6
 	.byte	0xf2
-	.uaword	.Ldebug_info0+1452
+	.uaword	.Ldebug_info0+1460
 	.sleb128 0
 	.uleb128 0x17
-	.uaword	0x506
+	.uaword	0x50e
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x4fb
+	.uaword	0x503
 	.byte	0
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x529
+	.uaword	0x531
 	.uaword	.LBB21
 	.uaword	.LBE21
 	.byte	0x1
 	.byte	0x85
-	.uaword	0x637
+	.uaword	0x63f
 	.uleb128 0x16
-	.uaword	0x56f
+	.uaword	0x577
 	.uahalf	0xf702
 	.uleb128 0x17
-	.uaword	0x560
+	.uaword	0x568
 	.byte	0x17
 	.uleb128 0x17
-	.uaword	0x555
+	.uaword	0x55d
 	.byte	0
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x529
+	.uaword	0x531
 	.uaword	.LBB23
 	.uaword	.LBE23
 	.byte	0x1
 	.byte	0x86
-	.uaword	0x65d
+	.uaword	0x665
 	.uleb128 0x17
-	.uaword	0x56f
+	.uaword	0x577
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x560
+	.uaword	0x568
 	.byte	0x9
 	.uleb128 0x17
-	.uaword	0x555
+	.uaword	0x55d
 	.byte	0
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x529
+	.uaword	0x531
 	.uaword	.LBB25
 	.uaword	.LBE25
 	.byte	0x1
 	.byte	0x87
-	.uaword	0x684
+	.uaword	0x68c
 	.uleb128 0x16
-	.uaword	0x56f
+	.uaword	0x577
 	.uahalf	0x101
 	.uleb128 0x17
-	.uaword	0x560
+	.uaword	0x568
 	.byte	0x4
 	.uleb128 0x17
-	.uaword	0x555
+	.uaword	0x55d
 	.byte	0
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x529
+	.uaword	0x531
 	.uaword	.LBB27
 	.uaword	.LBE27
 	.byte	0x1
 	.byte	0x88
 	.uleb128 0x16
-	.uaword	0x56f
+	.uaword	0x577
 	.uahalf	0x1200
 	.uleb128 0x17
-	.uaword	0x560
+	.uaword	0x568
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x555
+	.uaword	0x55d
 	.byte	0
 	.byte	0
 	.byte	0
@@ -779,18 +779,18 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.byte	0x1
 	.byte	0x95
 	.byte	0x1
-	.uaword	0x25e
+	.uaword	0x266
 	.uaword	.LFB307
 	.uaword	.LFE307
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x73a
+	.uaword	0x742
 	.uleb128 0x14
 	.string	"linkEstablished"
 	.byte	0x1
 	.byte	0x97
-	.uaword	0x25e
+	.uaword	0x266
 	.uaword	.LLST1
 	.uleb128 0x1a
 	.uaword	.LBB29
@@ -799,61 +799,61 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"value"
 	.byte	0x1
 	.byte	0x9b
-	.uaword	0x23d
+	.uaword	0x245
 	.uaword	.LLST2
 	.uleb128 0x19
-	.uaword	0x4d0
+	.uaword	0x4d8
 	.uaword	.LBB30
 	.uaword	.LBE30
 	.byte	0x1
 	.byte	0x9c
 	.uleb128 0x1b
-	.uaword	0x515
+	.uaword	0x51d
 	.uaword	.LLST3
 	.uleb128 0x1b
-	.uaword	0x506
+	.uaword	0x50e
 	.uaword	.LLST4
 	.uleb128 0x1b
-	.uaword	0x4fb
+	.uaword	0x503
 	.uaword	.LLST5
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x1c
-	.uaword	0x4d0
+	.uaword	0x4d8
 	.uaword	.LFB308
 	.uaword	.LFE308
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x768
+	.uaword	0x770
 	.uleb128 0x1b
-	.uaword	0x4fb
+	.uaword	0x503
 	.uaword	.LLST6
 	.uleb128 0x1b
-	.uaword	0x506
+	.uaword	0x50e
 	.uaword	.LLST7
 	.uleb128 0x18
-	.uaword	0x515
+	.uaword	0x51d
 	.byte	0x1
 	.byte	0x64
 	.byte	0
 	.uleb128 0x1c
-	.uaword	0x529
+	.uaword	0x531
 	.uaword	.LFB309
 	.uaword	.LFE309
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x796
+	.uaword	0x79e
 	.uleb128 0x1b
-	.uaword	0x555
+	.uaword	0x55d
 	.uaword	.LLST8
 	.uleb128 0x1b
-	.uaword	0x560
+	.uaword	0x568
 	.uaword	.LLST9
 	.uleb128 0x18
-	.uaword	0x56f
+	.uaword	0x577
 	.byte	0x1
 	.byte	0x56
 	.byte	0
@@ -861,30 +861,30 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.string	"Assert_verboseLevel"
 	.byte	0x5
 	.byte	0x79
-	.uaword	0x23d
+	.uaword	0x245
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1e
-	.uaword	0x2cd
-	.uaword	0x7c3
+	.uaword	0x2d5
+	.uaword	0x7cb
 	.uleb128 0x1f
-	.uaword	0x474
+	.uaword	0x47c
 	.byte	0x2
 	.byte	0
 	.uleb128 0x1d
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x6
 	.byte	0x96
-	.uaword	0x7e0
+	.uaword	0x7e8
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.uaword	0x7b3
+	.uaword	0x7bb
 	.uleb128 0x21
 	.string	"IfxEth_Phy_Pef7071_iPhyInitDone"
 	.byte	0x1
 	.byte	0x69
-	.uaword	0x23d
+	.uaword	0x245
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -1371,7 +1371,7 @@ IfxEth_Phy_Pef7071_iPhyInitDone:
 	.uaword	.LVL11
 	.uahalf	0x6
 	.byte	0xf2
-	.uaword	.Ldebug_info0+1788
+	.uaword	.Ldebug_info0+1796
 	.sleb128 0
 	.uaword	0
 	.uaword	0

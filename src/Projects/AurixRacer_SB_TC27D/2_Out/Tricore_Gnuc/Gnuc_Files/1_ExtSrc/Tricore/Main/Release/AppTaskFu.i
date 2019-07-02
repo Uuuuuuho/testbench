@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
-# 1 "C:\\Users\\user\\Documents\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\JB\\Documents\\Github\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
@@ -28969,7 +28969,8 @@ extern float32 IR_AdcResult[];
 
 extern void BasicVadcBgScan_init(void);
 extern void BasicVadcBgScan_run(void);
-extern void Checking_PSD(void);
+extern boolean Checking_PSD(void);
+extern void resetPSD(void);
 # 8 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.h" 1
 # 16 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.h"
@@ -35458,6 +35459,8 @@ extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);
 extern void clearBuffer(void);
+extern boolean IsOutSchoolZone(void);
+
 
 extern float32 Direction(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
@@ -35658,6 +35661,7 @@ float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0, NextVol = 0;
 
 
 
+
 void appTaskfu_init(void){
  BasicLineScan_init();
  BasicPort_init();
@@ -35666,7 +35670,7 @@ void appTaskfu_init(void){
     BasicGpt12Enc_init();
     AsclinShellInterface_init();
     IR_Encoder.buff = 0;
-# 36 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 37 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
     InfineonRacer_init();
 
 
@@ -35700,7 +35704,23 @@ void appTaskfu_10ms(void)
  task_cnt_10m++;
 
     Speed_Avg();
-# 79 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+
+
+
+    if(Checking_PSD()){
+        if(!IR_LineData.School_Zone_flag){
+            IR_setMotor0Vol(-1);
+        }
+        else{
+            IR_setSrvAngle(-0.2);
+            resetPSD();
+        }
+    }
+
+    else{
+        IR_setMotor0Vol(testVol);
+    }
+# 96 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
  }
@@ -35745,17 +35765,17 @@ void appTaskfu_100ms(void)
         SrvControl(Direction());
 
     }
-# 134 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 151 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 148 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 165 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
-# 179 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 196 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
 
@@ -35797,5 +35817,5 @@ void Speed2Vol(void){
 
 void SrvControl(float32 diff){
     float32 result = -0.4 - diff * 0.3 / 88;
-    IR_setMotor0Vol(result);
+    IR_setSrvAngle(result);
 }

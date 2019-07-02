@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.c"
-# 1 "C:\\Users\\user\\Documents\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\JB\\Documents\\Github\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.c"
@@ -16223,7 +16223,8 @@ extern float32 IR_AdcResult[];
 
 extern void BasicVadcBgScan_init(void);
 extern void BasicVadcBgScan_run(void);
-extern void Checking_PSD(void);
+extern boolean Checking_PSD(void);
+extern void resetPSD(void);
 # 14 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.c" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Cfg_Illd/Configuration.h" 1
 # 13 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Cfg_Illd/Configuration.h"
@@ -27394,10 +27395,16 @@ void BasicVadcBgScan_run(void)
         }
 }
 
-void Checking_PSD(void){
+boolean Checking_PSD(void){
     if(IR_AdcResult[1] > 0.4)
         IR_PSD_counter.PSD_counter++;
 
-    if(IR_PSD_counter.PSD_counter > 10)
+    if(IR_PSD_counter.PSD_counter > 10){
         IR_PSD_counter.Stop = 1;
+        return 1;
+    }
+}
+
+void resetPSD(void){
+    IR_PSD_counter.PSD_counter = 0;
 }

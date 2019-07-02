@@ -90,7 +90,7 @@ IfxPort_Io_initModule:
 	.file 5 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Port/Io/IfxPort_Io.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x2bb8
+	.uaword	0x2bc0
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -98,7 +98,7 @@ IfxPort_Io_initModule:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Port/Io/IfxPort_Io.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0x20
 	.uaword	0
 	.uaword	0
@@ -123,7 +123,7 @@ IfxPort_Io_initModule:
 	.string	"uint8"
 	.byte	0x2
 	.byte	0x59
-	.uaword	0x1f8
+	.uaword	0x200
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -140,7 +140,7 @@ IfxPort_Io_initModule:
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x1c0
+	.uaword	0x1c8
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -166,12 +166,12 @@ IfxPort_Io_initModule:
 	.byte	0x4
 	.byte	0x3
 	.byte	0x2d
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0x5
 	.string	"EN0"
 	.byte	0x3
 	.byte	0x2f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -180,7 +180,7 @@ IfxPort_Io_initModule:
 	.string	"EN1"
 	.byte	0x3
 	.byte	0x30
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -189,7 +189,7 @@ IfxPort_Io_initModule:
 	.string	"EN2"
 	.byte	0x3
 	.byte	0x31
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -198,7 +198,7 @@ IfxPort_Io_initModule:
 	.string	"EN3"
 	.byte	0x3
 	.byte	0x32
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -207,7 +207,7 @@ IfxPort_Io_initModule:
 	.string	"EN4"
 	.byte	0x3
 	.byte	0x33
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -216,7 +216,7 @@ IfxPort_Io_initModule:
 	.string	"EN5"
 	.byte	0x3
 	.byte	0x34
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -225,7 +225,7 @@ IfxPort_Io_initModule:
 	.string	"EN6"
 	.byte	0x3
 	.byte	0x35
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -234,7 +234,7 @@ IfxPort_Io_initModule:
 	.string	"EN7"
 	.byte	0x3
 	.byte	0x36
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -243,7 +243,7 @@ IfxPort_Io_initModule:
 	.string	"EN8"
 	.byte	0x3
 	.byte	0x37
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -252,7 +252,7 @@ IfxPort_Io_initModule:
 	.string	"EN9"
 	.byte	0x3
 	.byte	0x38
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -261,7 +261,7 @@ IfxPort_Io_initModule:
 	.string	"EN10"
 	.byte	0x3
 	.byte	0x39
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -270,7 +270,7 @@ IfxPort_Io_initModule:
 	.string	"EN11"
 	.byte	0x3
 	.byte	0x3a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -279,7 +279,7 @@ IfxPort_Io_initModule:
 	.string	"EN12"
 	.byte	0x3
 	.byte	0x3b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -288,7 +288,7 @@ IfxPort_Io_initModule:
 	.string	"EN13"
 	.byte	0x3
 	.byte	0x3c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -297,7 +297,7 @@ IfxPort_Io_initModule:
 	.string	"EN14"
 	.byte	0x3
 	.byte	0x3d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -306,7 +306,7 @@ IfxPort_Io_initModule:
 	.string	"EN15"
 	.byte	0x3
 	.byte	0x3e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -315,7 +315,7 @@ IfxPort_Io_initModule:
 	.string	"EN16"
 	.byte	0x3
 	.byte	0x3f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -324,7 +324,7 @@ IfxPort_Io_initModule:
 	.string	"EN17"
 	.byte	0x3
 	.byte	0x40
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -333,7 +333,7 @@ IfxPort_Io_initModule:
 	.string	"EN18"
 	.byte	0x3
 	.byte	0x41
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -342,7 +342,7 @@ IfxPort_Io_initModule:
 	.string	"EN19"
 	.byte	0x3
 	.byte	0x42
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -351,7 +351,7 @@ IfxPort_Io_initModule:
 	.string	"EN20"
 	.byte	0x3
 	.byte	0x43
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -360,7 +360,7 @@ IfxPort_Io_initModule:
 	.string	"EN21"
 	.byte	0x3
 	.byte	0x44
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -369,7 +369,7 @@ IfxPort_Io_initModule:
 	.string	"EN22"
 	.byte	0x3
 	.byte	0x45
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -378,7 +378,7 @@ IfxPort_Io_initModule:
 	.string	"EN23"
 	.byte	0x3
 	.byte	0x46
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -387,7 +387,7 @@ IfxPort_Io_initModule:
 	.string	"EN24"
 	.byte	0x3
 	.byte	0x47
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -396,7 +396,7 @@ IfxPort_Io_initModule:
 	.string	"EN25"
 	.byte	0x3
 	.byte	0x48
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -405,7 +405,7 @@ IfxPort_Io_initModule:
 	.string	"EN26"
 	.byte	0x3
 	.byte	0x49
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -414,7 +414,7 @@ IfxPort_Io_initModule:
 	.string	"EN27"
 	.byte	0x3
 	.byte	0x4a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -423,7 +423,7 @@ IfxPort_Io_initModule:
 	.string	"EN28"
 	.byte	0x3
 	.byte	0x4b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -432,7 +432,7 @@ IfxPort_Io_initModule:
 	.string	"EN29"
 	.byte	0x3
 	.byte	0x4c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -441,7 +441,7 @@ IfxPort_Io_initModule:
 	.string	"EN30"
 	.byte	0x3
 	.byte	0x4d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -450,7 +450,7 @@ IfxPort_Io_initModule:
 	.string	"EN31"
 	.byte	0x3
 	.byte	0x4e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -464,18 +464,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x3
 	.byte	0x4f
-	.uaword	0x280
+	.uaword	0x288
 	.uleb128 0x4
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x52
-	.uaword	0x4e6
+	.uaword	0x4ee
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x54
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -485,18 +485,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x3
 	.byte	0x55
-	.uaword	0x4bb
+	.uaword	0x4c3
 	.uleb128 0x4
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x58
-	.uaword	0x61d
+	.uaword	0x625
 	.uleb128 0x5
 	.string	"EN0"
 	.byte	0x3
 	.byte	0x5a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -505,7 +505,7 @@ IfxPort_Io_initModule:
 	.string	"EN1"
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -514,7 +514,7 @@ IfxPort_Io_initModule:
 	.string	"EN2"
 	.byte	0x3
 	.byte	0x5c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -523,7 +523,7 @@ IfxPort_Io_initModule:
 	.string	"EN3"
 	.byte	0x3
 	.byte	0x5d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -532,7 +532,7 @@ IfxPort_Io_initModule:
 	.string	"EN4"
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -541,7 +541,7 @@ IfxPort_Io_initModule:
 	.string	"EN5"
 	.byte	0x3
 	.byte	0x5f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -550,7 +550,7 @@ IfxPort_Io_initModule:
 	.string	"EN6"
 	.byte	0x3
 	.byte	0x60
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -559,7 +559,7 @@ IfxPort_Io_initModule:
 	.string	"EN7"
 	.byte	0x3
 	.byte	0x61
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -568,7 +568,7 @@ IfxPort_Io_initModule:
 	.string	"EN8"
 	.byte	0x3
 	.byte	0x62
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -577,7 +577,7 @@ IfxPort_Io_initModule:
 	.string	"EN9"
 	.byte	0x3
 	.byte	0x63
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -586,7 +586,7 @@ IfxPort_Io_initModule:
 	.string	"EN10"
 	.byte	0x3
 	.byte	0x64
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -595,7 +595,7 @@ IfxPort_Io_initModule:
 	.string	"EN11"
 	.byte	0x3
 	.byte	0x65
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -604,7 +604,7 @@ IfxPort_Io_initModule:
 	.string	"EN12"
 	.byte	0x3
 	.byte	0x66
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -613,7 +613,7 @@ IfxPort_Io_initModule:
 	.string	"EN13"
 	.byte	0x3
 	.byte	0x67
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -622,7 +622,7 @@ IfxPort_Io_initModule:
 	.string	"EN14"
 	.byte	0x3
 	.byte	0x68
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -631,7 +631,7 @@ IfxPort_Io_initModule:
 	.string	"EN15"
 	.byte	0x3
 	.byte	0x69
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -640,7 +640,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x6a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -650,18 +650,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x3
 	.byte	0x6b
-	.uaword	0x4ff
+	.uaword	0x507
 	.uleb128 0x4
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x6e
-	.uaword	0x685
+	.uaword	0x68d
 	.uleb128 0x5
 	.string	"MODREV"
 	.byte	0x3
 	.byte	0x70
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -670,7 +670,7 @@ IfxPort_Io_initModule:
 	.string	"MODTYPE"
 	.byte	0x3
 	.byte	0x71
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -679,7 +679,7 @@ IfxPort_Io_initModule:
 	.string	"MODNUMBER"
 	.byte	0x3
 	.byte	0x72
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -689,18 +689,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x3
 	.byte	0x73
-	.uaword	0x633
+	.uaword	0x63b
 	.uleb128 0x4
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x76
-	.uaword	0x7a7
+	.uaword	0x7af
 	.uleb128 0x5
 	.string	"P0"
 	.byte	0x3
 	.byte	0x78
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -709,7 +709,7 @@ IfxPort_Io_initModule:
 	.string	"P1"
 	.byte	0x3
 	.byte	0x79
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -718,7 +718,7 @@ IfxPort_Io_initModule:
 	.string	"P2"
 	.byte	0x3
 	.byte	0x7a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -727,7 +727,7 @@ IfxPort_Io_initModule:
 	.string	"P3"
 	.byte	0x3
 	.byte	0x7b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -736,7 +736,7 @@ IfxPort_Io_initModule:
 	.string	"P4"
 	.byte	0x3
 	.byte	0x7c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -745,7 +745,7 @@ IfxPort_Io_initModule:
 	.string	"P5"
 	.byte	0x3
 	.byte	0x7d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -754,7 +754,7 @@ IfxPort_Io_initModule:
 	.string	"P6"
 	.byte	0x3
 	.byte	0x7e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -763,7 +763,7 @@ IfxPort_Io_initModule:
 	.string	"P7"
 	.byte	0x3
 	.byte	0x7f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -772,7 +772,7 @@ IfxPort_Io_initModule:
 	.string	"P8"
 	.byte	0x3
 	.byte	0x80
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -781,7 +781,7 @@ IfxPort_Io_initModule:
 	.string	"P9"
 	.byte	0x3
 	.byte	0x81
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -790,7 +790,7 @@ IfxPort_Io_initModule:
 	.string	"P10"
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -799,7 +799,7 @@ IfxPort_Io_initModule:
 	.string	"P11"
 	.byte	0x3
 	.byte	0x83
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -808,7 +808,7 @@ IfxPort_Io_initModule:
 	.string	"P12"
 	.byte	0x3
 	.byte	0x84
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -817,7 +817,7 @@ IfxPort_Io_initModule:
 	.string	"P13"
 	.byte	0x3
 	.byte	0x85
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -826,7 +826,7 @@ IfxPort_Io_initModule:
 	.string	"P14"
 	.byte	0x3
 	.byte	0x86
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -835,7 +835,7 @@ IfxPort_Io_initModule:
 	.string	"P15"
 	.byte	0x3
 	.byte	0x87
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -844,7 +844,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x88
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -854,18 +854,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x3
 	.byte	0x89
-	.uaword	0x69a
+	.uaword	0x6a2
 	.uleb128 0x4
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8c
-	.uaword	0x84f
+	.uaword	0x857
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x8e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -874,7 +874,7 @@ IfxPort_Io_initModule:
 	.string	"PC0"
 	.byte	0x3
 	.byte	0x8f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -883,7 +883,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0x90
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -892,7 +892,7 @@ IfxPort_Io_initModule:
 	.string	"PC1"
 	.byte	0x3
 	.byte	0x91
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -901,7 +901,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x92
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -910,7 +910,7 @@ IfxPort_Io_initModule:
 	.string	"PC2"
 	.byte	0x3
 	.byte	0x93
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -919,7 +919,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0x94
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -928,7 +928,7 @@ IfxPort_Io_initModule:
 	.string	"PC3"
 	.byte	0x3
 	.byte	0x95
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -938,18 +938,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x3
 	.byte	0x96
-	.uaword	0x7bc
+	.uaword	0x7c4
 	.uleb128 0x4
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x99
-	.uaword	0x8ff
+	.uaword	0x907
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x9b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -958,7 +958,7 @@ IfxPort_Io_initModule:
 	.string	"PC12"
 	.byte	0x3
 	.byte	0x9c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -967,7 +967,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0x9d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -976,7 +976,7 @@ IfxPort_Io_initModule:
 	.string	"PC13"
 	.byte	0x3
 	.byte	0x9e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -985,7 +985,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x9f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -994,7 +994,7 @@ IfxPort_Io_initModule:
 	.string	"PC14"
 	.byte	0x3
 	.byte	0xa0
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1003,7 +1003,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xa1
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1012,7 +1012,7 @@ IfxPort_Io_initModule:
 	.string	"PC15"
 	.byte	0x3
 	.byte	0xa2
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1022,18 +1022,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x3
 	.byte	0xa3
-	.uaword	0x867
+	.uaword	0x86f
 	.uleb128 0x4
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xa6
-	.uaword	0x9ab
+	.uaword	0x9b3
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xa8
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1042,7 +1042,7 @@ IfxPort_Io_initModule:
 	.string	"PC4"
 	.byte	0x3
 	.byte	0xa9
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1051,7 +1051,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xaa
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1060,7 +1060,7 @@ IfxPort_Io_initModule:
 	.string	"PC5"
 	.byte	0x3
 	.byte	0xab
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1069,7 +1069,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xac
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1078,7 +1078,7 @@ IfxPort_Io_initModule:
 	.string	"PC6"
 	.byte	0x3
 	.byte	0xad
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1087,7 +1087,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xae
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1096,7 +1096,7 @@ IfxPort_Io_initModule:
 	.string	"PC7"
 	.byte	0x3
 	.byte	0xaf
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1106,18 +1106,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x3
 	.byte	0xb0
-	.uaword	0x918
+	.uaword	0x920
 	.uleb128 0x4
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xb3
-	.uaword	0xa58
+	.uaword	0xa60
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xb5
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1126,7 +1126,7 @@ IfxPort_Io_initModule:
 	.string	"PC8"
 	.byte	0x3
 	.byte	0xb6
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1135,7 +1135,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xb7
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1144,7 +1144,7 @@ IfxPort_Io_initModule:
 	.string	"PC9"
 	.byte	0x3
 	.byte	0xb8
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1153,7 +1153,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xb9
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1162,7 +1162,7 @@ IfxPort_Io_initModule:
 	.string	"PC10"
 	.byte	0x3
 	.byte	0xba
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1171,7 +1171,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xbb
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1180,7 +1180,7 @@ IfxPort_Io_initModule:
 	.string	"PC11"
 	.byte	0x3
 	.byte	0xbc
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1190,18 +1190,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x3
 	.byte	0xbd
-	.uaword	0x9c3
+	.uaword	0x9cb
 	.uleb128 0x4
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xc0
-	.uaword	0xab8
+	.uaword	0xac0
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xc2
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1210,7 +1210,7 @@ IfxPort_Io_initModule:
 	.string	"PS1"
 	.byte	0x3
 	.byte	0xc3
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1219,7 +1219,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF4
 	.byte	0x3
 	.byte	0xc4
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -1229,18 +1229,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x3
 	.byte	0xc5
-	.uaword	0xa70
+	.uaword	0xa78
 	.uleb128 0x4
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xc8
-	.uaword	0xb18
+	.uaword	0xb20
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xca
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1249,7 +1249,7 @@ IfxPort_Io_initModule:
 	.string	"PS1"
 	.byte	0x3
 	.byte	0xcb
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1258,7 +1258,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF4
 	.byte	0x3
 	.byte	0xcc
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -1268,18 +1268,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x3
 	.byte	0xcd
-	.uaword	0xad0
+	.uaword	0xad8
 	.uleb128 0x4
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd0
-	.uaword	0xba8
+	.uaword	0xbb0
 	.uleb128 0x5
 	.string	"RDIS_CTRL"
 	.byte	0x3
 	.byte	0xd2
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1288,7 +1288,7 @@ IfxPort_Io_initModule:
 	.string	"RX_DIS"
 	.byte	0x3
 	.byte	0xd3
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1297,7 +1297,7 @@ IfxPort_Io_initModule:
 	.string	"TERM"
 	.byte	0x3
 	.byte	0xd4
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1306,7 +1306,7 @@ IfxPort_Io_initModule:
 	.string	"LRXTERM"
 	.byte	0x3
 	.byte	0xd5
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1315,7 +1315,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xd6
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -1325,18 +1325,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x3
 	.byte	0xd7
-	.uaword	0xb30
+	.uaword	0xb38
 	.uleb128 0x4
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xda
-	.uaword	0xc83
+	.uaword	0xc8b
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xdc
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1345,7 +1345,7 @@ IfxPort_Io_initModule:
 	.string	"LVDSR"
 	.byte	0x3
 	.byte	0xdd
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1354,7 +1354,7 @@ IfxPort_Io_initModule:
 	.string	"LVDSRL"
 	.byte	0x3
 	.byte	0xde
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1363,7 +1363,7 @@ IfxPort_Io_initModule:
 	.string	"reserved_10"
 	.byte	0x3
 	.byte	0xdf
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -1372,7 +1372,7 @@ IfxPort_Io_initModule:
 	.string	"TDIS_CTRL"
 	.byte	0x3
 	.byte	0xe0
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1381,7 +1381,7 @@ IfxPort_Io_initModule:
 	.string	"TX_DIS"
 	.byte	0x3
 	.byte	0xe1
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1390,7 +1390,7 @@ IfxPort_Io_initModule:
 	.string	"TX_PD"
 	.byte	0x3
 	.byte	0xe2
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1399,7 +1399,7 @@ IfxPort_Io_initModule:
 	.string	"TX_PWDPD"
 	.byte	0x3
 	.byte	0xe3
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1408,7 +1408,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xe4
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1418,18 +1418,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x3
 	.byte	0xe5
-	.uaword	0xbc4
+	.uaword	0xbcc
 	.uleb128 0x4
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xe8
-	.uaword	0xd14
+	.uaword	0xd1c
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xea
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -1438,7 +1438,7 @@ IfxPort_Io_initModule:
 	.string	"PCL0"
 	.byte	0x3
 	.byte	0xeb
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1447,7 +1447,7 @@ IfxPort_Io_initModule:
 	.string	"PCL1"
 	.byte	0x3
 	.byte	0xec
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1456,7 +1456,7 @@ IfxPort_Io_initModule:
 	.string	"PCL2"
 	.byte	0x3
 	.byte	0xed
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1465,7 +1465,7 @@ IfxPort_Io_initModule:
 	.string	"PCL3"
 	.byte	0x3
 	.byte	0xee
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1474,7 +1474,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF5
 	.byte	0x3
 	.byte	0xef
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -1484,18 +1484,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x3
 	.byte	0xf0
-	.uaword	0xc9b
+	.uaword	0xca3
 	.uleb128 0x4
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xf3
-	.uaword	0xd9b
+	.uaword	0xda3
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xf5
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -1504,7 +1504,7 @@ IfxPort_Io_initModule:
 	.string	"PCL12"
 	.byte	0x3
 	.byte	0xf6
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1513,7 +1513,7 @@ IfxPort_Io_initModule:
 	.string	"PCL13"
 	.byte	0x3
 	.byte	0xf7
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1522,7 +1522,7 @@ IfxPort_Io_initModule:
 	.string	"PCL14"
 	.byte	0x3
 	.byte	0xf8
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1531,7 +1531,7 @@ IfxPort_Io_initModule:
 	.string	"PCL15"
 	.byte	0x3
 	.byte	0xf9
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1541,18 +1541,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x3
 	.byte	0xfa
-	.uaword	0xd2c
+	.uaword	0xd34
 	.uleb128 0x4
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xfd
-	.uaword	0xe32
+	.uaword	0xe3a
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xff
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -1561,7 +1561,7 @@ IfxPort_Io_initModule:
 	.string	"PCL4"
 	.byte	0x3
 	.uahalf	0x100
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1570,7 +1570,7 @@ IfxPort_Io_initModule:
 	.string	"PCL5"
 	.byte	0x3
 	.uahalf	0x101
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1579,7 +1579,7 @@ IfxPort_Io_initModule:
 	.string	"PCL6"
 	.byte	0x3
 	.uahalf	0x102
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1588,7 +1588,7 @@ IfxPort_Io_initModule:
 	.string	"PCL7"
 	.byte	0x3
 	.uahalf	0x103
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1597,7 +1597,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF3
 	.byte	0x3
 	.uahalf	0x104
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1607,18 +1607,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x3
 	.uahalf	0x105
-	.uaword	0xdb4
+	.uaword	0xdbc
 	.uleb128 0xa
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x108
-	.uaword	0xecd
+	.uaword	0xed5
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x10a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -1627,7 +1627,7 @@ IfxPort_Io_initModule:
 	.string	"PCL8"
 	.byte	0x3
 	.uahalf	0x10b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1636,7 +1636,7 @@ IfxPort_Io_initModule:
 	.string	"PCL9"
 	.byte	0x3
 	.uahalf	0x10c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1645,7 +1645,7 @@ IfxPort_Io_initModule:
 	.string	"PCL10"
 	.byte	0x3
 	.uahalf	0x10d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1654,7 +1654,7 @@ IfxPort_Io_initModule:
 	.string	"PCL11"
 	.byte	0x3
 	.uahalf	0x10e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1663,7 +1663,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF6
 	.byte	0x3
 	.uahalf	0x10f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1673,18 +1673,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x3
 	.uahalf	0x110
-	.uaword	0xe4b
+	.uaword	0xe53
 	.uleb128 0xa
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x113
-	.uaword	0x1027
+	.uaword	0x102f
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x115
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -1693,7 +1693,7 @@ IfxPort_Io_initModule:
 	.string	"PCL0"
 	.byte	0x3
 	.uahalf	0x116
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1702,7 +1702,7 @@ IfxPort_Io_initModule:
 	.string	"PCL1"
 	.byte	0x3
 	.uahalf	0x117
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1711,7 +1711,7 @@ IfxPort_Io_initModule:
 	.string	"PCL2"
 	.byte	0x3
 	.uahalf	0x118
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1720,7 +1720,7 @@ IfxPort_Io_initModule:
 	.string	"PCL3"
 	.byte	0x3
 	.uahalf	0x119
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1729,7 +1729,7 @@ IfxPort_Io_initModule:
 	.string	"PCL4"
 	.byte	0x3
 	.uahalf	0x11a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1738,7 +1738,7 @@ IfxPort_Io_initModule:
 	.string	"PCL5"
 	.byte	0x3
 	.uahalf	0x11b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1747,7 +1747,7 @@ IfxPort_Io_initModule:
 	.string	"PCL6"
 	.byte	0x3
 	.uahalf	0x11c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1756,7 +1756,7 @@ IfxPort_Io_initModule:
 	.string	"PCL7"
 	.byte	0x3
 	.uahalf	0x11d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1765,7 +1765,7 @@ IfxPort_Io_initModule:
 	.string	"PCL8"
 	.byte	0x3
 	.uahalf	0x11e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1774,7 +1774,7 @@ IfxPort_Io_initModule:
 	.string	"PCL9"
 	.byte	0x3
 	.uahalf	0x11f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1783,7 +1783,7 @@ IfxPort_Io_initModule:
 	.string	"PCL10"
 	.byte	0x3
 	.uahalf	0x120
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1792,7 +1792,7 @@ IfxPort_Io_initModule:
 	.string	"PCL11"
 	.byte	0x3
 	.uahalf	0x121
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1801,7 +1801,7 @@ IfxPort_Io_initModule:
 	.string	"PCL12"
 	.byte	0x3
 	.uahalf	0x122
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1810,7 +1810,7 @@ IfxPort_Io_initModule:
 	.string	"PCL13"
 	.byte	0x3
 	.uahalf	0x123
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1819,7 +1819,7 @@ IfxPort_Io_initModule:
 	.string	"PCL14"
 	.byte	0x3
 	.uahalf	0x124
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1828,7 +1828,7 @@ IfxPort_Io_initModule:
 	.string	"PCL15"
 	.byte	0x3
 	.uahalf	0x125
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1838,18 +1838,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x3
 	.uahalf	0x126
-	.uaword	0xee6
+	.uaword	0xeee
 	.uleb128 0xa
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x129
-	.uaword	0x1275
+	.uaword	0x127d
 	.uleb128 0x7
 	.string	"PS0"
 	.byte	0x3
 	.uahalf	0x12b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1858,7 +1858,7 @@ IfxPort_Io_initModule:
 	.string	"PS1"
 	.byte	0x3
 	.uahalf	0x12c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1867,7 +1867,7 @@ IfxPort_Io_initModule:
 	.string	"PS2"
 	.byte	0x3
 	.uahalf	0x12d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1876,7 +1876,7 @@ IfxPort_Io_initModule:
 	.string	"PS3"
 	.byte	0x3
 	.uahalf	0x12e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1885,7 +1885,7 @@ IfxPort_Io_initModule:
 	.string	"PS4"
 	.byte	0x3
 	.uahalf	0x12f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1894,7 +1894,7 @@ IfxPort_Io_initModule:
 	.string	"PS5"
 	.byte	0x3
 	.uahalf	0x130
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1903,7 +1903,7 @@ IfxPort_Io_initModule:
 	.string	"PS6"
 	.byte	0x3
 	.uahalf	0x131
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1912,7 +1912,7 @@ IfxPort_Io_initModule:
 	.string	"PS7"
 	.byte	0x3
 	.uahalf	0x132
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1921,7 +1921,7 @@ IfxPort_Io_initModule:
 	.string	"PS8"
 	.byte	0x3
 	.uahalf	0x133
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1930,7 +1930,7 @@ IfxPort_Io_initModule:
 	.string	"PS9"
 	.byte	0x3
 	.uahalf	0x134
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1939,7 +1939,7 @@ IfxPort_Io_initModule:
 	.string	"PS10"
 	.byte	0x3
 	.uahalf	0x135
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1948,7 +1948,7 @@ IfxPort_Io_initModule:
 	.string	"PS11"
 	.byte	0x3
 	.uahalf	0x136
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1957,7 +1957,7 @@ IfxPort_Io_initModule:
 	.string	"PS12"
 	.byte	0x3
 	.uahalf	0x137
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1966,7 +1966,7 @@ IfxPort_Io_initModule:
 	.string	"PS13"
 	.byte	0x3
 	.uahalf	0x138
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1975,7 +1975,7 @@ IfxPort_Io_initModule:
 	.string	"PS14"
 	.byte	0x3
 	.uahalf	0x139
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1984,7 +1984,7 @@ IfxPort_Io_initModule:
 	.string	"PS15"
 	.byte	0x3
 	.uahalf	0x13a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1993,7 +1993,7 @@ IfxPort_Io_initModule:
 	.string	"PCL0"
 	.byte	0x3
 	.uahalf	0x13b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2002,7 +2002,7 @@ IfxPort_Io_initModule:
 	.string	"PCL1"
 	.byte	0x3
 	.uahalf	0x13c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2011,7 +2011,7 @@ IfxPort_Io_initModule:
 	.string	"PCL2"
 	.byte	0x3
 	.uahalf	0x13d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2020,7 +2020,7 @@ IfxPort_Io_initModule:
 	.string	"PCL3"
 	.byte	0x3
 	.uahalf	0x13e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2029,7 +2029,7 @@ IfxPort_Io_initModule:
 	.string	"PCL4"
 	.byte	0x3
 	.uahalf	0x13f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2038,7 +2038,7 @@ IfxPort_Io_initModule:
 	.string	"PCL5"
 	.byte	0x3
 	.uahalf	0x140
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2047,7 +2047,7 @@ IfxPort_Io_initModule:
 	.string	"PCL6"
 	.byte	0x3
 	.uahalf	0x141
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2056,7 +2056,7 @@ IfxPort_Io_initModule:
 	.string	"PCL7"
 	.byte	0x3
 	.uahalf	0x142
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2065,7 +2065,7 @@ IfxPort_Io_initModule:
 	.string	"PCL8"
 	.byte	0x3
 	.uahalf	0x143
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2074,7 +2074,7 @@ IfxPort_Io_initModule:
 	.string	"PCL9"
 	.byte	0x3
 	.uahalf	0x144
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2083,7 +2083,7 @@ IfxPort_Io_initModule:
 	.string	"PCL10"
 	.byte	0x3
 	.uahalf	0x145
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2092,7 +2092,7 @@ IfxPort_Io_initModule:
 	.string	"PCL11"
 	.byte	0x3
 	.uahalf	0x146
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2101,7 +2101,7 @@ IfxPort_Io_initModule:
 	.string	"PCL12"
 	.byte	0x3
 	.uahalf	0x147
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2110,7 +2110,7 @@ IfxPort_Io_initModule:
 	.string	"PCL13"
 	.byte	0x3
 	.uahalf	0x148
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2119,7 +2119,7 @@ IfxPort_Io_initModule:
 	.string	"PCL14"
 	.byte	0x3
 	.uahalf	0x149
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2128,7 +2128,7 @@ IfxPort_Io_initModule:
 	.string	"PCL15"
 	.byte	0x3
 	.uahalf	0x14a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2138,18 +2138,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x3
 	.uahalf	0x14b
-	.uaword	0x103f
+	.uaword	0x1047
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x14e
-	.uaword	0x12ff
+	.uaword	0x1307
 	.uleb128 0x7
 	.string	"PS0"
 	.byte	0x3
 	.uahalf	0x150
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2158,7 +2158,7 @@ IfxPort_Io_initModule:
 	.string	"PS1"
 	.byte	0x3
 	.uahalf	0x151
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2167,7 +2167,7 @@ IfxPort_Io_initModule:
 	.string	"PS2"
 	.byte	0x3
 	.uahalf	0x152
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2176,7 +2176,7 @@ IfxPort_Io_initModule:
 	.string	"PS3"
 	.byte	0x3
 	.uahalf	0x153
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2185,7 +2185,7 @@ IfxPort_Io_initModule:
 	.string	"reserved_4"
 	.byte	0x3
 	.uahalf	0x154
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -2195,18 +2195,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x3
 	.uahalf	0x155
-	.uaword	0x128c
+	.uaword	0x1294
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x158
-	.uaword	0x1399
+	.uaword	0x13a1
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x15a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -2215,7 +2215,7 @@ IfxPort_Io_initModule:
 	.string	"PS12"
 	.byte	0x3
 	.uahalf	0x15b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2224,7 +2224,7 @@ IfxPort_Io_initModule:
 	.string	"PS13"
 	.byte	0x3
 	.uahalf	0x15c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2233,7 +2233,7 @@ IfxPort_Io_initModule:
 	.string	"PS14"
 	.byte	0x3
 	.uahalf	0x15d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2242,7 +2242,7 @@ IfxPort_Io_initModule:
 	.string	"PS15"
 	.byte	0x3
 	.uahalf	0x15e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2251,7 +2251,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x15f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2261,18 +2261,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x3
 	.uahalf	0x160
-	.uaword	0x1318
+	.uaword	0x1320
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x163
-	.uaword	0x142f
+	.uaword	0x1437
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x165
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2281,7 +2281,7 @@ IfxPort_Io_initModule:
 	.string	"PS4"
 	.byte	0x3
 	.uahalf	0x166
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2290,7 +2290,7 @@ IfxPort_Io_initModule:
 	.string	"PS5"
 	.byte	0x3
 	.uahalf	0x167
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2299,7 +2299,7 @@ IfxPort_Io_initModule:
 	.string	"PS6"
 	.byte	0x3
 	.uahalf	0x168
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2308,7 +2308,7 @@ IfxPort_Io_initModule:
 	.string	"PS7"
 	.byte	0x3
 	.uahalf	0x169
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2317,7 +2317,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF2
 	.byte	0x3
 	.uahalf	0x16a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -2327,18 +2327,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x3
 	.uahalf	0x16b
-	.uaword	0x13b3
+	.uaword	0x13bb
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x16e
-	.uaword	0x14c6
+	.uaword	0x14ce
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x170
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2347,7 +2347,7 @@ IfxPort_Io_initModule:
 	.string	"PS8"
 	.byte	0x3
 	.uahalf	0x171
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2356,7 +2356,7 @@ IfxPort_Io_initModule:
 	.string	"PS9"
 	.byte	0x3
 	.uahalf	0x172
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2365,7 +2365,7 @@ IfxPort_Io_initModule:
 	.string	"PS10"
 	.byte	0x3
 	.uahalf	0x173
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2374,7 +2374,7 @@ IfxPort_Io_initModule:
 	.string	"PS11"
 	.byte	0x3
 	.uahalf	0x174
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2383,7 +2383,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF7
 	.byte	0x3
 	.uahalf	0x175
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -2393,18 +2393,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x3
 	.uahalf	0x176
-	.uaword	0x1448
+	.uaword	0x1450
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x179
-	.uaword	0x1610
+	.uaword	0x1618
 	.uleb128 0x7
 	.string	"PS0"
 	.byte	0x3
 	.uahalf	0x17b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2413,7 +2413,7 @@ IfxPort_Io_initModule:
 	.string	"PS1"
 	.byte	0x3
 	.uahalf	0x17c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2422,7 +2422,7 @@ IfxPort_Io_initModule:
 	.string	"PS2"
 	.byte	0x3
 	.uahalf	0x17d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2431,7 +2431,7 @@ IfxPort_Io_initModule:
 	.string	"PS3"
 	.byte	0x3
 	.uahalf	0x17e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2440,7 +2440,7 @@ IfxPort_Io_initModule:
 	.string	"PS4"
 	.byte	0x3
 	.uahalf	0x17f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2449,7 +2449,7 @@ IfxPort_Io_initModule:
 	.string	"PS5"
 	.byte	0x3
 	.uahalf	0x180
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2458,7 +2458,7 @@ IfxPort_Io_initModule:
 	.string	"PS6"
 	.byte	0x3
 	.uahalf	0x181
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2467,7 +2467,7 @@ IfxPort_Io_initModule:
 	.string	"PS7"
 	.byte	0x3
 	.uahalf	0x182
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2476,7 +2476,7 @@ IfxPort_Io_initModule:
 	.string	"PS8"
 	.byte	0x3
 	.uahalf	0x183
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2485,7 +2485,7 @@ IfxPort_Io_initModule:
 	.string	"PS9"
 	.byte	0x3
 	.uahalf	0x184
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2494,7 +2494,7 @@ IfxPort_Io_initModule:
 	.string	"PS10"
 	.byte	0x3
 	.uahalf	0x185
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2503,7 +2503,7 @@ IfxPort_Io_initModule:
 	.string	"PS11"
 	.byte	0x3
 	.uahalf	0x186
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2512,7 +2512,7 @@ IfxPort_Io_initModule:
 	.string	"PS12"
 	.byte	0x3
 	.uahalf	0x187
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2521,7 +2521,7 @@ IfxPort_Io_initModule:
 	.string	"PS13"
 	.byte	0x3
 	.uahalf	0x188
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2530,7 +2530,7 @@ IfxPort_Io_initModule:
 	.string	"PS14"
 	.byte	0x3
 	.uahalf	0x189
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2539,7 +2539,7 @@ IfxPort_Io_initModule:
 	.string	"PS15"
 	.byte	0x3
 	.uahalf	0x18a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2548,7 +2548,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x18b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2558,18 +2558,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x3
 	.uahalf	0x18c
-	.uaword	0x14df
+	.uaword	0x14e7
 	.uleb128 0xa
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x18f
-	.uaword	0x1748
+	.uaword	0x1750
 	.uleb128 0x7
 	.string	"P0"
 	.byte	0x3
 	.uahalf	0x191
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2578,7 +2578,7 @@ IfxPort_Io_initModule:
 	.string	"P1"
 	.byte	0x3
 	.uahalf	0x192
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2587,7 +2587,7 @@ IfxPort_Io_initModule:
 	.string	"P2"
 	.byte	0x3
 	.uahalf	0x193
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2596,7 +2596,7 @@ IfxPort_Io_initModule:
 	.string	"P3"
 	.byte	0x3
 	.uahalf	0x194
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2605,7 +2605,7 @@ IfxPort_Io_initModule:
 	.string	"P4"
 	.byte	0x3
 	.uahalf	0x195
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2614,7 +2614,7 @@ IfxPort_Io_initModule:
 	.string	"P5"
 	.byte	0x3
 	.uahalf	0x196
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2623,7 +2623,7 @@ IfxPort_Io_initModule:
 	.string	"P6"
 	.byte	0x3
 	.uahalf	0x197
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2632,7 +2632,7 @@ IfxPort_Io_initModule:
 	.string	"P7"
 	.byte	0x3
 	.uahalf	0x198
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2641,7 +2641,7 @@ IfxPort_Io_initModule:
 	.string	"P8"
 	.byte	0x3
 	.uahalf	0x199
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2650,7 +2650,7 @@ IfxPort_Io_initModule:
 	.string	"P9"
 	.byte	0x3
 	.uahalf	0x19a
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2659,7 +2659,7 @@ IfxPort_Io_initModule:
 	.string	"P10"
 	.byte	0x3
 	.uahalf	0x19b
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2668,7 +2668,7 @@ IfxPort_Io_initModule:
 	.string	"P11"
 	.byte	0x3
 	.uahalf	0x19c
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2677,7 +2677,7 @@ IfxPort_Io_initModule:
 	.string	"P12"
 	.byte	0x3
 	.uahalf	0x19d
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2686,7 +2686,7 @@ IfxPort_Io_initModule:
 	.string	"P13"
 	.byte	0x3
 	.uahalf	0x19e
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2695,7 +2695,7 @@ IfxPort_Io_initModule:
 	.string	"P14"
 	.byte	0x3
 	.uahalf	0x19f
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2704,7 +2704,7 @@ IfxPort_Io_initModule:
 	.string	"P15"
 	.byte	0x3
 	.uahalf	0x1a0
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2713,7 +2713,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x1a1
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2723,18 +2723,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x3
 	.uahalf	0x1a2
-	.uaword	0x1628
+	.uaword	0x1630
 	.uleb128 0xa
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1a5
-	.uaword	0x184c
+	.uaword	0x1854
 	.uleb128 0x7
 	.string	"SEL0"
 	.byte	0x3
 	.uahalf	0x1a7
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2743,7 +2743,7 @@ IfxPort_Io_initModule:
 	.string	"SEL1"
 	.byte	0x3
 	.uahalf	0x1a8
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2752,7 +2752,7 @@ IfxPort_Io_initModule:
 	.string	"SEL2"
 	.byte	0x3
 	.uahalf	0x1a9
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2761,7 +2761,7 @@ IfxPort_Io_initModule:
 	.string	"SEL3"
 	.byte	0x3
 	.uahalf	0x1aa
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2770,7 +2770,7 @@ IfxPort_Io_initModule:
 	.string	"SEL4"
 	.byte	0x3
 	.uahalf	0x1ab
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2779,7 +2779,7 @@ IfxPort_Io_initModule:
 	.string	"SEL5"
 	.byte	0x3
 	.uahalf	0x1ac
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2788,7 +2788,7 @@ IfxPort_Io_initModule:
 	.string	"SEL6"
 	.byte	0x3
 	.uahalf	0x1ad
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2797,7 +2797,7 @@ IfxPort_Io_initModule:
 	.string	"reserved_7"
 	.byte	0x3
 	.uahalf	0x1ae
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -2806,7 +2806,7 @@ IfxPort_Io_initModule:
 	.string	"SEL10"
 	.byte	0x3
 	.uahalf	0x1af
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2815,7 +2815,7 @@ IfxPort_Io_initModule:
 	.string	"SEL11"
 	.byte	0x3
 	.uahalf	0x1b0
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2824,7 +2824,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF7
 	.byte	0x3
 	.uahalf	0x1b1
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -2833,7 +2833,7 @@ IfxPort_Io_initModule:
 	.string	"LCK"
 	.byte	0x3
 	.uahalf	0x1b2
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2843,18 +2843,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x3
 	.uahalf	0x1b3
-	.uaword	0x175f
+	.uaword	0x1767
 	.uleb128 0xa
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1b6
-	.uaword	0x19b6
+	.uaword	0x19be
 	.uleb128 0x7
 	.string	"PDIS0"
 	.byte	0x3
 	.uahalf	0x1b8
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2863,7 +2863,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS1"
 	.byte	0x3
 	.uahalf	0x1b9
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2872,7 +2872,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS2"
 	.byte	0x3
 	.uahalf	0x1ba
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2881,7 +2881,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS3"
 	.byte	0x3
 	.uahalf	0x1bb
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2890,7 +2890,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS4"
 	.byte	0x3
 	.uahalf	0x1bc
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2899,7 +2899,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS5"
 	.byte	0x3
 	.uahalf	0x1bd
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2908,7 +2908,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS6"
 	.byte	0x3
 	.uahalf	0x1be
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2917,7 +2917,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS7"
 	.byte	0x3
 	.uahalf	0x1bf
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2926,7 +2926,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS8"
 	.byte	0x3
 	.uahalf	0x1c0
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2935,7 +2935,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS9"
 	.byte	0x3
 	.uahalf	0x1c1
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2944,7 +2944,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS10"
 	.byte	0x3
 	.uahalf	0x1c2
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2953,7 +2953,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS11"
 	.byte	0x3
 	.uahalf	0x1c3
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2962,7 +2962,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS12"
 	.byte	0x3
 	.uahalf	0x1c4
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2971,7 +2971,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS13"
 	.byte	0x3
 	.uahalf	0x1c5
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2980,7 +2980,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS14"
 	.byte	0x3
 	.uahalf	0x1c6
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2989,7 +2989,7 @@ IfxPort_Io_initModule:
 	.string	"PDIS15"
 	.byte	0x3
 	.uahalf	0x1c7
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2998,7 +2998,7 @@ IfxPort_Io_initModule:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x1c8
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3008,18 +3008,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x3
 	.uahalf	0x1c9
-	.uaword	0x1864
+	.uaword	0x186c
 	.uleb128 0xa
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1cc
-	.uaword	0x1aea
+	.uaword	0x1af2
 	.uleb128 0x7
 	.string	"PD0"
 	.byte	0x3
 	.uahalf	0x1ce
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3028,7 +3028,7 @@ IfxPort_Io_initModule:
 	.string	"PL0"
 	.byte	0x3
 	.uahalf	0x1cf
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3037,7 +3037,7 @@ IfxPort_Io_initModule:
 	.string	"PD1"
 	.byte	0x3
 	.uahalf	0x1d0
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -3046,7 +3046,7 @@ IfxPort_Io_initModule:
 	.string	"PL1"
 	.byte	0x3
 	.uahalf	0x1d1
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3055,7 +3055,7 @@ IfxPort_Io_initModule:
 	.string	"PD2"
 	.byte	0x3
 	.uahalf	0x1d2
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -3064,7 +3064,7 @@ IfxPort_Io_initModule:
 	.string	"PL2"
 	.byte	0x3
 	.uahalf	0x1d3
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3073,7 +3073,7 @@ IfxPort_Io_initModule:
 	.string	"PD3"
 	.byte	0x3
 	.uahalf	0x1d4
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -3082,7 +3082,7 @@ IfxPort_Io_initModule:
 	.string	"PL3"
 	.byte	0x3
 	.uahalf	0x1d5
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3091,7 +3091,7 @@ IfxPort_Io_initModule:
 	.string	"PD4"
 	.byte	0x3
 	.uahalf	0x1d6
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3100,7 +3100,7 @@ IfxPort_Io_initModule:
 	.string	"PL4"
 	.byte	0x3
 	.uahalf	0x1d7
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3109,7 +3109,7 @@ IfxPort_Io_initModule:
 	.string	"PD5"
 	.byte	0x3
 	.uahalf	0x1d8
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -3118,7 +3118,7 @@ IfxPort_Io_initModule:
 	.string	"PL5"
 	.byte	0x3
 	.uahalf	0x1d9
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3127,7 +3127,7 @@ IfxPort_Io_initModule:
 	.string	"PD6"
 	.byte	0x3
 	.uahalf	0x1da
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -3136,7 +3136,7 @@ IfxPort_Io_initModule:
 	.string	"PL6"
 	.byte	0x3
 	.uahalf	0x1db
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3145,7 +3145,7 @@ IfxPort_Io_initModule:
 	.string	"PD7"
 	.byte	0x3
 	.uahalf	0x1dc
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -3154,7 +3154,7 @@ IfxPort_Io_initModule:
 	.string	"PL7"
 	.byte	0x3
 	.uahalf	0x1dd
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3164,18 +3164,18 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x3
 	.uahalf	0x1de
-	.uaword	0x19cf
+	.uaword	0x19d7
 	.uleb128 0xa
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1e1
-	.uaword	0x1c29
+	.uaword	0x1c31
 	.uleb128 0x7
 	.string	"PD8"
 	.byte	0x3
 	.uahalf	0x1e3
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3184,7 +3184,7 @@ IfxPort_Io_initModule:
 	.string	"PL8"
 	.byte	0x3
 	.uahalf	0x1e4
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3193,7 +3193,7 @@ IfxPort_Io_initModule:
 	.string	"PD9"
 	.byte	0x3
 	.uahalf	0x1e5
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -3202,7 +3202,7 @@ IfxPort_Io_initModule:
 	.string	"PL9"
 	.byte	0x3
 	.uahalf	0x1e6
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3211,7 +3211,7 @@ IfxPort_Io_initModule:
 	.string	"PD10"
 	.byte	0x3
 	.uahalf	0x1e7
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -3220,7 +3220,7 @@ IfxPort_Io_initModule:
 	.string	"PL10"
 	.byte	0x3
 	.uahalf	0x1e8
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3229,7 +3229,7 @@ IfxPort_Io_initModule:
 	.string	"PD11"
 	.byte	0x3
 	.uahalf	0x1e9
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -3238,7 +3238,7 @@ IfxPort_Io_initModule:
 	.string	"PL11"
 	.byte	0x3
 	.uahalf	0x1ea
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3247,7 +3247,7 @@ IfxPort_Io_initModule:
 	.string	"PD12"
 	.byte	0x3
 	.uahalf	0x1eb
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3256,7 +3256,7 @@ IfxPort_Io_initModule:
 	.string	"PL12"
 	.byte	0x3
 	.uahalf	0x1ec
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3265,7 +3265,7 @@ IfxPort_Io_initModule:
 	.string	"PD13"
 	.byte	0x3
 	.uahalf	0x1ed
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -3274,7 +3274,7 @@ IfxPort_Io_initModule:
 	.string	"PL13"
 	.byte	0x3
 	.uahalf	0x1ee
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3283,7 +3283,7 @@ IfxPort_Io_initModule:
 	.string	"PD14"
 	.byte	0x3
 	.uahalf	0x1ef
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -3292,7 +3292,7 @@ IfxPort_Io_initModule:
 	.string	"PL14"
 	.byte	0x3
 	.uahalf	0x1f0
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3301,7 +3301,7 @@ IfxPort_Io_initModule:
 	.string	"PD15"
 	.byte	0x3
 	.uahalf	0x1f1
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -3310,7 +3310,7 @@ IfxPort_Io_initModule:
 	.string	"PL15"
 	.byte	0x3
 	.uahalf	0x1f2
-	.uaword	0x492
+	.uaword	0x49a
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3320,968 +3320,968 @@ IfxPort_Io_initModule:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x3
 	.uahalf	0x1f3
-	.uaword	0x1b02
+	.uaword	0x1b0a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1fb
-	.uaword	0x1c69
+	.uaword	0x1c71
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1fd
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1fe
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1ff
-	.uaword	0x4a2
+	.uaword	0x4aa
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x3
 	.uahalf	0x200
-	.uaword	0x1c41
+	.uaword	0x1c49
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x203
-	.uaword	0x1ca6
+	.uaword	0x1cae
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x205
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x206
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x207
-	.uaword	0x4e6
+	.uaword	0x4ee
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x3
 	.uahalf	0x208
-	.uaword	0x1c7e
+	.uaword	0x1c86
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x20b
-	.uaword	0x1ce3
+	.uaword	0x1ceb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x20d
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x20e
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x20f
-	.uaword	0x61d
+	.uaword	0x625
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_ESR"
 	.byte	0x3
 	.uahalf	0x210
-	.uaword	0x1cbb
+	.uaword	0x1cc3
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x213
-	.uaword	0x1d1d
+	.uaword	0x1d25
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x215
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x216
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x217
-	.uaword	0x685
+	.uaword	0x68d
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_ID"
 	.byte	0x3
 	.uahalf	0x218
-	.uaword	0x1cf5
+	.uaword	0x1cfd
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x21b
-	.uaword	0x1d56
+	.uaword	0x1d5e
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x21d
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x21e
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x21f
-	.uaword	0x7a7
+	.uaword	0x7af
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IN"
 	.byte	0x3
 	.uahalf	0x220
-	.uaword	0x1d2e
+	.uaword	0x1d36
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x223
-	.uaword	0x1d8f
+	.uaword	0x1d97
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x225
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x226
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x227
-	.uaword	0x84f
+	.uaword	0x857
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IOCR0"
 	.byte	0x3
 	.uahalf	0x228
-	.uaword	0x1d67
+	.uaword	0x1d6f
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x22b
-	.uaword	0x1dcb
+	.uaword	0x1dd3
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x22d
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x22e
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x22f
-	.uaword	0x8ff
+	.uaword	0x907
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IOCR12"
 	.byte	0x3
 	.uahalf	0x230
-	.uaword	0x1da3
+	.uaword	0x1dab
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x233
-	.uaword	0x1e08
+	.uaword	0x1e10
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x235
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x236
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x237
-	.uaword	0x9ab
+	.uaword	0x9b3
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IOCR4"
 	.byte	0x3
 	.uahalf	0x238
-	.uaword	0x1de0
+	.uaword	0x1de8
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x23b
-	.uaword	0x1e44
+	.uaword	0x1e4c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x23d
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x23e
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x23f
-	.uaword	0xa58
+	.uaword	0xa60
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IOCR8"
 	.byte	0x3
 	.uahalf	0x240
-	.uaword	0x1e1c
+	.uaword	0x1e24
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x243
-	.uaword	0x1e80
+	.uaword	0x1e88
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x245
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x246
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x247
-	.uaword	0xab8
+	.uaword	0xac0
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_LPCR0"
 	.byte	0x3
 	.uahalf	0x248
-	.uaword	0x1e58
+	.uaword	0x1e60
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x24b
-	.uaword	0x1eca
+	.uaword	0x1ed2
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x24d
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x24e
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x24f
-	.uaword	0xb18
+	.uaword	0xb20
 	.uleb128 0xc
 	.string	"B_P21"
 	.byte	0x3
 	.uahalf	0x250
-	.uaword	0xba8
+	.uaword	0xbb0
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_LPCR1"
 	.byte	0x3
 	.uahalf	0x251
-	.uaword	0x1e94
+	.uaword	0x1e9c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x254
-	.uaword	0x1f06
+	.uaword	0x1f0e
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x256
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x257
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x258
-	.uaword	0xc83
+	.uaword	0xc8b
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_LPCR2"
 	.byte	0x3
 	.uahalf	0x259
-	.uaword	0x1ede
+	.uaword	0x1ee6
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x25c
-	.uaword	0x1f42
+	.uaword	0x1f4a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x25e
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x25f
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x260
-	.uaword	0x1027
+	.uaword	0x102f
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR"
 	.byte	0x3
 	.uahalf	0x261
-	.uaword	0x1f1a
+	.uaword	0x1f22
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x264
-	.uaword	0x1f7d
+	.uaword	0x1f85
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x266
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x267
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x268
-	.uaword	0xd14
+	.uaword	0xd1c
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR0"
 	.byte	0x3
 	.uahalf	0x269
-	.uaword	0x1f55
+	.uaword	0x1f5d
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x26c
-	.uaword	0x1fb9
+	.uaword	0x1fc1
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x26e
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x26f
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x270
-	.uaword	0xd9b
+	.uaword	0xda3
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR12"
 	.byte	0x3
 	.uahalf	0x271
-	.uaword	0x1f91
+	.uaword	0x1f99
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x274
-	.uaword	0x1ff6
+	.uaword	0x1ffe
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x276
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x277
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x278
-	.uaword	0xe32
+	.uaword	0xe3a
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR4"
 	.byte	0x3
 	.uahalf	0x279
-	.uaword	0x1fce
+	.uaword	0x1fd6
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x27c
-	.uaword	0x2032
+	.uaword	0x203a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x27e
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x27f
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x280
-	.uaword	0xecd
+	.uaword	0xed5
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR8"
 	.byte	0x3
 	.uahalf	0x281
-	.uaword	0x200a
+	.uaword	0x2012
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x284
-	.uaword	0x206e
+	.uaword	0x2076
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x286
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x287
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x288
-	.uaword	0x1275
+	.uaword	0x127d
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMR"
 	.byte	0x3
 	.uahalf	0x289
-	.uaword	0x2046
+	.uaword	0x204e
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x28c
-	.uaword	0x20a8
+	.uaword	0x20b0
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x28e
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x28f
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x290
-	.uaword	0x1610
+	.uaword	0x1618
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR"
 	.byte	0x3
 	.uahalf	0x291
-	.uaword	0x2080
+	.uaword	0x2088
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x294
-	.uaword	0x20e3
+	.uaword	0x20eb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x296
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x297
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x298
-	.uaword	0x12ff
+	.uaword	0x1307
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR0"
 	.byte	0x3
 	.uahalf	0x299
-	.uaword	0x20bb
+	.uaword	0x20c3
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x29c
-	.uaword	0x211f
+	.uaword	0x2127
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x29e
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x29f
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2a0
-	.uaword	0x1399
+	.uaword	0x13a1
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR12"
 	.byte	0x3
 	.uahalf	0x2a1
-	.uaword	0x20f7
+	.uaword	0x20ff
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2a4
-	.uaword	0x215c
+	.uaword	0x2164
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2a6
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2a7
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2a8
-	.uaword	0x142f
+	.uaword	0x1437
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR4"
 	.byte	0x3
 	.uahalf	0x2a9
-	.uaword	0x2134
+	.uaword	0x213c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2ac
-	.uaword	0x2198
+	.uaword	0x21a0
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2ae
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2af
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2b0
-	.uaword	0x14c6
+	.uaword	0x14ce
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR8"
 	.byte	0x3
 	.uahalf	0x2b1
-	.uaword	0x2170
+	.uaword	0x2178
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2b4
-	.uaword	0x21d4
+	.uaword	0x21dc
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2b6
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2b7
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2b8
-	.uaword	0x1748
+	.uaword	0x1750
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OUT"
 	.byte	0x3
 	.uahalf	0x2b9
-	.uaword	0x21ac
+	.uaword	0x21b4
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2bc
-	.uaword	0x220e
+	.uaword	0x2216
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2be
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2bf
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2c0
-	.uaword	0x184c
+	.uaword	0x1854
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_PCSR"
 	.byte	0x3
 	.uahalf	0x2c1
-	.uaword	0x21e6
+	.uaword	0x21ee
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2c4
-	.uaword	0x2249
+	.uaword	0x2251
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2c6
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2c7
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2c8
-	.uaword	0x19b6
+	.uaword	0x19be
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_PDISC"
 	.byte	0x3
 	.uahalf	0x2c9
-	.uaword	0x2221
+	.uaword	0x2229
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2cc
-	.uaword	0x2285
+	.uaword	0x228d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2ce
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2cf
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2d0
-	.uaword	0x1aea
+	.uaword	0x1af2
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_PDR0"
 	.byte	0x3
 	.uahalf	0x2d1
-	.uaword	0x225d
+	.uaword	0x2265
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2d4
-	.uaword	0x22c0
+	.uaword	0x22c8
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2d6
-	.uaword	0x492
+	.uaword	0x49a
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2d7
-	.uaword	0x1d5
+	.uaword	0x1dd
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2d8
-	.uaword	0x1c29
+	.uaword	0x1c31
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_PDR1"
 	.byte	0x3
 	.uahalf	0x2d9
-	.uaword	0x2298
+	.uaword	0x22a0
 	.uleb128 0xd
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x3
 	.uahalf	0x2e4
-	.uaword	0x2514
+	.uaword	0x251c
 	.uleb128 0xe
 	.string	"OUT"
 	.byte	0x3
 	.uahalf	0x2e6
-	.uaword	0x21d4
+	.uaword	0x21dc
 	.byte	0
 	.uleb128 0xe
 	.string	"OMR"
 	.byte	0x3
 	.uahalf	0x2e7
-	.uaword	0x206e
+	.uaword	0x2076
 	.byte	0x4
 	.uleb128 0xe
 	.string	"ID"
 	.byte	0x3
 	.uahalf	0x2e8
-	.uaword	0x1d1d
+	.uaword	0x1d25
 	.byte	0x8
 	.uleb128 0xe
 	.string	"reserved_C"
 	.byte	0x3
 	.uahalf	0x2e9
-	.uaword	0x2514
+	.uaword	0x251c
 	.byte	0xc
 	.uleb128 0xe
 	.string	"IOCR0"
 	.byte	0x3
 	.uahalf	0x2ea
-	.uaword	0x1d8f
+	.uaword	0x1d97
 	.byte	0x10
 	.uleb128 0xe
 	.string	"IOCR4"
 	.byte	0x3
 	.uahalf	0x2eb
-	.uaword	0x1e08
+	.uaword	0x1e10
 	.byte	0x14
 	.uleb128 0xe
 	.string	"IOCR8"
 	.byte	0x3
 	.uahalf	0x2ec
-	.uaword	0x1e44
+	.uaword	0x1e4c
 	.byte	0x18
 	.uleb128 0xe
 	.string	"IOCR12"
 	.byte	0x3
 	.uahalf	0x2ed
-	.uaword	0x1dcb
+	.uaword	0x1dd3
 	.byte	0x1c
 	.uleb128 0xf
 	.uaword	.LASF5
 	.byte	0x3
 	.uahalf	0x2ee
-	.uaword	0x2514
+	.uaword	0x251c
 	.byte	0x20
 	.uleb128 0xe
 	.string	"IN"
 	.byte	0x3
 	.uahalf	0x2ef
-	.uaword	0x1d56
+	.uaword	0x1d5e
 	.byte	0x24
 	.uleb128 0xf
 	.uaword	.LASF6
 	.byte	0x3
 	.uahalf	0x2f0
-	.uaword	0x2530
+	.uaword	0x2538
 	.byte	0x28
 	.uleb128 0xe
 	.string	"PDR0"
 	.byte	0x3
 	.uahalf	0x2f1
-	.uaword	0x2285
+	.uaword	0x228d
 	.byte	0x40
 	.uleb128 0xe
 	.string	"PDR1"
 	.byte	0x3
 	.uahalf	0x2f2
-	.uaword	0x22c0
+	.uaword	0x22c8
 	.byte	0x44
 	.uleb128 0xe
 	.string	"reserved_48"
 	.byte	0x3
 	.uahalf	0x2f3
-	.uaword	0x2540
+	.uaword	0x2548
 	.byte	0x48
 	.uleb128 0xe
 	.string	"ESR"
 	.byte	0x3
 	.uahalf	0x2f4
-	.uaword	0x1ce3
+	.uaword	0x1ceb
 	.byte	0x50
 	.uleb128 0xe
 	.string	"reserved_54"
 	.byte	0x3
 	.uahalf	0x2f5
-	.uaword	0x2550
+	.uaword	0x2558
 	.byte	0x54
 	.uleb128 0xe
 	.string	"PDISC"
 	.byte	0x3
 	.uahalf	0x2f6
-	.uaword	0x2249
+	.uaword	0x2251
 	.byte	0x60
 	.uleb128 0xe
 	.string	"PCSR"
 	.byte	0x3
 	.uahalf	0x2f7
-	.uaword	0x220e
+	.uaword	0x2216
 	.byte	0x64
 	.uleb128 0xe
 	.string	"reserved_68"
 	.byte	0x3
 	.uahalf	0x2f8
-	.uaword	0x2540
+	.uaword	0x2548
 	.byte	0x68
 	.uleb128 0xe
 	.string	"OMSR0"
 	.byte	0x3
 	.uahalf	0x2f9
-	.uaword	0x20e3
+	.uaword	0x20eb
 	.byte	0x70
 	.uleb128 0xe
 	.string	"OMSR4"
 	.byte	0x3
 	.uahalf	0x2fa
-	.uaword	0x215c
+	.uaword	0x2164
 	.byte	0x74
 	.uleb128 0xe
 	.string	"OMSR8"
 	.byte	0x3
 	.uahalf	0x2fb
-	.uaword	0x2198
+	.uaword	0x21a0
 	.byte	0x78
 	.uleb128 0xe
 	.string	"OMSR12"
 	.byte	0x3
 	.uahalf	0x2fc
-	.uaword	0x211f
+	.uaword	0x2127
 	.byte	0x7c
 	.uleb128 0xe
 	.string	"OMCR0"
 	.byte	0x3
 	.uahalf	0x2fd
-	.uaword	0x1f7d
+	.uaword	0x1f85
 	.byte	0x80
 	.uleb128 0xe
 	.string	"OMCR4"
 	.byte	0x3
 	.uahalf	0x2fe
-	.uaword	0x1ff6
+	.uaword	0x1ffe
 	.byte	0x84
 	.uleb128 0xe
 	.string	"OMCR8"
 	.byte	0x3
 	.uahalf	0x2ff
-	.uaword	0x2032
+	.uaword	0x203a
 	.byte	0x88
 	.uleb128 0xe
 	.string	"OMCR12"
 	.byte	0x3
 	.uahalf	0x300
-	.uaword	0x1fb9
+	.uaword	0x1fc1
 	.byte	0x8c
 	.uleb128 0xe
 	.string	"OMSR"
 	.byte	0x3
 	.uahalf	0x301
-	.uaword	0x20a8
+	.uaword	0x20b0
 	.byte	0x90
 	.uleb128 0xe
 	.string	"OMCR"
 	.byte	0x3
 	.uahalf	0x302
-	.uaword	0x1f42
+	.uaword	0x1f4a
 	.byte	0x94
 	.uleb128 0xe
 	.string	"reserved_98"
 	.byte	0x3
 	.uahalf	0x303
-	.uaword	0x2540
+	.uaword	0x2548
 	.byte	0x98
 	.uleb128 0xe
 	.string	"LPCR0"
 	.byte	0x3
 	.uahalf	0x304
-	.uaword	0x1e80
+	.uaword	0x1e88
 	.byte	0xa0
 	.uleb128 0xe
 	.string	"LPCR1"
 	.byte	0x3
 	.uahalf	0x305
-	.uaword	0x1eca
+	.uaword	0x1ed2
 	.byte	0xa4
 	.uleb128 0xe
 	.string	"LPCR2"
 	.byte	0x3
 	.uahalf	0x306
-	.uaword	0x1f06
+	.uaword	0x1f0e
 	.byte	0xa8
 	.uleb128 0xe
 	.string	"reserved_A4"
 	.byte	0x3
 	.uahalf	0x307
-	.uaword	0x2560
+	.uaword	0x2568
 	.byte	0xac
 	.uleb128 0xe
 	.string	"ACCEN1"
 	.byte	0x3
 	.uahalf	0x308
-	.uaword	0x1ca6
+	.uaword	0x1cae
 	.byte	0xf8
 	.uleb128 0xe
 	.string	"ACCEN0"
 	.byte	0x3
 	.uahalf	0x309
-	.uaword	0x1c69
+	.uaword	0x1c71
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x1f8
-	.uaword	0x2524
+	.uaword	0x200
+	.uaword	0x252c
 	.uleb128 0x11
-	.uaword	0x2524
+	.uaword	0x252c
 	.byte	0x3
 	.byte	0
 	.uleb128 0x2
@@ -4289,48 +4289,48 @@ IfxPort_Io_initModule:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x10
-	.uaword	0x1f8
-	.uaword	0x2540
+	.uaword	0x200
+	.uaword	0x2548
 	.uleb128 0x11
-	.uaword	0x2524
+	.uaword	0x252c
 	.byte	0x17
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x1f8
-	.uaword	0x2550
+	.uaword	0x200
+	.uaword	0x2558
 	.uleb128 0x11
-	.uaword	0x2524
+	.uaword	0x252c
 	.byte	0x7
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x1f8
-	.uaword	0x2560
+	.uaword	0x200
+	.uaword	0x2568
 	.uleb128 0x11
-	.uaword	0x2524
+	.uaword	0x252c
 	.byte	0xb
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x1f8
-	.uaword	0x2570
+	.uaword	0x200
+	.uaword	0x2578
 	.uleb128 0x11
-	.uaword	0x2524
+	.uaword	0x252c
 	.byte	0x4b
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P"
 	.byte	0x3
 	.uahalf	0x30a
-	.uaword	0x257e
+	.uaword	0x2586
 	.uleb128 0x12
-	.uaword	0x22d3
+	.uaword	0x22db
 	.uleb128 0x13
 	.byte	0x4
-	.uaword	0x2570
+	.uaword	0x2578
 	.uleb128 0x14
 	.byte	0x1
 	.byte	0x4
 	.byte	0x4c
-	.uaword	0x2829
+	.uaword	0x2831
 	.uleb128 0x15
 	.string	"IfxPort_Mode_inputNoPullDevice"
 	.sleb128 0
@@ -4393,12 +4393,12 @@ IfxPort_Io_initModule:
 	.string	"IfxPort_Mode"
 	.byte	0x4
 	.byte	0x60
-	.uaword	0x2589
+	.uaword	0x2591
 	.uleb128 0x14
 	.byte	0x1
 	.byte	0x4
 	.byte	0x7d
-	.uaword	0x29de
+	.uaword	0x29e6
 	.uleb128 0x15
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -4440,90 +4440,90 @@ IfxPort_Io_initModule:
 	.string	"IfxPort_PadDriver"
 	.byte	0x4
 	.byte	0x8a
-	.uaword	0x283d
+	.uaword	0x2845
 	.uleb128 0x16
 	.byte	0x8
 	.byte	0x4
 	.byte	0xaa
-	.uaword	0x2a1e
+	.uaword	0x2a26
 	.uleb128 0x17
 	.string	"port"
 	.byte	0x4
 	.byte	0xac
-	.uaword	0x2583
+	.uaword	0x258b
 	.byte	0
 	.uleb128 0x17
 	.string	"pinIndex"
 	.byte	0x4
 	.byte	0xad
-	.uaword	0x1eb
+	.uaword	0x1f3
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxPort_Pin"
 	.byte	0x4
 	.byte	0xae
-	.uaword	0x29f7
+	.uaword	0x29ff
 	.uleb128 0x16
 	.byte	0x8
 	.byte	0x5
 	.byte	0x9f
-	.uaword	0x2a65
+	.uaword	0x2a6d
 	.uleb128 0x17
 	.string	"pin"
 	.byte	0x5
 	.byte	0xa1
-	.uaword	0x2a65
+	.uaword	0x2a6d
 	.byte	0
 	.uleb128 0x17
 	.string	"mode"
 	.byte	0x5
 	.byte	0xa2
-	.uaword	0x2829
+	.uaword	0x2831
 	.byte	0x4
 	.uleb128 0x17
 	.string	"padDriver"
 	.byte	0x5
 	.byte	0xa3
-	.uaword	0x29de
+	.uaword	0x29e6
 	.byte	0x5
 	.byte	0
 	.uleb128 0x13
 	.byte	0x4
-	.uaword	0x2a6b
+	.uaword	0x2a73
 	.uleb128 0x18
-	.uaword	0x2a1e
+	.uaword	0x2a26
 	.uleb128 0x3
 	.string	"IfxPort_Io_ConfigPin"
 	.byte	0x5
 	.byte	0xa4
-	.uaword	0x2a31
+	.uaword	0x2a39
 	.uleb128 0x16
 	.byte	0x8
 	.byte	0x5
 	.byte	0xaa
-	.uaword	0x2aae
+	.uaword	0x2ab6
 	.uleb128 0x17
 	.string	"size"
 	.byte	0x5
 	.byte	0xac
-	.uaword	0x22c
+	.uaword	0x234
 	.byte	0
 	.uleb128 0x19
 	.uaword	.LASF8
 	.byte	0x5
 	.byte	0xad
-	.uaword	0x2aae
+	.uaword	0x2ab6
 	.byte	0x4
 	.byte	0
 	.uleb128 0x13
 	.byte	0x4
-	.uaword	0x2a70
+	.uaword	0x2a78
 	.uleb128 0x3
 	.string	"IfxPort_Io_Config"
 	.byte	0x5
 	.byte	0xae
-	.uaword	0x2a8c
+	.uaword	0x2a94
 	.uleb128 0x1a
 	.byte	0x1
 	.string	"IfxPort_Io_initModule"
@@ -4535,24 +4535,24 @@ IfxPort_Io_initModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x2b4d
+	.uaword	0x2b55
 	.uleb128 0x1b
 	.string	"config"
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x2b4d
+	.uaword	0x2b55
 	.uaword	.LLST0
 	.uleb128 0x1c
 	.uaword	.LASF8
 	.byte	0x1
 	.byte	0x25
-	.uaword	0x2aae
+	.uaword	0x2ab6
 	.uaword	.LLST1
 	.uleb128 0x1d
 	.string	"i"
 	.byte	0x1
 	.byte	0x27
-	.uaword	0x22c
+	.uaword	0x234
 	.uaword	.LLST2
 	.uleb128 0x1e
 	.uaword	.Ldebug_ranges0+0
@@ -4560,24 +4560,24 @@ IfxPort_Io_initModule:
 	.string	"pin"
 	.byte	0x1
 	.byte	0x2b
-	.uaword	0x2b58
+	.uaword	0x2b60
 	.uaword	.LLST3
 	.uleb128 0x1f
 	.uaword	.LVL5
-	.uaword	0x2b5e
+	.uaword	0x2b66
 	.uleb128 0x1f
 	.uaword	.LVL7
-	.uaword	0x2b8c
+	.uaword	0x2b94
 	.byte	0
 	.byte	0
 	.uleb128 0x13
 	.byte	0x4
-	.uaword	0x2b53
+	.uaword	0x2b5b
 	.uleb128 0x18
-	.uaword	0x2ab4
+	.uaword	0x2abc
 	.uleb128 0x13
 	.byte	0x4
-	.uaword	0x2a1e
+	.uaword	0x2a26
 	.uleb128 0x20
 	.byte	0x1
 	.string	"IfxPort_setPinMode"
@@ -4585,13 +4585,13 @@ IfxPort_Io_initModule:
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2b8c
+	.uaword	0x2b94
 	.uleb128 0x21
-	.uaword	0x2583
+	.uaword	0x258b
 	.uleb128 0x21
-	.uaword	0x1eb
+	.uaword	0x1f3
 	.uleb128 0x21
-	.uaword	0x2829
+	.uaword	0x2831
 	.byte	0
 	.uleb128 0x22
 	.byte	0x1
@@ -4601,11 +4601,11 @@ IfxPort_Io_initModule:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x21
-	.uaword	0x2583
+	.uaword	0x258b
 	.uleb128 0x21
-	.uaword	0x1eb
+	.uaword	0x1f3
 	.uleb128 0x21
-	.uaword	0x29de
+	.uaword	0x29e6
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits

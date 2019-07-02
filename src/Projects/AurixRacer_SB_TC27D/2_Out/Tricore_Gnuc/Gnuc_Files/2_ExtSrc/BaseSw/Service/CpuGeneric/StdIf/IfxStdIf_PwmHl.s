@@ -67,7 +67,7 @@ IfxStdIf_PwmHl_initConfig:
 	.file 5 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x627
+	.uaword	0x62f
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -75,7 +75,7 @@ IfxStdIf_PwmHl_initConfig:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/StdIf/IfxStdIf_PwmHl.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -100,7 +100,7 @@ IfxStdIf_PwmHl_initConfig:
 	.string	"uint8"
 	.byte	0x2
 	.byte	0x59
-	.uaword	0x1fa
+	.uaword	0x202
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -117,7 +117,7 @@ IfxStdIf_PwmHl_initConfig:
 	.string	"float32"
 	.byte	0x2
 	.byte	0x5e
-	.uaword	0x23d
+	.uaword	0x245
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -130,7 +130,7 @@ IfxStdIf_PwmHl_initConfig:
 	.string	"boolean"
 	.byte	0x2
 	.byte	0x68
-	.uaword	0x1fa
+	.uaword	0x202
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -147,7 +147,7 @@ IfxStdIf_PwmHl_initConfig:
 	.byte	0x1
 	.byte	0x3
 	.byte	0x64
-	.uaword	0x2c8
+	.uaword	0x2d0
 	.uleb128 0x5
 	.string	"Ifx_ActiveState_low"
 	.sleb128 0
@@ -159,7 +159,7 @@ IfxStdIf_PwmHl_initConfig:
 	.string	"Ifx_ActiveState"
 	.byte	0x3
 	.byte	0x67
-	.uaword	0x292
+	.uaword	0x29a
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -172,7 +172,7 @@ IfxStdIf_PwmHl_initConfig:
 	.byte	0x1
 	.byte	0x4
 	.byte	0x73
-	.uaword	0x343
+	.uaword	0x34b
 	.uleb128 0x5
 	.string	"IfxPort_OutputMode_pushPull"
 	.sleb128 128
@@ -184,12 +184,12 @@ IfxStdIf_PwmHl_initConfig:
 	.string	"IfxPort_OutputMode"
 	.byte	0x4
 	.byte	0x76
-	.uaword	0x2fb
+	.uaword	0x303
 	.uleb128 0x4
 	.byte	0x1
 	.byte	0x4
 	.byte	0x7d
-	.uaword	0x4fe
+	.uaword	0x506
 	.uleb128 0x5
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -231,66 +231,66 @@ IfxStdIf_PwmHl_initConfig:
 	.string	"IfxPort_PadDriver"
 	.byte	0x4
 	.byte	0x8a
-	.uaword	0x35d
+	.uaword	0x365
 	.uleb128 0x6
 	.byte	0x10
 	.byte	0x5
 	.byte	0xaf
-	.uaword	0x5c8
+	.uaword	0x5d0
 	.uleb128 0x7
 	.string	"deadtime"
 	.byte	0x5
 	.byte	0xb1
-	.uaword	0x22e
+	.uaword	0x236
 	.byte	0
 	.uleb128 0x7
 	.string	"minPulse"
 	.byte	0x5
 	.byte	0xb2
-	.uaword	0x22e
+	.uaword	0x236
 	.byte	0x4
 	.uleb128 0x7
 	.string	"channelCount"
 	.byte	0x5
 	.byte	0xb3
-	.uaword	0x1ed
+	.uaword	0x1f5
 	.byte	0x8
 	.uleb128 0x7
 	.string	"emergencyEnabled"
 	.byte	0x5
 	.byte	0xb4
-	.uaword	0x250
+	.uaword	0x258
 	.byte	0x9
 	.uleb128 0x7
 	.string	"outputMode"
 	.byte	0x5
 	.byte	0xb6
-	.uaword	0x343
+	.uaword	0x34b
 	.byte	0xa
 	.uleb128 0x7
 	.string	"outputDriver"
 	.byte	0x5
 	.byte	0xb7
-	.uaword	0x4fe
+	.uaword	0x506
 	.byte	0xb
 	.uleb128 0x7
 	.string	"ccxActiveState"
 	.byte	0x5
 	.byte	0xb9
-	.uaword	0x2c8
+	.uaword	0x2d0
 	.byte	0xc
 	.uleb128 0x7
 	.string	"coutxActiveState"
 	.byte	0x5
 	.byte	0xba
-	.uaword	0x2c8
+	.uaword	0x2d0
 	.byte	0xd
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_Config"
 	.byte	0x5
 	.byte	0xbb
-	.uaword	0x517
+	.uaword	0x51f
 	.uleb128 0x8
 	.byte	0x1
 	.string	"IfxStdIf_PwmHl_initConfig"
@@ -302,18 +302,18 @@ IfxStdIf_PwmHl_initConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x624
+	.uaword	0x62c
 	.uleb128 0x9
 	.string	"config"
 	.byte	0x1
 	.byte	0x1c
-	.uaword	0x624
+	.uaword	0x62c
 	.byte	0x1
 	.byte	0x64
 	.byte	0
 	.uleb128 0xa
 	.byte	0x4
-	.uaword	0x5c8
+	.uaword	0x5d0
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

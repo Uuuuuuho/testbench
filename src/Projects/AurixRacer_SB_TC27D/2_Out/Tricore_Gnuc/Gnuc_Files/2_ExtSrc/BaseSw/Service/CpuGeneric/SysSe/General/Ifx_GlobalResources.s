@@ -133,7 +133,7 @@ Ifx_GlobalResources_init:
 	.file 4 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/General/Ifx_GlobalResources.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x492
+	.uaword	0x49a
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -141,7 +141,7 @@ Ifx_GlobalResources_init:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/General/Ifx_GlobalResources.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -178,12 +178,12 @@ Ifx_GlobalResources_init:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x5c
-	.uaword	0x1c3
+	.uaword	0x1cb
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x1cf
+	.uaword	0x1d7
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -196,7 +196,7 @@ Ifx_GlobalResources_init:
 	.string	"boolean"
 	.byte	0x2
 	.byte	0x68
-	.uaword	0x1fa
+	.uaword	0x202
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -209,12 +209,12 @@ Ifx_GlobalResources_init:
 	.string	"pchar"
 	.byte	0x3
 	.byte	0x27
-	.uaword	0x2a4
+	.uaword	0x2ac
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2aa
+	.uaword	0x2b2
 	.uleb128 0x5
-	.uaword	0x2af
+	.uaword	0x2b7
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
@@ -225,55 +225,55 @@ Ifx_GlobalResources_init:
 	.byte	0x8
 	.byte	0x4
 	.byte	0x26
-	.uaword	0x2db
+	.uaword	0x2e3
 	.uleb128 0x8
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0x28
-	.uaword	0x2b7
+	.uaword	0x2bf
 	.byte	0
 	.uleb128 0x9
 	.string	"name"
 	.byte	0x4
 	.byte	0x29
-	.uaword	0x297
+	.uaword	0x29f
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_GlobalResources_Item"
 	.byte	0x4
 	.byte	0x2a
-	.uaword	0x2b9
+	.uaword	0x2c1
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x301
+	.uaword	0x309
 	.uleb128 0x5
-	.uaword	0x2db
+	.uaword	0x2e3
 	.uleb128 0xa
 	.byte	0x1
 	.string	"Ifx_GlobalResources_get"
 	.byte	0x1
 	.byte	0x26
 	.byte	0x1
-	.uaword	0x2b7
+	.uaword	0x2bf
 	.uaword	.LFB0
 	.uaword	.LFE0
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x34f
+	.uaword	0x357
 	.uleb128 0xb
 	.string	"id"
 	.byte	0x1
 	.byte	0x26
-	.uaword	0x22e
+	.uaword	0x236
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0xc
 	.uaword	.LASF1
 	.byte	0x1
 	.byte	0x28
-	.uaword	0x2b7
+	.uaword	0x2bf
 	.byte	0
 	.byte	0
 	.uleb128 0xa
@@ -282,25 +282,25 @@ Ifx_GlobalResources_init:
 	.byte	0x1
 	.byte	0x3e
 	.byte	0x1
-	.uaword	0x22e
+	.uaword	0x236
 	.uaword	.LFB1
 	.uaword	.LFE1
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x39d
+	.uaword	0x3a5
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x3e
-	.uaword	0x2b7
+	.uaword	0x2bf
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0xe
 	.string	"id"
 	.byte	0x1
 	.byte	0x40
-	.uaword	0x22e
+	.uaword	0x236
 	.sleb128 -1
 	.byte	0
 	.uleb128 0xa
@@ -309,25 +309,25 @@ Ifx_GlobalResources_init:
 	.byte	0x1
 	.byte	0x56
 	.byte	0x1
-	.uaword	0x2fb
+	.uaword	0x303
 	.uaword	.LFB2
 	.uaword	.LFE2
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3ea
+	.uaword	0x3f2
 	.uleb128 0xb
 	.string	"id"
 	.byte	0x1
 	.byte	0x56
-	.uaword	0x22e
+	.uaword	0x236
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0xc
 	.uaword	.LASF1
 	.byte	0x1
 	.byte	0x58
-	.uaword	0x2fb
+	.uaword	0x303
 	.byte	0
 	.byte	0
 	.uleb128 0xa
@@ -336,25 +336,25 @@ Ifx_GlobalResources_init:
 	.byte	0x1
 	.byte	0x6e
 	.byte	0x1
-	.uaword	0x297
+	.uaword	0x29f
 	.uaword	.LFB3
 	.uaword	.LFE3
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x43e
+	.uaword	0x446
 	.uleb128 0xb
 	.string	"id"
 	.byte	0x1
 	.byte	0x6e
-	.uaword	0x22e
+	.uaword	0x236
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0xf
 	.string	"name"
 	.byte	0x1
 	.byte	0x70
-	.uaword	0x297
+	.uaword	0x29f
 	.byte	0x6
 	.byte	0x3
 	.uaword	.LC0
@@ -366,7 +366,7 @@ Ifx_GlobalResources_init:
 	.byte	0x1
 	.byte	0x86
 	.byte	0x1
-	.uaword	0x25d
+	.uaword	0x265
 	.uaword	.LFB4
 	.uaword	.LFE4
 	.byte	0x1
@@ -376,21 +376,21 @@ Ifx_GlobalResources_init:
 	.string	"table"
 	.byte	0x1
 	.byte	0x86
-	.uaword	0x2fb
+	.uaword	0x303
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0xb
 	.string	"size"
 	.byte	0x1
 	.byte	0x86
-	.uaword	0x23c
+	.uaword	0x244
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0xc
 	.uaword	.LASF1
 	.byte	0x1
 	.byte	0x88
-	.uaword	0x25d
+	.uaword	0x265
 	.byte	0
 	.byte	0
 	.byte	0

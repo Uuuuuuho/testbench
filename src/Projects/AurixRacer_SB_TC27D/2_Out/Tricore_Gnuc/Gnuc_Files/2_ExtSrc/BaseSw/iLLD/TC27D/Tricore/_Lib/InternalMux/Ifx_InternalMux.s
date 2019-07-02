@@ -74,7 +74,7 @@ Ifx_InternalMux_init:
 	.file 4 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x3fa
+	.uaword	0x402
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -82,7 +82,7 @@ Ifx_InternalMux_init:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_Lib/InternalMux/Ifx_InternalMux.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -119,7 +119,7 @@ Ifx_InternalMux_init:
 	.string	"uint32"
 	.byte	0x4
 	.byte	0x5d
-	.uaword	0x1ce
+	.uaword	0x1d6
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -142,85 +142,85 @@ Ifx_InternalMux_init:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x287
+	.uaword	0x28f
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0xc
 	.byte	0x3
 	.byte	0x2d
-	.uaword	0x2bc
+	.uaword	0x2c4
 	.uleb128 0x7
 	.string	"regAddr"
 	.byte	0x3
 	.byte	0x2f
-	.uaword	0x281
+	.uaword	0x289
 	.byte	0
 	.uleb128 0x7
 	.string	"mask"
 	.byte	0x3
 	.byte	0x30
-	.uaword	0x22d
+	.uaword	0x235
 	.byte	0x4
 	.uleb128 0x7
 	.string	"value"
 	.byte	0x3
 	.byte	0x31
-	.uaword	0x22d
+	.uaword	0x235
 	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"Ifx_InternalMux_MuxConfig"
 	.byte	0x3
 	.byte	0x32
-	.uaword	0x288
+	.uaword	0x290
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x3
 	.byte	0x37
-	.uaword	0x305
+	.uaword	0x30d
 	.uleb128 0x7
 	.string	"size"
 	.byte	0x3
 	.byte	0x39
-	.uaword	0x22d
+	.uaword	0x235
 	.byte	0
 	.uleb128 0x7
 	.string	"muxConfig"
 	.byte	0x3
 	.byte	0x3a
-	.uaword	0x305
+	.uaword	0x30d
 	.byte	0x4
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2bc
+	.uaword	0x2c4
 	.uleb128 0x3
 	.string	"Ifx_InternalMux_Config"
 	.byte	0x3
 	.byte	0x3b
-	.uaword	0x2dd
+	.uaword	0x2e5
 	.uleb128 0x8
 	.string	"__ldmst"
 	.byte	0x2
 	.uahalf	0x591
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x367
+	.uaword	0x36f
 	.uleb128 0x9
 	.string	"address"
 	.byte	0x2
 	.uahalf	0x591
-	.uaword	0x281
+	.uaword	0x289
 	.uleb128 0x9
 	.string	"mask"
 	.byte	0x2
 	.uahalf	0x591
-	.uaword	0x22d
+	.uaword	0x235
 	.uleb128 0x9
 	.string	"value"
 	.byte	0x2
 	.uahalf	0x591
-	.uaword	0x22d
+	.uaword	0x235
 	.byte	0
 	.uleb128 0xa
 	.byte	0x1
@@ -233,19 +233,19 @@ Ifx_InternalMux_init:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x3f2
+	.uaword	0x3fa
 	.uleb128 0xb
 	.string	"cfg"
 	.byte	0x1
 	.byte	0x24
-	.uaword	0x3f2
+	.uaword	0x3fa
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0xc
 	.string	"i"
 	.byte	0x1
 	.byte	0x26
-	.uaword	0x1e3
+	.uaword	0x1eb
 	.uaword	.LLST0
 	.uleb128 0xd
 	.uaword	.LBB5
@@ -254,31 +254,31 @@ Ifx_InternalMux_init:
 	.string	"muxCfg"
 	.byte	0x1
 	.byte	0x2a
-	.uaword	0x2bc
+	.uaword	0x2c4
 	.uaword	.LLST1
 	.uleb128 0xe
-	.uaword	0x329
+	.uaword	0x331
 	.uaword	.LBB6
 	.uaword	.LBE6
 	.byte	0x1
 	.byte	0x2d
 	.uleb128 0xf
-	.uaword	0x358
+	.uaword	0x360
 	.uaword	.LLST2
 	.uleb128 0xf
-	.uaword	0x34b
+	.uaword	0x353
 	.uaword	.LLST3
 	.uleb128 0xf
-	.uaword	0x33b
+	.uaword	0x343
 	.uaword	.LLST4
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x3f8
+	.uaword	0x400
 	.uleb128 0x10
-	.uaword	0x30b
+	.uaword	0x313
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

@@ -16,6 +16,7 @@ float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0, NextVol = 0;
 
 
 
+
 void appTaskfu_init(void){
 	BasicLineScan_init();
 	BasicPort_init();
@@ -66,6 +67,22 @@ void appTaskfu_10ms(void)
 	task_cnt_10m++;
     //empty buffer after calculating average of speed
     Speed_Avg();
+    
+
+    
+    if(Checking_PSD()){
+        if(!IR_LineData.School_Zone_flag){
+            IR_setMotor0Vol(-1);            
+        }
+        else{
+            IR_setSrvAngle(-0.2);   //first turn left, assuming second line is on the left
+            resetPSD();             //reset PSD counter
+        }
+    }
+
+    else{
+        IR_setMotor0Vol(testVol);
+    }
     
 #if ENCODER_TEST == ON
 	IR_setMotor0Vol(testVol);
@@ -216,8 +233,8 @@ void Speed2Vol(void){
 }
 
 void SrvControl(float32 diff){
-    float32 result = -0.4 - diff * 0.3 / 88;
-    IR_setMotor0Vol(result);
+    float32 result = -0.4 - diff * 0.3 / 108;
+    IR_setSrvAngle(result);
 }
 
 

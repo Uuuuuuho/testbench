@@ -116,9 +116,8 @@ void median_filter(void) {
 
 void getLineData (void){    //left linescanner only
     uint32 index = 0;
-	uint32 pixelCounter = 0;
     uint32 MaxVal = 0;
-	index = 0;
+
     if(!IR_LineData.Direction_Determined){
     	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
             if(IR_LineData.Result[index] > MaxVal){
@@ -129,11 +128,9 @@ void getLineData (void){    //left linescanner only
 
         uint32 SCHOOLZONE_DETECTION = MaxVal/2;
         
-    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+    	for(index = IR_LineData.previous; index < LINEMAX - IGNOREIDX; index++){
             if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION)
                 IR_LineData.School_Zone_flag = TRUE;
-            else
-                IR_LineData.School_Zone_flag = FALSE;   //should be modified. only for checking whether line scanner working properly for school line marker
         }
         IR_LineData.Direction_Determined = TRUE;
     }
@@ -144,13 +141,11 @@ void getLineData (void){    //left linescanner only
                 IR_LineData.present= index;
                 MaxVal = IR_LineData.Result[index];
             }
-            else
-            	IR_LineData.School_Zone_flag = FALSE;
         }
 
         uint32 SCHOOLZONE_DETECTION = MaxVal/2;
         
-    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+    	for(index = IR_LineData.present; index < LINEMAX - IGNOREIDX; index++){
             if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION)
                 IR_LineData.School_Zone_flag = TRUE;
         }
@@ -158,6 +153,22 @@ void getLineData (void){    //left linescanner only
     }
     
 
+}
+
+boolean IsOutSchoolZone(void){
+    uint32 index = 0;
+    uint32 MaxVal = IR_LineData.Result[IR_LineData.present];
+    
+    uint32 SCHOOLZONE_DETECTION = MaxVal/2;
+
+    for(index = IR_LineData.present; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION){
+            IR_LineData.School_Zone_flag = FALSE;
+            return FALSE;
+        }
+    }
+
+    
 }
 
 float32 Direction(void){

@@ -102,7 +102,7 @@ IfxPort_cfg_esrMasks:
 	.file 5 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x27bc
+	.uaword	0x27c4
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -110,7 +110,7 @@ IfxPort_cfg_esrMasks:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.byte	0x4
@@ -140,7 +140,7 @@ IfxPort_cfg_esrMasks:
 	.string	"uint16"
 	.byte	0x1
 	.byte	0x5b
-	.uaword	0x20a
+	.uaword	0x212
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -149,7 +149,7 @@ IfxPort_cfg_esrMasks:
 	.string	"sint32"
 	.byte	0x1
 	.byte	0x5c
-	.uaword	0x1a7
+	.uaword	0x1af
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -172,42 +172,42 @@ IfxPort_cfg_esrMasks:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x27a
+	.uaword	0x282
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x8
 	.byte	0x2
 	.byte	0x7e
-	.uaword	0x2a1
+	.uaword	0x2a9
 	.uleb128 0x7
 	.string	"module"
 	.byte	0x2
 	.byte	0x80
-	.uaword	0x274
+	.uaword	0x27c
 	.byte	0
 	.uleb128 0x7
 	.string	"index"
 	.byte	0x2
 	.byte	0x81
-	.uaword	0x220
+	.uaword	0x228
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x2
 	.byte	0x82
-	.uaword	0x27b
+	.uaword	0x283
 	.uleb128 0x8
 	.string	"_Ifx_P_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x2d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x3
 	.byte	0x2f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -216,7 +216,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN1"
 	.byte	0x3
 	.byte	0x30
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -225,7 +225,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN2"
 	.byte	0x3
 	.byte	0x31
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -234,7 +234,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN3"
 	.byte	0x3
 	.byte	0x32
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -243,7 +243,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN4"
 	.byte	0x3
 	.byte	0x33
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -252,7 +252,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN5"
 	.byte	0x3
 	.byte	0x34
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -261,7 +261,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN6"
 	.byte	0x3
 	.byte	0x35
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -270,7 +270,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN7"
 	.byte	0x3
 	.byte	0x36
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -279,7 +279,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN8"
 	.byte	0x3
 	.byte	0x37
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -288,7 +288,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN9"
 	.byte	0x3
 	.byte	0x38
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -297,7 +297,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN10"
 	.byte	0x3
 	.byte	0x39
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -306,7 +306,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN11"
 	.byte	0x3
 	.byte	0x3a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -315,7 +315,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN12"
 	.byte	0x3
 	.byte	0x3b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -324,7 +324,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN13"
 	.byte	0x3
 	.byte	0x3c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -333,7 +333,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN14"
 	.byte	0x3
 	.byte	0x3d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -342,7 +342,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN15"
 	.byte	0x3
 	.byte	0x3e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -351,7 +351,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN16"
 	.byte	0x3
 	.byte	0x3f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -360,7 +360,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN17"
 	.byte	0x3
 	.byte	0x40
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -369,7 +369,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN18"
 	.byte	0x3
 	.byte	0x41
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -378,7 +378,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN19"
 	.byte	0x3
 	.byte	0x42
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -387,7 +387,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN20"
 	.byte	0x3
 	.byte	0x43
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -396,7 +396,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN21"
 	.byte	0x3
 	.byte	0x44
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -405,7 +405,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN22"
 	.byte	0x3
 	.byte	0x45
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -414,7 +414,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN23"
 	.byte	0x3
 	.byte	0x46
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -423,7 +423,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN24"
 	.byte	0x3
 	.byte	0x47
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -432,7 +432,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN25"
 	.byte	0x3
 	.byte	0x48
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -441,7 +441,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN26"
 	.byte	0x3
 	.byte	0x49
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -450,7 +450,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN27"
 	.byte	0x3
 	.byte	0x4a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -459,7 +459,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN28"
 	.byte	0x3
 	.byte	0x4b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -468,7 +468,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN29"
 	.byte	0x3
 	.byte	0x4c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -477,7 +477,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN30"
 	.byte	0x3
 	.byte	0x4d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -486,7 +486,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN31"
 	.byte	0x3
 	.byte	0x4e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -500,18 +500,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x3
 	.byte	0x4f
-	.uaword	0x2bb
+	.uaword	0x2c3
 	.uleb128 0x8
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x52
-	.uaword	0x521
+	.uaword	0x529
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x54
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -521,18 +521,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x3
 	.byte	0x55
-	.uaword	0x4f6
+	.uaword	0x4fe
 	.uleb128 0x8
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x58
-	.uaword	0x658
+	.uaword	0x660
 	.uleb128 0x9
 	.string	"EN0"
 	.byte	0x3
 	.byte	0x5a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -541,7 +541,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN1"
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -550,7 +550,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN2"
 	.byte	0x3
 	.byte	0x5c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -559,7 +559,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN3"
 	.byte	0x3
 	.byte	0x5d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -568,7 +568,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN4"
 	.byte	0x3
 	.byte	0x5e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -577,7 +577,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN5"
 	.byte	0x3
 	.byte	0x5f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -586,7 +586,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN6"
 	.byte	0x3
 	.byte	0x60
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -595,7 +595,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN7"
 	.byte	0x3
 	.byte	0x61
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -604,7 +604,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN8"
 	.byte	0x3
 	.byte	0x62
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -613,7 +613,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN9"
 	.byte	0x3
 	.byte	0x63
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -622,7 +622,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN10"
 	.byte	0x3
 	.byte	0x64
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -631,7 +631,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN11"
 	.byte	0x3
 	.byte	0x65
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -640,7 +640,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN12"
 	.byte	0x3
 	.byte	0x66
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -649,7 +649,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN13"
 	.byte	0x3
 	.byte	0x67
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -658,7 +658,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN14"
 	.byte	0x3
 	.byte	0x68
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -667,7 +667,7 @@ IfxPort_cfg_esrMasks:
 	.string	"EN15"
 	.byte	0x3
 	.byte	0x69
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -676,7 +676,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x6a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -686,18 +686,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x3
 	.byte	0x6b
-	.uaword	0x53a
+	.uaword	0x542
 	.uleb128 0x8
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x6e
-	.uaword	0x6c0
+	.uaword	0x6c8
 	.uleb128 0x9
 	.string	"MODREV"
 	.byte	0x3
 	.byte	0x70
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -706,7 +706,7 @@ IfxPort_cfg_esrMasks:
 	.string	"MODTYPE"
 	.byte	0x3
 	.byte	0x71
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -715,7 +715,7 @@ IfxPort_cfg_esrMasks:
 	.string	"MODNUMBER"
 	.byte	0x3
 	.byte	0x72
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -725,18 +725,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x3
 	.byte	0x73
-	.uaword	0x66e
+	.uaword	0x676
 	.uleb128 0x8
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x76
-	.uaword	0x7e2
+	.uaword	0x7ea
 	.uleb128 0x9
 	.string	"P0"
 	.byte	0x3
 	.byte	0x78
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -745,7 +745,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P1"
 	.byte	0x3
 	.byte	0x79
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -754,7 +754,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P2"
 	.byte	0x3
 	.byte	0x7a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -763,7 +763,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P3"
 	.byte	0x3
 	.byte	0x7b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -772,7 +772,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P4"
 	.byte	0x3
 	.byte	0x7c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -781,7 +781,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P5"
 	.byte	0x3
 	.byte	0x7d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -790,7 +790,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P6"
 	.byte	0x3
 	.byte	0x7e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -799,7 +799,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P7"
 	.byte	0x3
 	.byte	0x7f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -808,7 +808,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P8"
 	.byte	0x3
 	.byte	0x80
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -817,7 +817,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P9"
 	.byte	0x3
 	.byte	0x81
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -826,7 +826,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P10"
 	.byte	0x3
 	.byte	0x82
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -835,7 +835,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P11"
 	.byte	0x3
 	.byte	0x83
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -844,7 +844,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P12"
 	.byte	0x3
 	.byte	0x84
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -853,7 +853,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P13"
 	.byte	0x3
 	.byte	0x85
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -862,7 +862,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P14"
 	.byte	0x3
 	.byte	0x86
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -871,7 +871,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P15"
 	.byte	0x3
 	.byte	0x87
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -880,7 +880,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x88
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -890,18 +890,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x3
 	.byte	0x89
-	.uaword	0x6d5
+	.uaword	0x6dd
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8c
-	.uaword	0x88a
+	.uaword	0x892
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x8e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -910,7 +910,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC0"
 	.byte	0x3
 	.byte	0x8f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -919,7 +919,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0x90
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -928,7 +928,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC1"
 	.byte	0x3
 	.byte	0x91
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -937,7 +937,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x92
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -946,7 +946,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC2"
 	.byte	0x3
 	.byte	0x93
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -955,7 +955,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0x94
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -964,7 +964,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC3"
 	.byte	0x3
 	.byte	0x95
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -974,18 +974,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x3
 	.byte	0x96
-	.uaword	0x7f7
+	.uaword	0x7ff
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0x99
-	.uaword	0x93a
+	.uaword	0x942
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0x9b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -994,7 +994,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC12"
 	.byte	0x3
 	.byte	0x9c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1003,7 +1003,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0x9d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1012,7 +1012,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC13"
 	.byte	0x3
 	.byte	0x9e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1021,7 +1021,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0x9f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1030,7 +1030,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC14"
 	.byte	0x3
 	.byte	0xa0
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1039,7 +1039,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xa1
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1048,7 +1048,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC15"
 	.byte	0x3
 	.byte	0xa2
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1058,18 +1058,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x3
 	.byte	0xa3
-	.uaword	0x8a2
+	.uaword	0x8aa
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xa6
-	.uaword	0x9e6
+	.uaword	0x9ee
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xa8
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1078,7 +1078,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC4"
 	.byte	0x3
 	.byte	0xa9
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1087,7 +1087,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xaa
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1096,7 +1096,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC5"
 	.byte	0x3
 	.byte	0xab
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1105,7 +1105,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xac
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1114,7 +1114,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC6"
 	.byte	0x3
 	.byte	0xad
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1123,7 +1123,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xae
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1132,7 +1132,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC7"
 	.byte	0x3
 	.byte	0xaf
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1142,18 +1142,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x3
 	.byte	0xb0
-	.uaword	0x953
+	.uaword	0x95b
 	.uleb128 0x8
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xb3
-	.uaword	0xa93
+	.uaword	0xa9b
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xb5
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1162,7 +1162,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC8"
 	.byte	0x3
 	.byte	0xb6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1171,7 +1171,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xb7
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1180,7 +1180,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC9"
 	.byte	0x3
 	.byte	0xb8
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -1189,7 +1189,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xb9
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -1198,7 +1198,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC10"
 	.byte	0x3
 	.byte	0xba
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -1207,7 +1207,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.byte	0xbb
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1216,7 +1216,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PC11"
 	.byte	0x3
 	.byte	0xbc
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -1226,18 +1226,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x3
 	.byte	0xbd
-	.uaword	0x9fe
+	.uaword	0xa06
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xc0
-	.uaword	0xaf3
+	.uaword	0xafb
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xc2
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1246,7 +1246,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.byte	0xc3
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1255,7 +1255,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF4
 	.byte	0x3
 	.byte	0xc4
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -1265,18 +1265,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x3
 	.byte	0xc5
-	.uaword	0xaab
+	.uaword	0xab3
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xc8
-	.uaword	0xb53
+	.uaword	0xb5b
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xca
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1285,7 +1285,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.byte	0xcb
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1294,7 +1294,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF4
 	.byte	0x3
 	.byte	0xcc
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -1304,18 +1304,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x3
 	.byte	0xcd
-	.uaword	0xb0b
+	.uaword	0xb13
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd0
-	.uaword	0xbe3
+	.uaword	0xbeb
 	.uleb128 0x9
 	.string	"RDIS_CTRL"
 	.byte	0x3
 	.byte	0xd2
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1324,7 +1324,7 @@ IfxPort_cfg_esrMasks:
 	.string	"RX_DIS"
 	.byte	0x3
 	.byte	0xd3
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1333,7 +1333,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TERM"
 	.byte	0x3
 	.byte	0xd4
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1342,7 +1342,7 @@ IfxPort_cfg_esrMasks:
 	.string	"LRXTERM"
 	.byte	0x3
 	.byte	0xd5
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1351,7 +1351,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.byte	0xd6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -1361,18 +1361,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x3
 	.byte	0xd7
-	.uaword	0xb6b
+	.uaword	0xb73
 	.uleb128 0x8
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xda
-	.uaword	0xcbe
+	.uaword	0xcc6
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xdc
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1381,7 +1381,7 @@ IfxPort_cfg_esrMasks:
 	.string	"LVDSR"
 	.byte	0x3
 	.byte	0xdd
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1390,7 +1390,7 @@ IfxPort_cfg_esrMasks:
 	.string	"LVDSRL"
 	.byte	0x3
 	.byte	0xde
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1399,7 +1399,7 @@ IfxPort_cfg_esrMasks:
 	.string	"reserved_10"
 	.byte	0x3
 	.byte	0xdf
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -1408,7 +1408,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TDIS_CTRL"
 	.byte	0x3
 	.byte	0xe0
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1417,7 +1417,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TX_DIS"
 	.byte	0x3
 	.byte	0xe1
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1426,7 +1426,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TX_PD"
 	.byte	0x3
 	.byte	0xe2
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1435,7 +1435,7 @@ IfxPort_cfg_esrMasks:
 	.string	"TX_PWDPD"
 	.byte	0x3
 	.byte	0xe3
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1444,7 +1444,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.byte	0xe4
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1454,18 +1454,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x3
 	.byte	0xe5
-	.uaword	0xbff
+	.uaword	0xc07
 	.uleb128 0x8
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xe8
-	.uaword	0xd4f
+	.uaword	0xd57
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xea
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -1474,7 +1474,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL0"
 	.byte	0x3
 	.byte	0xeb
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1483,7 +1483,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL1"
 	.byte	0x3
 	.byte	0xec
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1492,7 +1492,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL2"
 	.byte	0x3
 	.byte	0xed
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1501,7 +1501,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL3"
 	.byte	0x3
 	.byte	0xee
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1510,7 +1510,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF5
 	.byte	0x3
 	.byte	0xef
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -1520,18 +1520,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x3
 	.byte	0xf0
-	.uaword	0xcd6
+	.uaword	0xcde
 	.uleb128 0x8
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xf3
-	.uaword	0xdd6
+	.uaword	0xdde
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xf5
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -1540,7 +1540,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL12"
 	.byte	0x3
 	.byte	0xf6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1549,7 +1549,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL13"
 	.byte	0x3
 	.byte	0xf7
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1558,7 +1558,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL14"
 	.byte	0x3
 	.byte	0xf8
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1567,7 +1567,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL15"
 	.byte	0x3
 	.byte	0xf9
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1577,18 +1577,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x3
 	.byte	0xfa
-	.uaword	0xd67
+	.uaword	0xd6f
 	.uleb128 0x8
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.byte	0xfd
-	.uaword	0xe6d
+	.uaword	0xe75
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x3
 	.byte	0xff
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -1597,7 +1597,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL4"
 	.byte	0x3
 	.uahalf	0x100
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1606,7 +1606,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL5"
 	.byte	0x3
 	.uahalf	0x101
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1615,7 +1615,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL6"
 	.byte	0x3
 	.uahalf	0x102
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1624,7 +1624,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL7"
 	.byte	0x3
 	.uahalf	0x103
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1633,7 +1633,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF3
 	.byte	0x3
 	.uahalf	0x104
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1643,18 +1643,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x3
 	.uahalf	0x105
-	.uaword	0xdef
+	.uaword	0xdf7
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x108
-	.uaword	0xf08
+	.uaword	0xf10
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x10a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -1663,7 +1663,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL8"
 	.byte	0x3
 	.uahalf	0x10b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1672,7 +1672,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL9"
 	.byte	0x3
 	.uahalf	0x10c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1681,7 +1681,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL10"
 	.byte	0x3
 	.uahalf	0x10d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1690,7 +1690,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL11"
 	.byte	0x3
 	.uahalf	0x10e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1699,7 +1699,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF6
 	.byte	0x3
 	.uahalf	0x10f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -1709,18 +1709,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x3
 	.uahalf	0x110
-	.uaword	0xe86
+	.uaword	0xe8e
 	.uleb128 0xe
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x113
-	.uaword	0x1062
+	.uaword	0x106a
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x115
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -1729,7 +1729,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL0"
 	.byte	0x3
 	.uahalf	0x116
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1738,7 +1738,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL1"
 	.byte	0x3
 	.uahalf	0x117
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1747,7 +1747,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL2"
 	.byte	0x3
 	.uahalf	0x118
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1756,7 +1756,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL3"
 	.byte	0x3
 	.uahalf	0x119
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1765,7 +1765,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL4"
 	.byte	0x3
 	.uahalf	0x11a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1774,7 +1774,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL5"
 	.byte	0x3
 	.uahalf	0x11b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1783,7 +1783,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL6"
 	.byte	0x3
 	.uahalf	0x11c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1792,7 +1792,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL7"
 	.byte	0x3
 	.uahalf	0x11d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1801,7 +1801,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL8"
 	.byte	0x3
 	.uahalf	0x11e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1810,7 +1810,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL9"
 	.byte	0x3
 	.uahalf	0x11f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1819,7 +1819,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL10"
 	.byte	0x3
 	.uahalf	0x120
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1828,7 +1828,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL11"
 	.byte	0x3
 	.uahalf	0x121
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1837,7 +1837,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL12"
 	.byte	0x3
 	.uahalf	0x122
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1846,7 +1846,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL13"
 	.byte	0x3
 	.uahalf	0x123
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1855,7 +1855,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL14"
 	.byte	0x3
 	.uahalf	0x124
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1864,7 +1864,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL15"
 	.byte	0x3
 	.uahalf	0x125
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1874,18 +1874,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x3
 	.uahalf	0x126
-	.uaword	0xf21
+	.uaword	0xf29
 	.uleb128 0xe
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x129
-	.uaword	0x12b0
+	.uaword	0x12b8
 	.uleb128 0xb
 	.string	"PS0"
 	.byte	0x3
 	.uahalf	0x12b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1894,7 +1894,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.uahalf	0x12c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1903,7 +1903,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS2"
 	.byte	0x3
 	.uahalf	0x12d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1912,7 +1912,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS3"
 	.byte	0x3
 	.uahalf	0x12e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1921,7 +1921,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS4"
 	.byte	0x3
 	.uahalf	0x12f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1930,7 +1930,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS5"
 	.byte	0x3
 	.uahalf	0x130
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1939,7 +1939,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS6"
 	.byte	0x3
 	.uahalf	0x131
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1948,7 +1948,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS7"
 	.byte	0x3
 	.uahalf	0x132
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1957,7 +1957,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS8"
 	.byte	0x3
 	.uahalf	0x133
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1966,7 +1966,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS9"
 	.byte	0x3
 	.uahalf	0x134
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1975,7 +1975,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS10"
 	.byte	0x3
 	.uahalf	0x135
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1984,7 +1984,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS11"
 	.byte	0x3
 	.uahalf	0x136
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1993,7 +1993,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS12"
 	.byte	0x3
 	.uahalf	0x137
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2002,7 +2002,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS13"
 	.byte	0x3
 	.uahalf	0x138
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2011,7 +2011,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS14"
 	.byte	0x3
 	.uahalf	0x139
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2020,7 +2020,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS15"
 	.byte	0x3
 	.uahalf	0x13a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2029,7 +2029,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL0"
 	.byte	0x3
 	.uahalf	0x13b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2038,7 +2038,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL1"
 	.byte	0x3
 	.uahalf	0x13c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2047,7 +2047,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL2"
 	.byte	0x3
 	.uahalf	0x13d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2056,7 +2056,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL3"
 	.byte	0x3
 	.uahalf	0x13e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2065,7 +2065,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL4"
 	.byte	0x3
 	.uahalf	0x13f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2074,7 +2074,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL5"
 	.byte	0x3
 	.uahalf	0x140
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2083,7 +2083,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL6"
 	.byte	0x3
 	.uahalf	0x141
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2092,7 +2092,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL7"
 	.byte	0x3
 	.uahalf	0x142
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2101,7 +2101,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL8"
 	.byte	0x3
 	.uahalf	0x143
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2110,7 +2110,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL9"
 	.byte	0x3
 	.uahalf	0x144
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2119,7 +2119,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL10"
 	.byte	0x3
 	.uahalf	0x145
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2128,7 +2128,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL11"
 	.byte	0x3
 	.uahalf	0x146
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2137,7 +2137,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL12"
 	.byte	0x3
 	.uahalf	0x147
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2146,7 +2146,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL13"
 	.byte	0x3
 	.uahalf	0x148
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2155,7 +2155,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL14"
 	.byte	0x3
 	.uahalf	0x149
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2164,7 +2164,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PCL15"
 	.byte	0x3
 	.uahalf	0x14a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2174,18 +2174,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x3
 	.uahalf	0x14b
-	.uaword	0x107a
+	.uaword	0x1082
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x14e
-	.uaword	0x133a
+	.uaword	0x1342
 	.uleb128 0xb
 	.string	"PS0"
 	.byte	0x3
 	.uahalf	0x150
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2194,7 +2194,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.uahalf	0x151
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2203,7 +2203,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS2"
 	.byte	0x3
 	.uahalf	0x152
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2212,7 +2212,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS3"
 	.byte	0x3
 	.uahalf	0x153
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2221,7 +2221,7 @@ IfxPort_cfg_esrMasks:
 	.string	"reserved_4"
 	.byte	0x3
 	.uahalf	0x154
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -2231,18 +2231,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x3
 	.uahalf	0x155
-	.uaword	0x12c7
+	.uaword	0x12cf
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x158
-	.uaword	0x13d4
+	.uaword	0x13dc
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x15a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -2251,7 +2251,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS12"
 	.byte	0x3
 	.uahalf	0x15b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2260,7 +2260,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS13"
 	.byte	0x3
 	.uahalf	0x15c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2269,7 +2269,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS14"
 	.byte	0x3
 	.uahalf	0x15d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2278,7 +2278,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS15"
 	.byte	0x3
 	.uahalf	0x15e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2287,7 +2287,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x15f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2297,18 +2297,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x3
 	.uahalf	0x160
-	.uaword	0x1353
+	.uaword	0x135b
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x163
-	.uaword	0x146a
+	.uaword	0x1472
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x165
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2317,7 +2317,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS4"
 	.byte	0x3
 	.uahalf	0x166
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2326,7 +2326,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS5"
 	.byte	0x3
 	.uahalf	0x167
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2335,7 +2335,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS6"
 	.byte	0x3
 	.uahalf	0x168
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2344,7 +2344,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS7"
 	.byte	0x3
 	.uahalf	0x169
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2353,7 +2353,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF2
 	.byte	0x3
 	.uahalf	0x16a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -2363,18 +2363,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x3
 	.uahalf	0x16b
-	.uaword	0x13ee
+	.uaword	0x13f6
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x16e
-	.uaword	0x1501
+	.uaword	0x1509
 	.uleb128 0xc
 	.uaword	.LASF0
 	.byte	0x3
 	.uahalf	0x170
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2383,7 +2383,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS8"
 	.byte	0x3
 	.uahalf	0x171
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2392,7 +2392,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS9"
 	.byte	0x3
 	.uahalf	0x172
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2401,7 +2401,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS10"
 	.byte	0x3
 	.uahalf	0x173
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2410,7 +2410,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS11"
 	.byte	0x3
 	.uahalf	0x174
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2419,7 +2419,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF7
 	.byte	0x3
 	.uahalf	0x175
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -2429,18 +2429,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x3
 	.uahalf	0x176
-	.uaword	0x1483
+	.uaword	0x148b
 	.uleb128 0xe
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x179
-	.uaword	0x164b
+	.uaword	0x1653
 	.uleb128 0xb
 	.string	"PS0"
 	.byte	0x3
 	.uahalf	0x17b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2449,7 +2449,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS1"
 	.byte	0x3
 	.uahalf	0x17c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2458,7 +2458,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS2"
 	.byte	0x3
 	.uahalf	0x17d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2467,7 +2467,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS3"
 	.byte	0x3
 	.uahalf	0x17e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2476,7 +2476,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS4"
 	.byte	0x3
 	.uahalf	0x17f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2485,7 +2485,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS5"
 	.byte	0x3
 	.uahalf	0x180
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2494,7 +2494,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS6"
 	.byte	0x3
 	.uahalf	0x181
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2503,7 +2503,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS7"
 	.byte	0x3
 	.uahalf	0x182
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2512,7 +2512,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS8"
 	.byte	0x3
 	.uahalf	0x183
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2521,7 +2521,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS9"
 	.byte	0x3
 	.uahalf	0x184
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2530,7 +2530,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS10"
 	.byte	0x3
 	.uahalf	0x185
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2539,7 +2539,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS11"
 	.byte	0x3
 	.uahalf	0x186
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2548,7 +2548,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS12"
 	.byte	0x3
 	.uahalf	0x187
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2557,7 +2557,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS13"
 	.byte	0x3
 	.uahalf	0x188
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2566,7 +2566,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS14"
 	.byte	0x3
 	.uahalf	0x189
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2575,7 +2575,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PS15"
 	.byte	0x3
 	.uahalf	0x18a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2584,7 +2584,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x18b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2594,18 +2594,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x3
 	.uahalf	0x18c
-	.uaword	0x151a
+	.uaword	0x1522
 	.uleb128 0xe
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x18f
-	.uaword	0x1783
+	.uaword	0x178b
 	.uleb128 0xb
 	.string	"P0"
 	.byte	0x3
 	.uahalf	0x191
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2614,7 +2614,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P1"
 	.byte	0x3
 	.uahalf	0x192
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2623,7 +2623,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P2"
 	.byte	0x3
 	.uahalf	0x193
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2632,7 +2632,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P3"
 	.byte	0x3
 	.uahalf	0x194
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2641,7 +2641,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P4"
 	.byte	0x3
 	.uahalf	0x195
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2650,7 +2650,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P5"
 	.byte	0x3
 	.uahalf	0x196
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2659,7 +2659,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P6"
 	.byte	0x3
 	.uahalf	0x197
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2668,7 +2668,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P7"
 	.byte	0x3
 	.uahalf	0x198
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2677,7 +2677,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P8"
 	.byte	0x3
 	.uahalf	0x199
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2686,7 +2686,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P9"
 	.byte	0x3
 	.uahalf	0x19a
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2695,7 +2695,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P10"
 	.byte	0x3
 	.uahalf	0x19b
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2704,7 +2704,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P11"
 	.byte	0x3
 	.uahalf	0x19c
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2713,7 +2713,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P12"
 	.byte	0x3
 	.uahalf	0x19d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2722,7 +2722,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P13"
 	.byte	0x3
 	.uahalf	0x19e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2731,7 +2731,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P14"
 	.byte	0x3
 	.uahalf	0x19f
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2740,7 +2740,7 @@ IfxPort_cfg_esrMasks:
 	.string	"P15"
 	.byte	0x3
 	.uahalf	0x1a0
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2749,7 +2749,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x1a1
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2759,18 +2759,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x3
 	.uahalf	0x1a2
-	.uaword	0x1663
+	.uaword	0x166b
 	.uleb128 0xe
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1a5
-	.uaword	0x1887
+	.uaword	0x188f
 	.uleb128 0xb
 	.string	"SEL0"
 	.byte	0x3
 	.uahalf	0x1a7
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2779,7 +2779,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL1"
 	.byte	0x3
 	.uahalf	0x1a8
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2788,7 +2788,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL2"
 	.byte	0x3
 	.uahalf	0x1a9
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2797,7 +2797,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL3"
 	.byte	0x3
 	.uahalf	0x1aa
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2806,7 +2806,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL4"
 	.byte	0x3
 	.uahalf	0x1ab
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2815,7 +2815,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL5"
 	.byte	0x3
 	.uahalf	0x1ac
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2824,7 +2824,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL6"
 	.byte	0x3
 	.uahalf	0x1ad
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2833,7 +2833,7 @@ IfxPort_cfg_esrMasks:
 	.string	"reserved_7"
 	.byte	0x3
 	.uahalf	0x1ae
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -2842,7 +2842,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL10"
 	.byte	0x3
 	.uahalf	0x1af
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2851,7 +2851,7 @@ IfxPort_cfg_esrMasks:
 	.string	"SEL11"
 	.byte	0x3
 	.uahalf	0x1b0
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2860,7 +2860,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF7
 	.byte	0x3
 	.uahalf	0x1b1
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -2869,7 +2869,7 @@ IfxPort_cfg_esrMasks:
 	.string	"LCK"
 	.byte	0x3
 	.uahalf	0x1b2
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2879,18 +2879,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x3
 	.uahalf	0x1b3
-	.uaword	0x179a
+	.uaword	0x17a2
 	.uleb128 0xe
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1b6
-	.uaword	0x19f1
+	.uaword	0x19f9
 	.uleb128 0xb
 	.string	"PDIS0"
 	.byte	0x3
 	.uahalf	0x1b8
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2899,7 +2899,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS1"
 	.byte	0x3
 	.uahalf	0x1b9
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2908,7 +2908,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS2"
 	.byte	0x3
 	.uahalf	0x1ba
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2917,7 +2917,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS3"
 	.byte	0x3
 	.uahalf	0x1bb
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2926,7 +2926,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS4"
 	.byte	0x3
 	.uahalf	0x1bc
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2935,7 +2935,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS5"
 	.byte	0x3
 	.uahalf	0x1bd
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2944,7 +2944,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS6"
 	.byte	0x3
 	.uahalf	0x1be
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2953,7 +2953,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS7"
 	.byte	0x3
 	.uahalf	0x1bf
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2962,7 +2962,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS8"
 	.byte	0x3
 	.uahalf	0x1c0
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2971,7 +2971,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS9"
 	.byte	0x3
 	.uahalf	0x1c1
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2980,7 +2980,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS10"
 	.byte	0x3
 	.uahalf	0x1c2
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2989,7 +2989,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS11"
 	.byte	0x3
 	.uahalf	0x1c3
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2998,7 +2998,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS12"
 	.byte	0x3
 	.uahalf	0x1c4
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3007,7 +3007,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS13"
 	.byte	0x3
 	.uahalf	0x1c5
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3016,7 +3016,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS14"
 	.byte	0x3
 	.uahalf	0x1c6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3025,7 +3025,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PDIS15"
 	.byte	0x3
 	.uahalf	0x1c7
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3034,7 +3034,7 @@ IfxPort_cfg_esrMasks:
 	.uaword	.LASF1
 	.byte	0x3
 	.uahalf	0x1c8
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3044,18 +3044,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x3
 	.uahalf	0x1c9
-	.uaword	0x189f
+	.uaword	0x18a7
 	.uleb128 0xe
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1cc
-	.uaword	0x1b25
+	.uaword	0x1b2d
 	.uleb128 0xb
 	.string	"PD0"
 	.byte	0x3
 	.uahalf	0x1ce
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3064,7 +3064,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL0"
 	.byte	0x3
 	.uahalf	0x1cf
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3073,7 +3073,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD1"
 	.byte	0x3
 	.uahalf	0x1d0
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -3082,7 +3082,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL1"
 	.byte	0x3
 	.uahalf	0x1d1
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3091,7 +3091,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD2"
 	.byte	0x3
 	.uahalf	0x1d2
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -3100,7 +3100,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL2"
 	.byte	0x3
 	.uahalf	0x1d3
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3109,7 +3109,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD3"
 	.byte	0x3
 	.uahalf	0x1d4
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -3118,7 +3118,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL3"
 	.byte	0x3
 	.uahalf	0x1d5
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3127,7 +3127,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD4"
 	.byte	0x3
 	.uahalf	0x1d6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3136,7 +3136,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL4"
 	.byte	0x3
 	.uahalf	0x1d7
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3145,7 +3145,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD5"
 	.byte	0x3
 	.uahalf	0x1d8
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -3154,7 +3154,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL5"
 	.byte	0x3
 	.uahalf	0x1d9
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3163,7 +3163,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD6"
 	.byte	0x3
 	.uahalf	0x1da
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -3172,7 +3172,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL6"
 	.byte	0x3
 	.uahalf	0x1db
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3181,7 +3181,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD7"
 	.byte	0x3
 	.uahalf	0x1dc
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -3190,7 +3190,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL7"
 	.byte	0x3
 	.uahalf	0x1dd
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3200,18 +3200,18 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x3
 	.uahalf	0x1de
-	.uaword	0x1a0a
+	.uaword	0x1a12
 	.uleb128 0xe
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1e1
-	.uaword	0x1c64
+	.uaword	0x1c6c
 	.uleb128 0xb
 	.string	"PD8"
 	.byte	0x3
 	.uahalf	0x1e3
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3220,7 +3220,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL8"
 	.byte	0x3
 	.uahalf	0x1e4
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3229,7 +3229,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD9"
 	.byte	0x3
 	.uahalf	0x1e5
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -3238,7 +3238,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL9"
 	.byte	0x3
 	.uahalf	0x1e6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3247,7 +3247,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD10"
 	.byte	0x3
 	.uahalf	0x1e7
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -3256,7 +3256,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL10"
 	.byte	0x3
 	.uahalf	0x1e8
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3265,7 +3265,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD11"
 	.byte	0x3
 	.uahalf	0x1e9
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -3274,7 +3274,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL11"
 	.byte	0x3
 	.uahalf	0x1ea
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3283,7 +3283,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD12"
 	.byte	0x3
 	.uahalf	0x1eb
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3292,7 +3292,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL12"
 	.byte	0x3
 	.uahalf	0x1ec
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3301,7 +3301,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD13"
 	.byte	0x3
 	.uahalf	0x1ed
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -3310,7 +3310,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL13"
 	.byte	0x3
 	.uahalf	0x1ee
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3319,7 +3319,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD14"
 	.byte	0x3
 	.uahalf	0x1ef
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -3328,7 +3328,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL14"
 	.byte	0x3
 	.uahalf	0x1f0
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3337,7 +3337,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PD15"
 	.byte	0x3
 	.uahalf	0x1f1
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -3346,7 +3346,7 @@ IfxPort_cfg_esrMasks:
 	.string	"PL15"
 	.byte	0x3
 	.uahalf	0x1f2
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3356,968 +3356,968 @@ IfxPort_cfg_esrMasks:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x3
 	.uahalf	0x1f3
-	.uaword	0x1b3d
+	.uaword	0x1b45
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x1fb
-	.uaword	0x1ca4
+	.uaword	0x1cac
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x1fd
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x1fe
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x1ff
-	.uaword	0x4dd
+	.uaword	0x4e5
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x3
 	.uahalf	0x200
-	.uaword	0x1c7c
+	.uaword	0x1c84
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x203
-	.uaword	0x1ce1
+	.uaword	0x1ce9
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x205
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x206
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x207
-	.uaword	0x521
+	.uaword	0x529
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x3
 	.uahalf	0x208
-	.uaword	0x1cb9
+	.uaword	0x1cc1
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x20b
-	.uaword	0x1d1e
+	.uaword	0x1d26
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x20d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x20e
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x20f
-	.uaword	0x658
+	.uaword	0x660
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ESR"
 	.byte	0x3
 	.uahalf	0x210
-	.uaword	0x1cf6
+	.uaword	0x1cfe
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x213
-	.uaword	0x1d58
+	.uaword	0x1d60
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x215
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x216
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x217
-	.uaword	0x6c0
+	.uaword	0x6c8
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_ID"
 	.byte	0x3
 	.uahalf	0x218
-	.uaword	0x1d30
+	.uaword	0x1d38
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x21b
-	.uaword	0x1d91
+	.uaword	0x1d99
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x21d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x21e
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x21f
-	.uaword	0x7e2
+	.uaword	0x7ea
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IN"
 	.byte	0x3
 	.uahalf	0x220
-	.uaword	0x1d69
+	.uaword	0x1d71
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x223
-	.uaword	0x1dca
+	.uaword	0x1dd2
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x225
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x226
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x227
-	.uaword	0x88a
+	.uaword	0x892
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR0"
 	.byte	0x3
 	.uahalf	0x228
-	.uaword	0x1da2
+	.uaword	0x1daa
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x22b
-	.uaword	0x1e06
+	.uaword	0x1e0e
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x22d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x22e
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x22f
-	.uaword	0x93a
+	.uaword	0x942
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR12"
 	.byte	0x3
 	.uahalf	0x230
-	.uaword	0x1dde
+	.uaword	0x1de6
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x233
-	.uaword	0x1e43
+	.uaword	0x1e4b
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x235
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x236
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x237
-	.uaword	0x9e6
+	.uaword	0x9ee
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR4"
 	.byte	0x3
 	.uahalf	0x238
-	.uaword	0x1e1b
+	.uaword	0x1e23
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x23b
-	.uaword	0x1e7f
+	.uaword	0x1e87
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x23d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x23e
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x23f
-	.uaword	0xa93
+	.uaword	0xa9b
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_IOCR8"
 	.byte	0x3
 	.uahalf	0x240
-	.uaword	0x1e57
+	.uaword	0x1e5f
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x243
-	.uaword	0x1ebb
+	.uaword	0x1ec3
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x245
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x246
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x247
-	.uaword	0xaf3
+	.uaword	0xafb
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_LPCR0"
 	.byte	0x3
 	.uahalf	0x248
-	.uaword	0x1e93
+	.uaword	0x1e9b
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x24b
-	.uaword	0x1f05
+	.uaword	0x1f0d
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x24d
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x24e
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x24f
-	.uaword	0xb53
+	.uaword	0xb5b
 	.uleb128 0x10
 	.string	"B_P21"
 	.byte	0x3
 	.uahalf	0x250
-	.uaword	0xbe3
+	.uaword	0xbeb
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_LPCR1"
 	.byte	0x3
 	.uahalf	0x251
-	.uaword	0x1ecf
+	.uaword	0x1ed7
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x254
-	.uaword	0x1f41
+	.uaword	0x1f49
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x256
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x257
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x258
-	.uaword	0xcbe
+	.uaword	0xcc6
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_LPCR2"
 	.byte	0x3
 	.uahalf	0x259
-	.uaword	0x1f19
+	.uaword	0x1f21
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x25c
-	.uaword	0x1f7d
+	.uaword	0x1f85
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x25e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x25f
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x260
-	.uaword	0x1062
+	.uaword	0x106a
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR"
 	.byte	0x3
 	.uahalf	0x261
-	.uaword	0x1f55
+	.uaword	0x1f5d
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x264
-	.uaword	0x1fb8
+	.uaword	0x1fc0
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x266
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x267
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x268
-	.uaword	0xd4f
+	.uaword	0xd57
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR0"
 	.byte	0x3
 	.uahalf	0x269
-	.uaword	0x1f90
+	.uaword	0x1f98
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x26c
-	.uaword	0x1ff4
+	.uaword	0x1ffc
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x26e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x26f
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x270
-	.uaword	0xdd6
+	.uaword	0xdde
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR12"
 	.byte	0x3
 	.uahalf	0x271
-	.uaword	0x1fcc
+	.uaword	0x1fd4
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x274
-	.uaword	0x2031
+	.uaword	0x2039
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x276
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x277
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x278
-	.uaword	0xe6d
+	.uaword	0xe75
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR4"
 	.byte	0x3
 	.uahalf	0x279
-	.uaword	0x2009
+	.uaword	0x2011
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x27c
-	.uaword	0x206d
+	.uaword	0x2075
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x27e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x27f
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x280
-	.uaword	0xf08
+	.uaword	0xf10
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMCR8"
 	.byte	0x3
 	.uahalf	0x281
-	.uaword	0x2045
+	.uaword	0x204d
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x284
-	.uaword	0x20a9
+	.uaword	0x20b1
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x286
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x287
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x288
-	.uaword	0x12b0
+	.uaword	0x12b8
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMR"
 	.byte	0x3
 	.uahalf	0x289
-	.uaword	0x2081
+	.uaword	0x2089
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x28c
-	.uaword	0x20e3
+	.uaword	0x20eb
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x28e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x28f
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x290
-	.uaword	0x164b
+	.uaword	0x1653
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR"
 	.byte	0x3
 	.uahalf	0x291
-	.uaword	0x20bb
+	.uaword	0x20c3
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x294
-	.uaword	0x211e
+	.uaword	0x2126
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x296
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x297
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x298
-	.uaword	0x133a
+	.uaword	0x1342
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR0"
 	.byte	0x3
 	.uahalf	0x299
-	.uaword	0x20f6
+	.uaword	0x20fe
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x29c
-	.uaword	0x215a
+	.uaword	0x2162
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x29e
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x29f
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2a0
-	.uaword	0x13d4
+	.uaword	0x13dc
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR12"
 	.byte	0x3
 	.uahalf	0x2a1
-	.uaword	0x2132
+	.uaword	0x213a
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2a4
-	.uaword	0x2197
+	.uaword	0x219f
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2a6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2a7
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2a8
-	.uaword	0x146a
+	.uaword	0x1472
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR4"
 	.byte	0x3
 	.uahalf	0x2a9
-	.uaword	0x216f
+	.uaword	0x2177
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2ac
-	.uaword	0x21d3
+	.uaword	0x21db
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2ae
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2af
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2b0
-	.uaword	0x1501
+	.uaword	0x1509
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OMSR8"
 	.byte	0x3
 	.uahalf	0x2b1
-	.uaword	0x21ab
+	.uaword	0x21b3
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2b4
-	.uaword	0x220f
+	.uaword	0x2217
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2b6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2b7
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2b8
-	.uaword	0x1783
+	.uaword	0x178b
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_OUT"
 	.byte	0x3
 	.uahalf	0x2b9
-	.uaword	0x21e7
+	.uaword	0x21ef
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2bc
-	.uaword	0x2249
+	.uaword	0x2251
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2be
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2bf
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2c0
-	.uaword	0x1887
+	.uaword	0x188f
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PCSR"
 	.byte	0x3
 	.uahalf	0x2c1
-	.uaword	0x2221
+	.uaword	0x2229
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2c4
-	.uaword	0x2284
+	.uaword	0x228c
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2c6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2c7
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2c8
-	.uaword	0x19f1
+	.uaword	0x19f9
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PDISC"
 	.byte	0x3
 	.uahalf	0x2c9
-	.uaword	0x225c
+	.uaword	0x2264
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2cc
-	.uaword	0x22c0
+	.uaword	0x22c8
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2ce
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2cf
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2d0
-	.uaword	0x1b25
+	.uaword	0x1b2d
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PDR0"
 	.byte	0x3
 	.uahalf	0x2d1
-	.uaword	0x2298
+	.uaword	0x22a0
 	.uleb128 0xf
 	.byte	0x4
 	.byte	0x3
 	.uahalf	0x2d4
-	.uaword	0x22fb
+	.uaword	0x2303
 	.uleb128 0x10
 	.string	"U"
 	.byte	0x3
 	.uahalf	0x2d6
-	.uaword	0x4cd
+	.uaword	0x4d5
 	.uleb128 0x10
 	.string	"I"
 	.byte	0x3
 	.uahalf	0x2d7
-	.uaword	0x1c8
+	.uaword	0x1d0
 	.uleb128 0x10
 	.string	"B"
 	.byte	0x3
 	.uahalf	0x2d8
-	.uaword	0x1c64
+	.uaword	0x1c6c
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P_PDR1"
 	.byte	0x3
 	.uahalf	0x2d9
-	.uaword	0x22d3
+	.uaword	0x22db
 	.uleb128 0x11
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x3
 	.uahalf	0x2e4
-	.uaword	0x254f
+	.uaword	0x2557
 	.uleb128 0x12
 	.string	"OUT"
 	.byte	0x3
 	.uahalf	0x2e6
-	.uaword	0x220f
+	.uaword	0x2217
 	.byte	0
 	.uleb128 0x12
 	.string	"OMR"
 	.byte	0x3
 	.uahalf	0x2e7
-	.uaword	0x20a9
+	.uaword	0x20b1
 	.byte	0x4
 	.uleb128 0x12
 	.string	"ID"
 	.byte	0x3
 	.uahalf	0x2e8
-	.uaword	0x1d58
+	.uaword	0x1d60
 	.byte	0x8
 	.uleb128 0x12
 	.string	"reserved_C"
 	.byte	0x3
 	.uahalf	0x2e9
-	.uaword	0x254f
+	.uaword	0x2557
 	.byte	0xc
 	.uleb128 0x12
 	.string	"IOCR0"
 	.byte	0x3
 	.uahalf	0x2ea
-	.uaword	0x1dca
+	.uaword	0x1dd2
 	.byte	0x10
 	.uleb128 0x12
 	.string	"IOCR4"
 	.byte	0x3
 	.uahalf	0x2eb
-	.uaword	0x1e43
+	.uaword	0x1e4b
 	.byte	0x14
 	.uleb128 0x12
 	.string	"IOCR8"
 	.byte	0x3
 	.uahalf	0x2ec
-	.uaword	0x1e7f
+	.uaword	0x1e87
 	.byte	0x18
 	.uleb128 0x12
 	.string	"IOCR12"
 	.byte	0x3
 	.uahalf	0x2ed
-	.uaword	0x1e06
+	.uaword	0x1e0e
 	.byte	0x1c
 	.uleb128 0x13
 	.uaword	.LASF5
 	.byte	0x3
 	.uahalf	0x2ee
-	.uaword	0x254f
+	.uaword	0x2557
 	.byte	0x20
 	.uleb128 0x12
 	.string	"IN"
 	.byte	0x3
 	.uahalf	0x2ef
-	.uaword	0x1d91
+	.uaword	0x1d99
 	.byte	0x24
 	.uleb128 0x13
 	.uaword	.LASF6
 	.byte	0x3
 	.uahalf	0x2f0
-	.uaword	0x256b
+	.uaword	0x2573
 	.byte	0x28
 	.uleb128 0x12
 	.string	"PDR0"
 	.byte	0x3
 	.uahalf	0x2f1
-	.uaword	0x22c0
+	.uaword	0x22c8
 	.byte	0x40
 	.uleb128 0x12
 	.string	"PDR1"
 	.byte	0x3
 	.uahalf	0x2f2
-	.uaword	0x22fb
+	.uaword	0x2303
 	.byte	0x44
 	.uleb128 0x12
 	.string	"reserved_48"
 	.byte	0x3
 	.uahalf	0x2f3
-	.uaword	0x257b
+	.uaword	0x2583
 	.byte	0x48
 	.uleb128 0x12
 	.string	"ESR"
 	.byte	0x3
 	.uahalf	0x2f4
-	.uaword	0x1d1e
+	.uaword	0x1d26
 	.byte	0x50
 	.uleb128 0x12
 	.string	"reserved_54"
 	.byte	0x3
 	.uahalf	0x2f5
-	.uaword	0x258b
+	.uaword	0x2593
 	.byte	0x54
 	.uleb128 0x12
 	.string	"PDISC"
 	.byte	0x3
 	.uahalf	0x2f6
-	.uaword	0x2284
+	.uaword	0x228c
 	.byte	0x60
 	.uleb128 0x12
 	.string	"PCSR"
 	.byte	0x3
 	.uahalf	0x2f7
-	.uaword	0x2249
+	.uaword	0x2251
 	.byte	0x64
 	.uleb128 0x12
 	.string	"reserved_68"
 	.byte	0x3
 	.uahalf	0x2f8
-	.uaword	0x257b
+	.uaword	0x2583
 	.byte	0x68
 	.uleb128 0x12
 	.string	"OMSR0"
 	.byte	0x3
 	.uahalf	0x2f9
-	.uaword	0x211e
+	.uaword	0x2126
 	.byte	0x70
 	.uleb128 0x12
 	.string	"OMSR4"
 	.byte	0x3
 	.uahalf	0x2fa
-	.uaword	0x2197
+	.uaword	0x219f
 	.byte	0x74
 	.uleb128 0x12
 	.string	"OMSR8"
 	.byte	0x3
 	.uahalf	0x2fb
-	.uaword	0x21d3
+	.uaword	0x21db
 	.byte	0x78
 	.uleb128 0x12
 	.string	"OMSR12"
 	.byte	0x3
 	.uahalf	0x2fc
-	.uaword	0x215a
+	.uaword	0x2162
 	.byte	0x7c
 	.uleb128 0x12
 	.string	"OMCR0"
 	.byte	0x3
 	.uahalf	0x2fd
-	.uaword	0x1fb8
+	.uaword	0x1fc0
 	.byte	0x80
 	.uleb128 0x12
 	.string	"OMCR4"
 	.byte	0x3
 	.uahalf	0x2fe
-	.uaword	0x2031
+	.uaword	0x2039
 	.byte	0x84
 	.uleb128 0x12
 	.string	"OMCR8"
 	.byte	0x3
 	.uahalf	0x2ff
-	.uaword	0x206d
+	.uaword	0x2075
 	.byte	0x88
 	.uleb128 0x12
 	.string	"OMCR12"
 	.byte	0x3
 	.uahalf	0x300
-	.uaword	0x1ff4
+	.uaword	0x1ffc
 	.byte	0x8c
 	.uleb128 0x12
 	.string	"OMSR"
 	.byte	0x3
 	.uahalf	0x301
-	.uaword	0x20e3
+	.uaword	0x20eb
 	.byte	0x90
 	.uleb128 0x12
 	.string	"OMCR"
 	.byte	0x3
 	.uahalf	0x302
-	.uaword	0x1f7d
+	.uaword	0x1f85
 	.byte	0x94
 	.uleb128 0x12
 	.string	"reserved_98"
 	.byte	0x3
 	.uahalf	0x303
-	.uaword	0x257b
+	.uaword	0x2583
 	.byte	0x98
 	.uleb128 0x12
 	.string	"LPCR0"
 	.byte	0x3
 	.uahalf	0x304
-	.uaword	0x1ebb
+	.uaword	0x1ec3
 	.byte	0xa0
 	.uleb128 0x12
 	.string	"LPCR1"
 	.byte	0x3
 	.uahalf	0x305
-	.uaword	0x1f05
+	.uaword	0x1f0d
 	.byte	0xa4
 	.uleb128 0x12
 	.string	"LPCR2"
 	.byte	0x3
 	.uahalf	0x306
-	.uaword	0x1f41
+	.uaword	0x1f49
 	.byte	0xa8
 	.uleb128 0x12
 	.string	"reserved_A4"
 	.byte	0x3
 	.uahalf	0x307
-	.uaword	0x259b
+	.uaword	0x25a3
 	.byte	0xac
 	.uleb128 0x12
 	.string	"ACCEN1"
 	.byte	0x3
 	.uahalf	0x308
-	.uaword	0x1ce1
+	.uaword	0x1ce9
 	.byte	0xf8
 	.uleb128 0x12
 	.string	"ACCEN0"
 	.byte	0x3
 	.uahalf	0x309
-	.uaword	0x1ca4
+	.uaword	0x1cac
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x1de
-	.uaword	0x255f
+	.uaword	0x1e6
+	.uaword	0x2567
 	.uleb128 0x15
-	.uaword	0x255f
+	.uaword	0x2567
 	.byte	0x3
 	.byte	0
 	.uleb128 0x2
@@ -4325,45 +4325,45 @@ IfxPort_cfg_esrMasks:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x14
-	.uaword	0x1de
-	.uaword	0x257b
+	.uaword	0x1e6
+	.uaword	0x2583
 	.uleb128 0x15
-	.uaword	0x255f
+	.uaword	0x2567
 	.byte	0x17
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x1de
-	.uaword	0x258b
+	.uaword	0x1e6
+	.uaword	0x2593
 	.uleb128 0x15
-	.uaword	0x255f
+	.uaword	0x2567
 	.byte	0x7
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x1de
-	.uaword	0x259b
+	.uaword	0x1e6
+	.uaword	0x25a3
 	.uleb128 0x15
-	.uaword	0x255f
+	.uaword	0x2567
 	.byte	0xb
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x1de
-	.uaword	0x25ab
+	.uaword	0x1e6
+	.uaword	0x25b3
 	.uleb128 0x15
-	.uaword	0x255f
+	.uaword	0x2567
 	.byte	0x4b
 	.byte	0
 	.uleb128 0xd
 	.string	"Ifx_P"
 	.byte	0x3
 	.uahalf	0x30a
-	.uaword	0x25b9
+	.uaword	0x25c1
 	.uleb128 0x16
-	.uaword	0x230e
+	.uaword	0x2316
 	.uleb128 0x17
 	.byte	0x1
 	.byte	0x4
 	.byte	0x3c
-	.uaword	0x270c
+	.uaword	0x2714
 	.uleb128 0x18
 	.string	"IfxPort_Index_00"
 	.sleb128 0
@@ -4420,64 +4420,64 @@ IfxPort_cfg_esrMasks:
 	.byte	0x8
 	.byte	0x4
 	.byte	0x56
-	.uaword	0x2730
+	.uaword	0x2738
 	.uleb128 0x7
 	.string	"port"
 	.byte	0x4
 	.byte	0x58
-	.uaword	0x2730
+	.uaword	0x2738
 	.byte	0
 	.uleb128 0x7
 	.string	"masks"
 	.byte	0x4
 	.byte	0x59
-	.uaword	0x1fc
+	.uaword	0x204
 	.byte	0x4
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x25ab
+	.uaword	0x25b3
 	.uleb128 0x3
 	.string	"IfxPort_Esr_Masks"
 	.byte	0x4
 	.byte	0x5a
-	.uaword	0x270c
+	.uaword	0x2714
 	.uleb128 0x14
-	.uaword	0x2736
-	.uaword	0x275f
+	.uaword	0x273e
+	.uaword	0x2767
 	.uleb128 0x15
-	.uaword	0x255f
+	.uaword	0x2567
 	.byte	0xf
 	.byte	0
 	.uleb128 0x19
 	.string	"IfxPort_cfg_esrMasks"
 	.byte	0x5
 	.byte	0x24
-	.uaword	0x2782
+	.uaword	0x278a
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxPort_cfg_esrMasks
 	.uleb128 0x1a
-	.uaword	0x274f
+	.uaword	0x2757
 	.uleb128 0x14
-	.uaword	0x2a1
-	.uaword	0x2797
+	.uaword	0x2a9
+	.uaword	0x279f
 	.uleb128 0x15
-	.uaword	0x255f
+	.uaword	0x2567
 	.byte	0xf
 	.byte	0
 	.uleb128 0x19
 	.string	"IfxPort_cfg_indexMap"
 	.byte	0x5
 	.byte	0x38
-	.uaword	0x27ba
+	.uaword	0x27c2
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxPort_cfg_indexMap
 	.uleb128 0x1a
-	.uaword	0x2787
+	.uaword	0x278f
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:

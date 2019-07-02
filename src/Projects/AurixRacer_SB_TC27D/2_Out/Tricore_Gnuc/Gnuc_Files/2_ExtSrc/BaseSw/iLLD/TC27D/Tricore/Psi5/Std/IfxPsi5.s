@@ -173,7 +173,7 @@ IfxPsi5_enableModule:
 	.file 4 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x8cbc
+	.uaword	0x8cc4
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -181,7 +181,7 @@ IfxPsi5_enableModule:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Psi5/Std/IfxPsi5.c"
-	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\JB\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -191,12 +191,12 @@ IfxPsi5_enableModule:
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0x3
 	.string	"EN0"
 	.byte	0x2
 	.byte	0x2f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -205,7 +205,7 @@ IfxPsi5_enableModule:
 	.string	"EN1"
 	.byte	0x2
 	.byte	0x30
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -214,7 +214,7 @@ IfxPsi5_enableModule:
 	.string	"EN2"
 	.byte	0x2
 	.byte	0x31
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -223,7 +223,7 @@ IfxPsi5_enableModule:
 	.string	"EN3"
 	.byte	0x2
 	.byte	0x32
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -232,7 +232,7 @@ IfxPsi5_enableModule:
 	.string	"EN4"
 	.byte	0x2
 	.byte	0x33
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -241,7 +241,7 @@ IfxPsi5_enableModule:
 	.string	"EN5"
 	.byte	0x2
 	.byte	0x34
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -250,7 +250,7 @@ IfxPsi5_enableModule:
 	.string	"EN6"
 	.byte	0x2
 	.byte	0x35
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -259,7 +259,7 @@ IfxPsi5_enableModule:
 	.string	"EN7"
 	.byte	0x2
 	.byte	0x36
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -268,7 +268,7 @@ IfxPsi5_enableModule:
 	.string	"EN8"
 	.byte	0x2
 	.byte	0x37
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -277,7 +277,7 @@ IfxPsi5_enableModule:
 	.string	"EN9"
 	.byte	0x2
 	.byte	0x38
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -286,7 +286,7 @@ IfxPsi5_enableModule:
 	.string	"EN10"
 	.byte	0x2
 	.byte	0x39
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -295,7 +295,7 @@ IfxPsi5_enableModule:
 	.string	"EN11"
 	.byte	0x2
 	.byte	0x3a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -304,7 +304,7 @@ IfxPsi5_enableModule:
 	.string	"EN12"
 	.byte	0x2
 	.byte	0x3b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -313,7 +313,7 @@ IfxPsi5_enableModule:
 	.string	"EN13"
 	.byte	0x2
 	.byte	0x3c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -322,7 +322,7 @@ IfxPsi5_enableModule:
 	.string	"EN14"
 	.byte	0x2
 	.byte	0x3d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -331,7 +331,7 @@ IfxPsi5_enableModule:
 	.string	"EN15"
 	.byte	0x2
 	.byte	0x3e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -340,7 +340,7 @@ IfxPsi5_enableModule:
 	.string	"EN16"
 	.byte	0x2
 	.byte	0x3f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -349,7 +349,7 @@ IfxPsi5_enableModule:
 	.string	"EN17"
 	.byte	0x2
 	.byte	0x40
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -358,7 +358,7 @@ IfxPsi5_enableModule:
 	.string	"EN18"
 	.byte	0x2
 	.byte	0x41
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -367,7 +367,7 @@ IfxPsi5_enableModule:
 	.string	"EN19"
 	.byte	0x2
 	.byte	0x42
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -376,7 +376,7 @@ IfxPsi5_enableModule:
 	.string	"EN20"
 	.byte	0x2
 	.byte	0x43
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -385,7 +385,7 @@ IfxPsi5_enableModule:
 	.string	"EN21"
 	.byte	0x2
 	.byte	0x44
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -394,7 +394,7 @@ IfxPsi5_enableModule:
 	.string	"EN22"
 	.byte	0x2
 	.byte	0x45
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -403,7 +403,7 @@ IfxPsi5_enableModule:
 	.string	"EN23"
 	.byte	0x2
 	.byte	0x46
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -412,7 +412,7 @@ IfxPsi5_enableModule:
 	.string	"EN24"
 	.byte	0x2
 	.byte	0x47
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -421,7 +421,7 @@ IfxPsi5_enableModule:
 	.string	"EN25"
 	.byte	0x2
 	.byte	0x48
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -430,7 +430,7 @@ IfxPsi5_enableModule:
 	.string	"EN26"
 	.byte	0x2
 	.byte	0x49
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -439,7 +439,7 @@ IfxPsi5_enableModule:
 	.string	"EN27"
 	.byte	0x2
 	.byte	0x4a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -448,7 +448,7 @@ IfxPsi5_enableModule:
 	.string	"EN28"
 	.byte	0x2
 	.byte	0x4b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -457,7 +457,7 @@ IfxPsi5_enableModule:
 	.string	"EN29"
 	.byte	0x2
 	.byte	0x4c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -466,7 +466,7 @@ IfxPsi5_enableModule:
 	.string	"EN30"
 	.byte	0x2
 	.byte	0x4d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -475,7 +475,7 @@ IfxPsi5_enableModule:
 	.string	"EN31"
 	.byte	0x2
 	.byte	0x4e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -489,18 +489,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_ACCEN0_Bits"
 	.byte	0x2
 	.byte	0x4f
-	.uaword	0x1b2
+	.uaword	0x1ba
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x52
-	.uaword	0x421
+	.uaword	0x429
 	.uleb128 0x6
 	.uaword	.LASF0
 	.byte	0x2
 	.byte	0x54
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -510,18 +510,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_ACCEN1_Bits"
 	.byte	0x2
 	.byte	0x55
-	.uaword	0x3f3
+	.uaword	0x3fb
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_CTV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x58
-	.uaword	0x47a
+	.uaword	0x482
 	.uleb128 0x3
 	.string	"CTV"
 	.byte	0x2
 	.byte	0x5a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -530,7 +530,7 @@ IfxPsi5_enableModule:
 	.string	"CTC"
 	.byte	0x2
 	.byte	0x5b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -540,18 +540,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_CTV_Bits"
 	.byte	0x2
 	.byte	0x5c
-	.uaword	0x43d
+	.uaword	0x445
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_IOCR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x5f
-	.uaword	0x57e
+	.uaword	0x586
 	.uleb128 0x3
 	.string	"ALTI"
 	.byte	0x2
 	.byte	0x61
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -560,7 +560,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF1
 	.byte	0x2
 	.byte	0x62
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -569,7 +569,7 @@ IfxPsi5_enableModule:
 	.string	"DEPTH"
 	.byte	0x2
 	.byte	0x63
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -578,7 +578,7 @@ IfxPsi5_enableModule:
 	.string	"OIE"
 	.byte	0x2
 	.byte	0x64
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -587,7 +587,7 @@ IfxPsi5_enableModule:
 	.string	"IIE"
 	.byte	0x2
 	.byte	0x65
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -596,7 +596,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF2
 	.byte	0x2
 	.byte	0x66
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -605,7 +605,7 @@ IfxPsi5_enableModule:
 	.string	"REG"
 	.byte	0x2
 	.byte	0x67
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -614,7 +614,7 @@ IfxPsi5_enableModule:
 	.string	"FEG"
 	.byte	0x2
 	.byte	0x68
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -623,7 +623,7 @@ IfxPsi5_enableModule:
 	.string	"CREG"
 	.byte	0x2
 	.byte	0x69
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -632,7 +632,7 @@ IfxPsi5_enableModule:
 	.string	"CFEG"
 	.byte	0x2
 	.byte	0x6a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -641,7 +641,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF3
 	.byte	0x2
 	.byte	0x6b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xe
 	.byte	0x2
@@ -650,7 +650,7 @@ IfxPsi5_enableModule:
 	.string	"RXM"
 	.byte	0x2
 	.byte	0x6c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -659,7 +659,7 @@ IfxPsi5_enableModule:
 	.string	"TXM"
 	.byte	0x2
 	.byte	0x6d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -669,18 +669,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_IOCR_Bits"
 	.byte	0x2
 	.byte	0x6e
-	.uaword	0x496
+	.uaword	0x49e
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_PGC_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x71
-	.uaword	0x660
+	.uaword	0x668
 	.uleb128 0x3
 	.string	"PLEN"
 	.byte	0x2
 	.byte	0x73
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -689,7 +689,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF4
 	.byte	0x2
 	.byte	0x74
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -698,7 +698,7 @@ IfxPsi5_enableModule:
 	.string	"DEL"
 	.byte	0x2
 	.byte	0x75
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -707,7 +707,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF5
 	.byte	0x2
 	.byte	0x76
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -716,7 +716,7 @@ IfxPsi5_enableModule:
 	.string	"TBS"
 	.byte	0x2
 	.byte	0x77
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -725,7 +725,7 @@ IfxPsi5_enableModule:
 	.string	"ETB"
 	.byte	0x2
 	.byte	0x78
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -734,7 +734,7 @@ IfxPsi5_enableModule:
 	.string	"PTE"
 	.byte	0x2
 	.byte	0x79
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -743,7 +743,7 @@ IfxPsi5_enableModule:
 	.string	"ETS"
 	.byte	0x2
 	.byte	0x7a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -752,7 +752,7 @@ IfxPsi5_enableModule:
 	.string	"ETE"
 	.byte	0x2
 	.byte	0x7b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -761,7 +761,7 @@ IfxPsi5_enableModule:
 	.string	"BYP"
 	.byte	0x2
 	.byte	0x7c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -770,7 +770,7 @@ IfxPsi5_enableModule:
 	.string	"BOT"
 	.byte	0x2
 	.byte	0x7d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -780,18 +780,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_PGC_Bits"
 	.byte	0x2
 	.byte	0x7e
-	.uaword	0x59b
+	.uaword	0x5a3
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_RCRA_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x81
-	.uaword	0x71c
+	.uaword	0x724
 	.uleb128 0x3
 	.string	"PDL0"
 	.byte	0x2
 	.byte	0x83
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -800,7 +800,7 @@ IfxPsi5_enableModule:
 	.string	"PDL1"
 	.byte	0x2
 	.byte	0x84
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x5
 	.byte	0x16
@@ -809,7 +809,7 @@ IfxPsi5_enableModule:
 	.string	"PDL2"
 	.byte	0x2
 	.byte	0x85
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x5
 	.byte	0x11
@@ -818,7 +818,7 @@ IfxPsi5_enableModule:
 	.string	"PDL3"
 	.byte	0x2
 	.byte	0x86
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x5
 	.byte	0xc
@@ -827,7 +827,7 @@ IfxPsi5_enableModule:
 	.string	"PDL4"
 	.byte	0x2
 	.byte	0x87
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -836,7 +836,7 @@ IfxPsi5_enableModule:
 	.string	"PDL5"
 	.byte	0x2
 	.byte	0x88
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x5
 	.byte	0x2
@@ -845,7 +845,7 @@ IfxPsi5_enableModule:
 	.string	"ASYN"
 	.byte	0x2
 	.byte	0x89
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -854,7 +854,7 @@ IfxPsi5_enableModule:
 	.string	"AVBS"
 	.byte	0x2
 	.byte	0x8a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -864,18 +864,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_RCRA_Bits"
 	.byte	0x2
 	.byte	0x8b
-	.uaword	0x67c
+	.uaword	0x684
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_RCRB_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8e
-	.uaword	0x8e8
+	.uaword	0x8f0
 	.uleb128 0x3
 	.string	"MSG0"
 	.byte	0x2
 	.byte	0x90
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -884,7 +884,7 @@ IfxPsi5_enableModule:
 	.string	"CRC0"
 	.byte	0x2
 	.byte	0x91
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -893,7 +893,7 @@ IfxPsi5_enableModule:
 	.string	"FEC0"
 	.byte	0x2
 	.byte	0x92
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -902,7 +902,7 @@ IfxPsi5_enableModule:
 	.string	"VBS0"
 	.byte	0x2
 	.byte	0x93
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -911,7 +911,7 @@ IfxPsi5_enableModule:
 	.string	"MSG1"
 	.byte	0x2
 	.byte	0x94
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -920,7 +920,7 @@ IfxPsi5_enableModule:
 	.string	"CRC1"
 	.byte	0x2
 	.byte	0x95
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -929,7 +929,7 @@ IfxPsi5_enableModule:
 	.string	"FEC1"
 	.byte	0x2
 	.byte	0x96
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -938,7 +938,7 @@ IfxPsi5_enableModule:
 	.string	"VBS1"
 	.byte	0x2
 	.byte	0x97
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -947,7 +947,7 @@ IfxPsi5_enableModule:
 	.string	"MSG2"
 	.byte	0x2
 	.byte	0x98
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -956,7 +956,7 @@ IfxPsi5_enableModule:
 	.string	"CRC2"
 	.byte	0x2
 	.byte	0x99
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -965,7 +965,7 @@ IfxPsi5_enableModule:
 	.string	"FEC2"
 	.byte	0x2
 	.byte	0x9a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -974,7 +974,7 @@ IfxPsi5_enableModule:
 	.string	"VBS2"
 	.byte	0x2
 	.byte	0x9b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -983,7 +983,7 @@ IfxPsi5_enableModule:
 	.string	"MSG3"
 	.byte	0x2
 	.byte	0x9c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -992,7 +992,7 @@ IfxPsi5_enableModule:
 	.string	"CRC3"
 	.byte	0x2
 	.byte	0x9d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1001,7 +1001,7 @@ IfxPsi5_enableModule:
 	.string	"FEC3"
 	.byte	0x2
 	.byte	0x9e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1010,7 +1010,7 @@ IfxPsi5_enableModule:
 	.string	"VBS3"
 	.byte	0x2
 	.byte	0x9f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1019,7 +1019,7 @@ IfxPsi5_enableModule:
 	.string	"MSG4"
 	.byte	0x2
 	.byte	0xa0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1028,7 +1028,7 @@ IfxPsi5_enableModule:
 	.string	"CRC4"
 	.byte	0x2
 	.byte	0xa1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1037,7 +1037,7 @@ IfxPsi5_enableModule:
 	.string	"FEC4"
 	.byte	0x2
 	.byte	0xa2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1046,7 +1046,7 @@ IfxPsi5_enableModule:
 	.string	"VBS4"
 	.byte	0x2
 	.byte	0xa3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1055,7 +1055,7 @@ IfxPsi5_enableModule:
 	.string	"MSG5"
 	.byte	0x2
 	.byte	0xa4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1064,7 +1064,7 @@ IfxPsi5_enableModule:
 	.string	"CRC5"
 	.byte	0x2
 	.byte	0xa5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1073,7 +1073,7 @@ IfxPsi5_enableModule:
 	.string	"FEC5"
 	.byte	0x2
 	.byte	0xa6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1082,7 +1082,7 @@ IfxPsi5_enableModule:
 	.string	"VBS5"
 	.byte	0x2
 	.byte	0xa7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1091,7 +1091,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF6
 	.byte	0x2
 	.byte	0xa8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -1101,18 +1101,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_RCRB_Bits"
 	.byte	0x2
 	.byte	0xa9
-	.uaword	0x739
+	.uaword	0x741
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_RCRC_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xac
-	.uaword	0x970
+	.uaword	0x978
 	.uleb128 0x3
 	.string	"BRS"
 	.byte	0x2
 	.byte	0xae
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1121,7 +1121,7 @@ IfxPsi5_enableModule:
 	.string	"TSP"
 	.byte	0x2
 	.byte	0xaf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1d
@@ -1130,7 +1130,7 @@ IfxPsi5_enableModule:
 	.string	"TSF"
 	.byte	0x2
 	.byte	0xb0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1b
@@ -1139,7 +1139,7 @@ IfxPsi5_enableModule:
 	.string	"TSR"
 	.byte	0x2
 	.byte	0xb1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1148,7 +1148,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF4
 	.byte	0x2
 	.byte	0xb2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -1158,18 +1158,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_RCRC_Bits"
 	.byte	0x2
 	.byte	0xb3
-	.uaword	0x905
+	.uaword	0x90d
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_RDRH_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xb6
-	.uaword	0xa14
+	.uaword	0xa1c
 	.uleb128 0x3
 	.string	"TS"
 	.byte	0x2
 	.byte	0xb8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -1178,7 +1178,7 @@ IfxPsi5_enableModule:
 	.string	"SC"
 	.byte	0x2
 	.byte	0xb9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -1187,7 +1187,7 @@ IfxPsi5_enableModule:
 	.string	"TEI"
 	.byte	0x2
 	.byte	0xba
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1196,7 +1196,7 @@ IfxPsi5_enableModule:
 	.string	"NBI"
 	.byte	0x2
 	.byte	0xbb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1205,7 +1205,7 @@ IfxPsi5_enableModule:
 	.string	"MEI"
 	.byte	0x2
 	.byte	0xbc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1214,7 +1214,7 @@ IfxPsi5_enableModule:
 	.string	"NFI"
 	.byte	0x2
 	.byte	0xbd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1223,7 +1223,7 @@ IfxPsi5_enableModule:
 	.string	"RBI"
 	.byte	0x2
 	.byte	0xbe
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1233,18 +1233,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_RDRH_Bits"
 	.byte	0x2
 	.byte	0xbf
-	.uaword	0x98d
+	.uaword	0x995
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_RDRL_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc2
-	.uaword	0xa7d
+	.uaword	0xa85
 	.uleb128 0x6
 	.uaword	.LASF7
 	.byte	0x2
 	.byte	0xc4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1253,7 +1253,7 @@ IfxPsi5_enableModule:
 	.string	"CRC"
 	.byte	0x2
 	.byte	0xc5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -1262,7 +1262,7 @@ IfxPsi5_enableModule:
 	.string	"RD"
 	.byte	0x2
 	.byte	0xc6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -1272,18 +1272,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_RDRL_Bits"
 	.byte	0x2
 	.byte	0xc7
-	.uaword	0xa31
+	.uaword	0xa39
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_RSR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xca
-	.uaword	0xafc
+	.uaword	0xb04
 	.uleb128 0x3
 	.string	"CRC"
 	.byte	0x2
 	.byte	0xcc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1292,7 +1292,7 @@ IfxPsi5_enableModule:
 	.string	"reserved_3"
 	.byte	0x2
 	.byte	0xcd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1301,7 +1301,7 @@ IfxPsi5_enableModule:
 	.string	"MSG"
 	.byte	0x2
 	.byte	0xce
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -1310,7 +1310,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF2
 	.byte	0x2
 	.byte	0xcf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -1320,18 +1320,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_RSR_Bits"
 	.byte	0x2
 	.byte	0xd0
-	.uaword	0xa9a
+	.uaword	0xaa2
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_SCR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xd3
-	.uaword	0xc30
+	.uaword	0xc38
 	.uleb128 0x3
 	.string	"PLL"
 	.byte	0x2
 	.byte	0xd5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -1340,7 +1340,7 @@ IfxPsi5_enableModule:
 	.string	"EPS"
 	.byte	0x2
 	.byte	0xd6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1349,7 +1349,7 @@ IfxPsi5_enableModule:
 	.string	"BSC"
 	.byte	0x2
 	.byte	0xd7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1358,7 +1358,7 @@ IfxPsi5_enableModule:
 	.string	"SSL"
 	.byte	0x2
 	.byte	0xd8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -1367,7 +1367,7 @@ IfxPsi5_enableModule:
 	.string	"FLUS"
 	.byte	0x2
 	.byte	0xd9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1376,7 +1376,7 @@ IfxPsi5_enableModule:
 	.string	"FLUO"
 	.byte	0x2
 	.byte	0xda
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1385,7 +1385,7 @@ IfxPsi5_enableModule:
 	.string	"SOL"
 	.byte	0x2
 	.byte	0xdb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -1394,7 +1394,7 @@ IfxPsi5_enableModule:
 	.string	"CRC"
 	.byte	0x2
 	.byte	0xdc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1403,7 +1403,7 @@ IfxPsi5_enableModule:
 	.string	"STA"
 	.byte	0x2
 	.byte	0xdd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1412,7 +1412,7 @@ IfxPsi5_enableModule:
 	.string	"INH"
 	.byte	0x2
 	.byte	0xde
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1421,7 +1421,7 @@ IfxPsi5_enableModule:
 	.string	"GO"
 	.byte	0x2
 	.byte	0xdf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1430,7 +1430,7 @@ IfxPsi5_enableModule:
 	.string	"TPF"
 	.byte	0x2
 	.byte	0xe0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1439,7 +1439,7 @@ IfxPsi5_enableModule:
 	.string	"TSF"
 	.byte	0x2
 	.byte	0xe1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1448,7 +1448,7 @@ IfxPsi5_enableModule:
 	.string	"TOF"
 	.byte	0x2
 	.byte	0xe2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1457,7 +1457,7 @@ IfxPsi5_enableModule:
 	.string	"reserved_29"
 	.byte	0x2
 	.byte	0xe3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1
@@ -1466,7 +1466,7 @@ IfxPsi5_enableModule:
 	.string	"TRQ"
 	.byte	0x2
 	.byte	0xe4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1476,18 +1476,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SCR_Bits"
 	.byte	0x2
 	.byte	0xe5
-	.uaword	0xb18
+	.uaword	0xb20
 	.uleb128 0x2
 	.string	"_Ifx_PSI5_CH_SDRH_Bits"
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe8
-	.uaword	0xe76
+	.uaword	0xe7e
 	.uleb128 0x3
 	.string	"SD32"
 	.byte	0x2
 	.byte	0xea
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1496,7 +1496,7 @@ IfxPsi5_enableModule:
 	.string	"SD33"
 	.byte	0x2
 	.byte	0xeb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1505,7 +1505,7 @@ IfxPsi5_enableModule:
 	.string	"SD34"
 	.byte	0x2
 	.byte	0xec
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1514,7 +1514,7 @@ IfxPsi5_enableModule:
 	.string	"SD35"
 	.byte	0x2
 	.byte	0xed
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1523,7 +1523,7 @@ IfxPsi5_enableModule:
 	.string	"SD36"
 	.byte	0x2
 	.byte	0xee
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1532,7 +1532,7 @@ IfxPsi5_enableModule:
 	.string	"SD37"
 	.byte	0x2
 	.byte	0xef
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1541,7 +1541,7 @@ IfxPsi5_enableModule:
 	.string	"SD38"
 	.byte	0x2
 	.byte	0xf0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1550,7 +1550,7 @@ IfxPsi5_enableModule:
 	.string	"SD39"
 	.byte	0x2
 	.byte	0xf1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1559,7 +1559,7 @@ IfxPsi5_enableModule:
 	.string	"SD40"
 	.byte	0x2
 	.byte	0xf2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1568,7 +1568,7 @@ IfxPsi5_enableModule:
 	.string	"SD41"
 	.byte	0x2
 	.byte	0xf3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1577,7 +1577,7 @@ IfxPsi5_enableModule:
 	.string	"SD42"
 	.byte	0x2
 	.byte	0xf4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1586,7 +1586,7 @@ IfxPsi5_enableModule:
 	.string	"SD43"
 	.byte	0x2
 	.byte	0xf5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1595,7 +1595,7 @@ IfxPsi5_enableModule:
 	.string	"SD44"
 	.byte	0x2
 	.byte	0xf6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1604,7 +1604,7 @@ IfxPsi5_enableModule:
 	.string	"SD45"
 	.byte	0x2
 	.byte	0xf7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1613,7 +1613,7 @@ IfxPsi5_enableModule:
 	.string	"SD46"
 	.byte	0x2
 	.byte	0xf8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1622,7 +1622,7 @@ IfxPsi5_enableModule:
 	.string	"SD47"
 	.byte	0x2
 	.byte	0xf9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1631,7 +1631,7 @@ IfxPsi5_enableModule:
 	.string	"SD48"
 	.byte	0x2
 	.byte	0xfa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1640,7 +1640,7 @@ IfxPsi5_enableModule:
 	.string	"SD49"
 	.byte	0x2
 	.byte	0xfb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1649,7 +1649,7 @@ IfxPsi5_enableModule:
 	.string	"SD50"
 	.byte	0x2
 	.byte	0xfc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1658,7 +1658,7 @@ IfxPsi5_enableModule:
 	.string	"SD51"
 	.byte	0x2
 	.byte	0xfd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1667,7 +1667,7 @@ IfxPsi5_enableModule:
 	.string	"SD52"
 	.byte	0x2
 	.byte	0xfe
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1676,7 +1676,7 @@ IfxPsi5_enableModule:
 	.string	"SD53"
 	.byte	0x2
 	.byte	0xff
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1685,7 +1685,7 @@ IfxPsi5_enableModule:
 	.string	"SD54"
 	.byte	0x2
 	.uahalf	0x100
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1694,7 +1694,7 @@ IfxPsi5_enableModule:
 	.string	"SD55"
 	.byte	0x2
 	.uahalf	0x101
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1703,7 +1703,7 @@ IfxPsi5_enableModule:
 	.string	"SD56"
 	.byte	0x2
 	.uahalf	0x102
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1712,7 +1712,7 @@ IfxPsi5_enableModule:
 	.string	"SD57"
 	.byte	0x2
 	.uahalf	0x103
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1721,7 +1721,7 @@ IfxPsi5_enableModule:
 	.string	"SD58"
 	.byte	0x2
 	.uahalf	0x104
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1730,7 +1730,7 @@ IfxPsi5_enableModule:
 	.string	"SD59"
 	.byte	0x2
 	.uahalf	0x105
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1739,7 +1739,7 @@ IfxPsi5_enableModule:
 	.string	"SD60"
 	.byte	0x2
 	.uahalf	0x106
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1748,7 +1748,7 @@ IfxPsi5_enableModule:
 	.string	"SD61"
 	.byte	0x2
 	.uahalf	0x107
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1757,7 +1757,7 @@ IfxPsi5_enableModule:
 	.string	"SD62"
 	.byte	0x2
 	.uahalf	0x108
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1766,7 +1766,7 @@ IfxPsi5_enableModule:
 	.string	"SD63"
 	.byte	0x2
 	.uahalf	0x109
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1776,18 +1776,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SDRH_Bits"
 	.byte	0x2
 	.uahalf	0x10a
-	.uaword	0xc4c
+	.uaword	0xc54
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH_SDRL_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x10d
-	.uaword	0x10cb
+	.uaword	0x10d3
 	.uleb128 0x7
 	.string	"SD0"
 	.byte	0x2
 	.uahalf	0x10f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1796,7 +1796,7 @@ IfxPsi5_enableModule:
 	.string	"SD1"
 	.byte	0x2
 	.uahalf	0x110
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1805,7 +1805,7 @@ IfxPsi5_enableModule:
 	.string	"SD2"
 	.byte	0x2
 	.uahalf	0x111
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1814,7 +1814,7 @@ IfxPsi5_enableModule:
 	.string	"SD3"
 	.byte	0x2
 	.uahalf	0x112
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1823,7 +1823,7 @@ IfxPsi5_enableModule:
 	.string	"SD4"
 	.byte	0x2
 	.uahalf	0x113
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1832,7 +1832,7 @@ IfxPsi5_enableModule:
 	.string	"SD5"
 	.byte	0x2
 	.uahalf	0x114
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1841,7 +1841,7 @@ IfxPsi5_enableModule:
 	.string	"SD6"
 	.byte	0x2
 	.uahalf	0x115
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1850,7 +1850,7 @@ IfxPsi5_enableModule:
 	.string	"SD7"
 	.byte	0x2
 	.uahalf	0x116
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1859,7 +1859,7 @@ IfxPsi5_enableModule:
 	.string	"SD8"
 	.byte	0x2
 	.uahalf	0x117
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1868,7 +1868,7 @@ IfxPsi5_enableModule:
 	.string	"SD9"
 	.byte	0x2
 	.uahalf	0x118
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1877,7 +1877,7 @@ IfxPsi5_enableModule:
 	.string	"SD10"
 	.byte	0x2
 	.uahalf	0x119
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1886,7 +1886,7 @@ IfxPsi5_enableModule:
 	.string	"SD11"
 	.byte	0x2
 	.uahalf	0x11a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1895,7 +1895,7 @@ IfxPsi5_enableModule:
 	.string	"SD12"
 	.byte	0x2
 	.uahalf	0x11b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1904,7 +1904,7 @@ IfxPsi5_enableModule:
 	.string	"SD13"
 	.byte	0x2
 	.uahalf	0x11c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1913,7 +1913,7 @@ IfxPsi5_enableModule:
 	.string	"SD14"
 	.byte	0x2
 	.uahalf	0x11d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1922,7 +1922,7 @@ IfxPsi5_enableModule:
 	.string	"SD15"
 	.byte	0x2
 	.uahalf	0x11e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1931,7 +1931,7 @@ IfxPsi5_enableModule:
 	.string	"SD16"
 	.byte	0x2
 	.uahalf	0x11f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1940,7 +1940,7 @@ IfxPsi5_enableModule:
 	.string	"SD17"
 	.byte	0x2
 	.uahalf	0x120
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1949,7 +1949,7 @@ IfxPsi5_enableModule:
 	.string	"SD18"
 	.byte	0x2
 	.uahalf	0x121
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1958,7 +1958,7 @@ IfxPsi5_enableModule:
 	.string	"SD19"
 	.byte	0x2
 	.uahalf	0x122
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1967,7 +1967,7 @@ IfxPsi5_enableModule:
 	.string	"SD20"
 	.byte	0x2
 	.uahalf	0x123
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1976,7 +1976,7 @@ IfxPsi5_enableModule:
 	.string	"SD21"
 	.byte	0x2
 	.uahalf	0x124
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1985,7 +1985,7 @@ IfxPsi5_enableModule:
 	.string	"SD22"
 	.byte	0x2
 	.uahalf	0x125
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1994,7 +1994,7 @@ IfxPsi5_enableModule:
 	.string	"SD23"
 	.byte	0x2
 	.uahalf	0x126
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2003,7 +2003,7 @@ IfxPsi5_enableModule:
 	.string	"SD24"
 	.byte	0x2
 	.uahalf	0x127
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2012,7 +2012,7 @@ IfxPsi5_enableModule:
 	.string	"SD25"
 	.byte	0x2
 	.uahalf	0x128
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2021,7 +2021,7 @@ IfxPsi5_enableModule:
 	.string	"SD26"
 	.byte	0x2
 	.uahalf	0x129
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2030,7 +2030,7 @@ IfxPsi5_enableModule:
 	.string	"SD27"
 	.byte	0x2
 	.uahalf	0x12a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2039,7 +2039,7 @@ IfxPsi5_enableModule:
 	.string	"SD28"
 	.byte	0x2
 	.uahalf	0x12b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2048,7 +2048,7 @@ IfxPsi5_enableModule:
 	.string	"SD29"
 	.byte	0x2
 	.uahalf	0x12c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2057,7 +2057,7 @@ IfxPsi5_enableModule:
 	.string	"SD30"
 	.byte	0x2
 	.uahalf	0x12d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2066,7 +2066,7 @@ IfxPsi5_enableModule:
 	.string	"SD31"
 	.byte	0x2
 	.uahalf	0x12e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2076,18 +2076,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SDRL_Bits"
 	.byte	0x2
 	.uahalf	0x12f
-	.uaword	0xe94
+	.uaword	0xe9c
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH_SDS_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x132
-	.uaword	0x115a
+	.uaword	0x1162
 	.uleb128 0x7
 	.string	"SD"
 	.byte	0x2
 	.uahalf	0x134
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2096,7 +2096,7 @@ IfxPsi5_enableModule:
 	.string	"MID"
 	.byte	0x2
 	.uahalf	0x135
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -2105,7 +2105,7 @@ IfxPsi5_enableModule:
 	.string	"SCRC"
 	.byte	0x2
 	.uahalf	0x136
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -2114,7 +2114,7 @@ IfxPsi5_enableModule:
 	.string	"SCRI"
 	.byte	0x2
 	.uahalf	0x137
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2123,7 +2123,7 @@ IfxPsi5_enableModule:
 	.string	"CON"
 	.byte	0x2
 	.uahalf	0x138
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2133,18 +2133,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SDS_Bits"
 	.byte	0x2
 	.uahalf	0x139
-	.uaword	0x10e9
+	.uaword	0x10f1
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH_SFTSC_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x13c
-	.uaword	0x11b8
+	.uaword	0x11c0
 	.uleb128 0x7
 	.string	"TS"
 	.byte	0x2
 	.uahalf	0x13e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -2153,7 +2153,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x13f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2163,18 +2163,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SFTSC_Bits"
 	.byte	0x2
 	.uahalf	0x140
-	.uaword	0x1177
+	.uaword	0x117f
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH_SORH_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x143
-	.uaword	0x1418
+	.uaword	0x1420
 	.uleb128 0x7
 	.string	"SD32"
 	.byte	0x2
 	.uahalf	0x145
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2183,7 +2183,7 @@ IfxPsi5_enableModule:
 	.string	"SD33"
 	.byte	0x2
 	.uahalf	0x146
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2192,7 +2192,7 @@ IfxPsi5_enableModule:
 	.string	"SD34"
 	.byte	0x2
 	.uahalf	0x147
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2201,7 +2201,7 @@ IfxPsi5_enableModule:
 	.string	"SD35"
 	.byte	0x2
 	.uahalf	0x148
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2210,7 +2210,7 @@ IfxPsi5_enableModule:
 	.string	"SD36"
 	.byte	0x2
 	.uahalf	0x149
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2219,7 +2219,7 @@ IfxPsi5_enableModule:
 	.string	"SD37"
 	.byte	0x2
 	.uahalf	0x14a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2228,7 +2228,7 @@ IfxPsi5_enableModule:
 	.string	"SD38"
 	.byte	0x2
 	.uahalf	0x14b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2237,7 +2237,7 @@ IfxPsi5_enableModule:
 	.string	"SD39"
 	.byte	0x2
 	.uahalf	0x14c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2246,7 +2246,7 @@ IfxPsi5_enableModule:
 	.string	"SD40"
 	.byte	0x2
 	.uahalf	0x14d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2255,7 +2255,7 @@ IfxPsi5_enableModule:
 	.string	"SD41"
 	.byte	0x2
 	.uahalf	0x14e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2264,7 +2264,7 @@ IfxPsi5_enableModule:
 	.string	"SD42"
 	.byte	0x2
 	.uahalf	0x14f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2273,7 +2273,7 @@ IfxPsi5_enableModule:
 	.string	"SD43"
 	.byte	0x2
 	.uahalf	0x150
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2282,7 +2282,7 @@ IfxPsi5_enableModule:
 	.string	"SD44"
 	.byte	0x2
 	.uahalf	0x151
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2291,7 +2291,7 @@ IfxPsi5_enableModule:
 	.string	"SD45"
 	.byte	0x2
 	.uahalf	0x152
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2300,7 +2300,7 @@ IfxPsi5_enableModule:
 	.string	"SD46"
 	.byte	0x2
 	.uahalf	0x153
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2309,7 +2309,7 @@ IfxPsi5_enableModule:
 	.string	"SD47"
 	.byte	0x2
 	.uahalf	0x154
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2318,7 +2318,7 @@ IfxPsi5_enableModule:
 	.string	"SD48"
 	.byte	0x2
 	.uahalf	0x155
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2327,7 +2327,7 @@ IfxPsi5_enableModule:
 	.string	"SD49"
 	.byte	0x2
 	.uahalf	0x156
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2336,7 +2336,7 @@ IfxPsi5_enableModule:
 	.string	"SD50"
 	.byte	0x2
 	.uahalf	0x157
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2345,7 +2345,7 @@ IfxPsi5_enableModule:
 	.string	"SD51"
 	.byte	0x2
 	.uahalf	0x158
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2354,7 +2354,7 @@ IfxPsi5_enableModule:
 	.string	"SD52"
 	.byte	0x2
 	.uahalf	0x159
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2363,7 +2363,7 @@ IfxPsi5_enableModule:
 	.string	"SD53"
 	.byte	0x2
 	.uahalf	0x15a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2372,7 +2372,7 @@ IfxPsi5_enableModule:
 	.string	"SD54"
 	.byte	0x2
 	.uahalf	0x15b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2381,7 +2381,7 @@ IfxPsi5_enableModule:
 	.string	"SD55"
 	.byte	0x2
 	.uahalf	0x15c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2390,7 +2390,7 @@ IfxPsi5_enableModule:
 	.string	"SD56"
 	.byte	0x2
 	.uahalf	0x15d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2399,7 +2399,7 @@ IfxPsi5_enableModule:
 	.string	"SD57"
 	.byte	0x2
 	.uahalf	0x15e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2408,7 +2408,7 @@ IfxPsi5_enableModule:
 	.string	"SD58"
 	.byte	0x2
 	.uahalf	0x15f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2417,7 +2417,7 @@ IfxPsi5_enableModule:
 	.string	"SD59"
 	.byte	0x2
 	.uahalf	0x160
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2426,7 +2426,7 @@ IfxPsi5_enableModule:
 	.string	"SD60"
 	.byte	0x2
 	.uahalf	0x161
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2435,7 +2435,7 @@ IfxPsi5_enableModule:
 	.string	"SD61"
 	.byte	0x2
 	.uahalf	0x162
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2444,7 +2444,7 @@ IfxPsi5_enableModule:
 	.string	"SD62"
 	.byte	0x2
 	.uahalf	0x163
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2453,7 +2453,7 @@ IfxPsi5_enableModule:
 	.string	"SD63"
 	.byte	0x2
 	.uahalf	0x164
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2463,18 +2463,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SORH_Bits"
 	.byte	0x2
 	.uahalf	0x165
-	.uaword	0x11d7
+	.uaword	0x11df
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH_SORL_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x168
-	.uaword	0x166d
+	.uaword	0x1675
 	.uleb128 0x7
 	.string	"SD0"
 	.byte	0x2
 	.uahalf	0x16a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2483,7 +2483,7 @@ IfxPsi5_enableModule:
 	.string	"SD1"
 	.byte	0x2
 	.uahalf	0x16b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2492,7 +2492,7 @@ IfxPsi5_enableModule:
 	.string	"SD2"
 	.byte	0x2
 	.uahalf	0x16c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2501,7 +2501,7 @@ IfxPsi5_enableModule:
 	.string	"SD3"
 	.byte	0x2
 	.uahalf	0x16d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2510,7 +2510,7 @@ IfxPsi5_enableModule:
 	.string	"SD4"
 	.byte	0x2
 	.uahalf	0x16e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2519,7 +2519,7 @@ IfxPsi5_enableModule:
 	.string	"SD5"
 	.byte	0x2
 	.uahalf	0x16f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2528,7 +2528,7 @@ IfxPsi5_enableModule:
 	.string	"SD6"
 	.byte	0x2
 	.uahalf	0x170
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2537,7 +2537,7 @@ IfxPsi5_enableModule:
 	.string	"SD7"
 	.byte	0x2
 	.uahalf	0x171
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2546,7 +2546,7 @@ IfxPsi5_enableModule:
 	.string	"SD8"
 	.byte	0x2
 	.uahalf	0x172
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2555,7 +2555,7 @@ IfxPsi5_enableModule:
 	.string	"SD9"
 	.byte	0x2
 	.uahalf	0x173
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2564,7 +2564,7 @@ IfxPsi5_enableModule:
 	.string	"SD10"
 	.byte	0x2
 	.uahalf	0x174
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2573,7 +2573,7 @@ IfxPsi5_enableModule:
 	.string	"SD11"
 	.byte	0x2
 	.uahalf	0x175
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2582,7 +2582,7 @@ IfxPsi5_enableModule:
 	.string	"SD12"
 	.byte	0x2
 	.uahalf	0x176
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2591,7 +2591,7 @@ IfxPsi5_enableModule:
 	.string	"SD13"
 	.byte	0x2
 	.uahalf	0x177
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2600,7 +2600,7 @@ IfxPsi5_enableModule:
 	.string	"SD14"
 	.byte	0x2
 	.uahalf	0x178
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2609,7 +2609,7 @@ IfxPsi5_enableModule:
 	.string	"SD15"
 	.byte	0x2
 	.uahalf	0x179
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2618,7 +2618,7 @@ IfxPsi5_enableModule:
 	.string	"SD16"
 	.byte	0x2
 	.uahalf	0x17a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2627,7 +2627,7 @@ IfxPsi5_enableModule:
 	.string	"SD17"
 	.byte	0x2
 	.uahalf	0x17b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2636,7 +2636,7 @@ IfxPsi5_enableModule:
 	.string	"SD18"
 	.byte	0x2
 	.uahalf	0x17c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2645,7 +2645,7 @@ IfxPsi5_enableModule:
 	.string	"SD19"
 	.byte	0x2
 	.uahalf	0x17d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2654,7 +2654,7 @@ IfxPsi5_enableModule:
 	.string	"SD20"
 	.byte	0x2
 	.uahalf	0x17e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2663,7 +2663,7 @@ IfxPsi5_enableModule:
 	.string	"SD21"
 	.byte	0x2
 	.uahalf	0x17f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2672,7 +2672,7 @@ IfxPsi5_enableModule:
 	.string	"SD22"
 	.byte	0x2
 	.uahalf	0x180
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2681,7 +2681,7 @@ IfxPsi5_enableModule:
 	.string	"SD23"
 	.byte	0x2
 	.uahalf	0x181
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2690,7 +2690,7 @@ IfxPsi5_enableModule:
 	.string	"SD24"
 	.byte	0x2
 	.uahalf	0x182
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2699,7 +2699,7 @@ IfxPsi5_enableModule:
 	.string	"SD25"
 	.byte	0x2
 	.uahalf	0x183
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2708,7 +2708,7 @@ IfxPsi5_enableModule:
 	.string	"SD26"
 	.byte	0x2
 	.uahalf	0x184
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2717,7 +2717,7 @@ IfxPsi5_enableModule:
 	.string	"SD27"
 	.byte	0x2
 	.uahalf	0x185
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2726,7 +2726,7 @@ IfxPsi5_enableModule:
 	.string	"SD28"
 	.byte	0x2
 	.uahalf	0x186
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2735,7 +2735,7 @@ IfxPsi5_enableModule:
 	.string	"SD29"
 	.byte	0x2
 	.uahalf	0x187
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2744,7 +2744,7 @@ IfxPsi5_enableModule:
 	.string	"SD30"
 	.byte	0x2
 	.uahalf	0x188
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2753,7 +2753,7 @@ IfxPsi5_enableModule:
 	.string	"SD31"
 	.byte	0x2
 	.uahalf	0x189
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2763,18 +2763,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SORL_Bits"
 	.byte	0x2
 	.uahalf	0x18a
-	.uaword	0x1436
+	.uaword	0x143e
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH_SPTSC_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x18d
-	.uaword	0x16cc
+	.uaword	0x16d4
 	.uleb128 0x7
 	.string	"TS"
 	.byte	0x2
 	.uahalf	0x18f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -2783,7 +2783,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x190
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2793,18 +2793,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SPTSC_Bits"
 	.byte	0x2
 	.uahalf	0x191
-	.uaword	0x168b
+	.uaword	0x1693
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH_SSRH_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x194
-	.uaword	0x192c
+	.uaword	0x1934
 	.uleb128 0x7
 	.string	"SD32"
 	.byte	0x2
 	.uahalf	0x196
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2813,7 +2813,7 @@ IfxPsi5_enableModule:
 	.string	"SD33"
 	.byte	0x2
 	.uahalf	0x197
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2822,7 +2822,7 @@ IfxPsi5_enableModule:
 	.string	"SD34"
 	.byte	0x2
 	.uahalf	0x198
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2831,7 +2831,7 @@ IfxPsi5_enableModule:
 	.string	"SD35"
 	.byte	0x2
 	.uahalf	0x199
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2840,7 +2840,7 @@ IfxPsi5_enableModule:
 	.string	"SD36"
 	.byte	0x2
 	.uahalf	0x19a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2849,7 +2849,7 @@ IfxPsi5_enableModule:
 	.string	"SD37"
 	.byte	0x2
 	.uahalf	0x19b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2858,7 +2858,7 @@ IfxPsi5_enableModule:
 	.string	"SD38"
 	.byte	0x2
 	.uahalf	0x19c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2867,7 +2867,7 @@ IfxPsi5_enableModule:
 	.string	"SD39"
 	.byte	0x2
 	.uahalf	0x19d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2876,7 +2876,7 @@ IfxPsi5_enableModule:
 	.string	"SD40"
 	.byte	0x2
 	.uahalf	0x19e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2885,7 +2885,7 @@ IfxPsi5_enableModule:
 	.string	"SD41"
 	.byte	0x2
 	.uahalf	0x19f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2894,7 +2894,7 @@ IfxPsi5_enableModule:
 	.string	"SD42"
 	.byte	0x2
 	.uahalf	0x1a0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2903,7 +2903,7 @@ IfxPsi5_enableModule:
 	.string	"SD43"
 	.byte	0x2
 	.uahalf	0x1a1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2912,7 +2912,7 @@ IfxPsi5_enableModule:
 	.string	"SD44"
 	.byte	0x2
 	.uahalf	0x1a2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2921,7 +2921,7 @@ IfxPsi5_enableModule:
 	.string	"SD45"
 	.byte	0x2
 	.uahalf	0x1a3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2930,7 +2930,7 @@ IfxPsi5_enableModule:
 	.string	"SD46"
 	.byte	0x2
 	.uahalf	0x1a4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2939,7 +2939,7 @@ IfxPsi5_enableModule:
 	.string	"SD47"
 	.byte	0x2
 	.uahalf	0x1a5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2948,7 +2948,7 @@ IfxPsi5_enableModule:
 	.string	"SD48"
 	.byte	0x2
 	.uahalf	0x1a6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2957,7 +2957,7 @@ IfxPsi5_enableModule:
 	.string	"SD49"
 	.byte	0x2
 	.uahalf	0x1a7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2966,7 +2966,7 @@ IfxPsi5_enableModule:
 	.string	"SD50"
 	.byte	0x2
 	.uahalf	0x1a8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2975,7 +2975,7 @@ IfxPsi5_enableModule:
 	.string	"SD51"
 	.byte	0x2
 	.uahalf	0x1a9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2984,7 +2984,7 @@ IfxPsi5_enableModule:
 	.string	"SD52"
 	.byte	0x2
 	.uahalf	0x1aa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2993,7 +2993,7 @@ IfxPsi5_enableModule:
 	.string	"SD53"
 	.byte	0x2
 	.uahalf	0x1ab
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3002,7 +3002,7 @@ IfxPsi5_enableModule:
 	.string	"SD54"
 	.byte	0x2
 	.uahalf	0x1ac
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3011,7 +3011,7 @@ IfxPsi5_enableModule:
 	.string	"SD55"
 	.byte	0x2
 	.uahalf	0x1ad
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3020,7 +3020,7 @@ IfxPsi5_enableModule:
 	.string	"SD56"
 	.byte	0x2
 	.uahalf	0x1ae
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3029,7 +3029,7 @@ IfxPsi5_enableModule:
 	.string	"SD57"
 	.byte	0x2
 	.uahalf	0x1af
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3038,7 +3038,7 @@ IfxPsi5_enableModule:
 	.string	"SD58"
 	.byte	0x2
 	.uahalf	0x1b0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3047,7 +3047,7 @@ IfxPsi5_enableModule:
 	.string	"SD59"
 	.byte	0x2
 	.uahalf	0x1b1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3056,7 +3056,7 @@ IfxPsi5_enableModule:
 	.string	"SD60"
 	.byte	0x2
 	.uahalf	0x1b2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3065,7 +3065,7 @@ IfxPsi5_enableModule:
 	.string	"SD61"
 	.byte	0x2
 	.uahalf	0x1b3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3074,7 +3074,7 @@ IfxPsi5_enableModule:
 	.string	"SD62"
 	.byte	0x2
 	.uahalf	0x1b4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3083,7 +3083,7 @@ IfxPsi5_enableModule:
 	.string	"SD63"
 	.byte	0x2
 	.uahalf	0x1b5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3093,18 +3093,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SSRH_Bits"
 	.byte	0x2
 	.uahalf	0x1b6
-	.uaword	0x16eb
+	.uaword	0x16f3
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH_SSRL_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1b9
-	.uaword	0x1b81
+	.uaword	0x1b89
 	.uleb128 0x7
 	.string	"SD0"
 	.byte	0x2
 	.uahalf	0x1bb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3113,7 +3113,7 @@ IfxPsi5_enableModule:
 	.string	"SD1"
 	.byte	0x2
 	.uahalf	0x1bc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3122,7 +3122,7 @@ IfxPsi5_enableModule:
 	.string	"SD2"
 	.byte	0x2
 	.uahalf	0x1bd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3131,7 +3131,7 @@ IfxPsi5_enableModule:
 	.string	"SD3"
 	.byte	0x2
 	.uahalf	0x1be
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3140,7 +3140,7 @@ IfxPsi5_enableModule:
 	.string	"SD4"
 	.byte	0x2
 	.uahalf	0x1bf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3149,7 +3149,7 @@ IfxPsi5_enableModule:
 	.string	"SD5"
 	.byte	0x2
 	.uahalf	0x1c0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3158,7 +3158,7 @@ IfxPsi5_enableModule:
 	.string	"SD6"
 	.byte	0x2
 	.uahalf	0x1c1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3167,7 +3167,7 @@ IfxPsi5_enableModule:
 	.string	"SD7"
 	.byte	0x2
 	.uahalf	0x1c2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3176,7 +3176,7 @@ IfxPsi5_enableModule:
 	.string	"SD8"
 	.byte	0x2
 	.uahalf	0x1c3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3185,7 +3185,7 @@ IfxPsi5_enableModule:
 	.string	"SD9"
 	.byte	0x2
 	.uahalf	0x1c4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3194,7 +3194,7 @@ IfxPsi5_enableModule:
 	.string	"SD10"
 	.byte	0x2
 	.uahalf	0x1c5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3203,7 +3203,7 @@ IfxPsi5_enableModule:
 	.string	"SD11"
 	.byte	0x2
 	.uahalf	0x1c6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3212,7 +3212,7 @@ IfxPsi5_enableModule:
 	.string	"SD12"
 	.byte	0x2
 	.uahalf	0x1c7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3221,7 +3221,7 @@ IfxPsi5_enableModule:
 	.string	"SD13"
 	.byte	0x2
 	.uahalf	0x1c8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3230,7 +3230,7 @@ IfxPsi5_enableModule:
 	.string	"SD14"
 	.byte	0x2
 	.uahalf	0x1c9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3239,7 +3239,7 @@ IfxPsi5_enableModule:
 	.string	"SD15"
 	.byte	0x2
 	.uahalf	0x1ca
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3248,7 +3248,7 @@ IfxPsi5_enableModule:
 	.string	"SD16"
 	.byte	0x2
 	.uahalf	0x1cb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3257,7 +3257,7 @@ IfxPsi5_enableModule:
 	.string	"SD17"
 	.byte	0x2
 	.uahalf	0x1cc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3266,7 +3266,7 @@ IfxPsi5_enableModule:
 	.string	"SD18"
 	.byte	0x2
 	.uahalf	0x1cd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3275,7 +3275,7 @@ IfxPsi5_enableModule:
 	.string	"SD19"
 	.byte	0x2
 	.uahalf	0x1ce
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3284,7 +3284,7 @@ IfxPsi5_enableModule:
 	.string	"SD20"
 	.byte	0x2
 	.uahalf	0x1cf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3293,7 +3293,7 @@ IfxPsi5_enableModule:
 	.string	"SD21"
 	.byte	0x2
 	.uahalf	0x1d0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3302,7 +3302,7 @@ IfxPsi5_enableModule:
 	.string	"SD22"
 	.byte	0x2
 	.uahalf	0x1d1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3311,7 +3311,7 @@ IfxPsi5_enableModule:
 	.string	"SD23"
 	.byte	0x2
 	.uahalf	0x1d2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3320,7 +3320,7 @@ IfxPsi5_enableModule:
 	.string	"SD24"
 	.byte	0x2
 	.uahalf	0x1d3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3329,7 +3329,7 @@ IfxPsi5_enableModule:
 	.string	"SD25"
 	.byte	0x2
 	.uahalf	0x1d4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3338,7 +3338,7 @@ IfxPsi5_enableModule:
 	.string	"SD26"
 	.byte	0x2
 	.uahalf	0x1d5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3347,7 +3347,7 @@ IfxPsi5_enableModule:
 	.string	"SD27"
 	.byte	0x2
 	.uahalf	0x1d6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3356,7 +3356,7 @@ IfxPsi5_enableModule:
 	.string	"SD28"
 	.byte	0x2
 	.uahalf	0x1d7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3365,7 +3365,7 @@ IfxPsi5_enableModule:
 	.string	"SD29"
 	.byte	0x2
 	.uahalf	0x1d8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3374,7 +3374,7 @@ IfxPsi5_enableModule:
 	.string	"SD30"
 	.byte	0x2
 	.uahalf	0x1d9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3383,7 +3383,7 @@ IfxPsi5_enableModule:
 	.string	"SD31"
 	.byte	0x2
 	.uahalf	0x1da
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3393,18 +3393,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_SSRL_Bits"
 	.byte	0x2
 	.uahalf	0x1db
-	.uaword	0x194a
+	.uaword	0x1952
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH_WDT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1de
-	.uaword	0x1be1
+	.uaword	0x1be9
 	.uleb128 0x7
 	.string	"WDLxw"
 	.byte	0x2
 	.uahalf	0x1e0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -3413,7 +3413,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF3
 	.byte	0x2
 	.uahalf	0x1e1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3423,18 +3423,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH_WDT_Bits"
 	.byte	0x2
 	.uahalf	0x1e2
-	.uaword	0x1b9f
+	.uaword	0x1ba7
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CLC_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1e5
-	.uaword	0x1c4d
+	.uaword	0x1c55
 	.uleb128 0x7
 	.string	"DISR"
 	.byte	0x2
 	.uahalf	0x1e7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3443,7 +3443,7 @@ IfxPsi5_enableModule:
 	.string	"DISS"
 	.byte	0x2
 	.uahalf	0x1e8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3452,7 +3452,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF1
 	.byte	0x2
 	.uahalf	0x1e9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -3462,18 +3462,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CLC_Bits"
 	.byte	0x2
 	.uahalf	0x1ea
-	.uaword	0x1bfe
+	.uaword	0x1c06
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CRCICLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x1ed
-	.uaword	0x1e9c
+	.uaword	0x1ea4
 	.uleb128 0x7
 	.string	"CRCI0"
 	.byte	0x2
 	.uahalf	0x1ef
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3482,7 +3482,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI1"
 	.byte	0x2
 	.uahalf	0x1f0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3491,7 +3491,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI2"
 	.byte	0x2
 	.uahalf	0x1f1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3500,7 +3500,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI3"
 	.byte	0x2
 	.uahalf	0x1f2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3509,7 +3509,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI4"
 	.byte	0x2
 	.uahalf	0x1f3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3518,7 +3518,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI5"
 	.byte	0x2
 	.uahalf	0x1f4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3527,7 +3527,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI6"
 	.byte	0x2
 	.uahalf	0x1f5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3536,7 +3536,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI7"
 	.byte	0x2
 	.uahalf	0x1f6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3545,7 +3545,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI8"
 	.byte	0x2
 	.uahalf	0x1f7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3554,7 +3554,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI9"
 	.byte	0x2
 	.uahalf	0x1f8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3563,7 +3563,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF8
 	.byte	0x2
 	.uahalf	0x1f9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3572,7 +3572,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x1fa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3581,7 +3581,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF10
 	.byte	0x2
 	.uahalf	0x1fb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3590,7 +3590,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x1fc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3599,7 +3599,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF12
 	.byte	0x2
 	.uahalf	0x1fd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3608,7 +3608,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF13
 	.byte	0x2
 	.uahalf	0x1fe
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3617,7 +3617,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x1ff
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3626,7 +3626,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x200
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3635,7 +3635,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF16
 	.byte	0x2
 	.uahalf	0x201
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3644,7 +3644,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x202
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3653,7 +3653,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF18
 	.byte	0x2
 	.uahalf	0x203
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3662,7 +3662,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x204
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3671,7 +3671,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF20
 	.byte	0x2
 	.uahalf	0x205
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3680,7 +3680,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF21
 	.byte	0x2
 	.uahalf	0x206
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3689,7 +3689,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF22
 	.byte	0x2
 	.uahalf	0x207
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3698,7 +3698,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF23
 	.byte	0x2
 	.uahalf	0x208
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3707,7 +3707,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF24
 	.byte	0x2
 	.uahalf	0x209
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3716,7 +3716,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF25
 	.byte	0x2
 	.uahalf	0x20a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3725,7 +3725,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x20b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3734,7 +3734,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x20c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3743,7 +3743,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF28
 	.byte	0x2
 	.uahalf	0x20d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3752,7 +3752,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF29
 	.byte	0x2
 	.uahalf	0x20e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3762,18 +3762,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CRCICLR_Bits"
 	.byte	0x2
 	.uahalf	0x20f
-	.uaword	0x1c67
+	.uaword	0x1c6f
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CRCIOV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x212
-	.uaword	0x20ee
+	.uaword	0x20f6
 	.uleb128 0x7
 	.string	"CRCI0"
 	.byte	0x2
 	.uahalf	0x214
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3782,7 +3782,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI1"
 	.byte	0x2
 	.uahalf	0x215
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3791,7 +3791,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI2"
 	.byte	0x2
 	.uahalf	0x216
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3800,7 +3800,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI3"
 	.byte	0x2
 	.uahalf	0x217
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3809,7 +3809,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI4"
 	.byte	0x2
 	.uahalf	0x218
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3818,7 +3818,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI5"
 	.byte	0x2
 	.uahalf	0x219
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3827,7 +3827,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI6"
 	.byte	0x2
 	.uahalf	0x21a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3836,7 +3836,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI7"
 	.byte	0x2
 	.uahalf	0x21b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3845,7 +3845,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI8"
 	.byte	0x2
 	.uahalf	0x21c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3854,7 +3854,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI9"
 	.byte	0x2
 	.uahalf	0x21d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3863,7 +3863,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF8
 	.byte	0x2
 	.uahalf	0x21e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3872,7 +3872,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x21f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3881,7 +3881,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF10
 	.byte	0x2
 	.uahalf	0x220
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3890,7 +3890,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x221
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3899,7 +3899,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF12
 	.byte	0x2
 	.uahalf	0x222
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3908,7 +3908,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF13
 	.byte	0x2
 	.uahalf	0x223
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3917,7 +3917,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x224
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3926,7 +3926,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x225
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3935,7 +3935,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF16
 	.byte	0x2
 	.uahalf	0x226
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3944,7 +3944,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x227
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3953,7 +3953,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF18
 	.byte	0x2
 	.uahalf	0x228
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3962,7 +3962,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x229
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3971,7 +3971,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF20
 	.byte	0x2
 	.uahalf	0x22a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3980,7 +3980,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF21
 	.byte	0x2
 	.uahalf	0x22b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3989,7 +3989,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF22
 	.byte	0x2
 	.uahalf	0x22c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3998,7 +3998,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF23
 	.byte	0x2
 	.uahalf	0x22d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4007,7 +4007,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF24
 	.byte	0x2
 	.uahalf	0x22e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4016,7 +4016,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF25
 	.byte	0x2
 	.uahalf	0x22f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4025,7 +4025,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x230
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4034,7 +4034,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x231
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4043,7 +4043,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF28
 	.byte	0x2
 	.uahalf	0x232
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4052,7 +4052,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF29
 	.byte	0x2
 	.uahalf	0x233
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4062,18 +4062,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CRCIOV_Bits"
 	.byte	0x2
 	.uahalf	0x234
-	.uaword	0x1eba
+	.uaword	0x1ec2
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CRCISET_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x237
-	.uaword	0x2340
+	.uaword	0x2348
 	.uleb128 0x7
 	.string	"CRCI0"
 	.byte	0x2
 	.uahalf	0x239
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4082,7 +4082,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI1"
 	.byte	0x2
 	.uahalf	0x23a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4091,7 +4091,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI2"
 	.byte	0x2
 	.uahalf	0x23b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4100,7 +4100,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI3"
 	.byte	0x2
 	.uahalf	0x23c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4109,7 +4109,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI4"
 	.byte	0x2
 	.uahalf	0x23d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4118,7 +4118,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI5"
 	.byte	0x2
 	.uahalf	0x23e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4127,7 +4127,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI6"
 	.byte	0x2
 	.uahalf	0x23f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4136,7 +4136,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI7"
 	.byte	0x2
 	.uahalf	0x240
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4145,7 +4145,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI8"
 	.byte	0x2
 	.uahalf	0x241
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4154,7 +4154,7 @@ IfxPsi5_enableModule:
 	.string	"CRCI9"
 	.byte	0x2
 	.uahalf	0x242
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4163,7 +4163,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF8
 	.byte	0x2
 	.uahalf	0x243
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4172,7 +4172,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF9
 	.byte	0x2
 	.uahalf	0x244
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4181,7 +4181,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF10
 	.byte	0x2
 	.uahalf	0x245
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4190,7 +4190,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF11
 	.byte	0x2
 	.uahalf	0x246
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4199,7 +4199,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF12
 	.byte	0x2
 	.uahalf	0x247
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4208,7 +4208,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF13
 	.byte	0x2
 	.uahalf	0x248
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4217,7 +4217,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF14
 	.byte	0x2
 	.uahalf	0x249
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4226,7 +4226,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF15
 	.byte	0x2
 	.uahalf	0x24a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4235,7 +4235,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF16
 	.byte	0x2
 	.uahalf	0x24b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4244,7 +4244,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF17
 	.byte	0x2
 	.uahalf	0x24c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4253,7 +4253,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF18
 	.byte	0x2
 	.uahalf	0x24d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4262,7 +4262,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF19
 	.byte	0x2
 	.uahalf	0x24e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4271,7 +4271,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF20
 	.byte	0x2
 	.uahalf	0x24f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -4280,7 +4280,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF21
 	.byte	0x2
 	.uahalf	0x250
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4289,7 +4289,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF22
 	.byte	0x2
 	.uahalf	0x251
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4298,7 +4298,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF23
 	.byte	0x2
 	.uahalf	0x252
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4307,7 +4307,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF24
 	.byte	0x2
 	.uahalf	0x253
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4316,7 +4316,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF25
 	.byte	0x2
 	.uahalf	0x254
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4325,7 +4325,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF26
 	.byte	0x2
 	.uahalf	0x255
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4334,7 +4334,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF27
 	.byte	0x2
 	.uahalf	0x256
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4343,7 +4343,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF28
 	.byte	0x2
 	.uahalf	0x257
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4352,7 +4352,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF29
 	.byte	0x2
 	.uahalf	0x258
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4362,18 +4362,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CRCISET_Bits"
 	.byte	0x2
 	.uahalf	0x259
-	.uaword	0x210b
+	.uaword	0x2113
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_FDR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x25c
-	.uaword	0x23d6
+	.uaword	0x23de
 	.uleb128 0x7
 	.string	"STEP"
 	.byte	0x2
 	.uahalf	0x25e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -4382,7 +4382,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF2
 	.byte	0x2
 	.uahalf	0x25f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -4391,7 +4391,7 @@ IfxPsi5_enableModule:
 	.string	"DM"
 	.byte	0x2
 	.uahalf	0x260
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -4400,7 +4400,7 @@ IfxPsi5_enableModule:
 	.string	"RESULT"
 	.byte	0x2
 	.uahalf	0x261
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -4409,7 +4409,7 @@ IfxPsi5_enableModule:
 	.string	"reserved_26"
 	.byte	0x2
 	.uahalf	0x262
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -4419,18 +4419,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_FDR_Bits"
 	.byte	0x2
 	.uahalf	0x263
-	.uaword	0x235e
+	.uaword	0x2366
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_FDRT_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x266
-	.uaword	0x2494
+	.uaword	0x249c
 	.uleb128 0x7
 	.string	"STEP"
 	.byte	0x2
 	.uahalf	0x268
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -4439,7 +4439,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF2
 	.byte	0x2
 	.uahalf	0x269
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x12
@@ -4448,7 +4448,7 @@ IfxPsi5_enableModule:
 	.string	"DM"
 	.byte	0x2
 	.uahalf	0x26a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -4457,7 +4457,7 @@ IfxPsi5_enableModule:
 	.string	"RESULT"
 	.byte	0x2
 	.uahalf	0x26b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -4466,7 +4466,7 @@ IfxPsi5_enableModule:
 	.string	"ECS"
 	.byte	0x2
 	.uahalf	0x26c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x3
@@ -4475,7 +4475,7 @@ IfxPsi5_enableModule:
 	.string	"ECEA"
 	.byte	0x2
 	.uahalf	0x26d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4484,7 +4484,7 @@ IfxPsi5_enableModule:
 	.string	"ECEB"
 	.byte	0x2
 	.uahalf	0x26e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4493,7 +4493,7 @@ IfxPsi5_enableModule:
 	.string	"ECEC"
 	.byte	0x2
 	.uahalf	0x26f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4503,18 +4503,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_FDRT_Bits"
 	.byte	0x2
 	.uahalf	0x270
-	.uaword	0x23f0
+	.uaword	0x23f8
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_GCR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x273
-	.uaword	0x2605
+	.uaword	0x260d
 	.uleb128 0xa
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x275
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4523,7 +4523,7 @@ IfxPsi5_enableModule:
 	.string	"NBI"
 	.byte	0x2
 	.uahalf	0x276
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4532,7 +4532,7 @@ IfxPsi5_enableModule:
 	.string	"MEI"
 	.byte	0x2
 	.uahalf	0x277
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4541,7 +4541,7 @@ IfxPsi5_enableModule:
 	.string	"NFI"
 	.byte	0x2
 	.uahalf	0x278
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4550,7 +4550,7 @@ IfxPsi5_enableModule:
 	.string	"TEI"
 	.byte	0x2
 	.uahalf	0x279
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4559,7 +4559,7 @@ IfxPsi5_enableModule:
 	.string	"reserved_5"
 	.byte	0x2
 	.uahalf	0x27a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -4568,7 +4568,7 @@ IfxPsi5_enableModule:
 	.string	"ETC0"
 	.byte	0x2
 	.uahalf	0x27b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4577,7 +4577,7 @@ IfxPsi5_enableModule:
 	.string	"ETC1"
 	.byte	0x2
 	.uahalf	0x27c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4586,7 +4586,7 @@ IfxPsi5_enableModule:
 	.string	"ETC2"
 	.byte	0x2
 	.uahalf	0x27d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4595,7 +4595,7 @@ IfxPsi5_enableModule:
 	.string	"ETC3"
 	.byte	0x2
 	.uahalf	0x27e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4604,7 +4604,7 @@ IfxPsi5_enableModule:
 	.string	"ETC4"
 	.byte	0x2
 	.uahalf	0x27f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4613,7 +4613,7 @@ IfxPsi5_enableModule:
 	.string	"reserved_13"
 	.byte	0x2
 	.uahalf	0x280
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -4622,7 +4622,7 @@ IfxPsi5_enableModule:
 	.string	"CEN0"
 	.byte	0x2
 	.uahalf	0x281
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4631,7 +4631,7 @@ IfxPsi5_enableModule:
 	.string	"CEN1"
 	.byte	0x2
 	.uahalf	0x282
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4640,7 +4640,7 @@ IfxPsi5_enableModule:
 	.string	"CEN2"
 	.byte	0x2
 	.uahalf	0x283
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4649,7 +4649,7 @@ IfxPsi5_enableModule:
 	.string	"CEN3"
 	.byte	0x2
 	.uahalf	0x284
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4658,7 +4658,7 @@ IfxPsi5_enableModule:
 	.string	"CEN4"
 	.byte	0x2
 	.uahalf	0x285
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4667,7 +4667,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x286
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xb
 	.byte	0
@@ -4677,18 +4677,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_GCR_Bits"
 	.byte	0x2
 	.uahalf	0x287
-	.uaword	0x24af
+	.uaword	0x24b7
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_ID_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x28a
-	.uaword	0x2678
+	.uaword	0x2680
 	.uleb128 0x7
 	.string	"MODREV"
 	.byte	0x2
 	.uahalf	0x28c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4697,7 +4697,7 @@ IfxPsi5_enableModule:
 	.string	"MODTYPE"
 	.byte	0x2
 	.uahalf	0x28d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -4706,7 +4706,7 @@ IfxPsi5_enableModule:
 	.string	"MODNUMBER"
 	.byte	0x2
 	.uahalf	0x28e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4716,18 +4716,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_ID_Bits"
 	.byte	0x2
 	.uahalf	0x28f
-	.uaword	0x261f
+	.uaword	0x2627
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INP_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x292
-	.uaword	0x272f
+	.uaword	0x2737
 	.uleb128 0x7
 	.string	"RSI"
 	.byte	0x2
 	.uahalf	0x294
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -4736,7 +4736,7 @@ IfxPsi5_enableModule:
 	.string	"RDI"
 	.byte	0x2
 	.uahalf	0x295
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -4745,7 +4745,7 @@ IfxPsi5_enableModule:
 	.string	"RBI"
 	.byte	0x2
 	.uahalf	0x296
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -4754,7 +4754,7 @@ IfxPsi5_enableModule:
 	.string	"TDI"
 	.byte	0x2
 	.uahalf	0x297
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -4763,7 +4763,7 @@ IfxPsi5_enableModule:
 	.string	"TBI"
 	.byte	0x2
 	.uahalf	0x298
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -4772,7 +4772,7 @@ IfxPsi5_enableModule:
 	.string	"ERRI"
 	.byte	0x2
 	.uahalf	0x299
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -4781,7 +4781,7 @@ IfxPsi5_enableModule:
 	.string	"SDI"
 	.byte	0x2
 	.uahalf	0x29a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -4790,7 +4790,7 @@ IfxPsi5_enableModule:
 	.string	"FWI"
 	.byte	0x2
 	.uahalf	0x29b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -4800,18 +4800,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INP_Bits"
 	.byte	0x2
 	.uahalf	0x29c
-	.uaword	0x2691
+	.uaword	0x2699
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INTCLRA_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x29f
-	.uaword	0x288d
+	.uaword	0x2895
 	.uleb128 0x7
 	.string	"RSI"
 	.byte	0x2
 	.uahalf	0x2a1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4820,7 +4820,7 @@ IfxPsi5_enableModule:
 	.string	"RDI"
 	.byte	0x2
 	.uahalf	0x2a2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4829,7 +4829,7 @@ IfxPsi5_enableModule:
 	.string	"RBI"
 	.byte	0x2
 	.uahalf	0x2a3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4838,7 +4838,7 @@ IfxPsi5_enableModule:
 	.string	"TEI"
 	.byte	0x2
 	.uahalf	0x2a4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4847,7 +4847,7 @@ IfxPsi5_enableModule:
 	.string	"NBI"
 	.byte	0x2
 	.uahalf	0x2a5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4856,7 +4856,7 @@ IfxPsi5_enableModule:
 	.string	"MEI"
 	.byte	0x2
 	.uahalf	0x2a6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4865,7 +4865,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x2a7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4874,7 +4874,7 @@ IfxPsi5_enableModule:
 	.string	"FWI"
 	.byte	0x2
 	.uahalf	0x2a8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4883,7 +4883,7 @@ IfxPsi5_enableModule:
 	.string	"RUI"
 	.byte	0x2
 	.uahalf	0x2a9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4892,7 +4892,7 @@ IfxPsi5_enableModule:
 	.string	"RMI"
 	.byte	0x2
 	.uahalf	0x2aa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4901,7 +4901,7 @@ IfxPsi5_enableModule:
 	.string	"TPI"
 	.byte	0x2
 	.uahalf	0x2ab
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4910,7 +4910,7 @@ IfxPsi5_enableModule:
 	.string	"TPOI"
 	.byte	0x2
 	.uahalf	0x2ac
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4919,7 +4919,7 @@ IfxPsi5_enableModule:
 	.string	"TSI"
 	.byte	0x2
 	.uahalf	0x2ad
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4928,7 +4928,7 @@ IfxPsi5_enableModule:
 	.string	"TSOI"
 	.byte	0x2
 	.uahalf	0x2ae
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4937,7 +4937,7 @@ IfxPsi5_enableModule:
 	.string	"TOI"
 	.byte	0x2
 	.uahalf	0x2af
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4946,7 +4946,7 @@ IfxPsi5_enableModule:
 	.string	"TOOI"
 	.byte	0x2
 	.uahalf	0x2b0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4955,7 +4955,7 @@ IfxPsi5_enableModule:
 	.string	"NFI"
 	.byte	0x2
 	.uahalf	0x2b1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4964,7 +4964,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF31
 	.byte	0x2
 	.uahalf	0x2b2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -4974,18 +4974,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INTCLRA_Bits"
 	.byte	0x2
 	.uahalf	0x2b3
-	.uaword	0x2749
+	.uaword	0x2751
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INTCLRB_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2b6
-	.uaword	0x2a6e
+	.uaword	0x2a76
 	.uleb128 0x7
 	.string	"WSI0"
 	.byte	0x2
 	.uahalf	0x2b8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4994,7 +4994,7 @@ IfxPsi5_enableModule:
 	.string	"WSI1"
 	.byte	0x2
 	.uahalf	0x2b9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5003,7 +5003,7 @@ IfxPsi5_enableModule:
 	.string	"WSI2"
 	.byte	0x2
 	.uahalf	0x2ba
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5012,7 +5012,7 @@ IfxPsi5_enableModule:
 	.string	"WSI3"
 	.byte	0x2
 	.uahalf	0x2bb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5021,7 +5021,7 @@ IfxPsi5_enableModule:
 	.string	"WSI4"
 	.byte	0x2
 	.uahalf	0x2bc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5030,7 +5030,7 @@ IfxPsi5_enableModule:
 	.string	"WSI5"
 	.byte	0x2
 	.uahalf	0x2bd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5039,7 +5039,7 @@ IfxPsi5_enableModule:
 	.string	"SDI0"
 	.byte	0x2
 	.uahalf	0x2be
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5048,7 +5048,7 @@ IfxPsi5_enableModule:
 	.string	"SDI1"
 	.byte	0x2
 	.uahalf	0x2bf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5057,7 +5057,7 @@ IfxPsi5_enableModule:
 	.string	"SDI2"
 	.byte	0x2
 	.uahalf	0x2c0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5066,7 +5066,7 @@ IfxPsi5_enableModule:
 	.string	"SDI3"
 	.byte	0x2
 	.uahalf	0x2c1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5075,7 +5075,7 @@ IfxPsi5_enableModule:
 	.string	"SDI4"
 	.byte	0x2
 	.uahalf	0x2c2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5084,7 +5084,7 @@ IfxPsi5_enableModule:
 	.string	"SDI5"
 	.byte	0x2
 	.uahalf	0x2c3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5093,7 +5093,7 @@ IfxPsi5_enableModule:
 	.string	"SOI0"
 	.byte	0x2
 	.uahalf	0x2c4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5102,7 +5102,7 @@ IfxPsi5_enableModule:
 	.string	"SOI1"
 	.byte	0x2
 	.uahalf	0x2c5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5111,7 +5111,7 @@ IfxPsi5_enableModule:
 	.string	"SOI2"
 	.byte	0x2
 	.uahalf	0x2c6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5120,7 +5120,7 @@ IfxPsi5_enableModule:
 	.string	"SOI3"
 	.byte	0x2
 	.uahalf	0x2c7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5129,7 +5129,7 @@ IfxPsi5_enableModule:
 	.string	"SOI4"
 	.byte	0x2
 	.uahalf	0x2c8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5138,7 +5138,7 @@ IfxPsi5_enableModule:
 	.string	"SOI5"
 	.byte	0x2
 	.uahalf	0x2c9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5147,7 +5147,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF32
 	.byte	0x2
 	.uahalf	0x2ca
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -5156,7 +5156,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF33
 	.byte	0x2
 	.uahalf	0x2cb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5165,7 +5165,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF34
 	.byte	0x2
 	.uahalf	0x2cc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5174,7 +5174,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF35
 	.byte	0x2
 	.uahalf	0x2cd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5183,7 +5183,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF36
 	.byte	0x2
 	.uahalf	0x2ce
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5192,7 +5192,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x2cf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5201,7 +5201,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x2d0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5211,18 +5211,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INTCLRB_Bits"
 	.byte	0x2
 	.uahalf	0x2d1
-	.uaword	0x28ab
+	.uaword	0x28b3
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INTENA_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2d4
-	.uaword	0x2bcf
+	.uaword	0x2bd7
 	.uleb128 0x7
 	.string	"RSI"
 	.byte	0x2
 	.uahalf	0x2d6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5231,7 +5231,7 @@ IfxPsi5_enableModule:
 	.string	"RDI"
 	.byte	0x2
 	.uahalf	0x2d7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5240,7 +5240,7 @@ IfxPsi5_enableModule:
 	.string	"RBI"
 	.byte	0x2
 	.uahalf	0x2d8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5249,7 +5249,7 @@ IfxPsi5_enableModule:
 	.string	"TEI"
 	.byte	0x2
 	.uahalf	0x2d9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5258,7 +5258,7 @@ IfxPsi5_enableModule:
 	.string	"NBI"
 	.byte	0x2
 	.uahalf	0x2da
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5267,7 +5267,7 @@ IfxPsi5_enableModule:
 	.string	"MEI"
 	.byte	0x2
 	.uahalf	0x2db
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5276,7 +5276,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x2dc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5285,7 +5285,7 @@ IfxPsi5_enableModule:
 	.string	"FWI"
 	.byte	0x2
 	.uahalf	0x2dd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5294,7 +5294,7 @@ IfxPsi5_enableModule:
 	.string	"RUI"
 	.byte	0x2
 	.uahalf	0x2de
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5303,7 +5303,7 @@ IfxPsi5_enableModule:
 	.string	"RMI"
 	.byte	0x2
 	.uahalf	0x2df
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5312,7 +5312,7 @@ IfxPsi5_enableModule:
 	.string	"TPI"
 	.byte	0x2
 	.uahalf	0x2e0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5321,7 +5321,7 @@ IfxPsi5_enableModule:
 	.string	"TPOI"
 	.byte	0x2
 	.uahalf	0x2e1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5330,7 +5330,7 @@ IfxPsi5_enableModule:
 	.string	"TSI"
 	.byte	0x2
 	.uahalf	0x2e2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5339,7 +5339,7 @@ IfxPsi5_enableModule:
 	.string	"TSOI"
 	.byte	0x2
 	.uahalf	0x2e3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5348,7 +5348,7 @@ IfxPsi5_enableModule:
 	.string	"TOI"
 	.byte	0x2
 	.uahalf	0x2e4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5357,7 +5357,7 @@ IfxPsi5_enableModule:
 	.string	"TOOI"
 	.byte	0x2
 	.uahalf	0x2e5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5366,7 +5366,7 @@ IfxPsi5_enableModule:
 	.string	"NFI"
 	.byte	0x2
 	.uahalf	0x2e6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5375,7 +5375,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF31
 	.byte	0x2
 	.uahalf	0x2e7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -5385,18 +5385,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INTENA_Bits"
 	.byte	0x2
 	.uahalf	0x2e8
-	.uaword	0x2a8c
+	.uaword	0x2a94
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INTENB_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x2eb
-	.uaword	0x2dae
+	.uaword	0x2db6
 	.uleb128 0x7
 	.string	"WSI0"
 	.byte	0x2
 	.uahalf	0x2ed
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5405,7 +5405,7 @@ IfxPsi5_enableModule:
 	.string	"WSI1"
 	.byte	0x2
 	.uahalf	0x2ee
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5414,7 +5414,7 @@ IfxPsi5_enableModule:
 	.string	"WSI2"
 	.byte	0x2
 	.uahalf	0x2ef
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5423,7 +5423,7 @@ IfxPsi5_enableModule:
 	.string	"WSI3"
 	.byte	0x2
 	.uahalf	0x2f0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5432,7 +5432,7 @@ IfxPsi5_enableModule:
 	.string	"WSI4"
 	.byte	0x2
 	.uahalf	0x2f1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5441,7 +5441,7 @@ IfxPsi5_enableModule:
 	.string	"WSI5"
 	.byte	0x2
 	.uahalf	0x2f2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5450,7 +5450,7 @@ IfxPsi5_enableModule:
 	.string	"SDI0"
 	.byte	0x2
 	.uahalf	0x2f3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5459,7 +5459,7 @@ IfxPsi5_enableModule:
 	.string	"SDI1"
 	.byte	0x2
 	.uahalf	0x2f4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5468,7 +5468,7 @@ IfxPsi5_enableModule:
 	.string	"SDI2"
 	.byte	0x2
 	.uahalf	0x2f5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5477,7 +5477,7 @@ IfxPsi5_enableModule:
 	.string	"SDI3"
 	.byte	0x2
 	.uahalf	0x2f6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5486,7 +5486,7 @@ IfxPsi5_enableModule:
 	.string	"SDI4"
 	.byte	0x2
 	.uahalf	0x2f7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5495,7 +5495,7 @@ IfxPsi5_enableModule:
 	.string	"SDI5"
 	.byte	0x2
 	.uahalf	0x2f8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5504,7 +5504,7 @@ IfxPsi5_enableModule:
 	.string	"SOI0"
 	.byte	0x2
 	.uahalf	0x2f9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5513,7 +5513,7 @@ IfxPsi5_enableModule:
 	.string	"SOI1"
 	.byte	0x2
 	.uahalf	0x2fa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5522,7 +5522,7 @@ IfxPsi5_enableModule:
 	.string	"SOI2"
 	.byte	0x2
 	.uahalf	0x2fb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5531,7 +5531,7 @@ IfxPsi5_enableModule:
 	.string	"SOI3"
 	.byte	0x2
 	.uahalf	0x2fc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5540,7 +5540,7 @@ IfxPsi5_enableModule:
 	.string	"SOI4"
 	.byte	0x2
 	.uahalf	0x2fd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5549,7 +5549,7 @@ IfxPsi5_enableModule:
 	.string	"SOI5"
 	.byte	0x2
 	.uahalf	0x2fe
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5558,7 +5558,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF32
 	.byte	0x2
 	.uahalf	0x2ff
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -5567,7 +5567,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF33
 	.byte	0x2
 	.uahalf	0x300
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5576,7 +5576,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF34
 	.byte	0x2
 	.uahalf	0x301
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5585,7 +5585,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF35
 	.byte	0x2
 	.uahalf	0x302
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5594,7 +5594,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF36
 	.byte	0x2
 	.uahalf	0x303
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5603,7 +5603,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x304
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5612,7 +5612,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x305
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -5622,18 +5622,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INTENB_Bits"
 	.byte	0x2
 	.uahalf	0x306
-	.uaword	0x2bec
+	.uaword	0x2bf4
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INTOV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x309
-	.uaword	0x2e82
+	.uaword	0x2e8a
 	.uleb128 0x7
 	.string	"RSI"
 	.byte	0x2
 	.uahalf	0x30b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5642,7 +5642,7 @@ IfxPsi5_enableModule:
 	.string	"RDI"
 	.byte	0x2
 	.uahalf	0x30c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5651,7 +5651,7 @@ IfxPsi5_enableModule:
 	.string	"RBI"
 	.byte	0x2
 	.uahalf	0x30d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5660,7 +5660,7 @@ IfxPsi5_enableModule:
 	.string	"TDI"
 	.byte	0x2
 	.uahalf	0x30e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5669,7 +5669,7 @@ IfxPsi5_enableModule:
 	.string	"TBI"
 	.byte	0x2
 	.uahalf	0x30f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5678,7 +5678,7 @@ IfxPsi5_enableModule:
 	.string	"ERRI"
 	.byte	0x2
 	.uahalf	0x310
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5687,7 +5687,7 @@ IfxPsi5_enableModule:
 	.string	"SDI"
 	.byte	0x2
 	.uahalf	0x311
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5696,7 +5696,7 @@ IfxPsi5_enableModule:
 	.string	"FWI"
 	.byte	0x2
 	.uahalf	0x312
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5705,7 +5705,7 @@ IfxPsi5_enableModule:
 	.string	"reserved_8"
 	.byte	0x2
 	.uahalf	0x313
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -5715,18 +5715,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INTOV_Bits"
 	.byte	0x2
 	.uahalf	0x314
-	.uaword	0x2dcb
+	.uaword	0x2dd3
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INTSETA_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x317
-	.uaword	0x2fe2
+	.uaword	0x2fea
 	.uleb128 0x7
 	.string	"RSI"
 	.byte	0x2
 	.uahalf	0x319
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5735,7 +5735,7 @@ IfxPsi5_enableModule:
 	.string	"RDI"
 	.byte	0x2
 	.uahalf	0x31a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5744,7 +5744,7 @@ IfxPsi5_enableModule:
 	.string	"RBI"
 	.byte	0x2
 	.uahalf	0x31b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5753,7 +5753,7 @@ IfxPsi5_enableModule:
 	.string	"TEI"
 	.byte	0x2
 	.uahalf	0x31c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5762,7 +5762,7 @@ IfxPsi5_enableModule:
 	.string	"NBI"
 	.byte	0x2
 	.uahalf	0x31d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5771,7 +5771,7 @@ IfxPsi5_enableModule:
 	.string	"MEI"
 	.byte	0x2
 	.uahalf	0x31e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5780,7 +5780,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x31f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5789,7 +5789,7 @@ IfxPsi5_enableModule:
 	.string	"FWI"
 	.byte	0x2
 	.uahalf	0x320
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5798,7 +5798,7 @@ IfxPsi5_enableModule:
 	.string	"RUI"
 	.byte	0x2
 	.uahalf	0x321
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5807,7 +5807,7 @@ IfxPsi5_enableModule:
 	.string	"RMI"
 	.byte	0x2
 	.uahalf	0x322
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5816,7 +5816,7 @@ IfxPsi5_enableModule:
 	.string	"TPI"
 	.byte	0x2
 	.uahalf	0x323
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5825,7 +5825,7 @@ IfxPsi5_enableModule:
 	.string	"TPOI"
 	.byte	0x2
 	.uahalf	0x324
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5834,7 +5834,7 @@ IfxPsi5_enableModule:
 	.string	"TSI"
 	.byte	0x2
 	.uahalf	0x325
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5843,7 +5843,7 @@ IfxPsi5_enableModule:
 	.string	"TSOI"
 	.byte	0x2
 	.uahalf	0x326
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5852,7 +5852,7 @@ IfxPsi5_enableModule:
 	.string	"TOI"
 	.byte	0x2
 	.uahalf	0x327
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5861,7 +5861,7 @@ IfxPsi5_enableModule:
 	.string	"TOOI"
 	.byte	0x2
 	.uahalf	0x328
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5870,7 +5870,7 @@ IfxPsi5_enableModule:
 	.string	"NFI"
 	.byte	0x2
 	.uahalf	0x329
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5879,7 +5879,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF31
 	.byte	0x2
 	.uahalf	0x32a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -5889,18 +5889,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INTSETA_Bits"
 	.byte	0x2
 	.uahalf	0x32b
-	.uaword	0x2e9e
+	.uaword	0x2ea6
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INTSETB_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x32e
-	.uaword	0x31c3
+	.uaword	0x31cb
 	.uleb128 0x7
 	.string	"WSI0"
 	.byte	0x2
 	.uahalf	0x330
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5909,7 +5909,7 @@ IfxPsi5_enableModule:
 	.string	"WSI1"
 	.byte	0x2
 	.uahalf	0x331
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5918,7 +5918,7 @@ IfxPsi5_enableModule:
 	.string	"WSI2"
 	.byte	0x2
 	.uahalf	0x332
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5927,7 +5927,7 @@ IfxPsi5_enableModule:
 	.string	"WSI3"
 	.byte	0x2
 	.uahalf	0x333
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5936,7 +5936,7 @@ IfxPsi5_enableModule:
 	.string	"WSI4"
 	.byte	0x2
 	.uahalf	0x334
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5945,7 +5945,7 @@ IfxPsi5_enableModule:
 	.string	"WSI5"
 	.byte	0x2
 	.uahalf	0x335
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5954,7 +5954,7 @@ IfxPsi5_enableModule:
 	.string	"SDI0"
 	.byte	0x2
 	.uahalf	0x336
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5963,7 +5963,7 @@ IfxPsi5_enableModule:
 	.string	"SDI1"
 	.byte	0x2
 	.uahalf	0x337
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5972,7 +5972,7 @@ IfxPsi5_enableModule:
 	.string	"SDI2"
 	.byte	0x2
 	.uahalf	0x338
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5981,7 +5981,7 @@ IfxPsi5_enableModule:
 	.string	"SDI3"
 	.byte	0x2
 	.uahalf	0x339
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5990,7 +5990,7 @@ IfxPsi5_enableModule:
 	.string	"SDI4"
 	.byte	0x2
 	.uahalf	0x33a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5999,7 +5999,7 @@ IfxPsi5_enableModule:
 	.string	"SDI5"
 	.byte	0x2
 	.uahalf	0x33b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6008,7 +6008,7 @@ IfxPsi5_enableModule:
 	.string	"SOI0"
 	.byte	0x2
 	.uahalf	0x33c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6017,7 +6017,7 @@ IfxPsi5_enableModule:
 	.string	"SOI1"
 	.byte	0x2
 	.uahalf	0x33d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6026,7 +6026,7 @@ IfxPsi5_enableModule:
 	.string	"SOI2"
 	.byte	0x2
 	.uahalf	0x33e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6035,7 +6035,7 @@ IfxPsi5_enableModule:
 	.string	"SOI3"
 	.byte	0x2
 	.uahalf	0x33f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6044,7 +6044,7 @@ IfxPsi5_enableModule:
 	.string	"SOI4"
 	.byte	0x2
 	.uahalf	0x340
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6053,7 +6053,7 @@ IfxPsi5_enableModule:
 	.string	"SOI5"
 	.byte	0x2
 	.uahalf	0x341
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6062,7 +6062,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF32
 	.byte	0x2
 	.uahalf	0x342
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6071,7 +6071,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF33
 	.byte	0x2
 	.uahalf	0x343
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6080,7 +6080,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF34
 	.byte	0x2
 	.uahalf	0x344
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6089,7 +6089,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF35
 	.byte	0x2
 	.uahalf	0x345
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6098,7 +6098,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF36
 	.byte	0x2
 	.uahalf	0x346
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6107,7 +6107,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x347
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6116,7 +6116,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x348
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -6126,18 +6126,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INTSETB_Bits"
 	.byte	0x2
 	.uahalf	0x349
-	.uaword	0x3000
+	.uaword	0x3008
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INTSTATA_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x34c
-	.uaword	0x3326
+	.uaword	0x332e
 	.uleb128 0x7
 	.string	"RSI"
 	.byte	0x2
 	.uahalf	0x34e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6146,7 +6146,7 @@ IfxPsi5_enableModule:
 	.string	"RDI"
 	.byte	0x2
 	.uahalf	0x34f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6155,7 +6155,7 @@ IfxPsi5_enableModule:
 	.string	"RBI"
 	.byte	0x2
 	.uahalf	0x350
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6164,7 +6164,7 @@ IfxPsi5_enableModule:
 	.string	"TEI"
 	.byte	0x2
 	.uahalf	0x351
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6173,7 +6173,7 @@ IfxPsi5_enableModule:
 	.string	"NBI"
 	.byte	0x2
 	.uahalf	0x352
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6182,7 +6182,7 @@ IfxPsi5_enableModule:
 	.string	"MEI"
 	.byte	0x2
 	.uahalf	0x353
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6191,7 +6191,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x354
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6200,7 +6200,7 @@ IfxPsi5_enableModule:
 	.string	"FWI"
 	.byte	0x2
 	.uahalf	0x355
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6209,7 +6209,7 @@ IfxPsi5_enableModule:
 	.string	"RUI"
 	.byte	0x2
 	.uahalf	0x356
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6218,7 +6218,7 @@ IfxPsi5_enableModule:
 	.string	"RMI"
 	.byte	0x2
 	.uahalf	0x357
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6227,7 +6227,7 @@ IfxPsi5_enableModule:
 	.string	"TPI"
 	.byte	0x2
 	.uahalf	0x358
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6236,7 +6236,7 @@ IfxPsi5_enableModule:
 	.string	"TPOI"
 	.byte	0x2
 	.uahalf	0x359
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6245,7 +6245,7 @@ IfxPsi5_enableModule:
 	.string	"TSI"
 	.byte	0x2
 	.uahalf	0x35a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6254,7 +6254,7 @@ IfxPsi5_enableModule:
 	.string	"TSOI"
 	.byte	0x2
 	.uahalf	0x35b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6263,7 +6263,7 @@ IfxPsi5_enableModule:
 	.string	"TOI"
 	.byte	0x2
 	.uahalf	0x35c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6272,7 +6272,7 @@ IfxPsi5_enableModule:
 	.string	"TOOI"
 	.byte	0x2
 	.uahalf	0x35d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6281,7 +6281,7 @@ IfxPsi5_enableModule:
 	.string	"NFI"
 	.byte	0x2
 	.uahalf	0x35e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6290,7 +6290,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF31
 	.byte	0x2
 	.uahalf	0x35f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -6300,18 +6300,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INTSTATA_Bits"
 	.byte	0x2
 	.uahalf	0x360
-	.uaword	0x31e1
+	.uaword	0x31e9
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_INTSTATB_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x363
-	.uaword	0x3509
+	.uaword	0x3511
 	.uleb128 0x7
 	.string	"WSI0"
 	.byte	0x2
 	.uahalf	0x365
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6320,7 +6320,7 @@ IfxPsi5_enableModule:
 	.string	"WSI1"
 	.byte	0x2
 	.uahalf	0x366
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6329,7 +6329,7 @@ IfxPsi5_enableModule:
 	.string	"WSI2"
 	.byte	0x2
 	.uahalf	0x367
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6338,7 +6338,7 @@ IfxPsi5_enableModule:
 	.string	"WSI3"
 	.byte	0x2
 	.uahalf	0x368
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6347,7 +6347,7 @@ IfxPsi5_enableModule:
 	.string	"WSI4"
 	.byte	0x2
 	.uahalf	0x369
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6356,7 +6356,7 @@ IfxPsi5_enableModule:
 	.string	"WSI5"
 	.byte	0x2
 	.uahalf	0x36a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6365,7 +6365,7 @@ IfxPsi5_enableModule:
 	.string	"SDI0"
 	.byte	0x2
 	.uahalf	0x36b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6374,7 +6374,7 @@ IfxPsi5_enableModule:
 	.string	"SDI1"
 	.byte	0x2
 	.uahalf	0x36c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6383,7 +6383,7 @@ IfxPsi5_enableModule:
 	.string	"SDI2"
 	.byte	0x2
 	.uahalf	0x36d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6392,7 +6392,7 @@ IfxPsi5_enableModule:
 	.string	"SDI3"
 	.byte	0x2
 	.uahalf	0x36e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6401,7 +6401,7 @@ IfxPsi5_enableModule:
 	.string	"SDI4"
 	.byte	0x2
 	.uahalf	0x36f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6410,7 +6410,7 @@ IfxPsi5_enableModule:
 	.string	"SDI5"
 	.byte	0x2
 	.uahalf	0x370
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6419,7 +6419,7 @@ IfxPsi5_enableModule:
 	.string	"SOI0"
 	.byte	0x2
 	.uahalf	0x371
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6428,7 +6428,7 @@ IfxPsi5_enableModule:
 	.string	"SOI1"
 	.byte	0x2
 	.uahalf	0x372
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6437,7 +6437,7 @@ IfxPsi5_enableModule:
 	.string	"SOI2"
 	.byte	0x2
 	.uahalf	0x373
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6446,7 +6446,7 @@ IfxPsi5_enableModule:
 	.string	"SOI3"
 	.byte	0x2
 	.uahalf	0x374
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6455,7 +6455,7 @@ IfxPsi5_enableModule:
 	.string	"SOI4"
 	.byte	0x2
 	.uahalf	0x375
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6464,7 +6464,7 @@ IfxPsi5_enableModule:
 	.string	"SOI5"
 	.byte	0x2
 	.uahalf	0x376
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6473,7 +6473,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF32
 	.byte	0x2
 	.uahalf	0x377
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6482,7 +6482,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF33
 	.byte	0x2
 	.uahalf	0x378
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6491,7 +6491,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF34
 	.byte	0x2
 	.uahalf	0x379
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6500,7 +6500,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF35
 	.byte	0x2
 	.uahalf	0x37a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6509,7 +6509,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF36
 	.byte	0x2
 	.uahalf	0x37b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6518,7 +6518,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x37c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6527,7 +6527,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF6
 	.byte	0x2
 	.uahalf	0x37d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -6537,18 +6537,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_INTSTATB_Bits"
 	.byte	0x2
 	.uahalf	0x37e
-	.uaword	0x3345
+	.uaword	0x334d
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_KRST0_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x381
-	.uaword	0x357b
+	.uaword	0x3583
 	.uleb128 0x7
 	.string	"RST"
 	.byte	0x2
 	.uahalf	0x383
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6557,7 +6557,7 @@ IfxPsi5_enableModule:
 	.string	"RSTSTAT"
 	.byte	0x2
 	.uahalf	0x384
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6566,7 +6566,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF1
 	.byte	0x2
 	.uahalf	0x385
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -6576,18 +6576,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_KRST0_Bits"
 	.byte	0x2
 	.uahalf	0x386
-	.uaword	0x3528
+	.uaword	0x3530
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_KRST1_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x389
-	.uaword	0x35d6
+	.uaword	0x35de
 	.uleb128 0x7
 	.string	"RST"
 	.byte	0x2
 	.uahalf	0x38b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6596,7 +6596,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x38c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -6606,18 +6606,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_KRST1_Bits"
 	.byte	0x2
 	.uahalf	0x38d
-	.uaword	0x3597
+	.uaword	0x359f
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x390
-	.uaword	0x3633
+	.uaword	0x363b
 	.uleb128 0x7
 	.string	"CLR"
 	.byte	0x2
 	.uahalf	0x392
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6626,7 +6626,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF38
 	.byte	0x2
 	.uahalf	0x393
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -6636,18 +6636,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_KRSTCLR_Bits"
 	.byte	0x2
 	.uahalf	0x394
-	.uaword	0x35f2
+	.uaword	0x35fa
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_MEICLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x397
-	.uaword	0x38a7
+	.uaword	0x38af
 	.uleb128 0x7
 	.string	"MEI0"
 	.byte	0x2
 	.uahalf	0x399
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6656,7 +6656,7 @@ IfxPsi5_enableModule:
 	.string	"MEI1"
 	.byte	0x2
 	.uahalf	0x39a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6665,7 +6665,7 @@ IfxPsi5_enableModule:
 	.string	"MEI2"
 	.byte	0x2
 	.uahalf	0x39b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6674,7 +6674,7 @@ IfxPsi5_enableModule:
 	.string	"MEI3"
 	.byte	0x2
 	.uahalf	0x39c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6683,7 +6683,7 @@ IfxPsi5_enableModule:
 	.string	"MEI4"
 	.byte	0x2
 	.uahalf	0x39d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6692,7 +6692,7 @@ IfxPsi5_enableModule:
 	.string	"MEI5"
 	.byte	0x2
 	.uahalf	0x39e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6701,7 +6701,7 @@ IfxPsi5_enableModule:
 	.string	"MEI6"
 	.byte	0x2
 	.uahalf	0x39f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6710,7 +6710,7 @@ IfxPsi5_enableModule:
 	.string	"MEI7"
 	.byte	0x2
 	.uahalf	0x3a0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6719,7 +6719,7 @@ IfxPsi5_enableModule:
 	.string	"MEI8"
 	.byte	0x2
 	.uahalf	0x3a1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6728,7 +6728,7 @@ IfxPsi5_enableModule:
 	.string	"MEI9"
 	.byte	0x2
 	.uahalf	0x3a2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6737,7 +6737,7 @@ IfxPsi5_enableModule:
 	.string	"MEI10"
 	.byte	0x2
 	.uahalf	0x3a3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6746,7 +6746,7 @@ IfxPsi5_enableModule:
 	.string	"MEI11"
 	.byte	0x2
 	.uahalf	0x3a4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6755,7 +6755,7 @@ IfxPsi5_enableModule:
 	.string	"MEI12"
 	.byte	0x2
 	.uahalf	0x3a5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6764,7 +6764,7 @@ IfxPsi5_enableModule:
 	.string	"MEI13"
 	.byte	0x2
 	.uahalf	0x3a6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6773,7 +6773,7 @@ IfxPsi5_enableModule:
 	.string	"MEI14"
 	.byte	0x2
 	.uahalf	0x3a7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6782,7 +6782,7 @@ IfxPsi5_enableModule:
 	.string	"MEI15"
 	.byte	0x2
 	.uahalf	0x3a8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6791,7 +6791,7 @@ IfxPsi5_enableModule:
 	.string	"MEI16"
 	.byte	0x2
 	.uahalf	0x3a9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6800,7 +6800,7 @@ IfxPsi5_enableModule:
 	.string	"MEI17"
 	.byte	0x2
 	.uahalf	0x3aa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6809,7 +6809,7 @@ IfxPsi5_enableModule:
 	.string	"MEI18"
 	.byte	0x2
 	.uahalf	0x3ab
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6818,7 +6818,7 @@ IfxPsi5_enableModule:
 	.string	"MEI19"
 	.byte	0x2
 	.uahalf	0x3ac
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6827,7 +6827,7 @@ IfxPsi5_enableModule:
 	.string	"MEI20"
 	.byte	0x2
 	.uahalf	0x3ad
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6836,7 +6836,7 @@ IfxPsi5_enableModule:
 	.string	"MEI21"
 	.byte	0x2
 	.uahalf	0x3ae
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6845,7 +6845,7 @@ IfxPsi5_enableModule:
 	.string	"MEI22"
 	.byte	0x2
 	.uahalf	0x3af
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6854,7 +6854,7 @@ IfxPsi5_enableModule:
 	.string	"MEI23"
 	.byte	0x2
 	.uahalf	0x3b0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6863,7 +6863,7 @@ IfxPsi5_enableModule:
 	.string	"MEI24"
 	.byte	0x2
 	.uahalf	0x3b1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6872,7 +6872,7 @@ IfxPsi5_enableModule:
 	.string	"MEI25"
 	.byte	0x2
 	.uahalf	0x3b2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -6881,7 +6881,7 @@ IfxPsi5_enableModule:
 	.string	"MEI26"
 	.byte	0x2
 	.uahalf	0x3b3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -6890,7 +6890,7 @@ IfxPsi5_enableModule:
 	.string	"MEI27"
 	.byte	0x2
 	.uahalf	0x3b4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6899,7 +6899,7 @@ IfxPsi5_enableModule:
 	.string	"MEI28"
 	.byte	0x2
 	.uahalf	0x3b5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -6908,7 +6908,7 @@ IfxPsi5_enableModule:
 	.string	"MEI29"
 	.byte	0x2
 	.uahalf	0x3b6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6917,7 +6917,7 @@ IfxPsi5_enableModule:
 	.string	"MEI30"
 	.byte	0x2
 	.uahalf	0x3b7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -6926,7 +6926,7 @@ IfxPsi5_enableModule:
 	.string	"MEI31"
 	.byte	0x2
 	.uahalf	0x3b8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6936,18 +6936,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_MEICLR_Bits"
 	.byte	0x2
 	.uahalf	0x3b9
-	.uaword	0x3651
+	.uaword	0x3659
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_MEIOV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x3bc
-	.uaword	0x3b19
+	.uaword	0x3b21
 	.uleb128 0x7
 	.string	"MEI0"
 	.byte	0x2
 	.uahalf	0x3be
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6956,7 +6956,7 @@ IfxPsi5_enableModule:
 	.string	"MEI1"
 	.byte	0x2
 	.uahalf	0x3bf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6965,7 +6965,7 @@ IfxPsi5_enableModule:
 	.string	"MEI2"
 	.byte	0x2
 	.uahalf	0x3c0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6974,7 +6974,7 @@ IfxPsi5_enableModule:
 	.string	"MEI3"
 	.byte	0x2
 	.uahalf	0x3c1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6983,7 +6983,7 @@ IfxPsi5_enableModule:
 	.string	"MEI4"
 	.byte	0x2
 	.uahalf	0x3c2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6992,7 +6992,7 @@ IfxPsi5_enableModule:
 	.string	"MEI5"
 	.byte	0x2
 	.uahalf	0x3c3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7001,7 +7001,7 @@ IfxPsi5_enableModule:
 	.string	"MEI6"
 	.byte	0x2
 	.uahalf	0x3c4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7010,7 +7010,7 @@ IfxPsi5_enableModule:
 	.string	"MEI7"
 	.byte	0x2
 	.uahalf	0x3c5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7019,7 +7019,7 @@ IfxPsi5_enableModule:
 	.string	"MEI8"
 	.byte	0x2
 	.uahalf	0x3c6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7028,7 +7028,7 @@ IfxPsi5_enableModule:
 	.string	"MEI9"
 	.byte	0x2
 	.uahalf	0x3c7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7037,7 +7037,7 @@ IfxPsi5_enableModule:
 	.string	"MEI10"
 	.byte	0x2
 	.uahalf	0x3c8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7046,7 +7046,7 @@ IfxPsi5_enableModule:
 	.string	"MEI11"
 	.byte	0x2
 	.uahalf	0x3c9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7055,7 +7055,7 @@ IfxPsi5_enableModule:
 	.string	"MEI12"
 	.byte	0x2
 	.uahalf	0x3ca
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7064,7 +7064,7 @@ IfxPsi5_enableModule:
 	.string	"MEI13"
 	.byte	0x2
 	.uahalf	0x3cb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7073,7 +7073,7 @@ IfxPsi5_enableModule:
 	.string	"MEI14"
 	.byte	0x2
 	.uahalf	0x3cc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7082,7 +7082,7 @@ IfxPsi5_enableModule:
 	.string	"MEI15"
 	.byte	0x2
 	.uahalf	0x3cd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7091,7 +7091,7 @@ IfxPsi5_enableModule:
 	.string	"MEI16"
 	.byte	0x2
 	.uahalf	0x3ce
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7100,7 +7100,7 @@ IfxPsi5_enableModule:
 	.string	"MEI17"
 	.byte	0x2
 	.uahalf	0x3cf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7109,7 +7109,7 @@ IfxPsi5_enableModule:
 	.string	"MEI18"
 	.byte	0x2
 	.uahalf	0x3d0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7118,7 +7118,7 @@ IfxPsi5_enableModule:
 	.string	"MEI19"
 	.byte	0x2
 	.uahalf	0x3d1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -7127,7 +7127,7 @@ IfxPsi5_enableModule:
 	.string	"MEI20"
 	.byte	0x2
 	.uahalf	0x3d2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7136,7 +7136,7 @@ IfxPsi5_enableModule:
 	.string	"MEI21"
 	.byte	0x2
 	.uahalf	0x3d3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7145,7 +7145,7 @@ IfxPsi5_enableModule:
 	.string	"MEI22"
 	.byte	0x2
 	.uahalf	0x3d4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -7154,7 +7154,7 @@ IfxPsi5_enableModule:
 	.string	"MEI23"
 	.byte	0x2
 	.uahalf	0x3d5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7163,7 +7163,7 @@ IfxPsi5_enableModule:
 	.string	"MEI24"
 	.byte	0x2
 	.uahalf	0x3d6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7172,7 +7172,7 @@ IfxPsi5_enableModule:
 	.string	"MEI25"
 	.byte	0x2
 	.uahalf	0x3d7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7181,7 +7181,7 @@ IfxPsi5_enableModule:
 	.string	"MEI26"
 	.byte	0x2
 	.uahalf	0x3d8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -7190,7 +7190,7 @@ IfxPsi5_enableModule:
 	.string	"MEI27"
 	.byte	0x2
 	.uahalf	0x3d9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -7199,7 +7199,7 @@ IfxPsi5_enableModule:
 	.string	"MEI28"
 	.byte	0x2
 	.uahalf	0x3da
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7208,7 +7208,7 @@ IfxPsi5_enableModule:
 	.string	"MEI29"
 	.byte	0x2
 	.uahalf	0x3db
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7217,7 +7217,7 @@ IfxPsi5_enableModule:
 	.string	"MEI30"
 	.byte	0x2
 	.uahalf	0x3dc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7226,7 +7226,7 @@ IfxPsi5_enableModule:
 	.string	"MEI31"
 	.byte	0x2
 	.uahalf	0x3dd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7236,18 +7236,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_MEIOV_Bits"
 	.byte	0x2
 	.uahalf	0x3de
-	.uaword	0x38c4
+	.uaword	0x38cc
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_MEISET_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x3e1
-	.uaword	0x3d8b
+	.uaword	0x3d93
 	.uleb128 0x7
 	.string	"MEI0"
 	.byte	0x2
 	.uahalf	0x3e3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7256,7 +7256,7 @@ IfxPsi5_enableModule:
 	.string	"MEI1"
 	.byte	0x2
 	.uahalf	0x3e4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7265,7 +7265,7 @@ IfxPsi5_enableModule:
 	.string	"MEI2"
 	.byte	0x2
 	.uahalf	0x3e5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7274,7 +7274,7 @@ IfxPsi5_enableModule:
 	.string	"MEI3"
 	.byte	0x2
 	.uahalf	0x3e6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7283,7 +7283,7 @@ IfxPsi5_enableModule:
 	.string	"MEI4"
 	.byte	0x2
 	.uahalf	0x3e7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7292,7 +7292,7 @@ IfxPsi5_enableModule:
 	.string	"MEI5"
 	.byte	0x2
 	.uahalf	0x3e8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7301,7 +7301,7 @@ IfxPsi5_enableModule:
 	.string	"MEI6"
 	.byte	0x2
 	.uahalf	0x3e9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7310,7 +7310,7 @@ IfxPsi5_enableModule:
 	.string	"MEI7"
 	.byte	0x2
 	.uahalf	0x3ea
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7319,7 +7319,7 @@ IfxPsi5_enableModule:
 	.string	"MEI8"
 	.byte	0x2
 	.uahalf	0x3eb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7328,7 +7328,7 @@ IfxPsi5_enableModule:
 	.string	"MEI9"
 	.byte	0x2
 	.uahalf	0x3ec
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7337,7 +7337,7 @@ IfxPsi5_enableModule:
 	.string	"MEI10"
 	.byte	0x2
 	.uahalf	0x3ed
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7346,7 +7346,7 @@ IfxPsi5_enableModule:
 	.string	"MEI11"
 	.byte	0x2
 	.uahalf	0x3ee
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7355,7 +7355,7 @@ IfxPsi5_enableModule:
 	.string	"MEI12"
 	.byte	0x2
 	.uahalf	0x3ef
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7364,7 +7364,7 @@ IfxPsi5_enableModule:
 	.string	"MEI13"
 	.byte	0x2
 	.uahalf	0x3f0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7373,7 +7373,7 @@ IfxPsi5_enableModule:
 	.string	"MEI14"
 	.byte	0x2
 	.uahalf	0x3f1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7382,7 +7382,7 @@ IfxPsi5_enableModule:
 	.string	"MEI15"
 	.byte	0x2
 	.uahalf	0x3f2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7391,7 +7391,7 @@ IfxPsi5_enableModule:
 	.string	"MEI16"
 	.byte	0x2
 	.uahalf	0x3f3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7400,7 +7400,7 @@ IfxPsi5_enableModule:
 	.string	"MEI17"
 	.byte	0x2
 	.uahalf	0x3f4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7409,7 +7409,7 @@ IfxPsi5_enableModule:
 	.string	"MEI18"
 	.byte	0x2
 	.uahalf	0x3f5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7418,7 +7418,7 @@ IfxPsi5_enableModule:
 	.string	"MEI19"
 	.byte	0x2
 	.uahalf	0x3f6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -7427,7 +7427,7 @@ IfxPsi5_enableModule:
 	.string	"MEI20"
 	.byte	0x2
 	.uahalf	0x3f7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7436,7 +7436,7 @@ IfxPsi5_enableModule:
 	.string	"MEI21"
 	.byte	0x2
 	.uahalf	0x3f8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7445,7 +7445,7 @@ IfxPsi5_enableModule:
 	.string	"MEI22"
 	.byte	0x2
 	.uahalf	0x3f9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -7454,7 +7454,7 @@ IfxPsi5_enableModule:
 	.string	"MEI23"
 	.byte	0x2
 	.uahalf	0x3fa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7463,7 +7463,7 @@ IfxPsi5_enableModule:
 	.string	"MEI24"
 	.byte	0x2
 	.uahalf	0x3fb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7472,7 +7472,7 @@ IfxPsi5_enableModule:
 	.string	"MEI25"
 	.byte	0x2
 	.uahalf	0x3fc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7481,7 +7481,7 @@ IfxPsi5_enableModule:
 	.string	"MEI26"
 	.byte	0x2
 	.uahalf	0x3fd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -7490,7 +7490,7 @@ IfxPsi5_enableModule:
 	.string	"MEI27"
 	.byte	0x2
 	.uahalf	0x3fe
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -7499,7 +7499,7 @@ IfxPsi5_enableModule:
 	.string	"MEI28"
 	.byte	0x2
 	.uahalf	0x3ff
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7508,7 +7508,7 @@ IfxPsi5_enableModule:
 	.string	"MEI29"
 	.byte	0x2
 	.uahalf	0x400
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7517,7 +7517,7 @@ IfxPsi5_enableModule:
 	.string	"MEI30"
 	.byte	0x2
 	.uahalf	0x401
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7526,7 +7526,7 @@ IfxPsi5_enableModule:
 	.string	"MEI31"
 	.byte	0x2
 	.uahalf	0x402
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7536,18 +7536,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_MEISET_Bits"
 	.byte	0x2
 	.uahalf	0x403
-	.uaword	0x3b35
+	.uaword	0x3b3d
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_NBICLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x406
-	.uaword	0x3ffe
+	.uaword	0x4006
 	.uleb128 0x7
 	.string	"NBI0"
 	.byte	0x2
 	.uahalf	0x408
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7556,7 +7556,7 @@ IfxPsi5_enableModule:
 	.string	"NBI1"
 	.byte	0x2
 	.uahalf	0x409
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7565,7 +7565,7 @@ IfxPsi5_enableModule:
 	.string	"NBI2"
 	.byte	0x2
 	.uahalf	0x40a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7574,7 +7574,7 @@ IfxPsi5_enableModule:
 	.string	"NBI3"
 	.byte	0x2
 	.uahalf	0x40b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7583,7 +7583,7 @@ IfxPsi5_enableModule:
 	.string	"NBI4"
 	.byte	0x2
 	.uahalf	0x40c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7592,7 +7592,7 @@ IfxPsi5_enableModule:
 	.string	"NBI5"
 	.byte	0x2
 	.uahalf	0x40d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7601,7 +7601,7 @@ IfxPsi5_enableModule:
 	.string	"NBI6"
 	.byte	0x2
 	.uahalf	0x40e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7610,7 +7610,7 @@ IfxPsi5_enableModule:
 	.string	"NBI7"
 	.byte	0x2
 	.uahalf	0x40f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7619,7 +7619,7 @@ IfxPsi5_enableModule:
 	.string	"NBI8"
 	.byte	0x2
 	.uahalf	0x410
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7628,7 +7628,7 @@ IfxPsi5_enableModule:
 	.string	"NBI9"
 	.byte	0x2
 	.uahalf	0x411
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7637,7 +7637,7 @@ IfxPsi5_enableModule:
 	.string	"NBI10"
 	.byte	0x2
 	.uahalf	0x412
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7646,7 +7646,7 @@ IfxPsi5_enableModule:
 	.string	"NBI11"
 	.byte	0x2
 	.uahalf	0x413
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7655,7 +7655,7 @@ IfxPsi5_enableModule:
 	.string	"NBI12"
 	.byte	0x2
 	.uahalf	0x414
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7664,7 +7664,7 @@ IfxPsi5_enableModule:
 	.string	"NBI13"
 	.byte	0x2
 	.uahalf	0x415
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7673,7 +7673,7 @@ IfxPsi5_enableModule:
 	.string	"NBI14"
 	.byte	0x2
 	.uahalf	0x416
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7682,7 +7682,7 @@ IfxPsi5_enableModule:
 	.string	"NBI15"
 	.byte	0x2
 	.uahalf	0x417
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7691,7 +7691,7 @@ IfxPsi5_enableModule:
 	.string	"NBI16"
 	.byte	0x2
 	.uahalf	0x418
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7700,7 +7700,7 @@ IfxPsi5_enableModule:
 	.string	"NBI17"
 	.byte	0x2
 	.uahalf	0x419
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7709,7 +7709,7 @@ IfxPsi5_enableModule:
 	.string	"NBI18"
 	.byte	0x2
 	.uahalf	0x41a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7718,7 +7718,7 @@ IfxPsi5_enableModule:
 	.string	"NBI19"
 	.byte	0x2
 	.uahalf	0x41b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -7727,7 +7727,7 @@ IfxPsi5_enableModule:
 	.string	"NBI20"
 	.byte	0x2
 	.uahalf	0x41c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7736,7 +7736,7 @@ IfxPsi5_enableModule:
 	.string	"NBI21"
 	.byte	0x2
 	.uahalf	0x41d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7745,7 +7745,7 @@ IfxPsi5_enableModule:
 	.string	"NBI22"
 	.byte	0x2
 	.uahalf	0x41e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -7754,7 +7754,7 @@ IfxPsi5_enableModule:
 	.string	"NBI23"
 	.byte	0x2
 	.uahalf	0x41f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7763,7 +7763,7 @@ IfxPsi5_enableModule:
 	.string	"NBI24"
 	.byte	0x2
 	.uahalf	0x420
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7772,7 +7772,7 @@ IfxPsi5_enableModule:
 	.string	"NBI25"
 	.byte	0x2
 	.uahalf	0x421
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7781,7 +7781,7 @@ IfxPsi5_enableModule:
 	.string	"NBI26"
 	.byte	0x2
 	.uahalf	0x422
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -7790,7 +7790,7 @@ IfxPsi5_enableModule:
 	.string	"NBI27"
 	.byte	0x2
 	.uahalf	0x423
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -7799,7 +7799,7 @@ IfxPsi5_enableModule:
 	.string	"NBI28"
 	.byte	0x2
 	.uahalf	0x424
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7808,7 +7808,7 @@ IfxPsi5_enableModule:
 	.string	"NBI29"
 	.byte	0x2
 	.uahalf	0x425
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7817,7 +7817,7 @@ IfxPsi5_enableModule:
 	.string	"NBI30"
 	.byte	0x2
 	.uahalf	0x426
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7826,7 +7826,7 @@ IfxPsi5_enableModule:
 	.string	"NBI31"
 	.byte	0x2
 	.uahalf	0x427
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7836,18 +7836,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_NBICLR_Bits"
 	.byte	0x2
 	.uahalf	0x428
-	.uaword	0x3da8
+	.uaword	0x3db0
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_NBIOV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x42b
-	.uaword	0x4270
+	.uaword	0x4278
 	.uleb128 0x7
 	.string	"NBI0"
 	.byte	0x2
 	.uahalf	0x42d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7856,7 +7856,7 @@ IfxPsi5_enableModule:
 	.string	"NBI1"
 	.byte	0x2
 	.uahalf	0x42e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7865,7 +7865,7 @@ IfxPsi5_enableModule:
 	.string	"NBI2"
 	.byte	0x2
 	.uahalf	0x42f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7874,7 +7874,7 @@ IfxPsi5_enableModule:
 	.string	"NBI3"
 	.byte	0x2
 	.uahalf	0x430
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7883,7 +7883,7 @@ IfxPsi5_enableModule:
 	.string	"NBI4"
 	.byte	0x2
 	.uahalf	0x431
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7892,7 +7892,7 @@ IfxPsi5_enableModule:
 	.string	"NBI5"
 	.byte	0x2
 	.uahalf	0x432
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7901,7 +7901,7 @@ IfxPsi5_enableModule:
 	.string	"NBI6"
 	.byte	0x2
 	.uahalf	0x433
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7910,7 +7910,7 @@ IfxPsi5_enableModule:
 	.string	"NBI7"
 	.byte	0x2
 	.uahalf	0x434
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7919,7 +7919,7 @@ IfxPsi5_enableModule:
 	.string	"NBI8"
 	.byte	0x2
 	.uahalf	0x435
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7928,7 +7928,7 @@ IfxPsi5_enableModule:
 	.string	"NBI9"
 	.byte	0x2
 	.uahalf	0x436
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7937,7 +7937,7 @@ IfxPsi5_enableModule:
 	.string	"NBI10"
 	.byte	0x2
 	.uahalf	0x437
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7946,7 +7946,7 @@ IfxPsi5_enableModule:
 	.string	"NBI11"
 	.byte	0x2
 	.uahalf	0x438
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7955,7 +7955,7 @@ IfxPsi5_enableModule:
 	.string	"NBI12"
 	.byte	0x2
 	.uahalf	0x439
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7964,7 +7964,7 @@ IfxPsi5_enableModule:
 	.string	"NBI13"
 	.byte	0x2
 	.uahalf	0x43a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7973,7 +7973,7 @@ IfxPsi5_enableModule:
 	.string	"NBI14"
 	.byte	0x2
 	.uahalf	0x43b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7982,7 +7982,7 @@ IfxPsi5_enableModule:
 	.string	"NBI15"
 	.byte	0x2
 	.uahalf	0x43c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7991,7 +7991,7 @@ IfxPsi5_enableModule:
 	.string	"NBI16"
 	.byte	0x2
 	.uahalf	0x43d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8000,7 +8000,7 @@ IfxPsi5_enableModule:
 	.string	"NBI17"
 	.byte	0x2
 	.uahalf	0x43e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8009,7 +8009,7 @@ IfxPsi5_enableModule:
 	.string	"NBI18"
 	.byte	0x2
 	.uahalf	0x43f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8018,7 +8018,7 @@ IfxPsi5_enableModule:
 	.string	"NBI19"
 	.byte	0x2
 	.uahalf	0x440
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8027,7 +8027,7 @@ IfxPsi5_enableModule:
 	.string	"NBI20"
 	.byte	0x2
 	.uahalf	0x441
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8036,7 +8036,7 @@ IfxPsi5_enableModule:
 	.string	"NBI21"
 	.byte	0x2
 	.uahalf	0x442
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -8045,7 +8045,7 @@ IfxPsi5_enableModule:
 	.string	"NBI22"
 	.byte	0x2
 	.uahalf	0x443
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -8054,7 +8054,7 @@ IfxPsi5_enableModule:
 	.string	"NBI23"
 	.byte	0x2
 	.uahalf	0x444
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8063,7 +8063,7 @@ IfxPsi5_enableModule:
 	.string	"NBI24"
 	.byte	0x2
 	.uahalf	0x445
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8072,7 +8072,7 @@ IfxPsi5_enableModule:
 	.string	"NBI25"
 	.byte	0x2
 	.uahalf	0x446
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -8081,7 +8081,7 @@ IfxPsi5_enableModule:
 	.string	"NBI26"
 	.byte	0x2
 	.uahalf	0x447
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -8090,7 +8090,7 @@ IfxPsi5_enableModule:
 	.string	"NBI27"
 	.byte	0x2
 	.uahalf	0x448
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8099,7 +8099,7 @@ IfxPsi5_enableModule:
 	.string	"NBI28"
 	.byte	0x2
 	.uahalf	0x449
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -8108,7 +8108,7 @@ IfxPsi5_enableModule:
 	.string	"NBI29"
 	.byte	0x2
 	.uahalf	0x44a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -8117,7 +8117,7 @@ IfxPsi5_enableModule:
 	.string	"NBI30"
 	.byte	0x2
 	.uahalf	0x44b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -8126,7 +8126,7 @@ IfxPsi5_enableModule:
 	.string	"NBI31"
 	.byte	0x2
 	.uahalf	0x44c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8136,18 +8136,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_NBIOV_Bits"
 	.byte	0x2
 	.uahalf	0x44d
-	.uaword	0x401b
+	.uaword	0x4023
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_NBISET_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x450
-	.uaword	0x44e2
+	.uaword	0x44ea
 	.uleb128 0x7
 	.string	"NBI0"
 	.byte	0x2
 	.uahalf	0x452
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8156,7 +8156,7 @@ IfxPsi5_enableModule:
 	.string	"NBI1"
 	.byte	0x2
 	.uahalf	0x453
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8165,7 +8165,7 @@ IfxPsi5_enableModule:
 	.string	"NBI2"
 	.byte	0x2
 	.uahalf	0x454
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8174,7 +8174,7 @@ IfxPsi5_enableModule:
 	.string	"NBI3"
 	.byte	0x2
 	.uahalf	0x455
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8183,7 +8183,7 @@ IfxPsi5_enableModule:
 	.string	"NBI4"
 	.byte	0x2
 	.uahalf	0x456
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8192,7 +8192,7 @@ IfxPsi5_enableModule:
 	.string	"NBI5"
 	.byte	0x2
 	.uahalf	0x457
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8201,7 +8201,7 @@ IfxPsi5_enableModule:
 	.string	"NBI6"
 	.byte	0x2
 	.uahalf	0x458
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8210,7 +8210,7 @@ IfxPsi5_enableModule:
 	.string	"NBI7"
 	.byte	0x2
 	.uahalf	0x459
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8219,7 +8219,7 @@ IfxPsi5_enableModule:
 	.string	"NBI8"
 	.byte	0x2
 	.uahalf	0x45a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8228,7 +8228,7 @@ IfxPsi5_enableModule:
 	.string	"NBI9"
 	.byte	0x2
 	.uahalf	0x45b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8237,7 +8237,7 @@ IfxPsi5_enableModule:
 	.string	"NBI10"
 	.byte	0x2
 	.uahalf	0x45c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8246,7 +8246,7 @@ IfxPsi5_enableModule:
 	.string	"NBI11"
 	.byte	0x2
 	.uahalf	0x45d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8255,7 +8255,7 @@ IfxPsi5_enableModule:
 	.string	"NBI12"
 	.byte	0x2
 	.uahalf	0x45e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8264,7 +8264,7 @@ IfxPsi5_enableModule:
 	.string	"NBI13"
 	.byte	0x2
 	.uahalf	0x45f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8273,7 +8273,7 @@ IfxPsi5_enableModule:
 	.string	"NBI14"
 	.byte	0x2
 	.uahalf	0x460
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -8282,7 +8282,7 @@ IfxPsi5_enableModule:
 	.string	"NBI15"
 	.byte	0x2
 	.uahalf	0x461
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8291,7 +8291,7 @@ IfxPsi5_enableModule:
 	.string	"NBI16"
 	.byte	0x2
 	.uahalf	0x462
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8300,7 +8300,7 @@ IfxPsi5_enableModule:
 	.string	"NBI17"
 	.byte	0x2
 	.uahalf	0x463
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8309,7 +8309,7 @@ IfxPsi5_enableModule:
 	.string	"NBI18"
 	.byte	0x2
 	.uahalf	0x464
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8318,7 +8318,7 @@ IfxPsi5_enableModule:
 	.string	"NBI19"
 	.byte	0x2
 	.uahalf	0x465
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8327,7 +8327,7 @@ IfxPsi5_enableModule:
 	.string	"NBI20"
 	.byte	0x2
 	.uahalf	0x466
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8336,7 +8336,7 @@ IfxPsi5_enableModule:
 	.string	"NBI21"
 	.byte	0x2
 	.uahalf	0x467
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -8345,7 +8345,7 @@ IfxPsi5_enableModule:
 	.string	"NBI22"
 	.byte	0x2
 	.uahalf	0x468
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -8354,7 +8354,7 @@ IfxPsi5_enableModule:
 	.string	"NBI23"
 	.byte	0x2
 	.uahalf	0x469
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8363,7 +8363,7 @@ IfxPsi5_enableModule:
 	.string	"NBI24"
 	.byte	0x2
 	.uahalf	0x46a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8372,7 +8372,7 @@ IfxPsi5_enableModule:
 	.string	"NBI25"
 	.byte	0x2
 	.uahalf	0x46b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -8381,7 +8381,7 @@ IfxPsi5_enableModule:
 	.string	"NBI26"
 	.byte	0x2
 	.uahalf	0x46c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -8390,7 +8390,7 @@ IfxPsi5_enableModule:
 	.string	"NBI27"
 	.byte	0x2
 	.uahalf	0x46d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8399,7 +8399,7 @@ IfxPsi5_enableModule:
 	.string	"NBI28"
 	.byte	0x2
 	.uahalf	0x46e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -8408,7 +8408,7 @@ IfxPsi5_enableModule:
 	.string	"NBI29"
 	.byte	0x2
 	.uahalf	0x46f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -8417,7 +8417,7 @@ IfxPsi5_enableModule:
 	.string	"NBI30"
 	.byte	0x2
 	.uahalf	0x470
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -8426,7 +8426,7 @@ IfxPsi5_enableModule:
 	.string	"NBI31"
 	.byte	0x2
 	.uahalf	0x471
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8436,18 +8436,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_NBISET_Bits"
 	.byte	0x2
 	.uahalf	0x472
-	.uaword	0x428c
+	.uaword	0x4294
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_NFICLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x475
-	.uaword	0x4755
+	.uaword	0x475d
 	.uleb128 0x7
 	.string	"NFI0"
 	.byte	0x2
 	.uahalf	0x477
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8456,7 +8456,7 @@ IfxPsi5_enableModule:
 	.string	"NFI1"
 	.byte	0x2
 	.uahalf	0x478
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8465,7 +8465,7 @@ IfxPsi5_enableModule:
 	.string	"NFI2"
 	.byte	0x2
 	.uahalf	0x479
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8474,7 +8474,7 @@ IfxPsi5_enableModule:
 	.string	"NFI3"
 	.byte	0x2
 	.uahalf	0x47a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8483,7 +8483,7 @@ IfxPsi5_enableModule:
 	.string	"NFI4"
 	.byte	0x2
 	.uahalf	0x47b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8492,7 +8492,7 @@ IfxPsi5_enableModule:
 	.string	"NFI5"
 	.byte	0x2
 	.uahalf	0x47c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8501,7 +8501,7 @@ IfxPsi5_enableModule:
 	.string	"NFI6"
 	.byte	0x2
 	.uahalf	0x47d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8510,7 +8510,7 @@ IfxPsi5_enableModule:
 	.string	"NFI7"
 	.byte	0x2
 	.uahalf	0x47e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8519,7 +8519,7 @@ IfxPsi5_enableModule:
 	.string	"NFI8"
 	.byte	0x2
 	.uahalf	0x47f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8528,7 +8528,7 @@ IfxPsi5_enableModule:
 	.string	"NFI9"
 	.byte	0x2
 	.uahalf	0x480
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8537,7 +8537,7 @@ IfxPsi5_enableModule:
 	.string	"NFI10"
 	.byte	0x2
 	.uahalf	0x481
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8546,7 +8546,7 @@ IfxPsi5_enableModule:
 	.string	"NFI11"
 	.byte	0x2
 	.uahalf	0x482
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8555,7 +8555,7 @@ IfxPsi5_enableModule:
 	.string	"NFI12"
 	.byte	0x2
 	.uahalf	0x483
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8564,7 +8564,7 @@ IfxPsi5_enableModule:
 	.string	"NFI13"
 	.byte	0x2
 	.uahalf	0x484
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8573,7 +8573,7 @@ IfxPsi5_enableModule:
 	.string	"NFI14"
 	.byte	0x2
 	.uahalf	0x485
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -8582,7 +8582,7 @@ IfxPsi5_enableModule:
 	.string	"NFI15"
 	.byte	0x2
 	.uahalf	0x486
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8591,7 +8591,7 @@ IfxPsi5_enableModule:
 	.string	"NFI16"
 	.byte	0x2
 	.uahalf	0x487
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8600,7 +8600,7 @@ IfxPsi5_enableModule:
 	.string	"NFI17"
 	.byte	0x2
 	.uahalf	0x488
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8609,7 +8609,7 @@ IfxPsi5_enableModule:
 	.string	"NFI18"
 	.byte	0x2
 	.uahalf	0x489
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8618,7 +8618,7 @@ IfxPsi5_enableModule:
 	.string	"NFI19"
 	.byte	0x2
 	.uahalf	0x48a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8627,7 +8627,7 @@ IfxPsi5_enableModule:
 	.string	"NFI20"
 	.byte	0x2
 	.uahalf	0x48b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8636,7 +8636,7 @@ IfxPsi5_enableModule:
 	.string	"NFI21"
 	.byte	0x2
 	.uahalf	0x48c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -8645,7 +8645,7 @@ IfxPsi5_enableModule:
 	.string	"NFI22"
 	.byte	0x2
 	.uahalf	0x48d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -8654,7 +8654,7 @@ IfxPsi5_enableModule:
 	.string	"NFI23"
 	.byte	0x2
 	.uahalf	0x48e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8663,7 +8663,7 @@ IfxPsi5_enableModule:
 	.string	"NFI24"
 	.byte	0x2
 	.uahalf	0x48f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8672,7 +8672,7 @@ IfxPsi5_enableModule:
 	.string	"NFI25"
 	.byte	0x2
 	.uahalf	0x490
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -8681,7 +8681,7 @@ IfxPsi5_enableModule:
 	.string	"NFI26"
 	.byte	0x2
 	.uahalf	0x491
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -8690,7 +8690,7 @@ IfxPsi5_enableModule:
 	.string	"NFI27"
 	.byte	0x2
 	.uahalf	0x492
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8699,7 +8699,7 @@ IfxPsi5_enableModule:
 	.string	"NFI28"
 	.byte	0x2
 	.uahalf	0x493
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -8708,7 +8708,7 @@ IfxPsi5_enableModule:
 	.string	"NFI29"
 	.byte	0x2
 	.uahalf	0x494
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -8717,7 +8717,7 @@ IfxPsi5_enableModule:
 	.string	"NFI30"
 	.byte	0x2
 	.uahalf	0x495
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -8726,7 +8726,7 @@ IfxPsi5_enableModule:
 	.string	"NFI31"
 	.byte	0x2
 	.uahalf	0x496
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8736,18 +8736,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_NFICLR_Bits"
 	.byte	0x2
 	.uahalf	0x497
-	.uaword	0x44ff
+	.uaword	0x4507
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_NFIOV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x49a
-	.uaword	0x49c7
+	.uaword	0x49cf
 	.uleb128 0x7
 	.string	"NFI0"
 	.byte	0x2
 	.uahalf	0x49c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8756,7 +8756,7 @@ IfxPsi5_enableModule:
 	.string	"NFI1"
 	.byte	0x2
 	.uahalf	0x49d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8765,7 +8765,7 @@ IfxPsi5_enableModule:
 	.string	"NFI2"
 	.byte	0x2
 	.uahalf	0x49e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8774,7 +8774,7 @@ IfxPsi5_enableModule:
 	.string	"NFI3"
 	.byte	0x2
 	.uahalf	0x49f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -8783,7 +8783,7 @@ IfxPsi5_enableModule:
 	.string	"NFI4"
 	.byte	0x2
 	.uahalf	0x4a0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8792,7 +8792,7 @@ IfxPsi5_enableModule:
 	.string	"NFI5"
 	.byte	0x2
 	.uahalf	0x4a1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -8801,7 +8801,7 @@ IfxPsi5_enableModule:
 	.string	"NFI6"
 	.byte	0x2
 	.uahalf	0x4a2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -8810,7 +8810,7 @@ IfxPsi5_enableModule:
 	.string	"NFI7"
 	.byte	0x2
 	.uahalf	0x4a3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -8819,7 +8819,7 @@ IfxPsi5_enableModule:
 	.string	"NFI8"
 	.byte	0x2
 	.uahalf	0x4a4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8828,7 +8828,7 @@ IfxPsi5_enableModule:
 	.string	"NFI9"
 	.byte	0x2
 	.uahalf	0x4a5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -8837,7 +8837,7 @@ IfxPsi5_enableModule:
 	.string	"NFI10"
 	.byte	0x2
 	.uahalf	0x4a6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -8846,7 +8846,7 @@ IfxPsi5_enableModule:
 	.string	"NFI11"
 	.byte	0x2
 	.uahalf	0x4a7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -8855,7 +8855,7 @@ IfxPsi5_enableModule:
 	.string	"NFI12"
 	.byte	0x2
 	.uahalf	0x4a8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8864,7 +8864,7 @@ IfxPsi5_enableModule:
 	.string	"NFI13"
 	.byte	0x2
 	.uahalf	0x4a9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8873,7 +8873,7 @@ IfxPsi5_enableModule:
 	.string	"NFI14"
 	.byte	0x2
 	.uahalf	0x4aa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -8882,7 +8882,7 @@ IfxPsi5_enableModule:
 	.string	"NFI15"
 	.byte	0x2
 	.uahalf	0x4ab
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8891,7 +8891,7 @@ IfxPsi5_enableModule:
 	.string	"NFI16"
 	.byte	0x2
 	.uahalf	0x4ac
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8900,7 +8900,7 @@ IfxPsi5_enableModule:
 	.string	"NFI17"
 	.byte	0x2
 	.uahalf	0x4ad
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8909,7 +8909,7 @@ IfxPsi5_enableModule:
 	.string	"NFI18"
 	.byte	0x2
 	.uahalf	0x4ae
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8918,7 +8918,7 @@ IfxPsi5_enableModule:
 	.string	"NFI19"
 	.byte	0x2
 	.uahalf	0x4af
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8927,7 +8927,7 @@ IfxPsi5_enableModule:
 	.string	"NFI20"
 	.byte	0x2
 	.uahalf	0x4b0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8936,7 +8936,7 @@ IfxPsi5_enableModule:
 	.string	"NFI21"
 	.byte	0x2
 	.uahalf	0x4b1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -8945,7 +8945,7 @@ IfxPsi5_enableModule:
 	.string	"NFI22"
 	.byte	0x2
 	.uahalf	0x4b2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -8954,7 +8954,7 @@ IfxPsi5_enableModule:
 	.string	"NFI23"
 	.byte	0x2
 	.uahalf	0x4b3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8963,7 +8963,7 @@ IfxPsi5_enableModule:
 	.string	"NFI24"
 	.byte	0x2
 	.uahalf	0x4b4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8972,7 +8972,7 @@ IfxPsi5_enableModule:
 	.string	"NFI25"
 	.byte	0x2
 	.uahalf	0x4b5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -8981,7 +8981,7 @@ IfxPsi5_enableModule:
 	.string	"NFI26"
 	.byte	0x2
 	.uahalf	0x4b6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -8990,7 +8990,7 @@ IfxPsi5_enableModule:
 	.string	"NFI27"
 	.byte	0x2
 	.uahalf	0x4b7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8999,7 +8999,7 @@ IfxPsi5_enableModule:
 	.string	"NFI28"
 	.byte	0x2
 	.uahalf	0x4b8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -9008,7 +9008,7 @@ IfxPsi5_enableModule:
 	.string	"NFI29"
 	.byte	0x2
 	.uahalf	0x4b9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -9017,7 +9017,7 @@ IfxPsi5_enableModule:
 	.string	"NFI30"
 	.byte	0x2
 	.uahalf	0x4ba
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -9026,7 +9026,7 @@ IfxPsi5_enableModule:
 	.string	"NFI31"
 	.byte	0x2
 	.uahalf	0x4bb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9036,18 +9036,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_NFIOV_Bits"
 	.byte	0x2
 	.uahalf	0x4bc
-	.uaword	0x4772
+	.uaword	0x477a
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_NFISET_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4bf
-	.uaword	0x4c39
+	.uaword	0x4c41
 	.uleb128 0x7
 	.string	"NFI0"
 	.byte	0x2
 	.uahalf	0x4c1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9056,7 +9056,7 @@ IfxPsi5_enableModule:
 	.string	"NFI1"
 	.byte	0x2
 	.uahalf	0x4c2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9065,7 +9065,7 @@ IfxPsi5_enableModule:
 	.string	"NFI2"
 	.byte	0x2
 	.uahalf	0x4c3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9074,7 +9074,7 @@ IfxPsi5_enableModule:
 	.string	"NFI3"
 	.byte	0x2
 	.uahalf	0x4c4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9083,7 +9083,7 @@ IfxPsi5_enableModule:
 	.string	"NFI4"
 	.byte	0x2
 	.uahalf	0x4c5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9092,7 +9092,7 @@ IfxPsi5_enableModule:
 	.string	"NFI5"
 	.byte	0x2
 	.uahalf	0x4c6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9101,7 +9101,7 @@ IfxPsi5_enableModule:
 	.string	"NFI6"
 	.byte	0x2
 	.uahalf	0x4c7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9110,7 +9110,7 @@ IfxPsi5_enableModule:
 	.string	"NFI7"
 	.byte	0x2
 	.uahalf	0x4c8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9119,7 +9119,7 @@ IfxPsi5_enableModule:
 	.string	"NFI8"
 	.byte	0x2
 	.uahalf	0x4c9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9128,7 +9128,7 @@ IfxPsi5_enableModule:
 	.string	"NFI9"
 	.byte	0x2
 	.uahalf	0x4ca
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9137,7 +9137,7 @@ IfxPsi5_enableModule:
 	.string	"NFI10"
 	.byte	0x2
 	.uahalf	0x4cb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9146,7 +9146,7 @@ IfxPsi5_enableModule:
 	.string	"NFI11"
 	.byte	0x2
 	.uahalf	0x4cc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9155,7 +9155,7 @@ IfxPsi5_enableModule:
 	.string	"NFI12"
 	.byte	0x2
 	.uahalf	0x4cd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9164,7 +9164,7 @@ IfxPsi5_enableModule:
 	.string	"NFI13"
 	.byte	0x2
 	.uahalf	0x4ce
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9173,7 +9173,7 @@ IfxPsi5_enableModule:
 	.string	"NFI14"
 	.byte	0x2
 	.uahalf	0x4cf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9182,7 +9182,7 @@ IfxPsi5_enableModule:
 	.string	"NFI15"
 	.byte	0x2
 	.uahalf	0x4d0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9191,7 +9191,7 @@ IfxPsi5_enableModule:
 	.string	"NFI16"
 	.byte	0x2
 	.uahalf	0x4d1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -9200,7 +9200,7 @@ IfxPsi5_enableModule:
 	.string	"NFI17"
 	.byte	0x2
 	.uahalf	0x4d2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -9209,7 +9209,7 @@ IfxPsi5_enableModule:
 	.string	"NFI18"
 	.byte	0x2
 	.uahalf	0x4d3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -9218,7 +9218,7 @@ IfxPsi5_enableModule:
 	.string	"NFI19"
 	.byte	0x2
 	.uahalf	0x4d4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -9227,7 +9227,7 @@ IfxPsi5_enableModule:
 	.string	"NFI20"
 	.byte	0x2
 	.uahalf	0x4d5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -9236,7 +9236,7 @@ IfxPsi5_enableModule:
 	.string	"NFI21"
 	.byte	0x2
 	.uahalf	0x4d6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -9245,7 +9245,7 @@ IfxPsi5_enableModule:
 	.string	"NFI22"
 	.byte	0x2
 	.uahalf	0x4d7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -9254,7 +9254,7 @@ IfxPsi5_enableModule:
 	.string	"NFI23"
 	.byte	0x2
 	.uahalf	0x4d8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -9263,7 +9263,7 @@ IfxPsi5_enableModule:
 	.string	"NFI24"
 	.byte	0x2
 	.uahalf	0x4d9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -9272,7 +9272,7 @@ IfxPsi5_enableModule:
 	.string	"NFI25"
 	.byte	0x2
 	.uahalf	0x4da
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -9281,7 +9281,7 @@ IfxPsi5_enableModule:
 	.string	"NFI26"
 	.byte	0x2
 	.uahalf	0x4db
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -9290,7 +9290,7 @@ IfxPsi5_enableModule:
 	.string	"NFI27"
 	.byte	0x2
 	.uahalf	0x4dc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -9299,7 +9299,7 @@ IfxPsi5_enableModule:
 	.string	"NFI28"
 	.byte	0x2
 	.uahalf	0x4dd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -9308,7 +9308,7 @@ IfxPsi5_enableModule:
 	.string	"NFI29"
 	.byte	0x2
 	.uahalf	0x4de
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -9317,7 +9317,7 @@ IfxPsi5_enableModule:
 	.string	"NFI30"
 	.byte	0x2
 	.uahalf	0x4df
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -9326,7 +9326,7 @@ IfxPsi5_enableModule:
 	.string	"NFI31"
 	.byte	0x2
 	.uahalf	0x4e0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9336,18 +9336,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_NFISET_Bits"
 	.byte	0x2
 	.uahalf	0x4e1
-	.uaword	0x49e3
+	.uaword	0x49eb
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_OCS_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4e4
-	.uaword	0x4cd0
+	.uaword	0x4cd8
 	.uleb128 0xa
 	.uaword	.LASF0
 	.byte	0x2
 	.uahalf	0x4e6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -9356,7 +9356,7 @@ IfxPsi5_enableModule:
 	.string	"SUS"
 	.byte	0x2
 	.uahalf	0x4e7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -9365,7 +9365,7 @@ IfxPsi5_enableModule:
 	.string	"SUS_P"
 	.byte	0x2
 	.uahalf	0x4e8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -9374,7 +9374,7 @@ IfxPsi5_enableModule:
 	.string	"SUSSTA"
 	.byte	0x2
 	.uahalf	0x4e9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -9383,7 +9383,7 @@ IfxPsi5_enableModule:
 	.string	"reserved_30"
 	.byte	0x2
 	.uahalf	0x4ea
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -9393,18 +9393,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_OCS_Bits"
 	.byte	0x2
 	.uahalf	0x4eb
-	.uaword	0x4c56
+	.uaword	0x4c5e
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RDF_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4ee
-	.uaword	0x4d16
+	.uaword	0x4d1e
 	.uleb128 0x7
 	.string	"RD"
 	.byte	0x2
 	.uahalf	0x4f0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -9414,18 +9414,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RDF_Bits"
 	.byte	0x2
 	.uahalf	0x4f1
-	.uaword	0x4cea
+	.uaword	0x4cf2
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RDICLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x4f4
-	.uaword	0x4f86
+	.uaword	0x4f8e
 	.uleb128 0x7
 	.string	"RDI0"
 	.byte	0x2
 	.uahalf	0x4f6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9434,7 +9434,7 @@ IfxPsi5_enableModule:
 	.string	"RDI1"
 	.byte	0x2
 	.uahalf	0x4f7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9443,7 +9443,7 @@ IfxPsi5_enableModule:
 	.string	"RDI2"
 	.byte	0x2
 	.uahalf	0x4f8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9452,7 +9452,7 @@ IfxPsi5_enableModule:
 	.string	"RDI3"
 	.byte	0x2
 	.uahalf	0x4f9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9461,7 +9461,7 @@ IfxPsi5_enableModule:
 	.string	"RDI4"
 	.byte	0x2
 	.uahalf	0x4fa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9470,7 +9470,7 @@ IfxPsi5_enableModule:
 	.string	"RDI5"
 	.byte	0x2
 	.uahalf	0x4fb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9479,7 +9479,7 @@ IfxPsi5_enableModule:
 	.string	"RDI6"
 	.byte	0x2
 	.uahalf	0x4fc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9488,7 +9488,7 @@ IfxPsi5_enableModule:
 	.string	"RDI7"
 	.byte	0x2
 	.uahalf	0x4fd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9497,7 +9497,7 @@ IfxPsi5_enableModule:
 	.string	"RDI8"
 	.byte	0x2
 	.uahalf	0x4fe
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9506,7 +9506,7 @@ IfxPsi5_enableModule:
 	.string	"RDI9"
 	.byte	0x2
 	.uahalf	0x4ff
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9515,7 +9515,7 @@ IfxPsi5_enableModule:
 	.string	"RDI10"
 	.byte	0x2
 	.uahalf	0x500
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9524,7 +9524,7 @@ IfxPsi5_enableModule:
 	.string	"RDI11"
 	.byte	0x2
 	.uahalf	0x501
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9533,7 +9533,7 @@ IfxPsi5_enableModule:
 	.string	"RDI12"
 	.byte	0x2
 	.uahalf	0x502
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9542,7 +9542,7 @@ IfxPsi5_enableModule:
 	.string	"RDI13"
 	.byte	0x2
 	.uahalf	0x503
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9551,7 +9551,7 @@ IfxPsi5_enableModule:
 	.string	"RDI14"
 	.byte	0x2
 	.uahalf	0x504
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9560,7 +9560,7 @@ IfxPsi5_enableModule:
 	.string	"RDI15"
 	.byte	0x2
 	.uahalf	0x505
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9569,7 +9569,7 @@ IfxPsi5_enableModule:
 	.string	"RDI16"
 	.byte	0x2
 	.uahalf	0x506
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -9578,7 +9578,7 @@ IfxPsi5_enableModule:
 	.string	"RDI17"
 	.byte	0x2
 	.uahalf	0x507
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -9587,7 +9587,7 @@ IfxPsi5_enableModule:
 	.string	"RDI18"
 	.byte	0x2
 	.uahalf	0x508
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -9596,7 +9596,7 @@ IfxPsi5_enableModule:
 	.string	"RDI19"
 	.byte	0x2
 	.uahalf	0x509
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -9605,7 +9605,7 @@ IfxPsi5_enableModule:
 	.string	"RDI20"
 	.byte	0x2
 	.uahalf	0x50a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -9614,7 +9614,7 @@ IfxPsi5_enableModule:
 	.string	"RDI21"
 	.byte	0x2
 	.uahalf	0x50b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -9623,7 +9623,7 @@ IfxPsi5_enableModule:
 	.string	"RDI22"
 	.byte	0x2
 	.uahalf	0x50c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -9632,7 +9632,7 @@ IfxPsi5_enableModule:
 	.string	"RDI23"
 	.byte	0x2
 	.uahalf	0x50d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -9641,7 +9641,7 @@ IfxPsi5_enableModule:
 	.string	"RDI24"
 	.byte	0x2
 	.uahalf	0x50e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -9650,7 +9650,7 @@ IfxPsi5_enableModule:
 	.string	"RDI25"
 	.byte	0x2
 	.uahalf	0x50f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -9659,7 +9659,7 @@ IfxPsi5_enableModule:
 	.string	"RDI26"
 	.byte	0x2
 	.uahalf	0x510
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -9668,7 +9668,7 @@ IfxPsi5_enableModule:
 	.string	"RDI27"
 	.byte	0x2
 	.uahalf	0x511
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -9677,7 +9677,7 @@ IfxPsi5_enableModule:
 	.string	"RDI28"
 	.byte	0x2
 	.uahalf	0x512
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -9686,7 +9686,7 @@ IfxPsi5_enableModule:
 	.string	"RDI29"
 	.byte	0x2
 	.uahalf	0x513
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -9695,7 +9695,7 @@ IfxPsi5_enableModule:
 	.string	"RDI30"
 	.byte	0x2
 	.uahalf	0x514
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -9704,7 +9704,7 @@ IfxPsi5_enableModule:
 	.string	"RDI31"
 	.byte	0x2
 	.uahalf	0x515
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -9714,18 +9714,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RDICLR_Bits"
 	.byte	0x2
 	.uahalf	0x516
-	.uaword	0x4d30
+	.uaword	0x4d38
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RDIOV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x519
-	.uaword	0x51f8
+	.uaword	0x5200
 	.uleb128 0x7
 	.string	"RDI0"
 	.byte	0x2
 	.uahalf	0x51b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9734,7 +9734,7 @@ IfxPsi5_enableModule:
 	.string	"RDI1"
 	.byte	0x2
 	.uahalf	0x51c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9743,7 +9743,7 @@ IfxPsi5_enableModule:
 	.string	"RDI2"
 	.byte	0x2
 	.uahalf	0x51d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9752,7 +9752,7 @@ IfxPsi5_enableModule:
 	.string	"RDI3"
 	.byte	0x2
 	.uahalf	0x51e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9761,7 +9761,7 @@ IfxPsi5_enableModule:
 	.string	"RDI4"
 	.byte	0x2
 	.uahalf	0x51f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9770,7 +9770,7 @@ IfxPsi5_enableModule:
 	.string	"RDI5"
 	.byte	0x2
 	.uahalf	0x520
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9779,7 +9779,7 @@ IfxPsi5_enableModule:
 	.string	"RDI6"
 	.byte	0x2
 	.uahalf	0x521
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9788,7 +9788,7 @@ IfxPsi5_enableModule:
 	.string	"RDI7"
 	.byte	0x2
 	.uahalf	0x522
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9797,7 +9797,7 @@ IfxPsi5_enableModule:
 	.string	"RDI8"
 	.byte	0x2
 	.uahalf	0x523
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9806,7 +9806,7 @@ IfxPsi5_enableModule:
 	.string	"RDI9"
 	.byte	0x2
 	.uahalf	0x524
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9815,7 +9815,7 @@ IfxPsi5_enableModule:
 	.string	"RDI10"
 	.byte	0x2
 	.uahalf	0x525
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9824,7 +9824,7 @@ IfxPsi5_enableModule:
 	.string	"RDI11"
 	.byte	0x2
 	.uahalf	0x526
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9833,7 +9833,7 @@ IfxPsi5_enableModule:
 	.string	"RDI12"
 	.byte	0x2
 	.uahalf	0x527
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9842,7 +9842,7 @@ IfxPsi5_enableModule:
 	.string	"RDI13"
 	.byte	0x2
 	.uahalf	0x528
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9851,7 +9851,7 @@ IfxPsi5_enableModule:
 	.string	"RDI14"
 	.byte	0x2
 	.uahalf	0x529
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9860,7 +9860,7 @@ IfxPsi5_enableModule:
 	.string	"RDI15"
 	.byte	0x2
 	.uahalf	0x52a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9869,7 +9869,7 @@ IfxPsi5_enableModule:
 	.string	"RDI16"
 	.byte	0x2
 	.uahalf	0x52b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -9878,7 +9878,7 @@ IfxPsi5_enableModule:
 	.string	"RDI17"
 	.byte	0x2
 	.uahalf	0x52c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -9887,7 +9887,7 @@ IfxPsi5_enableModule:
 	.string	"RDI18"
 	.byte	0x2
 	.uahalf	0x52d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -9896,7 +9896,7 @@ IfxPsi5_enableModule:
 	.string	"RDI19"
 	.byte	0x2
 	.uahalf	0x52e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -9905,7 +9905,7 @@ IfxPsi5_enableModule:
 	.string	"RDI20"
 	.byte	0x2
 	.uahalf	0x52f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -9914,7 +9914,7 @@ IfxPsi5_enableModule:
 	.string	"RDI21"
 	.byte	0x2
 	.uahalf	0x530
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -9923,7 +9923,7 @@ IfxPsi5_enableModule:
 	.string	"RDI22"
 	.byte	0x2
 	.uahalf	0x531
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -9932,7 +9932,7 @@ IfxPsi5_enableModule:
 	.string	"RDI23"
 	.byte	0x2
 	.uahalf	0x532
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -9941,7 +9941,7 @@ IfxPsi5_enableModule:
 	.string	"RDI24"
 	.byte	0x2
 	.uahalf	0x533
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -9950,7 +9950,7 @@ IfxPsi5_enableModule:
 	.string	"RDI25"
 	.byte	0x2
 	.uahalf	0x534
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -9959,7 +9959,7 @@ IfxPsi5_enableModule:
 	.string	"RDI26"
 	.byte	0x2
 	.uahalf	0x535
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -9968,7 +9968,7 @@ IfxPsi5_enableModule:
 	.string	"RDI27"
 	.byte	0x2
 	.uahalf	0x536
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -9977,7 +9977,7 @@ IfxPsi5_enableModule:
 	.string	"RDI28"
 	.byte	0x2
 	.uahalf	0x537
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -9986,7 +9986,7 @@ IfxPsi5_enableModule:
 	.string	"RDI29"
 	.byte	0x2
 	.uahalf	0x538
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -9995,7 +9995,7 @@ IfxPsi5_enableModule:
 	.string	"RDI30"
 	.byte	0x2
 	.uahalf	0x539
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -10004,7 +10004,7 @@ IfxPsi5_enableModule:
 	.string	"RDI31"
 	.byte	0x2
 	.uahalf	0x53a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -10014,18 +10014,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RDIOV_Bits"
 	.byte	0x2
 	.uahalf	0x53b
-	.uaword	0x4fa3
+	.uaword	0x4fab
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RDISET_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x53e
-	.uaword	0x546a
+	.uaword	0x5472
 	.uleb128 0x7
 	.string	"RDI0"
 	.byte	0x2
 	.uahalf	0x540
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10034,7 +10034,7 @@ IfxPsi5_enableModule:
 	.string	"RDI1"
 	.byte	0x2
 	.uahalf	0x541
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10043,7 +10043,7 @@ IfxPsi5_enableModule:
 	.string	"RDI2"
 	.byte	0x2
 	.uahalf	0x542
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10052,7 +10052,7 @@ IfxPsi5_enableModule:
 	.string	"RDI3"
 	.byte	0x2
 	.uahalf	0x543
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10061,7 +10061,7 @@ IfxPsi5_enableModule:
 	.string	"RDI4"
 	.byte	0x2
 	.uahalf	0x544
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10070,7 +10070,7 @@ IfxPsi5_enableModule:
 	.string	"RDI5"
 	.byte	0x2
 	.uahalf	0x545
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -10079,7 +10079,7 @@ IfxPsi5_enableModule:
 	.string	"RDI6"
 	.byte	0x2
 	.uahalf	0x546
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -10088,7 +10088,7 @@ IfxPsi5_enableModule:
 	.string	"RDI7"
 	.byte	0x2
 	.uahalf	0x547
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -10097,7 +10097,7 @@ IfxPsi5_enableModule:
 	.string	"RDI8"
 	.byte	0x2
 	.uahalf	0x548
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10106,7 +10106,7 @@ IfxPsi5_enableModule:
 	.string	"RDI9"
 	.byte	0x2
 	.uahalf	0x549
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10115,7 +10115,7 @@ IfxPsi5_enableModule:
 	.string	"RDI10"
 	.byte	0x2
 	.uahalf	0x54a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -10124,7 +10124,7 @@ IfxPsi5_enableModule:
 	.string	"RDI11"
 	.byte	0x2
 	.uahalf	0x54b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10133,7 +10133,7 @@ IfxPsi5_enableModule:
 	.string	"RDI12"
 	.byte	0x2
 	.uahalf	0x54c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -10142,7 +10142,7 @@ IfxPsi5_enableModule:
 	.string	"RDI13"
 	.byte	0x2
 	.uahalf	0x54d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -10151,7 +10151,7 @@ IfxPsi5_enableModule:
 	.string	"RDI14"
 	.byte	0x2
 	.uahalf	0x54e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -10160,7 +10160,7 @@ IfxPsi5_enableModule:
 	.string	"RDI15"
 	.byte	0x2
 	.uahalf	0x54f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -10169,7 +10169,7 @@ IfxPsi5_enableModule:
 	.string	"RDI16"
 	.byte	0x2
 	.uahalf	0x550
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10178,7 +10178,7 @@ IfxPsi5_enableModule:
 	.string	"RDI17"
 	.byte	0x2
 	.uahalf	0x551
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -10187,7 +10187,7 @@ IfxPsi5_enableModule:
 	.string	"RDI18"
 	.byte	0x2
 	.uahalf	0x552
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -10196,7 +10196,7 @@ IfxPsi5_enableModule:
 	.string	"RDI19"
 	.byte	0x2
 	.uahalf	0x553
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -10205,7 +10205,7 @@ IfxPsi5_enableModule:
 	.string	"RDI20"
 	.byte	0x2
 	.uahalf	0x554
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -10214,7 +10214,7 @@ IfxPsi5_enableModule:
 	.string	"RDI21"
 	.byte	0x2
 	.uahalf	0x555
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -10223,7 +10223,7 @@ IfxPsi5_enableModule:
 	.string	"RDI22"
 	.byte	0x2
 	.uahalf	0x556
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -10232,7 +10232,7 @@ IfxPsi5_enableModule:
 	.string	"RDI23"
 	.byte	0x2
 	.uahalf	0x557
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -10241,7 +10241,7 @@ IfxPsi5_enableModule:
 	.string	"RDI24"
 	.byte	0x2
 	.uahalf	0x558
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10250,7 +10250,7 @@ IfxPsi5_enableModule:
 	.string	"RDI25"
 	.byte	0x2
 	.uahalf	0x559
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -10259,7 +10259,7 @@ IfxPsi5_enableModule:
 	.string	"RDI26"
 	.byte	0x2
 	.uahalf	0x55a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -10268,7 +10268,7 @@ IfxPsi5_enableModule:
 	.string	"RDI27"
 	.byte	0x2
 	.uahalf	0x55b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -10277,7 +10277,7 @@ IfxPsi5_enableModule:
 	.string	"RDI28"
 	.byte	0x2
 	.uahalf	0x55c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -10286,7 +10286,7 @@ IfxPsi5_enableModule:
 	.string	"RDI29"
 	.byte	0x2
 	.uahalf	0x55d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -10295,7 +10295,7 @@ IfxPsi5_enableModule:
 	.string	"RDI30"
 	.byte	0x2
 	.uahalf	0x55e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -10304,7 +10304,7 @@ IfxPsi5_enableModule:
 	.string	"RDI31"
 	.byte	0x2
 	.uahalf	0x55f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -10314,18 +10314,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RDISET_Bits"
 	.byte	0x2
 	.uahalf	0x560
-	.uaword	0x5214
+	.uaword	0x521c
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RDM_H_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x563
-	.uaword	0x5514
+	.uaword	0x551c
 	.uleb128 0x7
 	.string	"TS"
 	.byte	0x2
 	.uahalf	0x565
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -10334,7 +10334,7 @@ IfxPsi5_enableModule:
 	.string	"SC"
 	.byte	0x2
 	.uahalf	0x566
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -10343,7 +10343,7 @@ IfxPsi5_enableModule:
 	.string	"TEI"
 	.byte	0x2
 	.uahalf	0x567
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -10352,7 +10352,7 @@ IfxPsi5_enableModule:
 	.string	"NBI"
 	.byte	0x2
 	.uahalf	0x568
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -10361,7 +10361,7 @@ IfxPsi5_enableModule:
 	.string	"MEI"
 	.byte	0x2
 	.uahalf	0x569
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -10370,7 +10370,7 @@ IfxPsi5_enableModule:
 	.string	"NFI"
 	.byte	0x2
 	.uahalf	0x56a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -10379,7 +10379,7 @@ IfxPsi5_enableModule:
 	.string	"RMI"
 	.byte	0x2
 	.uahalf	0x56b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -10389,18 +10389,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RDM_H_Bits"
 	.byte	0x2
 	.uahalf	0x56c
-	.uaword	0x5487
+	.uaword	0x548f
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RDM_L_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x56f
-	.uaword	0x557e
+	.uaword	0x5586
 	.uleb128 0xa
 	.uaword	.LASF7
 	.byte	0x2
 	.uahalf	0x571
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10409,7 +10409,7 @@ IfxPsi5_enableModule:
 	.string	"CRC"
 	.byte	0x2
 	.uahalf	0x572
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -10418,7 +10418,7 @@ IfxPsi5_enableModule:
 	.string	"RD"
 	.byte	0x2
 	.uahalf	0x573
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -10428,18 +10428,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RDM_L_Bits"
 	.byte	0x2
 	.uahalf	0x574
-	.uaword	0x5530
+	.uaword	0x5538
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RFC_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x577
-	.uaword	0x5648
+	.uaword	0x5650
 	.uleb128 0x7
 	.string	"REP"
 	.byte	0x2
 	.uahalf	0x579
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -10448,7 +10448,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF4
 	.byte	0x2
 	.uahalf	0x57a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -10457,7 +10457,7 @@ IfxPsi5_enableModule:
 	.string	"WRP"
 	.byte	0x2
 	.uahalf	0x57b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -10466,7 +10466,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF5
 	.byte	0x2
 	.uahalf	0x57c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -10475,7 +10475,7 @@ IfxPsi5_enableModule:
 	.string	"FWL"
 	.byte	0x2
 	.uahalf	0x57d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -10484,7 +10484,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF30
 	.byte	0x2
 	.uahalf	0x57e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x8
 	.byte	0x3
@@ -10493,7 +10493,7 @@ IfxPsi5_enableModule:
 	.string	"WRAP"
 	.byte	0x2
 	.uahalf	0x57f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -10502,7 +10502,7 @@ IfxPsi5_enableModule:
 	.string	"FRQ"
 	.byte	0x2
 	.uahalf	0x580
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -10511,7 +10511,7 @@ IfxPsi5_enableModule:
 	.string	"FLU"
 	.byte	0x2
 	.uahalf	0x581
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -10521,18 +10521,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RFC_Bits"
 	.byte	0x2
 	.uahalf	0x582
-	.uaword	0x559a
+	.uaword	0x55a2
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RMICLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x585
-	.uaword	0x58b8
+	.uaword	0x58c0
 	.uleb128 0x7
 	.string	"RMI0"
 	.byte	0x2
 	.uahalf	0x587
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10541,7 +10541,7 @@ IfxPsi5_enableModule:
 	.string	"RMI1"
 	.byte	0x2
 	.uahalf	0x588
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10550,7 +10550,7 @@ IfxPsi5_enableModule:
 	.string	"RMI2"
 	.byte	0x2
 	.uahalf	0x589
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10559,7 +10559,7 @@ IfxPsi5_enableModule:
 	.string	"RMI3"
 	.byte	0x2
 	.uahalf	0x58a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10568,7 +10568,7 @@ IfxPsi5_enableModule:
 	.string	"RMI4"
 	.byte	0x2
 	.uahalf	0x58b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10577,7 +10577,7 @@ IfxPsi5_enableModule:
 	.string	"RMI5"
 	.byte	0x2
 	.uahalf	0x58c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -10586,7 +10586,7 @@ IfxPsi5_enableModule:
 	.string	"RMI6"
 	.byte	0x2
 	.uahalf	0x58d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -10595,7 +10595,7 @@ IfxPsi5_enableModule:
 	.string	"RMI7"
 	.byte	0x2
 	.uahalf	0x58e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -10604,7 +10604,7 @@ IfxPsi5_enableModule:
 	.string	"RMI8"
 	.byte	0x2
 	.uahalf	0x58f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10613,7 +10613,7 @@ IfxPsi5_enableModule:
 	.string	"RMI9"
 	.byte	0x2
 	.uahalf	0x590
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10622,7 +10622,7 @@ IfxPsi5_enableModule:
 	.string	"RMI10"
 	.byte	0x2
 	.uahalf	0x591
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -10631,7 +10631,7 @@ IfxPsi5_enableModule:
 	.string	"RMI11"
 	.byte	0x2
 	.uahalf	0x592
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10640,7 +10640,7 @@ IfxPsi5_enableModule:
 	.string	"RMI12"
 	.byte	0x2
 	.uahalf	0x593
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -10649,7 +10649,7 @@ IfxPsi5_enableModule:
 	.string	"RMI13"
 	.byte	0x2
 	.uahalf	0x594
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -10658,7 +10658,7 @@ IfxPsi5_enableModule:
 	.string	"RMI14"
 	.byte	0x2
 	.uahalf	0x595
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -10667,7 +10667,7 @@ IfxPsi5_enableModule:
 	.string	"RMI15"
 	.byte	0x2
 	.uahalf	0x596
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -10676,7 +10676,7 @@ IfxPsi5_enableModule:
 	.string	"RMI16"
 	.byte	0x2
 	.uahalf	0x597
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10685,7 +10685,7 @@ IfxPsi5_enableModule:
 	.string	"RMI17"
 	.byte	0x2
 	.uahalf	0x598
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -10694,7 +10694,7 @@ IfxPsi5_enableModule:
 	.string	"RMI18"
 	.byte	0x2
 	.uahalf	0x599
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -10703,7 +10703,7 @@ IfxPsi5_enableModule:
 	.string	"RMI19"
 	.byte	0x2
 	.uahalf	0x59a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -10712,7 +10712,7 @@ IfxPsi5_enableModule:
 	.string	"RMI20"
 	.byte	0x2
 	.uahalf	0x59b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -10721,7 +10721,7 @@ IfxPsi5_enableModule:
 	.string	"RMI21"
 	.byte	0x2
 	.uahalf	0x59c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -10730,7 +10730,7 @@ IfxPsi5_enableModule:
 	.string	"RMI22"
 	.byte	0x2
 	.uahalf	0x59d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -10739,7 +10739,7 @@ IfxPsi5_enableModule:
 	.string	"RMI23"
 	.byte	0x2
 	.uahalf	0x59e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -10748,7 +10748,7 @@ IfxPsi5_enableModule:
 	.string	"RMI24"
 	.byte	0x2
 	.uahalf	0x59f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10757,7 +10757,7 @@ IfxPsi5_enableModule:
 	.string	"RMI25"
 	.byte	0x2
 	.uahalf	0x5a0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -10766,7 +10766,7 @@ IfxPsi5_enableModule:
 	.string	"RMI26"
 	.byte	0x2
 	.uahalf	0x5a1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -10775,7 +10775,7 @@ IfxPsi5_enableModule:
 	.string	"RMI27"
 	.byte	0x2
 	.uahalf	0x5a2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -10784,7 +10784,7 @@ IfxPsi5_enableModule:
 	.string	"RMI28"
 	.byte	0x2
 	.uahalf	0x5a3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -10793,7 +10793,7 @@ IfxPsi5_enableModule:
 	.string	"RMI29"
 	.byte	0x2
 	.uahalf	0x5a4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -10802,7 +10802,7 @@ IfxPsi5_enableModule:
 	.string	"RMI30"
 	.byte	0x2
 	.uahalf	0x5a5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -10811,7 +10811,7 @@ IfxPsi5_enableModule:
 	.string	"RMI31"
 	.byte	0x2
 	.uahalf	0x5a6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -10821,18 +10821,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RMICLR_Bits"
 	.byte	0x2
 	.uahalf	0x5a7
-	.uaword	0x5662
+	.uaword	0x566a
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RMIOV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5aa
-	.uaword	0x5b2a
+	.uaword	0x5b32
 	.uleb128 0x7
 	.string	"RMI0"
 	.byte	0x2
 	.uahalf	0x5ac
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10841,7 +10841,7 @@ IfxPsi5_enableModule:
 	.string	"RMI1"
 	.byte	0x2
 	.uahalf	0x5ad
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10850,7 +10850,7 @@ IfxPsi5_enableModule:
 	.string	"RMI2"
 	.byte	0x2
 	.uahalf	0x5ae
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10859,7 +10859,7 @@ IfxPsi5_enableModule:
 	.string	"RMI3"
 	.byte	0x2
 	.uahalf	0x5af
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10868,7 +10868,7 @@ IfxPsi5_enableModule:
 	.string	"RMI4"
 	.byte	0x2
 	.uahalf	0x5b0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10877,7 +10877,7 @@ IfxPsi5_enableModule:
 	.string	"RMI5"
 	.byte	0x2
 	.uahalf	0x5b1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -10886,7 +10886,7 @@ IfxPsi5_enableModule:
 	.string	"RMI6"
 	.byte	0x2
 	.uahalf	0x5b2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -10895,7 +10895,7 @@ IfxPsi5_enableModule:
 	.string	"RMI7"
 	.byte	0x2
 	.uahalf	0x5b3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -10904,7 +10904,7 @@ IfxPsi5_enableModule:
 	.string	"RMI8"
 	.byte	0x2
 	.uahalf	0x5b4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10913,7 +10913,7 @@ IfxPsi5_enableModule:
 	.string	"RMI9"
 	.byte	0x2
 	.uahalf	0x5b5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10922,7 +10922,7 @@ IfxPsi5_enableModule:
 	.string	"RMI10"
 	.byte	0x2
 	.uahalf	0x5b6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -10931,7 +10931,7 @@ IfxPsi5_enableModule:
 	.string	"RMI11"
 	.byte	0x2
 	.uahalf	0x5b7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10940,7 +10940,7 @@ IfxPsi5_enableModule:
 	.string	"RMI12"
 	.byte	0x2
 	.uahalf	0x5b8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -10949,7 +10949,7 @@ IfxPsi5_enableModule:
 	.string	"RMI13"
 	.byte	0x2
 	.uahalf	0x5b9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -10958,7 +10958,7 @@ IfxPsi5_enableModule:
 	.string	"RMI14"
 	.byte	0x2
 	.uahalf	0x5ba
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -10967,7 +10967,7 @@ IfxPsi5_enableModule:
 	.string	"RMI15"
 	.byte	0x2
 	.uahalf	0x5bb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -10976,7 +10976,7 @@ IfxPsi5_enableModule:
 	.string	"RMI16"
 	.byte	0x2
 	.uahalf	0x5bc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10985,7 +10985,7 @@ IfxPsi5_enableModule:
 	.string	"RMI17"
 	.byte	0x2
 	.uahalf	0x5bd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -10994,7 +10994,7 @@ IfxPsi5_enableModule:
 	.string	"RMI18"
 	.byte	0x2
 	.uahalf	0x5be
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11003,7 +11003,7 @@ IfxPsi5_enableModule:
 	.string	"RMI19"
 	.byte	0x2
 	.uahalf	0x5bf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11012,7 +11012,7 @@ IfxPsi5_enableModule:
 	.string	"RMI20"
 	.byte	0x2
 	.uahalf	0x5c0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11021,7 +11021,7 @@ IfxPsi5_enableModule:
 	.string	"RMI21"
 	.byte	0x2
 	.uahalf	0x5c1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -11030,7 +11030,7 @@ IfxPsi5_enableModule:
 	.string	"RMI22"
 	.byte	0x2
 	.uahalf	0x5c2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -11039,7 +11039,7 @@ IfxPsi5_enableModule:
 	.string	"RMI23"
 	.byte	0x2
 	.uahalf	0x5c3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -11048,7 +11048,7 @@ IfxPsi5_enableModule:
 	.string	"RMI24"
 	.byte	0x2
 	.uahalf	0x5c4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -11057,7 +11057,7 @@ IfxPsi5_enableModule:
 	.string	"RMI25"
 	.byte	0x2
 	.uahalf	0x5c5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -11066,7 +11066,7 @@ IfxPsi5_enableModule:
 	.string	"RMI26"
 	.byte	0x2
 	.uahalf	0x5c6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -11075,7 +11075,7 @@ IfxPsi5_enableModule:
 	.string	"RMI27"
 	.byte	0x2
 	.uahalf	0x5c7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -11084,7 +11084,7 @@ IfxPsi5_enableModule:
 	.string	"RMI28"
 	.byte	0x2
 	.uahalf	0x5c8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -11093,7 +11093,7 @@ IfxPsi5_enableModule:
 	.string	"RMI29"
 	.byte	0x2
 	.uahalf	0x5c9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -11102,7 +11102,7 @@ IfxPsi5_enableModule:
 	.string	"RMI30"
 	.byte	0x2
 	.uahalf	0x5ca
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -11111,7 +11111,7 @@ IfxPsi5_enableModule:
 	.string	"RMI31"
 	.byte	0x2
 	.uahalf	0x5cb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11121,18 +11121,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RMIOV_Bits"
 	.byte	0x2
 	.uahalf	0x5cc
-	.uaword	0x58d5
+	.uaword	0x58dd
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RMISET_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5cf
-	.uaword	0x5d9c
+	.uaword	0x5da4
 	.uleb128 0x7
 	.string	"RMI0"
 	.byte	0x2
 	.uahalf	0x5d1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11141,7 +11141,7 @@ IfxPsi5_enableModule:
 	.string	"RMI1"
 	.byte	0x2
 	.uahalf	0x5d2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11150,7 +11150,7 @@ IfxPsi5_enableModule:
 	.string	"RMI2"
 	.byte	0x2
 	.uahalf	0x5d3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11159,7 +11159,7 @@ IfxPsi5_enableModule:
 	.string	"RMI3"
 	.byte	0x2
 	.uahalf	0x5d4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11168,7 +11168,7 @@ IfxPsi5_enableModule:
 	.string	"RMI4"
 	.byte	0x2
 	.uahalf	0x5d5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11177,7 +11177,7 @@ IfxPsi5_enableModule:
 	.string	"RMI5"
 	.byte	0x2
 	.uahalf	0x5d6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11186,7 +11186,7 @@ IfxPsi5_enableModule:
 	.string	"RMI6"
 	.byte	0x2
 	.uahalf	0x5d7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11195,7 +11195,7 @@ IfxPsi5_enableModule:
 	.string	"RMI7"
 	.byte	0x2
 	.uahalf	0x5d8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11204,7 +11204,7 @@ IfxPsi5_enableModule:
 	.string	"RMI8"
 	.byte	0x2
 	.uahalf	0x5d9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11213,7 +11213,7 @@ IfxPsi5_enableModule:
 	.string	"RMI9"
 	.byte	0x2
 	.uahalf	0x5da
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11222,7 +11222,7 @@ IfxPsi5_enableModule:
 	.string	"RMI10"
 	.byte	0x2
 	.uahalf	0x5db
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11231,7 +11231,7 @@ IfxPsi5_enableModule:
 	.string	"RMI11"
 	.byte	0x2
 	.uahalf	0x5dc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11240,7 +11240,7 @@ IfxPsi5_enableModule:
 	.string	"RMI12"
 	.byte	0x2
 	.uahalf	0x5dd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11249,7 +11249,7 @@ IfxPsi5_enableModule:
 	.string	"RMI13"
 	.byte	0x2
 	.uahalf	0x5de
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11258,7 +11258,7 @@ IfxPsi5_enableModule:
 	.string	"RMI14"
 	.byte	0x2
 	.uahalf	0x5df
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11267,7 +11267,7 @@ IfxPsi5_enableModule:
 	.string	"RMI15"
 	.byte	0x2
 	.uahalf	0x5e0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11276,7 +11276,7 @@ IfxPsi5_enableModule:
 	.string	"RMI16"
 	.byte	0x2
 	.uahalf	0x5e1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11285,7 +11285,7 @@ IfxPsi5_enableModule:
 	.string	"RMI17"
 	.byte	0x2
 	.uahalf	0x5e2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11294,7 +11294,7 @@ IfxPsi5_enableModule:
 	.string	"RMI18"
 	.byte	0x2
 	.uahalf	0x5e3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11303,7 +11303,7 @@ IfxPsi5_enableModule:
 	.string	"RMI19"
 	.byte	0x2
 	.uahalf	0x5e4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11312,7 +11312,7 @@ IfxPsi5_enableModule:
 	.string	"RMI20"
 	.byte	0x2
 	.uahalf	0x5e5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11321,7 +11321,7 @@ IfxPsi5_enableModule:
 	.string	"RMI21"
 	.byte	0x2
 	.uahalf	0x5e6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -11330,7 +11330,7 @@ IfxPsi5_enableModule:
 	.string	"RMI22"
 	.byte	0x2
 	.uahalf	0x5e7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -11339,7 +11339,7 @@ IfxPsi5_enableModule:
 	.string	"RMI23"
 	.byte	0x2
 	.uahalf	0x5e8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -11348,7 +11348,7 @@ IfxPsi5_enableModule:
 	.string	"RMI24"
 	.byte	0x2
 	.uahalf	0x5e9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -11357,7 +11357,7 @@ IfxPsi5_enableModule:
 	.string	"RMI25"
 	.byte	0x2
 	.uahalf	0x5ea
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -11366,7 +11366,7 @@ IfxPsi5_enableModule:
 	.string	"RMI26"
 	.byte	0x2
 	.uahalf	0x5eb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -11375,7 +11375,7 @@ IfxPsi5_enableModule:
 	.string	"RMI27"
 	.byte	0x2
 	.uahalf	0x5ec
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -11384,7 +11384,7 @@ IfxPsi5_enableModule:
 	.string	"RMI28"
 	.byte	0x2
 	.uahalf	0x5ed
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -11393,7 +11393,7 @@ IfxPsi5_enableModule:
 	.string	"RMI29"
 	.byte	0x2
 	.uahalf	0x5ee
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -11402,7 +11402,7 @@ IfxPsi5_enableModule:
 	.string	"RMI30"
 	.byte	0x2
 	.uahalf	0x5ef
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -11411,7 +11411,7 @@ IfxPsi5_enableModule:
 	.string	"RMI31"
 	.byte	0x2
 	.uahalf	0x5f0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11421,18 +11421,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RMISET_Bits"
 	.byte	0x2
 	.uahalf	0x5f1
-	.uaword	0x5b46
+	.uaword	0x5b4e
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RSICLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x5f4
-	.uaword	0x600f
+	.uaword	0x6017
 	.uleb128 0x7
 	.string	"RSI0"
 	.byte	0x2
 	.uahalf	0x5f6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11441,7 +11441,7 @@ IfxPsi5_enableModule:
 	.string	"RSI1"
 	.byte	0x2
 	.uahalf	0x5f7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11450,7 +11450,7 @@ IfxPsi5_enableModule:
 	.string	"RSI2"
 	.byte	0x2
 	.uahalf	0x5f8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11459,7 +11459,7 @@ IfxPsi5_enableModule:
 	.string	"RSI3"
 	.byte	0x2
 	.uahalf	0x5f9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11468,7 +11468,7 @@ IfxPsi5_enableModule:
 	.string	"RSI4"
 	.byte	0x2
 	.uahalf	0x5fa
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11477,7 +11477,7 @@ IfxPsi5_enableModule:
 	.string	"RSI5"
 	.byte	0x2
 	.uahalf	0x5fb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11486,7 +11486,7 @@ IfxPsi5_enableModule:
 	.string	"RSI6"
 	.byte	0x2
 	.uahalf	0x5fc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11495,7 +11495,7 @@ IfxPsi5_enableModule:
 	.string	"RSI7"
 	.byte	0x2
 	.uahalf	0x5fd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11504,7 +11504,7 @@ IfxPsi5_enableModule:
 	.string	"RSI8"
 	.byte	0x2
 	.uahalf	0x5fe
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11513,7 +11513,7 @@ IfxPsi5_enableModule:
 	.string	"RSI9"
 	.byte	0x2
 	.uahalf	0x5ff
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11522,7 +11522,7 @@ IfxPsi5_enableModule:
 	.string	"RSI10"
 	.byte	0x2
 	.uahalf	0x600
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11531,7 +11531,7 @@ IfxPsi5_enableModule:
 	.string	"RSI11"
 	.byte	0x2
 	.uahalf	0x601
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11540,7 +11540,7 @@ IfxPsi5_enableModule:
 	.string	"RSI12"
 	.byte	0x2
 	.uahalf	0x602
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11549,7 +11549,7 @@ IfxPsi5_enableModule:
 	.string	"RSI13"
 	.byte	0x2
 	.uahalf	0x603
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11558,7 +11558,7 @@ IfxPsi5_enableModule:
 	.string	"RSI14"
 	.byte	0x2
 	.uahalf	0x604
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11567,7 +11567,7 @@ IfxPsi5_enableModule:
 	.string	"RSI15"
 	.byte	0x2
 	.uahalf	0x605
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11576,7 +11576,7 @@ IfxPsi5_enableModule:
 	.string	"RSI16"
 	.byte	0x2
 	.uahalf	0x606
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11585,7 +11585,7 @@ IfxPsi5_enableModule:
 	.string	"RSI17"
 	.byte	0x2
 	.uahalf	0x607
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11594,7 +11594,7 @@ IfxPsi5_enableModule:
 	.string	"RSI18"
 	.byte	0x2
 	.uahalf	0x608
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11603,7 +11603,7 @@ IfxPsi5_enableModule:
 	.string	"RSI19"
 	.byte	0x2
 	.uahalf	0x609
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11612,7 +11612,7 @@ IfxPsi5_enableModule:
 	.string	"RSI20"
 	.byte	0x2
 	.uahalf	0x60a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11621,7 +11621,7 @@ IfxPsi5_enableModule:
 	.string	"RSI21"
 	.byte	0x2
 	.uahalf	0x60b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -11630,7 +11630,7 @@ IfxPsi5_enableModule:
 	.string	"RSI22"
 	.byte	0x2
 	.uahalf	0x60c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -11639,7 +11639,7 @@ IfxPsi5_enableModule:
 	.string	"RSI23"
 	.byte	0x2
 	.uahalf	0x60d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -11648,7 +11648,7 @@ IfxPsi5_enableModule:
 	.string	"RSI24"
 	.byte	0x2
 	.uahalf	0x60e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -11657,7 +11657,7 @@ IfxPsi5_enableModule:
 	.string	"RSI25"
 	.byte	0x2
 	.uahalf	0x60f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -11666,7 +11666,7 @@ IfxPsi5_enableModule:
 	.string	"RSI26"
 	.byte	0x2
 	.uahalf	0x610
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -11675,7 +11675,7 @@ IfxPsi5_enableModule:
 	.string	"RSI27"
 	.byte	0x2
 	.uahalf	0x611
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -11684,7 +11684,7 @@ IfxPsi5_enableModule:
 	.string	"RSI28"
 	.byte	0x2
 	.uahalf	0x612
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -11693,7 +11693,7 @@ IfxPsi5_enableModule:
 	.string	"RSI29"
 	.byte	0x2
 	.uahalf	0x613
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -11702,7 +11702,7 @@ IfxPsi5_enableModule:
 	.string	"RSI30"
 	.byte	0x2
 	.uahalf	0x614
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -11711,7 +11711,7 @@ IfxPsi5_enableModule:
 	.string	"RSI31"
 	.byte	0x2
 	.uahalf	0x615
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11721,18 +11721,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RSICLR_Bits"
 	.byte	0x2
 	.uahalf	0x616
-	.uaword	0x5db9
+	.uaword	0x5dc1
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RSIOV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x619
-	.uaword	0x6281
+	.uaword	0x6289
 	.uleb128 0x7
 	.string	"RSI0"
 	.byte	0x2
 	.uahalf	0x61b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11741,7 +11741,7 @@ IfxPsi5_enableModule:
 	.string	"RSI1"
 	.byte	0x2
 	.uahalf	0x61c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11750,7 +11750,7 @@ IfxPsi5_enableModule:
 	.string	"RSI2"
 	.byte	0x2
 	.uahalf	0x61d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11759,7 +11759,7 @@ IfxPsi5_enableModule:
 	.string	"RSI3"
 	.byte	0x2
 	.uahalf	0x61e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11768,7 +11768,7 @@ IfxPsi5_enableModule:
 	.string	"RSI4"
 	.byte	0x2
 	.uahalf	0x61f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11777,7 +11777,7 @@ IfxPsi5_enableModule:
 	.string	"RSI5"
 	.byte	0x2
 	.uahalf	0x620
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11786,7 +11786,7 @@ IfxPsi5_enableModule:
 	.string	"RSI6"
 	.byte	0x2
 	.uahalf	0x621
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11795,7 +11795,7 @@ IfxPsi5_enableModule:
 	.string	"RSI7"
 	.byte	0x2
 	.uahalf	0x622
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11804,7 +11804,7 @@ IfxPsi5_enableModule:
 	.string	"RSI8"
 	.byte	0x2
 	.uahalf	0x623
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11813,7 +11813,7 @@ IfxPsi5_enableModule:
 	.string	"RSI9"
 	.byte	0x2
 	.uahalf	0x624
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11822,7 +11822,7 @@ IfxPsi5_enableModule:
 	.string	"RSI10"
 	.byte	0x2
 	.uahalf	0x625
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11831,7 +11831,7 @@ IfxPsi5_enableModule:
 	.string	"RSI11"
 	.byte	0x2
 	.uahalf	0x626
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11840,7 +11840,7 @@ IfxPsi5_enableModule:
 	.string	"RSI12"
 	.byte	0x2
 	.uahalf	0x627
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11849,7 +11849,7 @@ IfxPsi5_enableModule:
 	.string	"RSI13"
 	.byte	0x2
 	.uahalf	0x628
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11858,7 +11858,7 @@ IfxPsi5_enableModule:
 	.string	"RSI14"
 	.byte	0x2
 	.uahalf	0x629
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11867,7 +11867,7 @@ IfxPsi5_enableModule:
 	.string	"RSI15"
 	.byte	0x2
 	.uahalf	0x62a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11876,7 +11876,7 @@ IfxPsi5_enableModule:
 	.string	"RSI16"
 	.byte	0x2
 	.uahalf	0x62b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11885,7 +11885,7 @@ IfxPsi5_enableModule:
 	.string	"RSI17"
 	.byte	0x2
 	.uahalf	0x62c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11894,7 +11894,7 @@ IfxPsi5_enableModule:
 	.string	"RSI18"
 	.byte	0x2
 	.uahalf	0x62d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11903,7 +11903,7 @@ IfxPsi5_enableModule:
 	.string	"RSI19"
 	.byte	0x2
 	.uahalf	0x62e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11912,7 +11912,7 @@ IfxPsi5_enableModule:
 	.string	"RSI20"
 	.byte	0x2
 	.uahalf	0x62f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11921,7 +11921,7 @@ IfxPsi5_enableModule:
 	.string	"RSI21"
 	.byte	0x2
 	.uahalf	0x630
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -11930,7 +11930,7 @@ IfxPsi5_enableModule:
 	.string	"RSI22"
 	.byte	0x2
 	.uahalf	0x631
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -11939,7 +11939,7 @@ IfxPsi5_enableModule:
 	.string	"RSI23"
 	.byte	0x2
 	.uahalf	0x632
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -11948,7 +11948,7 @@ IfxPsi5_enableModule:
 	.string	"RSI24"
 	.byte	0x2
 	.uahalf	0x633
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -11957,7 +11957,7 @@ IfxPsi5_enableModule:
 	.string	"RSI25"
 	.byte	0x2
 	.uahalf	0x634
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -11966,7 +11966,7 @@ IfxPsi5_enableModule:
 	.string	"RSI26"
 	.byte	0x2
 	.uahalf	0x635
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -11975,7 +11975,7 @@ IfxPsi5_enableModule:
 	.string	"RSI27"
 	.byte	0x2
 	.uahalf	0x636
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -11984,7 +11984,7 @@ IfxPsi5_enableModule:
 	.string	"RSI28"
 	.byte	0x2
 	.uahalf	0x637
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -11993,7 +11993,7 @@ IfxPsi5_enableModule:
 	.string	"RSI29"
 	.byte	0x2
 	.uahalf	0x638
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -12002,7 +12002,7 @@ IfxPsi5_enableModule:
 	.string	"RSI30"
 	.byte	0x2
 	.uahalf	0x639
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -12011,7 +12011,7 @@ IfxPsi5_enableModule:
 	.string	"RSI31"
 	.byte	0x2
 	.uahalf	0x63a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -12021,18 +12021,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RSIOV_Bits"
 	.byte	0x2
 	.uahalf	0x63b
-	.uaword	0x602c
+	.uaword	0x6034
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RSISET_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x63e
-	.uaword	0x64f3
+	.uaword	0x64fb
 	.uleb128 0x7
 	.string	"RSI0"
 	.byte	0x2
 	.uahalf	0x640
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12041,7 +12041,7 @@ IfxPsi5_enableModule:
 	.string	"RSI1"
 	.byte	0x2
 	.uahalf	0x641
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12050,7 +12050,7 @@ IfxPsi5_enableModule:
 	.string	"RSI2"
 	.byte	0x2
 	.uahalf	0x642
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12059,7 +12059,7 @@ IfxPsi5_enableModule:
 	.string	"RSI3"
 	.byte	0x2
 	.uahalf	0x643
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12068,7 +12068,7 @@ IfxPsi5_enableModule:
 	.string	"RSI4"
 	.byte	0x2
 	.uahalf	0x644
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12077,7 +12077,7 @@ IfxPsi5_enableModule:
 	.string	"RSI5"
 	.byte	0x2
 	.uahalf	0x645
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12086,7 +12086,7 @@ IfxPsi5_enableModule:
 	.string	"RSI6"
 	.byte	0x2
 	.uahalf	0x646
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12095,7 +12095,7 @@ IfxPsi5_enableModule:
 	.string	"RSI7"
 	.byte	0x2
 	.uahalf	0x647
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12104,7 +12104,7 @@ IfxPsi5_enableModule:
 	.string	"RSI8"
 	.byte	0x2
 	.uahalf	0x648
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12113,7 +12113,7 @@ IfxPsi5_enableModule:
 	.string	"RSI9"
 	.byte	0x2
 	.uahalf	0x649
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12122,7 +12122,7 @@ IfxPsi5_enableModule:
 	.string	"RSI10"
 	.byte	0x2
 	.uahalf	0x64a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12131,7 +12131,7 @@ IfxPsi5_enableModule:
 	.string	"RSI11"
 	.byte	0x2
 	.uahalf	0x64b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12140,7 +12140,7 @@ IfxPsi5_enableModule:
 	.string	"RSI12"
 	.byte	0x2
 	.uahalf	0x64c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12149,7 +12149,7 @@ IfxPsi5_enableModule:
 	.string	"RSI13"
 	.byte	0x2
 	.uahalf	0x64d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12158,7 +12158,7 @@ IfxPsi5_enableModule:
 	.string	"RSI14"
 	.byte	0x2
 	.uahalf	0x64e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12167,7 +12167,7 @@ IfxPsi5_enableModule:
 	.string	"RSI15"
 	.byte	0x2
 	.uahalf	0x64f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12176,7 +12176,7 @@ IfxPsi5_enableModule:
 	.string	"RSI16"
 	.byte	0x2
 	.uahalf	0x650
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -12185,7 +12185,7 @@ IfxPsi5_enableModule:
 	.string	"RSI17"
 	.byte	0x2
 	.uahalf	0x651
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -12194,7 +12194,7 @@ IfxPsi5_enableModule:
 	.string	"RSI18"
 	.byte	0x2
 	.uahalf	0x652
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -12203,7 +12203,7 @@ IfxPsi5_enableModule:
 	.string	"RSI19"
 	.byte	0x2
 	.uahalf	0x653
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12212,7 +12212,7 @@ IfxPsi5_enableModule:
 	.string	"RSI20"
 	.byte	0x2
 	.uahalf	0x654
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -12221,7 +12221,7 @@ IfxPsi5_enableModule:
 	.string	"RSI21"
 	.byte	0x2
 	.uahalf	0x655
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -12230,7 +12230,7 @@ IfxPsi5_enableModule:
 	.string	"RSI22"
 	.byte	0x2
 	.uahalf	0x656
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -12239,7 +12239,7 @@ IfxPsi5_enableModule:
 	.string	"RSI23"
 	.byte	0x2
 	.uahalf	0x657
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -12248,7 +12248,7 @@ IfxPsi5_enableModule:
 	.string	"RSI24"
 	.byte	0x2
 	.uahalf	0x658
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -12257,7 +12257,7 @@ IfxPsi5_enableModule:
 	.string	"RSI25"
 	.byte	0x2
 	.uahalf	0x659
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -12266,7 +12266,7 @@ IfxPsi5_enableModule:
 	.string	"RSI26"
 	.byte	0x2
 	.uahalf	0x65a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -12275,7 +12275,7 @@ IfxPsi5_enableModule:
 	.string	"RSI27"
 	.byte	0x2
 	.uahalf	0x65b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -12284,7 +12284,7 @@ IfxPsi5_enableModule:
 	.string	"RSI28"
 	.byte	0x2
 	.uahalf	0x65c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -12293,7 +12293,7 @@ IfxPsi5_enableModule:
 	.string	"RSI29"
 	.byte	0x2
 	.uahalf	0x65d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -12302,7 +12302,7 @@ IfxPsi5_enableModule:
 	.string	"RSI30"
 	.byte	0x2
 	.uahalf	0x65e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -12311,7 +12311,7 @@ IfxPsi5_enableModule:
 	.string	"RSI31"
 	.byte	0x2
 	.uahalf	0x65f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -12321,18 +12321,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_RSISET_Bits"
 	.byte	0x2
 	.uahalf	0x660
-	.uaword	0x629d
+	.uaword	0x62a5
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_TEICLR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x663
-	.uaword	0x6766
+	.uaword	0x676e
 	.uleb128 0x7
 	.string	"TEI0"
 	.byte	0x2
 	.uahalf	0x665
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12341,7 +12341,7 @@ IfxPsi5_enableModule:
 	.string	"TEI1"
 	.byte	0x2
 	.uahalf	0x666
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12350,7 +12350,7 @@ IfxPsi5_enableModule:
 	.string	"TEI2"
 	.byte	0x2
 	.uahalf	0x667
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12359,7 +12359,7 @@ IfxPsi5_enableModule:
 	.string	"TEI3"
 	.byte	0x2
 	.uahalf	0x668
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12368,7 +12368,7 @@ IfxPsi5_enableModule:
 	.string	"TEI4"
 	.byte	0x2
 	.uahalf	0x669
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12377,7 +12377,7 @@ IfxPsi5_enableModule:
 	.string	"TEI5"
 	.byte	0x2
 	.uahalf	0x66a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12386,7 +12386,7 @@ IfxPsi5_enableModule:
 	.string	"TEI6"
 	.byte	0x2
 	.uahalf	0x66b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12395,7 +12395,7 @@ IfxPsi5_enableModule:
 	.string	"TEI7"
 	.byte	0x2
 	.uahalf	0x66c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12404,7 +12404,7 @@ IfxPsi5_enableModule:
 	.string	"TEI8"
 	.byte	0x2
 	.uahalf	0x66d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12413,7 +12413,7 @@ IfxPsi5_enableModule:
 	.string	"TEI9"
 	.byte	0x2
 	.uahalf	0x66e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12422,7 +12422,7 @@ IfxPsi5_enableModule:
 	.string	"TEI10"
 	.byte	0x2
 	.uahalf	0x66f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12431,7 +12431,7 @@ IfxPsi5_enableModule:
 	.string	"TEI11"
 	.byte	0x2
 	.uahalf	0x670
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12440,7 +12440,7 @@ IfxPsi5_enableModule:
 	.string	"TEI12"
 	.byte	0x2
 	.uahalf	0x671
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12449,7 +12449,7 @@ IfxPsi5_enableModule:
 	.string	"TEI13"
 	.byte	0x2
 	.uahalf	0x672
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12458,7 +12458,7 @@ IfxPsi5_enableModule:
 	.string	"TEI14"
 	.byte	0x2
 	.uahalf	0x673
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12467,7 +12467,7 @@ IfxPsi5_enableModule:
 	.string	"TEI15"
 	.byte	0x2
 	.uahalf	0x674
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12476,7 +12476,7 @@ IfxPsi5_enableModule:
 	.string	"TEI16"
 	.byte	0x2
 	.uahalf	0x675
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -12485,7 +12485,7 @@ IfxPsi5_enableModule:
 	.string	"TEI17"
 	.byte	0x2
 	.uahalf	0x676
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -12494,7 +12494,7 @@ IfxPsi5_enableModule:
 	.string	"TEI18"
 	.byte	0x2
 	.uahalf	0x677
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -12503,7 +12503,7 @@ IfxPsi5_enableModule:
 	.string	"TEI19"
 	.byte	0x2
 	.uahalf	0x678
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12512,7 +12512,7 @@ IfxPsi5_enableModule:
 	.string	"TEI20"
 	.byte	0x2
 	.uahalf	0x679
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -12521,7 +12521,7 @@ IfxPsi5_enableModule:
 	.string	"TEI21"
 	.byte	0x2
 	.uahalf	0x67a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -12530,7 +12530,7 @@ IfxPsi5_enableModule:
 	.string	"TEI22"
 	.byte	0x2
 	.uahalf	0x67b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -12539,7 +12539,7 @@ IfxPsi5_enableModule:
 	.string	"TEI23"
 	.byte	0x2
 	.uahalf	0x67c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -12548,7 +12548,7 @@ IfxPsi5_enableModule:
 	.string	"TEI24"
 	.byte	0x2
 	.uahalf	0x67d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -12557,7 +12557,7 @@ IfxPsi5_enableModule:
 	.string	"TEI25"
 	.byte	0x2
 	.uahalf	0x67e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -12566,7 +12566,7 @@ IfxPsi5_enableModule:
 	.string	"TEI26"
 	.byte	0x2
 	.uahalf	0x67f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -12575,7 +12575,7 @@ IfxPsi5_enableModule:
 	.string	"TEI27"
 	.byte	0x2
 	.uahalf	0x680
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -12584,7 +12584,7 @@ IfxPsi5_enableModule:
 	.string	"TEI28"
 	.byte	0x2
 	.uahalf	0x681
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -12593,7 +12593,7 @@ IfxPsi5_enableModule:
 	.string	"TEI29"
 	.byte	0x2
 	.uahalf	0x682
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -12602,7 +12602,7 @@ IfxPsi5_enableModule:
 	.string	"TEI30"
 	.byte	0x2
 	.uahalf	0x683
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -12611,7 +12611,7 @@ IfxPsi5_enableModule:
 	.string	"TEI31"
 	.byte	0x2
 	.uahalf	0x684
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -12621,18 +12621,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_TEICLR_Bits"
 	.byte	0x2
 	.uahalf	0x685
-	.uaword	0x6510
+	.uaword	0x6518
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_TEIOV_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x688
-	.uaword	0x69d8
+	.uaword	0x69e0
 	.uleb128 0x7
 	.string	"TEI0"
 	.byte	0x2
 	.uahalf	0x68a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12641,7 +12641,7 @@ IfxPsi5_enableModule:
 	.string	"TEI1"
 	.byte	0x2
 	.uahalf	0x68b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12650,7 +12650,7 @@ IfxPsi5_enableModule:
 	.string	"TEI2"
 	.byte	0x2
 	.uahalf	0x68c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12659,7 +12659,7 @@ IfxPsi5_enableModule:
 	.string	"TEI3"
 	.byte	0x2
 	.uahalf	0x68d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12668,7 +12668,7 @@ IfxPsi5_enableModule:
 	.string	"TEI4"
 	.byte	0x2
 	.uahalf	0x68e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12677,7 +12677,7 @@ IfxPsi5_enableModule:
 	.string	"TEI5"
 	.byte	0x2
 	.uahalf	0x68f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12686,7 +12686,7 @@ IfxPsi5_enableModule:
 	.string	"TEI6"
 	.byte	0x2
 	.uahalf	0x690
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12695,7 +12695,7 @@ IfxPsi5_enableModule:
 	.string	"TEI7"
 	.byte	0x2
 	.uahalf	0x691
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12704,7 +12704,7 @@ IfxPsi5_enableModule:
 	.string	"TEI8"
 	.byte	0x2
 	.uahalf	0x692
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12713,7 +12713,7 @@ IfxPsi5_enableModule:
 	.string	"TEI9"
 	.byte	0x2
 	.uahalf	0x693
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12722,7 +12722,7 @@ IfxPsi5_enableModule:
 	.string	"TEI10"
 	.byte	0x2
 	.uahalf	0x694
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12731,7 +12731,7 @@ IfxPsi5_enableModule:
 	.string	"TEI11"
 	.byte	0x2
 	.uahalf	0x695
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12740,7 +12740,7 @@ IfxPsi5_enableModule:
 	.string	"TEI12"
 	.byte	0x2
 	.uahalf	0x696
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12749,7 +12749,7 @@ IfxPsi5_enableModule:
 	.string	"TEI13"
 	.byte	0x2
 	.uahalf	0x697
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12758,7 +12758,7 @@ IfxPsi5_enableModule:
 	.string	"TEI14"
 	.byte	0x2
 	.uahalf	0x698
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12767,7 +12767,7 @@ IfxPsi5_enableModule:
 	.string	"TEI15"
 	.byte	0x2
 	.uahalf	0x699
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12776,7 +12776,7 @@ IfxPsi5_enableModule:
 	.string	"TEI16"
 	.byte	0x2
 	.uahalf	0x69a
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -12785,7 +12785,7 @@ IfxPsi5_enableModule:
 	.string	"TEI17"
 	.byte	0x2
 	.uahalf	0x69b
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -12794,7 +12794,7 @@ IfxPsi5_enableModule:
 	.string	"TEI18"
 	.byte	0x2
 	.uahalf	0x69c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -12803,7 +12803,7 @@ IfxPsi5_enableModule:
 	.string	"TEI19"
 	.byte	0x2
 	.uahalf	0x69d
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12812,7 +12812,7 @@ IfxPsi5_enableModule:
 	.string	"TEI20"
 	.byte	0x2
 	.uahalf	0x69e
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -12821,7 +12821,7 @@ IfxPsi5_enableModule:
 	.string	"TEI21"
 	.byte	0x2
 	.uahalf	0x69f
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -12830,7 +12830,7 @@ IfxPsi5_enableModule:
 	.string	"TEI22"
 	.byte	0x2
 	.uahalf	0x6a0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -12839,7 +12839,7 @@ IfxPsi5_enableModule:
 	.string	"TEI23"
 	.byte	0x2
 	.uahalf	0x6a1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -12848,7 +12848,7 @@ IfxPsi5_enableModule:
 	.string	"TEI24"
 	.byte	0x2
 	.uahalf	0x6a2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -12857,7 +12857,7 @@ IfxPsi5_enableModule:
 	.string	"TEI25"
 	.byte	0x2
 	.uahalf	0x6a3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -12866,7 +12866,7 @@ IfxPsi5_enableModule:
 	.string	"TEI26"
 	.byte	0x2
 	.uahalf	0x6a4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -12875,7 +12875,7 @@ IfxPsi5_enableModule:
 	.string	"TEI27"
 	.byte	0x2
 	.uahalf	0x6a5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -12884,7 +12884,7 @@ IfxPsi5_enableModule:
 	.string	"TEI28"
 	.byte	0x2
 	.uahalf	0x6a6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -12893,7 +12893,7 @@ IfxPsi5_enableModule:
 	.string	"TEI29"
 	.byte	0x2
 	.uahalf	0x6a7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -12902,7 +12902,7 @@ IfxPsi5_enableModule:
 	.string	"TEI30"
 	.byte	0x2
 	.uahalf	0x6a8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -12911,7 +12911,7 @@ IfxPsi5_enableModule:
 	.string	"TEI31"
 	.byte	0x2
 	.uahalf	0x6a9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -12921,18 +12921,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_TEIOV_Bits"
 	.byte	0x2
 	.uahalf	0x6aa
-	.uaword	0x6783
+	.uaword	0x678b
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_TEISET_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6ad
-	.uaword	0x6c4a
+	.uaword	0x6c52
 	.uleb128 0x7
 	.string	"TEI0"
 	.byte	0x2
 	.uahalf	0x6af
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12941,7 +12941,7 @@ IfxPsi5_enableModule:
 	.string	"TEI1"
 	.byte	0x2
 	.uahalf	0x6b0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12950,7 +12950,7 @@ IfxPsi5_enableModule:
 	.string	"TEI2"
 	.byte	0x2
 	.uahalf	0x6b1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12959,7 +12959,7 @@ IfxPsi5_enableModule:
 	.string	"TEI3"
 	.byte	0x2
 	.uahalf	0x6b2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12968,7 +12968,7 @@ IfxPsi5_enableModule:
 	.string	"TEI4"
 	.byte	0x2
 	.uahalf	0x6b3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12977,7 +12977,7 @@ IfxPsi5_enableModule:
 	.string	"TEI5"
 	.byte	0x2
 	.uahalf	0x6b4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12986,7 +12986,7 @@ IfxPsi5_enableModule:
 	.string	"TEI6"
 	.byte	0x2
 	.uahalf	0x6b5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12995,7 +12995,7 @@ IfxPsi5_enableModule:
 	.string	"TEI7"
 	.byte	0x2
 	.uahalf	0x6b6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -13004,7 +13004,7 @@ IfxPsi5_enableModule:
 	.string	"TEI8"
 	.byte	0x2
 	.uahalf	0x6b7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -13013,7 +13013,7 @@ IfxPsi5_enableModule:
 	.string	"TEI9"
 	.byte	0x2
 	.uahalf	0x6b8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -13022,7 +13022,7 @@ IfxPsi5_enableModule:
 	.string	"TEI10"
 	.byte	0x2
 	.uahalf	0x6b9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -13031,7 +13031,7 @@ IfxPsi5_enableModule:
 	.string	"TEI11"
 	.byte	0x2
 	.uahalf	0x6ba
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -13040,7 +13040,7 @@ IfxPsi5_enableModule:
 	.string	"TEI12"
 	.byte	0x2
 	.uahalf	0x6bb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13049,7 +13049,7 @@ IfxPsi5_enableModule:
 	.string	"TEI13"
 	.byte	0x2
 	.uahalf	0x6bc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -13058,7 +13058,7 @@ IfxPsi5_enableModule:
 	.string	"TEI14"
 	.byte	0x2
 	.uahalf	0x6bd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -13067,7 +13067,7 @@ IfxPsi5_enableModule:
 	.string	"TEI15"
 	.byte	0x2
 	.uahalf	0x6be
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -13076,7 +13076,7 @@ IfxPsi5_enableModule:
 	.string	"TEI16"
 	.byte	0x2
 	.uahalf	0x6bf
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -13085,7 +13085,7 @@ IfxPsi5_enableModule:
 	.string	"TEI17"
 	.byte	0x2
 	.uahalf	0x6c0
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -13094,7 +13094,7 @@ IfxPsi5_enableModule:
 	.string	"TEI18"
 	.byte	0x2
 	.uahalf	0x6c1
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -13103,7 +13103,7 @@ IfxPsi5_enableModule:
 	.string	"TEI19"
 	.byte	0x2
 	.uahalf	0x6c2
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -13112,7 +13112,7 @@ IfxPsi5_enableModule:
 	.string	"TEI20"
 	.byte	0x2
 	.uahalf	0x6c3
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -13121,7 +13121,7 @@ IfxPsi5_enableModule:
 	.string	"TEI21"
 	.byte	0x2
 	.uahalf	0x6c4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -13130,7 +13130,7 @@ IfxPsi5_enableModule:
 	.string	"TEI22"
 	.byte	0x2
 	.uahalf	0x6c5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -13139,7 +13139,7 @@ IfxPsi5_enableModule:
 	.string	"TEI23"
 	.byte	0x2
 	.uahalf	0x6c6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -13148,7 +13148,7 @@ IfxPsi5_enableModule:
 	.string	"TEI24"
 	.byte	0x2
 	.uahalf	0x6c7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -13157,7 +13157,7 @@ IfxPsi5_enableModule:
 	.string	"TEI25"
 	.byte	0x2
 	.uahalf	0x6c8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -13166,7 +13166,7 @@ IfxPsi5_enableModule:
 	.string	"TEI26"
 	.byte	0x2
 	.uahalf	0x6c9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -13175,7 +13175,7 @@ IfxPsi5_enableModule:
 	.string	"TEI27"
 	.byte	0x2
 	.uahalf	0x6ca
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -13184,7 +13184,7 @@ IfxPsi5_enableModule:
 	.string	"TEI28"
 	.byte	0x2
 	.uahalf	0x6cb
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -13193,7 +13193,7 @@ IfxPsi5_enableModule:
 	.string	"TEI29"
 	.byte	0x2
 	.uahalf	0x6cc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -13202,7 +13202,7 @@ IfxPsi5_enableModule:
 	.string	"TEI30"
 	.byte	0x2
 	.uahalf	0x6cd
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -13211,7 +13211,7 @@ IfxPsi5_enableModule:
 	.string	"TEI31"
 	.byte	0x2
 	.uahalf	0x6ce
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -13221,18 +13221,18 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_TEISET_Bits"
 	.byte	0x2
 	.uahalf	0x6cf
-	.uaword	0x69f4
+	.uaword	0x69fc
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_TSR_Bits"
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6d2
-	.uaword	0x6ce5
+	.uaword	0x6ced
 	.uleb128 0x7
 	.string	"CTS"
 	.byte	0x2
 	.uahalf	0x6d4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -13241,7 +13241,7 @@ IfxPsi5_enableModule:
 	.string	"ETB"
 	.byte	0x2
 	.uahalf	0x6d5
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -13250,7 +13250,7 @@ IfxPsi5_enableModule:
 	.string	"TBS"
 	.byte	0x2
 	.uahalf	0x6d6
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -13259,7 +13259,7 @@ IfxPsi5_enableModule:
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x6d7
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -13268,7 +13268,7 @@ IfxPsi5_enableModule:
 	.string	"ACLR"
 	.byte	0x2
 	.uahalf	0x6d8
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -13277,7 +13277,7 @@ IfxPsi5_enableModule:
 	.string	"CLR"
 	.byte	0x2
 	.uahalf	0x6d9
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -13287,27 +13287,27 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_TSR_Bits"
 	.byte	0x2
 	.uahalf	0x6da
-	.uaword	0x6c67
+	.uaword	0x6c6f
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6e2
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6e4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6e5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6e6
-	.uaword	0x3d7
+	.uaword	0x3df
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
@@ -13317,1939 +13317,1939 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_ACCEN0"
 	.byte	0x2
 	.uahalf	0x6e7
-	.uaword	0x6cff
+	.uaword	0x6d07
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6ea
-	.uaword	0x6d6e
+	.uaword	0x6d76
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6ec
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6ed
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6ee
-	.uaword	0x421
+	.uaword	0x429
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_ACCEN1"
 	.byte	0x2
 	.uahalf	0x6ef
-	.uaword	0x6d46
+	.uaword	0x6d4e
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6f2
-	.uaword	0x6dae
+	.uaword	0x6db6
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6f4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6f5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6f6
-	.uaword	0x47a
+	.uaword	0x482
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_CTV"
 	.byte	0x2
 	.uahalf	0x6f7
-	.uaword	0x6d86
+	.uaword	0x6d8e
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x6fa
-	.uaword	0x6dee
+	.uaword	0x6df6
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x6fc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x6fd
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x6fe
-	.uaword	0x57e
+	.uaword	0x586
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_IOCR"
 	.byte	0x2
 	.uahalf	0x6ff
-	.uaword	0x6dc6
+	.uaword	0x6dce
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x702
-	.uaword	0x6e2f
+	.uaword	0x6e37
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x704
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x705
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x706
-	.uaword	0x660
+	.uaword	0x668
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_PGC"
 	.byte	0x2
 	.uahalf	0x707
-	.uaword	0x6e07
+	.uaword	0x6e0f
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x70a
-	.uaword	0x6e6f
+	.uaword	0x6e77
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x70c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x70d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x70e
-	.uaword	0x71c
+	.uaword	0x724
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_RCRA"
 	.byte	0x2
 	.uahalf	0x70f
-	.uaword	0x6e47
+	.uaword	0x6e4f
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x712
-	.uaword	0x6eb0
+	.uaword	0x6eb8
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x714
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x715
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x716
-	.uaword	0x8e8
+	.uaword	0x8f0
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_RCRB"
 	.byte	0x2
 	.uahalf	0x717
-	.uaword	0x6e88
+	.uaword	0x6e90
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x71a
-	.uaword	0x6ef1
+	.uaword	0x6ef9
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x71c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x71d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x71e
-	.uaword	0x970
+	.uaword	0x978
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_RCRC"
 	.byte	0x2
 	.uahalf	0x71f
-	.uaword	0x6ec9
+	.uaword	0x6ed1
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x722
-	.uaword	0x6f32
+	.uaword	0x6f3a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x724
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x725
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x726
-	.uaword	0xa14
+	.uaword	0xa1c
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_RDRH"
 	.byte	0x2
 	.uahalf	0x727
-	.uaword	0x6f0a
+	.uaword	0x6f12
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x72a
-	.uaword	0x6f73
+	.uaword	0x6f7b
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x72c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x72d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x72e
-	.uaword	0xa7d
+	.uaword	0xa85
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_RDRL"
 	.byte	0x2
 	.uahalf	0x72f
-	.uaword	0x6f4b
+	.uaword	0x6f53
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x732
-	.uaword	0x6fb4
+	.uaword	0x6fbc
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x734
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x735
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x736
-	.uaword	0xafc
+	.uaword	0xb04
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_RSR"
 	.byte	0x2
 	.uahalf	0x737
-	.uaword	0x6f8c
+	.uaword	0x6f94
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x73a
-	.uaword	0x6ff4
+	.uaword	0x6ffc
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x73c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x73d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x73e
-	.uaword	0xc30
+	.uaword	0xc38
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SCR"
 	.byte	0x2
 	.uahalf	0x73f
-	.uaword	0x6fcc
+	.uaword	0x6fd4
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x742
-	.uaword	0x7034
+	.uaword	0x703c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x744
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x745
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x746
-	.uaword	0xe76
+	.uaword	0xe7e
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SDRH"
 	.byte	0x2
 	.uahalf	0x747
-	.uaword	0x700c
+	.uaword	0x7014
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x74a
-	.uaword	0x7075
+	.uaword	0x707d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x74c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x74d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x74e
-	.uaword	0x10cb
+	.uaword	0x10d3
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SDRL"
 	.byte	0x2
 	.uahalf	0x74f
-	.uaword	0x704d
+	.uaword	0x7055
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x752
-	.uaword	0x70b6
+	.uaword	0x70be
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x754
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x755
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x756
-	.uaword	0x115a
+	.uaword	0x1162
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SDS"
 	.byte	0x2
 	.uahalf	0x757
-	.uaword	0x708e
+	.uaword	0x7096
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x75a
-	.uaword	0x70f6
+	.uaword	0x70fe
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x75c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x75d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x75e
-	.uaword	0x11b8
+	.uaword	0x11c0
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SFTSC"
 	.byte	0x2
 	.uahalf	0x75f
-	.uaword	0x70ce
+	.uaword	0x70d6
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x762
-	.uaword	0x7138
+	.uaword	0x7140
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x764
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x765
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x766
-	.uaword	0x1418
+	.uaword	0x1420
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SORH"
 	.byte	0x2
 	.uahalf	0x767
-	.uaword	0x7110
+	.uaword	0x7118
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x76a
-	.uaword	0x7179
+	.uaword	0x7181
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x76c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x76d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x76e
-	.uaword	0x166d
+	.uaword	0x1675
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SORL"
 	.byte	0x2
 	.uahalf	0x76f
-	.uaword	0x7151
+	.uaword	0x7159
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x772
-	.uaword	0x71ba
+	.uaword	0x71c2
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x774
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x775
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x776
-	.uaword	0x16cc
+	.uaword	0x16d4
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SPTSC"
 	.byte	0x2
 	.uahalf	0x777
-	.uaword	0x7192
+	.uaword	0x719a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x77a
-	.uaword	0x71fc
+	.uaword	0x7204
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x77c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x77d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x77e
-	.uaword	0x192c
+	.uaword	0x1934
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SSRH"
 	.byte	0x2
 	.uahalf	0x77f
-	.uaword	0x71d4
+	.uaword	0x71dc
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x782
-	.uaword	0x723d
+	.uaword	0x7245
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x784
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x785
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x786
-	.uaword	0x1b81
+	.uaword	0x1b89
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_SSRL"
 	.byte	0x2
 	.uahalf	0x787
-	.uaword	0x7215
+	.uaword	0x721d
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x78a
-	.uaword	0x727e
+	.uaword	0x7286
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x78c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x78d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x78e
-	.uaword	0x1be1
+	.uaword	0x1be9
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CH_WDT"
 	.byte	0x2
 	.uahalf	0x78f
-	.uaword	0x7256
+	.uaword	0x725e
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x792
-	.uaword	0x72be
+	.uaword	0x72c6
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x794
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x795
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x796
-	.uaword	0x1c4d
+	.uaword	0x1c55
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CLC"
 	.byte	0x2
 	.uahalf	0x797
-	.uaword	0x7296
+	.uaword	0x729e
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x79a
-	.uaword	0x72fb
+	.uaword	0x7303
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x79c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x79d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x79e
-	.uaword	0x1e9c
+	.uaword	0x1ea4
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CRCICLR"
 	.byte	0x2
 	.uahalf	0x79f
-	.uaword	0x72d3
+	.uaword	0x72db
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7a2
-	.uaword	0x733c
+	.uaword	0x7344
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7a4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7a5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7a6
-	.uaword	0x20ee
+	.uaword	0x20f6
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CRCIOV"
 	.byte	0x2
 	.uahalf	0x7a7
-	.uaword	0x7314
+	.uaword	0x731c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7aa
-	.uaword	0x737c
+	.uaword	0x7384
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7ac
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7ad
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7ae
-	.uaword	0x2340
+	.uaword	0x2348
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_CRCISET"
 	.byte	0x2
 	.uahalf	0x7af
-	.uaword	0x7354
+	.uaword	0x735c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7b2
-	.uaword	0x73bd
+	.uaword	0x73c5
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7b4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7b5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7b6
-	.uaword	0x23d6
+	.uaword	0x23de
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_FDR"
 	.byte	0x2
 	.uahalf	0x7b7
-	.uaword	0x7395
+	.uaword	0x739d
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7ba
-	.uaword	0x73fa
+	.uaword	0x7402
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7bc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7bd
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7be
-	.uaword	0x2494
+	.uaword	0x249c
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_FDRT"
 	.byte	0x2
 	.uahalf	0x7bf
-	.uaword	0x73d2
+	.uaword	0x73da
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7c2
-	.uaword	0x7438
+	.uaword	0x7440
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7c4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7c5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7c6
-	.uaword	0x2605
+	.uaword	0x260d
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_GCR"
 	.byte	0x2
 	.uahalf	0x7c7
-	.uaword	0x7410
+	.uaword	0x7418
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7ca
-	.uaword	0x7475
+	.uaword	0x747d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7cc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7cd
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7ce
-	.uaword	0x2678
+	.uaword	0x2680
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_ID"
 	.byte	0x2
 	.uahalf	0x7cf
-	.uaword	0x744d
+	.uaword	0x7455
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7d2
-	.uaword	0x74b1
+	.uaword	0x74b9
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7d4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7d5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7d6
-	.uaword	0x272f
+	.uaword	0x2737
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INP"
 	.byte	0x2
 	.uahalf	0x7d7
-	.uaword	0x7489
+	.uaword	0x7491
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7da
-	.uaword	0x74ee
+	.uaword	0x74f6
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7dc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7dd
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7de
-	.uaword	0x288d
+	.uaword	0x2895
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INTCLRA"
 	.byte	0x2
 	.uahalf	0x7df
-	.uaword	0x74c6
+	.uaword	0x74ce
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7e2
-	.uaword	0x752f
+	.uaword	0x7537
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7e4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7e5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7e6
-	.uaword	0x2a6e
+	.uaword	0x2a76
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INTCLRB"
 	.byte	0x2
 	.uahalf	0x7e7
-	.uaword	0x7507
+	.uaword	0x750f
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7ea
-	.uaword	0x7570
+	.uaword	0x7578
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7ec
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7ed
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7ee
-	.uaword	0x2bcf
+	.uaword	0x2bd7
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INTENA"
 	.byte	0x2
 	.uahalf	0x7ef
-	.uaword	0x7548
+	.uaword	0x7550
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7f2
-	.uaword	0x75b0
+	.uaword	0x75b8
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7f4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7f5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7f6
-	.uaword	0x2dae
+	.uaword	0x2db6
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INTENB"
 	.byte	0x2
 	.uahalf	0x7f7
-	.uaword	0x7588
+	.uaword	0x7590
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x7fa
-	.uaword	0x75f0
+	.uaword	0x75f8
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x7fc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x7fd
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x7fe
-	.uaword	0x2e82
+	.uaword	0x2e8a
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INTOV"
 	.byte	0x2
 	.uahalf	0x7ff
-	.uaword	0x75c8
+	.uaword	0x75d0
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x802
-	.uaword	0x762f
+	.uaword	0x7637
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x804
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x805
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x806
-	.uaword	0x2fe2
+	.uaword	0x2fea
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INTSETA"
 	.byte	0x2
 	.uahalf	0x807
-	.uaword	0x7607
+	.uaword	0x760f
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x80a
-	.uaword	0x7670
+	.uaword	0x7678
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x80c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x80d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x80e
-	.uaword	0x31c3
+	.uaword	0x31cb
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INTSETB"
 	.byte	0x2
 	.uahalf	0x80f
-	.uaword	0x7648
+	.uaword	0x7650
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x812
-	.uaword	0x76b1
+	.uaword	0x76b9
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x814
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x815
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x816
-	.uaword	0x3326
+	.uaword	0x332e
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INTSTATA"
 	.byte	0x2
 	.uahalf	0x817
-	.uaword	0x7689
+	.uaword	0x7691
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x81a
-	.uaword	0x76f3
+	.uaword	0x76fb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x81c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x81d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x81e
-	.uaword	0x3509
+	.uaword	0x3511
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_INTSTATB"
 	.byte	0x2
 	.uahalf	0x81f
-	.uaword	0x76cb
+	.uaword	0x76d3
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x822
-	.uaword	0x7735
+	.uaword	0x773d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x824
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x825
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x826
-	.uaword	0x357b
+	.uaword	0x3583
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_KRST0"
 	.byte	0x2
 	.uahalf	0x827
-	.uaword	0x770d
+	.uaword	0x7715
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x82a
-	.uaword	0x7774
+	.uaword	0x777c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x82c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x82d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x82e
-	.uaword	0x35d6
+	.uaword	0x35de
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_KRST1"
 	.byte	0x2
 	.uahalf	0x82f
-	.uaword	0x774c
+	.uaword	0x7754
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x832
-	.uaword	0x77b3
+	.uaword	0x77bb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x834
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x835
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x836
-	.uaword	0x3633
+	.uaword	0x363b
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_KRSTCLR"
 	.byte	0x2
 	.uahalf	0x837
-	.uaword	0x778b
+	.uaword	0x7793
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x83a
-	.uaword	0x77f4
+	.uaword	0x77fc
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x83c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x83d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x83e
-	.uaword	0x38a7
+	.uaword	0x38af
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_MEICLR"
 	.byte	0x2
 	.uahalf	0x83f
-	.uaword	0x77cc
+	.uaword	0x77d4
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x842
-	.uaword	0x7834
+	.uaword	0x783c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x844
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x845
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x846
-	.uaword	0x3b19
+	.uaword	0x3b21
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_MEIOV"
 	.byte	0x2
 	.uahalf	0x847
-	.uaword	0x780c
+	.uaword	0x7814
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x84a
-	.uaword	0x7873
+	.uaword	0x787b
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x84c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x84d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x84e
-	.uaword	0x3d8b
+	.uaword	0x3d93
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_MEISET"
 	.byte	0x2
 	.uahalf	0x84f
-	.uaword	0x784b
+	.uaword	0x7853
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x852
-	.uaword	0x78b3
+	.uaword	0x78bb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x854
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x855
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x856
-	.uaword	0x3ffe
+	.uaword	0x4006
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_NBICLR"
 	.byte	0x2
 	.uahalf	0x857
-	.uaword	0x788b
+	.uaword	0x7893
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x85a
-	.uaword	0x78f3
+	.uaword	0x78fb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x85c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x85d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x85e
-	.uaword	0x4270
+	.uaword	0x4278
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_NBIOV"
 	.byte	0x2
 	.uahalf	0x85f
-	.uaword	0x78cb
+	.uaword	0x78d3
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x862
-	.uaword	0x7932
+	.uaword	0x793a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x864
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x865
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x866
-	.uaword	0x44e2
+	.uaword	0x44ea
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_NBISET"
 	.byte	0x2
 	.uahalf	0x867
-	.uaword	0x790a
+	.uaword	0x7912
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x86a
-	.uaword	0x7972
+	.uaword	0x797a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x86c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x86d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x86e
-	.uaword	0x4755
+	.uaword	0x475d
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_NFICLR"
 	.byte	0x2
 	.uahalf	0x86f
-	.uaword	0x794a
+	.uaword	0x7952
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x872
-	.uaword	0x79b2
+	.uaword	0x79ba
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x874
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x875
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x876
-	.uaword	0x49c7
+	.uaword	0x49cf
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_NFIOV"
 	.byte	0x2
 	.uahalf	0x877
-	.uaword	0x798a
+	.uaword	0x7992
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x87a
-	.uaword	0x79f1
+	.uaword	0x79f9
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x87c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x87d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x87e
-	.uaword	0x4c39
+	.uaword	0x4c41
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_NFISET"
 	.byte	0x2
 	.uahalf	0x87f
-	.uaword	0x79c9
+	.uaword	0x79d1
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x882
-	.uaword	0x7a31
+	.uaword	0x7a39
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x884
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x885
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x886
-	.uaword	0x4cd0
+	.uaword	0x4cd8
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_OCS"
 	.byte	0x2
 	.uahalf	0x887
-	.uaword	0x7a09
+	.uaword	0x7a11
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x88a
-	.uaword	0x7a6e
+	.uaword	0x7a76
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x88c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x88d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x88e
-	.uaword	0x4d16
+	.uaword	0x4d1e
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RDF"
 	.byte	0x2
 	.uahalf	0x88f
-	.uaword	0x7a46
+	.uaword	0x7a4e
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x892
-	.uaword	0x7aab
+	.uaword	0x7ab3
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x894
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x895
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x896
-	.uaword	0x4f86
+	.uaword	0x4f8e
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RDICLR"
 	.byte	0x2
 	.uahalf	0x897
-	.uaword	0x7a83
+	.uaword	0x7a8b
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x89a
-	.uaword	0x7aeb
+	.uaword	0x7af3
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x89c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x89d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x89e
-	.uaword	0x51f8
+	.uaword	0x5200
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RDIOV"
 	.byte	0x2
 	.uahalf	0x89f
-	.uaword	0x7ac3
+	.uaword	0x7acb
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8a2
-	.uaword	0x7b2a
+	.uaword	0x7b32
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8a4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8a5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8a6
-	.uaword	0x546a
+	.uaword	0x5472
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RDISET"
 	.byte	0x2
 	.uahalf	0x8a7
-	.uaword	0x7b02
+	.uaword	0x7b0a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8aa
-	.uaword	0x7b6a
+	.uaword	0x7b72
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8ac
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8ad
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8ae
-	.uaword	0x5514
+	.uaword	0x551c
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RDM_H"
 	.byte	0x2
 	.uahalf	0x8af
-	.uaword	0x7b42
+	.uaword	0x7b4a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8b2
-	.uaword	0x7ba9
+	.uaword	0x7bb1
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8b4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8b5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8b6
-	.uaword	0x557e
+	.uaword	0x5586
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RDM_L"
 	.byte	0x2
 	.uahalf	0x8b7
-	.uaword	0x7b81
+	.uaword	0x7b89
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8ba
-	.uaword	0x7be8
+	.uaword	0x7bf0
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8bc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8bd
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8be
-	.uaword	0x5648
+	.uaword	0x5650
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RFC"
 	.byte	0x2
 	.uahalf	0x8bf
-	.uaword	0x7bc0
+	.uaword	0x7bc8
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8c2
-	.uaword	0x7c25
+	.uaword	0x7c2d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8c4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8c5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8c6
-	.uaword	0x58b8
+	.uaword	0x58c0
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RMICLR"
 	.byte	0x2
 	.uahalf	0x8c7
-	.uaword	0x7bfd
+	.uaword	0x7c05
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8ca
-	.uaword	0x7c65
+	.uaword	0x7c6d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8cc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8cd
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8ce
-	.uaword	0x5b2a
+	.uaword	0x5b32
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RMIOV"
 	.byte	0x2
 	.uahalf	0x8cf
-	.uaword	0x7c3d
+	.uaword	0x7c45
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8d2
-	.uaword	0x7ca4
+	.uaword	0x7cac
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8d4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8d5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8d6
-	.uaword	0x5d9c
+	.uaword	0x5da4
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RMISET"
 	.byte	0x2
 	.uahalf	0x8d7
-	.uaword	0x7c7c
+	.uaword	0x7c84
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8da
-	.uaword	0x7ce4
+	.uaword	0x7cec
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8dc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8dd
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8de
-	.uaword	0x600f
+	.uaword	0x6017
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RSICLR"
 	.byte	0x2
 	.uahalf	0x8df
-	.uaword	0x7cbc
+	.uaword	0x7cc4
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8e2
-	.uaword	0x7d24
+	.uaword	0x7d2c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8e4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8e5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8e6
-	.uaword	0x6281
+	.uaword	0x6289
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RSIOV"
 	.byte	0x2
 	.uahalf	0x8e7
-	.uaword	0x7cfc
+	.uaword	0x7d04
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8ea
-	.uaword	0x7d63
+	.uaword	0x7d6b
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8ec
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8ed
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8ee
-	.uaword	0x64f3
+	.uaword	0x64fb
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_RSISET"
 	.byte	0x2
 	.uahalf	0x8ef
-	.uaword	0x7d3b
+	.uaword	0x7d43
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8f2
-	.uaword	0x7da3
+	.uaword	0x7dab
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8f4
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8f5
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8f6
-	.uaword	0x6766
+	.uaword	0x676e
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_TEICLR"
 	.byte	0x2
 	.uahalf	0x8f7
-	.uaword	0x7d7b
+	.uaword	0x7d83
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x8fa
-	.uaword	0x7de3
+	.uaword	0x7deb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x8fc
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x8fd
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x8fe
-	.uaword	0x69d8
+	.uaword	0x69e0
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_TEIOV"
 	.byte	0x2
 	.uahalf	0x8ff
-	.uaword	0x7dbb
+	.uaword	0x7dc3
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x902
-	.uaword	0x7e22
+	.uaword	0x7e2a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x904
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x905
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x906
-	.uaword	0x6c4a
+	.uaword	0x6c52
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_TEISET"
 	.byte	0x2
 	.uahalf	0x907
-	.uaword	0x7dfa
+	.uaword	0x7e02
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x2
 	.uahalf	0x90a
-	.uaword	0x7e62
+	.uaword	0x7e6a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x2
 	.uahalf	0x90c
-	.uaword	0x3c7
+	.uaword	0x3cf
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x2
 	.uahalf	0x90d
-	.uaword	0x6d27
+	.uaword	0x6d2f
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x2
 	.uahalf	0x90e
-	.uaword	0x6ce5
+	.uaword	0x6ced
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5_TSR"
 	.byte	0x2
 	.uahalf	0x90f
-	.uaword	0x7e3a
+	.uaword	0x7e42
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_CH"
 	.byte	0x90
 	.byte	0x2
 	.uahalf	0x91a
-	.uaword	0x7fb7
+	.uaword	0x7fbf
 	.uleb128 0xd
 	.string	"IOCR"
 	.byte	0x2
 	.uahalf	0x91c
-	.uaword	0x6dee
+	.uaword	0x6df6
 	.byte	0
 	.uleb128 0xd
 	.string	"RCRA"
 	.byte	0x2
 	.uahalf	0x91d
-	.uaword	0x6e6f
+	.uaword	0x6e77
 	.byte	0x4
 	.uleb128 0xd
 	.string	"RCRB"
 	.byte	0x2
 	.uahalf	0x91e
-	.uaword	0x6eb0
+	.uaword	0x6eb8
 	.byte	0x8
 	.uleb128 0xd
 	.string	"RCRC"
 	.byte	0x2
 	.uahalf	0x91f
-	.uaword	0x6ef1
+	.uaword	0x6ef9
 	.byte	0xc
 	.uleb128 0xd
 	.string	"WDT"
 	.byte	0x2
 	.uahalf	0x920
-	.uaword	0x7fb7
+	.uaword	0x7fbf
 	.byte	0x10
 	.uleb128 0xd
 	.string	"RSR"
 	.byte	0x2
 	.uahalf	0x921
-	.uaword	0x6fb4
+	.uaword	0x6fbc
 	.byte	0x2c
 	.uleb128 0xd
 	.string	"SDS"
 	.byte	0x2
 	.uahalf	0x922
-	.uaword	0x7fd3
+	.uaword	0x7fdb
 	.byte	0x30
 	.uleb128 0xd
 	.string	"SPTSC"
 	.byte	0x2
 	.uahalf	0x923
-	.uaword	0x71ba
+	.uaword	0x71c2
 	.byte	0x48
 	.uleb128 0xd
 	.string	"SFTSC"
 	.byte	0x2
 	.uahalf	0x924
-	.uaword	0x70f6
+	.uaword	0x70fe
 	.byte	0x4c
 	.uleb128 0xd
 	.string	"RDRL"
 	.byte	0x2
 	.uahalf	0x925
-	.uaword	0x6f73
+	.uaword	0x6f7b
 	.byte	0x50
 	.uleb128 0xd
 	.string	"RDRH"
 	.byte	0x2
 	.uahalf	0x926
-	.uaword	0x6f32
+	.uaword	0x6f3a
 	.byte	0x54
 	.uleb128 0xd
 	.string	"PGC"
 	.byte	0x2
 	.uahalf	0x927
-	.uaword	0x6e2f
+	.uaword	0x6e37
 	.byte	0x58
 	.uleb128 0xd
 	.string	"CTV"
 	.byte	0x2
 	.uahalf	0x928
-	.uaword	0x6dae
+	.uaword	0x6db6
 	.byte	0x5c
 	.uleb128 0xd
 	.string	"SCR"
 	.byte	0x2
 	.uahalf	0x929
-	.uaword	0x6ff4
+	.uaword	0x6ffc
 	.byte	0x60
 	.uleb128 0xd
 	.string	"SDRL"
 	.byte	0x2
 	.uahalf	0x92a
-	.uaword	0x7075
+	.uaword	0x707d
 	.byte	0x64
 	.uleb128 0xd
 	.string	"SDRH"
 	.byte	0x2
 	.uahalf	0x92b
-	.uaword	0x7034
+	.uaword	0x703c
 	.byte	0x68
 	.uleb128 0xd
 	.string	"SSRL"
 	.byte	0x2
 	.uahalf	0x92c
-	.uaword	0x723d
+	.uaword	0x7245
 	.byte	0x6c
 	.uleb128 0xd
 	.string	"SSRH"
 	.byte	0x2
 	.uahalf	0x92d
-	.uaword	0x71fc
+	.uaword	0x7204
 	.byte	0x70
 	.uleb128 0xd
 	.string	"SORL"
 	.byte	0x2
 	.uahalf	0x92e
-	.uaword	0x7179
+	.uaword	0x7181
 	.byte	0x74
 	.uleb128 0xd
 	.string	"SORH"
 	.byte	0x2
 	.uahalf	0x92f
-	.uaword	0x7138
+	.uaword	0x7140
 	.byte	0x78
 	.uleb128 0xd
 	.string	"reserved_7C"
 	.byte	0x2
 	.uahalf	0x930
-	.uaword	0x7fe3
+	.uaword	0x7feb
 	.byte	0x7c
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x727e
-	.uaword	0x7fc7
+	.uaword	0x7286
+	.uaword	0x7fcf
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x6
 	.byte	0
 	.uleb128 0x4
@@ -15257,17 +15257,17 @@ IfxPsi5_enableModule:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0xe
-	.uaword	0x70b6
-	.uaword	0x7fe3
+	.uaword	0x70be
+	.uaword	0x7feb
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x5
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7ff3
-	.uaword	0x7ff3
+	.uaword	0x7ffb
+	.uaword	0x7ffb
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x13
 	.byte	0
 	.uleb128 0x4
@@ -15278,26 +15278,26 @@ IfxPsi5_enableModule:
 	.string	"Ifx_PSI5_CH"
 	.byte	0x2
 	.uahalf	0x931
-	.uaword	0x8018
+	.uaword	0x8020
 	.uleb128 0x10
-	.uaword	0x7e77
+	.uaword	0x7e7f
 	.uleb128 0x9
 	.string	"_Ifx_PSI5_RDM"
 	.byte	0x8
 	.byte	0x2
 	.uahalf	0x934
-	.uaword	0x804b
+	.uaword	0x8053
 	.uleb128 0xd
 	.string	"L"
 	.byte	0x2
 	.uahalf	0x936
-	.uaword	0x7ba9
+	.uaword	0x7bb1
 	.byte	0
 	.uleb128 0xd
 	.string	"H"
 	.byte	0x2
 	.uahalf	0x937
-	.uaword	0x7b6a
+	.uaword	0x7b72
 	.byte	0x4
 	.byte	0
 	.uleb128 0x11
@@ -15305,881 +15305,881 @@ IfxPsi5_enableModule:
 	.uahalf	0xb00
 	.byte	0x2
 	.uahalf	0x945
-	.uaword	0x8734
+	.uaword	0x873c
 	.uleb128 0xd
 	.string	"CLC"
 	.byte	0x2
 	.uahalf	0x947
-	.uaword	0x72be
+	.uaword	0x72c6
 	.byte	0
 	.uleb128 0xd
 	.string	"reserved_4"
 	.byte	0x2
 	.uahalf	0x948
-	.uaword	0x8734
+	.uaword	0x873c
 	.byte	0x4
 	.uleb128 0xd
 	.string	"ID"
 	.byte	0x2
 	.uahalf	0x949
-	.uaword	0x7475
+	.uaword	0x747d
 	.byte	0x8
 	.uleb128 0xd
 	.string	"FDR"
 	.byte	0x2
 	.uahalf	0x94a
-	.uaword	0x73bd
+	.uaword	0x73c5
 	.byte	0xc
 	.uleb128 0xd
 	.string	"FDRL"
 	.byte	0x2
 	.uahalf	0x94b
-	.uaword	0x73bd
+	.uaword	0x73c5
 	.byte	0x10
 	.uleb128 0xd
 	.string	"FDRH"
 	.byte	0x2
 	.uahalf	0x94c
-	.uaword	0x73bd
+	.uaword	0x73c5
 	.byte	0x14
 	.uleb128 0xd
 	.string	"FDRT"
 	.byte	0x2
 	.uahalf	0x94d
-	.uaword	0x73fa
+	.uaword	0x7402
 	.byte	0x18
 	.uleb128 0xd
 	.string	"TSRA"
 	.byte	0x2
 	.uahalf	0x94e
-	.uaword	0x7e62
+	.uaword	0x7e6a
 	.byte	0x1c
 	.uleb128 0xd
 	.string	"TSRB"
 	.byte	0x2
 	.uahalf	0x94f
-	.uaword	0x7e62
+	.uaword	0x7e6a
 	.byte	0x20
 	.uleb128 0xd
 	.string	"TSRC"
 	.byte	0x2
 	.uahalf	0x950
-	.uaword	0x7e62
+	.uaword	0x7e6a
 	.byte	0x24
 	.uleb128 0x12
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x951
-	.uaword	0x8734
+	.uaword	0x873c
 	.byte	0x28
 	.uleb128 0xd
 	.string	"GCR"
 	.byte	0x2
 	.uahalf	0x952
-	.uaword	0x7438
+	.uaword	0x7440
 	.byte	0x2c
 	.uleb128 0xd
 	.string	"CH"
 	.byte	0x2
 	.uahalf	0x953
-	.uaword	0x8754
+	.uaword	0x875c
 	.byte	0x30
 	.uleb128 0x13
 	.string	"reserved_1E0"
 	.byte	0x2
 	.uahalf	0x954
-	.uaword	0x8759
+	.uaword	0x8761
 	.uahalf	0x1e0
 	.uleb128 0x13
 	.string	"INTOV"
 	.byte	0x2
 	.uahalf	0x955
-	.uaword	0x75f0
+	.uaword	0x75f8
 	.uahalf	0x2f8
 	.uleb128 0x13
 	.string	"INP"
 	.byte	0x2
 	.uahalf	0x956
-	.uaword	0x876a
+	.uaword	0x8772
 	.uahalf	0x2fc
 	.uleb128 0x13
 	.string	"reserved_308"
 	.byte	0x2
 	.uahalf	0x957
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x308
 	.uleb128 0x13
 	.string	"INTSTATA"
 	.byte	0x2
 	.uahalf	0x958
-	.uaword	0x878a
+	.uaword	0x8792
 	.uahalf	0x310
 	.uleb128 0x13
 	.string	"reserved_31C"
 	.byte	0x2
 	.uahalf	0x959
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x31c
 	.uleb128 0x13
 	.string	"INTSTATB"
 	.byte	0x2
 	.uahalf	0x95a
-	.uaword	0x879a
+	.uaword	0x87a2
 	.uahalf	0x324
 	.uleb128 0x13
 	.string	"reserved_330"
 	.byte	0x2
 	.uahalf	0x95b
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x330
 	.uleb128 0x13
 	.string	"INTSETA"
 	.byte	0x2
 	.uahalf	0x95c
-	.uaword	0x87aa
+	.uaword	0x87b2
 	.uahalf	0x338
 	.uleb128 0x13
 	.string	"reserved_344"
 	.byte	0x2
 	.uahalf	0x95d
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x344
 	.uleb128 0x13
 	.string	"INTSETB"
 	.byte	0x2
 	.uahalf	0x95e
-	.uaword	0x87ba
+	.uaword	0x87c2
 	.uahalf	0x34c
 	.uleb128 0x13
 	.string	"reserved_358"
 	.byte	0x2
 	.uahalf	0x95f
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x358
 	.uleb128 0x13
 	.string	"INTCLRA"
 	.byte	0x2
 	.uahalf	0x960
-	.uaword	0x87ca
+	.uaword	0x87d2
 	.uahalf	0x360
 	.uleb128 0x13
 	.string	"reserved_36C"
 	.byte	0x2
 	.uahalf	0x961
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x36c
 	.uleb128 0x13
 	.string	"INTCLRB"
 	.byte	0x2
 	.uahalf	0x962
-	.uaword	0x87da
+	.uaword	0x87e2
 	.uahalf	0x374
 	.uleb128 0x13
 	.string	"reserved_380"
 	.byte	0x2
 	.uahalf	0x963
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x380
 	.uleb128 0x13
 	.string	"INTENA"
 	.byte	0x2
 	.uahalf	0x964
-	.uaword	0x87ea
+	.uaword	0x87f2
 	.uahalf	0x388
 	.uleb128 0x13
 	.string	"reserved_394"
 	.byte	0x2
 	.uahalf	0x965
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x394
 	.uleb128 0x13
 	.string	"INTENB"
 	.byte	0x2
 	.uahalf	0x966
-	.uaword	0x87fa
+	.uaword	0x8802
 	.uahalf	0x39c
 	.uleb128 0x13
 	.string	"reserved_3A8"
 	.byte	0x2
 	.uahalf	0x967
-	.uaword	0x880a
+	.uaword	0x8812
 	.uahalf	0x3a8
 	.uleb128 0x13
 	.string	"OCS"
 	.byte	0x2
 	.uahalf	0x968
-	.uaword	0x7a31
+	.uaword	0x7a39
 	.uahalf	0x3cc
 	.uleb128 0x13
 	.string	"ACCEN0"
 	.byte	0x2
 	.uahalf	0x969
-	.uaword	0x6d2e
+	.uaword	0x6d36
 	.uahalf	0x3d0
 	.uleb128 0x13
 	.string	"ACCEN1"
 	.byte	0x2
 	.uahalf	0x96a
-	.uaword	0x6d6e
+	.uaword	0x6d76
 	.uahalf	0x3d4
 	.uleb128 0x13
 	.string	"KRST0"
 	.byte	0x2
 	.uahalf	0x96b
-	.uaword	0x7735
+	.uaword	0x773d
 	.uahalf	0x3d8
 	.uleb128 0x13
 	.string	"KRST1"
 	.byte	0x2
 	.uahalf	0x96c
-	.uaword	0x7774
+	.uaword	0x777c
 	.uahalf	0x3dc
 	.uleb128 0x13
 	.string	"KRSTCLR"
 	.byte	0x2
 	.uahalf	0x96d
-	.uaword	0x77b3
+	.uaword	0x77bb
 	.uahalf	0x3e0
 	.uleb128 0x13
 	.string	"RFC"
 	.byte	0x2
 	.uahalf	0x96e
-	.uaword	0x881a
+	.uaword	0x8822
 	.uahalf	0x3e4
 	.uleb128 0x13
 	.string	"reserved_3F0"
 	.byte	0x2
 	.uahalf	0x96f
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x3f0
 	.uleb128 0x13
 	.string	"RDF"
 	.byte	0x2
 	.uahalf	0x970
-	.uaword	0x882a
+	.uaword	0x8832
 	.uahalf	0x3f8
 	.uleb128 0x13
 	.string	"reserved_404"
 	.byte	0x2
 	.uahalf	0x971
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x404
 	.uleb128 0x13
 	.string	"RSIOV"
 	.byte	0x2
 	.uahalf	0x972
-	.uaword	0x883a
+	.uaword	0x8842
 	.uahalf	0x40c
 	.uleb128 0x13
 	.string	"reserved_418"
 	.byte	0x2
 	.uahalf	0x973
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x418
 	.uleb128 0x13
 	.string	"RMIOV"
 	.byte	0x2
 	.uahalf	0x974
-	.uaword	0x884a
+	.uaword	0x8852
 	.uahalf	0x420
 	.uleb128 0x13
 	.string	"reserved_42C"
 	.byte	0x2
 	.uahalf	0x975
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x42c
 	.uleb128 0x13
 	.string	"NBIOV"
 	.byte	0x2
 	.uahalf	0x976
-	.uaword	0x885a
+	.uaword	0x8862
 	.uahalf	0x434
 	.uleb128 0x13
 	.string	"reserved_440"
 	.byte	0x2
 	.uahalf	0x977
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x440
 	.uleb128 0x13
 	.string	"TEIOV"
 	.byte	0x2
 	.uahalf	0x978
-	.uaword	0x886a
+	.uaword	0x8872
 	.uahalf	0x448
 	.uleb128 0x13
 	.string	"reserved_454"
 	.byte	0x2
 	.uahalf	0x979
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x454
 	.uleb128 0x13
 	.string	"CRCIOV"
 	.byte	0x2
 	.uahalf	0x97a
-	.uaword	0x887a
+	.uaword	0x8882
 	.uahalf	0x45c
 	.uleb128 0x13
 	.string	"reserved_468"
 	.byte	0x2
 	.uahalf	0x97b
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x468
 	.uleb128 0x13
 	.string	"RDIOV"
 	.byte	0x2
 	.uahalf	0x97c
-	.uaword	0x888a
+	.uaword	0x8892
 	.uahalf	0x470
 	.uleb128 0x13
 	.string	"reserved_47C"
 	.byte	0x2
 	.uahalf	0x97d
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x47c
 	.uleb128 0x13
 	.string	"NFIOV"
 	.byte	0x2
 	.uahalf	0x97e
-	.uaword	0x889a
+	.uaword	0x88a2
 	.uahalf	0x484
 	.uleb128 0x13
 	.string	"reserved_490"
 	.byte	0x2
 	.uahalf	0x97f
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x490
 	.uleb128 0x13
 	.string	"MEIOV"
 	.byte	0x2
 	.uahalf	0x980
-	.uaword	0x88aa
+	.uaword	0x88b2
 	.uahalf	0x498
 	.uleb128 0x13
 	.string	"reserved_4A4"
 	.byte	0x2
 	.uahalf	0x981
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x4a4
 	.uleb128 0x13
 	.string	"RSISET"
 	.byte	0x2
 	.uahalf	0x982
-	.uaword	0x88ba
+	.uaword	0x88c2
 	.uahalf	0x4ac
 	.uleb128 0x13
 	.string	"reserved_4B8"
 	.byte	0x2
 	.uahalf	0x983
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x4b8
 	.uleb128 0x13
 	.string	"RMISET"
 	.byte	0x2
 	.uahalf	0x984
-	.uaword	0x88ca
+	.uaword	0x88d2
 	.uahalf	0x4c0
 	.uleb128 0x13
 	.string	"reserved_4CC"
 	.byte	0x2
 	.uahalf	0x985
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x4cc
 	.uleb128 0x13
 	.string	"NBISET"
 	.byte	0x2
 	.uahalf	0x986
-	.uaword	0x88da
+	.uaword	0x88e2
 	.uahalf	0x4d4
 	.uleb128 0x13
 	.string	"reserved_4E0"
 	.byte	0x2
 	.uahalf	0x987
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x4e0
 	.uleb128 0x13
 	.string	"TEISET"
 	.byte	0x2
 	.uahalf	0x988
-	.uaword	0x88ea
+	.uaword	0x88f2
 	.uahalf	0x4e8
 	.uleb128 0x13
 	.string	"reserved_4F4"
 	.byte	0x2
 	.uahalf	0x989
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x4f4
 	.uleb128 0x13
 	.string	"CRCISET"
 	.byte	0x2
 	.uahalf	0x98a
-	.uaword	0x88fa
+	.uaword	0x8902
 	.uahalf	0x4fc
 	.uleb128 0x13
 	.string	"reserved_508"
 	.byte	0x2
 	.uahalf	0x98b
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x508
 	.uleb128 0x13
 	.string	"RDISET"
 	.byte	0x2
 	.uahalf	0x98c
-	.uaword	0x890a
+	.uaword	0x8912
 	.uahalf	0x510
 	.uleb128 0x13
 	.string	"reserved_51C"
 	.byte	0x2
 	.uahalf	0x98d
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x51c
 	.uleb128 0x13
 	.string	"NFISET"
 	.byte	0x2
 	.uahalf	0x98e
-	.uaword	0x891a
+	.uaword	0x8922
 	.uahalf	0x524
 	.uleb128 0x13
 	.string	"reserved_530"
 	.byte	0x2
 	.uahalf	0x98f
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x530
 	.uleb128 0x13
 	.string	"MEISET"
 	.byte	0x2
 	.uahalf	0x990
-	.uaword	0x892a
+	.uaword	0x8932
 	.uahalf	0x538
 	.uleb128 0x13
 	.string	"reserved_544"
 	.byte	0x2
 	.uahalf	0x991
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x544
 	.uleb128 0x13
 	.string	"RSICLR"
 	.byte	0x2
 	.uahalf	0x992
-	.uaword	0x893a
+	.uaword	0x8942
 	.uahalf	0x54c
 	.uleb128 0x13
 	.string	"reserved_558"
 	.byte	0x2
 	.uahalf	0x993
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x558
 	.uleb128 0x13
 	.string	"RMICLR"
 	.byte	0x2
 	.uahalf	0x994
-	.uaword	0x894a
+	.uaword	0x8952
 	.uahalf	0x560
 	.uleb128 0x13
 	.string	"reserved_56C"
 	.byte	0x2
 	.uahalf	0x995
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x56c
 	.uleb128 0x13
 	.string	"NBICLR"
 	.byte	0x2
 	.uahalf	0x996
-	.uaword	0x895a
+	.uaword	0x8962
 	.uahalf	0x574
 	.uleb128 0x13
 	.string	"reserved_580"
 	.byte	0x2
 	.uahalf	0x997
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x580
 	.uleb128 0x13
 	.string	"TEICLR"
 	.byte	0x2
 	.uahalf	0x998
-	.uaword	0x896a
+	.uaword	0x8972
 	.uahalf	0x588
 	.uleb128 0x13
 	.string	"reserved_594"
 	.byte	0x2
 	.uahalf	0x999
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x594
 	.uleb128 0x13
 	.string	"CRCICLR"
 	.byte	0x2
 	.uahalf	0x99a
-	.uaword	0x897a
+	.uaword	0x8982
 	.uahalf	0x59c
 	.uleb128 0x13
 	.string	"reserved_5A8"
 	.byte	0x2
 	.uahalf	0x99b
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x5a8
 	.uleb128 0x13
 	.string	"RDICLR"
 	.byte	0x2
 	.uahalf	0x99c
-	.uaword	0x898a
+	.uaword	0x8992
 	.uahalf	0x5b0
 	.uleb128 0x13
 	.string	"reserved_5BC"
 	.byte	0x2
 	.uahalf	0x99d
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x5bc
 	.uleb128 0x13
 	.string	"NFICLR"
 	.byte	0x2
 	.uahalf	0x99e
-	.uaword	0x899a
+	.uaword	0x89a2
 	.uahalf	0x5c4
 	.uleb128 0x13
 	.string	"reserved_5D0"
 	.byte	0x2
 	.uahalf	0x99f
-	.uaword	0x877a
+	.uaword	0x8782
 	.uahalf	0x5d0
 	.uleb128 0x13
 	.string	"MEICLR"
 	.byte	0x2
 	.uahalf	0x9a0
-	.uaword	0x89aa
+	.uaword	0x89b2
 	.uahalf	0x5d8
 	.uleb128 0x13
 	.string	"reserved_5E4"
 	.byte	0x2
 	.uahalf	0x9a1
-	.uaword	0x89ba
+	.uaword	0x89c2
 	.uahalf	0x5e4
 	.uleb128 0x13
 	.string	"RDM"
 	.byte	0x2
 	.uahalf	0x9a2
-	.uaword	0x89e0
+	.uaword	0x89e8
 	.uahalf	0x600
 	.uleb128 0x13
 	.string	"reserved_900"
 	.byte	0x2
 	.uahalf	0x9a3
-	.uaword	0x89e5
+	.uaword	0x89ed
 	.uahalf	0x900
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7ff3
-	.uaword	0x8744
+	.uaword	0x7ffb
+	.uaword	0x874c
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x3
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x8004
-	.uaword	0x8754
+	.uaword	0x800c
+	.uaword	0x875c
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x8744
+	.uaword	0x874c
 	.uleb128 0xe
-	.uaword	0x7ff3
-	.uaword	0x876a
+	.uaword	0x7ffb
+	.uaword	0x8772
 	.uleb128 0x14
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.uahalf	0x117
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x74b1
-	.uaword	0x877a
+	.uaword	0x74b9
+	.uaword	0x8782
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7ff3
-	.uaword	0x878a
+	.uaword	0x7ffb
+	.uaword	0x8792
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x7
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x76b1
-	.uaword	0x879a
+	.uaword	0x76b9
+	.uaword	0x87a2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x76f3
-	.uaword	0x87aa
+	.uaword	0x76fb
+	.uaword	0x87b2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x762f
-	.uaword	0x87ba
+	.uaword	0x7637
+	.uaword	0x87c2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7670
-	.uaword	0x87ca
+	.uaword	0x7678
+	.uaword	0x87d2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x74ee
-	.uaword	0x87da
+	.uaword	0x74f6
+	.uaword	0x87e2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x752f
-	.uaword	0x87ea
+	.uaword	0x7537
+	.uaword	0x87f2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7570
-	.uaword	0x87fa
+	.uaword	0x7578
+	.uaword	0x8802
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x75b0
-	.uaword	0x880a
+	.uaword	0x75b8
+	.uaword	0x8812
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7ff3
-	.uaword	0x881a
+	.uaword	0x7ffb
+	.uaword	0x8822
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x23
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7be8
-	.uaword	0x882a
+	.uaword	0x7bf0
+	.uaword	0x8832
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7a6e
-	.uaword	0x883a
+	.uaword	0x7a76
+	.uaword	0x8842
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7d24
-	.uaword	0x884a
+	.uaword	0x7d2c
+	.uaword	0x8852
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7c65
-	.uaword	0x885a
+	.uaword	0x7c6d
+	.uaword	0x8862
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x78f3
-	.uaword	0x886a
+	.uaword	0x78fb
+	.uaword	0x8872
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7de3
-	.uaword	0x887a
+	.uaword	0x7deb
+	.uaword	0x8882
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x733c
-	.uaword	0x888a
+	.uaword	0x7344
+	.uaword	0x8892
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7aeb
-	.uaword	0x889a
+	.uaword	0x7af3
+	.uaword	0x88a2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x79b2
-	.uaword	0x88aa
+	.uaword	0x79ba
+	.uaword	0x88b2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7834
-	.uaword	0x88ba
+	.uaword	0x783c
+	.uaword	0x88c2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7d63
-	.uaword	0x88ca
+	.uaword	0x7d6b
+	.uaword	0x88d2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7ca4
-	.uaword	0x88da
+	.uaword	0x7cac
+	.uaword	0x88e2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7932
-	.uaword	0x88ea
+	.uaword	0x793a
+	.uaword	0x88f2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7e22
-	.uaword	0x88fa
+	.uaword	0x7e2a
+	.uaword	0x8902
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x737c
-	.uaword	0x890a
+	.uaword	0x7384
+	.uaword	0x8912
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7b2a
-	.uaword	0x891a
+	.uaword	0x7b32
+	.uaword	0x8922
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x79f1
-	.uaword	0x892a
+	.uaword	0x79f9
+	.uaword	0x8932
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7873
-	.uaword	0x893a
+	.uaword	0x787b
+	.uaword	0x8942
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7ce4
-	.uaword	0x894a
+	.uaword	0x7cec
+	.uaword	0x8952
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7c25
-	.uaword	0x895a
+	.uaword	0x7c2d
+	.uaword	0x8962
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x78b3
-	.uaword	0x896a
+	.uaword	0x78bb
+	.uaword	0x8972
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7da3
-	.uaword	0x897a
+	.uaword	0x7dab
+	.uaword	0x8982
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x72fb
-	.uaword	0x898a
+	.uaword	0x7303
+	.uaword	0x8992
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7aab
-	.uaword	0x899a
+	.uaword	0x7ab3
+	.uaword	0x89a2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7972
-	.uaword	0x89aa
+	.uaword	0x797a
+	.uaword	0x89b2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x77f4
-	.uaword	0x89ba
+	.uaword	0x77fc
+	.uaword	0x89c2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x7ff3
-	.uaword	0x89ca
+	.uaword	0x7ffb
+	.uaword	0x89d2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x1b
 	.byte	0
 	.uleb128 0xe
-	.uaword	0x801d
-	.uaword	0x89e0
+	.uaword	0x8025
+	.uaword	0x89e8
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x2
 	.uleb128 0xf
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.byte	0x1f
 	.byte	0
 	.uleb128 0x10
-	.uaword	0x89ca
+	.uaword	0x89d2
 	.uleb128 0xe
-	.uaword	0x7ff3
-	.uaword	0x89f6
+	.uaword	0x7ffb
+	.uaword	0x89fe
 	.uleb128 0x14
-	.uaword	0x7fc7
+	.uaword	0x7fcf
 	.uahalf	0x1ff
 	.byte	0
 	.uleb128 0x8
 	.string	"Ifx_PSI5"
 	.byte	0x2
 	.uahalf	0x9a4
-	.uaword	0x8a07
+	.uaword	0x8a0f
 	.uleb128 0x10
-	.uaword	0x804b
+	.uaword	0x8053
 	.uleb128 0x4
 	.byte	0x4
 	.byte	0x5
@@ -16200,7 +16200,7 @@ IfxPsi5_enableModule:
 	.string	"uint16"
 	.byte	0x3
 	.byte	0x5b
-	.uaword	0x8a57
+	.uaword	0x8a5f
 	.uleb128 0x4
 	.byte	0x2
 	.byte	0x7
@@ -16227,7 +16227,7 @@ IfxPsi5_enableModule:
 	.string	"char"
 	.uleb128 0x15
 	.byte	0x4
-	.uaword	0x89f6
+	.uaword	0x89fe
 	.uleb128 0x16
 	.byte	0x1
 	.string	"IfxPsi5_disableModule"
@@ -16239,26 +16239,26 @@ IfxPsi5_enableModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x8b31
+	.uaword	0x8b39
 	.uleb128 0x17
 	.string	"psi5"
 	.byte	0x1
 	.byte	0x23
-	.uaword	0x8ab3
+	.uaword	0x8abb
 	.uaword	.LLST0
 	.uleb128 0x18
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x25
-	.uaword	0x8a49
+	.uaword	0x8a51
 	.uaword	.LLST1
 	.uleb128 0x19
 	.uaword	.LVL1
-	.uaword	0x8c45
+	.uaword	0x8c4d
 	.uleb128 0x1a
 	.uaword	.LVL3
-	.uaword	0x8c71
-	.uaword	0x8b1f
+	.uaword	0x8c79
+	.uaword	0x8b27
 	.uleb128 0x1b
 	.byte	0x1
 	.byte	0x54
@@ -16269,7 +16269,7 @@ IfxPsi5_enableModule:
 	.uleb128 0x1c
 	.uaword	.LVL4
 	.byte	0x1
-	.uaword	0x8c9b
+	.uaword	0x8ca3
 	.uleb128 0x1b
 	.byte	0x1
 	.byte	0x54
@@ -16289,26 +16289,26 @@ IfxPsi5_enableModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x8bcf
+	.uaword	0x8bd7
 	.uleb128 0x17
 	.string	"psi5"
 	.byte	0x1
 	.byte	0x2c
-	.uaword	0x8ab3
+	.uaword	0x8abb
 	.uaword	.LLST2
 	.uleb128 0x18
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x2e
-	.uaword	0x8a49
+	.uaword	0x8a51
 	.uaword	.LLST3
 	.uleb128 0x19
 	.uaword	.LVL6
-	.uaword	0x8c45
+	.uaword	0x8c4d
 	.uleb128 0x1a
 	.uaword	.LVL8
-	.uaword	0x8c71
-	.uaword	0x8b95
+	.uaword	0x8c79
+	.uaword	0x8b9d
 	.uleb128 0x1b
 	.byte	0x1
 	.byte	0x54
@@ -16318,8 +16318,8 @@ IfxPsi5_enableModule:
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LVL9
-	.uaword	0x8c9b
-	.uaword	0x8ba9
+	.uaword	0x8ca3
+	.uaword	0x8bb1
 	.uleb128 0x1b
 	.byte	0x1
 	.byte	0x54
@@ -16329,8 +16329,8 @@ IfxPsi5_enableModule:
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LVL10
-	.uaword	0x8c71
-	.uaword	0x8bbd
+	.uaword	0x8c79
+	.uaword	0x8bc5
 	.uleb128 0x1b
 	.byte	0x1
 	.byte	0x54
@@ -16341,7 +16341,7 @@ IfxPsi5_enableModule:
 	.uleb128 0x1c
 	.uaword	.LVL11
 	.byte	0x1
-	.uaword	0x8c9b
+	.uaword	0x8ca3
 	.uleb128 0x1b
 	.byte	0x1
 	.byte	0x54
@@ -16361,26 +16361,26 @@ IfxPsi5_enableModule:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x8c45
+	.uaword	0x8c4d
 	.uleb128 0x17
 	.string	"psi5"
 	.byte	0x1
 	.byte	0x3e
-	.uaword	0x8ab3
+	.uaword	0x8abb
 	.uaword	.LLST4
 	.uleb128 0x18
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x40
-	.uaword	0x8a49
+	.uaword	0x8a51
 	.uaword	.LLST5
 	.uleb128 0x19
 	.uaword	.LVL13
-	.uaword	0x8c45
+	.uaword	0x8c4d
 	.uleb128 0x1a
 	.uaword	.LVL15
-	.uaword	0x8c71
-	.uaword	0x8c34
+	.uaword	0x8c79
+	.uaword	0x8c3c
 	.uleb128 0x1b
 	.byte	0x1
 	.byte	0x54
@@ -16390,7 +16390,7 @@ IfxPsi5_enableModule:
 	.byte	0
 	.uleb128 0x1d
 	.uaword	.LVL16
-	.uaword	0x8c9b
+	.uaword	0x8ca3
 	.uleb128 0x1b
 	.byte	0x1
 	.byte	0x54
@@ -16405,7 +16405,7 @@ IfxPsi5_enableModule:
 	.byte	0x4
 	.uahalf	0x16d
 	.byte	0x1
-	.uaword	0x8a49
+	.uaword	0x8a51
 	.byte	0x1
 	.uleb128 0x1f
 	.byte	0x1
@@ -16414,9 +16414,9 @@ IfxPsi5_enableModule:
 	.byte	0xc5
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x8c9b
+	.uaword	0x8ca3
 	.uleb128 0x20
-	.uaword	0x8a49
+	.uaword	0x8a51
 	.byte	0
 	.uleb128 0x21
 	.byte	0x1
@@ -16426,7 +16426,7 @@ IfxPsi5_enableModule:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x20
-	.uaword	0x8a49
+	.uaword	0x8a51
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits

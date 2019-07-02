@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
-# 1 "C:\\Users\\user\\Documents\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\JB\\Documents\\Github\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
@@ -16930,6 +16930,8 @@ extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);
 extern void clearBuffer(void);
+extern boolean IsOutSchoolZone(void);
+
 
 extern float32 Direction(void);
 # 5 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c" 2
@@ -29010,7 +29012,8 @@ extern float32 IR_AdcResult[];
 
 extern void BasicVadcBgScan_init(void);
 extern void BasicVadcBgScan_run(void);
-extern void Checking_PSD(void);
+extern boolean Checking_PSD(void);
+extern void resetPSD(void);
 # 8 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.h" 1
 # 16 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.h"
@@ -31814,9 +31817,8 @@ void median_filter(void) {
 
 void getLineData (void){
     uint32 index = 0;
- uint32 pixelCounter = 0;
     uint32 MaxVal = 0;
- index = 0;
+
     if(!IR_LineData.Direction_Determined){
      for(index = 5; index < 128 - 5; index++){
             if(IR_LineData.Result[index] > MaxVal){
@@ -31827,30 +31829,44 @@ void getLineData (void){
 
         uint32 SCHOOLZONE_DETECTION = MaxVal/2;
 
-     for(index = 5; index < 128 - 5; index++){
+     for(index = IR_LineData.previous; index < 128 - 5; index++){
             if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION)
                 IR_LineData.School_Zone_flag = 1;
-            else
-                IR_LineData.School_Zone_flag = 0;
         }
         IR_LineData.Direction_Determined = 1;
     }
+
     else{
      for(index = 5; index < 128 - 5; index++){
-            if(IR_LineData.Result[index] > MaxVal)
+            if(IR_LineData.Result[index] > MaxVal){
                 IR_LineData.present= index;
                 MaxVal = IR_LineData.Result[index];
-            else
-                IR_LineData.School_Zone_flag = 0;
+            }
         }
 
         uint32 SCHOOLZONE_DETECTION = MaxVal/2;
 
-     for(index = 5; index < 128 - 5; index++){
+     for(index = IR_LineData.present; index < 128 - 5; index++){
             if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION)
                 IR_LineData.School_Zone_flag = 1;
         }
         IR_LineData.Direction_Determined = 0;
+    }
+
+
+}
+
+boolean IsOutSchoolZone(void){
+    uint32 index = 0;
+    uint32 MaxVal = IR_LineData.Result[IR_LineData.present];
+
+    uint32 SCHOOLZONE_DETECTION = MaxVal/2;
+
+    for(index = IR_LineData.present; index < 128 - 5; index++){
+        if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION){
+            IR_LineData.School_Zone_flag = 0;
+            return 0;
+        }
     }
 
 

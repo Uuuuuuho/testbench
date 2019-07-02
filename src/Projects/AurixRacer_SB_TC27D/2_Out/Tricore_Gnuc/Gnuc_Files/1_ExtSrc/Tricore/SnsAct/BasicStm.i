@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicStm.c"
-# 1 "C:\\Users\\user\\Documents\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\JB\\Documents\\Github\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicStm.c"
@@ -28984,7 +28984,8 @@ extern float32 IR_AdcResult[];
 
 extern void BasicVadcBgScan_init(void);
 extern void BasicVadcBgScan_run(void);
-extern void Checking_PSD(void);
+extern boolean Checking_PSD(void);
+extern void resetPSD(void);
 # 8 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.h" 1
 # 16 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicGpt12Enc.h"
@@ -35473,6 +35474,8 @@ extern void median_filter(void);
 extern void convolutionOP(void);
 extern void getLineData (void);
 extern void clearBuffer(void);
+extern boolean IsOutSchoolZone(void);
+
 
 extern float32 Direction(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
@@ -35696,7 +35699,6 @@ void STM_Int0Handler(void)
     task_flag_1m = 1;
 
     if(g_Stm.counter % 10 == 0){
-        Checking_PSD();
      task_flag_10m = 1;
     }
     if(g_Stm.counter % 100 == 0){

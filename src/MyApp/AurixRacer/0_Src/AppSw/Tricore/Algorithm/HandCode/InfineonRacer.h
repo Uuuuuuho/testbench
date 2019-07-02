@@ -82,6 +82,8 @@ IFX_EXTERN void median_filter(void);
 IFX_EXTERN void convolutionOP(void);
 IFX_EXTERN void getLineData (void);
 IFX_EXTERN void clearBuffer(void);
+IFX_EXTERN boolean IsOutSchoolZone(void);
+
 
 IFX_EXTERN float32 Direction(void);
 

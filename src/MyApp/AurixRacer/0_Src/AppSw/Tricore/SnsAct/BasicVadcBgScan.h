@@ -46,6 +46,7 @@ IFX_EXTERN float32 IR_AdcResult[];
 /******************************************************************************/
 IFX_EXTERN void BasicVadcBgScan_init(void);
 IFX_EXTERN void BasicVadcBgScan_run(void);
-IFX_EXTERN void Checking_PSD(void);
+IFX_EXTERN boolean Checking_PSD(void);
+IFX_EXTERN void resetPSD(void);
 
 #endif
