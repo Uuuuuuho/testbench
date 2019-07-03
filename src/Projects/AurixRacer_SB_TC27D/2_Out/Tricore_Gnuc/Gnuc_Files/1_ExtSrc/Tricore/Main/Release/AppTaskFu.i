@@ -35422,7 +35422,7 @@ extern void AsclinShellInterface_run(void);
 extern void AsclinShellInterface_runLineScan(void);
 # 8 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 1
-# 46 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 44 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
@@ -35448,7 +35448,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 79 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 77 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -35463,6 +35463,11 @@ extern void median_filter_RIGHT(void);
 
 extern void convolutionOP(void);
 extern void getLineData (void);
+
+extern void threshold_LINE(void);
+extern boolean is_THRESHOLD(void);
+
+
 extern void clearBuffer(void);
 
 extern void convolutionOP_RIGHT(void);
@@ -35472,7 +35477,14 @@ extern void clearBuffer_RIGHT(void);
 
 extern boolean IsOutSchoolZone(void);
 extern boolean IsInSchoolZone(void);
+
+extern boolean IsOutSchoolZone_THRESHOLD(void);
+extern boolean IsInSchoolZone_THRESHOLD(void);
+
+
 extern boolean Boundary(void);
+extern boolean Over_Boundary(void);
+
 
 extern float32 Direction(void);
 extern float32 Direction_CENTER(void);
@@ -35632,7 +35644,7 @@ extern void IR_Controller_terminate(void);
 
 extern RT_MODEL_IR_Controller *const IR_Controller_M;
 # 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
-# 26 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
+# 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
 extern boolean task_flag_1m;
 extern boolean task_flag_10m;
 extern boolean task_flag_100m;
@@ -35671,10 +35683,10 @@ boolean task_flag_10m = 0;
 boolean task_flag_100m = 0;
 boolean task_flag_1000m = 0;
 
-float32 testVol = -0.5;
+float32 testVol = 1;
 float32 testSrv = 0;
 float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0, NextVol = 0;
-
+float32 signORunsign = 0;
 
 
 
@@ -35721,8 +35733,31 @@ void appTaskfu_10ms(void)
 
     Speed_Avg();
 
+    BasicLineScan_run();
+    median_filter();
+    Line_Buffer();
+
+    threshold_LINE();
+
+    if(!is_THRESHOLD())
+        SrvControl(-0.1);
+    else{
+        if(Boundary()){
+            if(!Over_Boundary()){
+                SrvControl(Direction_CENTER());
+            }
+            else{
+                SrvControl(-0.1);
+            }
+        }
+    }
 
 
+    if(!IR_LineData.School_Zone_flag)
+        IsInSchoolZone_THRESHOLD();
+    else
+        IsOutSchoolZone_THRESHOLD();
+# 162 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
     if(Checking_PSD()){
         if(!IR_LineData.School_Zone_flag){
             AEB();
@@ -35735,7 +35770,7 @@ void appTaskfu_10ms(void)
     else{
         IR_setMotor0Vol(testVol);
     }
-# 95 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 184 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
  }
@@ -35765,51 +35800,17 @@ void appTaskfu_10ms(void)
 void appTaskfu_100ms(void)
 {
  task_cnt_100m++;
-
-    BasicLineScan_run();
-
-
-    median_filter();
-    Line_Buffer();
-
-
-
-
-
-    if(task_cnt_100m % 5 == 0){
-
-     Line_avgerage();
-     convolutionOP();
-        getLineData();
-
-
-
-
-
-
-    }
-
-    if(task_cnt_100m % 10 == 0){
-        if(!IR_LineData.School_Zone_flag)
-            IsInSchoolZone();
-        else
-            IsOutSchoolZone();
-
-        if(Boundary()){
-           SrvControl(Direction());
-        }
-    }
-# 169 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 225 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 183 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 239 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
-# 214 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 270 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
 
@@ -35851,8 +35852,8 @@ void Speed2Vol(void){
 
 void SrvControl(float32 diff){
 
-           float32 result = -0.4 - diff / 108;
-              IR_setSrvAngle(result);
+    float32 result = -0.4 - diff / 108;
+    IR_setSrvAngle(result);
 
 
 }

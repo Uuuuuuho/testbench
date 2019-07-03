@@ -20,8 +20,9 @@
 
 #define ENCODER_TEST OFF
 #define PID_TEST OFF
-
-
+#define CONVOLUTION OFF
+#define LINE_THRESHOLD ON
+#define BUFFER OFF
 
 IFX_EXTERN boolean task_flag_1m;
 IFX_EXTERN boolean task_flag_10m;

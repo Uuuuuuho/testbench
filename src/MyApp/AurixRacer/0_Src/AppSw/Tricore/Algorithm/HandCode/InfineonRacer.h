@@ -18,21 +18,19 @@
 #define TransferLen 3
 #define SignalLen LINEMAX
 #define MEDIAN_SIZE 5
-#define IGNOREIDX 5
+#define IGNOREIDX 4
 
 #define LEFTLINESCAN 0  //linescanner index
 #define RIGHTLINESCAN 1 //linescanner index
 
-#define CENTER_INDEX 64
+#define CENTER_INDEX 40
 #define BOUNDARY 10
 
 #define STAY 0
 #define TURN_LEFT 1
 #define TURN_RIGHT 2
 #define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
-
-#define CENTER_INDEX 60
-#define BOUNDARY 5
+#define THRESHOLD 1000
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/
@@ -90,6 +88,11 @@ IFX_EXTERN void median_filter_RIGHT(void);
 
 IFX_EXTERN void convolutionOP(void);
 IFX_EXTERN void getLineData (void);
+
+IFX_EXTERN void threshold_LINE(void);
+IFX_EXTERN boolean is_THRESHOLD(void);
+
+
 IFX_EXTERN void clearBuffer(void);
 
 IFX_EXTERN void convolutionOP_RIGHT(void);
@@ -99,7 +102,14 @@ IFX_EXTERN void clearBuffer_RIGHT(void);
 
 IFX_EXTERN boolean IsOutSchoolZone(void);
 IFX_EXTERN boolean IsInSchoolZone(void);
+
+IFX_EXTERN boolean IsOutSchoolZone_THRESHOLD(void);
+IFX_EXTERN boolean IsInSchoolZone_THRESHOLD(void);
+
+
 IFX_EXTERN boolean Boundary(void);
+IFX_EXTERN boolean Over_Boundary(void);
+
 
 IFX_EXTERN float32 Direction(void);
 IFX_EXTERN float32 Direction_CENTER(void);

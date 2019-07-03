@@ -75,7 +75,7 @@ void Line_Buffer_RIGHT(void){
 
 void Line_avgerage(void){
     for(uint32 index = 0; index < LINEMAX; index++){
-        IR_LineScan.adcBuffer[0][index] = IR_LineScan.adcBuffer[0][index] / 5;
+        IR_LineScan.adcBuffer[0][index] /= 5;
     }
     
 }
@@ -174,6 +174,48 @@ void median_filter_RIGHT(void) {
 	  }
 }
 
+boolean is_THRESHOLD(void){
+    uint32 index = 0;
+    float32 threshold = THRESHOLD;
+
+    for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineScan.adcBuffer[0][index] < threshold){
+            return TRUE;
+        }
+    }
+    return FALSE;
+}
+
+void threshold_LINE(void){
+    uint32 index = 0;
+    float32 threshold = THRESHOLD;
+    float32 MinVal = 500000;
+
+    if(!IR_LineData.Direction_Determined){
+    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+            if(IR_LineScan.adcBuffer[0][index] < threshold){
+                if(IR_LineScan.adcBuffer[0][index] < MinVal){
+                    IR_LineData.previous = index;
+                    MinVal = IR_LineScan.adcBuffer[0][index];
+                }
+            }
+        }
+    	IR_LineData.Direction_Determined = TRUE;
+    }
+
+    else{
+    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+            if(IR_LineScan.adcBuffer[0][index] < threshold){
+                if(IR_LineScan.adcBuffer[0][index] < MinVal){
+                    IR_LineData.present = index;
+                    MinVal = IR_LineScan.adcBuffer[0][index];
+                }
+            }
+        }
+    	IR_LineData.Direction_Determined = FALSE;
+    }
+}
+
 void getLineData (void){    //left linescanner only
     uint32 index = 0;
     int MaxVal = 0;
@@ -228,6 +270,33 @@ void getLineData_RIGHT (void){    //left linescanner only
 
 }
 
+boolean IsInSchoolZone_THRESHOLD(void){
+    uint32 index = 0;
+    uint32 Min = IR_LineScan[0][IR_LineData.present];
+    uint32 SCHOOLZONE_DETECTION = MinVal * 2;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+
+    for(index = IR_LineData.present; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineScan[0][index] < SCHOOLZONE_DETECTION){
+            IR_LineData.School_Zone_flag = TRUE;
+
+        }
+    }
+    return IR_LineData.School_Zone_flag;
+}
+
+boolean IsOutSchoolZone_THRESHOLD(void){
+    uint32 index = 0;
+    uint32 Min = IR_LineScan[0][IR_LineData.present];
+    uint32 SCHOOLZONE_DETECTION = MinVal * 2;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+
+    for(index = IR_LineData.present; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineScan[0][index] < SCHOOLZONE_DETECTION){
+            IR_LineData.School_Zone_flag = FALSE;
+        }
+    }
+    return IR_LineData.School_Zone_flag;
+}
+
 boolean IsInSchoolZone(void){
     uint32 index = 0;
     uint32 MaxVal = IR_LineData.Result[IR_LineData.present];
@@ -275,5 +344,10 @@ boolean Boundary(void){
 		return TRUE;
 }
 
-
+boolean Over_Boundary(void){
+    if(IR_LineData.present < MIN_INDEX)
+        return TRUE;
+    else
+        return FALSE;
+}
 

@@ -10,10 +10,10 @@ boolean task_flag_10m = FALSE;
 boolean task_flag_100m = FALSE;
 boolean task_flag_1000m = FALSE;
 
-float32 testVol = -0.5;
+float32 testVol = 1;
 float32 testSrv = 0;
 float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0, NextVol = 0;
-
+float32 signORunsign = 0;
 
 
 
@@ -67,9 +67,98 @@ void appTaskfu_10ms(void)
 	task_cnt_10m++;
     //empty buffer after calculating average of speed
     Speed_Avg();
-    
+#if BUFFER == OFF
+    BasicLineScan_run();
+    median_filter();
+    Line_Buffer();
+#if LINE_THRESHOLD == ON
+    threshold_LINE();
 
+    if(!is_THRESHOLD())     //lane을 전혀 찾지못하는 경우
+        SrvControl(-0.1);    //turn left to detect line
+    else{
+        if(Boundary()){ //if present index is out of boundary
+            if(!Over_Boundary()){   //when over minimum boundary
+                SrvControl(Direction_CENTER());    //determine wheel direction
+            }
+            else{   //when out of boundary
+                SrvControl(-0.1);    //turn left to detect line
+            }
+        }
+    }
+
+
+    if(!IR_LineData.School_Zone_flag)
+        IsInSchoolZone_THRESHOLD();
+    else
+        IsOutSchoolZone_THRESHOLD();
     
+#endif
+
+#endif
+
+#if BUFFER == ON
+    //get line data in every 0.01 sec
+    if(task_cnt_10m % 5 == 0){
+        BasicLineScan_run();
+
+        //LEFT LINE
+        median_filter();
+        Line_Buffer();
+
+    //RIGHT LINE
+//    median_filter_RIGHT();
+//    Line_Buffer_RIGHT();
+    }
+    
+    if(task_cnt_10m % 25 == 0){
+    	//LEFT LINE
+    	Line_avgerage();
+
+#if CONVOLUTION == ON
+    	convolutionOP();
+        getLineData();
+#endif
+
+#if LINE_THRESHOLD == ON
+        threshold_LINE();
+#endif
+        //RIGHT LINE
+//        Line_avgerage_RIGHT();
+//        convolutionOP_RIGHT();
+//        getLineData_RIGHT();
+
+    }
+
+    if(task_cnt_10m % 50 == 0){
+        if(!IR_LineData.School_Zone_flag)
+            IsInSchoolZone();
+        else
+            IsOutSchoolZone();
+#if CONVOLUTION == ON
+        if(Boundary()){ //if present index is out of boundary
+          	SrvControl(Direction());    //determine wheel direction
+        }
+#endif
+
+#if LINE_THRESHOLD == ON
+        if(!is_THRESHOLD())
+            SrvControl(-0.1);    //turn left to detect line
+        else{
+            if(Boundary()){ //if present index is out of boundary
+                if(!Over_Boundary()){   //if is in the boundary
+                    SrvControl(Direction_CENTER());    //determine wheel direction
+                }
+                else{   //when out of boundary
+                    SrvControl(-0.1);    //turn left to detect line
+                }
+            }
+        }
+#endif
+    }
+    
+#endif
+
     if(Checking_PSD()){
         if(!IR_LineData.School_Zone_flag){
             AEB();
@@ -121,40 +210,7 @@ void appTaskfu_10ms(void)
 void appTaskfu_100ms(void)
 {
 	task_cnt_100m++;
-    //get line data in every 0.1 sec
-    BasicLineScan_run();
 
-    //LEFT LINE
-    median_filter();
-    Line_Buffer();
-
-    //RIGHT LINE
-//    median_filter_RIGHT();
-//    Line_Buffer_RIGHT();
-
-    if(task_cnt_100m % 5 == 0){
-    	//LEFT LINE
-    	Line_avgerage();
-    	convolutionOP();
-        getLineData();
-
-        //RIGHT LINE
-//        Line_avgerage_RIGHT();
-//        convolutionOP_RIGHT();
-//        getLineData_RIGHT();
-
-    }
-
-    if(task_cnt_100m % 10 == 0){
-        if(!IR_LineData.School_Zone_flag)
-            IsInSchoolZone();
-        else
-            IsOutSchoolZone();
-
-        if(Boundary()){ //if present index is out of boundary
-          	SrvControl(Direction());    //determine wheel direction
-        }
-    }
 
 #if PID_TEST == ON
     PID(void);
@@ -252,8 +308,8 @@ void Speed2Vol(void){
 
 void SrvControl(float32 diff){
 
-	        	 float32 result = -0.4 - diff / 108;
-	        	    IR_setSrvAngle(result);
+    float32 result = -0.4 - diff / 108;
+    IR_setSrvAngle(result);
 
 
 }
