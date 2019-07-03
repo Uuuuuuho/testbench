@@ -54,10 +54,10 @@ void appTaskfu_1ms(void)
 
 		BasicGpt12Enc_IR_Encoder_reset();
 	}
-	BasicGpt12Enc_run();
+    BasicGpt12Enc_run();
     SpeedCalculation();
     Speed_Buff();
-	//printf("1ms!\n");
+    //printf("1ms!\n");
 
 }
 
@@ -99,7 +99,7 @@ void appTaskfu_10ms(void)
 	if(task_cnt_10m%2 == 0){
         
         BasicGtmTom_run();
-		BasicPort_run();
+	BasicPort_run();
 
         //checking PSD
         BasicVadcBgScan_run();
@@ -122,15 +122,15 @@ void appTaskfu_100ms(void)
 {
 	task_cnt_100m++;
     //get line data in every 0.1 sec
-	BasicLineScan_run();
+    BasicLineScan_run();
 
-	//LEFT LINE
+    //LEFT LINE
     median_filter();
     Line_Buffer();
 
     //RIGHT LINE
-    median_filter_RIGHT();
-    Line_Buffer_RIGHT();
+//    median_filter_RIGHT();
+//    Line_Buffer_RIGHT();
 
     if(task_cnt_100m % 5 == 0){
     	//LEFT LINE
@@ -139,9 +139,9 @@ void appTaskfu_100ms(void)
         getLineData();
 
         //RIGHT LINE
-        Line_avgerage_RIGHT();
-        convolutionOP_RIGHT();
-        getLineData_RIGHT();
+//        Line_avgerage_RIGHT();
+//        convolutionOP_RIGHT();
+//        getLineData_RIGHT();
 
     }
 
@@ -151,11 +151,9 @@ void appTaskfu_100ms(void)
         else
             IsOutSchoolZone();
 
-//        if(Boundary()){
-  //      	SrvControl(Direction());    //determine wheel direction
-    //    }
-        SrvControl(Direction());    //determine wheel direction
-        
+        if(Boundary()){ //if present index is out of boundary
+          	SrvControl(Direction());    //determine wheel direction
+        }
     }
 
 #if PID_TEST == ON
@@ -218,7 +216,7 @@ void appTaskfu_1000ms(void)
         
 	}
 	//printf("1000ms!\n");
-
+ 
 #if ENCODER_TEST == ON
 	IR_setSrvAngle(testSrv);
 #endif

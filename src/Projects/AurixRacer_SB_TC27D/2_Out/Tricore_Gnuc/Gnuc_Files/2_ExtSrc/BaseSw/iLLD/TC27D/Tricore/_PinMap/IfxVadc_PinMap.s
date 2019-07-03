@@ -1514,7 +1514,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.file 7 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x8421
+	.uaword	0x8416
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -1522,19 +1522,19 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c"
-	.string	"C:\\\\Users\\\\boldasl\\\\SEUNGHO\\\\Workspace\\\\GitHub\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\Jimmy\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_line0
 	.uleb128 0x2
 	.string	"_Ifx_VADC_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0x31
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0x3
 	.string	"EN0"
 	.byte	0x1
 	.byte	0x33
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1543,7 +1543,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN1"
 	.byte	0x1
 	.byte	0x34
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1552,7 +1552,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN2"
 	.byte	0x1
 	.byte	0x35
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1561,7 +1561,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN3"
 	.byte	0x1
 	.byte	0x36
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1570,7 +1570,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN4"
 	.byte	0x1
 	.byte	0x37
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1579,7 +1579,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN5"
 	.byte	0x1
 	.byte	0x38
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1588,7 +1588,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN6"
 	.byte	0x1
 	.byte	0x39
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1597,7 +1597,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN7"
 	.byte	0x1
 	.byte	0x3a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1606,7 +1606,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN8"
 	.byte	0x1
 	.byte	0x3b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1615,7 +1615,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN9"
 	.byte	0x1
 	.byte	0x3c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1624,7 +1624,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN10"
 	.byte	0x1
 	.byte	0x3d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1633,7 +1633,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN11"
 	.byte	0x1
 	.byte	0x3e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1642,7 +1642,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN12"
 	.byte	0x1
 	.byte	0x3f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1651,7 +1651,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN13"
 	.byte	0x1
 	.byte	0x40
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1660,7 +1660,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN14"
 	.byte	0x1
 	.byte	0x41
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1669,7 +1669,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN15"
 	.byte	0x1
 	.byte	0x42
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1678,7 +1678,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN16"
 	.byte	0x1
 	.byte	0x43
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1687,7 +1687,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN17"
 	.byte	0x1
 	.byte	0x44
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1696,7 +1696,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN18"
 	.byte	0x1
 	.byte	0x45
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1705,7 +1705,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN19"
 	.byte	0x1
 	.byte	0x46
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1714,7 +1714,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN20"
 	.byte	0x1
 	.byte	0x47
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1723,7 +1723,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN21"
 	.byte	0x1
 	.byte	0x48
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1732,7 +1732,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN22"
 	.byte	0x1
 	.byte	0x49
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1741,7 +1741,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN23"
 	.byte	0x1
 	.byte	0x4a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1750,7 +1750,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN24"
 	.byte	0x1
 	.byte	0x4b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1759,7 +1759,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN25"
 	.byte	0x1
 	.byte	0x4c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1768,7 +1768,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN26"
 	.byte	0x1
 	.byte	0x4d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1777,7 +1777,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN27"
 	.byte	0x1
 	.byte	0x4e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1786,7 +1786,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN28"
 	.byte	0x1
 	.byte	0x4f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1795,7 +1795,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN29"
 	.byte	0x1
 	.byte	0x50
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1804,7 +1804,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN30"
 	.byte	0x1
 	.byte	0x51
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1813,7 +1813,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN31"
 	.byte	0x1
 	.byte	0x52
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1827,18 +1827,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_ACCEN0_Bits"
 	.byte	0x1
 	.byte	0x53
-	.uaword	0x1c2
+	.uaword	0x1b7
 	.uleb128 0x2
 	.string	"_Ifx_VADC_ACCPROT0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0x56
-	.uaword	0x562
+	.uaword	0x557
 	.uleb128 0x3
 	.string	"APC0"
 	.byte	0x1
 	.byte	0x58
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1847,7 +1847,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APC1"
 	.byte	0x1
 	.byte	0x59
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1856,7 +1856,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APC2"
 	.byte	0x1
 	.byte	0x5a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1865,7 +1865,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APC3"
 	.byte	0x1
 	.byte	0x5b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1874,7 +1874,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APC4"
 	.byte	0x1
 	.byte	0x5c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1883,7 +1883,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APC5"
 	.byte	0x1
 	.byte	0x5d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1892,7 +1892,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APC6"
 	.byte	0x1
 	.byte	0x5e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1901,7 +1901,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APC7"
 	.byte	0x1
 	.byte	0x5f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1910,7 +1910,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x60
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -1919,7 +1919,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APEM"
 	.byte	0x1
 	.byte	0x61
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1928,7 +1928,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"API0"
 	.byte	0x1
 	.byte	0x62
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1937,7 +1937,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"API1"
 	.byte	0x1
 	.byte	0x63
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1946,7 +1946,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"API2"
 	.byte	0x1
 	.byte	0x64
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1955,7 +1955,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"API3"
 	.byte	0x1
 	.byte	0x65
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1964,7 +1964,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"API4"
 	.byte	0x1
 	.byte	0x66
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1973,7 +1973,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"API5"
 	.byte	0x1
 	.byte	0x67
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1982,7 +1982,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"API6"
 	.byte	0x1
 	.byte	0x68
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1991,7 +1991,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"API7"
 	.byte	0x1
 	.byte	0x69
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2000,7 +2000,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x1
 	.byte	0x6a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -2009,7 +2009,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APGC"
 	.byte	0x1
 	.byte	0x6b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2019,18 +2019,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_ACCPROT0_Bits"
 	.byte	0x1
 	.byte	0x6c
-	.uaword	0x403
+	.uaword	0x3f8
 	.uleb128 0x2
 	.string	"_Ifx_VADC_ACCPROT1_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6f
-	.uaword	0x6cf
+	.uaword	0x6c4
 	.uleb128 0x3
 	.string	"APS0"
 	.byte	0x1
 	.byte	0x71
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2039,7 +2039,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APS1"
 	.byte	0x1
 	.byte	0x72
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2048,7 +2048,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APS2"
 	.byte	0x1
 	.byte	0x73
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2057,7 +2057,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APS3"
 	.byte	0x1
 	.byte	0x74
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2066,7 +2066,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APS4"
 	.byte	0x1
 	.byte	0x75
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2075,7 +2075,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APS5"
 	.byte	0x1
 	.byte	0x76
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2084,7 +2084,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APS6"
 	.byte	0x1
 	.byte	0x77
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2093,7 +2093,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APS7"
 	.byte	0x1
 	.byte	0x78
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2102,7 +2102,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0x79
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -2111,7 +2111,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APTF"
 	.byte	0x1
 	.byte	0x7a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2120,7 +2120,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APR0"
 	.byte	0x1
 	.byte	0x7b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2129,7 +2129,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APR1"
 	.byte	0x1
 	.byte	0x7c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2138,7 +2138,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APR2"
 	.byte	0x1
 	.byte	0x7d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2147,7 +2147,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APR3"
 	.byte	0x1
 	.byte	0x7e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2156,7 +2156,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APR4"
 	.byte	0x1
 	.byte	0x7f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2165,7 +2165,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APR5"
 	.byte	0x1
 	.byte	0x80
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2174,7 +2174,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APR6"
 	.byte	0x1
 	.byte	0x81
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2183,7 +2183,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"APR7"
 	.byte	0x1
 	.byte	0x82
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2192,7 +2192,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x1
 	.byte	0x83
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2202,18 +2202,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_ACCPROT1_Bits"
 	.byte	0x1
 	.byte	0x84
-	.uaword	0x580
+	.uaword	0x575
 	.uleb128 0x2
 	.string	"_Ifx_VADC_BRSCTRL_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0x87
-	.uaword	0x7bc
+	.uaword	0x7b1
 	.uleb128 0x6
 	.uaword	.LASF2
 	.byte	0x1
 	.byte	0x89
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2222,7 +2222,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.byte	0x8a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2231,7 +2231,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"XTSEL"
 	.byte	0x1
 	.byte	0x8b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2240,7 +2240,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"XTLVL"
 	.byte	0x1
 	.byte	0x8c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2249,7 +2249,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF4
 	.byte	0x1
 	.byte	0x8d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -2258,7 +2258,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"XTWC"
 	.byte	0x1
 	.byte	0x8e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2267,7 +2267,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GTSEL"
 	.byte	0x1
 	.byte	0x8f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -2276,7 +2276,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GTLVL"
 	.byte	0x1
 	.byte	0x90
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2285,7 +2285,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF5
 	.byte	0x1
 	.byte	0x91
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -2294,7 +2294,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GTWC"
 	.byte	0x1
 	.byte	0x92
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2303,7 +2303,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x1
 	.byte	0x93
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2313,18 +2313,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_BRSCTRL_Bits"
 	.byte	0x1
 	.byte	0x94
-	.uaword	0x6ed
+	.uaword	0x6e2
 	.uleb128 0x2
 	.string	"_Ifx_VADC_BRSMR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0x97
-	.uaword	0x8b5
+	.uaword	0x8aa
 	.uleb128 0x3
 	.string	"ENGT"
 	.byte	0x1
 	.byte	0x99
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -2333,7 +2333,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ENTR"
 	.byte	0x1
 	.byte	0x9a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2342,7 +2342,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ENSI"
 	.byte	0x1
 	.byte	0x9b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2351,7 +2351,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SCAN"
 	.byte	0x1
 	.byte	0x9c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2360,7 +2360,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"LDM"
 	.byte	0x1
 	.byte	0x9d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -2369,7 +2369,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF6
 	.byte	0x1
 	.byte	0x9e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2378,7 +2378,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REQGT"
 	.byte	0x1
 	.byte	0x9f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2387,7 +2387,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CLRPND"
 	.byte	0x1
 	.byte	0xa0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2396,7 +2396,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"LDEV"
 	.byte	0x1
 	.byte	0xa1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2405,7 +2405,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF7
 	.byte	0x1
 	.byte	0xa2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -2414,7 +2414,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF8
 	.byte	0x1
 	.byte	0xa3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2423,7 +2423,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF9
 	.byte	0x1
 	.byte	0xa4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -2433,18 +2433,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_BRSMR_Bits"
 	.byte	0x1
 	.byte	0xa5
-	.uaword	0x7d9
+	.uaword	0x7ce
 	.uleb128 0x2
 	.string	"_Ifx_VADC_BRSPND_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa8
-	.uaword	0x902
+	.uaword	0x8f7
 	.uleb128 0x3
 	.string	"CHPNDGy"
 	.byte	0x1
 	.byte	0xaa
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2454,18 +2454,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_BRSPND_Bits"
 	.byte	0x1
 	.byte	0xab
-	.uaword	0x8d0
+	.uaword	0x8c5
 	.uleb128 0x2
 	.string	"_Ifx_VADC_BRSSEL_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0xae
-	.uaword	0x950
+	.uaword	0x945
 	.uleb128 0x3
 	.string	"CHSELGy"
 	.byte	0x1
 	.byte	0xb0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -2475,18 +2475,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_BRSSEL_Bits"
 	.byte	0x1
 	.byte	0xb1
-	.uaword	0x91e
+	.uaword	0x913
 	.uleb128 0x2
 	.string	"_Ifx_VADC_CLC_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb4
-	.uaword	0x9d6
+	.uaword	0x9cb
 	.uleb128 0x3
 	.string	"DISR"
 	.byte	0x1
 	.byte	0xb6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2495,7 +2495,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DISS"
 	.byte	0x1
 	.byte	0xb7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2504,7 +2504,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x1
 	.byte	0xb8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2513,7 +2513,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EDIS"
 	.byte	0x1
 	.byte	0xb9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2522,7 +2522,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.byte	0xba
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -2532,18 +2532,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_CLC_Bits"
 	.byte	0x1
 	.byte	0xbb
-	.uaword	0x96c
+	.uaword	0x961
 	.uleb128 0x2
 	.string	"_Ifx_VADC_EMUXSEL_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0xbe
-	.uaword	0xa46
+	.uaword	0xa3b
 	.uleb128 0x3
 	.string	"EMUXGRP0"
 	.byte	0x1
 	.byte	0xc0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2552,7 +2552,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMUXGRP1"
 	.byte	0x1
 	.byte	0xc1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2561,7 +2561,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0xc2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -2571,18 +2571,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_EMUXSEL_Bits"
 	.byte	0x1
 	.byte	0xc3
-	.uaword	0x9ef
+	.uaword	0x9e4
 	.uleb128 0x2
 	.string	"_Ifx_VADC_G_ALIAS_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc6
-	.uaword	0xac5
+	.uaword	0xaba
 	.uleb128 0x3
 	.string	"ALIAS0"
 	.byte	0x1
 	.byte	0xc8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -2591,7 +2591,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF11
 	.byte	0x1
 	.byte	0xc9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -2600,7 +2600,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ALIAS1"
 	.byte	0x1
 	.byte	0xca
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -2609,7 +2609,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF12
 	.byte	0x1
 	.byte	0xcb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -2619,18 +2619,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_ALIAS_Bits"
 	.byte	0x1
 	.byte	0xcc
-	.uaword	0xa63
+	.uaword	0xa58
 	.uleb128 0x2
 	.string	"_Ifx_VADC_G_ARBCFG_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0xcf
-	.uaword	0xbfe
+	.uaword	0xbf3
 	.uleb128 0x3
 	.string	"ANONC"
 	.byte	0x1
 	.byte	0xd1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -2639,7 +2639,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x1
 	.byte	0xd2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -2648,7 +2648,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ARBRND"
 	.byte	0x1
 	.byte	0xd3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -2657,7 +2657,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF6
 	.byte	0x1
 	.byte	0xd4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2666,7 +2666,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ARBM"
 	.byte	0x1
 	.byte	0xd5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2675,7 +2675,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x1
 	.byte	0xd6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -2684,7 +2684,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ANONS"
 	.byte	0x1
 	.byte	0xd7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -2693,7 +2693,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CSRC"
 	.byte	0x1
 	.byte	0xd8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -2702,7 +2702,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CHNR"
 	.byte	0x1
 	.byte	0xd9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -2711,7 +2711,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SYNRUN"
 	.byte	0x1
 	.byte	0xda
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2720,7 +2720,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"reserved_26"
 	.byte	0x1
 	.byte	0xdb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -2729,7 +2729,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CAL"
 	.byte	0x1
 	.byte	0xdc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2738,7 +2738,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CALS"
 	.byte	0x1
 	.byte	0xdd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2747,7 +2747,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BUSY"
 	.byte	0x1
 	.byte	0xde
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2756,7 +2756,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SAMPLE"
 	.byte	0x1
 	.byte	0xdf
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2766,18 +2766,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_ARBCFG_Bits"
 	.byte	0x1
 	.byte	0xe0
-	.uaword	0xae2
+	.uaword	0xad7
 	.uleb128 0x2
 	.string	"_Ifx_VADC_G_ARBPR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe3
-	.uaword	0xd1d
+	.uaword	0xd12
 	.uleb128 0x3
 	.string	"PRIO0"
 	.byte	0x1
 	.byte	0xe5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -2786,7 +2786,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x1
 	.byte	0xe6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2795,7 +2795,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CSM0"
 	.byte	0x1
 	.byte	0xe7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2804,7 +2804,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PRIO1"
 	.byte	0x1
 	.byte	0xe8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -2813,7 +2813,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF6
 	.byte	0x1
 	.byte	0xe9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -2822,7 +2822,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CSM1"
 	.byte	0x1
 	.byte	0xea
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -2831,7 +2831,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PRIO2"
 	.byte	0x1
 	.byte	0xeb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -2840,7 +2840,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF7
 	.byte	0x1
 	.byte	0xec
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -2849,7 +2849,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CSM2"
 	.byte	0x1
 	.byte	0xed
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -2858,7 +2858,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF13
 	.byte	0x1
 	.byte	0xee
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0x8
@@ -2867,7 +2867,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASEN0"
 	.byte	0x1
 	.byte	0xef
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2876,7 +2876,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASEN1"
 	.byte	0x1
 	.byte	0xf0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2885,7 +2885,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASEN2"
 	.byte	0x1
 	.byte	0xf1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2894,7 +2894,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF14
 	.byte	0x1
 	.byte	0xf2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2904,18 +2904,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_ARBPR_Bits"
 	.byte	0x1
 	.byte	0xf3
-	.uaword	0xc1c
+	.uaword	0xc11
 	.uleb128 0x2
 	.string	"_Ifx_VADC_G_ASCTRL_Bits"
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf6
-	.uaword	0xe3f
+	.uaword	0xe34
 	.uleb128 0x6
 	.uaword	.LASF2
 	.byte	0x1
 	.byte	0xf8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -2924,7 +2924,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.byte	0xf9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -2933,7 +2933,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"XTSEL"
 	.byte	0x1
 	.byte	0xfa
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -2942,7 +2942,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"XTLVL"
 	.byte	0x1
 	.byte	0xfb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2951,7 +2951,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF4
 	.byte	0x1
 	.byte	0xfc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -2960,7 +2960,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"XTWC"
 	.byte	0x1
 	.byte	0xfd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2969,7 +2969,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GTSEL"
 	.byte	0x1
 	.byte	0xfe
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -2978,7 +2978,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GTLVL"
 	.byte	0x1
 	.byte	0xff
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2987,7 +2987,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF5
 	.byte	0x1
 	.uahalf	0x100
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -2996,7 +2996,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GTWC"
 	.byte	0x1
 	.uahalf	0x101
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3005,7 +3005,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x1
 	.uahalf	0x102
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -3014,7 +3014,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TMEN"
 	.byte	0x1
 	.uahalf	0x103
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3023,7 +3023,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF15
 	.byte	0x1
 	.uahalf	0x104
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1
@@ -3032,7 +3032,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TMWC"
 	.byte	0x1
 	.uahalf	0x105
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3042,18 +3042,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_ASCTRL_Bits"
 	.byte	0x1
 	.uahalf	0x106
-	.uaword	0xd3a
+	.uaword	0xd2f
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_ASMR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x109
-	.uaword	0xf48
+	.uaword	0xf3d
 	.uleb128 0x8
 	.string	"ENGT"
 	.byte	0x1
 	.uahalf	0x10b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -3062,7 +3062,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ENTR"
 	.byte	0x1
 	.uahalf	0x10c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3071,7 +3071,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ENSI"
 	.byte	0x1
 	.uahalf	0x10d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3080,7 +3080,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SCAN"
 	.byte	0x1
 	.uahalf	0x10e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3089,7 +3089,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"LDM"
 	.byte	0x1
 	.uahalf	0x10f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3098,7 +3098,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF6
 	.byte	0x1
 	.uahalf	0x110
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3107,7 +3107,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REQGT"
 	.byte	0x1
 	.uahalf	0x111
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3116,7 +3116,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CLRPND"
 	.byte	0x1
 	.uahalf	0x112
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3125,7 +3125,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"LDEV"
 	.byte	0x1
 	.uahalf	0x113
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3134,7 +3134,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF7
 	.byte	0x1
 	.uahalf	0x114
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -3143,7 +3143,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF8
 	.byte	0x1
 	.uahalf	0x115
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3152,7 +3152,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF9
 	.byte	0x1
 	.uahalf	0x116
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -3162,18 +3162,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_ASMR_Bits"
 	.byte	0x1
 	.uahalf	0x117
-	.uaword	0xe5e
+	.uaword	0xe53
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_ASPND_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x11a
-	.uaword	0xf98
+	.uaword	0xf8d
 	.uleb128 0x8
 	.string	"CHPND"
 	.byte	0x1
 	.uahalf	0x11c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -3183,18 +3183,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_ASPND_Bits"
 	.byte	0x1
 	.uahalf	0x11d
-	.uaword	0xf65
+	.uaword	0xf5a
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_ASSEL_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x120
-	.uaword	0xfe9
+	.uaword	0xfde
 	.uleb128 0x8
 	.string	"CHSEL"
 	.byte	0x1
 	.uahalf	0x122
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -3204,18 +3204,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_ASSEL_Bits"
 	.byte	0x1
 	.uahalf	0x123
-	.uaword	0xfb6
+	.uaword	0xfab
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_BFL_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x126
-	.uaword	0x1122
+	.uaword	0x1117
 	.uleb128 0x8
 	.string	"BFL0"
 	.byte	0x1
 	.uahalf	0x128
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3224,7 +3224,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFL1"
 	.byte	0x1
 	.uahalf	0x129
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3233,7 +3233,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFL2"
 	.byte	0x1
 	.uahalf	0x12a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3242,7 +3242,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFL3"
 	.byte	0x1
 	.uahalf	0x12b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3251,7 +3251,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.uahalf	0x12c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -3260,7 +3260,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFA0"
 	.byte	0x1
 	.uahalf	0x12d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3269,7 +3269,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFA1"
 	.byte	0x1
 	.uahalf	0x12e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3278,7 +3278,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFA2"
 	.byte	0x1
 	.uahalf	0x12f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3287,7 +3287,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFA3"
 	.byte	0x1
 	.uahalf	0x130
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3296,7 +3296,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF13
 	.byte	0x1
 	.uahalf	0x131
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -3305,7 +3305,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFI0"
 	.byte	0x1
 	.uahalf	0x132
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3314,7 +3314,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFI1"
 	.byte	0x1
 	.uahalf	0x133
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3323,7 +3323,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFI2"
 	.byte	0x1
 	.uahalf	0x134
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3332,7 +3332,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFI3"
 	.byte	0x1
 	.uahalf	0x135
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3341,7 +3341,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF16
 	.byte	0x1
 	.uahalf	0x136
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -3351,18 +3351,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_BFL_Bits"
 	.byte	0x1
 	.uahalf	0x137
-	.uaword	0x1007
+	.uaword	0xffc
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_BFLC_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x13a
-	.uaword	0x11b2
+	.uaword	0x11a7
 	.uleb128 0x8
 	.string	"BFM0"
 	.byte	0x1
 	.uahalf	0x13c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3371,7 +3371,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFM1"
 	.byte	0x1
 	.uahalf	0x13d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -3380,7 +3380,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFM2"
 	.byte	0x1
 	.uahalf	0x13e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -3389,7 +3389,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFM3"
 	.byte	0x1
 	.uahalf	0x13f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -3398,7 +3398,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x140
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3408,18 +3408,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_BFLC_Bits"
 	.byte	0x1
 	.uahalf	0x141
-	.uaword	0x113e
+	.uaword	0x1133
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_BFLNP_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x144
-	.uaword	0x124c
+	.uaword	0x1241
 	.uleb128 0x8
 	.string	"BFL0NP"
 	.byte	0x1
 	.uahalf	0x146
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3428,7 +3428,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFL1NP"
 	.byte	0x1
 	.uahalf	0x147
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -3437,7 +3437,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFL2NP"
 	.byte	0x1
 	.uahalf	0x148
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -3446,7 +3446,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFL3NP"
 	.byte	0x1
 	.uahalf	0x149
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -3455,7 +3455,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x14a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3465,18 +3465,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_BFLNP_Bits"
 	.byte	0x1
 	.uahalf	0x14b
-	.uaword	0x11cf
+	.uaword	0x11c4
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_BFLS_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x14e
-	.uaword	0x1332
+	.uaword	0x1327
 	.uleb128 0x8
 	.string	"BFC0"
 	.byte	0x1
 	.uahalf	0x150
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3485,7 +3485,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFC1"
 	.byte	0x1
 	.uahalf	0x151
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3494,7 +3494,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFC2"
 	.byte	0x1
 	.uahalf	0x152
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3503,7 +3503,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFC3"
 	.byte	0x1
 	.uahalf	0x153
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3512,7 +3512,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.uahalf	0x154
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0x10
@@ -3521,7 +3521,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFS0"
 	.byte	0x1
 	.uahalf	0x155
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3530,7 +3530,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFS1"
 	.byte	0x1
 	.uahalf	0x156
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3539,7 +3539,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFS2"
 	.byte	0x1
 	.uahalf	0x157
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3548,7 +3548,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BFS3"
 	.byte	0x1
 	.uahalf	0x158
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3557,7 +3557,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF16
 	.byte	0x1
 	.uahalf	0x159
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -3567,18 +3567,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_BFLS_Bits"
 	.byte	0x1
 	.uahalf	0x15a
-	.uaword	0x126a
+	.uaword	0x125f
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_BOUND_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x15d
-	.uaword	0x13b0
+	.uaword	0x13a5
 	.uleb128 0x7
 	.uaword	.LASF18
 	.byte	0x1
 	.uahalf	0x15f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -3587,7 +3587,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF13
 	.byte	0x1
 	.uahalf	0x160
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -3596,7 +3596,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF19
 	.byte	0x1
 	.uahalf	0x161
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0x4
@@ -3605,7 +3605,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF20
 	.byte	0x1
 	.uahalf	0x162
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -3615,18 +3615,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_BOUND_Bits"
 	.byte	0x1
 	.uahalf	0x163
-	.uaword	0x134f
+	.uaword	0x1344
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_CEFCLR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x166
-	.uaword	0x1488
+	.uaword	0x147d
 	.uleb128 0x8
 	.string	"CEV0"
 	.byte	0x1
 	.uahalf	0x168
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3635,7 +3635,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV1"
 	.byte	0x1
 	.uahalf	0x169
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3644,7 +3644,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV2"
 	.byte	0x1
 	.uahalf	0x16a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3653,7 +3653,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV3"
 	.byte	0x1
 	.uahalf	0x16b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3662,7 +3662,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV4"
 	.byte	0x1
 	.uahalf	0x16c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3671,7 +3671,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV5"
 	.byte	0x1
 	.uahalf	0x16d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3680,7 +3680,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV6"
 	.byte	0x1
 	.uahalf	0x16e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3689,7 +3689,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV7"
 	.byte	0x1
 	.uahalf	0x16f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3698,7 +3698,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x170
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -3708,18 +3708,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_CEFCLR_Bits"
 	.byte	0x1
 	.uahalf	0x171
-	.uaword	0x13ce
+	.uaword	0x13c3
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_CEFLAG_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x174
-	.uaword	0x1561
+	.uaword	0x1556
 	.uleb128 0x8
 	.string	"CEV0"
 	.byte	0x1
 	.uahalf	0x176
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3728,7 +3728,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV1"
 	.byte	0x1
 	.uahalf	0x177
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3737,7 +3737,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV2"
 	.byte	0x1
 	.uahalf	0x178
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3746,7 +3746,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV3"
 	.byte	0x1
 	.uahalf	0x179
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3755,7 +3755,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV4"
 	.byte	0x1
 	.uahalf	0x17a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3764,7 +3764,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV5"
 	.byte	0x1
 	.uahalf	0x17b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3773,7 +3773,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV6"
 	.byte	0x1
 	.uahalf	0x17c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3782,7 +3782,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV7"
 	.byte	0x1
 	.uahalf	0x17d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3791,7 +3791,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x17e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -3801,18 +3801,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_CEFLAG_Bits"
 	.byte	0x1
 	.uahalf	0x17f
-	.uaword	0x14a7
+	.uaword	0x149c
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_CEVNP0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x182
-	.uaword	0x163a
+	.uaword	0x162f
 	.uleb128 0x8
 	.string	"CEV0NP"
 	.byte	0x1
 	.uahalf	0x184
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3821,7 +3821,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV1NP"
 	.byte	0x1
 	.uahalf	0x185
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -3830,7 +3830,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV2NP"
 	.byte	0x1
 	.uahalf	0x186
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -3839,7 +3839,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV3NP"
 	.byte	0x1
 	.uahalf	0x187
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -3848,7 +3848,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV4NP"
 	.byte	0x1
 	.uahalf	0x188
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -3857,7 +3857,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV5NP"
 	.byte	0x1
 	.uahalf	0x189
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -3866,7 +3866,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV6NP"
 	.byte	0x1
 	.uahalf	0x18a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -3875,7 +3875,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV7NP"
 	.byte	0x1
 	.uahalf	0x18b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -3885,18 +3885,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_CEVNP0_Bits"
 	.byte	0x1
 	.uahalf	0x18c
-	.uaword	0x1580
+	.uaword	0x1575
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_CHASS_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x18f
-	.uaword	0x18f0
+	.uaword	0x18e5
 	.uleb128 0x8
 	.string	"ASSCH0"
 	.byte	0x1
 	.uahalf	0x191
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3905,7 +3905,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH1"
 	.byte	0x1
 	.uahalf	0x192
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3914,7 +3914,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH2"
 	.byte	0x1
 	.uahalf	0x193
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3923,7 +3923,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH3"
 	.byte	0x1
 	.uahalf	0x194
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3932,7 +3932,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH4"
 	.byte	0x1
 	.uahalf	0x195
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3941,7 +3941,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH5"
 	.byte	0x1
 	.uahalf	0x196
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3950,7 +3950,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH6"
 	.byte	0x1
 	.uahalf	0x197
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3959,7 +3959,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH7"
 	.byte	0x1
 	.uahalf	0x198
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3968,7 +3968,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH8"
 	.byte	0x1
 	.uahalf	0x199
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3977,7 +3977,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH9"
 	.byte	0x1
 	.uahalf	0x19a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3986,7 +3986,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH10"
 	.byte	0x1
 	.uahalf	0x19b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3995,7 +3995,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH11"
 	.byte	0x1
 	.uahalf	0x19c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4004,7 +4004,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH12"
 	.byte	0x1
 	.uahalf	0x19d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4013,7 +4013,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH13"
 	.byte	0x1
 	.uahalf	0x19e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4022,7 +4022,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH14"
 	.byte	0x1
 	.uahalf	0x19f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4031,7 +4031,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH15"
 	.byte	0x1
 	.uahalf	0x1a0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4040,7 +4040,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH16"
 	.byte	0x1
 	.uahalf	0x1a1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4049,7 +4049,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH17"
 	.byte	0x1
 	.uahalf	0x1a2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4058,7 +4058,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH18"
 	.byte	0x1
 	.uahalf	0x1a3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4067,7 +4067,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH19"
 	.byte	0x1
 	.uahalf	0x1a4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4076,7 +4076,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH20"
 	.byte	0x1
 	.uahalf	0x1a5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4085,7 +4085,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH21"
 	.byte	0x1
 	.uahalf	0x1a6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4094,7 +4094,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH22"
 	.byte	0x1
 	.uahalf	0x1a7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -4103,7 +4103,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH23"
 	.byte	0x1
 	.uahalf	0x1a8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4112,7 +4112,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH24"
 	.byte	0x1
 	.uahalf	0x1a9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4121,7 +4121,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH25"
 	.byte	0x1
 	.uahalf	0x1aa
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4130,7 +4130,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH26"
 	.byte	0x1
 	.uahalf	0x1ab
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4139,7 +4139,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH27"
 	.byte	0x1
 	.uahalf	0x1ac
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4148,7 +4148,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH28"
 	.byte	0x1
 	.uahalf	0x1ad
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4157,7 +4157,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH29"
 	.byte	0x1
 	.uahalf	0x1ae
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4166,7 +4166,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH30"
 	.byte	0x1
 	.uahalf	0x1af
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4175,7 +4175,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSCH31"
 	.byte	0x1
 	.uahalf	0x1b0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4185,18 +4185,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_CHASS_Bits"
 	.byte	0x1
 	.uahalf	0x1b1
-	.uaword	0x1659
+	.uaword	0x164e
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_CHCTR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x1b4
-	.uaword	0x1a4c
+	.uaword	0x1a41
 	.uleb128 0x8
 	.string	"ICLSEL"
 	.byte	0x1
 	.uahalf	0x1b6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -4205,7 +4205,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x1b7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -4214,7 +4214,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BNDSELL"
 	.byte	0x1
 	.uahalf	0x1b8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -4223,7 +4223,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BNDSELU"
 	.byte	0x1
 	.uahalf	0x1b9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -4232,7 +4232,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CHEVMODE"
 	.byte	0x1
 	.uahalf	0x1ba
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -4241,7 +4241,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SYNC"
 	.byte	0x1
 	.uahalf	0x1bb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4250,7 +4250,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REFSEL"
 	.byte	0x1
 	.uahalf	0x1bc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4259,7 +4259,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BNDSELX"
 	.byte	0x1
 	.uahalf	0x1bd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -4268,7 +4268,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"RESREG"
 	.byte	0x1
 	.uahalf	0x1be
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -4277,7 +4277,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"RESTBS"
 	.byte	0x1
 	.uahalf	0x1bf
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4286,7 +4286,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"RESPOS"
 	.byte	0x1
 	.uahalf	0x1c0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4295,7 +4295,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF21
 	.byte	0x1
 	.uahalf	0x1c1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x6
 	.byte	0x4
@@ -4304,7 +4304,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BWDCH"
 	.byte	0x1
 	.uahalf	0x1c2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -4313,7 +4313,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"BWDEN"
 	.byte	0x1
 	.uahalf	0x1c3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4322,7 +4322,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"reserved_31"
 	.byte	0x1
 	.uahalf	0x1c4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4332,18 +4332,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_CHCTR_Bits"
 	.byte	0x1
 	.uahalf	0x1c5
-	.uaword	0x190e
+	.uaword	0x1903
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_EMUXCTR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x1c8
-	.uaword	0x1b47
+	.uaword	0x1b3c
 	.uleb128 0x8
 	.string	"EMUXSET"
 	.byte	0x1
 	.uahalf	0x1ca
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -4352,7 +4352,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF22
 	.byte	0x1
 	.uahalf	0x1cb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -4361,7 +4361,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMUXACT"
 	.byte	0x1
 	.uahalf	0x1cc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -4370,7 +4370,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x1cd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -4379,7 +4379,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMUXCH"
 	.byte	0x1
 	.uahalf	0x1ce
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -4388,7 +4388,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMUXMODE"
 	.byte	0x1
 	.uahalf	0x1cf
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -4397,7 +4397,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMXCOD"
 	.byte	0x1
 	.uahalf	0x1d0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4406,7 +4406,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMXST"
 	.byte	0x1
 	.uahalf	0x1d1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4415,7 +4415,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMXCSS"
 	.byte	0x1
 	.uahalf	0x1d2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4424,7 +4424,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMXWC"
 	.byte	0x1
 	.uahalf	0x1d3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4434,18 +4434,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_EMUXCTR_Bits"
 	.byte	0x1
 	.uahalf	0x1d4
-	.uaword	0x1a6a
+	.uaword	0x1a5f
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_Q0R0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x1d7
-	.uaword	0x1be6
+	.uaword	0x1bdb
 	.uleb128 0x7
 	.uaword	.LASF24
 	.byte	0x1
 	.uahalf	0x1d9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -4454,7 +4454,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"RF"
 	.byte	0x1
 	.uahalf	0x1da
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4463,7 +4463,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ENSI"
 	.byte	0x1
 	.uahalf	0x1db
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4472,7 +4472,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EXTR"
 	.byte	0x1
 	.uahalf	0x1dc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4481,7 +4481,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"V"
 	.byte	0x1
 	.uahalf	0x1dd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4490,7 +4490,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF25
 	.byte	0x1
 	.uahalf	0x1de
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -4500,18 +4500,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_Q0R0_Bits"
 	.byte	0x1
 	.uahalf	0x1df
-	.uaword	0x1b67
+	.uaword	0x1b5c
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_QBUR0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x1e2
-	.uaword	0x1c83
+	.uaword	0x1c78
 	.uleb128 0x7
 	.uaword	.LASF24
 	.byte	0x1
 	.uahalf	0x1e4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -4520,7 +4520,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"RF"
 	.byte	0x1
 	.uahalf	0x1e5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4529,7 +4529,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ENSI"
 	.byte	0x1
 	.uahalf	0x1e6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4538,7 +4538,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EXTR"
 	.byte	0x1
 	.uahalf	0x1e7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4547,7 +4547,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"V"
 	.byte	0x1
 	.uahalf	0x1e8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4556,7 +4556,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF25
 	.byte	0x1
 	.uahalf	0x1e9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -4566,18 +4566,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_QBUR0_Bits"
 	.byte	0x1
 	.uahalf	0x1ea
-	.uaword	0x1c03
+	.uaword	0x1bf8
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_QCTRL0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x1ed
-	.uaword	0x1daf
+	.uaword	0x1da4
 	.uleb128 0x7
 	.uaword	.LASF2
 	.byte	0x1
 	.uahalf	0x1ef
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -4586,7 +4586,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.uahalf	0x1f0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -4595,7 +4595,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"XTSEL"
 	.byte	0x1
 	.uahalf	0x1f1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -4604,7 +4604,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"XTLVL"
 	.byte	0x1
 	.uahalf	0x1f2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4613,7 +4613,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF4
 	.byte	0x1
 	.uahalf	0x1f3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -4622,7 +4622,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"XTWC"
 	.byte	0x1
 	.uahalf	0x1f4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4631,7 +4631,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GTSEL"
 	.byte	0x1
 	.uahalf	0x1f5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -4640,7 +4640,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GTLVL"
 	.byte	0x1
 	.uahalf	0x1f6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4649,7 +4649,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF5
 	.byte	0x1
 	.uahalf	0x1f7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x9
@@ -4658,7 +4658,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GTWC"
 	.byte	0x1
 	.uahalf	0x1f8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4667,7 +4667,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x1
 	.uahalf	0x1f9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -4676,7 +4676,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TMEN"
 	.byte	0x1
 	.uahalf	0x1fa
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4685,7 +4685,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF15
 	.byte	0x1
 	.uahalf	0x1fb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1
@@ -4694,7 +4694,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TMWC"
 	.byte	0x1
 	.uahalf	0x1fc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4704,18 +4704,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_QCTRL0_Bits"
 	.byte	0x1
 	.uahalf	0x1fd
-	.uaword	0x1ca1
+	.uaword	0x1c96
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_QINR0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x200
-	.uaword	0x1e40
+	.uaword	0x1e35
 	.uleb128 0x7
 	.uaword	.LASF24
 	.byte	0x1
 	.uahalf	0x202
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -4724,7 +4724,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"RF"
 	.byte	0x1
 	.uahalf	0x203
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4733,7 +4733,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ENSI"
 	.byte	0x1
 	.uahalf	0x204
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4742,7 +4742,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EXTR"
 	.byte	0x1
 	.uahalf	0x205
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4751,7 +4751,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x206
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -4761,18 +4761,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_QINR0_Bits"
 	.byte	0x1
 	.uahalf	0x207
-	.uaword	0x1dce
+	.uaword	0x1dc3
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_QMR0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x20a
-	.uaword	0x1f24
+	.uaword	0x1f19
 	.uleb128 0x8
 	.string	"ENGT"
 	.byte	0x1
 	.uahalf	0x20c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -4781,7 +4781,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ENTR"
 	.byte	0x1
 	.uahalf	0x20d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4790,7 +4790,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF22
 	.byte	0x1
 	.uahalf	0x20e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -4799,7 +4799,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CLRV"
 	.byte	0x1
 	.uahalf	0x20f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4808,7 +4808,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TREV"
 	.byte	0x1
 	.uahalf	0x210
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4817,7 +4817,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"FLUSH"
 	.byte	0x1
 	.uahalf	0x211
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4826,7 +4826,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CEV"
 	.byte	0x1
 	.uahalf	0x212
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4835,7 +4835,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF13
 	.byte	0x1
 	.uahalf	0x213
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -4844,7 +4844,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF8
 	.byte	0x1
 	.uahalf	0x214
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4853,7 +4853,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF9
 	.byte	0x1
 	.uahalf	0x215
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -4863,18 +4863,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_QMR0_Bits"
 	.byte	0x1
 	.uahalf	0x216
-	.uaword	0x1e5e
+	.uaword	0x1e53
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_QSR0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x219
-	.uaword	0x1fd5
+	.uaword	0x1fca
 	.uleb128 0x8
 	.string	"FILL"
 	.byte	0x1
 	.uahalf	0x21b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -4883,7 +4883,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.uahalf	0x21c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4892,7 +4892,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMPTY"
 	.byte	0x1
 	.uahalf	0x21d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4901,7 +4901,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF6
 	.byte	0x1
 	.uahalf	0x21e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4910,7 +4910,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REQGT"
 	.byte	0x1
 	.uahalf	0x21f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4919,7 +4919,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EV"
 	.byte	0x1
 	.uahalf	0x220
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4928,7 +4928,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF25
 	.byte	0x1
 	.uahalf	0x221
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -4938,18 +4938,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_QSR0_Bits"
 	.byte	0x1
 	.uahalf	0x222
-	.uaword	0x1f41
+	.uaword	0x1f36
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_RCR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x225
-	.uaword	0x2095
+	.uaword	0x208a
 	.uleb128 0x7
 	.uaword	.LASF26
 	.byte	0x1
 	.uahalf	0x227
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -4958,7 +4958,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DRCTR"
 	.byte	0x1
 	.uahalf	0x228
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -4967,7 +4967,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DMM"
 	.byte	0x1
 	.uahalf	0x229
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -4976,7 +4976,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF21
 	.byte	0x1
 	.uahalf	0x22a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -4985,7 +4985,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"WFR"
 	.byte	0x1
 	.uahalf	0x22b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4994,7 +4994,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"FEN"
 	.byte	0x1
 	.uahalf	0x22c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x5
@@ -5003,7 +5003,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x22d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1
@@ -5012,7 +5012,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SRGEN"
 	.byte	0x1
 	.uahalf	0x22e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5022,18 +5022,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_RCR_Bits"
 	.byte	0x1
 	.uahalf	0x22f
-	.uaword	0x1ff2
+	.uaword	0x1fe7
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_REFCLR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x232
-	.uaword	0x21f9
+	.uaword	0x21ee
 	.uleb128 0x8
 	.string	"REV0"
 	.byte	0x1
 	.uahalf	0x234
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5042,7 +5042,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV1"
 	.byte	0x1
 	.uahalf	0x235
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5051,7 +5051,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV2"
 	.byte	0x1
 	.uahalf	0x236
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5060,7 +5060,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV3"
 	.byte	0x1
 	.uahalf	0x237
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5069,7 +5069,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV4"
 	.byte	0x1
 	.uahalf	0x238
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5078,7 +5078,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV5"
 	.byte	0x1
 	.uahalf	0x239
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5087,7 +5087,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV6"
 	.byte	0x1
 	.uahalf	0x23a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5096,7 +5096,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV7"
 	.byte	0x1
 	.uahalf	0x23b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5105,7 +5105,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV8"
 	.byte	0x1
 	.uahalf	0x23c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5114,7 +5114,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV9"
 	.byte	0x1
 	.uahalf	0x23d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5123,7 +5123,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV10"
 	.byte	0x1
 	.uahalf	0x23e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5132,7 +5132,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV11"
 	.byte	0x1
 	.uahalf	0x23f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5141,7 +5141,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV12"
 	.byte	0x1
 	.uahalf	0x240
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5150,7 +5150,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV13"
 	.byte	0x1
 	.uahalf	0x241
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5159,7 +5159,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV14"
 	.byte	0x1
 	.uahalf	0x242
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5168,7 +5168,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV15"
 	.byte	0x1
 	.uahalf	0x243
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5177,7 +5177,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x244
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5187,18 +5187,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_REFCLR_Bits"
 	.byte	0x1
 	.uahalf	0x245
-	.uaword	0x20b1
+	.uaword	0x20a6
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_REFLAG_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x248
-	.uaword	0x2360
+	.uaword	0x2355
 	.uleb128 0x8
 	.string	"REV0"
 	.byte	0x1
 	.uahalf	0x24a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5207,7 +5207,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV1"
 	.byte	0x1
 	.uahalf	0x24b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5216,7 +5216,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV2"
 	.byte	0x1
 	.uahalf	0x24c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5225,7 +5225,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV3"
 	.byte	0x1
 	.uahalf	0x24d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5234,7 +5234,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV4"
 	.byte	0x1
 	.uahalf	0x24e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5243,7 +5243,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV5"
 	.byte	0x1
 	.uahalf	0x24f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5252,7 +5252,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV6"
 	.byte	0x1
 	.uahalf	0x250
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5261,7 +5261,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV7"
 	.byte	0x1
 	.uahalf	0x251
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5270,7 +5270,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV8"
 	.byte	0x1
 	.uahalf	0x252
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5279,7 +5279,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV9"
 	.byte	0x1
 	.uahalf	0x253
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5288,7 +5288,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV10"
 	.byte	0x1
 	.uahalf	0x254
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5297,7 +5297,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV11"
 	.byte	0x1
 	.uahalf	0x255
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5306,7 +5306,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV12"
 	.byte	0x1
 	.uahalf	0x256
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5315,7 +5315,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV13"
 	.byte	0x1
 	.uahalf	0x257
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5324,7 +5324,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV14"
 	.byte	0x1
 	.uahalf	0x258
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5333,7 +5333,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV15"
 	.byte	0x1
 	.uahalf	0x259
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5342,7 +5342,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x25a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5352,18 +5352,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_REFLAG_Bits"
 	.byte	0x1
 	.uahalf	0x25b
-	.uaword	0x2218
+	.uaword	0x220d
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_RES_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x25e
-	.uaword	0x240f
+	.uaword	0x2404
 	.uleb128 0x7
 	.uaword	.LASF27
 	.byte	0x1
 	.uahalf	0x260
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -5372,7 +5372,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DRC"
 	.byte	0x1
 	.uahalf	0x261
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -5381,7 +5381,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CHNR"
 	.byte	0x1
 	.uahalf	0x262
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -5390,7 +5390,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMUX"
 	.byte	0x1
 	.uahalf	0x263
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -5399,7 +5399,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CRS"
 	.byte	0x1
 	.uahalf	0x264
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -5408,7 +5408,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"FCR"
 	.byte	0x1
 	.uahalf	0x265
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5417,7 +5417,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF"
 	.byte	0x1
 	.uahalf	0x266
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5427,18 +5427,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_RES_Bits"
 	.byte	0x1
 	.uahalf	0x267
-	.uaword	0x237f
+	.uaword	0x2374
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_RESD_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x26a
-	.uaword	0x24bc
+	.uaword	0x24b1
 	.uleb128 0x7
 	.uaword	.LASF27
 	.byte	0x1
 	.uahalf	0x26c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -5447,7 +5447,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DRC"
 	.byte	0x1
 	.uahalf	0x26d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -5456,7 +5456,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CHNR"
 	.byte	0x1
 	.uahalf	0x26e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -5465,7 +5465,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMUX"
 	.byte	0x1
 	.uahalf	0x26f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -5474,7 +5474,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CRS"
 	.byte	0x1
 	.uahalf	0x270
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -5483,7 +5483,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"FCR"
 	.byte	0x1
 	.uahalf	0x271
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5492,7 +5492,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF"
 	.byte	0x1
 	.uahalf	0x272
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5502,18 +5502,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_RESD_Bits"
 	.byte	0x1
 	.uahalf	0x273
-	.uaword	0x242b
+	.uaword	0x2420
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_REVNP0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x276
-	.uaword	0x2593
+	.uaword	0x2588
 	.uleb128 0x8
 	.string	"REV0NP"
 	.byte	0x1
 	.uahalf	0x278
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -5522,7 +5522,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV1NP"
 	.byte	0x1
 	.uahalf	0x279
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -5531,7 +5531,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV2NP"
 	.byte	0x1
 	.uahalf	0x27a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -5540,7 +5540,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV3NP"
 	.byte	0x1
 	.uahalf	0x27b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -5549,7 +5549,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV4NP"
 	.byte	0x1
 	.uahalf	0x27c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -5558,7 +5558,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV5NP"
 	.byte	0x1
 	.uahalf	0x27d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -5567,7 +5567,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV6NP"
 	.byte	0x1
 	.uahalf	0x27e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -5576,7 +5576,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV7NP"
 	.byte	0x1
 	.uahalf	0x27f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -5586,18 +5586,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_REVNP0_Bits"
 	.byte	0x1
 	.uahalf	0x280
-	.uaword	0x24d9
+	.uaword	0x24ce
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_REVNP1_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x283
-	.uaword	0x2672
+	.uaword	0x2667
 	.uleb128 0x8
 	.string	"REV8NP"
 	.byte	0x1
 	.uahalf	0x285
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -5606,7 +5606,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV9NP"
 	.byte	0x1
 	.uahalf	0x286
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -5615,7 +5615,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV10NP"
 	.byte	0x1
 	.uahalf	0x287
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -5624,7 +5624,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV11NP"
 	.byte	0x1
 	.uahalf	0x288
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -5633,7 +5633,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV12NP"
 	.byte	0x1
 	.uahalf	0x289
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -5642,7 +5642,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV13NP"
 	.byte	0x1
 	.uahalf	0x28a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -5651,7 +5651,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV14NP"
 	.byte	0x1
 	.uahalf	0x28b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -5660,7 +5660,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV15NP"
 	.byte	0x1
 	.uahalf	0x28c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -5670,18 +5670,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_REVNP1_Bits"
 	.byte	0x1
 	.uahalf	0x28d
-	.uaword	0x25b2
+	.uaword	0x25a7
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_RRASS_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x290
-	.uaword	0x27f8
+	.uaword	0x27ed
 	.uleb128 0x8
 	.string	"ASSRR0"
 	.byte	0x1
 	.uahalf	0x292
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5690,7 +5690,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR1"
 	.byte	0x1
 	.uahalf	0x293
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5699,7 +5699,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR2"
 	.byte	0x1
 	.uahalf	0x294
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5708,7 +5708,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR3"
 	.byte	0x1
 	.uahalf	0x295
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5717,7 +5717,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR4"
 	.byte	0x1
 	.uahalf	0x296
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5726,7 +5726,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR5"
 	.byte	0x1
 	.uahalf	0x297
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5735,7 +5735,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR6"
 	.byte	0x1
 	.uahalf	0x298
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5744,7 +5744,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR7"
 	.byte	0x1
 	.uahalf	0x299
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5753,7 +5753,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR8"
 	.byte	0x1
 	.uahalf	0x29a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5762,7 +5762,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR9"
 	.byte	0x1
 	.uahalf	0x29b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5771,7 +5771,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR10"
 	.byte	0x1
 	.uahalf	0x29c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5780,7 +5780,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR11"
 	.byte	0x1
 	.uahalf	0x29d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5789,7 +5789,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR12"
 	.byte	0x1
 	.uahalf	0x29e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5798,7 +5798,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR13"
 	.byte	0x1
 	.uahalf	0x29f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5807,7 +5807,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR14"
 	.byte	0x1
 	.uahalf	0x2a0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5816,7 +5816,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSRR15"
 	.byte	0x1
 	.uahalf	0x2a1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5825,7 +5825,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x2a2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5835,18 +5835,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_RRASS_Bits"
 	.byte	0x1
 	.uahalf	0x2a3
-	.uaword	0x2691
+	.uaword	0x2686
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_SEFCLR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x2a6
-	.uaword	0x286a
+	.uaword	0x285f
 	.uleb128 0x8
 	.string	"SEV0"
 	.byte	0x1
 	.uahalf	0x2a8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5855,7 +5855,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEV1"
 	.byte	0x1
 	.uahalf	0x2a9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5864,7 +5864,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x2aa
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -5874,18 +5874,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_SEFCLR_Bits"
 	.byte	0x1
 	.uahalf	0x2ab
-	.uaword	0x2816
+	.uaword	0x280b
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_SEFLAG_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x2ae
-	.uaword	0x28dd
+	.uaword	0x28d2
 	.uleb128 0x8
 	.string	"SEV0"
 	.byte	0x1
 	.uahalf	0x2b0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5894,7 +5894,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEV1"
 	.byte	0x1
 	.uahalf	0x2b1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5903,7 +5903,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x2b2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -5913,18 +5913,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_SEFLAG_Bits"
 	.byte	0x1
 	.uahalf	0x2b3
-	.uaword	0x2889
+	.uaword	0x287e
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_SEVNP_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x2b6
-	.uaword	0x2953
+	.uaword	0x2948
 	.uleb128 0x8
 	.string	"SEV0NP"
 	.byte	0x1
 	.uahalf	0x2b8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -5933,7 +5933,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEV1NP"
 	.byte	0x1
 	.uahalf	0x2b9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -5942,7 +5942,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x1
 	.uahalf	0x2ba
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -5952,18 +5952,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_SEVNP_Bits"
 	.byte	0x1
 	.uahalf	0x2bb
-	.uaword	0x28fc
+	.uaword	0x28f1
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_SRACT_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x2be
-	.uaword	0x2a42
+	.uaword	0x2a37
 	.uleb128 0x8
 	.string	"AGSR0"
 	.byte	0x1
 	.uahalf	0x2c0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5972,7 +5972,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"AGSR1"
 	.byte	0x1
 	.uahalf	0x2c1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5981,7 +5981,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"AGSR2"
 	.byte	0x1
 	.uahalf	0x2c2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5990,7 +5990,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"AGSR3"
 	.byte	0x1
 	.uahalf	0x2c3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5999,7 +5999,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.uahalf	0x2c4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6008,7 +6008,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSR0"
 	.byte	0x1
 	.uahalf	0x2c5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6017,7 +6017,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSR1"
 	.byte	0x1
 	.uahalf	0x2c6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6026,7 +6026,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSR2"
 	.byte	0x1
 	.uahalf	0x2c7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6035,7 +6035,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"ASSR3"
 	.byte	0x1
 	.uahalf	0x2c8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6044,7 +6044,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF13
 	.byte	0x1
 	.uahalf	0x2c9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -6054,18 +6054,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_SRACT_Bits"
 	.byte	0x1
 	.uahalf	0x2ca
-	.uaword	0x2971
+	.uaword	0x2966
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_SYNCTR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x2cd
-	.uaword	0x2aed
+	.uaword	0x2ae2
 	.uleb128 0x8
 	.string	"STSEL"
 	.byte	0x1
 	.uahalf	0x2cf
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -6074,7 +6074,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x2d0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -6083,7 +6083,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EVALR1"
 	.byte	0x1
 	.uahalf	0x2d1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6092,7 +6092,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EVALR2"
 	.byte	0x1
 	.uahalf	0x2d2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6101,7 +6101,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EVALR3"
 	.byte	0x1
 	.uahalf	0x2d3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6110,7 +6110,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF28
 	.byte	0x1
 	.uahalf	0x2d4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x19
 	.byte	0
@@ -6120,18 +6120,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_SYNCTR_Bits"
 	.byte	0x1
 	.uahalf	0x2d5
-	.uaword	0x2a60
+	.uaword	0x2a55
 	.uleb128 0xa
 	.string	"_Ifx_VADC_G_VFR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x2d8
-	.uaword	0x2c41
+	.uaword	0x2c36
 	.uleb128 0x8
 	.string	"VF0"
 	.byte	0x1
 	.uahalf	0x2da
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6140,7 +6140,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF1"
 	.byte	0x1
 	.uahalf	0x2db
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6149,7 +6149,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF2"
 	.byte	0x1
 	.uahalf	0x2dc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6158,7 +6158,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF3"
 	.byte	0x1
 	.uahalf	0x2dd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6167,7 +6167,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF4"
 	.byte	0x1
 	.uahalf	0x2de
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6176,7 +6176,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF5"
 	.byte	0x1
 	.uahalf	0x2df
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6185,7 +6185,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF6"
 	.byte	0x1
 	.uahalf	0x2e0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6194,7 +6194,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF7"
 	.byte	0x1
 	.uahalf	0x2e1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6203,7 +6203,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF8"
 	.byte	0x1
 	.uahalf	0x2e2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6212,7 +6212,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF9"
 	.byte	0x1
 	.uahalf	0x2e3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -6221,7 +6221,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF10"
 	.byte	0x1
 	.uahalf	0x2e4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6230,7 +6230,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF11"
 	.byte	0x1
 	.uahalf	0x2e5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6239,7 +6239,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF12"
 	.byte	0x1
 	.uahalf	0x2e6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6248,7 +6248,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF13"
 	.byte	0x1
 	.uahalf	0x2e7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6257,7 +6257,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF14"
 	.byte	0x1
 	.uahalf	0x2e8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6266,7 +6266,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF15"
 	.byte	0x1
 	.uahalf	0x2e9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6275,7 +6275,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x1
 	.uahalf	0x2ea
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6285,18 +6285,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_G_VFR_Bits"
 	.byte	0x1
 	.uahalf	0x2eb
-	.uaword	0x2b0c
+	.uaword	0x2b01
 	.uleb128 0xa
 	.string	"_Ifx_VADC_GLOBBOUND_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x2ee
-	.uaword	0x2cc0
+	.uaword	0x2cb5
 	.uleb128 0x7
 	.uaword	.LASF18
 	.byte	0x1
 	.uahalf	0x2f0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -6305,7 +6305,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF13
 	.byte	0x1
 	.uahalf	0x2f1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6314,7 +6314,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF19
 	.byte	0x1
 	.uahalf	0x2f2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0x4
@@ -6323,7 +6323,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF20
 	.byte	0x1
 	.uahalf	0x2f3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -6333,18 +6333,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_GLOBBOUND_Bits"
 	.byte	0x1
 	.uahalf	0x2f4
-	.uaword	0x2c5d
+	.uaword	0x2c52
 	.uleb128 0xa
 	.string	"_Ifx_VADC_GLOBCFG_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x2f7
-	.uaword	0x2e55
+	.uaword	0x2e4a
 	.uleb128 0x8
 	.string	"DIVA"
 	.byte	0x1
 	.uahalf	0x2f9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -6353,7 +6353,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x2fa
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x19
@@ -6362,7 +6362,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DCMSB"
 	.byte	0x1
 	.uahalf	0x2fb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6371,7 +6371,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DIVD"
 	.byte	0x1
 	.uahalf	0x2fc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -6380,7 +6380,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF7
 	.byte	0x1
 	.uahalf	0x2fd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -6389,7 +6389,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REFPC"
 	.byte	0x1
 	.uahalf	0x2fe
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -6398,7 +6398,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF12
 	.byte	0x1
 	.uahalf	0x2ff
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -6407,7 +6407,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"LOSUP"
 	.byte	0x1
 	.uahalf	0x300
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6416,7 +6416,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DIVWC"
 	.byte	0x1
 	.uahalf	0x301
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6425,7 +6425,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DPCAL0"
 	.byte	0x1
 	.uahalf	0x302
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6434,7 +6434,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DPCAL1"
 	.byte	0x1
 	.uahalf	0x303
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6443,7 +6443,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DPCAL2"
 	.byte	0x1
 	.uahalf	0x304
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6452,7 +6452,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DPCAL3"
 	.byte	0x1
 	.uahalf	0x305
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6461,7 +6461,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DPCAL4"
 	.byte	0x1
 	.uahalf	0x306
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6470,7 +6470,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DPCAL5"
 	.byte	0x1
 	.uahalf	0x307
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -6479,7 +6479,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DPCAL6"
 	.byte	0x1
 	.uahalf	0x308
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6488,7 +6488,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DPCAL7"
 	.byte	0x1
 	.uahalf	0x309
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6497,7 +6497,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x1
 	.uahalf	0x30a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -6506,7 +6506,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SUCAL"
 	.byte	0x1
 	.uahalf	0x30b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6516,18 +6516,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_GLOBCFG_Bits"
 	.byte	0x1
 	.uahalf	0x30c
-	.uaword	0x2ce0
+	.uaword	0x2cd5
 	.uleb128 0xa
 	.string	"_Ifx_VADC_GLOBEFLAG_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x30f
-	.uaword	0x2f28
+	.uaword	0x2f1d
 	.uleb128 0x8
 	.string	"SEVGLB"
 	.byte	0x1
 	.uahalf	0x311
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6536,7 +6536,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF29
 	.byte	0x1
 	.uahalf	0x312
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x7
 	.byte	0x18
@@ -6545,7 +6545,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REVGLB"
 	.byte	0x1
 	.uahalf	0x313
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6554,7 +6554,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF25
 	.byte	0x1
 	.uahalf	0x314
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -6563,7 +6563,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEVGLBCLR"
 	.byte	0x1
 	.uahalf	0x315
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6572,7 +6572,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF9
 	.byte	0x1
 	.uahalf	0x316
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8
@@ -6581,7 +6581,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REVGLBCLR"
 	.byte	0x1
 	.uahalf	0x317
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6590,7 +6590,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF30
 	.byte	0x1
 	.uahalf	0x318
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -6600,18 +6600,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_GLOBEFLAG_Bits"
 	.byte	0x1
 	.uahalf	0x319
-	.uaword	0x2e73
+	.uaword	0x2e68
 	.uleb128 0xa
 	.string	"_Ifx_VADC_GLOBEVNP_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x31c
-	.uaword	0x2fb0
+	.uaword	0x2fa5
 	.uleb128 0x8
 	.string	"SEV0NP"
 	.byte	0x1
 	.uahalf	0x31e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -6620,7 +6620,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.uahalf	0x31f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0x10
@@ -6629,7 +6629,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"REV0NP"
 	.byte	0x1
 	.uahalf	0x320
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -6638,7 +6638,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF16
 	.byte	0x1
 	.uahalf	0x321
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -6648,18 +6648,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_GLOBEVNP_Bits"
 	.byte	0x1
 	.uahalf	0x322
-	.uaword	0x2f48
+	.uaword	0x2f3d
 	.uleb128 0xa
 	.string	"_Ifx_VADC_GLOBRCR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x325
-	.uaword	0x3054
+	.uaword	0x3049
 	.uleb128 0x7
 	.uaword	.LASF26
 	.byte	0x1
 	.uahalf	0x327
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6668,7 +6668,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"DRCTR"
 	.byte	0x1
 	.uahalf	0x328
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -6677,7 +6677,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF16
 	.byte	0x1
 	.uahalf	0x329
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -6686,7 +6686,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"WFR"
 	.byte	0x1
 	.uahalf	0x32a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -6695,7 +6695,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF30
 	.byte	0x1
 	.uahalf	0x32b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1
@@ -6704,7 +6704,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SRGEN"
 	.byte	0x1
 	.uahalf	0x32c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6714,18 +6714,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_GLOBRCR_Bits"
 	.byte	0x1
 	.uahalf	0x32d
-	.uaword	0x2fcf
+	.uaword	0x2fc4
 	.uleb128 0xa
 	.string	"_Ifx_VADC_GLOBRES_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x330
-	.uaword	0x3104
+	.uaword	0x30f9
 	.uleb128 0x7
 	.uaword	.LASF27
 	.byte	0x1
 	.uahalf	0x332
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6734,7 +6734,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GNR"
 	.byte	0x1
 	.uahalf	0x333
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -6743,7 +6743,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CHNR"
 	.byte	0x1
 	.uahalf	0x334
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -6752,7 +6752,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMUX"
 	.byte	0x1
 	.uahalf	0x335
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -6761,7 +6761,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CRS"
 	.byte	0x1
 	.uahalf	0x336
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -6770,7 +6770,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"FCR"
 	.byte	0x1
 	.uahalf	0x337
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -6779,7 +6779,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF"
 	.byte	0x1
 	.uahalf	0x338
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6789,18 +6789,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_GLOBRES_Bits"
 	.byte	0x1
 	.uahalf	0x339
-	.uaword	0x3072
+	.uaword	0x3067
 	.uleb128 0xa
 	.string	"_Ifx_VADC_GLOBRESD_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x33c
-	.uaword	0x31b5
+	.uaword	0x31aa
 	.uleb128 0x7
 	.uaword	.LASF27
 	.byte	0x1
 	.uahalf	0x33e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6809,7 +6809,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"GNR"
 	.byte	0x1
 	.uahalf	0x33f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -6818,7 +6818,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CHNR"
 	.byte	0x1
 	.uahalf	0x340
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x7
@@ -6827,7 +6827,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EMUX"
 	.byte	0x1
 	.uahalf	0x341
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -6836,7 +6836,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CRS"
 	.byte	0x1
 	.uahalf	0x342
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -6845,7 +6845,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"FCR"
 	.byte	0x1
 	.uahalf	0x343
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -6854,7 +6854,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"VF"
 	.byte	0x1
 	.uahalf	0x344
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6864,18 +6864,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_GLOBRESD_Bits"
 	.byte	0x1
 	.uahalf	0x345
-	.uaword	0x3122
+	.uaword	0x3117
 	.uleb128 0xa
 	.string	"_Ifx_VADC_GLOBTF_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x348
-	.uaword	0x32c5
+	.uaword	0x32ba
 	.uleb128 0x8
 	.string	"CDCH"
 	.byte	0x1
 	.uahalf	0x34a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -6884,7 +6884,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CDGR"
 	.byte	0x1
 	.uahalf	0x34b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6893,7 +6893,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CDEN"
 	.byte	0x1
 	.uahalf	0x34c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -6902,7 +6902,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CDSEL"
 	.byte	0x1
 	.uahalf	0x34d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x15
@@ -6911,7 +6911,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x34e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x11
@@ -6920,7 +6920,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CDWC"
 	.byte	0x1
 	.uahalf	0x34f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6929,7 +6929,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDD"
 	.byte	0x1
 	.uahalf	0x350
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6938,7 +6938,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"MDPD"
 	.byte	0x1
 	.uahalf	0x351
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6947,7 +6947,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"MDPU"
 	.byte	0x1
 	.uahalf	0x352
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6956,7 +6956,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"reserved_19"
 	.byte	0x1
 	.uahalf	0x353
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x9
@@ -6965,7 +6965,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"MDWC"
 	.byte	0x1
 	.uahalf	0x354
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6974,7 +6974,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x1
 	.uahalf	0x355
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -6984,18 +6984,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_GLOBTF_Bits"
 	.byte	0x1
 	.uahalf	0x356
-	.uaword	0x31d4
+	.uaword	0x31c9
 	.uleb128 0xa
 	.string	"_Ifx_VADC_ICLASS_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x359
-	.uaword	0x3384
+	.uaword	0x3379
 	.uleb128 0x8
 	.string	"STCS"
 	.byte	0x1
 	.uahalf	0x35b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -7004,7 +7004,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF11
 	.byte	0x1
 	.uahalf	0x35c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -7013,7 +7013,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CMS"
 	.byte	0x1
 	.uahalf	0x35d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -7022,7 +7022,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x35e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -7031,7 +7031,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"STCE"
 	.byte	0x1
 	.uahalf	0x35f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -7040,7 +7040,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF5
 	.byte	0x1
 	.uahalf	0x360
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -7049,7 +7049,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"CME"
 	.byte	0x1
 	.uahalf	0x361
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -7058,7 +7058,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF14
 	.byte	0x1
 	.uahalf	0x362
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -7068,18 +7068,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_ICLASS_Bits"
 	.byte	0x1
 	.uahalf	0x363
-	.uaword	0x32e2
+	.uaword	0x32d7
 	.uleb128 0xa
 	.string	"_Ifx_VADC_ID_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x366
-	.uaword	0x33f6
+	.uaword	0x33eb
 	.uleb128 0x8
 	.string	"MOD_REV"
 	.byte	0x1
 	.uahalf	0x368
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -7088,7 +7088,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"MOD_TYPE"
 	.byte	0x1
 	.uahalf	0x369
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -7097,7 +7097,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF31
 	.byte	0x1
 	.uahalf	0x36a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7107,18 +7107,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_ID_Bits"
 	.byte	0x1
 	.uahalf	0x36b
-	.uaword	0x33a1
+	.uaword	0x3396
 	.uleb128 0xa
 	.string	"_Ifx_VADC_KRST0_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x36e
-	.uaword	0x3462
+	.uaword	0x3457
 	.uleb128 0x8
 	.string	"RST"
 	.byte	0x1
 	.uahalf	0x370
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7127,7 +7127,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"RSTSTAT"
 	.byte	0x1
 	.uahalf	0x371
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7136,7 +7136,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x1
 	.uahalf	0x372
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -7146,18 +7146,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_KRST0_Bits"
 	.byte	0x1
 	.uahalf	0x373
-	.uaword	0x340f
+	.uaword	0x3404
 	.uleb128 0xa
 	.string	"_Ifx_VADC_KRST1_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x376
-	.uaword	0x34bd
+	.uaword	0x34b2
 	.uleb128 0x8
 	.string	"RST"
 	.byte	0x1
 	.uahalf	0x378
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7166,7 +7166,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF29
 	.byte	0x1
 	.uahalf	0x379
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -7176,18 +7176,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_KRST1_Bits"
 	.byte	0x1
 	.uahalf	0x37a
-	.uaword	0x347e
+	.uaword	0x3473
 	.uleb128 0xa
 	.string	"_Ifx_VADC_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x37d
-	.uaword	0x351a
+	.uaword	0x350f
 	.uleb128 0x8
 	.string	"CLR"
 	.byte	0x1
 	.uahalf	0x37f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7196,7 +7196,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF29
 	.byte	0x1
 	.uahalf	0x380
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -7206,18 +7206,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_KRSTCLR_Bits"
 	.byte	0x1
 	.uahalf	0x381
-	.uaword	0x34d9
+	.uaword	0x34ce
 	.uleb128 0xa
 	.string	"_Ifx_VADC_OCS_Bits"
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x384
-	.uaword	0x35e3
+	.uaword	0x35d8
 	.uleb128 0x8
 	.string	"TGS"
 	.byte	0x1
 	.uahalf	0x386
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -7226,7 +7226,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TGB"
 	.byte	0x1
 	.uahalf	0x387
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7235,7 +7235,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TG_P"
 	.byte	0x1
 	.uahalf	0x388
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7244,7 +7244,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x1
 	.uahalf	0x389
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x14
 	.byte	0x8
@@ -7253,7 +7253,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SUS"
 	.byte	0x1
 	.uahalf	0x38a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -7262,7 +7262,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SUS_P"
 	.byte	0x1
 	.uahalf	0x38b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7271,7 +7271,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SUSSTA"
 	.byte	0x1
 	.uahalf	0x38c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7280,7 +7280,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"reserved_30"
 	.byte	0x1
 	.uahalf	0x38d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -7290,27 +7290,27 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_OCS_Bits"
 	.byte	0x1
 	.uahalf	0x38e
-	.uaword	0x3538
+	.uaword	0x352d
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x396
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x398
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x399
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x39a
-	.uaword	0x3e7
+	.uaword	0x3dc
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
@@ -7320,1940 +7320,1940 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_VADC_ACCEN0"
 	.byte	0x1
 	.uahalf	0x39b
-	.uaword	0x35fd
+	.uaword	0x35f2
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x39e
-	.uaword	0x366c
+	.uaword	0x3661
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3a0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3a1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3a2
-	.uaword	0x562
+	.uaword	0x557
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_ACCPROT0"
 	.byte	0x1
 	.uahalf	0x3a3
-	.uaword	0x3644
+	.uaword	0x3639
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3a6
-	.uaword	0x36ae
+	.uaword	0x36a3
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3a8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3a9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3aa
-	.uaword	0x6cf
+	.uaword	0x6c4
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_ACCPROT1"
 	.byte	0x1
 	.uahalf	0x3ab
-	.uaword	0x3686
+	.uaword	0x367b
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3ae
-	.uaword	0x36f0
+	.uaword	0x36e5
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3b0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3b1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3b2
-	.uaword	0x7bc
+	.uaword	0x7b1
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_BRSCTRL"
 	.byte	0x1
 	.uahalf	0x3b3
-	.uaword	0x36c8
+	.uaword	0x36bd
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3b6
-	.uaword	0x3731
+	.uaword	0x3726
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3b8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3b9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3ba
-	.uaword	0x8b5
+	.uaword	0x8aa
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_BRSMR"
 	.byte	0x1
 	.uahalf	0x3bb
-	.uaword	0x3709
+	.uaword	0x36fe
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3be
-	.uaword	0x3770
+	.uaword	0x3765
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3c0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3c1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3c2
-	.uaword	0x902
+	.uaword	0x8f7
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_BRSPND"
 	.byte	0x1
 	.uahalf	0x3c3
-	.uaword	0x3748
+	.uaword	0x373d
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3c6
-	.uaword	0x37b0
+	.uaword	0x37a5
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3c8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3c9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3ca
-	.uaword	0x950
+	.uaword	0x945
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_BRSSEL"
 	.byte	0x1
 	.uahalf	0x3cb
-	.uaword	0x3788
+	.uaword	0x377d
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3ce
-	.uaword	0x37f0
+	.uaword	0x37e5
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3d0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3d1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3d2
-	.uaword	0x9d6
+	.uaword	0x9cb
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_CLC"
 	.byte	0x1
 	.uahalf	0x3d3
-	.uaword	0x37c8
+	.uaword	0x37bd
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3d6
-	.uaword	0x382d
+	.uaword	0x3822
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3d8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3d9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3da
-	.uaword	0xa46
+	.uaword	0xa3b
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_EMUXSEL"
 	.byte	0x1
 	.uahalf	0x3db
-	.uaword	0x3805
+	.uaword	0x37fa
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3de
-	.uaword	0x386e
+	.uaword	0x3863
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3e0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3e1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3e2
-	.uaword	0xac5
+	.uaword	0xaba
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_ALIAS"
 	.byte	0x1
 	.uahalf	0x3e3
-	.uaword	0x3846
+	.uaword	0x383b
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3e6
-	.uaword	0x38af
+	.uaword	0x38a4
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3e8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3e9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3ea
-	.uaword	0xbfe
+	.uaword	0xbf3
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_ARBCFG"
 	.byte	0x1
 	.uahalf	0x3eb
-	.uaword	0x3887
+	.uaword	0x387c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3ee
-	.uaword	0x38f1
+	.uaword	0x38e6
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3f0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3f1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3f2
-	.uaword	0xd1d
+	.uaword	0xd12
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_ARBPR"
 	.byte	0x1
 	.uahalf	0x3f3
-	.uaword	0x38c9
+	.uaword	0x38be
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3f6
-	.uaword	0x3932
+	.uaword	0x3927
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x3f8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x3f9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x3fa
-	.uaword	0xe3f
+	.uaword	0xe34
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_ASCTRL"
 	.byte	0x1
 	.uahalf	0x3fb
-	.uaword	0x390a
+	.uaword	0x38ff
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x3fe
-	.uaword	0x3974
+	.uaword	0x3969
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x400
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x401
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x402
-	.uaword	0xf48
+	.uaword	0xf3d
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_ASMR"
 	.byte	0x1
 	.uahalf	0x403
-	.uaword	0x394c
+	.uaword	0x3941
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x406
-	.uaword	0x39b4
+	.uaword	0x39a9
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x408
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x409
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x40a
-	.uaword	0xf98
+	.uaword	0xf8d
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_ASPND"
 	.byte	0x1
 	.uahalf	0x40b
-	.uaword	0x398c
+	.uaword	0x3981
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x40e
-	.uaword	0x39f5
+	.uaword	0x39ea
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x410
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x411
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x412
-	.uaword	0xfe9
+	.uaword	0xfde
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_ASSEL"
 	.byte	0x1
 	.uahalf	0x413
-	.uaword	0x39cd
+	.uaword	0x39c2
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x416
-	.uaword	0x3a36
+	.uaword	0x3a2b
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x418
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x419
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x41a
-	.uaword	0x1122
+	.uaword	0x1117
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_BFL"
 	.byte	0x1
 	.uahalf	0x41b
-	.uaword	0x3a0e
+	.uaword	0x3a03
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x41e
-	.uaword	0x3a75
+	.uaword	0x3a6a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x420
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x421
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x422
-	.uaword	0x11b2
+	.uaword	0x11a7
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_BFLC"
 	.byte	0x1
 	.uahalf	0x423
-	.uaword	0x3a4d
+	.uaword	0x3a42
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x426
-	.uaword	0x3ab5
+	.uaword	0x3aaa
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x428
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x429
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x42a
-	.uaword	0x124c
+	.uaword	0x1241
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_BFLNP"
 	.byte	0x1
 	.uahalf	0x42b
-	.uaword	0x3a8d
+	.uaword	0x3a82
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x42e
-	.uaword	0x3af6
+	.uaword	0x3aeb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x430
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x431
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x432
-	.uaword	0x1332
+	.uaword	0x1327
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_BFLS"
 	.byte	0x1
 	.uahalf	0x433
-	.uaword	0x3ace
+	.uaword	0x3ac3
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x436
-	.uaword	0x3b36
+	.uaword	0x3b2b
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x438
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x439
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x43a
-	.uaword	0x13b0
+	.uaword	0x13a5
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_BOUND"
 	.byte	0x1
 	.uahalf	0x43b
-	.uaword	0x3b0e
+	.uaword	0x3b03
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x43e
-	.uaword	0x3b77
+	.uaword	0x3b6c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x440
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x441
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x442
-	.uaword	0x1488
+	.uaword	0x147d
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_CEFCLR"
 	.byte	0x1
 	.uahalf	0x443
-	.uaword	0x3b4f
+	.uaword	0x3b44
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x446
-	.uaword	0x3bb9
+	.uaword	0x3bae
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x448
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x449
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x44a
-	.uaword	0x1561
+	.uaword	0x1556
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_CEFLAG"
 	.byte	0x1
 	.uahalf	0x44b
-	.uaword	0x3b91
+	.uaword	0x3b86
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x44e
-	.uaword	0x3bfb
+	.uaword	0x3bf0
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x450
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x451
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x452
-	.uaword	0x163a
+	.uaword	0x162f
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_CEVNP0"
 	.byte	0x1
 	.uahalf	0x453
-	.uaword	0x3bd3
+	.uaword	0x3bc8
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x456
-	.uaword	0x3c3d
+	.uaword	0x3c32
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x458
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x459
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x45a
-	.uaword	0x18f0
+	.uaword	0x18e5
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_CHASS"
 	.byte	0x1
 	.uahalf	0x45b
-	.uaword	0x3c15
+	.uaword	0x3c0a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x45e
-	.uaword	0x3c7e
+	.uaword	0x3c73
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x460
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x461
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x462
-	.uaword	0x1a4c
+	.uaword	0x1a41
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_CHCTR"
 	.byte	0x1
 	.uahalf	0x463
-	.uaword	0x3c56
+	.uaword	0x3c4b
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x466
-	.uaword	0x3cbf
+	.uaword	0x3cb4
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x468
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x469
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x46a
-	.uaword	0x1b47
+	.uaword	0x1b3c
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_EMUXCTR"
 	.byte	0x1
 	.uahalf	0x46b
-	.uaword	0x3c97
+	.uaword	0x3c8c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x46e
-	.uaword	0x3d02
+	.uaword	0x3cf7
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x470
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x471
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x472
-	.uaword	0x1be6
+	.uaword	0x1bdb
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_Q0R0"
 	.byte	0x1
 	.uahalf	0x473
-	.uaword	0x3cda
+	.uaword	0x3ccf
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x476
-	.uaword	0x3d42
+	.uaword	0x3d37
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x478
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x479
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x47a
-	.uaword	0x1c83
+	.uaword	0x1c78
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_QBUR0"
 	.byte	0x1
 	.uahalf	0x47b
-	.uaword	0x3d1a
+	.uaword	0x3d0f
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x47e
-	.uaword	0x3d83
+	.uaword	0x3d78
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x480
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x481
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x482
-	.uaword	0x1daf
+	.uaword	0x1da4
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_QCTRL0"
 	.byte	0x1
 	.uahalf	0x483
-	.uaword	0x3d5b
+	.uaword	0x3d50
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x486
-	.uaword	0x3dc5
+	.uaword	0x3dba
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x488
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x489
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x48a
-	.uaword	0x1e40
+	.uaword	0x1e35
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_QINR0"
 	.byte	0x1
 	.uahalf	0x48b
-	.uaword	0x3d9d
+	.uaword	0x3d92
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x48e
-	.uaword	0x3e06
+	.uaword	0x3dfb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x490
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x491
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x492
-	.uaword	0x1f24
+	.uaword	0x1f19
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_QMR0"
 	.byte	0x1
 	.uahalf	0x493
-	.uaword	0x3dde
+	.uaword	0x3dd3
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x496
-	.uaword	0x3e46
+	.uaword	0x3e3b
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x498
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x499
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x49a
-	.uaword	0x1fd5
+	.uaword	0x1fca
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_QSR0"
 	.byte	0x1
 	.uahalf	0x49b
-	.uaword	0x3e1e
+	.uaword	0x3e13
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x49e
-	.uaword	0x3e86
+	.uaword	0x3e7b
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4a0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4a1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4a2
-	.uaword	0x2095
+	.uaword	0x208a
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_RCR"
 	.byte	0x1
 	.uahalf	0x4a3
-	.uaword	0x3e5e
+	.uaword	0x3e53
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4a6
-	.uaword	0x3ec5
+	.uaword	0x3eba
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4a8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4a9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4aa
-	.uaword	0x21f9
+	.uaword	0x21ee
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_REFCLR"
 	.byte	0x1
 	.uahalf	0x4ab
-	.uaword	0x3e9d
+	.uaword	0x3e92
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4ae
-	.uaword	0x3f07
+	.uaword	0x3efc
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4b0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4b1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4b2
-	.uaword	0x2360
+	.uaword	0x2355
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_REFLAG"
 	.byte	0x1
 	.uahalf	0x4b3
-	.uaword	0x3edf
+	.uaword	0x3ed4
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4b6
-	.uaword	0x3f49
+	.uaword	0x3f3e
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4b8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4b9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4ba
-	.uaword	0x240f
+	.uaword	0x2404
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_RES"
 	.byte	0x1
 	.uahalf	0x4bb
-	.uaword	0x3f21
+	.uaword	0x3f16
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4be
-	.uaword	0x3f88
+	.uaword	0x3f7d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4c0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4c1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4c2
-	.uaword	0x24bc
+	.uaword	0x24b1
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_RESD"
 	.byte	0x1
 	.uahalf	0x4c3
-	.uaword	0x3f60
+	.uaword	0x3f55
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4c6
-	.uaword	0x3fc8
+	.uaword	0x3fbd
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4c8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4c9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4ca
-	.uaword	0x2593
+	.uaword	0x2588
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_REVNP0"
 	.byte	0x1
 	.uahalf	0x4cb
-	.uaword	0x3fa0
+	.uaword	0x3f95
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4ce
-	.uaword	0x400a
+	.uaword	0x3fff
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4d0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4d1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4d2
-	.uaword	0x2672
+	.uaword	0x2667
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_REVNP1"
 	.byte	0x1
 	.uahalf	0x4d3
-	.uaword	0x3fe2
+	.uaword	0x3fd7
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4d6
-	.uaword	0x404c
+	.uaword	0x4041
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4d8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4d9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4da
-	.uaword	0x27f8
+	.uaword	0x27ed
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_RRASS"
 	.byte	0x1
 	.uahalf	0x4db
-	.uaword	0x4024
+	.uaword	0x4019
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4de
-	.uaword	0x408d
+	.uaword	0x4082
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4e0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4e1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4e2
-	.uaword	0x286a
+	.uaword	0x285f
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_SEFCLR"
 	.byte	0x1
 	.uahalf	0x4e3
-	.uaword	0x4065
+	.uaword	0x405a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4e6
-	.uaword	0x40cf
+	.uaword	0x40c4
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4e8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4e9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4ea
-	.uaword	0x28dd
+	.uaword	0x28d2
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_SEFLAG"
 	.byte	0x1
 	.uahalf	0x4eb
-	.uaword	0x40a7
+	.uaword	0x409c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4ee
-	.uaword	0x4111
+	.uaword	0x4106
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4f0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4f1
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4f2
-	.uaword	0x2953
+	.uaword	0x2948
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_SEVNP"
 	.byte	0x1
 	.uahalf	0x4f3
-	.uaword	0x40e9
+	.uaword	0x40de
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4f6
-	.uaword	0x4152
+	.uaword	0x4147
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x4f8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x4f9
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x4fa
-	.uaword	0x2a42
+	.uaword	0x2a37
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_SRACT"
 	.byte	0x1
 	.uahalf	0x4fb
-	.uaword	0x412a
+	.uaword	0x411f
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x4fe
-	.uaword	0x4193
+	.uaword	0x4188
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x500
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x501
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x502
-	.uaword	0x2aed
+	.uaword	0x2ae2
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_SYNCTR"
 	.byte	0x1
 	.uahalf	0x503
-	.uaword	0x416b
+	.uaword	0x4160
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x506
-	.uaword	0x41d5
+	.uaword	0x41ca
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x508
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x509
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x50a
-	.uaword	0x2c41
+	.uaword	0x2c36
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G_VFR"
 	.byte	0x1
 	.uahalf	0x50b
-	.uaword	0x41ad
+	.uaword	0x41a2
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x50e
-	.uaword	0x4214
+	.uaword	0x4209
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x510
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x511
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x512
-	.uaword	0x2cc0
+	.uaword	0x2cb5
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_GLOBBOUND"
 	.byte	0x1
 	.uahalf	0x513
-	.uaword	0x41ec
+	.uaword	0x41e1
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x516
-	.uaword	0x4257
+	.uaword	0x424c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x518
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x519
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x51a
-	.uaword	0x2e55
+	.uaword	0x2e4a
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_GLOBCFG"
 	.byte	0x1
 	.uahalf	0x51b
-	.uaword	0x422f
+	.uaword	0x4224
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x51e
-	.uaword	0x4298
+	.uaword	0x428d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x520
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x521
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x522
-	.uaword	0x2f28
+	.uaword	0x2f1d
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_GLOBEFLAG"
 	.byte	0x1
 	.uahalf	0x523
-	.uaword	0x4270
+	.uaword	0x4265
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x526
-	.uaword	0x42db
+	.uaword	0x42d0
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x528
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x529
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x52a
-	.uaword	0x2fb0
+	.uaword	0x2fa5
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_GLOBEVNP"
 	.byte	0x1
 	.uahalf	0x52b
-	.uaword	0x42b3
+	.uaword	0x42a8
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x52e
-	.uaword	0x431d
+	.uaword	0x4312
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x530
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x531
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x532
-	.uaword	0x3054
+	.uaword	0x3049
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_GLOBRCR"
 	.byte	0x1
 	.uahalf	0x533
-	.uaword	0x42f5
+	.uaword	0x42ea
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x536
-	.uaword	0x435e
+	.uaword	0x4353
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x538
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x539
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x53a
-	.uaword	0x3104
+	.uaword	0x30f9
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_GLOBRES"
 	.byte	0x1
 	.uahalf	0x53b
-	.uaword	0x4336
+	.uaword	0x432b
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x53e
-	.uaword	0x439f
+	.uaword	0x4394
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x540
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x541
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x542
-	.uaword	0x31b5
+	.uaword	0x31aa
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_GLOBRESD"
 	.byte	0x1
 	.uahalf	0x543
-	.uaword	0x4377
+	.uaword	0x436c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x546
-	.uaword	0x43e1
+	.uaword	0x43d6
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x548
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x549
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x54a
-	.uaword	0x32c5
+	.uaword	0x32ba
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_GLOBTF"
 	.byte	0x1
 	.uahalf	0x54b
-	.uaword	0x43b9
+	.uaword	0x43ae
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x54e
-	.uaword	0x4421
+	.uaword	0x4416
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x550
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x551
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x552
-	.uaword	0x3384
+	.uaword	0x3379
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_ICLASS"
 	.byte	0x1
 	.uahalf	0x553
-	.uaword	0x43f9
+	.uaword	0x43ee
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x556
-	.uaword	0x4461
+	.uaword	0x4456
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x558
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x559
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x55a
-	.uaword	0x33f6
+	.uaword	0x33eb
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_ID"
 	.byte	0x1
 	.uahalf	0x55b
-	.uaword	0x4439
+	.uaword	0x442e
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x55e
-	.uaword	0x449d
+	.uaword	0x4492
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x560
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x561
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x562
-	.uaword	0x3462
+	.uaword	0x3457
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_KRST0"
 	.byte	0x1
 	.uahalf	0x563
-	.uaword	0x4475
+	.uaword	0x446a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x566
-	.uaword	0x44dc
+	.uaword	0x44d1
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x568
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x569
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x56a
-	.uaword	0x34bd
+	.uaword	0x34b2
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_KRST1"
 	.byte	0x1
 	.uahalf	0x56b
-	.uaword	0x44b4
+	.uaword	0x44a9
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x56e
-	.uaword	0x451b
+	.uaword	0x4510
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x570
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x571
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x572
-	.uaword	0x351a
+	.uaword	0x350f
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_KRSTCLR"
 	.byte	0x1
 	.uahalf	0x573
-	.uaword	0x44f3
+	.uaword	0x44e8
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x576
-	.uaword	0x455c
+	.uaword	0x4551
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x1
 	.uahalf	0x578
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x1
 	.uahalf	0x579
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x1
 	.uahalf	0x57a
-	.uaword	0x35e3
+	.uaword	0x35d8
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_OCS"
 	.byte	0x1
 	.uahalf	0x57b
-	.uaword	0x4534
+	.uaword	0x4529
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x1
 	.uahalf	0x59e
-	.uaword	0x4597
+	.uaword	0x458c
 	.uleb128 0xc
 	.string	"QBUR0"
 	.byte	0x1
 	.uahalf	0x5a0
-	.uaword	0x3d42
+	.uaword	0x3d37
 	.uleb128 0xc
 	.string	"QINR0"
 	.byte	0x1
 	.uahalf	0x5a1
-	.uaword	0x3dc5
+	.uaword	0x3dba
 	.byte	0
 	.uleb128 0xd
 	.string	"_Ifx_VADC_G"
 	.uahalf	0x400
 	.byte	0x1
 	.uahalf	0x586
-	.uaword	0x498b
+	.uaword	0x4980
 	.uleb128 0xe
 	.string	"ARBCFG"
 	.byte	0x1
 	.uahalf	0x588
-	.uaword	0x38af
+	.uaword	0x38a4
 	.byte	0
 	.uleb128 0xe
 	.string	"ARBPR"
 	.byte	0x1
 	.uahalf	0x589
-	.uaword	0x38f1
+	.uaword	0x38e6
 	.byte	0x4
 	.uleb128 0xe
 	.string	"CHASS"
 	.byte	0x1
 	.uahalf	0x58a
-	.uaword	0x3c3d
+	.uaword	0x3c32
 	.byte	0x8
 	.uleb128 0xe
 	.string	"RRASS"
 	.byte	0x1
 	.uahalf	0x58b
-	.uaword	0x404c
+	.uaword	0x4041
 	.byte	0xc
 	.uleb128 0xf
 	.uaword	.LASF7
 	.byte	0x1
 	.uahalf	0x58c
-	.uaword	0x498b
+	.uaword	0x4980
 	.byte	0x10
 	.uleb128 0xe
 	.string	"ICLASS"
 	.byte	0x1
 	.uahalf	0x58d
-	.uaword	0x49b8
+	.uaword	0x49ad
 	.byte	0x20
 	.uleb128 0xf
 	.uaword	.LASF20
 	.byte	0x1
 	.uahalf	0x58e
-	.uaword	0x49c8
+	.uaword	0x49bd
 	.byte	0x28
 	.uleb128 0xe
 	.string	"ALIAS"
 	.byte	0x1
 	.uahalf	0x58f
-	.uaword	0x386e
+	.uaword	0x3863
 	.byte	0x30
 	.uleb128 0xe
 	.string	"reserved_34"
 	.byte	0x1
 	.uahalf	0x590
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.byte	0x34
 	.uleb128 0xe
 	.string	"BOUND"
 	.byte	0x1
 	.uahalf	0x591
-	.uaword	0x3b36
+	.uaword	0x3b2b
 	.byte	0x38
 	.uleb128 0xe
 	.string	"reserved_3C"
 	.byte	0x1
 	.uahalf	0x592
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.byte	0x3c
 	.uleb128 0xe
 	.string	"SYNCTR"
 	.byte	0x1
 	.uahalf	0x593
-	.uaword	0x4193
+	.uaword	0x4188
 	.byte	0x40
 	.uleb128 0xe
 	.string	"reserved_44"
 	.byte	0x1
 	.uahalf	0x594
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.byte	0x44
 	.uleb128 0xe
 	.string	"BFL"
 	.byte	0x1
 	.uahalf	0x595
-	.uaword	0x3a36
+	.uaword	0x3a2b
 	.byte	0x48
 	.uleb128 0xe
 	.string	"BFLS"
 	.byte	0x1
 	.uahalf	0x596
-	.uaword	0x3af6
+	.uaword	0x3aeb
 	.byte	0x4c
 	.uleb128 0xe
 	.string	"BFLC"
 	.byte	0x1
 	.uahalf	0x597
-	.uaword	0x3a75
+	.uaword	0x3a6a
 	.byte	0x50
 	.uleb128 0xe
 	.string	"BFLNP"
 	.byte	0x1
 	.uahalf	0x598
-	.uaword	0x3ab5
+	.uaword	0x3aaa
 	.byte	0x54
 	.uleb128 0xe
 	.string	"reserved_58"
 	.byte	0x1
 	.uahalf	0x599
-	.uaword	0x49e8
+	.uaword	0x49dd
 	.byte	0x58
 	.uleb128 0xe
 	.string	"QCTRL0"
 	.byte	0x1
 	.uahalf	0x59a
-	.uaword	0x3d83
+	.uaword	0x3d78
 	.byte	0x80
 	.uleb128 0xe
 	.string	"QMR0"
 	.byte	0x1
 	.uahalf	0x59b
-	.uaword	0x3e06
+	.uaword	0x3dfb
 	.byte	0x84
 	.uleb128 0xe
 	.string	"QSR0"
 	.byte	0x1
 	.uahalf	0x59c
-	.uaword	0x3e46
+	.uaword	0x3e3b
 	.byte	0x88
 	.uleb128 0xe
 	.string	"Q0R0"
 	.byte	0x1
 	.uahalf	0x59d
-	.uaword	0x3d02
+	.uaword	0x3cf7
 	.byte	0x8c
 	.uleb128 0x10
-	.uaword	0x4571
+	.uaword	0x4566
 	.byte	0x90
 	.uleb128 0xe
 	.string	"reserved_94"
 	.byte	0x1
 	.uahalf	0x5a4
-	.uaword	0x49f8
+	.uaword	0x49ed
 	.byte	0x94
 	.uleb128 0xe
 	.string	"ASCTRL"
 	.byte	0x1
 	.uahalf	0x5a5
-	.uaword	0x3932
+	.uaword	0x3927
 	.byte	0xa0
 	.uleb128 0xe
 	.string	"ASMR"
 	.byte	0x1
 	.uahalf	0x5a6
-	.uaword	0x3974
+	.uaword	0x3969
 	.byte	0xa4
 	.uleb128 0xe
 	.string	"ASSEL"
 	.byte	0x1
 	.uahalf	0x5a7
-	.uaword	0x39f5
+	.uaword	0x39ea
 	.byte	0xa8
 	.uleb128 0xe
 	.string	"ASPND"
 	.byte	0x1
 	.uahalf	0x5a8
-	.uaword	0x39b4
+	.uaword	0x39a9
 	.byte	0xac
 	.uleb128 0xe
 	.string	"reserved_B0"
 	.byte	0x1
 	.uahalf	0x5a9
-	.uaword	0x4a08
+	.uaword	0x49fd
 	.byte	0xb0
 	.uleb128 0x11
 	.string	"CEFLAG"
 	.byte	0x1
 	.uahalf	0x5aa
-	.uaword	0x3bb9
+	.uaword	0x3bae
 	.uahalf	0x100
 	.uleb128 0x11
 	.string	"REFLAG"
 	.byte	0x1
 	.uahalf	0x5ab
-	.uaword	0x3f07
+	.uaword	0x3efc
 	.uahalf	0x104
 	.uleb128 0x11
 	.string	"SEFLAG"
 	.byte	0x1
 	.uahalf	0x5ac
-	.uaword	0x40cf
+	.uaword	0x40c4
 	.uahalf	0x108
 	.uleb128 0x11
 	.string	"reserved_10C"
 	.byte	0x1
 	.uahalf	0x5ad
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.uahalf	0x10c
 	.uleb128 0x11
 	.string	"CEFCLR"
 	.byte	0x1
 	.uahalf	0x5ae
-	.uaword	0x3b77
+	.uaword	0x3b6c
 	.uahalf	0x110
 	.uleb128 0x11
 	.string	"REFCLR"
 	.byte	0x1
 	.uahalf	0x5af
-	.uaword	0x3ec5
+	.uaword	0x3eba
 	.uahalf	0x114
 	.uleb128 0x11
 	.string	"SEFCLR"
 	.byte	0x1
 	.uahalf	0x5b0
-	.uaword	0x408d
+	.uaword	0x4082
 	.uahalf	0x118
 	.uleb128 0x11
 	.string	"reserved_11C"
 	.byte	0x1
 	.uahalf	0x5b1
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.uahalf	0x11c
 	.uleb128 0x11
 	.string	"CEVNP0"
 	.byte	0x1
 	.uahalf	0x5b2
-	.uaword	0x3bfb
+	.uaword	0x3bf0
 	.uahalf	0x120
 	.uleb128 0x11
 	.string	"reserved_124"
 	.byte	0x1
 	.uahalf	0x5b3
-	.uaword	0x49f8
+	.uaword	0x49ed
 	.uahalf	0x124
 	.uleb128 0x11
 	.string	"REVNP0"
 	.byte	0x1
 	.uahalf	0x5b4
-	.uaword	0x3fc8
+	.uaword	0x3fbd
 	.uahalf	0x130
 	.uleb128 0x11
 	.string	"REVNP1"
 	.byte	0x1
 	.uahalf	0x5b5
-	.uaword	0x400a
+	.uaword	0x3fff
 	.uahalf	0x134
 	.uleb128 0x11
 	.string	"reserved_138"
 	.byte	0x1
 	.uahalf	0x5b6
-	.uaword	0x49c8
+	.uaword	0x49bd
 	.uahalf	0x138
 	.uleb128 0x11
 	.string	"SEVNP"
 	.byte	0x1
 	.uahalf	0x5b7
-	.uaword	0x4111
+	.uaword	0x4106
 	.uahalf	0x140
 	.uleb128 0x12
 	.uaword	.LASF32
 	.byte	0x1
 	.uahalf	0x5b8
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.uahalf	0x144
 	.uleb128 0x11
 	.string	"SRACT"
 	.byte	0x1
 	.uahalf	0x5b9
-	.uaword	0x4152
+	.uaword	0x4147
 	.uahalf	0x148
 	.uleb128 0x11
 	.string	"reserved_14C"
 	.byte	0x1
 	.uahalf	0x5ba
-	.uaword	0x4a18
+	.uaword	0x4a0d
 	.uahalf	0x14c
 	.uleb128 0x11
 	.string	"EMUXCTR"
 	.byte	0x1
 	.uahalf	0x5bb
-	.uaword	0x3cbf
+	.uaword	0x3cb4
 	.uahalf	0x170
 	.uleb128 0x11
 	.string	"reserved_174"
 	.byte	0x1
 	.uahalf	0x5bc
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.uahalf	0x174
 	.uleb128 0x11
 	.string	"VFR"
 	.byte	0x1
 	.uahalf	0x5bd
-	.uaword	0x41d5
+	.uaword	0x41ca
 	.uahalf	0x178
 	.uleb128 0x11
 	.string	"reserved_17C"
 	.byte	0x1
 	.uahalf	0x5be
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.uahalf	0x17c
 	.uleb128 0x11
 	.string	"CHCTR"
 	.byte	0x1
 	.uahalf	0x5bf
-	.uaword	0x4a28
+	.uaword	0x4a1d
 	.uahalf	0x180
 	.uleb128 0x12
 	.uaword	.LASF33
 	.byte	0x1
 	.uahalf	0x5c0
-	.uaword	0x4a38
+	.uaword	0x4a2d
 	.uahalf	0x1a0
 	.uleb128 0x11
 	.string	"RCR"
 	.byte	0x1
 	.uahalf	0x5c1
-	.uaword	0x4a48
+	.uaword	0x4a3d
 	.uahalf	0x200
 	.uleb128 0x11
 	.string	"reserved_240"
 	.byte	0x1
 	.uahalf	0x5c2
-	.uaword	0x4a58
+	.uaword	0x4a4d
 	.uahalf	0x240
 	.uleb128 0x11
 	.string	"RES"
 	.byte	0x1
 	.uahalf	0x5c3
-	.uaword	0x4a68
+	.uaword	0x4a5d
 	.uahalf	0x280
 	.uleb128 0x11
 	.string	"reserved_2C0"
 	.byte	0x1
 	.uahalf	0x5c4
-	.uaword	0x4a58
+	.uaword	0x4a4d
 	.uahalf	0x2c0
 	.uleb128 0x11
 	.string	"RESD"
 	.byte	0x1
 	.uahalf	0x5c5
-	.uaword	0x4a78
+	.uaword	0x4a6d
 	.uahalf	0x300
 	.uleb128 0x11
 	.string	"reserved_340"
 	.byte	0x1
 	.uahalf	0x5c6
-	.uaword	0x4a88
+	.uaword	0x4a7d
 	.uahalf	0x340
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x499b
+	.uaword	0x499c
+	.uaword	0x4990
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0xf
 	.byte	0
 	.uleb128 0x4
@@ -9265,461 +9265,461 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.byte	0x8
 	.string	"unsigned char"
 	.uleb128 0x13
-	.uaword	0x4421
-	.uaword	0x49c8
+	.uaword	0x4416
+	.uaword	0x49bd
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x1
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x49d8
+	.uaword	0x499c
+	.uaword	0x49cd
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x7
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x49e8
+	.uaword	0x499c
+	.uaword	0x49dd
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x3
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x49f8
+	.uaword	0x499c
+	.uaword	0x49ed
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x27
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4a08
+	.uaword	0x499c
+	.uaword	0x49fd
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0xb
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4a18
+	.uaword	0x499c
+	.uaword	0x4a0d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x4f
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4a28
+	.uaword	0x499c
+	.uaword	0x4a1d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x23
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x3c7e
-	.uaword	0x4a38
+	.uaword	0x3c73
+	.uaword	0x4a2d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x7
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4a48
+	.uaword	0x499c
+	.uaword	0x4a3d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x5f
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x3e86
-	.uaword	0x4a58
+	.uaword	0x3e7b
+	.uaword	0x4a4d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0xf
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4a68
+	.uaword	0x499c
+	.uaword	0x4a5d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x3f
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x3f49
-	.uaword	0x4a78
+	.uaword	0x3f3e
+	.uaword	0x4a6d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0xf
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x3f88
-	.uaword	0x4a88
+	.uaword	0x3f7d
+	.uaword	0x4a7d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0xf
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4a98
+	.uaword	0x499c
+	.uaword	0x4a8d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0xbf
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC_G"
 	.byte	0x1
 	.uahalf	0x5c7
-	.uaword	0x4aab
+	.uaword	0x4aa0
 	.uleb128 0x15
-	.uaword	0x4597
+	.uaword	0x458c
 	.uleb128 0xd
 	.string	"_Ifx_VADC"
 	.uahalf	0x4000
 	.byte	0x1
 	.uahalf	0x5d4
-	.uaword	0x4dd8
+	.uaword	0x4dcd
 	.uleb128 0xe
 	.string	"CLC"
 	.byte	0x1
 	.uahalf	0x5d6
-	.uaword	0x37f0
+	.uaword	0x37e5
 	.byte	0
 	.uleb128 0xf
 	.uaword	.LASF3
 	.byte	0x1
 	.uahalf	0x5d7
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.byte	0x4
 	.uleb128 0xe
 	.string	"ID"
 	.byte	0x1
 	.uahalf	0x5d8
-	.uaword	0x4461
+	.uaword	0x4456
 	.byte	0x8
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x1
 	.uahalf	0x5d9
-	.uaword	0x4dd8
+	.uaword	0x4dcd
 	.byte	0xc
 	.uleb128 0xe
 	.string	"OCS"
 	.byte	0x1
 	.uahalf	0x5da
-	.uaword	0x455c
+	.uaword	0x4551
 	.byte	0x28
 	.uleb128 0xe
 	.string	"KRSTCLR"
 	.byte	0x1
 	.uahalf	0x5db
-	.uaword	0x451b
+	.uaword	0x4510
 	.byte	0x2c
 	.uleb128 0xe
 	.string	"KRST1"
 	.byte	0x1
 	.uahalf	0x5dc
-	.uaword	0x44dc
+	.uaword	0x44d1
 	.byte	0x30
 	.uleb128 0xe
 	.string	"KRST0"
 	.byte	0x1
 	.uahalf	0x5dd
-	.uaword	0x449d
+	.uaword	0x4492
 	.byte	0x34
 	.uleb128 0xe
 	.string	"reserved_38"
 	.byte	0x1
 	.uahalf	0x5de
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.byte	0x38
 	.uleb128 0xe
 	.string	"ACCEN0"
 	.byte	0x1
 	.uahalf	0x5df
-	.uaword	0x362c
+	.uaword	0x3621
 	.byte	0x3c
 	.uleb128 0xe
 	.string	"reserved_40"
 	.byte	0x1
 	.uahalf	0x5e0
-	.uaword	0x4a58
+	.uaword	0x4a4d
 	.byte	0x40
 	.uleb128 0xe
 	.string	"GLOBCFG"
 	.byte	0x1
 	.uahalf	0x5e1
-	.uaword	0x4257
+	.uaword	0x424c
 	.byte	0x80
 	.uleb128 0xe
 	.string	"reserved_84"
 	.byte	0x1
 	.uahalf	0x5e2
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.byte	0x84
 	.uleb128 0xe
 	.string	"ACCPROT0"
 	.byte	0x1
 	.uahalf	0x5e3
-	.uaword	0x366c
+	.uaword	0x3661
 	.byte	0x88
 	.uleb128 0xe
 	.string	"ACCPROT1"
 	.byte	0x1
 	.uahalf	0x5e4
-	.uaword	0x36ae
+	.uaword	0x36a3
 	.byte	0x8c
 	.uleb128 0xe
 	.string	"reserved_90"
 	.byte	0x1
 	.uahalf	0x5e5
-	.uaword	0x498b
+	.uaword	0x4980
 	.byte	0x90
 	.uleb128 0xe
 	.string	"GLOBICLASS"
 	.byte	0x1
 	.uahalf	0x5e6
-	.uaword	0x49b8
+	.uaword	0x49ad
 	.byte	0xa0
 	.uleb128 0xe
 	.string	"reserved_A8"
 	.byte	0x1
 	.uahalf	0x5e7
-	.uaword	0x498b
+	.uaword	0x4980
 	.byte	0xa8
 	.uleb128 0xe
 	.string	"GLOBBOUND"
 	.byte	0x1
 	.uahalf	0x5e8
-	.uaword	0x4214
+	.uaword	0x4209
 	.byte	0xb8
 	.uleb128 0xe
 	.string	"reserved_BC"
 	.byte	0x1
 	.uahalf	0x5e9
-	.uaword	0x4a18
+	.uaword	0x4a0d
 	.byte	0xbc
 	.uleb128 0xe
 	.string	"GLOBEFLAG"
 	.byte	0x1
 	.uahalf	0x5ea
-	.uaword	0x4298
+	.uaword	0x428d
 	.byte	0xe0
 	.uleb128 0xe
 	.string	"reserved_E4"
 	.byte	0x1
 	.uahalf	0x5eb
-	.uaword	0x4de8
+	.uaword	0x4ddd
 	.byte	0xe4
 	.uleb128 0x11
 	.string	"GLOBEVNP"
 	.byte	0x1
 	.uahalf	0x5ec
-	.uaword	0x42db
+	.uaword	0x42d0
 	.uahalf	0x140
 	.uleb128 0x12
 	.uaword	.LASF32
 	.byte	0x1
 	.uahalf	0x5ed
-	.uaword	0x4dd8
+	.uaword	0x4dcd
 	.uahalf	0x144
 	.uleb128 0x11
 	.string	"GLOBTF"
 	.byte	0x1
 	.uahalf	0x5ee
-	.uaword	0x43e1
+	.uaword	0x43d6
 	.uahalf	0x160
 	.uleb128 0x11
 	.string	"reserved_164"
 	.byte	0x1
 	.uahalf	0x5ef
-	.uaword	0x4dd8
+	.uaword	0x4dcd
 	.uahalf	0x164
 	.uleb128 0x11
 	.string	"BRSSEL"
 	.byte	0x1
 	.uahalf	0x5f0
-	.uaword	0x4df8
+	.uaword	0x4ded
 	.uahalf	0x180
 	.uleb128 0x12
 	.uaword	.LASF33
 	.byte	0x1
 	.uahalf	0x5f1
-	.uaword	0x4e08
+	.uaword	0x4dfd
 	.uahalf	0x1a0
 	.uleb128 0x11
 	.string	"BRSPND"
 	.byte	0x1
 	.uahalf	0x5f2
-	.uaword	0x4e18
+	.uaword	0x4e0d
 	.uahalf	0x1c0
 	.uleb128 0x11
 	.string	"reserved_1E0"
 	.byte	0x1
 	.uahalf	0x5f3
-	.uaword	0x4e08
+	.uaword	0x4dfd
 	.uahalf	0x1e0
 	.uleb128 0x11
 	.string	"BRSCTRL"
 	.byte	0x1
 	.uahalf	0x5f4
-	.uaword	0x36f0
+	.uaword	0x36e5
 	.uahalf	0x200
 	.uleb128 0x11
 	.string	"BRSMR"
 	.byte	0x1
 	.uahalf	0x5f5
-	.uaword	0x3731
+	.uaword	0x3726
 	.uahalf	0x204
 	.uleb128 0x11
 	.string	"reserved_208"
 	.byte	0x1
 	.uahalf	0x5f6
-	.uaword	0x4e28
+	.uaword	0x4e1d
 	.uahalf	0x208
 	.uleb128 0x11
 	.string	"GLOBRCR"
 	.byte	0x1
 	.uahalf	0x5f7
-	.uaword	0x431d
+	.uaword	0x4312
 	.uahalf	0x280
 	.uleb128 0x11
 	.string	"reserved_284"
 	.byte	0x1
 	.uahalf	0x5f8
-	.uaword	0x4e38
+	.uaword	0x4e2d
 	.uahalf	0x284
 	.uleb128 0x11
 	.string	"GLOBRES"
 	.byte	0x1
 	.uahalf	0x5f9
-	.uaword	0x435e
+	.uaword	0x4353
 	.uahalf	0x300
 	.uleb128 0x11
 	.string	"reserved_304"
 	.byte	0x1
 	.uahalf	0x5fa
-	.uaword	0x4e38
+	.uaword	0x4e2d
 	.uahalf	0x304
 	.uleb128 0x11
 	.string	"GLOBRESD"
 	.byte	0x1
 	.uahalf	0x5fb
-	.uaword	0x439f
+	.uaword	0x4394
 	.uahalf	0x380
 	.uleb128 0x11
 	.string	"reserved_384"
 	.byte	0x1
 	.uahalf	0x5fc
-	.uaword	0x4e48
+	.uaword	0x4e3d
 	.uahalf	0x384
 	.uleb128 0x11
 	.string	"EMUXSEL"
 	.byte	0x1
 	.uahalf	0x5fd
-	.uaword	0x382d
+	.uaword	0x3822
 	.uahalf	0x3f0
 	.uleb128 0x11
 	.string	"reserved_3F4"
 	.byte	0x1
 	.uahalf	0x5fe
-	.uaword	0x4e58
+	.uaword	0x4e4d
 	.uahalf	0x3f4
 	.uleb128 0x11
 	.string	"G"
 	.byte	0x1
 	.uahalf	0x5ff
-	.uaword	0x4e78
+	.uaword	0x4e6d
 	.uahalf	0x480
 	.uleb128 0x11
 	.string	"reserved_2480"
 	.byte	0x1
 	.uahalf	0x600
-	.uaword	0x4e7d
+	.uaword	0x4e72
 	.uahalf	0x2480
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4de8
+	.uaword	0x499c
+	.uaword	0x4ddd
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x1b
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4df8
+	.uaword	0x499c
+	.uaword	0x4ded
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x5b
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x37b0
-	.uaword	0x4e08
+	.uaword	0x37a5
+	.uaword	0x4dfd
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x7
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4e18
+	.uaword	0x499c
+	.uaword	0x4e0d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x1f
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x3770
-	.uaword	0x4e28
+	.uaword	0x3765
+	.uaword	0x4e1d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x7
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4e38
+	.uaword	0x499c
+	.uaword	0x4e2d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x77
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4e48
+	.uaword	0x499c
+	.uaword	0x4e3d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x7b
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4e58
+	.uaword	0x499c
+	.uaword	0x4e4d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x6b
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4e68
+	.uaword	0x499c
+	.uaword	0x4e5d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x8b
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x4a98
-	.uaword	0x4e78
+	.uaword	0x4a8d
+	.uaword	0x4e6d
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x7
 	.byte	0
 	.uleb128 0x15
-	.uaword	0x4e68
+	.uaword	0x4e5d
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4e8e
+	.uaword	0x499c
+	.uaword	0x4e83
 	.uleb128 0x16
-	.uaword	0x499b
+	.uaword	0x4990
 	.uahalf	0x1b7f
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_VADC"
 	.byte	0x1
 	.uahalf	0x601
-	.uaword	0x4e9f
+	.uaword	0x4e94
 	.uleb128 0x15
-	.uaword	0x4ab0
+	.uaword	0x4aa5
 	.uleb128 0x4
 	.byte	0x4
 	.byte	0x5
@@ -9736,7 +9736,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"uint8"
 	.byte	0x2
 	.byte	0x59
-	.uaword	0x49a7
+	.uaword	0x499c
 	.uleb128 0x4
 	.byte	0x2
 	.byte	0x5
@@ -9766,17 +9766,17 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.byte	0x6
 	.string	"char"
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x4f5a
+	.uaword	0x499c
+	.uaword	0x4f4f
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x17
 	.byte	0
 	.uleb128 0x17
 	.byte	0x1
 	.byte	0x3
 	.byte	0x64
-	.uaword	0x5037
+	.uaword	0x502c
 	.uleb128 0x18
 	.string	"IfxVadc_GroupId_0"
 	.sleb128 0
@@ -9812,18 +9812,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_GroupId"
 	.byte	0x3
 	.byte	0x6f
-	.uaword	0x4f5a
+	.uaword	0x4f4f
 	.uleb128 0x2
 	.string	"_Ifx_P_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x2d
-	.uaword	0x5260
+	.uaword	0x5255
 	.uleb128 0x3
 	.string	"EN0"
 	.byte	0x4
 	.byte	0x2f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9832,7 +9832,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN1"
 	.byte	0x4
 	.byte	0x30
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -9841,7 +9841,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN2"
 	.byte	0x4
 	.byte	0x31
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9850,7 +9850,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN3"
 	.byte	0x4
 	.byte	0x32
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9859,7 +9859,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN4"
 	.byte	0x4
 	.byte	0x33
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -9868,7 +9868,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN5"
 	.byte	0x4
 	.byte	0x34
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -9877,7 +9877,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN6"
 	.byte	0x4
 	.byte	0x35
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -9886,7 +9886,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN7"
 	.byte	0x4
 	.byte	0x36
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -9895,7 +9895,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN8"
 	.byte	0x4
 	.byte	0x37
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9904,7 +9904,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN9"
 	.byte	0x4
 	.byte	0x38
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9913,7 +9913,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN10"
 	.byte	0x4
 	.byte	0x39
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9922,7 +9922,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN11"
 	.byte	0x4
 	.byte	0x3a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9931,7 +9931,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN12"
 	.byte	0x4
 	.byte	0x3b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9940,7 +9940,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN13"
 	.byte	0x4
 	.byte	0x3c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9949,7 +9949,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN14"
 	.byte	0x4
 	.byte	0x3d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9958,7 +9958,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN15"
 	.byte	0x4
 	.byte	0x3e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9967,7 +9967,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN16"
 	.byte	0x4
 	.byte	0x3f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -9976,7 +9976,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN17"
 	.byte	0x4
 	.byte	0x40
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -9985,7 +9985,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN18"
 	.byte	0x4
 	.byte	0x41
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -9994,7 +9994,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN19"
 	.byte	0x4
 	.byte	0x42
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -10003,7 +10003,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN20"
 	.byte	0x4
 	.byte	0x43
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -10012,7 +10012,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN21"
 	.byte	0x4
 	.byte	0x44
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -10021,7 +10021,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN22"
 	.byte	0x4
 	.byte	0x45
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -10030,7 +10030,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN23"
 	.byte	0x4
 	.byte	0x46
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -10039,7 +10039,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN24"
 	.byte	0x4
 	.byte	0x47
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10048,7 +10048,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN25"
 	.byte	0x4
 	.byte	0x48
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -10057,7 +10057,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN26"
 	.byte	0x4
 	.byte	0x49
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -10066,7 +10066,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN27"
 	.byte	0x4
 	.byte	0x4a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -10075,7 +10075,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN28"
 	.byte	0x4
 	.byte	0x4b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -10084,7 +10084,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN29"
 	.byte	0x4
 	.byte	0x4c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -10093,7 +10093,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN30"
 	.byte	0x4
 	.byte	0x4d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -10102,7 +10102,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN31"
 	.byte	0x4
 	.byte	0x4e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -10112,18 +10112,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x4f
-	.uaword	0x504e
+	.uaword	0x5043
 	.uleb128 0x2
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x52
-	.uaword	0x52a4
+	.uaword	0x5299
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0x54
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -10133,18 +10133,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x55
-	.uaword	0x5279
+	.uaword	0x526e
 	.uleb128 0x2
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x58
-	.uaword	0x53db
+	.uaword	0x53d0
 	.uleb128 0x3
 	.string	"EN0"
 	.byte	0x4
 	.byte	0x5a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10153,7 +10153,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN1"
 	.byte	0x4
 	.byte	0x5b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10162,7 +10162,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN2"
 	.byte	0x4
 	.byte	0x5c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10171,7 +10171,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN3"
 	.byte	0x4
 	.byte	0x5d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10180,7 +10180,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN4"
 	.byte	0x4
 	.byte	0x5e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10189,7 +10189,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN5"
 	.byte	0x4
 	.byte	0x5f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -10198,7 +10198,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN6"
 	.byte	0x4
 	.byte	0x60
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -10207,7 +10207,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN7"
 	.byte	0x4
 	.byte	0x61
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -10216,7 +10216,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN8"
 	.byte	0x4
 	.byte	0x62
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10225,7 +10225,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN9"
 	.byte	0x4
 	.byte	0x63
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10234,7 +10234,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN10"
 	.byte	0x4
 	.byte	0x64
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -10243,7 +10243,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN11"
 	.byte	0x4
 	.byte	0x65
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10252,7 +10252,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN12"
 	.byte	0x4
 	.byte	0x66
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -10261,7 +10261,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN13"
 	.byte	0x4
 	.byte	0x67
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -10270,7 +10270,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN14"
 	.byte	0x4
 	.byte	0x68
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -10279,7 +10279,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"EN15"
 	.byte	0x4
 	.byte	0x69
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -10288,7 +10288,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.byte	0x6a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -10298,18 +10298,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x6b
-	.uaword	0x52bd
+	.uaword	0x52b2
 	.uleb128 0x2
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x6e
-	.uaword	0x543d
+	.uaword	0x5432
 	.uleb128 0x3
 	.string	"MODREV"
 	.byte	0x4
 	.byte	0x70
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -10318,7 +10318,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"MODTYPE"
 	.byte	0x4
 	.byte	0x71
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -10327,7 +10327,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF31
 	.byte	0x4
 	.byte	0x72
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -10337,18 +10337,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x73
-	.uaword	0x53f1
+	.uaword	0x53e6
 	.uleb128 0x2
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x76
-	.uaword	0x555f
+	.uaword	0x5554
 	.uleb128 0x3
 	.string	"P0"
 	.byte	0x4
 	.byte	0x78
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10357,7 +10357,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P1"
 	.byte	0x4
 	.byte	0x79
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10366,7 +10366,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P2"
 	.byte	0x4
 	.byte	0x7a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10375,7 +10375,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P3"
 	.byte	0x4
 	.byte	0x7b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10384,7 +10384,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P4"
 	.byte	0x4
 	.byte	0x7c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10393,7 +10393,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P5"
 	.byte	0x4
 	.byte	0x7d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -10402,7 +10402,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P6"
 	.byte	0x4
 	.byte	0x7e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -10411,7 +10411,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P7"
 	.byte	0x4
 	.byte	0x7f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -10420,7 +10420,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P8"
 	.byte	0x4
 	.byte	0x80
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10429,7 +10429,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P9"
 	.byte	0x4
 	.byte	0x81
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10438,7 +10438,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P10"
 	.byte	0x4
 	.byte	0x82
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -10447,7 +10447,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P11"
 	.byte	0x4
 	.byte	0x83
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10456,7 +10456,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P12"
 	.byte	0x4
 	.byte	0x84
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -10465,7 +10465,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P13"
 	.byte	0x4
 	.byte	0x85
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -10474,7 +10474,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P14"
 	.byte	0x4
 	.byte	0x86
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -10483,7 +10483,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P15"
 	.byte	0x4
 	.byte	0x87
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -10492,7 +10492,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.byte	0x88
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -10502,18 +10502,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x89
-	.uaword	0x5452
+	.uaword	0x5447
 	.uleb128 0x2
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8c
-	.uaword	0x5607
+	.uaword	0x55fc
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0x8e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -10522,7 +10522,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC0"
 	.byte	0x4
 	.byte	0x8f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -10531,7 +10531,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0x90
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -10540,7 +10540,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC1"
 	.byte	0x4
 	.byte	0x91
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -10549,7 +10549,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.byte	0x92
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -10558,7 +10558,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC2"
 	.byte	0x4
 	.byte	0x93
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -10567,7 +10567,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x4
 	.byte	0x94
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -10576,7 +10576,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC3"
 	.byte	0x4
 	.byte	0x95
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -10586,18 +10586,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x96
-	.uaword	0x5574
+	.uaword	0x5569
 	.uleb128 0x2
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0x99
-	.uaword	0x56b7
+	.uaword	0x56ac
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0x9b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -10606,7 +10606,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC12"
 	.byte	0x4
 	.byte	0x9c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -10615,7 +10615,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0x9d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -10624,7 +10624,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC13"
 	.byte	0x4
 	.byte	0x9e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -10633,7 +10633,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.byte	0x9f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -10642,7 +10642,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC14"
 	.byte	0x4
 	.byte	0xa0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -10651,7 +10651,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x4
 	.byte	0xa1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -10660,7 +10660,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC15"
 	.byte	0x4
 	.byte	0xa2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -10670,18 +10670,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0xa3
-	.uaword	0x561f
+	.uaword	0x5614
 	.uleb128 0x2
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xa6
-	.uaword	0x5763
+	.uaword	0x5758
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0xa8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -10690,7 +10690,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC4"
 	.byte	0x4
 	.byte	0xa9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -10699,7 +10699,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0xaa
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -10708,7 +10708,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC5"
 	.byte	0x4
 	.byte	0xab
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -10717,7 +10717,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.byte	0xac
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -10726,7 +10726,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC6"
 	.byte	0x4
 	.byte	0xad
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -10735,7 +10735,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x4
 	.byte	0xae
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -10744,7 +10744,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC7"
 	.byte	0x4
 	.byte	0xaf
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -10754,18 +10754,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0xb0
-	.uaword	0x56d0
+	.uaword	0x56c5
 	.uleb128 0x2
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xb3
-	.uaword	0x5810
+	.uaword	0x5805
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0xb5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -10774,7 +10774,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC8"
 	.byte	0x4
 	.byte	0xb6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -10783,7 +10783,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0xb7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -10792,7 +10792,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC9"
 	.byte	0x4
 	.byte	0xb8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -10801,7 +10801,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.byte	0xb9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -10810,7 +10810,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC10"
 	.byte	0x4
 	.byte	0xba
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -10819,7 +10819,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x4
 	.byte	0xbb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -10828,7 +10828,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PC11"
 	.byte	0x4
 	.byte	0xbc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -10838,18 +10838,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0xbd
-	.uaword	0x577b
+	.uaword	0x5770
 	.uleb128 0x2
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc0
-	.uaword	0x5870
+	.uaword	0x5865
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0xc2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10858,7 +10858,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS1"
 	.byte	0x4
 	.byte	0xc3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10867,7 +10867,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x4
 	.byte	0xc4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10877,18 +10877,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0xc5
-	.uaword	0x5828
+	.uaword	0x581d
 	.uleb128 0x2
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc8
-	.uaword	0x58d0
+	.uaword	0x58c5
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0xca
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10897,7 +10897,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS1"
 	.byte	0x4
 	.byte	0xcb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10906,7 +10906,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF10
 	.byte	0x4
 	.byte	0xcc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10916,18 +10916,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0xcd
-	.uaword	0x5888
+	.uaword	0x587d
 	.uleb128 0x2
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xd0
-	.uaword	0x5960
+	.uaword	0x5955
 	.uleb128 0x3
 	.string	"RDIS_CTRL"
 	.byte	0x4
 	.byte	0xd2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10936,7 +10936,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"RX_DIS"
 	.byte	0x4
 	.byte	0xd3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10945,7 +10945,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TERM"
 	.byte	0x4
 	.byte	0xd4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10954,7 +10954,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"LRXTERM"
 	.byte	0x4
 	.byte	0xd5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -10963,7 +10963,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x4
 	.byte	0xd6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -10973,18 +10973,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0xd7
-	.uaword	0x58e8
+	.uaword	0x58dd
 	.uleb128 0x2
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xda
-	.uaword	0x5a33
+	.uaword	0x5a28
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0xdc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -10993,7 +10993,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"LVDSR"
 	.byte	0x4
 	.byte	0xdd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11002,7 +11002,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"LVDSRL"
 	.byte	0x4
 	.byte	0xde
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11011,7 +11011,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF7
 	.byte	0x4
 	.byte	0xdf
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -11020,7 +11020,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TDIS_CTRL"
 	.byte	0x4
 	.byte	0xe0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11029,7 +11029,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TX_DIS"
 	.byte	0x4
 	.byte	0xe1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11038,7 +11038,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TX_PD"
 	.byte	0x4
 	.byte	0xe2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11047,7 +11047,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"TX_PWDPD"
 	.byte	0x4
 	.byte	0xe3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11056,7 +11056,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.byte	0xe4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11066,18 +11066,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0xe5
-	.uaword	0x597c
+	.uaword	0x5971
 	.uleb128 0x2
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xe8
-	.uaword	0x5ac4
+	.uaword	0x5ab9
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0xea
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -11086,7 +11086,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL0"
 	.byte	0x4
 	.byte	0xeb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11095,7 +11095,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL1"
 	.byte	0x4
 	.byte	0xec
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11104,7 +11104,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL2"
 	.byte	0x4
 	.byte	0xed
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11113,7 +11113,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL3"
 	.byte	0x4
 	.byte	0xee
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11122,7 +11122,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF16
 	.byte	0x4
 	.byte	0xef
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -11132,18 +11132,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0xf0
-	.uaword	0x5a4b
+	.uaword	0x5a40
 	.uleb128 0x2
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xf3
-	.uaword	0x5b4b
+	.uaword	0x5b40
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0xf5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -11152,7 +11152,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL12"
 	.byte	0x4
 	.byte	0xf6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -11161,7 +11161,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL13"
 	.byte	0x4
 	.byte	0xf7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -11170,7 +11170,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL14"
 	.byte	0x4
 	.byte	0xf8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -11179,7 +11179,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL15"
 	.byte	0x4
 	.byte	0xf9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11189,18 +11189,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0xfa
-	.uaword	0x5adc
+	.uaword	0x5ad1
 	.uleb128 0x2
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x4
 	.byte	0xfd
-	.uaword	0x5be2
+	.uaword	0x5bd7
 	.uleb128 0x6
 	.uaword	.LASF26
 	.byte	0x4
 	.byte	0xff
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -11209,7 +11209,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL4"
 	.byte	0x4
 	.uahalf	0x100
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11218,7 +11218,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL5"
 	.byte	0x4
 	.uahalf	0x101
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -11227,7 +11227,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL6"
 	.byte	0x4
 	.uahalf	0x102
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -11236,7 +11236,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL7"
 	.byte	0x4
 	.uahalf	0x103
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -11245,7 +11245,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF1
 	.byte	0x4
 	.uahalf	0x104
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -11255,18 +11255,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.uahalf	0x105
-	.uaword	0x5b64
+	.uaword	0x5b59
 	.uleb128 0xa
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x108
-	.uaword	0x5c7d
+	.uaword	0x5c72
 	.uleb128 0x7
 	.uaword	.LASF26
 	.byte	0x4
 	.uahalf	0x10a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -11275,7 +11275,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL8"
 	.byte	0x4
 	.uahalf	0x10b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -11284,7 +11284,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL9"
 	.byte	0x4
 	.uahalf	0x10c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -11293,7 +11293,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL10"
 	.byte	0x4
 	.uahalf	0x10d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -11302,7 +11302,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL11"
 	.byte	0x4
 	.uahalf	0x10e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -11311,7 +11311,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF20
 	.byte	0x4
 	.uahalf	0x10f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -11321,18 +11321,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.uahalf	0x110
-	.uaword	0x5bfb
+	.uaword	0x5bf0
 	.uleb128 0xa
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x113
-	.uaword	0x5dd7
+	.uaword	0x5dcc
 	.uleb128 0x7
 	.uaword	.LASF26
 	.byte	0x4
 	.uahalf	0x115
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -11341,7 +11341,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL0"
 	.byte	0x4
 	.uahalf	0x116
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11350,7 +11350,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL1"
 	.byte	0x4
 	.uahalf	0x117
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11359,7 +11359,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL2"
 	.byte	0x4
 	.uahalf	0x118
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11368,7 +11368,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL3"
 	.byte	0x4
 	.uahalf	0x119
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11377,7 +11377,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL4"
 	.byte	0x4
 	.uahalf	0x11a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11386,7 +11386,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL5"
 	.byte	0x4
 	.uahalf	0x11b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -11395,7 +11395,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL6"
 	.byte	0x4
 	.uahalf	0x11c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -11404,7 +11404,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL7"
 	.byte	0x4
 	.uahalf	0x11d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -11413,7 +11413,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL8"
 	.byte	0x4
 	.uahalf	0x11e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -11422,7 +11422,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL9"
 	.byte	0x4
 	.uahalf	0x11f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -11431,7 +11431,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL10"
 	.byte	0x4
 	.uahalf	0x120
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -11440,7 +11440,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL11"
 	.byte	0x4
 	.uahalf	0x121
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -11449,7 +11449,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL12"
 	.byte	0x4
 	.uahalf	0x122
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -11458,7 +11458,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL13"
 	.byte	0x4
 	.uahalf	0x123
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -11467,7 +11467,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL14"
 	.byte	0x4
 	.uahalf	0x124
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -11476,7 +11476,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL15"
 	.byte	0x4
 	.uahalf	0x125
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11486,18 +11486,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.uahalf	0x126
-	.uaword	0x5c96
+	.uaword	0x5c8b
 	.uleb128 0xa
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x129
-	.uaword	0x6025
+	.uaword	0x601a
 	.uleb128 0x8
 	.string	"PS0"
 	.byte	0x4
 	.uahalf	0x12b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11506,7 +11506,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS1"
 	.byte	0x4
 	.uahalf	0x12c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11515,7 +11515,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS2"
 	.byte	0x4
 	.uahalf	0x12d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11524,7 +11524,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS3"
 	.byte	0x4
 	.uahalf	0x12e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11533,7 +11533,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS4"
 	.byte	0x4
 	.uahalf	0x12f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11542,7 +11542,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS5"
 	.byte	0x4
 	.uahalf	0x130
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11551,7 +11551,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS6"
 	.byte	0x4
 	.uahalf	0x131
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11560,7 +11560,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS7"
 	.byte	0x4
 	.uahalf	0x132
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11569,7 +11569,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS8"
 	.byte	0x4
 	.uahalf	0x133
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11578,7 +11578,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS9"
 	.byte	0x4
 	.uahalf	0x134
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11587,7 +11587,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS10"
 	.byte	0x4
 	.uahalf	0x135
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11596,7 +11596,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS11"
 	.byte	0x4
 	.uahalf	0x136
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11605,7 +11605,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS12"
 	.byte	0x4
 	.uahalf	0x137
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11614,7 +11614,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS13"
 	.byte	0x4
 	.uahalf	0x138
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11623,7 +11623,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS14"
 	.byte	0x4
 	.uahalf	0x139
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11632,7 +11632,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS15"
 	.byte	0x4
 	.uahalf	0x13a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11641,7 +11641,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL0"
 	.byte	0x4
 	.uahalf	0x13b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11650,7 +11650,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL1"
 	.byte	0x4
 	.uahalf	0x13c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11659,7 +11659,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL2"
 	.byte	0x4
 	.uahalf	0x13d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11668,7 +11668,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL3"
 	.byte	0x4
 	.uahalf	0x13e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11677,7 +11677,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL4"
 	.byte	0x4
 	.uahalf	0x13f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11686,7 +11686,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL5"
 	.byte	0x4
 	.uahalf	0x140
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -11695,7 +11695,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL6"
 	.byte	0x4
 	.uahalf	0x141
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -11704,7 +11704,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL7"
 	.byte	0x4
 	.uahalf	0x142
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -11713,7 +11713,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL8"
 	.byte	0x4
 	.uahalf	0x143
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -11722,7 +11722,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL9"
 	.byte	0x4
 	.uahalf	0x144
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -11731,7 +11731,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL10"
 	.byte	0x4
 	.uahalf	0x145
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -11740,7 +11740,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL11"
 	.byte	0x4
 	.uahalf	0x146
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -11749,7 +11749,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL12"
 	.byte	0x4
 	.uahalf	0x147
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -11758,7 +11758,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL13"
 	.byte	0x4
 	.uahalf	0x148
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -11767,7 +11767,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL14"
 	.byte	0x4
 	.uahalf	0x149
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -11776,7 +11776,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PCL15"
 	.byte	0x4
 	.uahalf	0x14a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -11786,18 +11786,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x4
 	.uahalf	0x14b
-	.uaword	0x5def
+	.uaword	0x5de4
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x14e
-	.uaword	0x60a8
+	.uaword	0x609d
 	.uleb128 0x8
 	.string	"PS0"
 	.byte	0x4
 	.uahalf	0x150
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11806,7 +11806,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS1"
 	.byte	0x4
 	.uahalf	0x151
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11815,7 +11815,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS2"
 	.byte	0x4
 	.uahalf	0x152
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11824,7 +11824,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS3"
 	.byte	0x4
 	.uahalf	0x153
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11833,7 +11833,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF3
 	.byte	0x4
 	.uahalf	0x154
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -11843,18 +11843,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.uahalf	0x155
-	.uaword	0x603c
+	.uaword	0x6031
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x158
-	.uaword	0x6142
+	.uaword	0x6137
 	.uleb128 0x7
 	.uaword	.LASF26
 	.byte	0x4
 	.uahalf	0x15a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -11863,7 +11863,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS12"
 	.byte	0x4
 	.uahalf	0x15b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11872,7 +11872,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS13"
 	.byte	0x4
 	.uahalf	0x15c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11881,7 +11881,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS14"
 	.byte	0x4
 	.uahalf	0x15d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11890,7 +11890,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS15"
 	.byte	0x4
 	.uahalf	0x15e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11899,7 +11899,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.uahalf	0x15f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -11909,18 +11909,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.uahalf	0x160
-	.uaword	0x60c1
+	.uaword	0x60b6
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x163
-	.uaword	0x61d8
+	.uaword	0x61cd
 	.uleb128 0x7
 	.uaword	.LASF26
 	.byte	0x4
 	.uahalf	0x165
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -11929,7 +11929,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS4"
 	.byte	0x4
 	.uahalf	0x166
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11938,7 +11938,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS5"
 	.byte	0x4
 	.uahalf	0x167
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11947,7 +11947,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS6"
 	.byte	0x4
 	.uahalf	0x168
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11956,7 +11956,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS7"
 	.byte	0x4
 	.uahalf	0x169
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11965,7 +11965,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF0
 	.byte	0x4
 	.uahalf	0x16a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -11975,18 +11975,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.uahalf	0x16b
-	.uaword	0x615c
+	.uaword	0x6151
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x16e
-	.uaword	0x626f
+	.uaword	0x6264
 	.uleb128 0x7
 	.uaword	.LASF26
 	.byte	0x4
 	.uahalf	0x170
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -11995,7 +11995,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS8"
 	.byte	0x4
 	.uahalf	0x171
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12004,7 +12004,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS9"
 	.byte	0x4
 	.uahalf	0x172
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12013,7 +12013,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS10"
 	.byte	0x4
 	.uahalf	0x173
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12022,7 +12022,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS11"
 	.byte	0x4
 	.uahalf	0x174
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12031,7 +12031,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF13
 	.byte	0x4
 	.uahalf	0x175
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -12041,18 +12041,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.uahalf	0x176
-	.uaword	0x61f1
+	.uaword	0x61e6
 	.uleb128 0xa
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x179
-	.uaword	0x63b9
+	.uaword	0x63ae
 	.uleb128 0x8
 	.string	"PS0"
 	.byte	0x4
 	.uahalf	0x17b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12061,7 +12061,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS1"
 	.byte	0x4
 	.uahalf	0x17c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12070,7 +12070,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS2"
 	.byte	0x4
 	.uahalf	0x17d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12079,7 +12079,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS3"
 	.byte	0x4
 	.uahalf	0x17e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12088,7 +12088,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS4"
 	.byte	0x4
 	.uahalf	0x17f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12097,7 +12097,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS5"
 	.byte	0x4
 	.uahalf	0x180
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12106,7 +12106,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS6"
 	.byte	0x4
 	.uahalf	0x181
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12115,7 +12115,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS7"
 	.byte	0x4
 	.uahalf	0x182
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12124,7 +12124,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS8"
 	.byte	0x4
 	.uahalf	0x183
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12133,7 +12133,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS9"
 	.byte	0x4
 	.uahalf	0x184
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12142,7 +12142,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS10"
 	.byte	0x4
 	.uahalf	0x185
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12151,7 +12151,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS11"
 	.byte	0x4
 	.uahalf	0x186
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12160,7 +12160,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS12"
 	.byte	0x4
 	.uahalf	0x187
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12169,7 +12169,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS13"
 	.byte	0x4
 	.uahalf	0x188
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12178,7 +12178,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS14"
 	.byte	0x4
 	.uahalf	0x189
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12187,7 +12187,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PS15"
 	.byte	0x4
 	.uahalf	0x18a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12196,7 +12196,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.uahalf	0x18b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -12206,18 +12206,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.uahalf	0x18c
-	.uaword	0x6288
+	.uaword	0x627d
 	.uleb128 0xa
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x18f
-	.uaword	0x64f1
+	.uaword	0x64e6
 	.uleb128 0x8
 	.string	"P0"
 	.byte	0x4
 	.uahalf	0x191
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12226,7 +12226,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P1"
 	.byte	0x4
 	.uahalf	0x192
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12235,7 +12235,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P2"
 	.byte	0x4
 	.uahalf	0x193
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12244,7 +12244,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P3"
 	.byte	0x4
 	.uahalf	0x194
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12253,7 +12253,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P4"
 	.byte	0x4
 	.uahalf	0x195
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12262,7 +12262,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P5"
 	.byte	0x4
 	.uahalf	0x196
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12271,7 +12271,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P6"
 	.byte	0x4
 	.uahalf	0x197
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12280,7 +12280,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P7"
 	.byte	0x4
 	.uahalf	0x198
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12289,7 +12289,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P8"
 	.byte	0x4
 	.uahalf	0x199
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12298,7 +12298,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P9"
 	.byte	0x4
 	.uahalf	0x19a
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12307,7 +12307,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P10"
 	.byte	0x4
 	.uahalf	0x19b
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12316,7 +12316,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P11"
 	.byte	0x4
 	.uahalf	0x19c
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12325,7 +12325,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P12"
 	.byte	0x4
 	.uahalf	0x19d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12334,7 +12334,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P13"
 	.byte	0x4
 	.uahalf	0x19e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12343,7 +12343,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P14"
 	.byte	0x4
 	.uahalf	0x19f
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12352,7 +12352,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"P15"
 	.byte	0x4
 	.uahalf	0x1a0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12361,7 +12361,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.uahalf	0x1a1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -12371,18 +12371,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x4
 	.uahalf	0x1a2
-	.uaword	0x63d1
+	.uaword	0x63c6
 	.uleb128 0xa
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1a5
-	.uaword	0x65ee
+	.uaword	0x65e3
 	.uleb128 0x8
 	.string	"SEL0"
 	.byte	0x4
 	.uahalf	0x1a7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12391,7 +12391,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEL1"
 	.byte	0x4
 	.uahalf	0x1a8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12400,7 +12400,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEL2"
 	.byte	0x4
 	.uahalf	0x1a9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12409,7 +12409,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEL3"
 	.byte	0x4
 	.uahalf	0x1aa
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12418,7 +12418,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEL4"
 	.byte	0x4
 	.uahalf	0x1ab
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12427,7 +12427,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEL5"
 	.byte	0x4
 	.uahalf	0x1ac
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12436,7 +12436,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEL6"
 	.byte	0x4
 	.uahalf	0x1ad
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12445,7 +12445,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF28
 	.byte	0x4
 	.uahalf	0x1ae
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -12454,7 +12454,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEL10"
 	.byte	0x4
 	.uahalf	0x1af
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12463,7 +12463,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"SEL11"
 	.byte	0x4
 	.uahalf	0x1b0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12472,7 +12472,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF13
 	.byte	0x4
 	.uahalf	0x1b1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -12481,7 +12481,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"LCK"
 	.byte	0x4
 	.uahalf	0x1b2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -12491,18 +12491,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.uahalf	0x1b3
-	.uaword	0x6508
+	.uaword	0x64fd
 	.uleb128 0xa
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1b6
-	.uaword	0x6758
+	.uaword	0x674d
 	.uleb128 0x8
 	.string	"PDIS0"
 	.byte	0x4
 	.uahalf	0x1b8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12511,7 +12511,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS1"
 	.byte	0x4
 	.uahalf	0x1b9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12520,7 +12520,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS2"
 	.byte	0x4
 	.uahalf	0x1ba
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12529,7 +12529,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS3"
 	.byte	0x4
 	.uahalf	0x1bb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12538,7 +12538,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS4"
 	.byte	0x4
 	.uahalf	0x1bc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12547,7 +12547,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS5"
 	.byte	0x4
 	.uahalf	0x1bd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12556,7 +12556,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS6"
 	.byte	0x4
 	.uahalf	0x1be
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12565,7 +12565,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS7"
 	.byte	0x4
 	.uahalf	0x1bf
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12574,7 +12574,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS8"
 	.byte	0x4
 	.uahalf	0x1c0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12583,7 +12583,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS9"
 	.byte	0x4
 	.uahalf	0x1c1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12592,7 +12592,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS10"
 	.byte	0x4
 	.uahalf	0x1c2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12601,7 +12601,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS11"
 	.byte	0x4
 	.uahalf	0x1c3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12610,7 +12610,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS12"
 	.byte	0x4
 	.uahalf	0x1c4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12619,7 +12619,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS13"
 	.byte	0x4
 	.uahalf	0x1c5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12628,7 +12628,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS14"
 	.byte	0x4
 	.uahalf	0x1c6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12637,7 +12637,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PDIS15"
 	.byte	0x4
 	.uahalf	0x1c7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12646,7 +12646,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.uaword	.LASF17
 	.byte	0x4
 	.uahalf	0x1c8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -12656,18 +12656,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.uahalf	0x1c9
-	.uaword	0x6606
+	.uaword	0x65fb
 	.uleb128 0xa
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1cc
-	.uaword	0x688c
+	.uaword	0x6881
 	.uleb128 0x8
 	.string	"PD0"
 	.byte	0x4
 	.uahalf	0x1ce
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -12676,7 +12676,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL0"
 	.byte	0x4
 	.uahalf	0x1cf
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12685,7 +12685,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD1"
 	.byte	0x4
 	.uahalf	0x1d0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -12694,7 +12694,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL1"
 	.byte	0x4
 	.uahalf	0x1d1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12703,7 +12703,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD2"
 	.byte	0x4
 	.uahalf	0x1d2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -12712,7 +12712,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL2"
 	.byte	0x4
 	.uahalf	0x1d3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12721,7 +12721,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD3"
 	.byte	0x4
 	.uahalf	0x1d4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -12730,7 +12730,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL3"
 	.byte	0x4
 	.uahalf	0x1d5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12739,7 +12739,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD4"
 	.byte	0x4
 	.uahalf	0x1d6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -12748,7 +12748,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL4"
 	.byte	0x4
 	.uahalf	0x1d7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12757,7 +12757,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD5"
 	.byte	0x4
 	.uahalf	0x1d8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -12766,7 +12766,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL5"
 	.byte	0x4
 	.uahalf	0x1d9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -12775,7 +12775,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD6"
 	.byte	0x4
 	.uahalf	0x1da
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -12784,7 +12784,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL6"
 	.byte	0x4
 	.uahalf	0x1db
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -12793,7 +12793,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD7"
 	.byte	0x4
 	.uahalf	0x1dc
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -12802,7 +12802,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL7"
 	.byte	0x4
 	.uahalf	0x1dd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -12812,18 +12812,18 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.uahalf	0x1de
-	.uaword	0x6771
+	.uaword	0x6766
 	.uleb128 0xa
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1e1
-	.uaword	0x69cb
+	.uaword	0x69c0
 	.uleb128 0x8
 	.string	"PD8"
 	.byte	0x4
 	.uahalf	0x1e3
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -12832,7 +12832,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL8"
 	.byte	0x4
 	.uahalf	0x1e4
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12841,7 +12841,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD9"
 	.byte	0x4
 	.uahalf	0x1e5
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -12850,7 +12850,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL9"
 	.byte	0x4
 	.uahalf	0x1e6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12859,7 +12859,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD10"
 	.byte	0x4
 	.uahalf	0x1e7
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -12868,7 +12868,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL10"
 	.byte	0x4
 	.uahalf	0x1e8
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12877,7 +12877,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD11"
 	.byte	0x4
 	.uahalf	0x1e9
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -12886,7 +12886,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL11"
 	.byte	0x4
 	.uahalf	0x1ea
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12895,7 +12895,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD12"
 	.byte	0x4
 	.uahalf	0x1eb
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -12904,7 +12904,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL12"
 	.byte	0x4
 	.uahalf	0x1ec
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12913,7 +12913,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD13"
 	.byte	0x4
 	.uahalf	0x1ed
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -12922,7 +12922,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL13"
 	.byte	0x4
 	.uahalf	0x1ee
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -12931,7 +12931,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD14"
 	.byte	0x4
 	.uahalf	0x1ef
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -12940,7 +12940,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL14"
 	.byte	0x4
 	.uahalf	0x1f0
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -12949,7 +12949,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PD15"
 	.byte	0x4
 	.uahalf	0x1f1
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -12958,7 +12958,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"PL15"
 	.byte	0x4
 	.uahalf	0x1f2
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -12968,985 +12968,985 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.uahalf	0x1f3
-	.uaword	0x68a4
+	.uaword	0x6899
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x1fb
-	.uaword	0x6a0b
+	.uaword	0x6a00
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x1fd
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x1fe
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x1ff
-	.uaword	0x5260
+	.uaword	0x5255
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x4
 	.uahalf	0x200
-	.uaword	0x69e3
+	.uaword	0x69d8
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x203
-	.uaword	0x6a48
+	.uaword	0x6a3d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x205
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x206
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x207
-	.uaword	0x52a4
+	.uaword	0x5299
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x4
 	.uahalf	0x208
-	.uaword	0x6a20
+	.uaword	0x6a15
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x20b
-	.uaword	0x6a85
+	.uaword	0x6a7a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x20d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x20e
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x20f
-	.uaword	0x53db
+	.uaword	0x53d0
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_ESR"
 	.byte	0x4
 	.uahalf	0x210
-	.uaword	0x6a5d
+	.uaword	0x6a52
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x213
-	.uaword	0x6abf
+	.uaword	0x6ab4
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x215
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x216
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x217
-	.uaword	0x543d
+	.uaword	0x5432
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_ID"
 	.byte	0x4
 	.uahalf	0x218
-	.uaword	0x6a97
+	.uaword	0x6a8c
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x21b
-	.uaword	0x6af8
+	.uaword	0x6aed
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x21d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x21e
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x21f
-	.uaword	0x555f
+	.uaword	0x5554
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IN"
 	.byte	0x4
 	.uahalf	0x220
-	.uaword	0x6ad0
+	.uaword	0x6ac5
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x223
-	.uaword	0x6b31
+	.uaword	0x6b26
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x225
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x226
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x227
-	.uaword	0x5607
+	.uaword	0x55fc
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IOCR0"
 	.byte	0x4
 	.uahalf	0x228
-	.uaword	0x6b09
+	.uaword	0x6afe
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x22b
-	.uaword	0x6b6d
+	.uaword	0x6b62
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x22d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x22e
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x22f
-	.uaword	0x56b7
+	.uaword	0x56ac
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IOCR12"
 	.byte	0x4
 	.uahalf	0x230
-	.uaword	0x6b45
+	.uaword	0x6b3a
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x233
-	.uaword	0x6baa
+	.uaword	0x6b9f
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x235
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x236
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x237
-	.uaword	0x5763
+	.uaword	0x5758
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IOCR4"
 	.byte	0x4
 	.uahalf	0x238
-	.uaword	0x6b82
+	.uaword	0x6b77
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x23b
-	.uaword	0x6be6
+	.uaword	0x6bdb
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x23d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x23e
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x23f
-	.uaword	0x5810
+	.uaword	0x5805
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_IOCR8"
 	.byte	0x4
 	.uahalf	0x240
-	.uaword	0x6bbe
+	.uaword	0x6bb3
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x243
-	.uaword	0x6c22
+	.uaword	0x6c17
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x245
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x246
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x247
-	.uaword	0x5870
+	.uaword	0x5865
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_LPCR0"
 	.byte	0x4
 	.uahalf	0x248
-	.uaword	0x6bfa
+	.uaword	0x6bef
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x24b
-	.uaword	0x6c6c
+	.uaword	0x6c61
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x24d
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x24e
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x24f
-	.uaword	0x58d0
+	.uaword	0x58c5
 	.uleb128 0xc
 	.string	"B_P21"
 	.byte	0x4
 	.uahalf	0x250
-	.uaword	0x5960
+	.uaword	0x5955
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_LPCR1"
 	.byte	0x4
 	.uahalf	0x251
-	.uaword	0x6c36
+	.uaword	0x6c2b
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x254
-	.uaword	0x6ca8
+	.uaword	0x6c9d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x256
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x257
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x258
-	.uaword	0x5a33
+	.uaword	0x5a28
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_LPCR2"
 	.byte	0x4
 	.uahalf	0x259
-	.uaword	0x6c80
+	.uaword	0x6c75
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x25c
-	.uaword	0x6ce4
+	.uaword	0x6cd9
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x25e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x25f
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x260
-	.uaword	0x5dd7
+	.uaword	0x5dcc
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR"
 	.byte	0x4
 	.uahalf	0x261
-	.uaword	0x6cbc
+	.uaword	0x6cb1
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x264
-	.uaword	0x6d1f
+	.uaword	0x6d14
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x266
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x267
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x268
-	.uaword	0x5ac4
+	.uaword	0x5ab9
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR0"
 	.byte	0x4
 	.uahalf	0x269
-	.uaword	0x6cf7
+	.uaword	0x6cec
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x26c
-	.uaword	0x6d5b
+	.uaword	0x6d50
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x26e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x26f
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x270
-	.uaword	0x5b4b
+	.uaword	0x5b40
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR12"
 	.byte	0x4
 	.uahalf	0x271
-	.uaword	0x6d33
+	.uaword	0x6d28
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x274
-	.uaword	0x6d98
+	.uaword	0x6d8d
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x276
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x277
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x278
-	.uaword	0x5be2
+	.uaword	0x5bd7
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR4"
 	.byte	0x4
 	.uahalf	0x279
-	.uaword	0x6d70
+	.uaword	0x6d65
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x27c
-	.uaword	0x6dd4
+	.uaword	0x6dc9
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x27e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x27f
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x280
-	.uaword	0x5c7d
+	.uaword	0x5c72
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMCR8"
 	.byte	0x4
 	.uahalf	0x281
-	.uaword	0x6dac
+	.uaword	0x6da1
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x284
-	.uaword	0x6e10
+	.uaword	0x6e05
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x286
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x287
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x288
-	.uaword	0x6025
+	.uaword	0x601a
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMR"
 	.byte	0x4
 	.uahalf	0x289
-	.uaword	0x6de8
+	.uaword	0x6ddd
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x28c
-	.uaword	0x6e4a
+	.uaword	0x6e3f
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x28e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x28f
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x290
-	.uaword	0x63b9
+	.uaword	0x63ae
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR"
 	.byte	0x4
 	.uahalf	0x291
-	.uaword	0x6e22
+	.uaword	0x6e17
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x294
-	.uaword	0x6e85
+	.uaword	0x6e7a
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x296
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x297
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x298
-	.uaword	0x60a8
+	.uaword	0x609d
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR0"
 	.byte	0x4
 	.uahalf	0x299
-	.uaword	0x6e5d
+	.uaword	0x6e52
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x29c
-	.uaword	0x6ec1
+	.uaword	0x6eb6
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x29e
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x29f
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2a0
-	.uaword	0x6142
+	.uaword	0x6137
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR12"
 	.byte	0x4
 	.uahalf	0x2a1
-	.uaword	0x6e99
+	.uaword	0x6e8e
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2a4
-	.uaword	0x6efe
+	.uaword	0x6ef3
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2a6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2a7
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2a8
-	.uaword	0x61d8
+	.uaword	0x61cd
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR4"
 	.byte	0x4
 	.uahalf	0x2a9
-	.uaword	0x6ed6
+	.uaword	0x6ecb
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2ac
-	.uaword	0x6f3a
+	.uaword	0x6f2f
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2ae
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2af
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2b0
-	.uaword	0x626f
+	.uaword	0x6264
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OMSR8"
 	.byte	0x4
 	.uahalf	0x2b1
-	.uaword	0x6f12
+	.uaword	0x6f07
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2b4
-	.uaword	0x6f76
+	.uaword	0x6f6b
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2b6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2b7
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2b8
-	.uaword	0x64f1
+	.uaword	0x64e6
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_OUT"
 	.byte	0x4
 	.uahalf	0x2b9
-	.uaword	0x6f4e
+	.uaword	0x6f43
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2bc
-	.uaword	0x6fb0
+	.uaword	0x6fa5
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2be
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2bf
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2c0
-	.uaword	0x65ee
+	.uaword	0x65e3
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_PCSR"
 	.byte	0x4
 	.uahalf	0x2c1
-	.uaword	0x6f88
+	.uaword	0x6f7d
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2c4
-	.uaword	0x6feb
+	.uaword	0x6fe0
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2c6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2c7
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2c8
-	.uaword	0x6758
+	.uaword	0x674d
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_PDISC"
 	.byte	0x4
 	.uahalf	0x2c9
-	.uaword	0x6fc3
+	.uaword	0x6fb8
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2cc
-	.uaword	0x7027
+	.uaword	0x701c
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2ce
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2cf
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2d0
-	.uaword	0x688c
+	.uaword	0x6881
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_PDR0"
 	.byte	0x4
 	.uahalf	0x2d1
-	.uaword	0x6fff
+	.uaword	0x6ff4
 	.uleb128 0xb
 	.byte	0x4
 	.byte	0x4
 	.uahalf	0x2d4
-	.uaword	0x7062
+	.uaword	0x7057
 	.uleb128 0xc
 	.string	"U"
 	.byte	0x4
 	.uahalf	0x2d6
-	.uaword	0x3d7
+	.uaword	0x3cc
 	.uleb128 0xc
 	.string	"I"
 	.byte	0x4
 	.uahalf	0x2d7
-	.uaword	0x3625
+	.uaword	0x361a
 	.uleb128 0xc
 	.string	"B"
 	.byte	0x4
 	.uahalf	0x2d8
-	.uaword	0x69cb
+	.uaword	0x69c0
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P_PDR1"
 	.byte	0x4
 	.uahalf	0x2d9
-	.uaword	0x703a
+	.uaword	0x702f
 	.uleb128 0xd
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x4
 	.uahalf	0x2e4
-	.uaword	0x72af
+	.uaword	0x72a4
 	.uleb128 0xe
 	.string	"OUT"
 	.byte	0x4
 	.uahalf	0x2e6
-	.uaword	0x6f76
+	.uaword	0x6f6b
 	.byte	0
 	.uleb128 0xe
 	.string	"OMR"
 	.byte	0x4
 	.uahalf	0x2e7
-	.uaword	0x6e10
+	.uaword	0x6e05
 	.byte	0x4
 	.uleb128 0xe
 	.string	"ID"
 	.byte	0x4
 	.uahalf	0x2e8
-	.uaword	0x6abf
+	.uaword	0x6ab4
 	.byte	0x8
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0x4
 	.uahalf	0x2e9
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.byte	0xc
 	.uleb128 0xe
 	.string	"IOCR0"
 	.byte	0x4
 	.uahalf	0x2ea
-	.uaword	0x6b31
+	.uaword	0x6b26
 	.byte	0x10
 	.uleb128 0xe
 	.string	"IOCR4"
 	.byte	0x4
 	.uahalf	0x2eb
-	.uaword	0x6baa
+	.uaword	0x6b9f
 	.byte	0x14
 	.uleb128 0xe
 	.string	"IOCR8"
 	.byte	0x4
 	.uahalf	0x2ec
-	.uaword	0x6be6
+	.uaword	0x6bdb
 	.byte	0x18
 	.uleb128 0xe
 	.string	"IOCR12"
 	.byte	0x4
 	.uahalf	0x2ed
-	.uaword	0x6b6d
+	.uaword	0x6b62
 	.byte	0x1c
 	.uleb128 0xf
 	.uaword	.LASF16
 	.byte	0x4
 	.uahalf	0x2ee
-	.uaword	0x49d8
+	.uaword	0x49cd
 	.byte	0x20
 	.uleb128 0xe
 	.string	"IN"
 	.byte	0x4
 	.uahalf	0x2ef
-	.uaword	0x6af8
+	.uaword	0x6aed
 	.byte	0x24
 	.uleb128 0xf
 	.uaword	.LASF20
 	.byte	0x4
 	.uahalf	0x2f0
-	.uaword	0x4f4a
+	.uaword	0x4f3f
 	.byte	0x28
 	.uleb128 0xe
 	.string	"PDR0"
 	.byte	0x4
 	.uahalf	0x2f1
-	.uaword	0x7027
+	.uaword	0x701c
 	.byte	0x40
 	.uleb128 0xe
 	.string	"PDR1"
 	.byte	0x4
 	.uahalf	0x2f2
-	.uaword	0x7062
+	.uaword	0x7057
 	.byte	0x44
 	.uleb128 0xe
 	.string	"reserved_48"
 	.byte	0x4
 	.uahalf	0x2f3
-	.uaword	0x49c8
+	.uaword	0x49bd
 	.byte	0x48
 	.uleb128 0xe
 	.string	"ESR"
 	.byte	0x4
 	.uahalf	0x2f4
-	.uaword	0x6a85
+	.uaword	0x6a7a
 	.byte	0x50
 	.uleb128 0xe
 	.string	"reserved_54"
 	.byte	0x4
 	.uahalf	0x2f5
-	.uaword	0x49f8
+	.uaword	0x49ed
 	.byte	0x54
 	.uleb128 0xe
 	.string	"PDISC"
 	.byte	0x4
 	.uahalf	0x2f6
-	.uaword	0x6feb
+	.uaword	0x6fe0
 	.byte	0x60
 	.uleb128 0xe
 	.string	"PCSR"
 	.byte	0x4
 	.uahalf	0x2f7
-	.uaword	0x6fb0
+	.uaword	0x6fa5
 	.byte	0x64
 	.uleb128 0xe
 	.string	"reserved_68"
 	.byte	0x4
 	.uahalf	0x2f8
-	.uaword	0x49c8
+	.uaword	0x49bd
 	.byte	0x68
 	.uleb128 0xe
 	.string	"OMSR0"
 	.byte	0x4
 	.uahalf	0x2f9
-	.uaword	0x6e85
+	.uaword	0x6e7a
 	.byte	0x70
 	.uleb128 0xe
 	.string	"OMSR4"
 	.byte	0x4
 	.uahalf	0x2fa
-	.uaword	0x6efe
+	.uaword	0x6ef3
 	.byte	0x74
 	.uleb128 0xe
 	.string	"OMSR8"
 	.byte	0x4
 	.uahalf	0x2fb
-	.uaword	0x6f3a
+	.uaword	0x6f2f
 	.byte	0x78
 	.uleb128 0xe
 	.string	"OMSR12"
 	.byte	0x4
 	.uahalf	0x2fc
-	.uaword	0x6ec1
+	.uaword	0x6eb6
 	.byte	0x7c
 	.uleb128 0xe
 	.string	"OMCR0"
 	.byte	0x4
 	.uahalf	0x2fd
-	.uaword	0x6d1f
+	.uaword	0x6d14
 	.byte	0x80
 	.uleb128 0xe
 	.string	"OMCR4"
 	.byte	0x4
 	.uahalf	0x2fe
-	.uaword	0x6d98
+	.uaword	0x6d8d
 	.byte	0x84
 	.uleb128 0xe
 	.string	"OMCR8"
 	.byte	0x4
 	.uahalf	0x2ff
-	.uaword	0x6dd4
+	.uaword	0x6dc9
 	.byte	0x88
 	.uleb128 0xe
 	.string	"OMCR12"
 	.byte	0x4
 	.uahalf	0x300
-	.uaword	0x6d5b
+	.uaword	0x6d50
 	.byte	0x8c
 	.uleb128 0xe
 	.string	"OMSR"
 	.byte	0x4
 	.uahalf	0x301
-	.uaword	0x6e4a
+	.uaword	0x6e3f
 	.byte	0x90
 	.uleb128 0xe
 	.string	"OMCR"
 	.byte	0x4
 	.uahalf	0x302
-	.uaword	0x6ce4
+	.uaword	0x6cd9
 	.byte	0x94
 	.uleb128 0xe
 	.string	"reserved_98"
 	.byte	0x4
 	.uahalf	0x303
-	.uaword	0x49c8
+	.uaword	0x49bd
 	.byte	0x98
 	.uleb128 0xe
 	.string	"LPCR0"
 	.byte	0x4
 	.uahalf	0x304
-	.uaword	0x6c22
+	.uaword	0x6c17
 	.byte	0xa0
 	.uleb128 0xe
 	.string	"LPCR1"
 	.byte	0x4
 	.uahalf	0x305
-	.uaword	0x6c6c
+	.uaword	0x6c61
 	.byte	0xa4
 	.uleb128 0xe
 	.string	"LPCR2"
 	.byte	0x4
 	.uahalf	0x306
-	.uaword	0x6ca8
+	.uaword	0x6c9d
 	.byte	0xa8
 	.uleb128 0xe
 	.string	"reserved_A4"
 	.byte	0x4
 	.uahalf	0x307
-	.uaword	0x72af
+	.uaword	0x72a4
 	.byte	0xac
 	.uleb128 0xe
 	.string	"ACCEN1"
 	.byte	0x4
 	.uahalf	0x308
-	.uaword	0x6a48
+	.uaword	0x6a3d
 	.byte	0xf8
 	.uleb128 0xe
 	.string	"ACCEN0"
 	.byte	0x4
 	.uahalf	0x309
-	.uaword	0x6a0b
+	.uaword	0x6a00
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x49a7
-	.uaword	0x72bf
+	.uaword	0x499c
+	.uaword	0x72b4
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x4b
 	.byte	0
 	.uleb128 0x9
 	.string	"Ifx_P"
 	.byte	0x4
 	.uahalf	0x30a
-	.uaword	0x72cd
+	.uaword	0x72c2
 	.uleb128 0x15
-	.uaword	0x7075
+	.uaword	0x706a
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x72bf
+	.uaword	0x72b4
 	.uleb128 0x17
 	.byte	0x1
 	.byte	0x5
 	.byte	0x65
-	.uaword	0x73b4
+	.uaword	0x73a9
 	.uleb128 0x18
 	.string	"IfxPort_OutputIdx_general"
 	.sleb128 128
@@ -13976,143 +13976,143 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxPort_OutputIdx"
 	.byte	0x5
 	.byte	0x6e
-	.uaword	0x72d8
+	.uaword	0x72cd
 	.uleb128 0x1a
 	.byte	0x8
 	.byte	0x5
 	.byte	0xaa
-	.uaword	0x73f4
+	.uaword	0x73e9
 	.uleb128 0x1b
 	.string	"port"
 	.byte	0x5
 	.byte	0xac
-	.uaword	0x72d2
+	.uaword	0x72c7
 	.byte	0
 	.uleb128 0x1b
 	.string	"pinIndex"
 	.byte	0x5
 	.byte	0xad
-	.uaword	0x4ed4
+	.uaword	0x4ec9
 	.byte	0x4
 	.byte	0
 	.uleb128 0x5
 	.string	"IfxPort_Pin"
 	.byte	0x5
 	.byte	0xae
-	.uaword	0x73cd
+	.uaword	0x73c2
 	.uleb128 0x1a
 	.byte	0x14
 	.byte	0x6
 	.byte	0x27
-	.uaword	0x7447
+	.uaword	0x743c
 	.uleb128 0x1c
 	.uaword	.LASF35
 	.byte	0x6
 	.byte	0x29
-	.uaword	0x7447
+	.uaword	0x743c
 	.byte	0
 	.uleb128 0x1b
 	.string	"groupId"
 	.byte	0x6
 	.byte	0x2a
-	.uaword	0x5037
+	.uaword	0x502c
 	.byte	0x4
 	.uleb128 0x1b
 	.string	"pin"
 	.byte	0x6
 	.byte	0x2b
-	.uaword	0x73f4
+	.uaword	0x73e9
 	.byte	0x8
 	.uleb128 0x1b
 	.string	"select"
 	.byte	0x6
 	.byte	0x2c
-	.uaword	0x73b4
+	.uaword	0x73a9
 	.byte	0x10
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x4e8e
+	.uaword	0x4e83
 	.uleb128 0x5
 	.string	"IfxVadc_GxBfl_Out"
 	.byte	0x6
 	.byte	0x2d
-	.uaword	0x7466
+	.uaword	0x745b
 	.uleb128 0x1d
-	.uaword	0x7407
+	.uaword	0x73fc
 	.uleb128 0x1a
 	.byte	0x10
 	.byte	0x6
 	.byte	0x30
-	.uaword	0x749b
+	.uaword	0x7490
 	.uleb128 0x1c
 	.uaword	.LASF35
 	.byte	0x6
 	.byte	0x32
-	.uaword	0x7447
+	.uaword	0x743c
 	.byte	0
 	.uleb128 0x1b
 	.string	"pin"
 	.byte	0x6
 	.byte	0x33
-	.uaword	0x73f4
+	.uaword	0x73e9
 	.byte	0x4
 	.uleb128 0x1b
 	.string	"select"
 	.byte	0x6
 	.byte	0x34
-	.uaword	0x73b4
+	.uaword	0x73a9
 	.byte	0xc
 	.byte	0
 	.uleb128 0x5
 	.string	"IfxVadc_Emux_Out"
 	.byte	0x6
 	.byte	0x35
-	.uaword	0x74b3
+	.uaword	0x74a8
 	.uleb128 0x1d
-	.uaword	0x746b
+	.uaword	0x7460
 	.uleb128 0x1a
 	.byte	0x14
 	.byte	0x6
 	.byte	0x38
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.uleb128 0x1c
 	.uaword	.LASF35
 	.byte	0x6
 	.byte	0x3a
-	.uaword	0x7447
+	.uaword	0x743c
 	.byte	0
 	.uleb128 0x1b
 	.string	"groupId"
 	.byte	0x6
 	.byte	0x3b
-	.uaword	0x5037
+	.uaword	0x502c
 	.byte	0x4
 	.uleb128 0x1b
 	.string	"pin"
 	.byte	0x6
 	.byte	0x3c
-	.uaword	0x73f4
+	.uaword	0x73e9
 	.byte	0x8
 	.uleb128 0x1b
 	.string	"channelId"
 	.byte	0x6
 	.byte	0x3d
-	.uaword	0x4ed4
+	.uaword	0x4ec9
 	.byte	0x10
 	.byte	0
 	.uleb128 0x5
 	.string	"IfxVadc_Vadcg_In"
 	.byte	0x6
 	.byte	0x3e
-	.uaword	0x7513
+	.uaword	0x7508
 	.uleb128 0x1d
-	.uaword	0x74b8
+	.uaword	0x74ad
 	.uleb128 0x1e
 	.string	"IfxVadc_EMUX00_P02_6_OUT"
 	.byte	0x7
 	.byte	0x1c
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14121,7 +14121,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX00_P33_3_OUT"
 	.byte	0x7
 	.byte	0x1d
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14130,7 +14130,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX01_P02_7_OUT"
 	.byte	0x7
 	.byte	0x1e
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14139,7 +14139,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX01_P33_2_OUT"
 	.byte	0x7
 	.byte	0x1f
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14148,7 +14148,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX02_P02_8_OUT"
 	.byte	0x7
 	.byte	0x20
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14157,7 +14157,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX02_P33_1_OUT"
 	.byte	0x7
 	.byte	0x21
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14166,7 +14166,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX10_P00_6_OUT"
 	.byte	0x7
 	.byte	0x22
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14175,7 +14175,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX10_P33_6_OUT"
 	.byte	0x7
 	.byte	0x23
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14184,7 +14184,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX11_P00_7_OUT"
 	.byte	0x7
 	.byte	0x24
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14193,7 +14193,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX11_P33_5_OUT"
 	.byte	0x7
 	.byte	0x25
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14202,7 +14202,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX12_P00_8_OUT"
 	.byte	0x7
 	.byte	0x26
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14211,7 +14211,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_EMUX12_P33_4_OUT"
 	.byte	0x7
 	.byte	0x27
-	.uaword	0x749b
+	.uaword	0x7490
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14220,7 +14220,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0BFL0_P33_4_OUT"
 	.byte	0x7
 	.byte	0x28
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14229,7 +14229,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0BFL1_P33_5_OUT"
 	.byte	0x7
 	.byte	0x29
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14238,7 +14238,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1BFL0_P33_6_OUT"
 	.byte	0x7
 	.byte	0x2a
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14247,7 +14247,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1BFL1_P33_7_OUT"
 	.byte	0x7
 	.byte	0x2b
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14256,7 +14256,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2BFL0_P33_0_OUT"
 	.byte	0x7
 	.byte	0x2c
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14265,7 +14265,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2BFL1_P33_1_OUT"
 	.byte	0x7
 	.byte	0x2d
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14274,7 +14274,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2BFL2_P33_2_OUT"
 	.byte	0x7
 	.byte	0x2e
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14283,7 +14283,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2BFL3_P33_3_OUT"
 	.byte	0x7
 	.byte	0x2f
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14292,7 +14292,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4BFL0_P00_4_OUT"
 	.byte	0x7
 	.byte	0x30
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14301,7 +14301,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4BFL1_P00_5_OUT"
 	.byte	0x7
 	.byte	0x31
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14310,7 +14310,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4BFL2_P00_6_OUT"
 	.byte	0x7
 	.byte	0x32
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14319,7 +14319,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4BFL3_P00_7_OUT"
 	.byte	0x7
 	.byte	0x33
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14328,7 +14328,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6BFL0_P10_0_OUT"
 	.byte	0x7
 	.byte	0x34
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14337,7 +14337,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6BFL1_P10_1_OUT"
 	.byte	0x7
 	.byte	0x35
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14346,7 +14346,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6BFL2_P10_2_OUT"
 	.byte	0x7
 	.byte	0x36
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14355,7 +14355,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6BFL3_P10_3_OUT"
 	.byte	0x7
 	.byte	0x37
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14364,7 +14364,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G7BFL0_P10_6_OUT"
 	.byte	0x7
 	.byte	0x38
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14373,7 +14373,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G7BFL1_P10_7_OUT"
 	.byte	0x7
 	.byte	0x39
-	.uaword	0x744d
+	.uaword	0x7442
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14382,7 +14382,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0_0_AN0_IN"
 	.byte	0x7
 	.byte	0x3a
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14391,7 +14391,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0_1_AN1_IN"
 	.byte	0x7
 	.byte	0x3b
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14400,7 +14400,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0_2_AN2_IN"
 	.byte	0x7
 	.byte	0x3c
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14409,7 +14409,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0_3_AN3_IN"
 	.byte	0x7
 	.byte	0x3d
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14418,7 +14418,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0_4_AN4_IN"
 	.byte	0x7
 	.byte	0x3e
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14427,7 +14427,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0_5_AN5_IN"
 	.byte	0x7
 	.byte	0x3f
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14436,7 +14436,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0_6_AN6_IN"
 	.byte	0x7
 	.byte	0x40
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14445,7 +14445,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G0_7_AN7_IN"
 	.byte	0x7
 	.byte	0x41
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14454,7 +14454,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1_0_AN8_IN"
 	.byte	0x7
 	.byte	0x42
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14463,7 +14463,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1_1_AN9_IN"
 	.byte	0x7
 	.byte	0x43
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14472,7 +14472,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1_2_AN10_IN"
 	.byte	0x7
 	.byte	0x44
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14481,7 +14481,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1_3_AN11_IN"
 	.byte	0x7
 	.byte	0x45
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14490,7 +14490,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1_4_AN12_IN"
 	.byte	0x7
 	.byte	0x46
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14499,7 +14499,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1_5_AN13_IN"
 	.byte	0x7
 	.byte	0x47
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14508,7 +14508,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1_6_AN14_IN"
 	.byte	0x7
 	.byte	0x48
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14517,7 +14517,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G1_7_AN15_IN"
 	.byte	0x7
 	.byte	0x49
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14526,7 +14526,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2_0_AN16_IN"
 	.byte	0x7
 	.byte	0x4a
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14535,7 +14535,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2_1_AN17_IN"
 	.byte	0x7
 	.byte	0x4b
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14544,7 +14544,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2_2_AN18_IN"
 	.byte	0x7
 	.byte	0x4c
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14553,7 +14553,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2_3_AN19_IN"
 	.byte	0x7
 	.byte	0x4d
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14562,7 +14562,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2_4_AN20_IN"
 	.byte	0x7
 	.byte	0x4e
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14571,7 +14571,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2_5_AN21_IN"
 	.byte	0x7
 	.byte	0x4f
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14580,7 +14580,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2_6_AN22_IN"
 	.byte	0x7
 	.byte	0x50
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14589,7 +14589,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G2_7_AN23_IN"
 	.byte	0x7
 	.byte	0x51
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14598,7 +14598,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_0_AN24_IN"
 	.byte	0x7
 	.byte	0x52
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14607,7 +14607,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_0_P40_0_IN"
 	.byte	0x7
 	.byte	0x53
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14616,7 +14616,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_1_AN25_IN"
 	.byte	0x7
 	.byte	0x54
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14625,7 +14625,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_1_P40_1_IN"
 	.byte	0x7
 	.byte	0x55
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14634,7 +14634,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_2_AN26_IN"
 	.byte	0x7
 	.byte	0x56
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14643,7 +14643,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_2_P40_2_IN"
 	.byte	0x7
 	.byte	0x57
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14652,7 +14652,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_3_AN27_IN"
 	.byte	0x7
 	.byte	0x58
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14661,7 +14661,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_3_P40_3_IN"
 	.byte	0x7
 	.byte	0x59
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14670,7 +14670,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_4_AN28_IN"
 	.byte	0x7
 	.byte	0x5a
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14679,7 +14679,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_5_AN29_IN"
 	.byte	0x7
 	.byte	0x5b
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14688,7 +14688,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_6_AN30_IN"
 	.byte	0x7
 	.byte	0x5c
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14697,7 +14697,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G3_7_AN31_IN"
 	.byte	0x7
 	.byte	0x5d
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14706,7 +14706,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_0_AN32_IN"
 	.byte	0x7
 	.byte	0x5e
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14715,7 +14715,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_0_P40_4_IN"
 	.byte	0x7
 	.byte	0x5f
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14724,7 +14724,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_1_AN33_IN"
 	.byte	0x7
 	.byte	0x60
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14733,7 +14733,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_1_P40_5_IN"
 	.byte	0x7
 	.byte	0x61
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14742,7 +14742,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_2_AN34_IN"
 	.byte	0x7
 	.byte	0x62
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14751,7 +14751,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_3_AN35_IN"
 	.byte	0x7
 	.byte	0x63
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14760,7 +14760,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_4_AN36_IN"
 	.byte	0x7
 	.byte	0x64
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14769,7 +14769,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_4_P40_6_IN"
 	.byte	0x7
 	.byte	0x65
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14778,7 +14778,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_5_AN37_IN"
 	.byte	0x7
 	.byte	0x66
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14787,7 +14787,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_5_P40_7_IN"
 	.byte	0x7
 	.byte	0x67
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14796,7 +14796,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_6_AN38_IN"
 	.byte	0x7
 	.byte	0x68
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14805,7 +14805,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_6_P40_8_IN"
 	.byte	0x7
 	.byte	0x69
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14814,7 +14814,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_7_AN39_IN"
 	.byte	0x7
 	.byte	0x6a
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14823,7 +14823,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G4_7_P40_9_IN"
 	.byte	0x7
 	.byte	0x6b
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14832,7 +14832,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G5_0_AN40_IN"
 	.byte	0x7
 	.byte	0x6c
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14841,7 +14841,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G5_1_AN41_IN"
 	.byte	0x7
 	.byte	0x6d
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14850,7 +14850,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G5_2_AN42_IN"
 	.byte	0x7
 	.byte	0x6e
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14859,7 +14859,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G5_3_AN43_IN"
 	.byte	0x7
 	.byte	0x6f
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14868,7 +14868,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G5_4_AN44_IN"
 	.byte	0x7
 	.byte	0x70
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14877,7 +14877,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G5_5_AN45_IN"
 	.byte	0x7
 	.byte	0x71
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14886,7 +14886,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G5_6_AN46_IN"
 	.byte	0x7
 	.byte	0x72
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14895,7 +14895,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G5_7_AN47_IN"
 	.byte	0x7
 	.byte	0x73
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14904,7 +14904,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6_0_P00_12_IN"
 	.byte	0x7
 	.byte	0x74
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14913,7 +14913,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6_1_P00_11_IN"
 	.byte	0x7
 	.byte	0x75
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14922,7 +14922,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6_2_P00_10_IN"
 	.byte	0x7
 	.byte	0x76
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14931,7 +14931,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6_3_P00_9_IN"
 	.byte	0x7
 	.byte	0x77
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14940,7 +14940,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6_4_P00_8_IN"
 	.byte	0x7
 	.byte	0x78
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14949,7 +14949,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G6_5_P00_7_IN"
 	.byte	0x7
 	.byte	0x79
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14958,7 +14958,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G7_0_P00_6_IN"
 	.byte	0x7
 	.byte	0x7a
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14967,7 +14967,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G7_1_P00_5_IN"
 	.byte	0x7
 	.byte	0x7b
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14976,7 +14976,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G7_2_P00_4_IN"
 	.byte	0x7
 	.byte	0x7c
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14985,7 +14985,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G7_3_P00_3_IN"
 	.byte	0x7
 	.byte	0x7d
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -14994,7 +14994,7 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G7_4_P00_2_IN"
 	.byte	0x7
 	.byte	0x7e
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -15003,79 +15003,79 @@ IfxVadc_EMUX00_P02_6_OUT:
 	.string	"IfxVadc_G7_5_P00_1_IN"
 	.byte	0x7
 	.byte	0x7f
-	.uaword	0x74fb
+	.uaword	0x74f0
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxVadc_G7_5_P00_1_IN
 	.uleb128 0x13
-	.uaword	0x8361
-	.uaword	0x8361
+	.uaword	0x8356
+	.uaword	0x8356
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0xb
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x74b3
+	.uaword	0x74a8
 	.uleb128 0x1e
 	.string	"IfxVadc_Emux_Out_pinTable"
 	.byte	0x7
 	.byte	0x82
-	.uaword	0x834b
+	.uaword	0x8340
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxVadc_Emux_Out_pinTable
 	.uleb128 0x13
-	.uaword	0x83ab
-	.uaword	0x83ab
+	.uaword	0x83a0
+	.uaword	0x83a0
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x7
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x3
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x7466
+	.uaword	0x745b
 	.uleb128 0x1e
 	.string	"IfxVadc_GxBfl_Out_pinTable"
 	.byte	0x7
 	.byte	0x93
-	.uaword	0x838f
+	.uaword	0x8384
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxVadc_GxBfl_Out_pinTable
 	.uleb128 0x13
-	.uaword	0x83f6
-	.uaword	0x83f6
+	.uaword	0x83eb
+	.uaword	0x83eb
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x7
 	.uleb128 0x14
-	.uaword	0x499b
+	.uaword	0x4990
 	.byte	0x7
 	.byte	0
 	.uleb128 0x19
 	.byte	0x4
-	.uaword	0x7513
+	.uaword	0x7508
 	.uleb128 0x1e
 	.string	"IfxVadc_Vadcg_In_pinTable"
 	.byte	0x7
 	.byte	0xc8
-	.uaword	0x83da
+	.uaword	0x83cf
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3

@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
-# 1 "C:\\Users\\boldasl\\SEUNGHO\\Workspace\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\Jimmy\\Documents\\Github\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
@@ -35456,9 +35456,20 @@ extern void InfineonRacer_control(void);
 extern void Line_avgerage(void);
 extern void Line_Buffer(void);
 extern void median_filter(void);
+
+extern void Line_avgerage_RIGHT(void);
+extern void Line_Buffer_RIGHT(void);
+extern void median_filter_RIGHT(void);
+
 extern void convolutionOP(void);
 extern void getLineData (void);
 extern void clearBuffer(void);
+
+extern void convolutionOP_RIGHT(void);
+extern void getLineData_RIGHT (void);
+extern void clearBuffer_RIGHT(void);
+
+
 extern boolean IsOutSchoolZone(void);
 extern boolean IsInSchoolZone(void);
 extern boolean Boundary(void);
@@ -35695,7 +35706,7 @@ void appTaskfu_1ms(void)
 
   BasicGpt12Enc_IR_Encoder_reset();
  }
- BasicGpt12Enc_run();
+    BasicGpt12Enc_run();
     SpeedCalculation();
     Speed_Buff();
 
@@ -35731,7 +35742,7 @@ void appTaskfu_10ms(void)
  if(task_cnt_10m%2 == 0){
 
         BasicGtmTom_run();
-  BasicPort_run();
+ BasicPort_run();
 
 
         BasicVadcBgScan_run();
@@ -35754,14 +35765,27 @@ void appTaskfu_100ms(void)
 {
  task_cnt_100m++;
 
-
     BasicLineScan_run();
+
+
     median_filter();
     Line_Buffer();
+
+
+
+
+
     if(task_cnt_100m % 5 == 0){
-        convolutionOP();
-        Line_avgerage();
+
+     Line_avgerage();
+     convolutionOP();
         getLineData();
+
+
+
+
+
+
     }
 
     if(task_cnt_100m % 10 == 0){
@@ -35770,23 +35794,21 @@ void appTaskfu_100ms(void)
         else
             IsOutSchoolZone();
 
-
-
-
-        SrvControl(Direction());
-
+        if(Boundary()){
+           SrvControl(Direction());
+        }
     }
-# 158 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 169 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 172 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 183 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
-# 203 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 214 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
 

@@ -24,6 +24,10 @@ InfineonRacer_t IR_Ctrl  /**< \brief  global data */
 		={64, 64, FALSE  };
 LineData IR_LineData
 		={0,0,0,0,0,0,0};
+
+float32 MIN_INDEX = CENTER_INDEX - BOUNDARY;
+float32 MAX_INDEX = CENTER_INDEX + BOUNDARY;
+
 /******************************************************************************/
 /*-------------------------Function Prototypes--------------------------------*/
 /******************************************************************************/
@@ -228,7 +232,7 @@ boolean IsInSchoolZone(void){
     uint32 index = 0;
     uint32 MaxVal = IR_LineData.Result[IR_LineData.present];
     
-    uint32 SCHOOLZONE_DETECTION = MaxVal/2;
+    uint32 SCHOOLZONE_DETECTION = MaxVal;   //for test. 미분값을 기준으로 미분값의 절반이상이 출력되면, 즉 다른 선이 인식되면
 
     for(index = IR_LineData.present + IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
         if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION){
@@ -243,7 +247,7 @@ boolean IsOutSchoolZone(void){
     uint32 index = 0;
     uint32 MaxVal = IR_LineData.Result[IR_LineData.present];
     
-    uint32 SCHOOLZONE_DETECTION = MaxVal/2;
+    uint32 SCHOOLZONE_DETECTION = MaxVal;   //for test. 미분값을 기준으로 미분값의 절반이상이 출력되면, 즉 다른 선이 인식되면
 
     for(index = IR_LineData.present + IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
         if(IR_LineData.Result[index] > SCHOOLZONE_DETECTION){
@@ -255,14 +259,14 @@ boolean IsOutSchoolZone(void){
 
 
 float32 Direction(void){
-   // return (IR_LineData.present - IR_LineData.previous);
-	return (IR_LineData.present - CENTER_INDEX);
+    return (IR_LineData.present - IR_LineData.previous);
+    //return (IR_LineData.present - CENTER_INDEX);
 }
 
 boolean Boundary(void){
-	if(IR_LineData.present < CENTER_INDEX + BOUNDARY)    		//keep servo angle
+	if(IR_LineData.present < MAX_INDEX)    		//keep servo angle
 		return FALSE;
-	else if(IR_LineData.present > CENTER_INDEX - BOUNDARY)
+	else if(IR_LineData.present > MIN_INDEX)
 		return FALSE;
 	else
 		return TRUE;

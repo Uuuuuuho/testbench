@@ -1047,7 +1047,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.file 12 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x8099
+	.uaword	0x808e
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -1055,7 +1055,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Dsadc/Dsadc/IfxDsadc_Dsadc.c"
-	.string	"C:\\\\Users\\\\boldasl\\\\SEUNGHO\\\\Workspace\\\\GitHub\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\Jimmy\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0x1a0
 	.uaword	0
 	.uaword	0
@@ -1084,7 +1084,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"uint8"
 	.byte	0x4
 	.byte	0x59
-	.uaword	0x21f
+	.uaword	0x214
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -1093,7 +1093,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"sint16"
 	.byte	0x4
 	.byte	0x5a
-	.uaword	0x23e
+	.uaword	0x233
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x5
@@ -1102,7 +1102,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"uint16"
 	.byte	0x4
 	.byte	0x5b
-	.uaword	0x259
+	.uaword	0x24e
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -1111,17 +1111,17 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"sint32"
 	.byte	0x4
 	.byte	0x5c
-	.uaword	0x1e2
+	.uaword	0x1d7
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x4
 	.byte	0x5d
-	.uaword	0x1ee
+	.uaword	0x1e3
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x4
 	.byte	0x5e
-	.uaword	0x1d2
+	.uaword	0x1c7
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -1130,7 +1130,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"boolean"
 	.byte	0x4
 	.byte	0x68
-	.uaword	0x21f
+	.uaword	0x214
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -1145,13 +1145,13 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"char"
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2ec
+	.uaword	0x2e1
 	.uleb128 0x5
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x5
 	.byte	0x72
-	.uaword	0x366
+	.uaword	0x35b
 	.uleb128 0x7
 	.string	"Ifx_RxSel_a"
 	.sleb128 0
@@ -1181,30 +1181,30 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_RxSel"
 	.byte	0x5
 	.byte	0x7b
-	.uaword	0x2ed
+	.uaword	0x2e2
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x5
 	.byte	0x7e
-	.uaword	0x39a
+	.uaword	0x38f
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x5
 	.byte	0x80
-	.uaword	0x2e6
+	.uaword	0x2db
 	.byte	0
 	.uleb128 0xa
 	.string	"index"
 	.byte	0x5
 	.byte	0x81
-	.uaword	0x26f
+	.uaword	0x264
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxModule_IndexMap"
 	.byte	0x5
 	.byte	0x82
-	.uaword	0x377
+	.uaword	0x36c
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -1214,59 +1214,59 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x3e0
+	.uaword	0x214
+	.uaword	0x3d5
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0xb
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x3f0
+	.uaword	0x214
+	.uaword	0x3e5
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x17
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x400
+	.uaword	0x214
+	.uaword	0x3f5
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x3
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x410
+	.uaword	0x214
+	.uaword	0x405
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x7
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x420
+	.uaword	0x214
+	.uaword	0x415
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x13
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x430
+	.uaword	0x214
+	.uaword	0x425
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x1b
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x440
+	.uaword	0x214
+	.uaword	0x435
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x3f
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x450
+	.uaword	0x214
+	.uaword	0x445
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x2b
 	.byte	0
 	.uleb128 0xd
@@ -1274,12 +1274,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2d
-	.uaword	0x662
+	.uaword	0x657
 	.uleb128 0xe
 	.string	"EN0"
 	.byte	0x6
 	.byte	0x2f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1288,7 +1288,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN1"
 	.byte	0x6
 	.byte	0x30
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1297,7 +1297,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN2"
 	.byte	0x6
 	.byte	0x31
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1306,7 +1306,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN3"
 	.byte	0x6
 	.byte	0x32
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1315,7 +1315,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN4"
 	.byte	0x6
 	.byte	0x33
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1324,7 +1324,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN5"
 	.byte	0x6
 	.byte	0x34
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1333,7 +1333,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN6"
 	.byte	0x6
 	.byte	0x35
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1342,7 +1342,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN7"
 	.byte	0x6
 	.byte	0x36
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1351,7 +1351,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN8"
 	.byte	0x6
 	.byte	0x37
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1360,7 +1360,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN9"
 	.byte	0x6
 	.byte	0x38
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1369,7 +1369,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN10"
 	.byte	0x6
 	.byte	0x39
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1378,7 +1378,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN11"
 	.byte	0x6
 	.byte	0x3a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1387,7 +1387,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN12"
 	.byte	0x6
 	.byte	0x3b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1396,7 +1396,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN13"
 	.byte	0x6
 	.byte	0x3c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1405,7 +1405,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN14"
 	.byte	0x6
 	.byte	0x3d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1414,7 +1414,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN15"
 	.byte	0x6
 	.byte	0x3e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1423,7 +1423,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN16"
 	.byte	0x6
 	.byte	0x3f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -1432,7 +1432,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN17"
 	.byte	0x6
 	.byte	0x40
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -1441,7 +1441,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN18"
 	.byte	0x6
 	.byte	0x41
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -1450,7 +1450,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN19"
 	.byte	0x6
 	.byte	0x42
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -1459,7 +1459,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN20"
 	.byte	0x6
 	.byte	0x43
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -1468,7 +1468,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN21"
 	.byte	0x6
 	.byte	0x44
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -1477,7 +1477,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN22"
 	.byte	0x6
 	.byte	0x45
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -1486,7 +1486,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN23"
 	.byte	0x6
 	.byte	0x46
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -1495,7 +1495,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN24"
 	.byte	0x6
 	.byte	0x47
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -1504,7 +1504,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN25"
 	.byte	0x6
 	.byte	0x48
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -1513,7 +1513,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN26"
 	.byte	0x6
 	.byte	0x49
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -1522,7 +1522,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN27"
 	.byte	0x6
 	.byte	0x4a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -1531,7 +1531,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN28"
 	.byte	0x6
 	.byte	0x4b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -1540,7 +1540,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN29"
 	.byte	0x6
 	.byte	0x4c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -1549,7 +1549,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN30"
 	.byte	0x6
 	.byte	0x4d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -1558,7 +1558,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN31"
 	.byte	0x6
 	.byte	0x4e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -1568,18 +1568,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x6
 	.byte	0x4f
-	.uaword	0x450
+	.uaword	0x445
 	.uleb128 0xd
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x52
-	.uaword	0x6a6
+	.uaword	0x69b
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x54
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -1589,18 +1589,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x6
 	.byte	0x55
-	.uaword	0x67b
+	.uaword	0x670
 	.uleb128 0xd
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x58
-	.uaword	0x7dd
+	.uaword	0x7d2
 	.uleb128 0xe
 	.string	"EN0"
 	.byte	0x6
 	.byte	0x5a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1609,7 +1609,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN1"
 	.byte	0x6
 	.byte	0x5b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1618,7 +1618,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN2"
 	.byte	0x6
 	.byte	0x5c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1627,7 +1627,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN3"
 	.byte	0x6
 	.byte	0x5d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1636,7 +1636,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN4"
 	.byte	0x6
 	.byte	0x5e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1645,7 +1645,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN5"
 	.byte	0x6
 	.byte	0x5f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1654,7 +1654,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN6"
 	.byte	0x6
 	.byte	0x60
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1663,7 +1663,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN7"
 	.byte	0x6
 	.byte	0x61
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1672,7 +1672,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN8"
 	.byte	0x6
 	.byte	0x62
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1681,7 +1681,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN9"
 	.byte	0x6
 	.byte	0x63
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1690,7 +1690,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN10"
 	.byte	0x6
 	.byte	0x64
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1699,7 +1699,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN11"
 	.byte	0x6
 	.byte	0x65
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1708,7 +1708,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN12"
 	.byte	0x6
 	.byte	0x66
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1717,7 +1717,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN13"
 	.byte	0x6
 	.byte	0x67
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1726,7 +1726,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN14"
 	.byte	0x6
 	.byte	0x68
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1735,7 +1735,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN15"
 	.byte	0x6
 	.byte	0x69
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1744,7 +1744,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x6a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1754,18 +1754,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x6
 	.byte	0x6b
-	.uaword	0x6bf
+	.uaword	0x6b4
 	.uleb128 0xd
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x6e
-	.uaword	0x83f
+	.uaword	0x834
 	.uleb128 0xe
 	.string	"MODREV"
 	.byte	0x6
 	.byte	0x70
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -1774,7 +1774,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"MODTYPE"
 	.byte	0x6
 	.byte	0x71
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -1783,7 +1783,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF3
 	.byte	0x6
 	.byte	0x72
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1793,18 +1793,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x6
 	.byte	0x73
-	.uaword	0x7f3
+	.uaword	0x7e8
 	.uleb128 0xd
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x76
-	.uaword	0x961
+	.uaword	0x956
 	.uleb128 0xe
 	.string	"P0"
 	.byte	0x6
 	.byte	0x78
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -1813,7 +1813,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P1"
 	.byte	0x6
 	.byte	0x79
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -1822,7 +1822,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P2"
 	.byte	0x6
 	.byte	0x7a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -1831,7 +1831,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P3"
 	.byte	0x6
 	.byte	0x7b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -1840,7 +1840,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P4"
 	.byte	0x6
 	.byte	0x7c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -1849,7 +1849,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P5"
 	.byte	0x6
 	.byte	0x7d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -1858,7 +1858,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P6"
 	.byte	0x6
 	.byte	0x7e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -1867,7 +1867,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P7"
 	.byte	0x6
 	.byte	0x7f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -1876,7 +1876,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P8"
 	.byte	0x6
 	.byte	0x80
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -1885,7 +1885,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P9"
 	.byte	0x6
 	.byte	0x81
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -1894,7 +1894,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P10"
 	.byte	0x6
 	.byte	0x82
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -1903,7 +1903,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P11"
 	.byte	0x6
 	.byte	0x83
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -1912,7 +1912,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P12"
 	.byte	0x6
 	.byte	0x84
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -1921,7 +1921,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P13"
 	.byte	0x6
 	.byte	0x85
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -1930,7 +1930,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P14"
 	.byte	0x6
 	.byte	0x86
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -1939,7 +1939,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P15"
 	.byte	0x6
 	.byte	0x87
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -1948,7 +1948,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x88
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -1958,18 +1958,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x6
 	.byte	0x89
-	.uaword	0x854
+	.uaword	0x849
 	.uleb128 0xd
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x8c
-	.uaword	0xa09
+	.uaword	0x9fe
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x8e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -1978,7 +1978,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC0"
 	.byte	0x6
 	.byte	0x8f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -1987,7 +1987,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0x90
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -1996,7 +1996,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC1"
 	.byte	0x6
 	.byte	0x91
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2005,7 +2005,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x92
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2014,7 +2014,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC2"
 	.byte	0x6
 	.byte	0x93
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -2023,7 +2023,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0x94
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -2032,7 +2032,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC3"
 	.byte	0x6
 	.byte	0x95
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2042,18 +2042,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x6
 	.byte	0x96
-	.uaword	0x976
+	.uaword	0x96b
 	.uleb128 0xd
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0x99
-	.uaword	0xab9
+	.uaword	0xaae
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0x9b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2062,7 +2062,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC12"
 	.byte	0x6
 	.byte	0x9c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2071,7 +2071,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0x9d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -2080,7 +2080,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC13"
 	.byte	0x6
 	.byte	0x9e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2089,7 +2089,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0x9f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2098,7 +2098,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC14"
 	.byte	0x6
 	.byte	0xa0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -2107,7 +2107,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0xa1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -2116,7 +2116,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC15"
 	.byte	0x6
 	.byte	0xa2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2126,18 +2126,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x6
 	.byte	0xa3
-	.uaword	0xa21
+	.uaword	0xa16
 	.uleb128 0xd
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa6
-	.uaword	0xb65
+	.uaword	0xb5a
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xa8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2146,7 +2146,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC4"
 	.byte	0x6
 	.byte	0xa9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2155,7 +2155,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xaa
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -2164,7 +2164,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC5"
 	.byte	0x6
 	.byte	0xab
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2173,7 +2173,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0xac
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2182,7 +2182,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC6"
 	.byte	0x6
 	.byte	0xad
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -2191,7 +2191,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0xae
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -2200,7 +2200,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC7"
 	.byte	0x6
 	.byte	0xaf
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2210,18 +2210,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x6
 	.byte	0xb0
-	.uaword	0xad2
+	.uaword	0xac7
 	.uleb128 0xd
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xb3
-	.uaword	0xc12
+	.uaword	0xc07
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xb5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -2230,7 +2230,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC8"
 	.byte	0x6
 	.byte	0xb6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2239,7 +2239,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xb7
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -2248,7 +2248,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC9"
 	.byte	0x6
 	.byte	0xb8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -2257,7 +2257,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0xb9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -2266,7 +2266,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC10"
 	.byte	0x6
 	.byte	0xba
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -2275,7 +2275,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF5
 	.byte	0x6
 	.byte	0xbb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -2284,7 +2284,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PC11"
 	.byte	0x6
 	.byte	0xbc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -2294,18 +2294,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x6
 	.byte	0xbd
-	.uaword	0xb7d
+	.uaword	0xb72
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xc0
-	.uaword	0xc72
+	.uaword	0xc67
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xc2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2314,7 +2314,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS1"
 	.byte	0x6
 	.byte	0xc3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2323,7 +2323,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0xc4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2333,18 +2333,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x6
 	.byte	0xc5
-	.uaword	0xc2a
+	.uaword	0xc1f
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xc8
-	.uaword	0xcd2
+	.uaword	0xcc7
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xca
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2353,7 +2353,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS1"
 	.byte	0x6
 	.byte	0xcb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2362,7 +2362,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF6
 	.byte	0x6
 	.byte	0xcc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -2372,18 +2372,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x6
 	.byte	0xcd
-	.uaword	0xc8a
+	.uaword	0xc7f
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xd0
-	.uaword	0xd62
+	.uaword	0xd57
 	.uleb128 0xe
 	.string	"RDIS_CTRL"
 	.byte	0x6
 	.byte	0xd2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2392,7 +2392,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RX_DIS"
 	.byte	0x6
 	.byte	0xd3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2401,7 +2401,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TERM"
 	.byte	0x6
 	.byte	0xd4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2410,7 +2410,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"LRXTERM"
 	.byte	0x6
 	.byte	0xd5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -2419,7 +2419,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF4
 	.byte	0x6
 	.byte	0xd6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -2429,18 +2429,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x6
 	.byte	0xd7
-	.uaword	0xcea
+	.uaword	0xcdf
 	.uleb128 0xd
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xda
-	.uaword	0xe3d
+	.uaword	0xe32
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xdc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -2449,7 +2449,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"LVDSR"
 	.byte	0x6
 	.byte	0xdd
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -2458,7 +2458,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"LVDSRL"
 	.byte	0x6
 	.byte	0xde
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -2467,7 +2467,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"reserved_10"
 	.byte	0x6
 	.byte	0xdf
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -2476,7 +2476,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TDIS_CTRL"
 	.byte	0x6
 	.byte	0xe0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -2485,7 +2485,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TX_DIS"
 	.byte	0x6
 	.byte	0xe1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -2494,7 +2494,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TX_PD"
 	.byte	0x6
 	.byte	0xe2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -2503,7 +2503,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TX_PWDPD"
 	.byte	0x6
 	.byte	0xe3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -2512,7 +2512,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.byte	0xe4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -2522,18 +2522,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x6
 	.byte	0xe5
-	.uaword	0xd7e
+	.uaword	0xd73
 	.uleb128 0xd
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xe8
-	.uaword	0xece
+	.uaword	0xec3
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xea
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2542,7 +2542,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL0"
 	.byte	0x6
 	.byte	0xeb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2551,7 +2551,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL1"
 	.byte	0x6
 	.byte	0xec
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2560,7 +2560,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL2"
 	.byte	0x6
 	.byte	0xed
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2569,7 +2569,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL3"
 	.byte	0x6
 	.byte	0xee
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2578,7 +2578,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF7
 	.byte	0x6
 	.byte	0xef
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -2588,18 +2588,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x6
 	.byte	0xf0
-	.uaword	0xe55
+	.uaword	0xe4a
 	.uleb128 0xd
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xf3
-	.uaword	0xf55
+	.uaword	0xf4a
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xf5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -2608,7 +2608,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL12"
 	.byte	0x6
 	.byte	0xf6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2617,7 +2617,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL13"
 	.byte	0x6
 	.byte	0xf7
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2626,7 +2626,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL14"
 	.byte	0x6
 	.byte	0xf8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2635,7 +2635,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL15"
 	.byte	0x6
 	.byte	0xf9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2645,18 +2645,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x6
 	.byte	0xfa
-	.uaword	0xee6
+	.uaword	0xedb
 	.uleb128 0xd
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x6
 	.byte	0xfd
-	.uaword	0xfec
+	.uaword	0xfe1
 	.uleb128 0xf
 	.uaword	.LASF1
 	.byte	0x6
 	.byte	0xff
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -2665,7 +2665,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL4"
 	.byte	0x6
 	.uahalf	0x100
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2674,7 +2674,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL5"
 	.byte	0x6
 	.uahalf	0x101
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2683,7 +2683,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL6"
 	.byte	0x6
 	.uahalf	0x102
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2692,7 +2692,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL7"
 	.byte	0x6
 	.uahalf	0x103
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2701,7 +2701,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF5
 	.byte	0x6
 	.uahalf	0x104
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -2711,18 +2711,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x6
 	.uahalf	0x105
-	.uaword	0xf6e
+	.uaword	0xf63
 	.uleb128 0x13
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x108
-	.uaword	0x1087
+	.uaword	0x107c
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x10a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -2731,7 +2731,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL8"
 	.byte	0x6
 	.uahalf	0x10b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2740,7 +2740,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL9"
 	.byte	0x6
 	.uahalf	0x10c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2749,7 +2749,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL10"
 	.byte	0x6
 	.uahalf	0x10d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2758,7 +2758,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL11"
 	.byte	0x6
 	.uahalf	0x10e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2767,7 +2767,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF8
 	.byte	0x6
 	.uahalf	0x10f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -2777,18 +2777,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x6
 	.uahalf	0x110
-	.uaword	0x1005
+	.uaword	0xffa
 	.uleb128 0x13
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x113
-	.uaword	0x11e1
+	.uaword	0x11d6
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x115
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -2797,7 +2797,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL0"
 	.byte	0x6
 	.uahalf	0x116
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -2806,7 +2806,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL1"
 	.byte	0x6
 	.uahalf	0x117
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -2815,7 +2815,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL2"
 	.byte	0x6
 	.uahalf	0x118
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -2824,7 +2824,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL3"
 	.byte	0x6
 	.uahalf	0x119
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -2833,7 +2833,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL4"
 	.byte	0x6
 	.uahalf	0x11a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -2842,7 +2842,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL5"
 	.byte	0x6
 	.uahalf	0x11b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -2851,7 +2851,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL6"
 	.byte	0x6
 	.uahalf	0x11c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -2860,7 +2860,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL7"
 	.byte	0x6
 	.uahalf	0x11d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -2869,7 +2869,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL8"
 	.byte	0x6
 	.uahalf	0x11e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -2878,7 +2878,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL9"
 	.byte	0x6
 	.uahalf	0x11f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -2887,7 +2887,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL10"
 	.byte	0x6
 	.uahalf	0x120
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -2896,7 +2896,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL11"
 	.byte	0x6
 	.uahalf	0x121
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -2905,7 +2905,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL12"
 	.byte	0x6
 	.uahalf	0x122
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -2914,7 +2914,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL13"
 	.byte	0x6
 	.uahalf	0x123
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -2923,7 +2923,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL14"
 	.byte	0x6
 	.uahalf	0x124
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -2932,7 +2932,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL15"
 	.byte	0x6
 	.uahalf	0x125
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -2942,18 +2942,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x6
 	.uahalf	0x126
-	.uaword	0x10a0
+	.uaword	0x1095
 	.uleb128 0x13
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x129
-	.uaword	0x142f
+	.uaword	0x1424
 	.uleb128 0x10
 	.string	"PS0"
 	.byte	0x6
 	.uahalf	0x12b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -2962,7 +2962,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS1"
 	.byte	0x6
 	.uahalf	0x12c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -2971,7 +2971,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS2"
 	.byte	0x6
 	.uahalf	0x12d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -2980,7 +2980,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS3"
 	.byte	0x6
 	.uahalf	0x12e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -2989,7 +2989,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS4"
 	.byte	0x6
 	.uahalf	0x12f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -2998,7 +2998,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS5"
 	.byte	0x6
 	.uahalf	0x130
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3007,7 +3007,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS6"
 	.byte	0x6
 	.uahalf	0x131
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3016,7 +3016,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS7"
 	.byte	0x6
 	.uahalf	0x132
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3025,7 +3025,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS8"
 	.byte	0x6
 	.uahalf	0x133
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3034,7 +3034,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS9"
 	.byte	0x6
 	.uahalf	0x134
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3043,7 +3043,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS10"
 	.byte	0x6
 	.uahalf	0x135
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3052,7 +3052,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS11"
 	.byte	0x6
 	.uahalf	0x136
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3061,7 +3061,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS12"
 	.byte	0x6
 	.uahalf	0x137
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3070,7 +3070,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS13"
 	.byte	0x6
 	.uahalf	0x138
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3079,7 +3079,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS14"
 	.byte	0x6
 	.uahalf	0x139
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3088,7 +3088,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS15"
 	.byte	0x6
 	.uahalf	0x13a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3097,7 +3097,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL0"
 	.byte	0x6
 	.uahalf	0x13b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3106,7 +3106,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL1"
 	.byte	0x6
 	.uahalf	0x13c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3115,7 +3115,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL2"
 	.byte	0x6
 	.uahalf	0x13d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3124,7 +3124,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL3"
 	.byte	0x6
 	.uahalf	0x13e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3133,7 +3133,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL4"
 	.byte	0x6
 	.uahalf	0x13f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3142,7 +3142,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL5"
 	.byte	0x6
 	.uahalf	0x140
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3151,7 +3151,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL6"
 	.byte	0x6
 	.uahalf	0x141
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3160,7 +3160,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL7"
 	.byte	0x6
 	.uahalf	0x142
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3169,7 +3169,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL8"
 	.byte	0x6
 	.uahalf	0x143
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3178,7 +3178,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL9"
 	.byte	0x6
 	.uahalf	0x144
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3187,7 +3187,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL10"
 	.byte	0x6
 	.uahalf	0x145
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3196,7 +3196,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL11"
 	.byte	0x6
 	.uahalf	0x146
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3205,7 +3205,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL12"
 	.byte	0x6
 	.uahalf	0x147
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3214,7 +3214,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL13"
 	.byte	0x6
 	.uahalf	0x148
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3223,7 +3223,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL14"
 	.byte	0x6
 	.uahalf	0x149
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3232,7 +3232,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PCL15"
 	.byte	0x6
 	.uahalf	0x14a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3242,18 +3242,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x6
 	.uahalf	0x14b
-	.uaword	0x11f9
+	.uaword	0x11ee
 	.uleb128 0x13
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x14e
-	.uaword	0x14b2
+	.uaword	0x14a7
 	.uleb128 0x10
 	.string	"PS0"
 	.byte	0x6
 	.uahalf	0x150
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3262,7 +3262,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS1"
 	.byte	0x6
 	.uahalf	0x151
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3271,7 +3271,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS2"
 	.byte	0x6
 	.uahalf	0x152
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3280,7 +3280,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS3"
 	.byte	0x6
 	.uahalf	0x153
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3289,7 +3289,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF9
 	.byte	0x6
 	.uahalf	0x154
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -3299,18 +3299,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x6
 	.uahalf	0x155
-	.uaword	0x1446
+	.uaword	0x143b
 	.uleb128 0x13
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x158
-	.uaword	0x154c
+	.uaword	0x1541
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x15a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -3319,7 +3319,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS12"
 	.byte	0x6
 	.uahalf	0x15b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3328,7 +3328,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS13"
 	.byte	0x6
 	.uahalf	0x15c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3337,7 +3337,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS14"
 	.byte	0x6
 	.uahalf	0x15d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3346,7 +3346,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS15"
 	.byte	0x6
 	.uahalf	0x15e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3355,7 +3355,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.uahalf	0x15f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3365,18 +3365,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x6
 	.uahalf	0x160
-	.uaword	0x14cb
+	.uaword	0x14c0
 	.uleb128 0x13
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x163
-	.uaword	0x15e2
+	.uaword	0x15d7
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x165
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -3385,7 +3385,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS4"
 	.byte	0x6
 	.uahalf	0x166
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3394,7 +3394,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS5"
 	.byte	0x6
 	.uahalf	0x167
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3403,7 +3403,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS6"
 	.byte	0x6
 	.uahalf	0x168
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3412,7 +3412,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS7"
 	.byte	0x6
 	.uahalf	0x169
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3421,7 +3421,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF4
 	.byte	0x6
 	.uahalf	0x16a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -3431,18 +3431,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x6
 	.uahalf	0x16b
-	.uaword	0x1566
+	.uaword	0x155b
 	.uleb128 0x13
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x16e
-	.uaword	0x1679
+	.uaword	0x166e
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x6
 	.uahalf	0x170
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3451,7 +3451,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS8"
 	.byte	0x6
 	.uahalf	0x171
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3460,7 +3460,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS9"
 	.byte	0x6
 	.uahalf	0x172
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3469,7 +3469,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS10"
 	.byte	0x6
 	.uahalf	0x173
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3478,7 +3478,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS11"
 	.byte	0x6
 	.uahalf	0x174
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3487,7 +3487,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF10
 	.byte	0x6
 	.uahalf	0x175
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -3497,18 +3497,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x6
 	.uahalf	0x176
-	.uaword	0x15fb
+	.uaword	0x15f0
 	.uleb128 0x13
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x179
-	.uaword	0x17c3
+	.uaword	0x17b8
 	.uleb128 0x10
 	.string	"PS0"
 	.byte	0x6
 	.uahalf	0x17b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3517,7 +3517,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS1"
 	.byte	0x6
 	.uahalf	0x17c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3526,7 +3526,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS2"
 	.byte	0x6
 	.uahalf	0x17d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3535,7 +3535,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS3"
 	.byte	0x6
 	.uahalf	0x17e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3544,7 +3544,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS4"
 	.byte	0x6
 	.uahalf	0x17f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3553,7 +3553,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS5"
 	.byte	0x6
 	.uahalf	0x180
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3562,7 +3562,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS6"
 	.byte	0x6
 	.uahalf	0x181
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3571,7 +3571,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS7"
 	.byte	0x6
 	.uahalf	0x182
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3580,7 +3580,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS8"
 	.byte	0x6
 	.uahalf	0x183
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3589,7 +3589,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS9"
 	.byte	0x6
 	.uahalf	0x184
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3598,7 +3598,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS10"
 	.byte	0x6
 	.uahalf	0x185
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3607,7 +3607,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS11"
 	.byte	0x6
 	.uahalf	0x186
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3616,7 +3616,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS12"
 	.byte	0x6
 	.uahalf	0x187
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3625,7 +3625,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS13"
 	.byte	0x6
 	.uahalf	0x188
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3634,7 +3634,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS14"
 	.byte	0x6
 	.uahalf	0x189
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3643,7 +3643,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PS15"
 	.byte	0x6
 	.uahalf	0x18a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3652,7 +3652,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.uahalf	0x18b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3662,18 +3662,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x6
 	.uahalf	0x18c
-	.uaword	0x1692
+	.uaword	0x1687
 	.uleb128 0x13
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x18f
-	.uaword	0x18fb
+	.uaword	0x18f0
 	.uleb128 0x10
 	.string	"P0"
 	.byte	0x6
 	.uahalf	0x191
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3682,7 +3682,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P1"
 	.byte	0x6
 	.uahalf	0x192
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3691,7 +3691,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P2"
 	.byte	0x6
 	.uahalf	0x193
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3700,7 +3700,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P3"
 	.byte	0x6
 	.uahalf	0x194
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3709,7 +3709,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P4"
 	.byte	0x6
 	.uahalf	0x195
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3718,7 +3718,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P5"
 	.byte	0x6
 	.uahalf	0x196
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3727,7 +3727,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P6"
 	.byte	0x6
 	.uahalf	0x197
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3736,7 +3736,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P7"
 	.byte	0x6
 	.uahalf	0x198
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3745,7 +3745,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P8"
 	.byte	0x6
 	.uahalf	0x199
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3754,7 +3754,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P9"
 	.byte	0x6
 	.uahalf	0x19a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3763,7 +3763,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P10"
 	.byte	0x6
 	.uahalf	0x19b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3772,7 +3772,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P11"
 	.byte	0x6
 	.uahalf	0x19c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3781,7 +3781,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P12"
 	.byte	0x6
 	.uahalf	0x19d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3790,7 +3790,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P13"
 	.byte	0x6
 	.uahalf	0x19e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3799,7 +3799,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P14"
 	.byte	0x6
 	.uahalf	0x19f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3808,7 +3808,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"P15"
 	.byte	0x6
 	.uahalf	0x1a0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3817,7 +3817,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.uahalf	0x1a1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3827,18 +3827,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x6
 	.uahalf	0x1a2
-	.uaword	0x17db
+	.uaword	0x17d0
 	.uleb128 0x13
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1a5
-	.uaword	0x19ff
+	.uaword	0x19f4
 	.uleb128 0x10
 	.string	"SEL0"
 	.byte	0x6
 	.uahalf	0x1a7
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3847,7 +3847,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SEL1"
 	.byte	0x6
 	.uahalf	0x1a8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3856,7 +3856,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SEL2"
 	.byte	0x6
 	.uahalf	0x1a9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3865,7 +3865,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SEL3"
 	.byte	0x6
 	.uahalf	0x1aa
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3874,7 +3874,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SEL4"
 	.byte	0x6
 	.uahalf	0x1ab
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3883,7 +3883,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SEL5"
 	.byte	0x6
 	.uahalf	0x1ac
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3892,7 +3892,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SEL6"
 	.byte	0x6
 	.uahalf	0x1ad
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3901,7 +3901,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"reserved_7"
 	.byte	0x6
 	.uahalf	0x1ae
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -3910,7 +3910,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SEL10"
 	.byte	0x6
 	.uahalf	0x1af
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3919,7 +3919,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SEL11"
 	.byte	0x6
 	.uahalf	0x1b0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3928,7 +3928,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF10
 	.byte	0x6
 	.uahalf	0x1b1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -3937,7 +3937,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"LCK"
 	.byte	0x6
 	.uahalf	0x1b2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3947,18 +3947,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x6
 	.uahalf	0x1b3
-	.uaword	0x1912
+	.uaword	0x1907
 	.uleb128 0x13
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1b6
-	.uaword	0x1b69
+	.uaword	0x1b5e
 	.uleb128 0x10
 	.string	"PDIS0"
 	.byte	0x6
 	.uahalf	0x1b8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3967,7 +3967,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS1"
 	.byte	0x6
 	.uahalf	0x1b9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3976,7 +3976,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS2"
 	.byte	0x6
 	.uahalf	0x1ba
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3985,7 +3985,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS3"
 	.byte	0x6
 	.uahalf	0x1bb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3994,7 +3994,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS4"
 	.byte	0x6
 	.uahalf	0x1bc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4003,7 +4003,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS5"
 	.byte	0x6
 	.uahalf	0x1bd
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4012,7 +4012,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS6"
 	.byte	0x6
 	.uahalf	0x1be
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4021,7 +4021,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS7"
 	.byte	0x6
 	.uahalf	0x1bf
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4030,7 +4030,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS8"
 	.byte	0x6
 	.uahalf	0x1c0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4039,7 +4039,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS9"
 	.byte	0x6
 	.uahalf	0x1c1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4048,7 +4048,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS10"
 	.byte	0x6
 	.uahalf	0x1c2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4057,7 +4057,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS11"
 	.byte	0x6
 	.uahalf	0x1c3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4066,7 +4066,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS12"
 	.byte	0x6
 	.uahalf	0x1c4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4075,7 +4075,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS13"
 	.byte	0x6
 	.uahalf	0x1c5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4084,7 +4084,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS14"
 	.byte	0x6
 	.uahalf	0x1c6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4093,7 +4093,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PDIS15"
 	.byte	0x6
 	.uahalf	0x1c7
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4102,7 +4102,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x6
 	.uahalf	0x1c8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4112,18 +4112,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x6
 	.uahalf	0x1c9
-	.uaword	0x1a17
+	.uaword	0x1a0c
 	.uleb128 0x13
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1cc
-	.uaword	0x1c9d
+	.uaword	0x1c92
 	.uleb128 0x10
 	.string	"PD0"
 	.byte	0x6
 	.uahalf	0x1ce
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -4132,7 +4132,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL0"
 	.byte	0x6
 	.uahalf	0x1cf
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4141,7 +4141,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD1"
 	.byte	0x6
 	.uahalf	0x1d0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -4150,7 +4150,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL1"
 	.byte	0x6
 	.uahalf	0x1d1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4159,7 +4159,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD2"
 	.byte	0x6
 	.uahalf	0x1d2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -4168,7 +4168,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL2"
 	.byte	0x6
 	.uahalf	0x1d3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4177,7 +4177,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD3"
 	.byte	0x6
 	.uahalf	0x1d4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -4186,7 +4186,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL3"
 	.byte	0x6
 	.uahalf	0x1d5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4195,7 +4195,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD4"
 	.byte	0x6
 	.uahalf	0x1d6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -4204,7 +4204,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL4"
 	.byte	0x6
 	.uahalf	0x1d7
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4213,7 +4213,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD5"
 	.byte	0x6
 	.uahalf	0x1d8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -4222,7 +4222,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL5"
 	.byte	0x6
 	.uahalf	0x1d9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4231,7 +4231,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD6"
 	.byte	0x6
 	.uahalf	0x1da
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -4240,7 +4240,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL6"
 	.byte	0x6
 	.uahalf	0x1db
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4249,7 +4249,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD7"
 	.byte	0x6
 	.uahalf	0x1dc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -4258,7 +4258,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL7"
 	.byte	0x6
 	.uahalf	0x1dd
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4268,18 +4268,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x6
 	.uahalf	0x1de
-	.uaword	0x1b82
+	.uaword	0x1b77
 	.uleb128 0x13
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1e1
-	.uaword	0x1ddc
+	.uaword	0x1dd1
 	.uleb128 0x10
 	.string	"PD8"
 	.byte	0x6
 	.uahalf	0x1e3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -4288,7 +4288,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL8"
 	.byte	0x6
 	.uahalf	0x1e4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4297,7 +4297,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD9"
 	.byte	0x6
 	.uahalf	0x1e5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -4306,7 +4306,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL9"
 	.byte	0x6
 	.uahalf	0x1e6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4315,7 +4315,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD10"
 	.byte	0x6
 	.uahalf	0x1e7
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -4324,7 +4324,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL10"
 	.byte	0x6
 	.uahalf	0x1e8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4333,7 +4333,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD11"
 	.byte	0x6
 	.uahalf	0x1e9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -4342,7 +4342,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL11"
 	.byte	0x6
 	.uahalf	0x1ea
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4351,7 +4351,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD12"
 	.byte	0x6
 	.uahalf	0x1eb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -4360,7 +4360,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL12"
 	.byte	0x6
 	.uahalf	0x1ec
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4369,7 +4369,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD13"
 	.byte	0x6
 	.uahalf	0x1ed
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -4378,7 +4378,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL13"
 	.byte	0x6
 	.uahalf	0x1ee
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4387,7 +4387,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD14"
 	.byte	0x6
 	.uahalf	0x1ef
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -4396,7 +4396,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL14"
 	.byte	0x6
 	.uahalf	0x1f0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4405,7 +4405,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PD15"
 	.byte	0x6
 	.uahalf	0x1f1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -4414,7 +4414,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PL15"
 	.byte	0x6
 	.uahalf	0x1f2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4424,985 +4424,985 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x6
 	.uahalf	0x1f3
-	.uaword	0x1cb5
+	.uaword	0x1caa
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x1fb
-	.uaword	0x1e1c
+	.uaword	0x1e11
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x1fd
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x1fe
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x1ff
-	.uaword	0x662
+	.uaword	0x657
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x6
 	.uahalf	0x200
-	.uaword	0x1df4
+	.uaword	0x1de9
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x203
-	.uaword	0x1e59
+	.uaword	0x1e4e
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x205
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x206
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x207
-	.uaword	0x6a6
+	.uaword	0x69b
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x6
 	.uahalf	0x208
-	.uaword	0x1e31
+	.uaword	0x1e26
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x20b
-	.uaword	0x1e96
+	.uaword	0x1e8b
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x20d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x20e
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x20f
-	.uaword	0x7dd
+	.uaword	0x7d2
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_ESR"
 	.byte	0x6
 	.uahalf	0x210
-	.uaword	0x1e6e
+	.uaword	0x1e63
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x213
-	.uaword	0x1ed0
+	.uaword	0x1ec5
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x215
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x216
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x217
-	.uaword	0x83f
+	.uaword	0x834
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_ID"
 	.byte	0x6
 	.uahalf	0x218
-	.uaword	0x1ea8
+	.uaword	0x1e9d
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x21b
-	.uaword	0x1f09
+	.uaword	0x1efe
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x21d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x21e
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x21f
-	.uaword	0x961
+	.uaword	0x956
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_IN"
 	.byte	0x6
 	.uahalf	0x220
-	.uaword	0x1ee1
+	.uaword	0x1ed6
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x223
-	.uaword	0x1f42
+	.uaword	0x1f37
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x225
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x226
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x227
-	.uaword	0xa09
+	.uaword	0x9fe
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_IOCR0"
 	.byte	0x6
 	.uahalf	0x228
-	.uaword	0x1f1a
+	.uaword	0x1f0f
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x22b
-	.uaword	0x1f7e
+	.uaword	0x1f73
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x22d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x22e
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x22f
-	.uaword	0xab9
+	.uaword	0xaae
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_IOCR12"
 	.byte	0x6
 	.uahalf	0x230
-	.uaword	0x1f56
+	.uaword	0x1f4b
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x233
-	.uaword	0x1fbb
+	.uaword	0x1fb0
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x235
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x236
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x237
-	.uaword	0xb65
+	.uaword	0xb5a
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_IOCR4"
 	.byte	0x6
 	.uahalf	0x238
-	.uaword	0x1f93
+	.uaword	0x1f88
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x23b
-	.uaword	0x1ff7
+	.uaword	0x1fec
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x23d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x23e
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x23f
-	.uaword	0xc12
+	.uaword	0xc07
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_IOCR8"
 	.byte	0x6
 	.uahalf	0x240
-	.uaword	0x1fcf
+	.uaword	0x1fc4
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x243
-	.uaword	0x2033
+	.uaword	0x2028
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x245
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x246
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x247
-	.uaword	0xc72
+	.uaword	0xc67
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_LPCR0"
 	.byte	0x6
 	.uahalf	0x248
-	.uaword	0x200b
+	.uaword	0x2000
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x24b
-	.uaword	0x207d
+	.uaword	0x2072
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x24d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x24e
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x24f
-	.uaword	0xcd2
+	.uaword	0xcc7
 	.uleb128 0x15
 	.string	"B_P21"
 	.byte	0x6
 	.uahalf	0x250
-	.uaword	0xd62
+	.uaword	0xd57
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_LPCR1"
 	.byte	0x6
 	.uahalf	0x251
-	.uaword	0x2047
+	.uaword	0x203c
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x254
-	.uaword	0x20b9
+	.uaword	0x20ae
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x256
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x257
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x258
-	.uaword	0xe3d
+	.uaword	0xe32
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_LPCR2"
 	.byte	0x6
 	.uahalf	0x259
-	.uaword	0x2091
+	.uaword	0x2086
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x25c
-	.uaword	0x20f5
+	.uaword	0x20ea
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x25e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x25f
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x260
-	.uaword	0x11e1
+	.uaword	0x11d6
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMCR"
 	.byte	0x6
 	.uahalf	0x261
-	.uaword	0x20cd
+	.uaword	0x20c2
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x264
-	.uaword	0x2130
+	.uaword	0x2125
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x266
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x267
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x268
-	.uaword	0xece
+	.uaword	0xec3
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMCR0"
 	.byte	0x6
 	.uahalf	0x269
-	.uaword	0x2108
+	.uaword	0x20fd
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x26c
-	.uaword	0x216c
+	.uaword	0x2161
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x26e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x26f
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x270
-	.uaword	0xf55
+	.uaword	0xf4a
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMCR12"
 	.byte	0x6
 	.uahalf	0x271
-	.uaword	0x2144
+	.uaword	0x2139
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x274
-	.uaword	0x21a9
+	.uaword	0x219e
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x276
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x277
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x278
-	.uaword	0xfec
+	.uaword	0xfe1
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMCR4"
 	.byte	0x6
 	.uahalf	0x279
-	.uaword	0x2181
+	.uaword	0x2176
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x27c
-	.uaword	0x21e5
+	.uaword	0x21da
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x27e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x27f
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x280
-	.uaword	0x1087
+	.uaword	0x107c
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMCR8"
 	.byte	0x6
 	.uahalf	0x281
-	.uaword	0x21bd
+	.uaword	0x21b2
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x284
-	.uaword	0x2221
+	.uaword	0x2216
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x286
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x287
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x288
-	.uaword	0x142f
+	.uaword	0x1424
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMR"
 	.byte	0x6
 	.uahalf	0x289
-	.uaword	0x21f9
+	.uaword	0x21ee
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x28c
-	.uaword	0x225b
+	.uaword	0x2250
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x28e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x28f
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x290
-	.uaword	0x17c3
+	.uaword	0x17b8
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMSR"
 	.byte	0x6
 	.uahalf	0x291
-	.uaword	0x2233
+	.uaword	0x2228
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x294
-	.uaword	0x2296
+	.uaword	0x228b
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x296
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x297
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x298
-	.uaword	0x14b2
+	.uaword	0x14a7
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMSR0"
 	.byte	0x6
 	.uahalf	0x299
-	.uaword	0x226e
+	.uaword	0x2263
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x29c
-	.uaword	0x22d2
+	.uaword	0x22c7
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x29e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x29f
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2a0
-	.uaword	0x154c
+	.uaword	0x1541
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMSR12"
 	.byte	0x6
 	.uahalf	0x2a1
-	.uaword	0x22aa
+	.uaword	0x229f
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2a4
-	.uaword	0x230f
+	.uaword	0x2304
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2a6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2a7
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2a8
-	.uaword	0x15e2
+	.uaword	0x15d7
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMSR4"
 	.byte	0x6
 	.uahalf	0x2a9
-	.uaword	0x22e7
+	.uaword	0x22dc
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2ac
-	.uaword	0x234b
+	.uaword	0x2340
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2ae
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2af
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2b0
-	.uaword	0x1679
+	.uaword	0x166e
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OMSR8"
 	.byte	0x6
 	.uahalf	0x2b1
-	.uaword	0x2323
+	.uaword	0x2318
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2b4
-	.uaword	0x2387
+	.uaword	0x237c
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2b6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2b7
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2b8
-	.uaword	0x18fb
+	.uaword	0x18f0
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_OUT"
 	.byte	0x6
 	.uahalf	0x2b9
-	.uaword	0x235f
+	.uaword	0x2354
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2bc
-	.uaword	0x23c1
+	.uaword	0x23b6
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2be
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2bf
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2c0
-	.uaword	0x19ff
+	.uaword	0x19f4
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_PCSR"
 	.byte	0x6
 	.uahalf	0x2c1
-	.uaword	0x2399
+	.uaword	0x238e
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2c4
-	.uaword	0x23fc
+	.uaword	0x23f1
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2c6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2c7
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2c8
-	.uaword	0x1b69
+	.uaword	0x1b5e
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_PDISC"
 	.byte	0x6
 	.uahalf	0x2c9
-	.uaword	0x23d4
+	.uaword	0x23c9
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2cc
-	.uaword	0x2438
+	.uaword	0x242d
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2ce
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2cf
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2d0
-	.uaword	0x1c9d
+	.uaword	0x1c92
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_PDR0"
 	.byte	0x6
 	.uahalf	0x2d1
-	.uaword	0x2410
+	.uaword	0x2405
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x6
 	.uahalf	0x2d4
-	.uaword	0x2473
+	.uaword	0x2468
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x6
 	.uahalf	0x2d6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x6
 	.uahalf	0x2d7
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x6
 	.uahalf	0x2d8
-	.uaword	0x1ddc
+	.uaword	0x1dd1
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P_PDR1"
 	.byte	0x6
 	.uahalf	0x2d9
-	.uaword	0x244b
+	.uaword	0x2440
 	.uleb128 0x16
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x6
 	.uahalf	0x2e4
-	.uaword	0x26b0
+	.uaword	0x26a5
 	.uleb128 0x17
 	.string	"OUT"
 	.byte	0x6
 	.uahalf	0x2e6
-	.uaword	0x2387
+	.uaword	0x237c
 	.byte	0
 	.uleb128 0x17
 	.string	"OMR"
 	.byte	0x6
 	.uahalf	0x2e7
-	.uaword	0x2221
+	.uaword	0x2216
 	.byte	0x4
 	.uleb128 0x17
 	.string	"ID"
 	.byte	0x6
 	.uahalf	0x2e8
-	.uaword	0x1ed0
+	.uaword	0x1ec5
 	.byte	0x8
 	.uleb128 0x18
 	.uaword	.LASF11
 	.byte	0x6
 	.uahalf	0x2e9
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0xc
 	.uleb128 0x17
 	.string	"IOCR0"
 	.byte	0x6
 	.uahalf	0x2ea
-	.uaword	0x1f42
+	.uaword	0x1f37
 	.byte	0x10
 	.uleb128 0x17
 	.string	"IOCR4"
 	.byte	0x6
 	.uahalf	0x2eb
-	.uaword	0x1fbb
+	.uaword	0x1fb0
 	.byte	0x14
 	.uleb128 0x17
 	.string	"IOCR8"
 	.byte	0x6
 	.uahalf	0x2ec
-	.uaword	0x1ff7
+	.uaword	0x1fec
 	.byte	0x18
 	.uleb128 0x17
 	.string	"IOCR12"
 	.byte	0x6
 	.uahalf	0x2ed
-	.uaword	0x1f7e
+	.uaword	0x1f73
 	.byte	0x1c
 	.uleb128 0x18
 	.uaword	.LASF7
 	.byte	0x6
 	.uahalf	0x2ee
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x20
 	.uleb128 0x17
 	.string	"IN"
 	.byte	0x6
 	.uahalf	0x2ef
-	.uaword	0x1f09
+	.uaword	0x1efe
 	.byte	0x24
 	.uleb128 0x18
 	.uaword	.LASF8
 	.byte	0x6
 	.uahalf	0x2f0
-	.uaword	0x3e0
+	.uaword	0x3d5
 	.byte	0x28
 	.uleb128 0x17
 	.string	"PDR0"
 	.byte	0x6
 	.uahalf	0x2f1
-	.uaword	0x2438
+	.uaword	0x242d
 	.byte	0x40
 	.uleb128 0x17
 	.string	"PDR1"
 	.byte	0x6
 	.uahalf	0x2f2
-	.uaword	0x2473
+	.uaword	0x2468
 	.byte	0x44
 	.uleb128 0x17
 	.string	"reserved_48"
 	.byte	0x6
 	.uahalf	0x2f3
-	.uaword	0x400
+	.uaword	0x3f5
 	.byte	0x48
 	.uleb128 0x17
 	.string	"ESR"
 	.byte	0x6
 	.uahalf	0x2f4
-	.uaword	0x1e96
+	.uaword	0x1e8b
 	.byte	0x50
 	.uleb128 0x18
 	.uaword	.LASF12
 	.byte	0x6
 	.uahalf	0x2f5
-	.uaword	0x3d0
+	.uaword	0x3c5
 	.byte	0x54
 	.uleb128 0x17
 	.string	"PDISC"
 	.byte	0x6
 	.uahalf	0x2f6
-	.uaword	0x23fc
+	.uaword	0x23f1
 	.byte	0x60
 	.uleb128 0x17
 	.string	"PCSR"
 	.byte	0x6
 	.uahalf	0x2f7
-	.uaword	0x23c1
+	.uaword	0x23b6
 	.byte	0x64
 	.uleb128 0x17
 	.string	"reserved_68"
 	.byte	0x6
 	.uahalf	0x2f8
-	.uaword	0x400
+	.uaword	0x3f5
 	.byte	0x68
 	.uleb128 0x17
 	.string	"OMSR0"
 	.byte	0x6
 	.uahalf	0x2f9
-	.uaword	0x2296
+	.uaword	0x228b
 	.byte	0x70
 	.uleb128 0x17
 	.string	"OMSR4"
 	.byte	0x6
 	.uahalf	0x2fa
-	.uaword	0x230f
+	.uaword	0x2304
 	.byte	0x74
 	.uleb128 0x17
 	.string	"OMSR8"
 	.byte	0x6
 	.uahalf	0x2fb
-	.uaword	0x234b
+	.uaword	0x2340
 	.byte	0x78
 	.uleb128 0x17
 	.string	"OMSR12"
 	.byte	0x6
 	.uahalf	0x2fc
-	.uaword	0x22d2
+	.uaword	0x22c7
 	.byte	0x7c
 	.uleb128 0x17
 	.string	"OMCR0"
 	.byte	0x6
 	.uahalf	0x2fd
-	.uaword	0x2130
+	.uaword	0x2125
 	.byte	0x80
 	.uleb128 0x17
 	.string	"OMCR4"
 	.byte	0x6
 	.uahalf	0x2fe
-	.uaword	0x21a9
+	.uaword	0x219e
 	.byte	0x84
 	.uleb128 0x17
 	.string	"OMCR8"
 	.byte	0x6
 	.uahalf	0x2ff
-	.uaword	0x21e5
+	.uaword	0x21da
 	.byte	0x88
 	.uleb128 0x17
 	.string	"OMCR12"
 	.byte	0x6
 	.uahalf	0x300
-	.uaword	0x216c
+	.uaword	0x2161
 	.byte	0x8c
 	.uleb128 0x17
 	.string	"OMSR"
 	.byte	0x6
 	.uahalf	0x301
-	.uaword	0x225b
+	.uaword	0x2250
 	.byte	0x90
 	.uleb128 0x17
 	.string	"OMCR"
 	.byte	0x6
 	.uahalf	0x302
-	.uaword	0x20f5
+	.uaword	0x20ea
 	.byte	0x94
 	.uleb128 0x17
 	.string	"reserved_98"
 	.byte	0x6
 	.uahalf	0x303
-	.uaword	0x400
+	.uaword	0x3f5
 	.byte	0x98
 	.uleb128 0x17
 	.string	"LPCR0"
 	.byte	0x6
 	.uahalf	0x304
-	.uaword	0x2033
+	.uaword	0x2028
 	.byte	0xa0
 	.uleb128 0x17
 	.string	"LPCR1"
 	.byte	0x6
 	.uahalf	0x305
-	.uaword	0x207d
+	.uaword	0x2072
 	.byte	0xa4
 	.uleb128 0x17
 	.string	"LPCR2"
 	.byte	0x6
 	.uahalf	0x306
-	.uaword	0x20b9
+	.uaword	0x20ae
 	.byte	0xa8
 	.uleb128 0x18
 	.uaword	.LASF13
 	.byte	0x6
 	.uahalf	0x307
-	.uaword	0x26b0
+	.uaword	0x26a5
 	.byte	0xac
 	.uleb128 0x17
 	.string	"ACCEN1"
 	.byte	0x6
 	.uahalf	0x308
-	.uaword	0x1e59
+	.uaword	0x1e4e
 	.byte	0xf8
 	.uleb128 0x17
 	.string	"ACCEN0"
 	.byte	0x6
 	.uahalf	0x309
-	.uaword	0x1e1c
+	.uaword	0x1e11
 	.byte	0xfc
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x26c0
+	.uaword	0x214
+	.uaword	0x26b5
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x4b
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_P"
 	.byte	0x6
 	.uahalf	0x30a
-	.uaword	0x26ce
+	.uaword	0x26c3
 	.uleb128 0x19
-	.uaword	0x2486
+	.uaword	0x247b
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x26c0
+	.uaword	0x26b5
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x3
 	.byte	0x40
-	.uaword	0x2759
+	.uaword	0x274e
 	.uleb128 0x7
 	.string	"IfxPort_InputMode_undefined"
 	.sleb128 -1
@@ -5420,12 +5420,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxPort_InputMode"
 	.byte	0x3
 	.byte	0x45
-	.uaword	0x26d9
+	.uaword	0x26ce
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x3
 	.byte	0x4c
-	.uaword	0x2a12
+	.uaword	0x2a07
 	.uleb128 0x7
 	.string	"IfxPort_Mode_inputNoPullDevice"
 	.sleb128 0
@@ -5488,12 +5488,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxPort_Mode"
 	.byte	0x3
 	.byte	0x60
-	.uaword	0x2772
+	.uaword	0x2767
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x3
 	.byte	0x65
-	.uaword	0x2b02
+	.uaword	0x2af7
 	.uleb128 0x7
 	.string	"IfxPort_OutputIdx_general"
 	.sleb128 128
@@ -5523,12 +5523,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxPort_OutputIdx"
 	.byte	0x3
 	.byte	0x6e
-	.uaword	0x2a26
+	.uaword	0x2a1b
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x3
 	.byte	0x73
-	.uaword	0x2b63
+	.uaword	0x2b58
 	.uleb128 0x7
 	.string	"IfxPort_OutputMode_pushPull"
 	.sleb128 128
@@ -5540,12 +5540,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxPort_OutputMode"
 	.byte	0x3
 	.byte	0x76
-	.uaword	0x2b1b
+	.uaword	0x2b10
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x3
 	.byte	0x7d
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.uleb128 0x7
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -5587,41 +5587,41 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxPort_PadDriver"
 	.byte	0x3
 	.byte	0x8a
-	.uaword	0x2b7d
+	.uaword	0x2b72
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x3
 	.byte	0xaa
-	.uaword	0x2d59
+	.uaword	0x2d4e
 	.uleb128 0xa
 	.string	"port"
 	.byte	0x3
 	.byte	0xac
-	.uaword	0x26d3
+	.uaword	0x26c8
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF14
 	.byte	0x3
 	.byte	0xad
-	.uaword	0x212
+	.uaword	0x207
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxPort_Pin"
 	.byte	0x3
 	.byte	0xae
-	.uaword	0x2d37
+	.uaword	0x2d2c
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x2d
-	.uaword	0x2f82
+	.uaword	0x2f77
 	.uleb128 0xe
 	.string	"EN0"
 	.byte	0x7
 	.byte	0x2f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5630,7 +5630,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN1"
 	.byte	0x7
 	.byte	0x30
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5639,7 +5639,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN2"
 	.byte	0x7
 	.byte	0x31
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5648,7 +5648,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN3"
 	.byte	0x7
 	.byte	0x32
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5657,7 +5657,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN4"
 	.byte	0x7
 	.byte	0x33
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5666,7 +5666,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN5"
 	.byte	0x7
 	.byte	0x34
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5675,7 +5675,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN6"
 	.byte	0x7
 	.byte	0x35
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5684,7 +5684,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN7"
 	.byte	0x7
 	.byte	0x36
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5693,7 +5693,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN8"
 	.byte	0x7
 	.byte	0x37
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5702,7 +5702,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN9"
 	.byte	0x7
 	.byte	0x38
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5711,7 +5711,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN10"
 	.byte	0x7
 	.byte	0x39
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5720,7 +5720,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN11"
 	.byte	0x7
 	.byte	0x3a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5729,7 +5729,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN12"
 	.byte	0x7
 	.byte	0x3b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5738,7 +5738,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN13"
 	.byte	0x7
 	.byte	0x3c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5747,7 +5747,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN14"
 	.byte	0x7
 	.byte	0x3d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5756,7 +5756,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN15"
 	.byte	0x7
 	.byte	0x3e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5765,7 +5765,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN16"
 	.byte	0x7
 	.byte	0x3f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -5774,7 +5774,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN17"
 	.byte	0x7
 	.byte	0x40
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -5783,7 +5783,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN18"
 	.byte	0x7
 	.byte	0x41
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -5792,7 +5792,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN19"
 	.byte	0x7
 	.byte	0x42
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5801,7 +5801,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN20"
 	.byte	0x7
 	.byte	0x43
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -5810,7 +5810,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN21"
 	.byte	0x7
 	.byte	0x44
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -5819,7 +5819,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN22"
 	.byte	0x7
 	.byte	0x45
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -5828,7 +5828,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN23"
 	.byte	0x7
 	.byte	0x46
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5837,7 +5837,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN24"
 	.byte	0x7
 	.byte	0x47
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -5846,7 +5846,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN25"
 	.byte	0x7
 	.byte	0x48
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -5855,7 +5855,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN26"
 	.byte	0x7
 	.byte	0x49
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -5864,7 +5864,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN27"
 	.byte	0x7
 	.byte	0x4a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -5873,7 +5873,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN28"
 	.byte	0x7
 	.byte	0x4b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -5882,7 +5882,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN29"
 	.byte	0x7
 	.byte	0x4c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -5891,7 +5891,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN30"
 	.byte	0x7
 	.byte	0x4d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -5900,7 +5900,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EN31"
 	.byte	0x7
 	.byte	0x4e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5910,18 +5910,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_ACCEN0_Bits"
 	.byte	0x7
 	.byte	0x4f
-	.uaword	0x2d6c
+	.uaword	0x2d61
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_ACCPROT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x52
-	.uaword	0x309e
+	.uaword	0x3093
 	.uleb128 0xe
 	.string	"RG00"
 	.byte	0x7
 	.byte	0x54
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5930,7 +5930,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG01"
 	.byte	0x7
 	.byte	0x55
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5939,7 +5939,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG02"
 	.byte	0x7
 	.byte	0x56
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5948,7 +5948,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG03"
 	.byte	0x7
 	.byte	0x57
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5957,7 +5957,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG04"
 	.byte	0x7
 	.byte	0x58
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5966,7 +5966,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF15
 	.byte	0x7
 	.byte	0x59
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x9
 	.byte	0x12
@@ -5975,7 +5975,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG10"
 	.byte	0x7
 	.byte	0x5a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5984,7 +5984,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG11"
 	.byte	0x7
 	.byte	0x5b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5993,7 +5993,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG40"
 	.byte	0x7
 	.byte	0x5c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -6002,7 +6002,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG41"
 	.byte	0x7
 	.byte	0x5d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -6011,7 +6011,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG42"
 	.byte	0x7
 	.byte	0x5e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -6020,7 +6020,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG43"
 	.byte	0x7
 	.byte	0x5f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6029,7 +6029,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RG44"
 	.byte	0x7
 	.byte	0x60
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -6038,7 +6038,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF16
 	.byte	0x7
 	.byte	0x61
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xb
 	.byte	0
@@ -6048,18 +6048,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_ACCPROT_Bits"
 	.byte	0x7
 	.byte	0x62
-	.uaword	0x2f9f
+	.uaword	0x2f94
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CGCFG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x65
-	.uaword	0x31bf
+	.uaword	0x31b4
 	.uleb128 0xe
 	.string	"CGMOD"
 	.byte	0x7
 	.byte	0x67
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -6068,7 +6068,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"BREV"
 	.byte	0x7
 	.byte	0x68
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6077,7 +6077,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SIGPOL"
 	.byte	0x7
 	.byte	0x69
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6086,7 +6086,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"DIVCG"
 	.byte	0x7
 	.byte	0x6a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6095,7 +6095,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF4
 	.byte	0x7
 	.byte	0x6b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x7
 	.byte	0x11
@@ -6104,7 +6104,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RUN"
 	.byte	0x7
 	.byte	0x6c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6113,7 +6113,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"BITCOUNT"
 	.byte	0x7
 	.byte	0x6d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -6122,7 +6122,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF16
 	.byte	0x7
 	.byte	0x6e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -6131,7 +6131,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"STEPCOUNT"
 	.byte	0x7
 	.byte	0x6f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -6140,7 +6140,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"STEPS"
 	.byte	0x7
 	.byte	0x70
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -6149,7 +6149,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"STEPD"
 	.byte	0x7
 	.byte	0x71
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6158,7 +6158,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SGNCG"
 	.byte	0x7
 	.byte	0x72
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -6167,7 +6167,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"reserved_31"
 	.byte	0x7
 	.byte	0x73
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6177,18 +6177,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CGCFG_Bits"
 	.byte	0x7
 	.byte	0x74
-	.uaword	0x30bc
+	.uaword	0x30b1
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_BOUNDSEL_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x77
-	.uaword	0x322a
+	.uaword	0x321f
 	.uleb128 0xe
 	.string	"BOUNDARYL"
 	.byte	0x7
 	.byte	0x79
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6197,7 +6197,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"BOUNDARYU"
 	.byte	0x7
 	.byte	0x7a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6207,18 +6207,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_BOUNDSEL_Bits"
 	.byte	0x7
 	.byte	0x7b
-	.uaword	0x31db
+	.uaword	0x31d0
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_CGSYNC_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x7e
-	.uaword	0x32b5
+	.uaword	0x32aa
 	.uleb128 0xe
 	.string	"SDCOUNT"
 	.byte	0x7
 	.byte	0x80
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -6227,7 +6227,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SDCAP"
 	.byte	0x7
 	.byte	0x81
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -6236,7 +6236,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SDPOS"
 	.byte	0x7
 	.byte	0x82
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -6245,7 +6245,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SDNEG"
 	.byte	0x7
 	.byte	0x83
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -6255,18 +6255,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_CGSYNC_Bits"
 	.byte	0x7
 	.byte	0x84
-	.uaword	0x324c
+	.uaword	0x3241
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_DICFG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x87
-	.uaword	0x33af
+	.uaword	0x33a4
 	.uleb128 0xe
 	.string	"DSRC"
 	.byte	0x7
 	.byte	0x89
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -6275,7 +6275,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF9
 	.byte	0x7
 	.byte	0x8a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -6284,7 +6284,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"DSWC"
 	.byte	0x7
 	.byte	0x8b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6293,7 +6293,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ITRMODE"
 	.byte	0x7
 	.byte	0x8c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -6302,7 +6302,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TSTRMODE"
 	.byte	0x7
 	.byte	0x8d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -6311,7 +6311,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TRSEL"
 	.byte	0x7
 	.byte	0x8e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -6320,7 +6320,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TRWC"
 	.byte	0x7
 	.byte	0x8f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6329,7 +6329,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CSRC"
 	.byte	0x7
 	.byte	0x90
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -6338,7 +6338,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"STROBE"
 	.byte	0x7
 	.byte	0x91
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -6347,7 +6347,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0x92
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x7
 	.byte	0x1
@@ -6356,7 +6356,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SCWC"
 	.byte	0x7
 	.byte	0x93
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6366,18 +6366,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_DICFG_Bits"
 	.byte	0x7
 	.byte	0x94
-	.uaword	0x32d5
+	.uaword	0x32ca
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_FCFGA_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x97
-	.uaword	0x3489
+	.uaword	0x347e
 	.uleb128 0xe
 	.string	"CFADF"
 	.byte	0x7
 	.byte	0x99
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -6386,7 +6386,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CFAC"
 	.byte	0x7
 	.byte	0x9a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -6395,7 +6395,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SRGA"
 	.byte	0x7
 	.byte	0x9b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -6404,7 +6404,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ESEL"
 	.byte	0x7
 	.byte	0x9c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -6413,7 +6413,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EGT"
 	.byte	0x7
 	.byte	0x9d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6422,7 +6422,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"reserved_15"
 	.byte	0x7
 	.byte	0x9e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6431,7 +6431,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"AFSC"
 	.byte	0x7
 	.byte	0x9f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -6440,7 +6440,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF17
 	.byte	0x7
 	.byte	0xa0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x6
 	.byte	0x8
@@ -6449,7 +6449,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CFADCNT"
 	.byte	0x7
 	.byte	0xa1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -6459,18 +6459,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_FCFGA_Bits"
 	.byte	0x7
 	.byte	0xa2
-	.uaword	0x33ce
+	.uaword	0x33c3
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_FCFGC_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xa5
-	.uaword	0x3556
+	.uaword	0x354b
 	.uleb128 0xe
 	.string	"CFMDF"
 	.byte	0x7
 	.byte	0xa7
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -6479,7 +6479,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CFMC"
 	.byte	0x7
 	.byte	0xa8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -6488,7 +6488,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CFEN"
 	.byte	0x7
 	.byte	0xa9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -6497,7 +6497,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"reserved_11"
 	.byte	0x7
 	.byte	0xaa
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6506,7 +6506,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"MFSC"
 	.byte	0x7
 	.byte	0xab
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -6515,7 +6515,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SRGM"
 	.byte	0x7
 	.byte	0xac
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -6524,7 +6524,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CFMSV"
 	.byte	0x7
 	.byte	0xad
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -6533,7 +6533,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CFMDCNT"
 	.byte	0x7
 	.byte	0xae
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -6543,18 +6543,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_FCFGC_Bits"
 	.byte	0x7
 	.byte	0xaf
-	.uaword	0x34a8
+	.uaword	0x349d
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_FCFGM_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xb2
-	.uaword	0x35f8
+	.uaword	0x35ed
 	.uleb128 0xe
 	.string	"FIR0EN"
 	.byte	0x7
 	.byte	0xb4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6563,7 +6563,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"FIR1EN"
 	.byte	0x7
 	.byte	0xb5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6572,7 +6572,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"OCEN"
 	.byte	0x7
 	.byte	0xb6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -6581,7 +6581,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"DSH"
 	.byte	0x7
 	.byte	0xb7
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1b
@@ -6590,7 +6590,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"FSH"
 	.byte	0x7
 	.byte	0xb8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -6599,7 +6599,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF18
 	.byte	0x7
 	.byte	0xb9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -6609,18 +6609,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_FCFGM_Bits"
 	.byte	0x7
 	.byte	0xba
-	.uaword	0x3575
+	.uaword	0x356a
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_ICCFG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xbd
-	.uaword	0x36b6
+	.uaword	0x36ab
 	.uleb128 0xe
 	.string	"DI0"
 	.byte	0x7
 	.byte	0xbf
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -6629,7 +6629,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"DI1"
 	.byte	0x7
 	.byte	0xc0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -6638,7 +6638,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF6
 	.byte	0x7
 	.byte	0xc1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -6647,7 +6647,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IREN"
 	.byte	0x7
 	.byte	0xc2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -6656,7 +6656,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF15
 	.byte	0x7
 	.byte	0xc3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -6665,7 +6665,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TWINSP"
 	.byte	0x7
 	.byte	0xc4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x6
 	.byte	0x12
@@ -6674,7 +6674,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF19
 	.byte	0x7
 	.byte	0xc5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x11
 	.byte	0x1
@@ -6683,7 +6683,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"WREN"
 	.byte	0x7
 	.byte	0xc6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6693,18 +6693,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_ICCFG_Bits"
 	.byte	0x7
 	.byte	0xc7
-	.uaword	0x3617
+	.uaword	0x360c
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_IWCTR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xca
-	.uaword	0x37a1
+	.uaword	0x3796
 	.uleb128 0xe
 	.string	"NVALCNT"
 	.byte	0x7
 	.byte	0xcc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -6713,7 +6713,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF18
 	.byte	0x7
 	.byte	0xcd
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -6722,7 +6722,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"INTEN"
 	.byte	0x7
 	.byte	0xce
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6731,7 +6731,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"REPCNT"
 	.byte	0x7
 	.byte	0xcf
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -6740,7 +6740,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"REPVAL"
 	.byte	0x7
 	.byte	0xd0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -6749,7 +6749,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"NVALDIS"
 	.byte	0x7
 	.byte	0xd1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -6758,7 +6758,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF20
 	.byte	0x7
 	.byte	0xd2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -6767,7 +6767,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IWS"
 	.byte	0x7
 	.byte	0xd3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6776,7 +6776,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"NVALINT"
 	.byte	0x7
 	.byte	0xd4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -6785,7 +6785,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF21
 	.byte	0x7
 	.byte	0xd5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -6795,18 +6795,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_IWCTR_Bits"
 	.byte	0x7
 	.byte	0xd6
-	.uaword	0x36d5
+	.uaword	0x36ca
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_MODCFG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xd9
-	.uaword	0x38fb
+	.uaword	0x38f0
 	.uleb128 0xe
 	.string	"INCFGP"
 	.byte	0x7
 	.byte	0xdb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -6815,7 +6815,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"INCFGN"
 	.byte	0x7
 	.byte	0xdc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -6824,7 +6824,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"GAINSEL"
 	.byte	0x7
 	.byte	0xdd
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -6833,7 +6833,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"INSEL"
 	.byte	0x7
 	.byte	0xde
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -6842,7 +6842,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"INMUX"
 	.byte	0x7
 	.byte	0xdf
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -6851,7 +6851,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"INMODE"
 	.byte	0x7
 	.byte	0xe0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -6860,7 +6860,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"INMAC"
 	.byte	0x7
 	.byte	0xe1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -6869,7 +6869,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"INCWC"
 	.byte	0x7
 	.byte	0xe2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6878,7 +6878,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"DIVM"
 	.byte	0x7
 	.byte	0xe3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -6887,7 +6887,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF7
 	.byte	0x7
 	.byte	0xe4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -6896,7 +6896,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"DWC"
 	.byte	0x7
 	.byte	0xe5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6905,7 +6905,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CMVS"
 	.byte	0x7
 	.byte	0xe6
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -6914,7 +6914,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"MCFG"
 	.byte	0x7
 	.byte	0xe7
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -6923,7 +6923,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"GCEN"
 	.byte	0x7
 	.byte	0xe8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -6932,7 +6932,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"APC"
 	.byte	0x7
 	.byte	0xe9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -6941,7 +6941,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF21
 	.byte	0x7
 	.byte	0xea
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -6950,7 +6950,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"MWC"
 	.byte	0x7
 	.byte	0xeb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6960,18 +6960,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_MODCFG_Bits"
 	.byte	0x7
 	.byte	0xec
-	.uaword	0x37c0
+	.uaword	0x37b5
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_OFFM_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xef
-	.uaword	0x395d
+	.uaword	0x3952
 	.uleb128 0xe
 	.string	"OFFSET"
 	.byte	0x7
 	.byte	0xf1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -6980,7 +6980,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xf2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -6990,18 +6990,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_OFFM_Bits"
 	.byte	0x7
 	.byte	0xf3
-	.uaword	0x391b
+	.uaword	0x3910
 	.uleb128 0xd
 	.string	"_Ifx_DSADC_CH_RECTCFG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xf6
-	.uaword	0x3a1f
+	.uaword	0x3a14
 	.uleb128 0xe
 	.string	"RFEN"
 	.byte	0x7
 	.byte	0xf8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7010,7 +7010,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF22
 	.byte	0x7
 	.byte	0xf9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -7019,7 +7019,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SSRC"
 	.byte	0x7
 	.byte	0xfa
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -7028,7 +7028,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF18
 	.byte	0x7
 	.byte	0xfb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x9
 	.byte	0x11
@@ -7037,7 +7037,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SDCVAL"
 	.byte	0x7
 	.byte	0xfc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -7046,7 +7046,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xfd
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xe
 	.byte	0x2
@@ -7055,7 +7055,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SGNCS"
 	.byte	0x7
 	.byte	0xfe
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7064,7 +7064,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SGND"
 	.byte	0x7
 	.byte	0xff
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7074,18 +7074,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_RECTCFG_Bits"
 	.byte	0x7
 	.uahalf	0x100
-	.uaword	0x397b
+	.uaword	0x3970
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_CH_RESA_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x103
-	.uaword	0x3a83
+	.uaword	0x3a78
 	.uleb128 0x11
 	.uaword	.LASF23
 	.byte	0x7
 	.uahalf	0x105
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -7094,7 +7094,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x7
 	.uahalf	0x106
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7104,18 +7104,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_RESA_Bits"
 	.byte	0x7
 	.uahalf	0x107
-	.uaword	0x3a41
+	.uaword	0x3a36
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_CH_RESM_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x10a
-	.uaword	0x3ae4
+	.uaword	0x3ad9
 	.uleb128 0x11
 	.uaword	.LASF23
 	.byte	0x7
 	.uahalf	0x10c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -7124,7 +7124,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF2
 	.byte	0x7
 	.uahalf	0x10d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -7134,18 +7134,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_RESM_Bits"
 	.byte	0x7
 	.uahalf	0x10e
-	.uaword	0x3aa2
+	.uaword	0x3a97
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_CH_TSTMP_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x111
-	.uaword	0x3b81
+	.uaword	0x3b76
 	.uleb128 0x11
 	.uaword	.LASF23
 	.byte	0x7
 	.uahalf	0x113
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -7154,7 +7154,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CFMDCNT"
 	.byte	0x7
 	.uahalf	0x114
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -7163,7 +7163,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"NVALCNT"
 	.byte	0x7
 	.uahalf	0x115
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x6
 	.byte	0x2
@@ -7172,7 +7172,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TSVAL"
 	.byte	0x7
 	.uahalf	0x116
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7181,7 +7181,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"TSSR"
 	.byte	0x7
 	.uahalf	0x117
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7191,18 +7191,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CH_TSTMP_Bits"
 	.byte	0x7
 	.uahalf	0x118
-	.uaword	0x3b03
+	.uaword	0x3af8
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_CLC_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x11b
-	.uaword	0x3c12
+	.uaword	0x3c07
 	.uleb128 0x10
 	.string	"DISR"
 	.byte	0x7
 	.uahalf	0x11d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7211,7 +7211,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"DISS"
 	.byte	0x7
 	.uahalf	0x11e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7220,7 +7220,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x11f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7229,7 +7229,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"EDIS"
 	.byte	0x7
 	.uahalf	0x120
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7238,7 +7238,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x121
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -7248,18 +7248,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_CLC_Bits"
 	.byte	0x7
 	.uahalf	0x122
-	.uaword	0x3ba1
+	.uaword	0x3b96
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_EVFLAG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x125
-	.uaword	0x3d4c
+	.uaword	0x3d41
 	.uleb128 0x10
 	.string	"RESEV0"
 	.byte	0x7
 	.uahalf	0x127
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7268,7 +7268,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEV1"
 	.byte	0x7
 	.uahalf	0x128
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7277,7 +7277,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEV2"
 	.byte	0x7
 	.uahalf	0x129
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7286,7 +7286,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEV3"
 	.byte	0x7
 	.uahalf	0x12a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7295,7 +7295,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEV4"
 	.byte	0x7
 	.uahalf	0x12b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7304,7 +7304,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEV5"
 	.byte	0x7
 	.uahalf	0x12c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7313,7 +7313,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x12d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xa
 	.byte	0x10
@@ -7322,7 +7322,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEV0"
 	.byte	0x7
 	.uahalf	0x12e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7331,7 +7331,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEV1"
 	.byte	0x7
 	.uahalf	0x12f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7340,7 +7340,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEV2"
 	.byte	0x7
 	.uahalf	0x130
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7349,7 +7349,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEV3"
 	.byte	0x7
 	.uahalf	0x131
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -7358,7 +7358,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEV4"
 	.byte	0x7
 	.uahalf	0x132
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7367,7 +7367,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEV5"
 	.byte	0x7
 	.uahalf	0x133
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7376,7 +7376,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF20
 	.byte	0x7
 	.uahalf	0x134
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xa
 	.byte	0
@@ -7386,18 +7386,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_EVFLAG_Bits"
 	.byte	0x7
 	.uahalf	0x135
-	.uaword	0x3c2d
+	.uaword	0x3c22
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_EVFLAGCLR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x138
-	.uaword	0x3e8c
+	.uaword	0x3e81
 	.uleb128 0x10
 	.string	"RESEC0"
 	.byte	0x7
 	.uahalf	0x13a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7406,7 +7406,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEC1"
 	.byte	0x7
 	.uahalf	0x13b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7415,7 +7415,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEC2"
 	.byte	0x7
 	.uahalf	0x13c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7424,7 +7424,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEC3"
 	.byte	0x7
 	.uahalf	0x13d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7433,7 +7433,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEC4"
 	.byte	0x7
 	.uahalf	0x13e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7442,7 +7442,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RESEC5"
 	.byte	0x7
 	.uahalf	0x13f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7451,7 +7451,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x140
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xa
 	.byte	0x10
@@ -7460,7 +7460,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEC0"
 	.byte	0x7
 	.uahalf	0x141
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7469,7 +7469,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEC1"
 	.byte	0x7
 	.uahalf	0x142
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7478,7 +7478,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEC2"
 	.byte	0x7
 	.uahalf	0x143
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7487,7 +7487,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEC3"
 	.byte	0x7
 	.uahalf	0x144
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -7496,7 +7496,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEC4"
 	.byte	0x7
 	.uahalf	0x145
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7505,7 +7505,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ALEC5"
 	.byte	0x7
 	.uahalf	0x146
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7514,7 +7514,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF20
 	.byte	0x7
 	.uahalf	0x147
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xa
 	.byte	0
@@ -7524,18 +7524,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_EVFLAGCLR_Bits"
 	.byte	0x7
 	.uahalf	0x148
-	.uaword	0x3d6a
+	.uaword	0x3d5f
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_GLOBCFG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x14b
-	.uaword	0x3f99
+	.uaword	0x3f8e
 	.uleb128 0x10
 	.string	"MCSEL"
 	.byte	0x7
 	.uahalf	0x14d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -7544,7 +7544,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF24
 	.byte	0x7
 	.uahalf	0x14e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x15
@@ -7553,7 +7553,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IRM0"
 	.byte	0x7
 	.uahalf	0x14f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7562,7 +7562,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IRM2"
 	.byte	0x7
 	.uahalf	0x150
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7571,7 +7571,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IRM4"
 	.byte	0x7
 	.uahalf	0x151
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7580,7 +7580,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF19
 	.byte	0x7
 	.uahalf	0x152
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -7589,7 +7589,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IBSEL"
 	.byte	0x7
 	.uahalf	0x153
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -7598,7 +7598,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"LOSUP"
 	.byte	0x7
 	.uahalf	0x154
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7607,7 +7607,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF16
 	.byte	0x7
 	.uahalf	0x155
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7616,7 +7616,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"ICT"
 	.byte	0x7
 	.uahalf	0x156
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -7625,7 +7625,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"PSWC"
 	.byte	0x7
 	.uahalf	0x157
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -7634,7 +7634,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x158
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -7644,18 +7644,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_GLOBCFG_Bits"
 	.byte	0x7
 	.uahalf	0x159
-	.uaword	0x3ead
+	.uaword	0x3ea2
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_GLOBRC_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x15c
-	.uaword	0x40d7
+	.uaword	0x40cc
 	.uleb128 0x10
 	.string	"CH0RUN"
 	.byte	0x7
 	.uahalf	0x15e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7664,7 +7664,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CH1RUN"
 	.byte	0x7
 	.uahalf	0x15f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7673,7 +7673,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CH2RUN"
 	.byte	0x7
 	.uahalf	0x160
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7682,7 +7682,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CH3RUN"
 	.byte	0x7
 	.uahalf	0x161
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7691,7 +7691,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CH4RUN"
 	.byte	0x7
 	.uahalf	0x162
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7700,7 +7700,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"CH5RUN"
 	.byte	0x7
 	.uahalf	0x163
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7709,7 +7709,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x164
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xa
 	.byte	0x10
@@ -7718,7 +7718,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"M0RUN"
 	.byte	0x7
 	.uahalf	0x165
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7727,7 +7727,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"M1RUN"
 	.byte	0x7
 	.uahalf	0x166
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7736,7 +7736,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"M2RUN"
 	.byte	0x7
 	.uahalf	0x167
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -7745,7 +7745,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"M3RUN"
 	.byte	0x7
 	.uahalf	0x168
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -7754,7 +7754,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"M4RUN"
 	.byte	0x7
 	.uahalf	0x169
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7763,7 +7763,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"M5RUN"
 	.byte	0x7
 	.uahalf	0x16a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7772,7 +7772,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF20
 	.byte	0x7
 	.uahalf	0x16b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xa
 	.byte	0
@@ -7782,18 +7782,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_GLOBRC_Bits"
 	.byte	0x7
 	.uahalf	0x16c
-	.uaword	0x3fb8
+	.uaword	0x3fad
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_GLOBVCMH0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x16f
-	.uaword	0x42b9
+	.uaword	0x42ae
 	.uleb128 0x10
 	.string	"IN0PVC0"
 	.byte	0x7
 	.uahalf	0x171
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7802,7 +7802,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x172
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -7811,7 +7811,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN0NVC0"
 	.byte	0x7
 	.uahalf	0x173
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7820,7 +7820,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF15
 	.byte	0x7
 	.uahalf	0x174
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -7829,7 +7829,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN1PVC0"
 	.byte	0x7
 	.uahalf	0x175
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7838,7 +7838,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF25
 	.byte	0x7
 	.uahalf	0x176
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -7847,7 +7847,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN1NVC0"
 	.byte	0x7
 	.uahalf	0x177
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7856,7 +7856,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF26
 	.byte	0x7
 	.uahalf	0x178
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -7865,7 +7865,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN2PVC0"
 	.byte	0x7
 	.uahalf	0x179
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -7874,7 +7874,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN2PVC1"
 	.byte	0x7
 	.uahalf	0x17a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -7883,7 +7883,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x17b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -7892,7 +7892,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN2NVC0"
 	.byte	0x7
 	.uahalf	0x17c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -7901,7 +7901,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN2NVC1"
 	.byte	0x7
 	.uahalf	0x17d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -7910,7 +7910,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF20
 	.byte	0x7
 	.uahalf	0x17e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -7919,7 +7919,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN3PVC0"
 	.byte	0x7
 	.uahalf	0x17f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -7928,7 +7928,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN3PVC1"
 	.byte	0x7
 	.uahalf	0x180
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -7937,7 +7937,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN3PVC2"
 	.byte	0x7
 	.uahalf	0x181
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -7946,7 +7946,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN3PVC3"
 	.byte	0x7
 	.uahalf	0x182
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -7955,7 +7955,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN3NVC0"
 	.byte	0x7
 	.uahalf	0x183
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -7964,7 +7964,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN3NVC1"
 	.byte	0x7
 	.uahalf	0x184
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -7973,7 +7973,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN3NVC2"
 	.byte	0x7
 	.uahalf	0x185
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -7982,7 +7982,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN3NVC3"
 	.byte	0x7
 	.uahalf	0x186
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -7992,18 +7992,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_GLOBVCMH0_Bits"
 	.byte	0x7
 	.uahalf	0x187
-	.uaword	0x40f5
+	.uaword	0x40ea
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_GLOBVCMH1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x18a
-	.uaword	0x438e
+	.uaword	0x4383
 	.uleb128 0x10
 	.string	"IN4PVC0"
 	.byte	0x7
 	.uahalf	0x18c
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8012,7 +8012,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x18d
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -8021,7 +8021,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN4NVC0"
 	.byte	0x7
 	.uahalf	0x18e
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -8030,7 +8030,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF15
 	.byte	0x7
 	.uahalf	0x18f
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -8039,7 +8039,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN5PVC0"
 	.byte	0x7
 	.uahalf	0x190
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -8048,7 +8048,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF25
 	.byte	0x7
 	.uahalf	0x191
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -8057,7 +8057,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IN5NVC0"
 	.byte	0x7
 	.uahalf	0x192
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8066,7 +8066,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF26
 	.byte	0x7
 	.uahalf	0x193
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -8076,18 +8076,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_GLOBVCMH1_Bits"
 	.byte	0x7
 	.uahalf	0x194
-	.uaword	0x42da
+	.uaword	0x42cf
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_GLOBVCMH2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x197
-	.uaword	0x4406
+	.uaword	0x43fb
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x199
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -8096,7 +8096,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"VHON"
 	.byte	0x7
 	.uahalf	0x19a
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -8105,7 +8105,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"VCMHS"
 	.byte	0x7
 	.uahalf	0x19b
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -8115,18 +8115,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_GLOBVCMH2_Bits"
 	.byte	0x7
 	.uahalf	0x19c
-	.uaword	0x43af
+	.uaword	0x43a4
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_ID_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x19f
-	.uaword	0x447d
+	.uaword	0x4472
 	.uleb128 0x10
 	.string	"MOD_REV"
 	.byte	0x7
 	.uahalf	0x1a1
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -8135,7 +8135,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"MOD_TYPE"
 	.byte	0x7
 	.uahalf	0x1a2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -8144,7 +8144,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x1a3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -8154,18 +8154,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_ID_Bits"
 	.byte	0x7
 	.uahalf	0x1a4
-	.uaword	0x4427
+	.uaword	0x441c
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_IGCFG_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1a7
-	.uaword	0x4516
+	.uaword	0x450b
 	.uleb128 0x10
 	.string	"DITRIM"
 	.byte	0x7
 	.uahalf	0x1a9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -8174,7 +8174,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF24
 	.byte	0x7
 	.uahalf	0x1aa
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xd
 	.byte	0x10
@@ -8183,7 +8183,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"GLOBSP"
 	.byte	0x7
 	.uahalf	0x1ab
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0xa
 	.byte	0x6
@@ -8192,7 +8192,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"reserved_26"
 	.byte	0x7
 	.uahalf	0x1ac
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1
@@ -8201,7 +8201,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"WREN"
 	.byte	0x7
 	.uahalf	0x1ad
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8211,18 +8211,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_IGCFG_Bits"
 	.byte	0x7
 	.uahalf	0x1ae
-	.uaword	0x4497
+	.uaword	0x448c
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_KRST0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1b1
-	.uaword	0x4587
+	.uaword	0x457c
 	.uleb128 0x10
 	.string	"RST"
 	.byte	0x7
 	.uahalf	0x1b3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8231,7 +8231,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"RSTSTAT"
 	.byte	0x7
 	.uahalf	0x1b4
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8240,7 +8240,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x1b5
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -8250,18 +8250,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_KRST0_Bits"
 	.byte	0x7
 	.uahalf	0x1b6
-	.uaword	0x4533
+	.uaword	0x4528
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_KRST1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1b9
-	.uaword	0x45e4
+	.uaword	0x45d9
 	.uleb128 0x10
 	.string	"RST"
 	.byte	0x7
 	.uahalf	0x1bb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8270,7 +8270,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x1bc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -8280,18 +8280,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_KRST1_Bits"
 	.byte	0x7
 	.uahalf	0x1bd
-	.uaword	0x45a4
+	.uaword	0x4599
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1c0
-	.uaword	0x4643
+	.uaword	0x4638
 	.uleb128 0x10
 	.string	"CLR"
 	.byte	0x7
 	.uahalf	0x1c2
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8300,7 +8300,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x1c3
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -8310,18 +8310,18 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_KRSTCLR_Bits"
 	.byte	0x7
 	.uahalf	0x1c4
-	.uaword	0x4601
+	.uaword	0x45f6
 	.uleb128 0x13
 	.string	"_Ifx_DSADC_OCS_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1c7
-	.uaword	0x46d5
+	.uaword	0x46ca
 	.uleb128 0x11
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x1c9
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -8330,7 +8330,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SUS"
 	.byte	0x7
 	.uahalf	0x1ca
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -8339,7 +8339,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SUS_P"
 	.byte	0x7
 	.uahalf	0x1cb
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -8348,7 +8348,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"SUSSTA"
 	.byte	0x7
 	.uahalf	0x1cc
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -8357,7 +8357,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uaword	.LASF21
 	.byte	0x7
 	.uahalf	0x1cd
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -8367,1424 +8367,1424 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"Ifx_DSADC_OCS_Bits"
 	.byte	0x7
 	.uahalf	0x1ce
-	.uaword	0x4662
+	.uaword	0x4657
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1d6
-	.uaword	0x4718
+	.uaword	0x470d
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1d8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1d9
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1da
-	.uaword	0x2f82
+	.uaword	0x2f77
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_ACCEN0"
 	.byte	0x7
 	.uahalf	0x1db
-	.uaword	0x46f0
+	.uaword	0x46e5
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1de
-	.uaword	0x4759
+	.uaword	0x474e
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1e0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1e1
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1e2
-	.uaword	0x309e
+	.uaword	0x3093
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_ACCPROT"
 	.byte	0x7
 	.uahalf	0x1e3
-	.uaword	0x4731
+	.uaword	0x4726
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1e6
-	.uaword	0x479b
+	.uaword	0x4790
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1e8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1e9
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1ea
-	.uaword	0x31bf
+	.uaword	0x31b4
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CGCFG"
 	.byte	0x7
 	.uahalf	0x1eb
-	.uaword	0x4773
+	.uaword	0x4768
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1ee
-	.uaword	0x47db
+	.uaword	0x47d0
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1f0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1f1
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1f2
-	.uaword	0x322a
+	.uaword	0x321f
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_BOUNDSEL"
 	.byte	0x7
 	.uahalf	0x1f3
-	.uaword	0x47b3
+	.uaword	0x47a8
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1f6
-	.uaword	0x4821
+	.uaword	0x4816
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1f8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1f9
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1fa
-	.uaword	0x32b5
+	.uaword	0x32aa
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_CGSYNC"
 	.byte	0x7
 	.uahalf	0x1fb
-	.uaword	0x47f9
+	.uaword	0x47ee
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1fe
-	.uaword	0x4865
+	.uaword	0x485a
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x200
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x201
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x202
-	.uaword	0x33af
+	.uaword	0x33a4
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_DICFG"
 	.byte	0x7
 	.uahalf	0x203
-	.uaword	0x483d
+	.uaword	0x4832
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x206
-	.uaword	0x48a8
+	.uaword	0x489d
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x208
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x209
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x20a
-	.uaword	0x3489
+	.uaword	0x347e
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_FCFGA"
 	.byte	0x7
 	.uahalf	0x20b
-	.uaword	0x4880
+	.uaword	0x4875
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x20e
-	.uaword	0x48eb
+	.uaword	0x48e0
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x210
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x211
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x212
-	.uaword	0x3556
+	.uaword	0x354b
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_FCFGC"
 	.byte	0x7
 	.uahalf	0x213
-	.uaword	0x48c3
+	.uaword	0x48b8
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x216
-	.uaword	0x492e
+	.uaword	0x4923
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x218
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x219
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x21a
-	.uaword	0x35f8
+	.uaword	0x35ed
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_FCFGM"
 	.byte	0x7
 	.uahalf	0x21b
-	.uaword	0x4906
+	.uaword	0x48fb
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x21e
-	.uaword	0x4971
+	.uaword	0x4966
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x220
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x221
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x222
-	.uaword	0x36b6
+	.uaword	0x36ab
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_ICCFG"
 	.byte	0x7
 	.uahalf	0x223
-	.uaword	0x4949
+	.uaword	0x493e
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x226
-	.uaword	0x49b4
+	.uaword	0x49a9
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x228
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x229
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x22a
-	.uaword	0x37a1
+	.uaword	0x3796
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_IWCTR"
 	.byte	0x7
 	.uahalf	0x22b
-	.uaword	0x498c
+	.uaword	0x4981
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x22e
-	.uaword	0x49f7
+	.uaword	0x49ec
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x230
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x231
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x232
-	.uaword	0x38fb
+	.uaword	0x38f0
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_MODCFG"
 	.byte	0x7
 	.uahalf	0x233
-	.uaword	0x49cf
+	.uaword	0x49c4
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x236
-	.uaword	0x4a3b
+	.uaword	0x4a30
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x238
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x239
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x23a
-	.uaword	0x395d
+	.uaword	0x3952
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_OFFM"
 	.byte	0x7
 	.uahalf	0x23b
-	.uaword	0x4a13
+	.uaword	0x4a08
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x23e
-	.uaword	0x4a7d
+	.uaword	0x4a72
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x240
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x241
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x242
-	.uaword	0x3a1f
+	.uaword	0x3a14
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_RECTCFG"
 	.byte	0x7
 	.uahalf	0x243
-	.uaword	0x4a55
+	.uaword	0x4a4a
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x246
-	.uaword	0x4ac2
+	.uaword	0x4ab7
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x248
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x249
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x24a
-	.uaword	0x3a83
+	.uaword	0x3a78
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_RESA"
 	.byte	0x7
 	.uahalf	0x24b
-	.uaword	0x4a9a
+	.uaword	0x4a8f
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x24e
-	.uaword	0x4b04
+	.uaword	0x4af9
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x250
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x251
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x252
-	.uaword	0x3ae4
+	.uaword	0x3ad9
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_RESM"
 	.byte	0x7
 	.uahalf	0x253
-	.uaword	0x4adc
+	.uaword	0x4ad1
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x256
-	.uaword	0x4b46
+	.uaword	0x4b3b
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x258
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x259
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x25a
-	.uaword	0x3b81
+	.uaword	0x3b76
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH_TSTMP"
 	.byte	0x7
 	.uahalf	0x25b
-	.uaword	0x4b1e
+	.uaword	0x4b13
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x25e
-	.uaword	0x4b89
+	.uaword	0x4b7e
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x260
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x261
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x262
-	.uaword	0x3c12
+	.uaword	0x3c07
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CLC"
 	.byte	0x7
 	.uahalf	0x263
-	.uaword	0x4b61
+	.uaword	0x4b56
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x266
-	.uaword	0x4bc7
+	.uaword	0x4bbc
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x268
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x269
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x26a
-	.uaword	0x3d4c
+	.uaword	0x3d41
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_EVFLAG"
 	.byte	0x7
 	.uahalf	0x26b
-	.uaword	0x4b9f
+	.uaword	0x4b94
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x26e
-	.uaword	0x4c08
+	.uaword	0x4bfd
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x270
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x271
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x272
-	.uaword	0x3e8c
+	.uaword	0x3e81
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_EVFLAGCLR"
 	.byte	0x7
 	.uahalf	0x273
-	.uaword	0x4be0
+	.uaword	0x4bd5
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x276
-	.uaword	0x4c4c
+	.uaword	0x4c41
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x278
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x279
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x27a
-	.uaword	0x3f99
+	.uaword	0x3f8e
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_GLOBCFG"
 	.byte	0x7
 	.uahalf	0x27b
-	.uaword	0x4c24
+	.uaword	0x4c19
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x27e
-	.uaword	0x4c8e
+	.uaword	0x4c83
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x280
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x281
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x282
-	.uaword	0x40d7
+	.uaword	0x40cc
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_GLOBRC"
 	.byte	0x7
 	.uahalf	0x283
-	.uaword	0x4c66
+	.uaword	0x4c5b
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x286
-	.uaword	0x4ccf
+	.uaword	0x4cc4
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x288
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x289
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x28a
-	.uaword	0x42b9
+	.uaword	0x42ae
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_GLOBVCMH0"
 	.byte	0x7
 	.uahalf	0x28b
-	.uaword	0x4ca7
+	.uaword	0x4c9c
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x28e
-	.uaword	0x4d13
+	.uaword	0x4d08
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x290
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x291
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x292
-	.uaword	0x438e
+	.uaword	0x4383
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_GLOBVCMH1"
 	.byte	0x7
 	.uahalf	0x293
-	.uaword	0x4ceb
+	.uaword	0x4ce0
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x296
-	.uaword	0x4d57
+	.uaword	0x4d4c
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x298
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x299
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x29a
-	.uaword	0x4406
+	.uaword	0x43fb
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_GLOBVCMH2"
 	.byte	0x7
 	.uahalf	0x29b
-	.uaword	0x4d2f
+	.uaword	0x4d24
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x29e
-	.uaword	0x4d9b
+	.uaword	0x4d90
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2a0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2a1
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2a2
-	.uaword	0x447d
+	.uaword	0x4472
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_ID"
 	.byte	0x7
 	.uahalf	0x2a3
-	.uaword	0x4d73
+	.uaword	0x4d68
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2a6
-	.uaword	0x4dd8
+	.uaword	0x4dcd
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2a8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2a9
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2aa
-	.uaword	0x4516
+	.uaword	0x450b
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_IGCFG"
 	.byte	0x7
 	.uahalf	0x2ab
-	.uaword	0x4db0
+	.uaword	0x4da5
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2ae
-	.uaword	0x4e18
+	.uaword	0x4e0d
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2b0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2b1
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2b2
-	.uaword	0x4587
+	.uaword	0x457c
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_KRST0"
 	.byte	0x7
 	.uahalf	0x2b3
-	.uaword	0x4df0
+	.uaword	0x4de5
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2b6
-	.uaword	0x4e58
+	.uaword	0x4e4d
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2b8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2b9
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2ba
-	.uaword	0x45e4
+	.uaword	0x45d9
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_KRST1"
 	.byte	0x7
 	.uahalf	0x2bb
-	.uaword	0x4e30
+	.uaword	0x4e25
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2be
-	.uaword	0x4e98
+	.uaword	0x4e8d
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2c0
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2c1
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2c2
-	.uaword	0x4643
+	.uaword	0x4638
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_KRSTCLR"
 	.byte	0x7
 	.uahalf	0x2c3
-	.uaword	0x4e70
+	.uaword	0x4e65
 	.uleb128 0x14
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2c6
-	.uaword	0x4eda
+	.uaword	0x4ecf
 	.uleb128 0x15
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2c8
-	.uaword	0x3b4
+	.uaword	0x3a9
 	.uleb128 0x15
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2c9
-	.uaword	0x1db
+	.uaword	0x1d0
 	.uleb128 0x15
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2ca
-	.uaword	0x46d5
+	.uaword	0x46ca
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_OCS"
 	.byte	0x7
 	.uahalf	0x2cb
-	.uaword	0x4eb2
+	.uaword	0x4ea7
 	.uleb128 0x16
 	.string	"_Ifx_DSADC_CH"
 	.uahalf	0x100
 	.byte	0x7
 	.uahalf	0x2d6
-	.uaword	0x50ab
+	.uaword	0x50a0
 	.uleb128 0x17
 	.string	"MODCFG"
 	.byte	0x7
 	.uahalf	0x2d8
-	.uaword	0x49f7
+	.uaword	0x49ec
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x2d9
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x4
 	.uleb128 0x17
 	.string	"DICFG"
 	.byte	0x7
 	.uahalf	0x2da
-	.uaword	0x4865
+	.uaword	0x485a
 	.byte	0x8
 	.uleb128 0x18
 	.uaword	.LASF11
 	.byte	0x7
 	.uahalf	0x2db
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0xc
 	.uleb128 0x17
 	.string	"FCFGM"
 	.byte	0x7
 	.uahalf	0x2dc
-	.uaword	0x492e
+	.uaword	0x4923
 	.byte	0x10
 	.uleb128 0x17
 	.string	"FCFGC"
 	.byte	0x7
 	.uahalf	0x2dd
-	.uaword	0x48eb
+	.uaword	0x48e0
 	.byte	0x14
 	.uleb128 0x17
 	.string	"FCFGA"
 	.byte	0x7
 	.uahalf	0x2de
-	.uaword	0x48a8
+	.uaword	0x489d
 	.byte	0x18
 	.uleb128 0x17
 	.string	"reserved_1C"
 	.byte	0x7
 	.uahalf	0x2df
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x1c
 	.uleb128 0x17
 	.string	"IWCTR"
 	.byte	0x7
 	.uahalf	0x2e0
-	.uaword	0x49b4
+	.uaword	0x49a9
 	.byte	0x20
 	.uleb128 0x18
 	.uaword	.LASF5
 	.byte	0x7
 	.uahalf	0x2e1
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x24
 	.uleb128 0x17
 	.string	"BOUNDSEL"
 	.byte	0x7
 	.uahalf	0x2e2
-	.uaword	0x47db
+	.uaword	0x47d0
 	.byte	0x28
 	.uleb128 0x17
 	.string	"reserved_2C"
 	.byte	0x7
 	.uahalf	0x2e3
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x2c
 	.uleb128 0x17
 	.string	"RESM"
 	.byte	0x7
 	.uahalf	0x2e4
-	.uaword	0x4b04
+	.uaword	0x4af9
 	.byte	0x30
 	.uleb128 0x17
 	.string	"reserved_34"
 	.byte	0x7
 	.uahalf	0x2e5
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x34
 	.uleb128 0x17
 	.string	"OFFM"
 	.byte	0x7
 	.uahalf	0x2e6
-	.uaword	0x4a3b
+	.uaword	0x4a30
 	.byte	0x38
 	.uleb128 0x17
 	.string	"reserved_3C"
 	.byte	0x7
 	.uahalf	0x2e7
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x3c
 	.uleb128 0x17
 	.string	"RESA"
 	.byte	0x7
 	.uahalf	0x2e8
-	.uaword	0x4ac2
+	.uaword	0x4ab7
 	.byte	0x40
 	.uleb128 0x17
 	.string	"reserved_44"
 	.byte	0x7
 	.uahalf	0x2e9
-	.uaword	0x3d0
+	.uaword	0x3c5
 	.byte	0x44
 	.uleb128 0x17
 	.string	"TSTMP"
 	.byte	0x7
 	.uahalf	0x2ea
-	.uaword	0x4b46
+	.uaword	0x4b3b
 	.byte	0x50
 	.uleb128 0x18
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x2eb
-	.uaword	0x26b0
+	.uaword	0x26a5
 	.byte	0x54
 	.uleb128 0x17
 	.string	"CGSYNC"
 	.byte	0x7
 	.uahalf	0x2ec
-	.uaword	0x4821
+	.uaword	0x4816
 	.byte	0xa0
 	.uleb128 0x18
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x2ed
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0xa4
 	.uleb128 0x17
 	.string	"RECTCFG"
 	.byte	0x7
 	.uahalf	0x2ee
-	.uaword	0x4a7d
+	.uaword	0x4a72
 	.byte	0xa8
 	.uleb128 0x17
 	.string	"reserved_AC"
 	.byte	0x7
 	.uahalf	0x2ef
-	.uaword	0x50ab
+	.uaword	0x50a0
 	.byte	0xac
 	.uleb128 0x17
 	.string	"ICCFG"
 	.byte	0x7
 	.uahalf	0x2f0
-	.uaword	0x4971
+	.uaword	0x4966
 	.byte	0xd0
 	.uleb128 0x18
 	.uaword	.LASF27
 	.byte	0x7
 	.uahalf	0x2f1
-	.uaword	0x440
+	.uaword	0x435
 	.byte	0xd4
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x50bb
+	.uaword	0x214
+	.uaword	0x50b0
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x23
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC_CH"
 	.byte	0x7
 	.uahalf	0x2f2
-	.uaword	0x50d0
+	.uaword	0x50c5
 	.uleb128 0x19
-	.uaword	0x4ef0
+	.uaword	0x4ee5
 	.uleb128 0x16
 	.string	"_Ifx_DSADC"
 	.uahalf	0x1000
 	.byte	0x7
 	.uahalf	0x2ff
-	.uaword	0x52e7
+	.uaword	0x52dc
 	.uleb128 0x17
 	.string	"CLC"
 	.byte	0x7
 	.uahalf	0x301
-	.uaword	0x4b89
+	.uaword	0x4b7e
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x302
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x4
 	.uleb128 0x17
 	.string	"ID"
 	.byte	0x7
 	.uahalf	0x303
-	.uaword	0x4d9b
+	.uaword	0x4d90
 	.byte	0x8
 	.uleb128 0x18
 	.uaword	.LASF11
 	.byte	0x7
 	.uahalf	0x304
-	.uaword	0x420
+	.uaword	0x415
 	.byte	0xc
 	.uleb128 0x17
 	.string	"OCS"
 	.byte	0x7
 	.uahalf	0x305
-	.uaword	0x4eda
+	.uaword	0x4ecf
 	.byte	0x28
 	.uleb128 0x17
 	.string	"KRSTCLR"
 	.byte	0x7
 	.uahalf	0x306
-	.uaword	0x4e98
+	.uaword	0x4e8d
 	.byte	0x2c
 	.uleb128 0x17
 	.string	"KRST1"
 	.byte	0x7
 	.uahalf	0x307
-	.uaword	0x4e58
+	.uaword	0x4e4d
 	.byte	0x30
 	.uleb128 0x17
 	.string	"KRST0"
 	.byte	0x7
 	.uahalf	0x308
-	.uaword	0x4e18
+	.uaword	0x4e0d
 	.byte	0x34
 	.uleb128 0x17
 	.string	"reserved_38"
 	.byte	0x7
 	.uahalf	0x309
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x38
 	.uleb128 0x17
 	.string	"ACCEN0"
 	.byte	0x7
 	.uahalf	0x30a
-	.uaword	0x4718
+	.uaword	0x470d
 	.byte	0x3c
 	.uleb128 0x17
 	.string	"reserved_40"
 	.byte	0x7
 	.uahalf	0x30b
-	.uaword	0x430
+	.uaword	0x425
 	.byte	0x40
 	.uleb128 0x17
 	.string	"GLOBCFG"
 	.byte	0x7
 	.uahalf	0x30c
-	.uaword	0x4c4c
+	.uaword	0x4c41
 	.byte	0x80
 	.uleb128 0x17
 	.string	"reserved_84"
 	.byte	0x7
 	.uahalf	0x30d
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x84
 	.uleb128 0x17
 	.string	"GLOBRC"
 	.byte	0x7
 	.uahalf	0x30e
-	.uaword	0x4c8e
+	.uaword	0x4c83
 	.byte	0x88
 	.uleb128 0x17
 	.string	"reserved_8C"
 	.byte	0x7
 	.uahalf	0x30f
-	.uaword	0x3f0
+	.uaword	0x3e5
 	.byte	0x8c
 	.uleb128 0x17
 	.string	"ACCPROT"
 	.byte	0x7
 	.uahalf	0x310
-	.uaword	0x4759
+	.uaword	0x474e
 	.byte	0x90
 	.uleb128 0x17
 	.string	"reserved_94"
 	.byte	0x7
 	.uahalf	0x311
-	.uaword	0x3d0
+	.uaword	0x3c5
 	.byte	0x94
 	.uleb128 0x17
 	.string	"CGCFG"
 	.byte	0x7
 	.uahalf	0x312
-	.uaword	0x479b
+	.uaword	0x4790
 	.byte	0xa0
 	.uleb128 0x18
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x313
-	.uaword	0x3d0
+	.uaword	0x3c5
 	.byte	0xa4
 	.uleb128 0x17
 	.string	"GLOBVCMH0"
 	.byte	0x7
 	.uahalf	0x314
-	.uaword	0x4ccf
+	.uaword	0x4cc4
 	.byte	0xb0
 	.uleb128 0x17
 	.string	"GLOBVCMH1"
 	.byte	0x7
 	.uahalf	0x315
-	.uaword	0x4d13
+	.uaword	0x4d08
 	.byte	0xb4
 	.uleb128 0x17
 	.string	"GLOBVCMH2"
 	.byte	0x7
 	.uahalf	0x316
-	.uaword	0x4d57
+	.uaword	0x4d4c
 	.byte	0xb8
 	.uleb128 0x17
 	.string	"reserved_BC"
 	.byte	0x7
 	.uahalf	0x317
-	.uaword	0x410
+	.uaword	0x405
 	.byte	0xbc
 	.uleb128 0x17
 	.string	"IGCFG"
 	.byte	0x7
 	.uahalf	0x318
-	.uaword	0x4dd8
+	.uaword	0x4dcd
 	.byte	0xd0
 	.uleb128 0x18
 	.uaword	.LASF27
 	.byte	0x7
 	.uahalf	0x319
-	.uaword	0x3d0
+	.uaword	0x3c5
 	.byte	0xd4
 	.uleb128 0x17
 	.string	"EVFLAG"
 	.byte	0x7
 	.uahalf	0x31a
-	.uaword	0x4bc7
+	.uaword	0x4bbc
 	.byte	0xe0
 	.uleb128 0x17
 	.string	"EVFLAGCLR"
 	.byte	0x7
 	.uahalf	0x31b
-	.uaword	0x4c08
+	.uaword	0x4bfd
 	.byte	0xe4
 	.uleb128 0x17
 	.string	"reserved_E8"
 	.byte	0x7
 	.uahalf	0x31c
-	.uaword	0x3e0
+	.uaword	0x3d5
 	.byte	0xe8
 	.uleb128 0x1a
 	.string	"CH"
 	.byte	0x7
 	.uahalf	0x31d
-	.uaword	0x52f7
+	.uaword	0x52ec
 	.uahalf	0x100
 	.uleb128 0x1a
 	.string	"reserved_700"
 	.byte	0x7
 	.uahalf	0x31e
-	.uaword	0x52fc
+	.uaword	0x52f1
 	.uahalf	0x700
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x50bb
-	.uaword	0x52f7
+	.uaword	0x50b0
+	.uaword	0x52ec
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x5
 	.byte	0
 	.uleb128 0x19
-	.uaword	0x52e7
+	.uaword	0x52dc
 	.uleb128 0xb
-	.uaword	0x21f
-	.uaword	0x530d
+	.uaword	0x214
+	.uaword	0x5302
 	.uleb128 0x1b
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.uahalf	0x8ff
 	.byte	0
 	.uleb128 0x12
 	.string	"Ifx_DSADC"
 	.byte	0x7
 	.uahalf	0x31f
-	.uaword	0x531f
+	.uaword	0x5314
 	.uleb128 0x19
-	.uaword	0x50d5
+	.uaword	0x50ca
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0x8
 	.byte	0x27
-	.uaword	0x535d
+	.uaword	0x5352
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x29
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF28
 	.byte	0x8
 	.byte	0x2a
-	.uaword	0x212
+	.uaword	0x207
 	.byte	0x4
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0x8
 	.byte	0x2b
-	.uaword	0x2d59
+	.uaword	0x2d4e
 	.byte	0x8
 	.uleb128 0x9
 	.uaword	.LASF29
 	.byte	0x8
 	.byte	0x2c
-	.uaword	0x366
+	.uaword	0x35b
 	.byte	0x10
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x530d
+	.uaword	0x5302
 	.uleb128 0x3
 	.string	"IfxDsadc_Dsn_In"
 	.byte	0x8
 	.byte	0x2d
-	.uaword	0x537a
+	.uaword	0x536f
 	.uleb128 0x1c
-	.uaword	0x5324
+	.uaword	0x5319
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0x8
 	.byte	0x30
-	.uaword	0x53b8
+	.uaword	0x53ad
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x32
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF28
 	.byte	0x8
 	.byte	0x33
-	.uaword	0x212
+	.uaword	0x207
 	.byte	0x4
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0x8
 	.byte	0x34
-	.uaword	0x2d59
+	.uaword	0x2d4e
 	.byte	0x8
 	.uleb128 0x9
 	.uaword	.LASF29
 	.byte	0x8
 	.byte	0x35
-	.uaword	0x366
+	.uaword	0x35b
 	.byte	0x10
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Dsp_In"
 	.byte	0x8
 	.byte	0x36
-	.uaword	0x53cf
+	.uaword	0x53c4
 	.uleb128 0x1c
-	.uaword	0x537f
+	.uaword	0x5374
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0x8
 	.byte	0x39
-	.uaword	0x540d
+	.uaword	0x5402
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x3b
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF28
 	.byte	0x8
 	.byte	0x3c
-	.uaword	0x212
+	.uaword	0x207
 	.byte	0x4
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0x8
 	.byte	0x3d
-	.uaword	0x2d59
+	.uaword	0x2d4e
 	.byte	0x8
 	.uleb128 0x9
 	.uaword	.LASF29
 	.byte	0x8
 	.byte	0x3e
-	.uaword	0x366
+	.uaword	0x35b
 	.byte	0x10
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Cin_In"
 	.byte	0x8
 	.byte	0x3f
-	.uaword	0x5424
+	.uaword	0x5419
 	.uleb128 0x1c
-	.uaword	0x53d4
+	.uaword	0x53c9
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0x8
 	.byte	0x42
-	.uaword	0x5462
+	.uaword	0x5457
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x44
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF28
 	.byte	0x8
 	.byte	0x45
-	.uaword	0x212
+	.uaword	0x207
 	.byte	0x4
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0x8
 	.byte	0x46
-	.uaword	0x2d59
+	.uaword	0x2d4e
 	.byte	0x8
 	.uleb128 0x9
 	.uaword	.LASF29
 	.byte	0x8
 	.byte	0x47
-	.uaword	0x366
+	.uaword	0x35b
 	.byte	0x10
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Din_In"
 	.byte	0x8
 	.byte	0x48
-	.uaword	0x5479
+	.uaword	0x546e
 	.uleb128 0x1c
-	.uaword	0x5429
+	.uaword	0x541e
 	.uleb128 0x8
 	.byte	0x14
 	.byte	0x8
 	.byte	0x4b
-	.uaword	0x54b7
+	.uaword	0x54ac
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x4d
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF28
 	.byte	0x8
 	.byte	0x4e
-	.uaword	0x212
+	.uaword	0x207
 	.byte	0x4
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0x8
 	.byte	0x4f
-	.uaword	0x2d59
+	.uaword	0x2d4e
 	.byte	0x8
 	.uleb128 0x9
 	.uaword	.LASF29
 	.byte	0x8
 	.byte	0x50
-	.uaword	0x366
+	.uaword	0x35b
 	.byte	0x10
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Itr_In"
 	.byte	0x8
 	.byte	0x51
-	.uaword	0x54ce
+	.uaword	0x54c3
 	.uleb128 0x1c
-	.uaword	0x547e
+	.uaword	0x5473
 	.uleb128 0x8
 	.byte	0x10
 	.byte	0x8
 	.byte	0x54
-	.uaword	0x5500
+	.uaword	0x54f5
 	.uleb128 0x9
 	.uaword	.LASF0
 	.byte	0x8
 	.byte	0x56
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0xa
 	.string	"pin"
 	.byte	0x8
 	.byte	0x57
-	.uaword	0x2d59
+	.uaword	0x2d4e
 	.byte	0x4
 	.uleb128 0x9
 	.uaword	.LASF29
 	.byte	0x8
 	.byte	0x58
-	.uaword	0x2b02
+	.uaword	0x2af7
 	.byte	0xc
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Cgpwm_Out"
 	.byte	0x8
 	.byte	0x59
-	.uaword	0x551a
+	.uaword	0x550f
 	.uleb128 0x1c
-	.uaword	0x54d3
+	.uaword	0x54c8
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x3c
-	.uaword	0x55c3
+	.uaword	0x55b8
 	.uleb128 0x7
 	.string	"IfxDsadc_AuxCombFilterShift_noShift"
 	.sleb128 0
@@ -9802,12 +9802,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_AuxCombFilterShift"
 	.byte	0x2
 	.byte	0x41
-	.uaword	0x551f
+	.uaword	0x5514
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x47
-	.uaword	0x567b
+	.uaword	0x5670
 	.uleb128 0x7
 	.string	"IfxDsadc_AuxCombFilterType_comb1"
 	.sleb128 0
@@ -9825,12 +9825,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_AuxCombFilterType"
 	.byte	0x2
 	.byte	0x4c
-	.uaword	0x55e6
+	.uaword	0x55db
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x52
-	.uaword	0x5710
+	.uaword	0x5705
 	.uleb128 0x7
 	.string	"IfxDsadc_AuxEvent_everyNewResult"
 	.sleb128 0
@@ -9845,12 +9845,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_AuxEvent"
 	.byte	0x2
 	.byte	0x56
-	.uaword	0x569d
+	.uaword	0x5692
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x5c
-	.uaword	0x577a
+	.uaword	0x576f
 	.uleb128 0x7
 	.string	"IfxDsadc_AuxGate_definedByESEL"
 	.sleb128 0
@@ -9862,12 +9862,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_AuxGate"
 	.byte	0x2
 	.byte	0x5f
-	.uaword	0x5729
+	.uaword	0x571e
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x65
-	.uaword	0x580c
+	.uaword	0x5801
 	.uleb128 0x7
 	.string	"IfxDsadc_AuxServiceRequest_never"
 	.sleb128 0
@@ -9882,12 +9882,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_AuxServiceRequest"
 	.byte	0x2
 	.byte	0x69
-	.uaword	0x5792
+	.uaword	0x5787
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x6f
-	.uaword	0x58d0
+	.uaword	0x58c5
 	.uleb128 0x7
 	.string	"IfxDsadc_CarrierWaveformMode_stopped"
 	.sleb128 0
@@ -9905,12 +9905,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_CarrierWaveformMode"
 	.byte	0x2
 	.byte	0x74
-	.uaword	0x582e
+	.uaword	0x5823
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x79
-	.uaword	0x5987
+	.uaword	0x597c
 	.uleb128 0x7
 	.string	"IfxDsadc_ChannelId_0"
 	.sleb128 0
@@ -9934,12 +9934,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_ChannelId"
 	.byte	0x2
 	.byte	0x80
-	.uaword	0x58f4
+	.uaword	0x58e9
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x86
-	.uaword	0x5a07
+	.uaword	0x59fc
 	.uleb128 0x7
 	.string	"IfxDsadc_CommonModeVoltage_a"
 	.sleb128 0
@@ -9954,12 +9954,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_CommonModeVoltage"
 	.byte	0x2
 	.byte	0x8a
-	.uaword	0x59a1
+	.uaword	0x5996
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x91
-	.uaword	0x5ab5
+	.uaword	0x5aaa
 	.uleb128 0x7
 	.string	"IfxDsadc_FirDataShift_noShift"
 	.sleb128 0
@@ -9977,12 +9977,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_FirDataShift"
 	.byte	0x2
 	.byte	0x96
-	.uaword	0x5a29
+	.uaword	0x5a1e
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0x9d
-	.uaword	0x5b24
+	.uaword	0x5b19
 	.uleb128 0x7
 	.string	"IfxDsadc_FirInternalShift_noShift"
 	.sleb128 0
@@ -9994,12 +9994,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_FirInternalShift"
 	.byte	0x2
 	.byte	0xa0
-	.uaword	0x5ad2
+	.uaword	0x5ac7
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xa6
-	.uaword	0x5be3
+	.uaword	0x5bd8
 	.uleb128 0x7
 	.string	"IfxDsadc_InputConfig_inputPin"
 	.sleb128 0
@@ -10017,12 +10017,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_InputConfig"
 	.byte	0x2
 	.byte	0xab
-	.uaword	0x5b45
+	.uaword	0x5b3a
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xb1
-	.uaword	0x5d02
+	.uaword	0x5cf7
 	.uleb128 0x7
 	.string	"IfxDsadc_InputDataSource_onChipStandAlone"
 	.sleb128 0
@@ -10046,12 +10046,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_InputDataSource"
 	.byte	0x2
 	.byte	0xb8
-	.uaword	0x5bff
+	.uaword	0x5bf4
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xbe
-	.uaword	0x5dbd
+	.uaword	0x5db2
 	.uleb128 0x7
 	.string	"IfxDsadc_InputGain_factor1"
 	.sleb128 0
@@ -10072,12 +10072,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_InputGain"
 	.byte	0x2
 	.byte	0xc4
-	.uaword	0x5d22
+	.uaword	0x5d17
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xca
-	.uaword	0x5e38
+	.uaword	0x5e2d
 	.uleb128 0x7
 	.string	"IfxDsadc_InputPin_a"
 	.sleb128 0
@@ -10095,12 +10095,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_InputPin"
 	.byte	0x2
 	.byte	0xcf
-	.uaword	0x5dd7
+	.uaword	0x5dcc
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xd5
-	.uaword	0x5ebc
+	.uaword	0x5eb1
 	.uleb128 0x7
 	.string	"IfxDsadc_IntegrationWindowSize_internalControl"
 	.sleb128 0
@@ -10112,12 +10112,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_IntegrationWindowSize"
 	.byte	0x2
 	.byte	0xd8
-	.uaword	0x5e51
+	.uaword	0x5e46
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xdf
-	.uaword	0x5f8c
+	.uaword	0x5f81
 	.uleb128 0x7
 	.string	"IfxDsadc_IntegratorTrigger_bypassed"
 	.sleb128 0
@@ -10135,12 +10135,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_IntegratorTrigger"
 	.byte	0x2
 	.byte	0xe4
-	.uaword	0x5ee2
+	.uaword	0x5ed7
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xea
-	.uaword	0x5ff3
+	.uaword	0x5fe8
 	.uleb128 0x7
 	.string	"IfxDsadc_LowPowerSupply_5V"
 	.sleb128 0
@@ -10152,12 +10152,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_LowPowerSupply"
 	.byte	0x2
 	.byte	0xed
-	.uaword	0x5fae
+	.uaword	0x5fa3
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xf3
-	.uaword	0x60ba
+	.uaword	0x60af
 	.uleb128 0x7
 	.string	"IfxDsadc_MainCombFilterShift_noShift"
 	.sleb128 0
@@ -10175,12 +10175,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_MainCombFilterShift"
 	.byte	0x2
 	.byte	0xf8
-	.uaword	0x6012
+	.uaword	0x6007
 	.uleb128 0x6
 	.byte	0x1
 	.byte	0x2
 	.byte	0xfe
-	.uaword	0x6177
+	.uaword	0x616c
 	.uleb128 0x7
 	.string	"IfxDsadc_MainCombFilterType_comb1"
 	.sleb128 0
@@ -10198,12 +10198,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_MainCombFilterType"
 	.byte	0x2
 	.uahalf	0x103
-	.uaword	0x60de
+	.uaword	0x60d3
 	.uleb128 0x1d
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x109
-	.uaword	0x624f
+	.uaword	0x6244
 	.uleb128 0x7
 	.string	"IfxDsadc_MainServiceRequest_never"
 	.sleb128 0
@@ -10221,12 +10221,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_MainServiceRequest"
 	.byte	0x2
 	.uahalf	0x10e
-	.uaword	0x619b
+	.uaword	0x6190
 	.uleb128 0x1d
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x114
-	.uaword	0x62fa
+	.uaword	0x62ef
 	.uleb128 0x7
 	.string	"IfxDsadc_ModulatorClock_off"
 	.sleb128 0
@@ -10244,12 +10244,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_ModulatorClock"
 	.byte	0x2
 	.uahalf	0x119
-	.uaword	0x6273
+	.uaword	0x6268
 	.uleb128 0x1d
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x137
-	.uaword	0x63d0
+	.uaword	0x63c5
 	.uleb128 0x7
 	.string	"IfxDsadc_RectifierSignSource_onChipGenerator"
 	.sleb128 0
@@ -10267,12 +10267,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_RectifierSignSource"
 	.byte	0x2
 	.uahalf	0x13c
-	.uaword	0x631a
+	.uaword	0x630f
 	.uleb128 0x1d
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x142
-	.uaword	0x6491
+	.uaword	0x6486
 	.uleb128 0x7
 	.string	"IfxDsadc_SampleClockSource_internal"
 	.sleb128 0
@@ -10290,12 +10290,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_SampleClockSource"
 	.byte	0x2
 	.uahalf	0x147
-	.uaword	0x63f5
+	.uaword	0x63ea
 	.uleb128 0x1d
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x14d
-	.uaword	0x65e4
+	.uaword	0x65d9
 	.uleb128 0x7
 	.string	"IfxDsadc_SampleStrobe_noDataStrobe"
 	.sleb128 0
@@ -10322,12 +10322,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_SampleStrobe"
 	.byte	0x2
 	.uahalf	0x155
-	.uaword	0x64b4
+	.uaword	0x64a9
 	.uleb128 0x1d
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x164
-	.uaword	0x66a6
+	.uaword	0x669b
 	.uleb128 0x7
 	.string	"IfxDsadc_TimestampTrigger_noTrigger"
 	.sleb128 0
@@ -10345,12 +10345,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_TimestampTrigger"
 	.byte	0x2
 	.uahalf	0x169
-	.uaword	0x6602
+	.uaword	0x65f7
 	.uleb128 0x1d
 	.byte	0x1
 	.byte	0x2
 	.uahalf	0x16f
-	.uaword	0x67a2
+	.uaword	0x6797
 	.uleb128 0x7
 	.string	"IfxDsadc_TriggerInput_a"
 	.sleb128 0
@@ -10380,647 +10380,647 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"IfxDsadc_TriggerInput"
 	.byte	0x2
 	.uahalf	0x178
-	.uaword	0x66c8
+	.uaword	0x66bd
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x9
 	.byte	0xaf
-	.uaword	0x682b
+	.uaword	0x6820
 	.uleb128 0x9
 	.uaword	.LASF30
 	.byte	0x9
 	.byte	0xb1
-	.uaword	0x2a4
+	.uaword	0x299
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF31
 	.byte	0x9
 	.byte	0xb2
-	.uaword	0x567b
+	.uaword	0x5670
 	.byte	0x1
 	.uleb128 0x9
 	.uaword	.LASF32
 	.byte	0x9
 	.byte	0xb3
-	.uaword	0x55c3
+	.uaword	0x55b8
 	.byte	0x2
 	.uleb128 0x9
 	.uaword	.LASF33
 	.byte	0x9
 	.byte	0xb4
-	.uaword	0x580c
+	.uaword	0x5801
 	.byte	0x3
 	.uleb128 0xa
 	.string	"eventSelect"
 	.byte	0x9
 	.byte	0xb5
-	.uaword	0x5710
+	.uaword	0x5705
 	.byte	0x4
 	.uleb128 0xa
 	.string	"eventGate"
 	.byte	0x9
 	.byte	0xb6
-	.uaword	0x577a
+	.uaword	0x576f
 	.byte	0x5
 	.uleb128 0x9
 	.uaword	.LASF34
 	.byte	0x9
 	.byte	0xb7
-	.uaword	0x212
+	.uaword	0x207
 	.byte	0x6
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Dsadc_AuxFilterConfig"
 	.byte	0x9
 	.byte	0xb8
-	.uaword	0x67c0
+	.uaword	0x67b5
 	.uleb128 0x8
 	.byte	0x28
 	.byte	0x9
 	.byte	0xbc
-	.uaword	0x68f2
+	.uaword	0x68e7
 	.uleb128 0xa
 	.string	"cin"
 	.byte	0x9
 	.byte	0xbe
-	.uaword	0x68f2
+	.uaword	0x68e7
 	.byte	0
 	.uleb128 0xa
 	.string	"cinMode"
 	.byte	0x9
 	.byte	0xbf
-	.uaword	0x2759
+	.uaword	0x274e
 	.byte	0x4
 	.uleb128 0xa
 	.string	"din"
 	.byte	0x9
 	.byte	0xc0
-	.uaword	0x68f8
+	.uaword	0x68ed
 	.byte	0x8
 	.uleb128 0xa
 	.string	"dinMode"
 	.byte	0x9
 	.byte	0xc1
-	.uaword	0x2759
+	.uaword	0x274e
 	.byte	0xc
 	.uleb128 0xa
 	.string	"itr"
 	.byte	0x9
 	.byte	0xc2
-	.uaword	0x68fe
+	.uaword	0x68f3
 	.byte	0x10
 	.uleb128 0xa
 	.string	"itrMode"
 	.byte	0x9
 	.byte	0xc3
-	.uaword	0x2759
+	.uaword	0x274e
 	.byte	0x14
 	.uleb128 0xa
 	.string	"dsn"
 	.byte	0x9
 	.byte	0xc4
-	.uaword	0x6904
+	.uaword	0x68f9
 	.byte	0x18
 	.uleb128 0xa
 	.string	"dsnMode"
 	.byte	0x9
 	.byte	0xc5
-	.uaword	0x2759
+	.uaword	0x274e
 	.byte	0x1c
 	.uleb128 0xa
 	.string	"dsp"
 	.byte	0x9
 	.byte	0xc6
-	.uaword	0x690a
+	.uaword	0x68ff
 	.byte	0x20
 	.uleb128 0xa
 	.string	"dspMode"
 	.byte	0x9
 	.byte	0xc7
-	.uaword	0x2759
+	.uaword	0x274e
 	.byte	0x24
 	.uleb128 0x9
 	.uaword	.LASF35
 	.byte	0x9
 	.byte	0xc8
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.byte	0x25
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x540d
+	.uaword	0x5402
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5462
+	.uaword	0x5457
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x54b7
+	.uaword	0x54ac
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5363
+	.uaword	0x5358
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x53b8
+	.uaword	0x53ad
 	.uleb128 0x3
 	.string	"IfxDsadc_Dsadc_ChannelPins"
 	.byte	0x9
 	.byte	0xc9
-	.uaword	0x6851
+	.uaword	0x6846
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x9
 	.byte	0xcd
-	.uaword	0x698a
+	.uaword	0x697f
 	.uleb128 0x9
 	.uaword	.LASF30
 	.byte	0x9
 	.byte	0xcf
-	.uaword	0x2a4
+	.uaword	0x299
 	.byte	0
 	.uleb128 0x9
 	.uaword	.LASF31
 	.byte	0x9
 	.byte	0xd0
-	.uaword	0x6177
+	.uaword	0x616c
 	.byte	0x1
 	.uleb128 0x9
 	.uaword	.LASF32
 	.byte	0x9
 	.byte	0xd1
-	.uaword	0x60ba
+	.uaword	0x60af
 	.byte	0x2
 	.uleb128 0x9
 	.uaword	.LASF33
 	.byte	0x9
 	.byte	0xd2
-	.uaword	0x624f
+	.uaword	0x6244
 	.byte	0x3
 	.uleb128 0x9
 	.uaword	.LASF34
 	.byte	0x9
 	.byte	0xd3
-	.uaword	0x24b
+	.uaword	0x240
 	.byte	0x4
 	.uleb128 0xa
 	.string	"startValue"
 	.byte	0x9
 	.byte	0xd4
-	.uaword	0x24b
+	.uaword	0x240
 	.byte	0x6
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Dsadc_CombFilterConfig"
 	.byte	0x9
 	.byte	0xd5
-	.uaword	0x6932
+	.uaword	0x6927
 	.uleb128 0x8
 	.byte	0x6
 	.byte	0x9
 	.byte	0xd9
-	.uaword	0x6a4a
+	.uaword	0x6a3f
 	.uleb128 0xa
 	.string	"inputDataSource"
 	.byte	0x9
 	.byte	0xdb
-	.uaword	0x5d02
+	.uaword	0x5cf7
 	.byte	0
 	.uleb128 0xa
 	.string	"triggerInput"
 	.byte	0x9
 	.byte	0xdc
-	.uaword	0x67a2
+	.uaword	0x6797
 	.byte	0x1
 	.uleb128 0xa
 	.string	"integrationTrigger"
 	.byte	0x9
 	.byte	0xdd
-	.uaword	0x5f8c
+	.uaword	0x5f81
 	.byte	0x2
 	.uleb128 0xa
 	.string	"timestampTrigger"
 	.byte	0x9
 	.byte	0xde
-	.uaword	0x66a6
+	.uaword	0x669b
 	.byte	0x3
 	.uleb128 0xa
 	.string	"sampleClockSource"
 	.byte	0x9
 	.byte	0xdf
-	.uaword	0x6491
+	.uaword	0x6486
 	.byte	0x4
 	.uleb128 0xa
 	.string	"sampleStrobe"
 	.byte	0x9
 	.byte	0xe0
-	.uaword	0x65e4
+	.uaword	0x65d9
 	.byte	0x5
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Dsadc_DemodulatorConfig"
 	.byte	0x9
 	.byte	0xe1
-	.uaword	0x69b1
+	.uaword	0x69a6
 	.uleb128 0x8
 	.byte	0x6
 	.byte	0x9
 	.byte	0xe5
-	.uaword	0x6ae6
+	.uaword	0x6adb
 	.uleb128 0xa
 	.string	"fir0Enabled"
 	.byte	0x9
 	.byte	0xe7
-	.uaword	0x2a4
+	.uaword	0x299
 	.byte	0
 	.uleb128 0xa
 	.string	"fir1Enabled"
 	.byte	0x9
 	.byte	0xe8
-	.uaword	0x2a4
+	.uaword	0x299
 	.byte	0x1
 	.uleb128 0xa
 	.string	"offsetCompensation"
 	.byte	0x9
 	.byte	0xe9
-	.uaword	0x2a4
+	.uaword	0x299
 	.byte	0x2
 	.uleb128 0xa
 	.string	"dataShift"
 	.byte	0x9
 	.byte	0xea
-	.uaword	0x5ab5
+	.uaword	0x5aaa
 	.byte	0x3
 	.uleb128 0xa
 	.string	"internalShift"
 	.byte	0x9
 	.byte	0xeb
-	.uaword	0x5b24
+	.uaword	0x5b19
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Dsadc_FirFilterConfig"
 	.byte	0x9
 	.byte	0xec
-	.uaword	0x6a72
+	.uaword	0x6a67
 	.uleb128 0x8
 	.byte	0x8
 	.byte	0x9
 	.byte	0xf0
-	.uaword	0x6b70
+	.uaword	0x6b65
 	.uleb128 0xa
 	.string	"windowSize"
 	.byte	0x9
 	.byte	0xf2
-	.uaword	0x5ebc
+	.uaword	0x5eb1
 	.byte	0
 	.uleb128 0xa
 	.string	"discardCount"
 	.byte	0x9
 	.byte	0xf3
-	.uaword	0x24b
+	.uaword	0x240
 	.byte	0x2
 	.uleb128 0xa
 	.string	"integrationCount"
 	.byte	0x9
 	.byte	0xf4
-	.uaword	0x24b
+	.uaword	0x240
 	.byte	0x4
 	.uleb128 0xa
 	.string	"integrationCycles"
 	.byte	0x9
 	.byte	0xf5
-	.uaword	0x24b
+	.uaword	0x240
 	.byte	0x6
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxDsadc_Dsadc_IntegratorConfig"
 	.byte	0x9
 	.byte	0xf6
-	.uaword	0x6b0c
+	.uaword	0x6b01
 	.uleb128 0x8
 	.byte	0xc
 	.byte	0x9
 	.byte	0xfa
-	.uaword	0x6c26
+	.uaword	0x6c1b
 	.uleb128 0xa
 	.string	"positiveInput"
 	.byte	0x9
 	.byte	0xfc
-	.uaword	0x5be3
+	.uaword	0x5bd8
 	.byte	0
 	.uleb128 0xa
 	.string	"negativeInput"
 	.byte	0x9
 	.byte	0xfd
-	.uaword	0x5be3
+	.uaword	0x5bd8
 	.byte	0x1
 	.uleb128 0xa
 	.string	"inputGain"
 	.byte	0x9
 	.byte	0xfe
-	.uaword	0x5dbd
+	.uaword	0x5db2
 	.byte	0x2
 	.uleb128 0xa
 	.string	"inputPin"
 	.byte	0x9
 	.byte	0xff
-	.uaword	0x5e38
+	.uaword	0x5e2d
 	.byte	0x3
 	.uleb128 0x17
 	.string	"modulatorClockFreq"
 	.byte	0x9
 	.uahalf	0x100
-	.uaword	0x28b
+	.uaword	0x280
 	.byte	0x4
 	.uleb128 0x17
 	.string	"commonModeVoltage"
 	.byte	0x9
 	.uahalf	0x101
-	.uaword	0x5a07
+	.uaword	0x59fc
 	.byte	0x8
 	.byte	0
 	.uleb128 0x12
 	.string	"IfxDsadc_Dsadc_ModulatorConfig"
 	.byte	0x9
 	.uahalf	0x102
-	.uaword	0x6b97
+	.uaword	0x6b8c
 	.uleb128 0x1e
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x106
-	.uaword	0x6ca3
+	.uaword	0x6c98
 	.uleb128 0x17
 	.string	"enabled"
 	.byte	0x9
 	.uahalf	0x108
-	.uaword	0x2a4
+	.uaword	0x299
 	.byte	0
 	.uleb128 0x17
 	.string	"signSource"
 	.byte	0x9
 	.uahalf	0x109
-	.uaword	0x63d0
+	.uaword	0x63c5
 	.byte	0x1
 	.uleb128 0x17
 	.string	"signDelay"
 	.byte	0x9
 	.uahalf	0x10a
-	.uaword	0x212
+	.uaword	0x207
 	.byte	0x2
 	.uleb128 0x17
 	.string	"signPeriod"
 	.byte	0x9
 	.uahalf	0x10b
-	.uaword	0x212
+	.uaword	0x207
 	.byte	0x3
 	.byte	0
 	.uleb128 0x12
 	.string	"IfxDsadc_Dsadc_RectifierConfig"
 	.byte	0x9
 	.uahalf	0x10c
-	.uaword	0x6c4d
+	.uaword	0x6c42
 	.uleb128 0x1e
 	.byte	0x4
 	.byte	0x9
 	.uahalf	0x114
-	.uaword	0x6ce1
+	.uaword	0x6cd6
 	.uleb128 0x18
 	.uaword	.LASF36
 	.byte	0x9
 	.uahalf	0x116
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.byte	0
 	.uleb128 0x12
 	.string	"IfxDsadc_Dsadc"
 	.byte	0x9
 	.uahalf	0x117
-	.uaword	0x6cca
+	.uaword	0x6cbf
 	.uleb128 0x1e
 	.byte	0x14
 	.byte	0x9
 	.uahalf	0x11b
-	.uaword	0x6d93
+	.uaword	0x6d88
 	.uleb128 0x17
 	.string	"carrierWaveformMode"
 	.byte	0x9
 	.uahalf	0x11d
-	.uaword	0x58d0
+	.uaword	0x58c5
 	.byte	0
 	.uleb128 0x17
 	.string	"inverted"
 	.byte	0x9
 	.uahalf	0x11e
-	.uaword	0x2a4
+	.uaword	0x299
 	.byte	0x1
 	.uleb128 0x17
 	.string	"bitReversed"
 	.byte	0x9
 	.uahalf	0x11f
-	.uaword	0x2a4
+	.uaword	0x299
 	.byte	0x2
 	.uleb128 0x17
 	.string	"frequency"
 	.byte	0x9
 	.uahalf	0x120
-	.uaword	0x28b
+	.uaword	0x280
 	.byte	0x4
 	.uleb128 0x17
 	.string	"pinPos"
 	.byte	0x9
 	.uahalf	0x121
-	.uaword	0x6d93
+	.uaword	0x6d88
 	.byte	0x8
 	.uleb128 0x17
 	.string	"pinNeg"
 	.byte	0x9
 	.uahalf	0x122
-	.uaword	0x6d93
+	.uaword	0x6d88
 	.byte	0xc
 	.uleb128 0x18
 	.uaword	.LASF37
 	.byte	0x9
 	.uahalf	0x123
-	.uaword	0x2b63
+	.uaword	0x2b58
 	.byte	0x10
 	.uleb128 0x18
 	.uaword	.LASF35
 	.byte	0x9
 	.uahalf	0x124
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.byte	0x11
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x5500
+	.uaword	0x54f5
 	.uleb128 0x12
 	.string	"IfxDsadc_Dsadc_CarrierGenConfig"
 	.byte	0x9
 	.uahalf	0x125
-	.uaword	0x6cf8
+	.uaword	0x6ced
 	.uleb128 0x1e
 	.byte	0xc
 	.byte	0x9
 	.uahalf	0x129
-	.uaword	0x6df2
+	.uaword	0x6de7
 	.uleb128 0x18
 	.uaword	.LASF0
 	.byte	0x9
 	.uahalf	0x12b
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF28
 	.byte	0x9
 	.uahalf	0x12c
-	.uaword	0x6df2
+	.uaword	0x6de7
 	.byte	0x4
 	.uleb128 0x18
 	.uaword	.LASF38
 	.byte	0x9
 	.uahalf	0x12d
-	.uaword	0x5987
+	.uaword	0x597c
 	.byte	0x8
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x50bb
+	.uaword	0x50b0
 	.uleb128 0x12
 	.string	"IfxDsadc_Dsadc_Channel"
 	.byte	0x9
 	.uahalf	0x12e
-	.uaword	0x6dc1
+	.uaword	0x6db6
 	.uleb128 0x1e
 	.byte	0x40
 	.byte	0x9
 	.uahalf	0x132
-	.uaword	0x6ed9
+	.uaword	0x6ece
 	.uleb128 0x18
 	.uaword	.LASF0
 	.byte	0x9
 	.uahalf	0x134
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0x18
 	.uaword	.LASF38
 	.byte	0x9
 	.uahalf	0x135
-	.uaword	0x5987
+	.uaword	0x597c
 	.byte	0x4
 	.uleb128 0x17
 	.string	"modulator"
 	.byte	0x9
 	.uahalf	0x136
-	.uaword	0x6c26
+	.uaword	0x6c1b
 	.byte	0x8
 	.uleb128 0x17
 	.string	"demodulator"
 	.byte	0x9
 	.uahalf	0x137
-	.uaword	0x6a4a
+	.uaword	0x6a3f
 	.byte	0x14
 	.uleb128 0x17
 	.string	"combFilter"
 	.byte	0x9
 	.uahalf	0x138
-	.uaword	0x698a
+	.uaword	0x697f
 	.byte	0x1a
 	.uleb128 0x17
 	.string	"firFilter"
 	.byte	0x9
 	.uahalf	0x139
-	.uaword	0x6ae6
+	.uaword	0x6adb
 	.byte	0x22
 	.uleb128 0x17
 	.string	"integrator"
 	.byte	0x9
 	.uahalf	0x13a
-	.uaword	0x6b70
+	.uaword	0x6b65
 	.byte	0x28
 	.uleb128 0x17
 	.string	"auxFilter"
 	.byte	0x9
 	.uahalf	0x13b
-	.uaword	0x682b
+	.uaword	0x6820
 	.byte	0x30
 	.uleb128 0x17
 	.string	"rectifier"
 	.byte	0x9
 	.uahalf	0x13c
-	.uaword	0x6ca3
+	.uaword	0x6c98
 	.byte	0x38
 	.uleb128 0x17
 	.string	"channelPins"
 	.byte	0x9
 	.uahalf	0x13d
-	.uaword	0x6ed9
+	.uaword	0x6ece
 	.byte	0x3c
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6edf
+	.uaword	0x6ed4
 	.uleb128 0x1c
-	.uaword	0x6910
+	.uaword	0x6905
 	.uleb128 0x12
 	.string	"IfxDsadc_Dsadc_ChannelConfig"
 	.byte	0x9
 	.uahalf	0x13e
-	.uaword	0x6e17
+	.uaword	0x6e0c
 	.uleb128 0x1e
 	.byte	0x8
 	.byte	0x9
 	.uahalf	0x142
-	.uaword	0x6f56
+	.uaword	0x6f4b
 	.uleb128 0x18
 	.uaword	.LASF36
 	.byte	0x9
 	.uahalf	0x144
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0x17
 	.string	"modulatorClockSelect"
 	.byte	0x9
 	.uahalf	0x145
-	.uaword	0x62fa
+	.uaword	0x62ef
 	.byte	0x4
 	.uleb128 0x17
 	.string	"lowPowerSupply"
 	.byte	0x9
 	.uahalf	0x146
-	.uaword	0x5ff3
+	.uaword	0x5fe8
 	.byte	0x5
 	.byte	0
 	.uleb128 0x12
 	.string	"IfxDsadc_Dsadc_Config"
 	.byte	0x9
 	.uahalf	0x147
-	.uaword	0x6f09
+	.uaword	0x6efe
 	.uleb128 0x1f
 	.string	"IfxPort_setPinModeOutput"
 	.byte	0x3
 	.uahalf	0x236
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x6fcc
+	.uaword	0x6fc1
 	.uleb128 0x20
 	.string	"port"
 	.byte	0x3
 	.uahalf	0x236
-	.uaword	0x26d3
+	.uaword	0x26c8
 	.uleb128 0x21
 	.uaword	.LASF14
 	.byte	0x3
 	.uahalf	0x236
-	.uaword	0x212
+	.uaword	0x207
 	.uleb128 0x20
 	.string	"mode"
 	.byte	0x3
 	.uahalf	0x236
-	.uaword	0x2b63
+	.uaword	0x2b58
 	.uleb128 0x20
 	.string	"index"
 	.byte	0x3
 	.uahalf	0x236
-	.uaword	0x2b02
+	.uaword	0x2af7
 	.byte	0
 	.uleb128 0x1f
 	.string	"IfxPort_setPinModeInput"
@@ -11028,22 +11028,22 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0x230
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7015
+	.uaword	0x700a
 	.uleb128 0x20
 	.string	"port"
 	.byte	0x3
 	.uahalf	0x230
-	.uaword	0x26d3
+	.uaword	0x26c8
 	.uleb128 0x21
 	.uaword	.LASF14
 	.byte	0x3
 	.uahalf	0x230
-	.uaword	0x212
+	.uaword	0x207
 	.uleb128 0x20
 	.string	"mode"
 	.byte	0x3
 	.uahalf	0x230
-	.uaword	0x2759
+	.uaword	0x274e
 	.byte	0
 	.uleb128 0x1f
 	.string	"IfxDsadc_initCinPin"
@@ -11051,22 +11051,22 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0x280
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x705c
+	.uaword	0x7051
 	.uleb128 0x20
 	.string	"cIn"
 	.byte	0x2
 	.uahalf	0x280
-	.uaword	0x68f2
+	.uaword	0x68e7
 	.uleb128 0x20
 	.string	"cInMode"
 	.byte	0x2
 	.uahalf	0x280
-	.uaword	0x2759
+	.uaword	0x274e
 	.uleb128 0x21
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x280
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.byte	0
 	.uleb128 0x1f
 	.string	"IfxDsadc_initDinPin"
@@ -11074,22 +11074,22 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0x294
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x70a3
+	.uaword	0x7098
 	.uleb128 0x20
 	.string	"dIn"
 	.byte	0x2
 	.uahalf	0x294
-	.uaword	0x68f8
+	.uaword	0x68ed
 	.uleb128 0x20
 	.string	"dInMode"
 	.byte	0x2
 	.uahalf	0x294
-	.uaword	0x2759
+	.uaword	0x274e
 	.uleb128 0x21
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x294
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.byte	0
 	.uleb128 0x1f
 	.string	"IfxDsadc_initDsnPin"
@@ -11097,22 +11097,22 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0x29e
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x70e6
+	.uaword	0x70db
 	.uleb128 0x20
 	.string	"dsn"
 	.byte	0x2
 	.uahalf	0x29e
-	.uaword	0x6904
+	.uaword	0x68f9
 	.uleb128 0x21
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x29e
-	.uaword	0x2759
+	.uaword	0x274e
 	.uleb128 0x21
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x29e
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.byte	0
 	.uleb128 0x1f
 	.string	"IfxDsadc_initDspPin"
@@ -11120,22 +11120,22 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0x2a8
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7129
+	.uaword	0x711e
 	.uleb128 0x20
 	.string	"dsp"
 	.byte	0x2
 	.uahalf	0x2a8
-	.uaword	0x690a
+	.uaword	0x68ff
 	.uleb128 0x21
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x2a8
-	.uaword	0x2759
+	.uaword	0x274e
 	.uleb128 0x21
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x2a8
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.byte	0
 	.uleb128 0x1f
 	.string	"IfxDsadc_initItrPin"
@@ -11143,22 +11143,22 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0x2b2
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7170
+	.uaword	0x7165
 	.uleb128 0x20
 	.string	"itr"
 	.byte	0x2
 	.uahalf	0x2b2
-	.uaword	0x68fe
+	.uaword	0x68f3
 	.uleb128 0x20
 	.string	"itrMode"
 	.byte	0x2
 	.uahalf	0x2b2
-	.uaword	0x2759
+	.uaword	0x274e
 	.uleb128 0x21
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x2b2
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.byte	0
 	.uleb128 0x22
 	.string	"IfxDsadc_Dsadc_initAuxFilter"
@@ -11166,227 +11166,227 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x81
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x71ba
+	.uaword	0x71af
 	.uleb128 0x23
 	.uaword	.LASF28
 	.byte	0x1
 	.byte	0x81
-	.uaword	0x71ba
+	.uaword	0x71af
 	.uleb128 0x23
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x81
-	.uaword	0x71c0
+	.uaword	0x71b5
 	.uleb128 0x24
 	.string	"fcfga"
 	.byte	0x1
 	.byte	0x83
-	.uaword	0x48a8
+	.uaword	0x489d
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6df8
+	.uaword	0x6ded
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x71c6
+	.uaword	0x71bb
 	.uleb128 0x1c
-	.uaword	0x682b
+	.uaword	0x6820
 	.uleb128 0x1f
 	.string	"IfxDsadc_Dsadc_initCombFilter"
 	.byte	0x1
 	.uahalf	0x12e
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x721a
+	.uaword	0x720f
 	.uleb128 0x21
 	.uaword	.LASF28
 	.byte	0x1
 	.uahalf	0x12e
-	.uaword	0x71ba
+	.uaword	0x71af
 	.uleb128 0x21
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x12e
-	.uaword	0x721a
+	.uaword	0x720f
 	.uleb128 0x25
 	.string	"fcfgc"
 	.byte	0x1
 	.uahalf	0x130
-	.uaword	0x48eb
+	.uaword	0x48e0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x7220
+	.uaword	0x7215
 	.uleb128 0x1c
-	.uaword	0x698a
+	.uaword	0x697f
 	.uleb128 0x1f
 	.string	"IfxDsadc_Dsadc_initDemodulator"
 	.byte	0x1
 	.uahalf	0x141
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x7275
+	.uaword	0x726a
 	.uleb128 0x21
 	.uaword	.LASF28
 	.byte	0x1
 	.uahalf	0x141
-	.uaword	0x71ba
+	.uaword	0x71af
 	.uleb128 0x21
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x141
-	.uaword	0x7275
+	.uaword	0x726a
 	.uleb128 0x25
 	.string	"dicfg"
 	.byte	0x1
 	.uahalf	0x143
-	.uaword	0x4865
+	.uaword	0x485a
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x727b
+	.uaword	0x7270
 	.uleb128 0x1c
-	.uaword	0x6a4a
+	.uaword	0x6a3f
 	.uleb128 0x1f
 	.string	"IfxDsadc_Dsadc_initFirFilter"
 	.byte	0x1
 	.uahalf	0x157
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x72ce
+	.uaword	0x72c3
 	.uleb128 0x21
 	.uaword	.LASF28
 	.byte	0x1
 	.uahalf	0x157
-	.uaword	0x71ba
+	.uaword	0x71af
 	.uleb128 0x21
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x157
-	.uaword	0x72ce
+	.uaword	0x72c3
 	.uleb128 0x25
 	.string	"fcfgm"
 	.byte	0x1
 	.uahalf	0x159
-	.uaword	0x492e
+	.uaword	0x4923
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x72d4
+	.uaword	0x72c9
 	.uleb128 0x1c
-	.uaword	0x6ae6
+	.uaword	0x6adb
 	.uleb128 0x1f
 	.string	"IfxDsadc_Dsadc_initIntegrator"
 	.byte	0x1
 	.uahalf	0x167
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x7328
+	.uaword	0x731d
 	.uleb128 0x21
 	.uaword	.LASF28
 	.byte	0x1
 	.uahalf	0x167
-	.uaword	0x71ba
+	.uaword	0x71af
 	.uleb128 0x21
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x167
-	.uaword	0x7328
+	.uaword	0x731d
 	.uleb128 0x25
 	.string	"iwctr"
 	.byte	0x1
 	.uahalf	0x169
-	.uaword	0x49b4
+	.uaword	0x49a9
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x732e
+	.uaword	0x7323
 	.uleb128 0x1c
-	.uaword	0x6b70
+	.uaword	0x6b65
 	.uleb128 0x1f
 	.string	"IfxDsadc_Dsadc_initRectifier"
 	.byte	0x1
 	.uahalf	0x1b9
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x7380
+	.uaword	0x7375
 	.uleb128 0x21
 	.uaword	.LASF28
 	.byte	0x1
 	.uahalf	0x1b9
-	.uaword	0x71ba
+	.uaword	0x71af
 	.uleb128 0x21
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x1b9
-	.uaword	0x7380
+	.uaword	0x7375
 	.uleb128 0x25
 	.string	"rect"
 	.byte	0x1
 	.uahalf	0x1bb
-	.uaword	0x4a7d
+	.uaword	0x4a72
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x7386
+	.uaword	0x737b
 	.uleb128 0x1c
-	.uaword	0x6ca3
+	.uaword	0x6c98
 	.uleb128 0x1f
 	.string	"IfxDsadc_Dsadc_initModulator"
 	.byte	0x1
 	.uahalf	0x176
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x73f2
+	.uaword	0x73e7
 	.uleb128 0x21
 	.uaword	.LASF28
 	.byte	0x1
 	.uahalf	0x176
-	.uaword	0x71ba
+	.uaword	0x71af
 	.uleb128 0x21
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x176
-	.uaword	0x73f2
+	.uaword	0x73e7
 	.uleb128 0x25
 	.string	"modcfg"
 	.byte	0x1
 	.uahalf	0x178
-	.uaword	0x49f7
+	.uaword	0x49ec
 	.uleb128 0x26
 	.uaword	.LASF41
 	.byte	0x1
 	.uahalf	0x182
-	.uaword	0x28b
+	.uaword	0x280
 	.uleb128 0x26
 	.uaword	.LASF42
 	.byte	0x1
 	.uahalf	0x183
-	.uaword	0x28b
+	.uaword	0x280
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x73f8
+	.uaword	0x73ed
 	.uleb128 0x1c
-	.uaword	0x6c26
+	.uaword	0x6c1b
 	.uleb128 0x27
 	.string	"IfxDsadc_getAuxResult"
 	.byte	0x2
 	.uahalf	0x267
 	.byte	0x1
-	.uaword	0x230
+	.uaword	0x225
 	.byte	0x3
-	.uaword	0x743a
+	.uaword	0x742f
 	.uleb128 0x21
 	.uaword	.LASF36
 	.byte	0x2
 	.uahalf	0x267
-	.uaword	0x535d
+	.uaword	0x5352
 	.uleb128 0x21
 	.uaword	.LASF28
 	.byte	0x2
 	.uahalf	0x267
-	.uaword	0x5987
+	.uaword	0x597c
 	.byte	0
 	.uleb128 0x1f
 	.string	"IfxDsadc_initCgPwmPin"
@@ -11394,65 +11394,65 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0x279
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x7481
+	.uaword	0x7476
 	.uleb128 0x20
 	.string	"cgPwm"
 	.byte	0x2
 	.uahalf	0x279
-	.uaword	0x6d93
+	.uaword	0x6d88
 	.uleb128 0x21
 	.uaword	.LASF37
 	.byte	0x2
 	.uahalf	0x279
-	.uaword	0x2b63
+	.uaword	0x2b58
 	.uleb128 0x21
 	.uaword	.LASF39
 	.byte	0x2
 	.uahalf	0x279
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.byte	0
 	.uleb128 0x28
 	.string	"IfxDsadc_Dsadc_calcDIVx"
 	.byte	0x1
 	.byte	0x5f
 	.byte	0x1
-	.uaword	0x26f
+	.uaword	0x264
 	.uaword	.LFB264
 	.uaword	.LFE264
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7529
+	.uaword	0x751e
 	.uleb128 0x29
 	.uaword	.LASF42
 	.byte	0x1
 	.byte	0x5f
-	.uaword	0x28b
+	.uaword	0x280
 	.uaword	.LLST0
 	.uleb128 0x2a
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0x5f
-	.uaword	0x7529
+	.uaword	0x751e
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x2b
 	.string	"bestError"
 	.byte	0x1
 	.byte	0x61
-	.uaword	0x28b
+	.uaword	0x280
 	.uaword	.LLST1
 	.uleb128 0x2b
 	.string	"bestDiv"
 	.byte	0x1
 	.byte	0x62
-	.uaword	0x26f
+	.uaword	0x264
 	.uaword	.LLST2
 	.uleb128 0x2b
 	.string	"i"
 	.byte	0x1
 	.byte	0x62
-	.uaword	0x26f
+	.uaword	0x264
 	.uaword	.LLST3
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0
@@ -11460,52 +11460,52 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"freq"
 	.byte	0x1
 	.byte	0x66
-	.uaword	0x28b
+	.uaword	0x280
 	.uaword	.LLST4
 	.uleb128 0x2b
 	.string	"error"
 	.byte	0x1
 	.byte	0x67
-	.uaword	0x28b
+	.uaword	0x280
 	.uaword	.LLST5
 	.byte	0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x28b
+	.uaword	0x280
 	.uleb128 0x2d
 	.byte	0x1
 	.string	"IfxDsadc_Dsadc_getAuxResult"
 	.byte	0x1
 	.byte	0x7b
 	.byte	0x1
-	.uaword	0x230
+	.uaword	0x225
 	.uaword	.LFB265
 	.uaword	.LFE265
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7592
+	.uaword	0x7587
 	.uleb128 0x2a
 	.uaword	.LASF28
 	.byte	0x1
 	.byte	0x7b
-	.uaword	0x71ba
+	.uaword	0x71af
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x2e
-	.uaword	0x73fd
+	.uaword	0x73f2
 	.uaword	.LBB63
 	.uaword	.LBE63
 	.byte	0x1
 	.byte	0x7d
 	.uleb128 0x2f
-	.uaword	0x742d
+	.uaword	0x7422
 	.byte	0x2
 	.byte	0x84
 	.sleb128 8
 	.uleb128 0x30
-	.uaword	0x7421
+	.uaword	0x7416
 	.uaword	.LLST6
 	.byte	0
 	.byte	0
@@ -11520,36 +11520,36 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x774e
+	.uaword	0x7743
 	.uleb128 0x29
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0x94
-	.uaword	0x774e
+	.uaword	0x7743
 	.uaword	.LLST7
 	.uleb128 0x29
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0x94
-	.uaword	0x7754
+	.uaword	0x7749
 	.uaword	.LLST8
 	.uleb128 0x2b
 	.string	"cgcfg"
 	.byte	0x1
 	.byte	0x96
-	.uaword	0x479b
+	.uaword	0x4790
 	.uaword	.LLST9
 	.uleb128 0x32
 	.uaword	.LASF42
 	.byte	0x1
 	.byte	0x9a
-	.uaword	0x28b
+	.uaword	0x280
 	.uaword	.LLST10
 	.uleb128 0x33
 	.uaword	.LASF41
 	.byte	0x1
 	.byte	0x9b
-	.uaword	0x28b
+	.uaword	0x280
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -4
@@ -11557,57 +11557,57 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"pinPos"
 	.byte	0x1
 	.byte	0xa3
-	.uaword	0x6d93
+	.uaword	0x6d88
 	.uaword	.LLST11
 	.uleb128 0x34
 	.string	"pinNeg"
 	.byte	0x1
 	.byte	0xaa
-	.uaword	0x6d93
+	.uaword	0x6d88
 	.byte	0x1
 	.byte	0x6c
 	.uleb128 0x35
-	.uaword	0x743a
+	.uaword	0x742f
 	.uaword	.LBB65
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
 	.byte	0xa7
-	.uaword	0x76b3
+	.uaword	0x76a8
 	.uleb128 0x30
-	.uaword	0x7474
+	.uaword	0x7469
 	.uaword	.LLST12
 	.uleb128 0x30
-	.uaword	0x7468
+	.uaword	0x745d
 	.uaword	.LLST13
 	.uleb128 0x30
-	.uaword	0x745a
+	.uaword	0x744f
 	.uaword	.LLST14
 	.uleb128 0x36
-	.uaword	0x6f74
+	.uaword	0x6f69
 	.uaword	.LBB67
 	.uaword	.Ldebug_ranges0+0x30
 	.byte	0x2
 	.uahalf	0x27b
-	.uaword	0x76a2
+	.uaword	0x7697
 	.uleb128 0x30
-	.uaword	0x6fbd
+	.uaword	0x6fb2
 	.uaword	.LLST15
 	.uleb128 0x30
-	.uaword	0x6fb0
+	.uaword	0x6fa5
 	.uaword	.LLST13
 	.uleb128 0x30
-	.uaword	0x6fa4
+	.uaword	0x6f99
 	.uaword	.LLST17
 	.uleb128 0x30
-	.uaword	0x6f97
+	.uaword	0x6f8c
 	.uaword	.LLST18
 	.uleb128 0x37
 	.uaword	.LVL24
-	.uaword	0x7f88
+	.uaword	0x7f7d
 	.byte	0
 	.uleb128 0x38
 	.uaword	.LVL25
-	.uaword	0x7fb6
+	.uaword	0x7fab
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x55
@@ -11617,47 +11617,47 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x743a
+	.uaword	0x742f
 	.uaword	.LBB73
 	.uaword	.Ldebug_ranges0+0x48
 	.byte	0x1
 	.byte	0xae
-	.uaword	0x7734
+	.uaword	0x7729
 	.uleb128 0x30
-	.uaword	0x7474
+	.uaword	0x7469
 	.uaword	.LLST19
 	.uleb128 0x30
-	.uaword	0x7468
+	.uaword	0x745d
 	.uaword	.LLST20
 	.uleb128 0x30
-	.uaword	0x745a
+	.uaword	0x744f
 	.uaword	.LLST21
 	.uleb128 0x36
-	.uaword	0x6f74
+	.uaword	0x6f69
 	.uaword	.LBB75
 	.uaword	.Ldebug_ranges0+0x60
 	.byte	0x2
 	.uahalf	0x27b
-	.uaword	0x7723
+	.uaword	0x7718
 	.uleb128 0x30
-	.uaword	0x6fbd
+	.uaword	0x6fb2
 	.uaword	.LLST22
 	.uleb128 0x30
-	.uaword	0x6fb0
+	.uaword	0x6fa5
 	.uaword	.LLST20
 	.uleb128 0x30
-	.uaword	0x6fa4
+	.uaword	0x6f99
 	.uaword	.LLST24
 	.uleb128 0x30
-	.uaword	0x6f97
+	.uaword	0x6f8c
 	.uaword	.LLST25
 	.uleb128 0x37
 	.uaword	.LVL29
-	.uaword	0x7f88
+	.uaword	0x7f7d
 	.byte	0
 	.uleb128 0x38
 	.uaword	.LVL30
-	.uaword	0x7fb6
+	.uaword	0x7fab
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x55
@@ -11668,10 +11668,10 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.uleb128 0x37
 	.uaword	.LVL17
-	.uaword	0x7fe9
+	.uaword	0x7fde
 	.uleb128 0x38
 	.uaword	.LVL18
-	.uaword	0x7481
+	.uaword	0x7476
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x64
@@ -11682,12 +11682,12 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6ce1
+	.uaword	0x6cd6
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x775a
+	.uaword	0x774f
 	.uleb128 0x1c
-	.uaword	0x6d99
+	.uaword	0x6d8e
 	.uleb128 0x31
 	.byte	0x1
 	.string	"IfxDsadc_Dsadc_initChannel"
@@ -11699,67 +11699,67 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7cba
+	.uaword	0x7caf
 	.uleb128 0x29
 	.uaword	.LASF28
 	.byte	0x1
 	.byte	0xb3
-	.uaword	0x71ba
+	.uaword	0x71af
 	.uaword	.LLST26
 	.uleb128 0x29
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0xb3
-	.uaword	0x7cba
+	.uaword	0x7caf
 	.uaword	.LLST27
 	.uleb128 0x32
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xb5
-	.uaword	0x535d
+	.uaword	0x5352
 	.uaword	.LLST28
 	.uleb128 0x34
 	.string	"pins"
 	.byte	0x1
 	.byte	0xc3
-	.uaword	0x6ed9
+	.uaword	0x6ece
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x35
-	.uaword	0x738b
+	.uaword	0x7380
 	.uaword	.LBB116
 	.uaword	.Ldebug_ranges0+0x78
 	.byte	0x1
 	.byte	0xbb
-	.uaword	0x7831
+	.uaword	0x7826
 	.uleb128 0x30
-	.uaword	0x73b2
+	.uaword	0x73a7
 	.uaword	.LLST29
 	.uleb128 0x30
-	.uaword	0x73b2
+	.uaword	0x73a7
 	.uaword	.LLST29
 	.uleb128 0x30
-	.uaword	0x73be
+	.uaword	0x73b3
 	.uaword	.LLST31
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0x78
 	.uleb128 0x3a
-	.uaword	0x73ca
+	.uaword	0x73bf
 	.uaword	.LLST32
 	.uleb128 0x3b
-	.uaword	0x73d9
+	.uaword	0x73ce
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -4
 	.uleb128 0x3a
-	.uaword	0x73e5
+	.uaword	0x73da
 	.uaword	.LLST33
 	.uleb128 0x37
 	.uaword	.LVL36
-	.uaword	0x7fe9
+	.uaword	0x7fde
 	.uleb128 0x38
 	.uaword	.LVL37
-	.uaword	0x7481
+	.uaword	0x7476
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x64
@@ -11770,160 +11770,160 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x7225
+	.uaword	0x721a
 	.uaword	.LBB127
 	.uaword	.Ldebug_ranges0+0xb0
 	.byte	0x1
 	.byte	0xbc
-	.uaword	0x7866
+	.uaword	0x785b
 	.uleb128 0x30
-	.uaword	0x724e
+	.uaword	0x7243
 	.uaword	.LLST34
 	.uleb128 0x30
-	.uaword	0x725a
+	.uaword	0x724f
 	.uaword	.LLST35
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0xb0
 	.uleb128 0x3a
-	.uaword	0x7266
+	.uaword	0x725b
 	.uaword	.LLST36
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x71cb
+	.uaword	0x71c0
 	.uaword	.LBB134
 	.uaword	.Ldebug_ranges0+0xd8
 	.byte	0x1
 	.byte	0xbd
-	.uaword	0x789b
+	.uaword	0x7890
 	.uleb128 0x30
-	.uaword	0x71f3
+	.uaword	0x71e8
 	.uaword	.LLST37
 	.uleb128 0x30
-	.uaword	0x71ff
+	.uaword	0x71f4
 	.uaword	.LLST38
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0xd8
 	.uleb128 0x3a
-	.uaword	0x720b
+	.uaword	0x7200
 	.uaword	.LLST39
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x7280
+	.uaword	0x7275
 	.uaword	.LBB142
 	.uaword	.Ldebug_ranges0+0xf8
 	.byte	0x1
 	.byte	0xbe
-	.uaword	0x78f4
+	.uaword	0x78e9
 	.uleb128 0x30
-	.uaword	0x72a7
+	.uaword	0x729c
 	.uaword	.LLST40
 	.uleb128 0x30
-	.uaword	0x72b3
+	.uaword	0x72a8
 	.uaword	.LLST41
 	.uleb128 0x30
-	.uaword	0x72b3
+	.uaword	0x72a8
 	.uaword	.LLST41
 	.uleb128 0x30
-	.uaword	0x72b3
+	.uaword	0x72a8
 	.uaword	.LLST41
 	.uleb128 0x30
-	.uaword	0x72b3
+	.uaword	0x72a8
 	.uaword	.LLST41
 	.uleb128 0x30
-	.uaword	0x72b3
+	.uaword	0x72a8
 	.uaword	.LLST41
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0xf8
 	.uleb128 0x3a
-	.uaword	0x72bf
+	.uaword	0x72b4
 	.uaword	.LLST46
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x72d9
+	.uaword	0x72ce
 	.uaword	.LBB145
 	.uaword	.Ldebug_ranges0+0x110
 	.byte	0x1
 	.byte	0xbf
-	.uaword	0x7944
+	.uaword	0x7939
 	.uleb128 0x30
-	.uaword	0x7301
+	.uaword	0x72f6
 	.uaword	.LLST47
 	.uleb128 0x30
-	.uaword	0x730d
+	.uaword	0x7302
 	.uaword	.LLST48
 	.uleb128 0x30
-	.uaword	0x730d
+	.uaword	0x7302
 	.uaword	.LLST48
 	.uleb128 0x30
-	.uaword	0x730d
+	.uaword	0x7302
 	.uaword	.LLST48
 	.uleb128 0x30
-	.uaword	0x730d
+	.uaword	0x7302
 	.uaword	.LLST48
 	.uleb128 0x2c
 	.uaword	.Ldebug_ranges0+0x110
 	.uleb128 0x3a
-	.uaword	0x7319
+	.uaword	0x730e
 	.uaword	.LLST52
 	.byte	0
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7170
+	.uaword	0x7165
 	.uaword	.LBB150
 	.uaword	.LBE150
 	.byte	0x1
 	.byte	0xc0
-	.uaword	0x79aa
+	.uaword	0x799f
 	.uleb128 0x30
-	.uaword	0x7196
+	.uaword	0x718b
 	.uaword	.LLST53
 	.uleb128 0x30
-	.uaword	0x71a1
+	.uaword	0x7196
 	.uaword	.LLST54
 	.uleb128 0x30
-	.uaword	0x71a1
+	.uaword	0x7196
 	.uaword	.LLST54
 	.uleb128 0x30
-	.uaword	0x71a1
+	.uaword	0x7196
 	.uaword	.LLST54
 	.uleb128 0x30
-	.uaword	0x71a1
+	.uaword	0x7196
 	.uaword	.LLST54
 	.uleb128 0x30
-	.uaword	0x71a1
+	.uaword	0x7196
 	.uaword	.LLST54
 	.uleb128 0x30
-	.uaword	0x71a1
+	.uaword	0x7196
 	.uaword	.LLST54
 	.uleb128 0x3d
 	.uaword	.LBB151
 	.uaword	.LBE151
 	.uleb128 0x3a
-	.uaword	0x71ac
+	.uaword	0x71a1
 	.uaword	.LLST60
 	.byte	0
 	.byte	0
 	.uleb128 0x3c
-	.uaword	0x7333
+	.uaword	0x7328
 	.uaword	.LBB152
 	.uaword	.LBE152
 	.byte	0x1
 	.byte	0xc1
-	.uaword	0x79e3
+	.uaword	0x79d8
 	.uleb128 0x30
-	.uaword	0x735a
+	.uaword	0x734f
 	.uaword	.LLST61
 	.uleb128 0x30
-	.uaword	0x7366
+	.uaword	0x735b
 	.uaword	.LLST62
 	.uleb128 0x3d
 	.uaword	.LBB153
 	.uaword	.LBE153
 	.uleb128 0x3a
-	.uaword	0x7372
+	.uaword	0x7367
 	.uaword	.LLST63
 	.byte	0
 	.byte	0
@@ -11934,74 +11934,74 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"dsn"
 	.byte	0x1
 	.byte	0xc7
-	.uaword	0x6904
+	.uaword	0x68f9
 	.uaword	.LLST64
 	.uleb128 0x2b
 	.string	"dsp"
 	.byte	0x1
 	.byte	0xce
-	.uaword	0x690a
+	.uaword	0x68ff
 	.uaword	.LLST65
 	.uleb128 0x2b
 	.string	"cin"
 	.byte	0x1
 	.byte	0xd5
-	.uaword	0x68f2
+	.uaword	0x68e7
 	.uaword	.LLST66
 	.uleb128 0x2b
 	.string	"din"
 	.byte	0x1
 	.byte	0xdc
-	.uaword	0x68f8
+	.uaword	0x68ed
 	.uaword	.LLST67
 	.uleb128 0x2b
 	.string	"itr"
 	.byte	0x1
 	.byte	0xe3
-	.uaword	0x68fe
+	.uaword	0x68f3
 	.uaword	.LLST68
 	.uleb128 0x35
-	.uaword	0x70a3
+	.uaword	0x7098
 	.uaword	.LBB155
 	.uaword	.Ldebug_ranges0+0x128
 	.byte	0x1
 	.byte	0xcb
-	.uaword	0x7ab8
+	.uaword	0x7aad
 	.uleb128 0x30
-	.uaword	0x70c1
+	.uaword	0x70b6
 	.uaword	.LLST69
 	.uleb128 0x30
-	.uaword	0x70c1
+	.uaword	0x70b6
 	.uaword	.LLST69
 	.uleb128 0x30
-	.uaword	0x70d9
+	.uaword	0x70ce
 	.uaword	.LLST71
 	.uleb128 0x30
-	.uaword	0x70cd
+	.uaword	0x70c2
 	.uaword	.LLST72
 	.uleb128 0x3e
-	.uaword	0x6fcc
+	.uaword	0x6fc1
 	.uaword	.LBB157
 	.uaword	.LBE157
 	.byte	0x2
 	.uahalf	0x2a2
-	.uaword	0x7aa7
+	.uaword	0x7a9c
 	.uleb128 0x30
-	.uaword	0x7007
+	.uaword	0x6ffc
 	.uaword	.LLST73
 	.uleb128 0x30
-	.uaword	0x6ffb
+	.uaword	0x6ff0
 	.uaword	.LLST74
 	.uleb128 0x30
-	.uaword	0x6fee
+	.uaword	0x6fe3
 	.uaword	.LLST75
 	.uleb128 0x37
 	.uaword	.LVL63
-	.uaword	0x7f88
+	.uaword	0x7f7d
 	.byte	0
 	.uleb128 0x38
 	.uaword	.LVL64
-	.uaword	0x7fb6
+	.uaword	0x7fab
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x55
@@ -12011,47 +12011,47 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x70e6
+	.uaword	0x70db
 	.uaword	.LBB161
 	.uaword	.Ldebug_ranges0+0x140
 	.byte	0x1
 	.byte	0xd2
-	.uaword	0x7b39
+	.uaword	0x7b2e
 	.uleb128 0x30
-	.uaword	0x7104
+	.uaword	0x70f9
 	.uaword	.LLST76
 	.uleb128 0x30
-	.uaword	0x7104
+	.uaword	0x70f9
 	.uaword	.LLST76
 	.uleb128 0x30
-	.uaword	0x711c
+	.uaword	0x7111
 	.uaword	.LLST78
 	.uleb128 0x30
-	.uaword	0x7110
+	.uaword	0x7105
 	.uaword	.LLST79
 	.uleb128 0x3e
-	.uaword	0x6fcc
+	.uaword	0x6fc1
 	.uaword	.LBB163
 	.uaword	.LBE163
 	.byte	0x2
 	.uahalf	0x2ac
-	.uaword	0x7b28
+	.uaword	0x7b1d
 	.uleb128 0x30
-	.uaword	0x7007
+	.uaword	0x6ffc
 	.uaword	.LLST80
 	.uleb128 0x30
-	.uaword	0x6ffb
+	.uaword	0x6ff0
 	.uaword	.LLST81
 	.uleb128 0x30
-	.uaword	0x6fee
+	.uaword	0x6fe3
 	.uaword	.LLST82
 	.uleb128 0x37
 	.uaword	.LVL68
-	.uaword	0x7f88
+	.uaword	0x7f7d
 	.byte	0
 	.uleb128 0x38
 	.uaword	.LVL69
-	.uaword	0x7fb6
+	.uaword	0x7fab
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x55
@@ -12061,47 +12061,47 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x7015
+	.uaword	0x700a
 	.uaword	.LBB167
 	.uaword	.Ldebug_ranges0+0x158
 	.byte	0x1
 	.byte	0xd9
-	.uaword	0x7bba
+	.uaword	0x7baf
 	.uleb128 0x30
-	.uaword	0x7033
+	.uaword	0x7028
 	.uaword	.LLST83
 	.uleb128 0x30
-	.uaword	0x7033
+	.uaword	0x7028
 	.uaword	.LLST83
 	.uleb128 0x30
-	.uaword	0x704f
+	.uaword	0x7044
 	.uaword	.LLST85
 	.uleb128 0x30
-	.uaword	0x703f
+	.uaword	0x7034
 	.uaword	.LLST86
 	.uleb128 0x3e
-	.uaword	0x6fcc
+	.uaword	0x6fc1
 	.uaword	.LBB169
 	.uaword	.LBE169
 	.byte	0x2
 	.uahalf	0x284
-	.uaword	0x7ba9
+	.uaword	0x7b9e
 	.uleb128 0x30
-	.uaword	0x7007
+	.uaword	0x6ffc
 	.uaword	.LLST87
 	.uleb128 0x30
-	.uaword	0x6ffb
+	.uaword	0x6ff0
 	.uaword	.LLST88
 	.uleb128 0x30
-	.uaword	0x6fee
+	.uaword	0x6fe3
 	.uaword	.LLST89
 	.uleb128 0x37
 	.uaword	.LVL73
-	.uaword	0x7f88
+	.uaword	0x7f7d
 	.byte	0
 	.uleb128 0x38
 	.uaword	.LVL74
-	.uaword	0x7fb6
+	.uaword	0x7fab
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x55
@@ -12111,47 +12111,47 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x35
-	.uaword	0x705c
+	.uaword	0x7051
 	.uaword	.LBB173
 	.uaword	.Ldebug_ranges0+0x170
 	.byte	0x1
 	.byte	0xe0
-	.uaword	0x7c3b
+	.uaword	0x7c30
 	.uleb128 0x30
-	.uaword	0x707a
+	.uaword	0x706f
 	.uaword	.LLST90
 	.uleb128 0x30
-	.uaword	0x707a
+	.uaword	0x706f
 	.uaword	.LLST90
 	.uleb128 0x30
-	.uaword	0x7096
+	.uaword	0x708b
 	.uaword	.LLST92
 	.uleb128 0x30
-	.uaword	0x7086
+	.uaword	0x707b
 	.uaword	.LLST93
 	.uleb128 0x3e
-	.uaword	0x6fcc
+	.uaword	0x6fc1
 	.uaword	.LBB175
 	.uaword	.LBE175
 	.byte	0x2
 	.uahalf	0x298
-	.uaword	0x7c2a
+	.uaword	0x7c1f
 	.uleb128 0x30
-	.uaword	0x7007
+	.uaword	0x6ffc
 	.uaword	.LLST94
 	.uleb128 0x30
-	.uaword	0x6ffb
+	.uaword	0x6ff0
 	.uaword	.LLST95
 	.uleb128 0x30
-	.uaword	0x6fee
+	.uaword	0x6fe3
 	.uaword	.LLST96
 	.uleb128 0x37
 	.uaword	.LVL78
-	.uaword	0x7f88
+	.uaword	0x7f7d
 	.byte	0
 	.uleb128 0x38
 	.uaword	.LVL79
-	.uaword	0x7fb6
+	.uaword	0x7fab
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x55
@@ -12161,46 +12161,46 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.byte	0
 	.uleb128 0x3f
-	.uaword	0x7129
+	.uaword	0x711e
 	.uaword	.LBB179
 	.uaword	.Ldebug_ranges0+0x188
 	.byte	0x1
 	.byte	0xe7
 	.uleb128 0x30
-	.uaword	0x7147
+	.uaword	0x713c
 	.uaword	.LLST97
 	.uleb128 0x30
-	.uaword	0x7147
+	.uaword	0x713c
 	.uaword	.LLST97
 	.uleb128 0x30
-	.uaword	0x7163
+	.uaword	0x7158
 	.uaword	.LLST99
 	.uleb128 0x30
-	.uaword	0x7153
+	.uaword	0x7148
 	.uaword	.LLST100
 	.uleb128 0x3e
-	.uaword	0x6fcc
+	.uaword	0x6fc1
 	.uaword	.LBB181
 	.uaword	.LBE181
 	.byte	0x2
 	.uahalf	0x2b6
-	.uaword	0x7ca7
+	.uaword	0x7c9c
 	.uleb128 0x30
-	.uaword	0x7007
+	.uaword	0x6ffc
 	.uaword	.LLST101
 	.uleb128 0x30
-	.uaword	0x6ffb
+	.uaword	0x6ff0
 	.uaword	.LLST102
 	.uleb128 0x30
-	.uaword	0x6fee
+	.uaword	0x6fe3
 	.uaword	.LLST103
 	.uleb128 0x37
 	.uaword	.LVL83
-	.uaword	0x7f88
+	.uaword	0x7f7d
 	.byte	0
 	.uleb128 0x38
 	.uaword	.LVL84
-	.uaword	0x7fb6
+	.uaword	0x7fab
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x55
@@ -12213,9 +12213,9 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x7cc0
+	.uaword	0x7cb5
 	.uleb128 0x1c
-	.uaword	0x6ee4
+	.uaword	0x6ed9
 	.uleb128 0x31
 	.byte	0x1
 	.string	"IfxDsadc_Dsadc_initChannelConfig"
@@ -12227,26 +12227,26 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7d81
+	.uaword	0x7d76
 	.uleb128 0x2a
 	.uaword	.LASF40
 	.byte	0x1
 	.byte	0xed
-	.uaword	0x7d81
+	.uaword	0x7d76
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x2a
 	.uaword	.LASF36
 	.byte	0x1
 	.byte	0xed
-	.uaword	0x774e
+	.uaword	0x7743
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x40
 	.string	"IfxDsadc_Dsadc_defaultChannelConfig"
 	.byte	0x1
 	.byte	0xef
-	.uaword	0x7cc0
+	.uaword	0x7cb5
 	.byte	0x40
 	.byte	0
 	.byte	0
@@ -12315,7 +12315,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6ee4
+	.uaword	0x6ed9
 	.uleb128 0x41
 	.byte	0x1
 	.string	"IfxDsadc_Dsadc_initModule"
@@ -12327,24 +12327,24 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7e54
+	.uaword	0x7e49
 	.uleb128 0x42
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x18f
-	.uaword	0x774e
+	.uaword	0x7743
 	.uaword	.LLST104
 	.uleb128 0x42
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x18f
-	.uaword	0x7e54
+	.uaword	0x7e49
 	.uaword	.LLST105
 	.uleb128 0x43
 	.string	"dsadcSFR"
 	.byte	0x1
 	.uahalf	0x191
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0x1
 	.byte	0x6f
 	.uleb128 0x3d
@@ -12354,27 +12354,27 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.string	"passwd"
 	.byte	0x1
 	.uahalf	0x196
-	.uaword	0x24b
+	.uaword	0x240
 	.uaword	.LLST106
 	.uleb128 0x45
 	.uaword	.LBB186
 	.uaword	.LBE186
-	.uaword	0x7e25
+	.uaword	0x7e1a
 	.uleb128 0x43
 	.string	"globcfg"
 	.byte	0x1
 	.uahalf	0x1a0
-	.uaword	0x4c4c
+	.uaword	0x4c41
 	.byte	0x1
 	.byte	0x5f
 	.byte	0
 	.uleb128 0x37
 	.uaword	.LVL88
-	.uaword	0x8022
+	.uaword	0x8017
 	.uleb128 0x46
 	.uaword	.LVL90
-	.uaword	0x804e
-	.uaword	0x7e42
+	.uaword	0x8043
+	.uaword	0x7e37
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x54
@@ -12384,7 +12384,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.uleb128 0x38
 	.uaword	.LVL91
-	.uaword	0x8078
+	.uaword	0x806d
 	.uleb128 0x39
 	.byte	0x1
 	.byte	0x54
@@ -12396,9 +12396,9 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x7e5a
+	.uaword	0x7e4f
 	.uleb128 0x1c
-	.uaword	0x6f56
+	.uaword	0x6f4b
 	.uleb128 0x41
 	.byte	0x1
 	.string	"IfxDsadc_Dsadc_initModuleConfig"
@@ -12410,26 +12410,26 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7ee5
+	.uaword	0x7eda
 	.uleb128 0x47
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x1ad
-	.uaword	0x7ee5
+	.uaword	0x7eda
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x47
 	.uaword	.LASF36
 	.byte	0x1
 	.uahalf	0x1ad
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x43
 	.string	"IfxDsadc_Dsadc_defaultConfig"
 	.byte	0x1
 	.uahalf	0x1af
-	.uaword	0x7e5a
+	.uaword	0x7e4f
 	.byte	0xe
 	.byte	0x30
 	.byte	0x9f
@@ -12448,7 +12448,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6f56
+	.uaword	0x6f4b
 	.uleb128 0x41
 	.byte	0x1
 	.string	"IfxDsadc_Dsadc_initCarrierGenConfig"
@@ -12460,39 +12460,39 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x7f33
+	.uaword	0x7f28
 	.uleb128 0x47
 	.uaword	.LASF40
 	.byte	0x1
 	.uahalf	0x1c7
-	.uaword	0x7f33
+	.uaword	0x7f28
 	.byte	0x1
 	.byte	0x64
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x6d99
+	.uaword	0x6d8e
 	.uleb128 0xb
-	.uaword	0x39a
-	.uaword	0x7f49
+	.uaword	0x38f
+	.uaword	0x7f3e
 	.uleb128 0xc
-	.uaword	0x3c4
+	.uaword	0x3b9
 	.byte	0x2
 	.byte	0
 	.uleb128 0x48
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xa
 	.byte	0x96
-	.uaword	0x7f66
+	.uaword	0x7f5b
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x1c
-	.uaword	0x7f39
+	.uaword	0x7f2e
 	.uleb128 0x48
 	.string	"Assert_verboseLevel"
 	.byte	0xb
 	.byte	0x79
-	.uaword	0x27d
+	.uaword	0x272
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x49
@@ -12502,13 +12502,13 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x7fb6
+	.uaword	0x7fab
 	.uleb128 0x4a
-	.uaword	0x26d3
+	.uaword	0x26c8
 	.uleb128 0x4a
-	.uaword	0x212
+	.uaword	0x207
 	.uleb128 0x4a
-	.uaword	0x2a12
+	.uaword	0x2a07
 	.byte	0
 	.uleb128 0x49
 	.byte	0x1
@@ -12517,13 +12517,13 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0x172
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x7fe9
+	.uaword	0x7fde
 	.uleb128 0x4a
-	.uaword	0x26d3
+	.uaword	0x26c8
 	.uleb128 0x4a
-	.uaword	0x212
+	.uaword	0x207
 	.uleb128 0x4a
-	.uaword	0x2d1e
+	.uaword	0x2d13
 	.byte	0
 	.uleb128 0x4b
 	.byte	0x1
@@ -12531,11 +12531,11 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x2
 	.uahalf	0x1ff
 	.byte	0x1
-	.uaword	0x28b
+	.uaword	0x280
 	.byte	0x1
-	.uaword	0x8022
+	.uaword	0x8017
 	.uleb128 0x4a
-	.uaword	0x535d
+	.uaword	0x5352
 	.byte	0
 	.uleb128 0x4c
 	.byte	0x1
@@ -12543,7 +12543,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0xc
 	.uahalf	0x16d
 	.byte	0x1
-	.uaword	0x24b
+	.uaword	0x240
 	.byte	0x1
 	.uleb128 0x4d
 	.byte	0x1
@@ -12552,9 +12552,9 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0xc5
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x8078
+	.uaword	0x806d
 	.uleb128 0x4a
-	.uaword	0x24b
+	.uaword	0x240
 	.byte	0
 	.uleb128 0x4e
 	.byte	0x1
@@ -12564,7 +12564,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x4a
-	.uaword	0x24b
+	.uaword	0x240
 	.byte	0
 	.byte	0
 .section .debug_abbrev,"",@progbits
@@ -13704,7 +13704,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL10
 	.uaword	.LVL11
@@ -13717,7 +13717,7 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -13788,13 +13788,13 @@ IfxDsadc_Dsadc_initCarrierGenConfig:
 	.uahalf	0xe
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x75
 	.sleb128 -2
 	.byte	0xf7
-	.uleb128 0x1db
+	.uleb128 0x1d0
 	.byte	0xf7
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL10

@@ -2732,7 +2732,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.file 16 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Assert.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x20519
+	.uaword	0x2050e
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -2740,7 +2740,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Gtm/Atom/PwmHl/IfxGtm_Atom_PwmHl.c"
-	.string	"C:\\\\Users\\\\boldasl\\\\SEUNGHO\\\\Workspace\\\\GitHub\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\Jimmy\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0x6e8
 	.uaword	0
 	.uaword	0
@@ -2765,7 +2765,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"sint8"
 	.byte	0x4
 	.byte	0x58
-	.uaword	0x216
+	.uaword	0x20b
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
@@ -2774,7 +2774,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"uint8"
 	.byte	0x4
 	.byte	0x59
-	.uaword	0x232
+	.uaword	0x227
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x8
@@ -2787,7 +2787,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"uint16"
 	.byte	0x4
 	.byte	0x5b
-	.uaword	0x25e
+	.uaword	0x253
 	.uleb128 0x2
 	.byte	0x2
 	.byte	0x7
@@ -2796,12 +2796,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"uint32"
 	.byte	0x4
 	.byte	0x5d
-	.uaword	0x1ed
+	.uaword	0x1e2
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x4
 	.byte	0x5e
-	.uaword	0x1d8
+	.uaword	0x1cd
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -2810,7 +2810,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"boolean"
 	.byte	0x4
 	.byte	0x68
-	.uaword	0x232
+	.uaword	0x227
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x5
@@ -2823,12 +2823,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"pchar"
 	.byte	0x5
 	.byte	0x27
-	.uaword	0x2e2
+	.uaword	0x2d7
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2e8
+	.uaword	0x2dd
 	.uleb128 0x5
-	.uaword	0x2ed
+	.uaword	0x2e2
 	.uleb128 0x2
 	.byte	0x1
 	.byte	0x6
@@ -2839,12 +2839,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_TimerValue"
 	.byte	0x5
 	.byte	0x57
-	.uaword	0x274
+	.uaword	0x269
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x5
 	.byte	0x64
-	.uaword	0x343
+	.uaword	0x338
 	.uleb128 0x8
 	.string	"Ifx_ActiveState_low"
 	.sleb128 0
@@ -2856,12 +2856,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_ActiveState"
 	.byte	0x5
 	.byte	0x67
-	.uaword	0x30d
+	.uaword	0x302
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x5
 	.byte	0xa2
-	.uaword	0x418
+	.uaword	0x40d
 	.uleb128 0x8
 	.string	"Ifx_Pwm_Mode_centerAligned"
 	.sleb128 0
@@ -2888,12 +2888,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_Pwm_Mode"
 	.byte	0x5
 	.byte	0xaa
-	.uaword	0x35a
+	.uaword	0x34f
 	.uleb128 0x3
 	.string	"IfxStdIf_InterfaceDriver"
 	.byte	0x6
 	.byte	0x62
-	.uaword	0x2f5
+	.uaword	0x2ea
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -2903,129 +2903,129 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x478
+	.uaword	0x227
+	.uaword	0x46d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0xb
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x488
+	.uaword	0x227
+	.uaword	0x47d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x27
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x498
+	.uaword	0x227
+	.uaword	0x48d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0xf
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x4a8
+	.uaword	0x227
+	.uaword	0x49d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x17
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x4b8
+	.uaword	0x227
+	.uaword	0x4ad
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x4c8
+	.uaword	0x227
+	.uaword	0x4bd
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x7
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x4d8
+	.uaword	0x227
+	.uaword	0x4cd
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x57
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x4e8
+	.uaword	0x227
+	.uaword	0x4dd
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x5f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x4f8
+	.uaword	0x227
+	.uaword	0x4ed
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x2f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x508
+	.uaword	0x227
+	.uaword	0x4fd
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x37
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x518
+	.uaword	0x227
+	.uaword	0x50d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x1b
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x528
+	.uaword	0x227
+	.uaword	0x51d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x67
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x538
+	.uaword	0x227
+	.uaword	0x52d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x1f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x548
+	.uaword	0x227
+	.uaword	0x53d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3b
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x558
+	.uaword	0x227
+	.uaword	0x54d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x568
+	.uaword	0x227
+	.uaword	0x55d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x8f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x578
+	.uaword	0x227
+	.uaword	0x56d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x2b
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x588
+	.uaword	0x227
+	.uaword	0x57d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0xaf
 	.byte	0
 	.uleb128 0xb
@@ -3033,12 +3033,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x4
 	.byte	0x7
 	.byte	0x2d
-	.uaword	0x79a
+	.uaword	0x78f
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0x7
 	.byte	0x2f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3047,7 +3047,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN1"
 	.byte	0x7
 	.byte	0x30
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3056,7 +3056,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN2"
 	.byte	0x7
 	.byte	0x31
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3065,7 +3065,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN3"
 	.byte	0x7
 	.byte	0x32
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3074,7 +3074,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN4"
 	.byte	0x7
 	.byte	0x33
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3083,7 +3083,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN5"
 	.byte	0x7
 	.byte	0x34
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3092,7 +3092,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN6"
 	.byte	0x7
 	.byte	0x35
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3101,7 +3101,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN7"
 	.byte	0x7
 	.byte	0x36
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3110,7 +3110,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN8"
 	.byte	0x7
 	.byte	0x37
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3119,7 +3119,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN9"
 	.byte	0x7
 	.byte	0x38
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3128,7 +3128,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN10"
 	.byte	0x7
 	.byte	0x39
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3137,7 +3137,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN11"
 	.byte	0x7
 	.byte	0x3a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3146,7 +3146,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN12"
 	.byte	0x7
 	.byte	0x3b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3155,7 +3155,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN13"
 	.byte	0x7
 	.byte	0x3c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3164,7 +3164,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN14"
 	.byte	0x7
 	.byte	0x3d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3173,7 +3173,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN15"
 	.byte	0x7
 	.byte	0x3e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3182,7 +3182,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN16"
 	.byte	0x7
 	.byte	0x3f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -3191,7 +3191,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN17"
 	.byte	0x7
 	.byte	0x40
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -3200,7 +3200,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN18"
 	.byte	0x7
 	.byte	0x41
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -3209,7 +3209,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN19"
 	.byte	0x7
 	.byte	0x42
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -3218,7 +3218,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN20"
 	.byte	0x7
 	.byte	0x43
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -3227,7 +3227,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN21"
 	.byte	0x7
 	.byte	0x44
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -3236,7 +3236,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN22"
 	.byte	0x7
 	.byte	0x45
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -3245,7 +3245,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN23"
 	.byte	0x7
 	.byte	0x46
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -3254,7 +3254,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN24"
 	.byte	0x7
 	.byte	0x47
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -3263,7 +3263,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN25"
 	.byte	0x7
 	.byte	0x48
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -3272,7 +3272,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN26"
 	.byte	0x7
 	.byte	0x49
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -3281,7 +3281,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN27"
 	.byte	0x7
 	.byte	0x4a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -3290,7 +3290,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN28"
 	.byte	0x7
 	.byte	0x4b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -3299,7 +3299,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN29"
 	.byte	0x7
 	.byte	0x4c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -3308,7 +3308,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN30"
 	.byte	0x7
 	.byte	0x4d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -3317,7 +3317,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN31"
 	.byte	0x7
 	.byte	0x4e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -3327,18 +3327,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_ACCEN0_Bits"
 	.byte	0x7
 	.byte	0x4f
-	.uaword	0x588
+	.uaword	0x57d
 	.uleb128 0xb
 	.string	"_Ifx_P_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x52
-	.uaword	0x7de
+	.uaword	0x7d3
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0x54
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -3348,18 +3348,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_ACCEN1_Bits"
 	.byte	0x7
 	.byte	0x55
-	.uaword	0x7b3
+	.uaword	0x7a8
 	.uleb128 0xb
 	.string	"_Ifx_P_ESR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x58
-	.uaword	0x915
+	.uaword	0x90a
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0x7
 	.byte	0x5a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3368,7 +3368,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN1"
 	.byte	0x7
 	.byte	0x5b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3377,7 +3377,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN2"
 	.byte	0x7
 	.byte	0x5c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3386,7 +3386,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN3"
 	.byte	0x7
 	.byte	0x5d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3395,7 +3395,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN4"
 	.byte	0x7
 	.byte	0x5e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3404,7 +3404,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN5"
 	.byte	0x7
 	.byte	0x5f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3413,7 +3413,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN6"
 	.byte	0x7
 	.byte	0x60
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3422,7 +3422,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN7"
 	.byte	0x7
 	.byte	0x61
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3431,7 +3431,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN8"
 	.byte	0x7
 	.byte	0x62
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3440,7 +3440,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN9"
 	.byte	0x7
 	.byte	0x63
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3449,7 +3449,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN10"
 	.byte	0x7
 	.byte	0x64
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3458,7 +3458,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN11"
 	.byte	0x7
 	.byte	0x65
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3467,7 +3467,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN12"
 	.byte	0x7
 	.byte	0x66
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3476,7 +3476,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN13"
 	.byte	0x7
 	.byte	0x67
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3485,7 +3485,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN14"
 	.byte	0x7
 	.byte	0x68
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3494,7 +3494,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN15"
 	.byte	0x7
 	.byte	0x69
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3503,7 +3503,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0x6a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3513,18 +3513,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_ESR_Bits"
 	.byte	0x7
 	.byte	0x6b
-	.uaword	0x7f7
+	.uaword	0x7ec
 	.uleb128 0xb
 	.string	"_Ifx_P_ID_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x6e
-	.uaword	0x97d
+	.uaword	0x972
 	.uleb128 0xc
 	.string	"MODREV"
 	.byte	0x7
 	.byte	0x70
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -3533,7 +3533,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODTYPE"
 	.byte	0x7
 	.byte	0x71
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -3542,7 +3542,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODNUMBER"
 	.byte	0x7
 	.byte	0x72
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3552,18 +3552,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_ID_Bits"
 	.byte	0x7
 	.byte	0x73
-	.uaword	0x92b
+	.uaword	0x920
 	.uleb128 0xb
 	.string	"_Ifx_P_IN_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x76
-	.uaword	0xa9f
+	.uaword	0xa94
 	.uleb128 0xc
 	.string	"P0"
 	.byte	0x7
 	.byte	0x78
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -3572,7 +3572,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P1"
 	.byte	0x7
 	.byte	0x79
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -3581,7 +3581,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P2"
 	.byte	0x7
 	.byte	0x7a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -3590,7 +3590,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P3"
 	.byte	0x7
 	.byte	0x7b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -3599,7 +3599,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P4"
 	.byte	0x7
 	.byte	0x7c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -3608,7 +3608,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P5"
 	.byte	0x7
 	.byte	0x7d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -3617,7 +3617,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P6"
 	.byte	0x7
 	.byte	0x7e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -3626,7 +3626,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P7"
 	.byte	0x7
 	.byte	0x7f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -3635,7 +3635,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P8"
 	.byte	0x7
 	.byte	0x80
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -3644,7 +3644,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P9"
 	.byte	0x7
 	.byte	0x81
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -3653,7 +3653,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P10"
 	.byte	0x7
 	.byte	0x82
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -3662,7 +3662,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P11"
 	.byte	0x7
 	.byte	0x83
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -3671,7 +3671,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P12"
 	.byte	0x7
 	.byte	0x84
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -3680,7 +3680,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P13"
 	.byte	0x7
 	.byte	0x85
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -3689,7 +3689,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P14"
 	.byte	0x7
 	.byte	0x86
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -3698,7 +3698,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P15"
 	.byte	0x7
 	.byte	0x87
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -3707,7 +3707,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0x88
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -3717,18 +3717,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_IN_Bits"
 	.byte	0x7
 	.byte	0x89
-	.uaword	0x992
+	.uaword	0x987
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8c
-	.uaword	0xb47
+	.uaword	0xb3c
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0x8e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3737,7 +3737,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC0"
 	.byte	0x7
 	.byte	0x8f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -3746,7 +3746,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0x90
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -3755,7 +3755,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC1"
 	.byte	0x7
 	.byte	0x91
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -3764,7 +3764,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0x92
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3773,7 +3773,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC2"
 	.byte	0x7
 	.byte	0x93
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -3782,7 +3782,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0x7
 	.byte	0x94
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -3791,7 +3791,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC3"
 	.byte	0x7
 	.byte	0x95
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -3801,18 +3801,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_IOCR0_Bits"
 	.byte	0x7
 	.byte	0x96
-	.uaword	0xab4
+	.uaword	0xaa9
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR12_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0x99
-	.uaword	0xbf7
+	.uaword	0xbec
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0x9b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3821,7 +3821,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC12"
 	.byte	0x7
 	.byte	0x9c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -3830,7 +3830,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0x9d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -3839,7 +3839,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC13"
 	.byte	0x7
 	.byte	0x9e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -3848,7 +3848,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0x9f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3857,7 +3857,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC14"
 	.byte	0x7
 	.byte	0xa0
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -3866,7 +3866,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0x7
 	.byte	0xa1
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -3875,7 +3875,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC15"
 	.byte	0x7
 	.byte	0xa2
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -3885,18 +3885,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_IOCR12_Bits"
 	.byte	0x7
 	.byte	0xa3
-	.uaword	0xb5f
+	.uaword	0xb54
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xa6
-	.uaword	0xca3
+	.uaword	0xc98
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0xa8
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3905,7 +3905,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC4"
 	.byte	0x7
 	.byte	0xa9
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -3914,7 +3914,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xaa
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -3923,7 +3923,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC5"
 	.byte	0x7
 	.byte	0xab
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -3932,7 +3932,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0xac
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -3941,7 +3941,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC6"
 	.byte	0x7
 	.byte	0xad
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -3950,7 +3950,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0x7
 	.byte	0xae
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -3959,7 +3959,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC7"
 	.byte	0x7
 	.byte	0xaf
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -3969,18 +3969,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_IOCR4_Bits"
 	.byte	0x7
 	.byte	0xb0
-	.uaword	0xc10
+	.uaword	0xc05
 	.uleb128 0xb
 	.string	"_Ifx_P_IOCR8_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xb3
-	.uaword	0xd50
+	.uaword	0xd45
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0xb5
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -3989,7 +3989,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC8"
 	.byte	0x7
 	.byte	0xb6
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -3998,7 +3998,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xb7
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -4007,7 +4007,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC9"
 	.byte	0x7
 	.byte	0xb8
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -4016,7 +4016,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0xb9
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -4025,7 +4025,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC10"
 	.byte	0x7
 	.byte	0xba
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x8
@@ -4034,7 +4034,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0x7
 	.byte	0xbb
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -4043,7 +4043,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PC11"
 	.byte	0x7
 	.byte	0xbc
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -4053,18 +4053,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_IOCR8_Bits"
 	.byte	0x7
 	.byte	0xbd
-	.uaword	0xcbb
+	.uaword	0xcb0
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xc0
-	.uaword	0xdb0
+	.uaword	0xda5
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0xc2
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4073,7 +4073,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS1"
 	.byte	0x7
 	.byte	0xc3
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4082,7 +4082,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0x7
 	.byte	0xc4
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -4092,18 +4092,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_LPCR0_Bits"
 	.byte	0x7
 	.byte	0xc5
-	.uaword	0xd68
+	.uaword	0xd5d
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xc8
-	.uaword	0xe10
+	.uaword	0xe05
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0xca
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4112,7 +4112,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS1"
 	.byte	0x7
 	.byte	0xcb
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4121,7 +4121,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0x7
 	.byte	0xcc
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -4131,18 +4131,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_LPCR1_Bits"
 	.byte	0x7
 	.byte	0xcd
-	.uaword	0xdc8
+	.uaword	0xdbd
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR1_P21_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xd0
-	.uaword	0xea0
+	.uaword	0xe95
 	.uleb128 0xc
 	.string	"RDIS_CTRL"
 	.byte	0x7
 	.byte	0xd2
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4151,7 +4151,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RX_DIS"
 	.byte	0x7
 	.byte	0xd3
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4160,7 +4160,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TERM"
 	.byte	0x7
 	.byte	0xd4
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4169,7 +4169,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LRXTERM"
 	.byte	0x7
 	.byte	0xd5
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x5
 	.byte	0x18
@@ -4178,7 +4178,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0x7
 	.byte	0xd6
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -4188,18 +4188,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_LPCR1_P21_Bits"
 	.byte	0x7
 	.byte	0xd7
-	.uaword	0xe28
+	.uaword	0xe1d
 	.uleb128 0xb
 	.string	"_Ifx_P_LPCR2_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xda
-	.uaword	0xf73
+	.uaword	0xf68
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0xdc
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -4208,7 +4208,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LVDSR"
 	.byte	0x7
 	.byte	0xdd
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4217,7 +4217,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LVDSRL"
 	.byte	0x7
 	.byte	0xde
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4226,7 +4226,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0x7
 	.byte	0xdf
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -4235,7 +4235,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TDIS_CTRL"
 	.byte	0x7
 	.byte	0xe0
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4244,7 +4244,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TX_DIS"
 	.byte	0x7
 	.byte	0xe1
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4253,7 +4253,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TX_PD"
 	.byte	0x7
 	.byte	0xe2
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4262,7 +4262,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TX_PWDPD"
 	.byte	0x7
 	.byte	0xe3
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4271,7 +4271,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.byte	0xe4
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -4281,18 +4281,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_LPCR2_Bits"
 	.byte	0x7
 	.byte	0xe5
-	.uaword	0xebc
+	.uaword	0xeb1
 	.uleb128 0xb
 	.string	"_Ifx_P_OMCR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xe8
-	.uaword	0x1004
+	.uaword	0xff9
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0xea
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -4301,7 +4301,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL0"
 	.byte	0x7
 	.byte	0xeb
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4310,7 +4310,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL1"
 	.byte	0x7
 	.byte	0xec
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4319,7 +4319,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL2"
 	.byte	0x7
 	.byte	0xed
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4328,7 +4328,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL3"
 	.byte	0x7
 	.byte	0xee
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4337,7 +4337,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF6
 	.byte	0x7
 	.byte	0xef
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -4347,18 +4347,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMCR0_Bits"
 	.byte	0x7
 	.byte	0xf0
-	.uaword	0xf8b
+	.uaword	0xf80
 	.uleb128 0xb
 	.string	"_Ifx_P_OMCR12_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xf3
-	.uaword	0x108b
+	.uaword	0x1080
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0xf5
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1c
 	.byte	0x4
@@ -4367,7 +4367,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL12"
 	.byte	0x7
 	.byte	0xf6
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4376,7 +4376,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL13"
 	.byte	0x7
 	.byte	0xf7
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4385,7 +4385,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL14"
 	.byte	0x7
 	.byte	0xf8
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4394,7 +4394,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL15"
 	.byte	0x7
 	.byte	0xf9
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4404,18 +4404,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMCR12_Bits"
 	.byte	0x7
 	.byte	0xfa
-	.uaword	0x101c
+	.uaword	0x1011
 	.uleb128 0xb
 	.string	"_Ifx_P_OMCR4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.byte	0xfd
-	.uaword	0x1122
+	.uaword	0x1117
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0x7
 	.byte	0xff
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -4424,7 +4424,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL4"
 	.byte	0x7
 	.uahalf	0x100
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4433,7 +4433,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL5"
 	.byte	0x7
 	.uahalf	0x101
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4442,7 +4442,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL6"
 	.byte	0x7
 	.uahalf	0x102
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -4451,7 +4451,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL7"
 	.byte	0x7
 	.uahalf	0x103
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4460,7 +4460,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0x7
 	.uahalf	0x104
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -4470,18 +4470,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMCR4_Bits"
 	.byte	0x7
 	.uahalf	0x105
-	.uaword	0x10a4
+	.uaword	0x1099
 	.uleb128 0x11
 	.string	"_Ifx_P_OMCR8_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x108
-	.uaword	0x11bd
+	.uaword	0x11b2
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x10a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -4490,7 +4490,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL8"
 	.byte	0x7
 	.uahalf	0x10b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4499,7 +4499,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL9"
 	.byte	0x7
 	.uahalf	0x10c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4508,7 +4508,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL10"
 	.byte	0x7
 	.uahalf	0x10d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4517,7 +4517,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL11"
 	.byte	0x7
 	.uahalf	0x10e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4526,7 +4526,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF7
 	.byte	0x7
 	.uahalf	0x10f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -4536,18 +4536,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMCR8_Bits"
 	.byte	0x7
 	.uahalf	0x110
-	.uaword	0x113b
+	.uaword	0x1130
 	.uleb128 0x11
 	.string	"_Ifx_P_OMCR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x113
-	.uaword	0x1317
+	.uaword	0x130c
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x115
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -4556,7 +4556,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL0"
 	.byte	0x7
 	.uahalf	0x116
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4565,7 +4565,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL1"
 	.byte	0x7
 	.uahalf	0x117
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4574,7 +4574,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL2"
 	.byte	0x7
 	.uahalf	0x118
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4583,7 +4583,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL3"
 	.byte	0x7
 	.uahalf	0x119
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4592,7 +4592,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL4"
 	.byte	0x7
 	.uahalf	0x11a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4601,7 +4601,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL5"
 	.byte	0x7
 	.uahalf	0x11b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4610,7 +4610,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL6"
 	.byte	0x7
 	.uahalf	0x11c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -4619,7 +4619,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL7"
 	.byte	0x7
 	.uahalf	0x11d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4628,7 +4628,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL8"
 	.byte	0x7
 	.uahalf	0x11e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4637,7 +4637,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL9"
 	.byte	0x7
 	.uahalf	0x11f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4646,7 +4646,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL10"
 	.byte	0x7
 	.uahalf	0x120
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4655,7 +4655,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL11"
 	.byte	0x7
 	.uahalf	0x121
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4664,7 +4664,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL12"
 	.byte	0x7
 	.uahalf	0x122
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4673,7 +4673,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL13"
 	.byte	0x7
 	.uahalf	0x123
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4682,7 +4682,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL14"
 	.byte	0x7
 	.uahalf	0x124
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4691,7 +4691,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL15"
 	.byte	0x7
 	.uahalf	0x125
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -4701,18 +4701,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMCR_Bits"
 	.byte	0x7
 	.uahalf	0x126
-	.uaword	0x11d6
+	.uaword	0x11cb
 	.uleb128 0x11
 	.string	"_Ifx_P_OMR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x129
-	.uaword	0x1565
+	.uaword	0x155a
 	.uleb128 0xe
 	.string	"PS0"
 	.byte	0x7
 	.uahalf	0x12b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -4721,7 +4721,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS1"
 	.byte	0x7
 	.uahalf	0x12c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -4730,7 +4730,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS2"
 	.byte	0x7
 	.uahalf	0x12d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -4739,7 +4739,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS3"
 	.byte	0x7
 	.uahalf	0x12e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -4748,7 +4748,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS4"
 	.byte	0x7
 	.uahalf	0x12f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -4757,7 +4757,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS5"
 	.byte	0x7
 	.uahalf	0x130
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -4766,7 +4766,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS6"
 	.byte	0x7
 	.uahalf	0x131
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -4775,7 +4775,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS7"
 	.byte	0x7
 	.uahalf	0x132
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -4784,7 +4784,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS8"
 	.byte	0x7
 	.uahalf	0x133
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -4793,7 +4793,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS9"
 	.byte	0x7
 	.uahalf	0x134
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -4802,7 +4802,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS10"
 	.byte	0x7
 	.uahalf	0x135
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -4811,7 +4811,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS11"
 	.byte	0x7
 	.uahalf	0x136
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -4820,7 +4820,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS12"
 	.byte	0x7
 	.uahalf	0x137
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -4829,7 +4829,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS13"
 	.byte	0x7
 	.uahalf	0x138
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -4838,7 +4838,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS14"
 	.byte	0x7
 	.uahalf	0x139
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -4847,7 +4847,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS15"
 	.byte	0x7
 	.uahalf	0x13a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -4856,7 +4856,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL0"
 	.byte	0x7
 	.uahalf	0x13b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -4865,7 +4865,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL1"
 	.byte	0x7
 	.uahalf	0x13c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -4874,7 +4874,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL2"
 	.byte	0x7
 	.uahalf	0x13d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -4883,7 +4883,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL3"
 	.byte	0x7
 	.uahalf	0x13e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -4892,7 +4892,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL4"
 	.byte	0x7
 	.uahalf	0x13f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -4901,7 +4901,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL5"
 	.byte	0x7
 	.uahalf	0x140
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -4910,7 +4910,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL6"
 	.byte	0x7
 	.uahalf	0x141
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -4919,7 +4919,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL7"
 	.byte	0x7
 	.uahalf	0x142
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -4928,7 +4928,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL8"
 	.byte	0x7
 	.uahalf	0x143
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -4937,7 +4937,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL9"
 	.byte	0x7
 	.uahalf	0x144
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -4946,7 +4946,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL10"
 	.byte	0x7
 	.uahalf	0x145
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -4955,7 +4955,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL11"
 	.byte	0x7
 	.uahalf	0x146
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -4964,7 +4964,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL12"
 	.byte	0x7
 	.uahalf	0x147
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -4973,7 +4973,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL13"
 	.byte	0x7
 	.uahalf	0x148
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -4982,7 +4982,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL14"
 	.byte	0x7
 	.uahalf	0x149
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -4991,7 +4991,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCL15"
 	.byte	0x7
 	.uahalf	0x14a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5001,18 +5001,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMR_Bits"
 	.byte	0x7
 	.uahalf	0x14b
-	.uaword	0x132f
+	.uaword	0x1324
 	.uleb128 0x11
 	.string	"_Ifx_P_OMSR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x14e
-	.uaword	0x15e8
+	.uaword	0x15dd
 	.uleb128 0xe
 	.string	"PS0"
 	.byte	0x7
 	.uahalf	0x150
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5021,7 +5021,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS1"
 	.byte	0x7
 	.uahalf	0x151
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5030,7 +5030,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS2"
 	.byte	0x7
 	.uahalf	0x152
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5039,7 +5039,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS3"
 	.byte	0x7
 	.uahalf	0x153
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5048,7 +5048,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0x7
 	.uahalf	0x154
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -5058,18 +5058,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMSR0_Bits"
 	.byte	0x7
 	.uahalf	0x155
-	.uaword	0x157c
+	.uaword	0x1571
 	.uleb128 0x11
 	.string	"_Ifx_P_OMSR12_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x158
-	.uaword	0x1682
+	.uaword	0x1677
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x15a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0xc
 	.byte	0x14
@@ -5078,7 +5078,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS12"
 	.byte	0x7
 	.uahalf	0x15b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5087,7 +5087,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS13"
 	.byte	0x7
 	.uahalf	0x15c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5096,7 +5096,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS14"
 	.byte	0x7
 	.uahalf	0x15d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5105,7 +5105,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS15"
 	.byte	0x7
 	.uahalf	0x15e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5114,7 +5114,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x15f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5124,18 +5124,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMSR12_Bits"
 	.byte	0x7
 	.uahalf	0x160
-	.uaword	0x1601
+	.uaword	0x15f6
 	.uleb128 0x11
 	.string	"_Ifx_P_OMSR4_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x163
-	.uaword	0x1718
+	.uaword	0x170d
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x165
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -5144,7 +5144,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS4"
 	.byte	0x7
 	.uahalf	0x166
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5153,7 +5153,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS5"
 	.byte	0x7
 	.uahalf	0x167
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5162,7 +5162,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS6"
 	.byte	0x7
 	.uahalf	0x168
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5171,7 +5171,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS7"
 	.byte	0x7
 	.uahalf	0x169
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5180,7 +5180,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0x7
 	.uahalf	0x16a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -5190,18 +5190,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMSR4_Bits"
 	.byte	0x7
 	.uahalf	0x16b
-	.uaword	0x169c
+	.uaword	0x1691
 	.uleb128 0x11
 	.string	"_Ifx_P_OMSR8_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x16e
-	.uaword	0x17af
+	.uaword	0x17a4
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0x7
 	.uahalf	0x170
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -5210,7 +5210,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS8"
 	.byte	0x7
 	.uahalf	0x171
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5219,7 +5219,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS9"
 	.byte	0x7
 	.uahalf	0x172
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5228,7 +5228,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS10"
 	.byte	0x7
 	.uahalf	0x173
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5237,7 +5237,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS11"
 	.byte	0x7
 	.uahalf	0x174
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5246,7 +5246,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x175
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -5256,18 +5256,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMSR8_Bits"
 	.byte	0x7
 	.uahalf	0x176
-	.uaword	0x1731
+	.uaword	0x1726
 	.uleb128 0x11
 	.string	"_Ifx_P_OMSR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x179
-	.uaword	0x18f9
+	.uaword	0x18ee
 	.uleb128 0xe
 	.string	"PS0"
 	.byte	0x7
 	.uahalf	0x17b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5276,7 +5276,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS1"
 	.byte	0x7
 	.uahalf	0x17c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5285,7 +5285,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS2"
 	.byte	0x7
 	.uahalf	0x17d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5294,7 +5294,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS3"
 	.byte	0x7
 	.uahalf	0x17e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5303,7 +5303,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS4"
 	.byte	0x7
 	.uahalf	0x17f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5312,7 +5312,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS5"
 	.byte	0x7
 	.uahalf	0x180
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5321,7 +5321,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS6"
 	.byte	0x7
 	.uahalf	0x181
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5330,7 +5330,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS7"
 	.byte	0x7
 	.uahalf	0x182
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5339,7 +5339,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS8"
 	.byte	0x7
 	.uahalf	0x183
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5348,7 +5348,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS9"
 	.byte	0x7
 	.uahalf	0x184
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5357,7 +5357,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS10"
 	.byte	0x7
 	.uahalf	0x185
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5366,7 +5366,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS11"
 	.byte	0x7
 	.uahalf	0x186
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5375,7 +5375,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS12"
 	.byte	0x7
 	.uahalf	0x187
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5384,7 +5384,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS13"
 	.byte	0x7
 	.uahalf	0x188
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5393,7 +5393,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS14"
 	.byte	0x7
 	.uahalf	0x189
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5402,7 +5402,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PS15"
 	.byte	0x7
 	.uahalf	0x18a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5411,7 +5411,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x18b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5421,18 +5421,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OMSR_Bits"
 	.byte	0x7
 	.uahalf	0x18c
-	.uaword	0x17c8
+	.uaword	0x17bd
 	.uleb128 0x11
 	.string	"_Ifx_P_OUT_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x18f
-	.uaword	0x1a31
+	.uaword	0x1a26
 	.uleb128 0xe
 	.string	"P0"
 	.byte	0x7
 	.uahalf	0x191
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5441,7 +5441,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P1"
 	.byte	0x7
 	.uahalf	0x192
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5450,7 +5450,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P2"
 	.byte	0x7
 	.uahalf	0x193
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5459,7 +5459,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P3"
 	.byte	0x7
 	.uahalf	0x194
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5468,7 +5468,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P4"
 	.byte	0x7
 	.uahalf	0x195
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5477,7 +5477,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P5"
 	.byte	0x7
 	.uahalf	0x196
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5486,7 +5486,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P6"
 	.byte	0x7
 	.uahalf	0x197
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5495,7 +5495,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P7"
 	.byte	0x7
 	.uahalf	0x198
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5504,7 +5504,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P8"
 	.byte	0x7
 	.uahalf	0x199
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5513,7 +5513,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P9"
 	.byte	0x7
 	.uahalf	0x19a
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5522,7 +5522,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P10"
 	.byte	0x7
 	.uahalf	0x19b
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5531,7 +5531,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P11"
 	.byte	0x7
 	.uahalf	0x19c
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5540,7 +5540,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P12"
 	.byte	0x7
 	.uahalf	0x19d
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5549,7 +5549,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P13"
 	.byte	0x7
 	.uahalf	0x19e
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5558,7 +5558,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P14"
 	.byte	0x7
 	.uahalf	0x19f
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5567,7 +5567,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"P15"
 	.byte	0x7
 	.uahalf	0x1a0
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5576,7 +5576,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x1a1
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5586,18 +5586,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_OUT_Bits"
 	.byte	0x7
 	.uahalf	0x1a2
-	.uaword	0x1911
+	.uaword	0x1906
 	.uleb128 0x11
 	.string	"_Ifx_P_PCSR_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1a5
-	.uaword	0x1b23
+	.uaword	0x1b18
 	.uleb128 0xf
 	.uaword	.LASF10
 	.byte	0x7
 	.uahalf	0x1a7
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5606,7 +5606,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0x7
 	.uahalf	0x1a8
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5615,7 +5615,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0x7
 	.uahalf	0x1a9
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5624,7 +5624,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0x7
 	.uahalf	0x1aa
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5633,7 +5633,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0x7
 	.uahalf	0x1ab
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5642,7 +5642,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0x7
 	.uahalf	0x1ac
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5651,7 +5651,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF16
 	.byte	0x7
 	.uahalf	0x1ad
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5660,7 +5660,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF17
 	.byte	0x7
 	.uahalf	0x1ae
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x16
@@ -5669,7 +5669,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF18
 	.byte	0x7
 	.uahalf	0x1af
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5678,7 +5678,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF19
 	.byte	0x7
 	.uahalf	0x1b0
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5687,7 +5687,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF9
 	.byte	0x7
 	.uahalf	0x1b1
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x13
 	.byte	0x1
@@ -5696,7 +5696,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LCK"
 	.byte	0x7
 	.uahalf	0x1b2
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -5706,18 +5706,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_PCSR_Bits"
 	.byte	0x7
 	.uahalf	0x1b3
-	.uaword	0x1a48
+	.uaword	0x1a3d
 	.uleb128 0x11
 	.string	"_Ifx_P_PDISC_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1b6
-	.uaword	0x1c8d
+	.uaword	0x1c82
 	.uleb128 0xe
 	.string	"PDIS0"
 	.byte	0x7
 	.uahalf	0x1b8
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -5726,7 +5726,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS1"
 	.byte	0x7
 	.uahalf	0x1b9
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -5735,7 +5735,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS2"
 	.byte	0x7
 	.uahalf	0x1ba
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -5744,7 +5744,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS3"
 	.byte	0x7
 	.uahalf	0x1bb
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5753,7 +5753,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS4"
 	.byte	0x7
 	.uahalf	0x1bc
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -5762,7 +5762,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS5"
 	.byte	0x7
 	.uahalf	0x1bd
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -5771,7 +5771,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS6"
 	.byte	0x7
 	.uahalf	0x1be
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -5780,7 +5780,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS7"
 	.byte	0x7
 	.uahalf	0x1bf
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5789,7 +5789,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS8"
 	.byte	0x7
 	.uahalf	0x1c0
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -5798,7 +5798,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS9"
 	.byte	0x7
 	.uahalf	0x1c1
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -5807,7 +5807,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS10"
 	.byte	0x7
 	.uahalf	0x1c2
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -5816,7 +5816,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS11"
 	.byte	0x7
 	.uahalf	0x1c3
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5825,7 +5825,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS12"
 	.byte	0x7
 	.uahalf	0x1c4
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -5834,7 +5834,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS13"
 	.byte	0x7
 	.uahalf	0x1c5
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -5843,7 +5843,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS14"
 	.byte	0x7
 	.uahalf	0x1c6
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -5852,7 +5852,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIS15"
 	.byte	0x7
 	.uahalf	0x1c7
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5861,7 +5861,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0x7
 	.uahalf	0x1c8
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -5871,18 +5871,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_PDISC_Bits"
 	.byte	0x7
 	.uahalf	0x1c9
-	.uaword	0x1b3b
+	.uaword	0x1b30
 	.uleb128 0x11
 	.string	"_Ifx_P_PDR0_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1cc
-	.uaword	0x1dc1
+	.uaword	0x1db6
 	.uleb128 0xe
 	.string	"PD0"
 	.byte	0x7
 	.uahalf	0x1ce
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -5891,7 +5891,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL0"
 	.byte	0x7
 	.uahalf	0x1cf
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -5900,7 +5900,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD1"
 	.byte	0x7
 	.uahalf	0x1d0
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -5909,7 +5909,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL1"
 	.byte	0x7
 	.uahalf	0x1d1
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -5918,7 +5918,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD2"
 	.byte	0x7
 	.uahalf	0x1d2
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -5927,7 +5927,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL2"
 	.byte	0x7
 	.uahalf	0x1d3
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -5936,7 +5936,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD3"
 	.byte	0x7
 	.uahalf	0x1d4
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -5945,7 +5945,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL3"
 	.byte	0x7
 	.uahalf	0x1d5
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -5954,7 +5954,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD4"
 	.byte	0x7
 	.uahalf	0x1d6
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -5963,7 +5963,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL4"
 	.byte	0x7
 	.uahalf	0x1d7
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -5972,7 +5972,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD5"
 	.byte	0x7
 	.uahalf	0x1d8
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -5981,7 +5981,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL5"
 	.byte	0x7
 	.uahalf	0x1d9
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -5990,7 +5990,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD6"
 	.byte	0x7
 	.uahalf	0x1da
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -5999,7 +5999,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL6"
 	.byte	0x7
 	.uahalf	0x1db
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6008,7 +6008,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD7"
 	.byte	0x7
 	.uahalf	0x1dc
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -6017,7 +6017,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL7"
 	.byte	0x7
 	.uahalf	0x1dd
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6027,18 +6027,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_PDR0_Bits"
 	.byte	0x7
 	.uahalf	0x1de
-	.uaword	0x1ca6
+	.uaword	0x1c9b
 	.uleb128 0x11
 	.string	"_Ifx_P_PDR1_Bits"
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1e1
-	.uaword	0x1f00
+	.uaword	0x1ef5
 	.uleb128 0xe
 	.string	"PD8"
 	.byte	0x7
 	.uahalf	0x1e3
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -6047,7 +6047,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL8"
 	.byte	0x7
 	.uahalf	0x1e4
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -6056,7 +6056,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD9"
 	.byte	0x7
 	.uahalf	0x1e5
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -6065,7 +6065,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL9"
 	.byte	0x7
 	.uahalf	0x1e6
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -6074,7 +6074,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD10"
 	.byte	0x7
 	.uahalf	0x1e7
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -6083,7 +6083,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL10"
 	.byte	0x7
 	.uahalf	0x1e8
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -6092,7 +6092,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD11"
 	.byte	0x7
 	.uahalf	0x1e9
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -6101,7 +6101,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL11"
 	.byte	0x7
 	.uahalf	0x1ea
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -6110,7 +6110,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD12"
 	.byte	0x7
 	.uahalf	0x1eb
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -6119,7 +6119,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL12"
 	.byte	0x7
 	.uahalf	0x1ec
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -6128,7 +6128,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD13"
 	.byte	0x7
 	.uahalf	0x1ed
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -6137,7 +6137,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL13"
 	.byte	0x7
 	.uahalf	0x1ee
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -6146,7 +6146,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD14"
 	.byte	0x7
 	.uahalf	0x1ef
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -6155,7 +6155,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL14"
 	.byte	0x7
 	.uahalf	0x1f0
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -6164,7 +6164,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PD15"
 	.byte	0x7
 	.uahalf	0x1f1
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -6173,7 +6173,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PL15"
 	.byte	0x7
 	.uahalf	0x1f2
-	.uaword	0x44c
+	.uaword	0x441
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -6183,987 +6183,987 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_P_PDR1_Bits"
 	.byte	0x7
 	.uahalf	0x1f3
-	.uaword	0x1dd9
+	.uaword	0x1dce
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x1fb
-	.uaword	0x1f40
+	.uaword	0x1f35
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x1fd
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x1fe
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x1ff
-	.uaword	0x79a
+	.uaword	0x78f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_ACCEN0"
 	.byte	0x7
 	.uahalf	0x200
-	.uaword	0x1f18
+	.uaword	0x1f0d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x203
-	.uaword	0x1f7d
+	.uaword	0x1f72
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x205
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x206
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x207
-	.uaword	0x7de
+	.uaword	0x7d3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_ACCEN1"
 	.byte	0x7
 	.uahalf	0x208
-	.uaword	0x1f55
+	.uaword	0x1f4a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x20b
-	.uaword	0x1fba
+	.uaword	0x1faf
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x20d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x20e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x20f
-	.uaword	0x915
+	.uaword	0x90a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_ESR"
 	.byte	0x7
 	.uahalf	0x210
-	.uaword	0x1f92
+	.uaword	0x1f87
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x213
-	.uaword	0x1ff4
+	.uaword	0x1fe9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x215
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x216
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x217
-	.uaword	0x97d
+	.uaword	0x972
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_ID"
 	.byte	0x7
 	.uahalf	0x218
-	.uaword	0x1fcc
+	.uaword	0x1fc1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x21b
-	.uaword	0x202d
+	.uaword	0x2022
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x21d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x21e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x21f
-	.uaword	0xa9f
+	.uaword	0xa94
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IN"
 	.byte	0x7
 	.uahalf	0x220
-	.uaword	0x2005
+	.uaword	0x1ffa
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x223
-	.uaword	0x2066
+	.uaword	0x205b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x225
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x226
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x227
-	.uaword	0xb47
+	.uaword	0xb3c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IOCR0"
 	.byte	0x7
 	.uahalf	0x228
-	.uaword	0x203e
+	.uaword	0x2033
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x22b
-	.uaword	0x20a2
+	.uaword	0x2097
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x22d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x22e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x22f
-	.uaword	0xbf7
+	.uaword	0xbec
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IOCR12"
 	.byte	0x7
 	.uahalf	0x230
-	.uaword	0x207a
+	.uaword	0x206f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x233
-	.uaword	0x20df
+	.uaword	0x20d4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x235
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x236
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x237
-	.uaword	0xca3
+	.uaword	0xc98
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IOCR4"
 	.byte	0x7
 	.uahalf	0x238
-	.uaword	0x20b7
+	.uaword	0x20ac
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x23b
-	.uaword	0x211b
+	.uaword	0x2110
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x23d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x23e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x23f
-	.uaword	0xd50
+	.uaword	0xd45
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_IOCR8"
 	.byte	0x7
 	.uahalf	0x240
-	.uaword	0x20f3
+	.uaword	0x20e8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x243
-	.uaword	0x2157
+	.uaword	0x214c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x245
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x246
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x247
-	.uaword	0xdb0
+	.uaword	0xda5
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_LPCR0"
 	.byte	0x7
 	.uahalf	0x248
-	.uaword	0x212f
+	.uaword	0x2124
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x24b
-	.uaword	0x21a1
+	.uaword	0x2196
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x24d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x24e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x24f
-	.uaword	0xe10
+	.uaword	0xe05
 	.uleb128 0x13
 	.string	"B_P21"
 	.byte	0x7
 	.uahalf	0x250
-	.uaword	0xea0
+	.uaword	0xe95
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_LPCR1"
 	.byte	0x7
 	.uahalf	0x251
-	.uaword	0x216b
+	.uaword	0x2160
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x254
-	.uaword	0x21dd
+	.uaword	0x21d2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x256
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x257
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x258
-	.uaword	0xf73
+	.uaword	0xf68
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_LPCR2"
 	.byte	0x7
 	.uahalf	0x259
-	.uaword	0x21b5
+	.uaword	0x21aa
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x25c
-	.uaword	0x2219
+	.uaword	0x220e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x25e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x25f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x260
-	.uaword	0x1317
+	.uaword	0x130c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR"
 	.byte	0x7
 	.uahalf	0x261
-	.uaword	0x21f1
+	.uaword	0x21e6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x264
-	.uaword	0x2254
+	.uaword	0x2249
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x266
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x267
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x268
-	.uaword	0x1004
+	.uaword	0xff9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR0"
 	.byte	0x7
 	.uahalf	0x269
-	.uaword	0x222c
+	.uaword	0x2221
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x26c
-	.uaword	0x2290
+	.uaword	0x2285
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x26e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x26f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x270
-	.uaword	0x108b
+	.uaword	0x1080
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR12"
 	.byte	0x7
 	.uahalf	0x271
-	.uaword	0x2268
+	.uaword	0x225d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x274
-	.uaword	0x22cd
+	.uaword	0x22c2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x276
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x277
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x278
-	.uaword	0x1122
+	.uaword	0x1117
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR4"
 	.byte	0x7
 	.uahalf	0x279
-	.uaword	0x22a5
+	.uaword	0x229a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x27c
-	.uaword	0x2309
+	.uaword	0x22fe
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x27e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x27f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x280
-	.uaword	0x11bd
+	.uaword	0x11b2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMCR8"
 	.byte	0x7
 	.uahalf	0x281
-	.uaword	0x22e1
+	.uaword	0x22d6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x284
-	.uaword	0x2345
+	.uaword	0x233a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x286
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x287
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x288
-	.uaword	0x1565
+	.uaword	0x155a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMR"
 	.byte	0x7
 	.uahalf	0x289
-	.uaword	0x231d
+	.uaword	0x2312
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x28c
-	.uaword	0x237f
+	.uaword	0x2374
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x28e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x28f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x290
-	.uaword	0x18f9
+	.uaword	0x18ee
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR"
 	.byte	0x7
 	.uahalf	0x291
-	.uaword	0x2357
+	.uaword	0x234c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x294
-	.uaword	0x23ba
+	.uaword	0x23af
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x296
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x297
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x298
-	.uaword	0x15e8
+	.uaword	0x15dd
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR0"
 	.byte	0x7
 	.uahalf	0x299
-	.uaword	0x2392
+	.uaword	0x2387
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x29c
-	.uaword	0x23f6
+	.uaword	0x23eb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x29e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x29f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2a0
-	.uaword	0x1682
+	.uaword	0x1677
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR12"
 	.byte	0x7
 	.uahalf	0x2a1
-	.uaword	0x23ce
+	.uaword	0x23c3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2a4
-	.uaword	0x2433
+	.uaword	0x2428
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2a6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2a7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2a8
-	.uaword	0x1718
+	.uaword	0x170d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR4"
 	.byte	0x7
 	.uahalf	0x2a9
-	.uaword	0x240b
+	.uaword	0x2400
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2ac
-	.uaword	0x246f
+	.uaword	0x2464
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2ae
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2af
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2b0
-	.uaword	0x17af
+	.uaword	0x17a4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OMSR8"
 	.byte	0x7
 	.uahalf	0x2b1
-	.uaword	0x2447
+	.uaword	0x243c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2b4
-	.uaword	0x24ab
+	.uaword	0x24a0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2b6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2b7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2b8
-	.uaword	0x1a31
+	.uaword	0x1a26
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_OUT"
 	.byte	0x7
 	.uahalf	0x2b9
-	.uaword	0x2483
+	.uaword	0x2478
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2bc
-	.uaword	0x24e5
+	.uaword	0x24da
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2be
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2bf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2c0
-	.uaword	0x1b23
+	.uaword	0x1b18
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_PCSR"
 	.byte	0x7
 	.uahalf	0x2c1
-	.uaword	0x24bd
+	.uaword	0x24b2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2c4
-	.uaword	0x2520
+	.uaword	0x2515
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2c6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2c7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2c8
-	.uaword	0x1c8d
+	.uaword	0x1c82
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_PDISC"
 	.byte	0x7
 	.uahalf	0x2c9
-	.uaword	0x24f8
+	.uaword	0x24ed
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2cc
-	.uaword	0x255c
+	.uaword	0x2551
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2ce
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2cf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2d0
-	.uaword	0x1dc1
+	.uaword	0x1db6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_PDR0"
 	.byte	0x7
 	.uahalf	0x2d1
-	.uaword	0x2534
+	.uaword	0x2529
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0x7
 	.uahalf	0x2d4
-	.uaword	0x2597
+	.uaword	0x258c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0x7
 	.uahalf	0x2d6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0x7
 	.uahalf	0x2d7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0x7
 	.uahalf	0x2d8
-	.uaword	0x1f00
+	.uaword	0x1ef5
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P_PDR1"
 	.byte	0x7
 	.uahalf	0x2d9
-	.uaword	0x256f
+	.uaword	0x2564
 	.uleb128 0x14
 	.string	"_Ifx_P"
 	.uahalf	0x100
 	.byte	0x7
 	.uahalf	0x2e4
-	.uaword	0x27d4
+	.uaword	0x27c9
 	.uleb128 0x15
 	.string	"OUT"
 	.byte	0x7
 	.uahalf	0x2e6
-	.uaword	0x24ab
+	.uaword	0x24a0
 	.byte	0
 	.uleb128 0x15
 	.string	"OMR"
 	.byte	0x7
 	.uahalf	0x2e7
-	.uaword	0x2345
+	.uaword	0x233a
 	.byte	0x4
 	.uleb128 0x15
 	.string	"ID"
 	.byte	0x7
 	.uahalf	0x2e8
-	.uaword	0x1ff4
+	.uaword	0x1fe9
 	.byte	0x8
 	.uleb128 0x16
 	.uaword	.LASF20
 	.byte	0x7
 	.uahalf	0x2e9
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0xc
 	.uleb128 0x15
 	.string	"IOCR0"
 	.byte	0x7
 	.uahalf	0x2ea
-	.uaword	0x2066
+	.uaword	0x205b
 	.byte	0x10
 	.uleb128 0x15
 	.string	"IOCR4"
 	.byte	0x7
 	.uahalf	0x2eb
-	.uaword	0x20df
+	.uaword	0x20d4
 	.byte	0x14
 	.uleb128 0x15
 	.string	"IOCR8"
 	.byte	0x7
 	.uahalf	0x2ec
-	.uaword	0x211b
+	.uaword	0x2110
 	.byte	0x18
 	.uleb128 0x15
 	.string	"IOCR12"
 	.byte	0x7
 	.uahalf	0x2ed
-	.uaword	0x20a2
+	.uaword	0x2097
 	.byte	0x1c
 	.uleb128 0x16
 	.uaword	.LASF6
 	.byte	0x7
 	.uahalf	0x2ee
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0x20
 	.uleb128 0x15
 	.string	"IN"
 	.byte	0x7
 	.uahalf	0x2ef
-	.uaword	0x202d
+	.uaword	0x2022
 	.byte	0x24
 	.uleb128 0x16
 	.uaword	.LASF7
 	.byte	0x7
 	.uahalf	0x2f0
-	.uaword	0x498
+	.uaword	0x48d
 	.byte	0x28
 	.uleb128 0x15
 	.string	"PDR0"
 	.byte	0x7
 	.uahalf	0x2f1
-	.uaword	0x255c
+	.uaword	0x2551
 	.byte	0x40
 	.uleb128 0x15
 	.string	"PDR1"
 	.byte	0x7
 	.uahalf	0x2f2
-	.uaword	0x2597
+	.uaword	0x258c
 	.byte	0x44
 	.uleb128 0x16
 	.uaword	.LASF21
 	.byte	0x7
 	.uahalf	0x2f3
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.byte	0x48
 	.uleb128 0x15
 	.string	"ESR"
 	.byte	0x7
 	.uahalf	0x2f4
-	.uaword	0x1fba
+	.uaword	0x1faf
 	.byte	0x50
 	.uleb128 0x16
 	.uaword	.LASF22
 	.byte	0x7
 	.uahalf	0x2f5
-	.uaword	0x468
+	.uaword	0x45d
 	.byte	0x54
 	.uleb128 0x15
 	.string	"PDISC"
 	.byte	0x7
 	.uahalf	0x2f6
-	.uaword	0x2520
+	.uaword	0x2515
 	.byte	0x60
 	.uleb128 0x15
 	.string	"PCSR"
 	.byte	0x7
 	.uahalf	0x2f7
-	.uaword	0x24e5
+	.uaword	0x24da
 	.byte	0x64
 	.uleb128 0x15
 	.string	"reserved_68"
 	.byte	0x7
 	.uahalf	0x2f8
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.byte	0x68
 	.uleb128 0x15
 	.string	"OMSR0"
 	.byte	0x7
 	.uahalf	0x2f9
-	.uaword	0x23ba
+	.uaword	0x23af
 	.byte	0x70
 	.uleb128 0x15
 	.string	"OMSR4"
 	.byte	0x7
 	.uahalf	0x2fa
-	.uaword	0x2433
+	.uaword	0x2428
 	.byte	0x74
 	.uleb128 0x15
 	.string	"OMSR8"
 	.byte	0x7
 	.uahalf	0x2fb
-	.uaword	0x246f
+	.uaword	0x2464
 	.byte	0x78
 	.uleb128 0x15
 	.string	"OMSR12"
 	.byte	0x7
 	.uahalf	0x2fc
-	.uaword	0x23f6
+	.uaword	0x23eb
 	.byte	0x7c
 	.uleb128 0x15
 	.string	"OMCR0"
 	.byte	0x7
 	.uahalf	0x2fd
-	.uaword	0x2254
+	.uaword	0x2249
 	.byte	0x80
 	.uleb128 0x15
 	.string	"OMCR4"
 	.byte	0x7
 	.uahalf	0x2fe
-	.uaword	0x22cd
+	.uaword	0x22c2
 	.byte	0x84
 	.uleb128 0x15
 	.string	"OMCR8"
 	.byte	0x7
 	.uahalf	0x2ff
-	.uaword	0x2309
+	.uaword	0x22fe
 	.byte	0x88
 	.uleb128 0x15
 	.string	"OMCR12"
 	.byte	0x7
 	.uahalf	0x300
-	.uaword	0x2290
+	.uaword	0x2285
 	.byte	0x8c
 	.uleb128 0x15
 	.string	"OMSR"
 	.byte	0x7
 	.uahalf	0x301
-	.uaword	0x237f
+	.uaword	0x2374
 	.byte	0x90
 	.uleb128 0x15
 	.string	"OMCR"
 	.byte	0x7
 	.uahalf	0x302
-	.uaword	0x2219
+	.uaword	0x220e
 	.byte	0x94
 	.uleb128 0x15
 	.string	"reserved_98"
 	.byte	0x7
 	.uahalf	0x303
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.byte	0x98
 	.uleb128 0x15
 	.string	"LPCR0"
 	.byte	0x7
 	.uahalf	0x304
-	.uaword	0x2157
+	.uaword	0x214c
 	.byte	0xa0
 	.uleb128 0x15
 	.string	"LPCR1"
 	.byte	0x7
 	.uahalf	0x305
-	.uaword	0x21a1
+	.uaword	0x2196
 	.byte	0xa4
 	.uleb128 0x15
 	.string	"LPCR2"
 	.byte	0x7
 	.uahalf	0x306
-	.uaword	0x21dd
+	.uaword	0x21d2
 	.byte	0xa8
 	.uleb128 0x15
 	.string	"reserved_A4"
 	.byte	0x7
 	.uahalf	0x307
-	.uaword	0x27d4
+	.uaword	0x27c9
 	.byte	0xac
 	.uleb128 0x15
 	.string	"ACCEN1"
 	.byte	0x7
 	.uahalf	0x308
-	.uaword	0x1f7d
+	.uaword	0x1f72
 	.byte	0xf8
 	.uleb128 0x15
 	.string	"ACCEN0"
 	.byte	0x7
 	.uahalf	0x309
-	.uaword	0x1f40
+	.uaword	0x1f35
 	.byte	0xfc
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x27e4
+	.uaword	0x227
+	.uaword	0x27d9
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x4b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_P"
 	.byte	0x7
 	.uahalf	0x30a
-	.uaword	0x27f2
+	.uaword	0x27e7
 	.uleb128 0x17
-	.uaword	0x25aa
+	.uaword	0x259f
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x27e4
+	.uaword	0x27d9
 	.uleb128 0x17
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x8
 	.byte	0x65
-	.uaword	0x28de
+	.uaword	0x28d3
 	.uleb128 0x8
 	.string	"IfxPort_OutputIdx_general"
 	.sleb128 128
@@ -7193,12 +7193,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxPort_OutputIdx"
 	.byte	0x8
 	.byte	0x6e
-	.uaword	0x2802
+	.uaword	0x27f7
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x8
 	.byte	0x73
-	.uaword	0x293f
+	.uaword	0x2934
 	.uleb128 0x8
 	.string	"IfxPort_OutputMode_pushPull"
 	.sleb128 128
@@ -7210,12 +7210,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxPort_OutputMode"
 	.byte	0x8
 	.byte	0x76
-	.uaword	0x28f7
+	.uaword	0x28ec
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x8
 	.byte	0x7d
-	.uaword	0x2afa
+	.uaword	0x2aef
 	.uleb128 0x8
 	.string	"IfxPort_PadDriver_cmosAutomotiveSpeed1"
 	.sleb128 0
@@ -7257,35 +7257,35 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxPort_PadDriver"
 	.byte	0x8
 	.byte	0x8a
-	.uaword	0x2959
+	.uaword	0x294e
 	.uleb128 0x18
 	.byte	0x8
 	.byte	0x8
 	.byte	0xaa
-	.uaword	0x2b3a
+	.uaword	0x2b2f
 	.uleb128 0x19
 	.string	"port"
 	.byte	0x8
 	.byte	0xac
-	.uaword	0x27f7
+	.uaword	0x27ec
 	.byte	0
 	.uleb128 0x19
 	.string	"pinIndex"
 	.byte	0x8
 	.byte	0xad
-	.uaword	0x225
+	.uaword	0x21a
 	.byte	0x4
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxPort_Pin"
 	.byte	0x8
 	.byte	0xae
-	.uaword	0x2b13
+	.uaword	0x2b08
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x2
 	.byte	0x45
-	.uaword	0x2bb6
+	.uaword	0x2bab
 	.uleb128 0x8
 	.string	"IfxStdIf_Timer_CountDir_up"
 	.sleb128 0
@@ -7300,571 +7300,571 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxStdIf_Timer_CountDir"
 	.byte	0x2
 	.byte	0x49
-	.uaword	0x2b4d
+	.uaword	0x2b42
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer"
 	.byte	0x2
 	.byte	0x4c
-	.uaword	0x2beb
+	.uaword	0x2be0
 	.uleb128 0xb
 	.string	"IfxStdIf_Timer_"
 	.byte	0x44
 	.byte	0x2
 	.byte	0xdc
-	.uaword	0x2d54
+	.uaword	0x2d49
 	.uleb128 0x1a
 	.uaword	.LASF23
 	.byte	0x2
 	.byte	0xde
-	.uaword	0x42c
+	.uaword	0x421
 	.byte	0
 	.uleb128 0x19
 	.string	"getFrequency"
 	.byte	0x2
 	.byte	0xdf
-	.uaword	0x2d54
+	.uaword	0x2d49
 	.byte	0x4
 	.uleb128 0x19
 	.string	"getPeriod"
 	.byte	0x2
 	.byte	0xe0
-	.uaword	0x2d8d
+	.uaword	0x2d82
 	.byte	0x8
 	.uleb128 0x19
 	.string	"getResolution"
 	.byte	0x2
 	.byte	0xe1
-	.uaword	0x2dc3
+	.uaword	0x2db8
 	.byte	0xc
 	.uleb128 0x19
 	.string	"getTrigger"
 	.byte	0x2
 	.byte	0xe2
-	.uaword	0x2de7
+	.uaword	0x2ddc
 	.byte	0x10
 	.uleb128 0x19
 	.string	"setFrequency"
 	.byte	0x2
 	.byte	0xe3
-	.uaword	0x2e08
+	.uaword	0x2dfd
 	.byte	0x14
 	.uleb128 0x19
 	.string	"updateInputFrequency"
 	.byte	0x2
 	.byte	0xe4
-	.uaword	0x2e46
+	.uaword	0x2e3b
 	.byte	0x18
 	.uleb128 0x19
 	.string	"applyUpdate"
 	.byte	0x2
 	.byte	0xe5
-	.uaword	0x2e83
+	.uaword	0x2e78
 	.byte	0x1c
 	.uleb128 0x19
 	.string	"disableUpdate"
 	.byte	0x2
 	.byte	0xe6
-	.uaword	0x2ea5
+	.uaword	0x2e9a
 	.byte	0x20
 	.uleb128 0x19
 	.string	"getInputFrequency"
 	.byte	0x2
 	.byte	0xe7
-	.uaword	0x2ec9
+	.uaword	0x2ebe
 	.byte	0x24
 	.uleb128 0x19
 	.string	"run"
 	.byte	0x2
 	.byte	0xe8
-	.uaword	0x2ef1
+	.uaword	0x2ee6
 	.byte	0x28
 	.uleb128 0x19
 	.string	"setPeriod"
 	.byte	0x2
 	.byte	0xe9
-	.uaword	0x2f0b
+	.uaword	0x2f00
 	.byte	0x2c
 	.uleb128 0x19
 	.string	"setSingleMode"
 	.byte	0x2
 	.byte	0xea
-	.uaword	0x2f46
+	.uaword	0x2f3b
 	.byte	0x30
 	.uleb128 0x19
 	.string	"setTrigger"
 	.byte	0x2
 	.byte	0xeb
-	.uaword	0x2f81
+	.uaword	0x2f76
 	.byte	0x34
 	.uleb128 0x19
 	.string	"stop"
 	.byte	0x2
 	.byte	0xec
-	.uaword	0x2fb9
+	.uaword	0x2fae
 	.byte	0x38
 	.uleb128 0x19
 	.string	"ackTimerIrq"
 	.byte	0x2
 	.byte	0xed
-	.uaword	0x2fd4
+	.uaword	0x2fc9
 	.byte	0x3c
 	.uleb128 0x19
 	.string	"ackTriggerIrq"
 	.byte	0x2
 	.byte	0xee
-	.uaword	0x300c
+	.uaword	0x3001
 	.byte	0x40
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetFrequency"
 	.byte	0x2
 	.byte	0x52
-	.uaword	0x2d77
+	.uaword	0x2d6c
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2d7d
+	.uaword	0x2d72
 	.uleb128 0x1b
 	.byte	0x1
-	.uaword	0x282
-	.uaword	0x2d8d
+	.uaword	0x277
+	.uaword	0x2d82
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetPeriod"
 	.byte	0x2
 	.byte	0x58
-	.uaword	0x2dad
+	.uaword	0x2da2
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2db3
+	.uaword	0x2da8
 	.uleb128 0x1b
 	.byte	0x1
-	.uaword	0x2f7
-	.uaword	0x2dc3
+	.uaword	0x2ec
+	.uaword	0x2db8
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetResolution"
 	.byte	0x2
 	.byte	0x5e
-	.uaword	0x2d77
+	.uaword	0x2d6c
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetTrigger"
 	.byte	0x2
 	.byte	0x64
-	.uaword	0x2dad
+	.uaword	0x2da2
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_SetFrequency"
 	.byte	0x2
 	.byte	0x6c
-	.uaword	0x2e2b
+	.uaword	0x2e20
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2e31
+	.uaword	0x2e26
 	.uleb128 0x1b
 	.byte	0x1
-	.uaword	0x29b
-	.uaword	0x2e46
+	.uaword	0x290
+	.uaword	0x2e3b
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.uleb128 0x1c
-	.uaword	0x282
+	.uaword	0x277
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_UpdateInputFrequency"
 	.byte	0x2
 	.byte	0x72
-	.uaword	0x2e71
+	.uaword	0x2e66
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2e77
+	.uaword	0x2e6c
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x2e83
+	.uaword	0x2e78
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_ApplyUpdate"
 	.byte	0x2
 	.byte	0x87
-	.uaword	0x2e71
+	.uaword	0x2e66
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_DisableUpdate"
 	.byte	0x2
 	.byte	0x98
-	.uaword	0x2e71
+	.uaword	0x2e66
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_GetInputFrequency"
 	.byte	0x2
 	.byte	0x9e
-	.uaword	0x2d77
+	.uaword	0x2d6c
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_Run"
 	.byte	0x2
 	.byte	0xa7
-	.uaword	0x2e71
+	.uaword	0x2e66
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_SetPeriod"
 	.byte	0x2
 	.byte	0xb1
-	.uaword	0x2f2b
+	.uaword	0x2f20
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2f31
+	.uaword	0x2f26
 	.uleb128 0x1b
 	.byte	0x1
-	.uaword	0x29b
-	.uaword	0x2f46
+	.uaword	0x290
+	.uaword	0x2f3b
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.uleb128 0x1c
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_SetSingleMode"
 	.byte	0x2
 	.byte	0xba
-	.uaword	0x2f6a
+	.uaword	0x2f5f
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2f70
+	.uaword	0x2f65
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x2f81
+	.uaword	0x2f76
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.uleb128 0x1c
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_SetTrigger"
 	.byte	0x2
 	.byte	0xc6
-	.uaword	0x2fa2
+	.uaword	0x2f97
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2fa8
+	.uaword	0x2f9d
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x2fb9
+	.uaword	0x2fae
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.uleb128 0x1c
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_Stop"
 	.byte	0x2
 	.byte	0xcc
-	.uaword	0x2e71
+	.uaword	0x2e66
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_AckTimerIrq"
 	.byte	0x2
 	.byte	0xd2
-	.uaword	0x2ff6
+	.uaword	0x2feb
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2ffc
+	.uaword	0x2ff1
 	.uleb128 0x1b
 	.byte	0x1
-	.uaword	0x29b
-	.uaword	0x300c
+	.uaword	0x290
+	.uaword	0x3001
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_Timer_AckTriggerIrq"
 	.byte	0x2
 	.byte	0xd8
-	.uaword	0x2ff6
+	.uaword	0x2feb
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl"
 	.byte	0x9
 	.byte	0x3d
-	.uaword	0x3046
+	.uaword	0x303b
 	.uleb128 0xb
 	.string	"IfxStdIf_PwmHl_"
 	.byte	0x70
 	.byte	0x9
 	.byte	0x9b
-	.uaword	0x313a
+	.uaword	0x312f
 	.uleb128 0x1a
 	.uaword	.LASF23
 	.byte	0x9
 	.byte	0x9d
-	.uaword	0x42c
+	.uaword	0x421
 	.byte	0
 	.uleb128 0x19
 	.string	"setDeadtime"
 	.byte	0x9
 	.byte	0xa0
-	.uaword	0x313a
+	.uaword	0x312f
 	.byte	0x4
 	.uleb128 0x19
 	.string	"getDeadtime"
 	.byte	0x9
 	.byte	0xa1
-	.uaword	0x315c
+	.uaword	0x3151
 	.byte	0x8
 	.uleb128 0x19
 	.string	"setMinPulse"
 	.byte	0x9
 	.byte	0xa2
-	.uaword	0x317e
+	.uaword	0x3173
 	.byte	0xc
 	.uleb128 0x19
 	.string	"getMinPulse"
 	.byte	0x9
 	.byte	0xa3
-	.uaword	0x31a0
+	.uaword	0x3195
 	.byte	0x10
 	.uleb128 0x19
 	.string	"getMode"
 	.byte	0x9
 	.byte	0xa4
-	.uaword	0x31c2
+	.uaword	0x31b7
 	.byte	0x14
 	.uleb128 0x19
 	.string	"setMode"
 	.byte	0x9
 	.byte	0xa5
-	.uaword	0x31f6
+	.uaword	0x31eb
 	.byte	0x18
 	.uleb128 0x19
 	.string	"setOnTime"
 	.byte	0x9
 	.byte	0xa6
-	.uaword	0x322f
+	.uaword	0x3224
 	.byte	0x1c
 	.uleb128 0x19
 	.string	"setOnTimeAndShift"
 	.byte	0x9
 	.byte	0xa7
-	.uaword	0x326c
+	.uaword	0x3261
 	.byte	0x20
 	.uleb128 0x19
 	.string	"setPulse"
 	.byte	0x9
 	.byte	0xa8
-	.uaword	0x32b0
+	.uaword	0x32a5
 	.byte	0x24
 	.uleb128 0x19
 	.string	"setupChannels"
 	.byte	0x9
 	.byte	0xa9
-	.uaword	0x32f1
+	.uaword	0x32e6
 	.byte	0x28
 	.uleb128 0x1a
 	.uaword	.LASF24
 	.byte	0x9
 	.byte	0xab
-	.uaword	0x2bd5
+	.uaword	0x2bca
 	.byte	0x2c
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_SetDeadtime"
 	.byte	0x9
 	.byte	0x45
-	.uaword	0x2e2b
+	.uaword	0x2e20
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_GetDeadtime"
 	.byte	0x9
 	.byte	0x4d
-	.uaword	0x2d77
+	.uaword	0x2d6c
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_SetMinPulse"
 	.byte	0x9
 	.byte	0x55
-	.uaword	0x2e2b
+	.uaword	0x2e20
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_GetMinPulse"
 	.byte	0x9
 	.byte	0x5d
-	.uaword	0x2d77
+	.uaword	0x2d6c
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_GetMode"
 	.byte	0x9
 	.byte	0x65
-	.uaword	0x31e0
+	.uaword	0x31d5
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x31e6
+	.uaword	0x31db
 	.uleb128 0x1b
 	.byte	0x1
-	.uaword	0x418
-	.uaword	0x31f6
+	.uaword	0x40d
+	.uaword	0x31eb
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_SetMode"
 	.byte	0x9
 	.byte	0x6d
-	.uaword	0x3214
+	.uaword	0x3209
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x321a
+	.uaword	0x320f
 	.uleb128 0x1b
 	.byte	0x1
-	.uaword	0x29b
-	.uaword	0x322f
+	.uaword	0x290
+	.uaword	0x3224
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.uleb128 0x1c
-	.uaword	0x418
+	.uaword	0x40d
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_SetOnTime"
 	.byte	0x9
 	.byte	0x74
-	.uaword	0x324f
+	.uaword	0x3244
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x3255
+	.uaword	0x324a
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x3266
+	.uaword	0x325b
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.uleb128 0x1c
-	.uaword	0x3266
+	.uaword	0x325b
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_SetOnTimeAndShift"
 	.byte	0x9
 	.byte	0x7c
-	.uaword	0x3294
+	.uaword	0x3289
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x329a
+	.uaword	0x328f
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x32b0
+	.uaword	0x32a5
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.uleb128 0x1c
-	.uaword	0x3266
+	.uaword	0x325b
 	.uleb128 0x1c
-	.uaword	0x3266
+	.uaword	0x325b
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_SetPulse"
 	.byte	0x9
 	.byte	0x84
-	.uaword	0x32cf
+	.uaword	0x32c4
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x32d5
+	.uaword	0x32ca
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.uleb128 0x1c
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.uleb128 0x1c
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x282
+	.uaword	0x277
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_SetupChannels"
 	.byte	0x9
 	.byte	0x97
-	.uaword	0x3315
+	.uaword	0x330a
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x331b
+	.uaword	0x3310
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x3331
+	.uaword	0x3326
 	.uleb128 0x1c
-	.uaword	0x42c
+	.uaword	0x421
 	.uleb128 0x1c
-	.uaword	0x3331
+	.uaword	0x3326
 	.uleb128 0x1c
-	.uaword	0x3331
+	.uaword	0x3326
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x29b
+	.uaword	0x290
 	.uleb128 0x18
 	.byte	0x10
 	.byte	0x9
 	.byte	0xaf
-	.uaword	0x33bd
+	.uaword	0x33b2
 	.uleb128 0x1a
 	.uaword	.LASF25
 	.byte	0x9
 	.byte	0xb1
-	.uaword	0x282
+	.uaword	0x277
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF26
 	.byte	0x9
 	.byte	0xb2
-	.uaword	0x282
+	.uaword	0x277
 	.byte	0x4
 	.uleb128 0x1a
 	.uaword	.LASF27
 	.byte	0x9
 	.byte	0xb3
-	.uaword	0x225
+	.uaword	0x21a
 	.byte	0x8
 	.uleb128 0x19
 	.string	"emergencyEnabled"
 	.byte	0x9
 	.byte	0xb4
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0x9
 	.uleb128 0x19
 	.string	"outputMode"
 	.byte	0x9
 	.byte	0xb6
-	.uaword	0x293f
+	.uaword	0x2934
 	.byte	0xa
 	.uleb128 0x19
 	.string	"outputDriver"
 	.byte	0x9
 	.byte	0xb7
-	.uaword	0x2afa
+	.uaword	0x2aef
 	.byte	0xb
 	.uleb128 0x1a
 	.uaword	.LASF28
 	.byte	0x9
 	.byte	0xb9
-	.uaword	0x343
+	.uaword	0x338
 	.byte	0xc
 	.uleb128 0x1a
 	.uaword	.LASF29
 	.byte	0x9
 	.byte	0xba
-	.uaword	0x343
+	.uaword	0x338
 	.byte	0xd
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxStdIf_PwmHl_Config"
 	.byte	0x9
 	.byte	0xbb
-	.uaword	0x3337
+	.uaword	0x332c
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ACCEN0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x31
-	.uaword	0x35ee
+	.uaword	0x35e3
 	.uleb128 0xc
 	.string	"EN0"
 	.byte	0xa
 	.byte	0x33
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -7873,7 +7873,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN1"
 	.byte	0xa
 	.byte	0x34
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -7882,7 +7882,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN2"
 	.byte	0xa
 	.byte	0x35
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -7891,7 +7891,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN3"
 	.byte	0xa
 	.byte	0x36
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -7900,7 +7900,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN4"
 	.byte	0xa
 	.byte	0x37
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -7909,7 +7909,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN5"
 	.byte	0xa
 	.byte	0x38
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -7918,7 +7918,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN6"
 	.byte	0xa
 	.byte	0x39
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -7927,7 +7927,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN7"
 	.byte	0xa
 	.byte	0x3a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -7936,7 +7936,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN8"
 	.byte	0xa
 	.byte	0x3b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -7945,7 +7945,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN9"
 	.byte	0xa
 	.byte	0x3c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -7954,7 +7954,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN10"
 	.byte	0xa
 	.byte	0x3d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -7963,7 +7963,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN11"
 	.byte	0xa
 	.byte	0x3e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -7972,7 +7972,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN12"
 	.byte	0xa
 	.byte	0x3f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -7981,7 +7981,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN13"
 	.byte	0xa
 	.byte	0x40
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -7990,7 +7990,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN14"
 	.byte	0xa
 	.byte	0x41
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -7999,7 +7999,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN15"
 	.byte	0xa
 	.byte	0x42
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -8008,7 +8008,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN16"
 	.byte	0xa
 	.byte	0x43
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -8017,7 +8017,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN17"
 	.byte	0xa
 	.byte	0x44
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -8026,7 +8026,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN18"
 	.byte	0xa
 	.byte	0x45
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -8035,7 +8035,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN19"
 	.byte	0xa
 	.byte	0x46
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -8044,7 +8044,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN20"
 	.byte	0xa
 	.byte	0x47
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8053,7 +8053,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN21"
 	.byte	0xa
 	.byte	0x48
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -8062,7 +8062,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN22"
 	.byte	0xa
 	.byte	0x49
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -8071,7 +8071,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN23"
 	.byte	0xa
 	.byte	0x4a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -8080,7 +8080,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN24"
 	.byte	0xa
 	.byte	0x4b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8089,7 +8089,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN25"
 	.byte	0xa
 	.byte	0x4c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -8098,7 +8098,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN26"
 	.byte	0xa
 	.byte	0x4d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -8107,7 +8107,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN27"
 	.byte	0xa
 	.byte	0x4e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -8116,7 +8116,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN28"
 	.byte	0xa
 	.byte	0x4f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -8125,7 +8125,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN29"
 	.byte	0xa
 	.byte	0x50
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -8134,7 +8134,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN30"
 	.byte	0xa
 	.byte	0x51
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -8143,7 +8143,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN31"
 	.byte	0xa
 	.byte	0x52
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -8153,18 +8153,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ACCEN0_Bits"
 	.byte	0xa
 	.byte	0x53
-	.uaword	0x33da
+	.uaword	0x33cf
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ACCEN1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x56
-	.uaword	0x3636
+	.uaword	0x362b
 	.uleb128 0xd
 	.uaword	.LASF0
 	.byte	0xa
 	.byte	0x58
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -8174,18 +8174,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ACCEN1_Bits"
 	.byte	0xa
 	.byte	0x59
-	.uaword	0x3609
+	.uaword	0x35fe
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ADCTRIG0OUT0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x5c
-	.uaword	0x36ed
+	.uaword	0x36e2
 	.uleb128 0xd
 	.uaword	.LASF10
 	.byte	0xa
 	.byte	0x5e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -8194,7 +8194,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.byte	0x5f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -8203,7 +8203,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.byte	0x60
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -8212,7 +8212,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.byte	0x61
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -8221,7 +8221,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0xa
 	.byte	0x62
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -8230,7 +8230,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.byte	0x63
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -8239,7 +8239,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF16
 	.byte	0xa
 	.byte	0x64
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -8248,7 +8248,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF30
 	.byte	0xa
 	.byte	0x65
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -8258,18 +8258,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ADCTRIG0OUT0_Bits"
 	.byte	0xa
 	.byte	0x66
-	.uaword	0x3651
+	.uaword	0x3646
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ADCTRIG0OUT1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x69
-	.uaword	0x3750
+	.uaword	0x3745
 	.uleb128 0xd
 	.uaword	.LASF10
 	.byte	0xa
 	.byte	0x6b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -8278,7 +8278,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.byte	0x6c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -8288,18 +8288,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ADCTRIG0OUT1_Bits"
 	.byte	0xa
 	.byte	0x6d
-	.uaword	0x370e
+	.uaword	0x3703
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ADCTRIG1OUT0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x70
-	.uaword	0x380d
+	.uaword	0x3802
 	.uleb128 0xd
 	.uaword	.LASF10
 	.byte	0xa
 	.byte	0x72
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -8308,7 +8308,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.byte	0x73
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -8317,7 +8317,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.byte	0x74
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -8326,7 +8326,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.byte	0x75
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -8335,7 +8335,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0xa
 	.byte	0x76
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -8344,7 +8344,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.byte	0x77
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -8353,7 +8353,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF16
 	.byte	0xa
 	.byte	0x78
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -8362,7 +8362,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF30
 	.byte	0xa
 	.byte	0x79
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -8372,18 +8372,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ADCTRIG1OUT0_Bits"
 	.byte	0xa
 	.byte	0x7a
-	.uaword	0x3771
+	.uaword	0x3766
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ADCTRIG1OUT1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x7d
-	.uaword	0x3870
+	.uaword	0x3865
 	.uleb128 0xd
 	.uaword	.LASF10
 	.byte	0xa
 	.byte	0x7f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -8392,7 +8392,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.byte	0x80
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -8402,18 +8402,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ADCTRIG1OUT1_Bits"
 	.byte	0xa
 	.byte	0x81
-	.uaword	0x382e
+	.uaword	0x3823
 	.uleb128 0xb
 	.string	"_Ifx_GTM_AEI_ADDR_XPT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x84
-	.uaword	0x38ea
+	.uaword	0x38df
 	.uleb128 0xc
 	.string	"TO_ADDR"
 	.byte	0xa
 	.byte	0x86
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -8422,7 +8422,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TO_W1R0"
 	.byte	0xa
 	.byte	0x87
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -8431,7 +8431,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.byte	0x88
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xb
 	.byte	0
@@ -8441,18 +8441,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_AEI_ADDR_XPT_Bits"
 	.byte	0xa
 	.byte	0x89
-	.uaword	0x3891
+	.uaword	0x3886
 	.uleb128 0xb
 	.string	"_Ifx_GTM_AFD_CH_BUF_ACC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x8c
-	.uaword	0x394f
+	.uaword	0x3944
 	.uleb128 0xd
 	.uaword	.LASF32
 	.byte	0xa
 	.byte	0x8e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -8461,7 +8461,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.byte	0x8f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -8471,18 +8471,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_AFD_CH_BUF_ACC_Bits"
 	.byte	0xa
 	.byte	0x90
-	.uaword	0x390b
+	.uaword	0x3900
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_ARU_ACCESS_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x93
-	.uaword	0x39e5
+	.uaword	0x39da
 	.uleb128 0xd
 	.uaword	.LASF34
 	.byte	0xa
 	.byte	0x95
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -8491,7 +8491,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.byte	0x96
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -8500,7 +8500,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RREQ"
 	.byte	0xa
 	.byte	0x97
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -8509,7 +8509,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WREQ"
 	.byte	0xa
 	.byte	0x98
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -8518,7 +8518,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF36
 	.byte	0xa
 	.byte	0x99
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x12
 	.byte	0
@@ -8528,18 +8528,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_ARU_ACCESS_Bits"
 	.byte	0xa
 	.byte	0x9a
-	.uaword	0x3972
+	.uaword	0x3967
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_DATA_H_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0x9d
-	.uaword	0x3a48
+	.uaword	0x3a3d
 	.uleb128 0xd
 	.uaword	.LASF32
 	.byte	0xa
 	.byte	0x9f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -8548,7 +8548,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.byte	0xa0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -8558,18 +8558,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_DATA_H_Bits"
 	.byte	0xa
 	.byte	0xa1
-	.uaword	0x3a08
+	.uaword	0x39fd
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_DATA_L_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xa4
-	.uaword	0x3aa7
+	.uaword	0x3a9c
 	.uleb128 0xd
 	.uaword	.LASF32
 	.byte	0xa
 	.byte	0xa6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -8578,7 +8578,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.byte	0xa7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -8588,18 +8588,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_DATA_L_Bits"
 	.byte	0xa
 	.byte	0xa8
-	.uaword	0x3a67
+	.uaword	0x3a5c
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_DBG_ACCESS0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xab
-	.uaword	0x3b0b
+	.uaword	0x3b00
 	.uleb128 0xd
 	.uaword	.LASF34
 	.byte	0xa
 	.byte	0xad
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -8608,7 +8608,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.byte	0xae
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -8618,18 +8618,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_DBG_ACCESS0_Bits"
 	.byte	0xa
 	.byte	0xaf
-	.uaword	0x3ac6
+	.uaword	0x3abb
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_DBG_ACCESS1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xb2
-	.uaword	0x3b74
+	.uaword	0x3b69
 	.uleb128 0xd
 	.uaword	.LASF34
 	.byte	0xa
 	.byte	0xb4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -8638,7 +8638,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.byte	0xb5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -8648,18 +8648,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_DBG_ACCESS1_Bits"
 	.byte	0xa
 	.byte	0xb6
-	.uaword	0x3b2f
+	.uaword	0x3b24
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_DBG_DATA0_H_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xb9
-	.uaword	0x3bdd
+	.uaword	0x3bd2
 	.uleb128 0xd
 	.uaword	.LASF32
 	.byte	0xa
 	.byte	0xbb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -8668,7 +8668,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.byte	0xbc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -8678,18 +8678,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_DBG_DATA0_H_Bits"
 	.byte	0xa
 	.byte	0xbd
-	.uaword	0x3b98
+	.uaword	0x3b8d
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_DBG_DATA0_L_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xc0
-	.uaword	0x3c46
+	.uaword	0x3c3b
 	.uleb128 0xd
 	.uaword	.LASF32
 	.byte	0xa
 	.byte	0xc2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -8698,7 +8698,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.byte	0xc3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -8708,18 +8708,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_DBG_DATA0_L_Bits"
 	.byte	0xa
 	.byte	0xc4
-	.uaword	0x3c01
+	.uaword	0x3bf6
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_DBG_DATA1_H_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xc7
-	.uaword	0x3caf
+	.uaword	0x3ca4
 	.uleb128 0xd
 	.uaword	.LASF32
 	.byte	0xa
 	.byte	0xc9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -8728,7 +8728,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.byte	0xca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -8738,18 +8738,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_DBG_DATA1_H_Bits"
 	.byte	0xa
 	.byte	0xcb
-	.uaword	0x3c6a
+	.uaword	0x3c5f
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_DBG_DATA1_L_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xce
-	.uaword	0x3d18
+	.uaword	0x3d0d
 	.uleb128 0xd
 	.uaword	.LASF32
 	.byte	0xa
 	.byte	0xd0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0x3
@@ -8758,7 +8758,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.byte	0xd1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -8768,18 +8768,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_DBG_DATA1_L_Bits"
 	.byte	0xa
 	.byte	0xd2
-	.uaword	0x3cd3
+	.uaword	0x3cc8
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xd5
-	.uaword	0x3dbf
+	.uaword	0x3db4
 	.uleb128 0xc
 	.string	"NEW_DATA0_IRQ_EN"
 	.byte	0xa
 	.byte	0xd7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8788,7 +8788,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"NEW_DATA1_IRQ_EN"
 	.byte	0xa
 	.byte	0xd8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8797,7 +8797,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACC_ACK_IRQ_EN"
 	.byte	0xa
 	.byte	0xd9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8806,7 +8806,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.byte	0xda
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -8816,18 +8816,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_IRQ_EN_Bits"
 	.byte	0xa
 	.byte	0xdb
-	.uaword	0x3d3c
+	.uaword	0x3d31
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xde
-	.uaword	0x3e5c
+	.uaword	0x3e51
 	.uleb128 0xc
 	.string	"TRG_NEW_DATA0"
 	.byte	0xa
 	.byte	0xe0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8836,7 +8836,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_NEW_DATA"
 	.byte	0xa
 	.byte	0xe1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8845,7 +8845,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ACC_ACK"
 	.byte	0xa
 	.byte	0xe2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8854,7 +8854,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.byte	0xe3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -8864,18 +8864,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.byte	0xe4
-	.uaword	0x3dde
+	.uaword	0x3dd3
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xe7
-	.uaword	0x3ec2
+	.uaword	0x3eb7
 	.uleb128 0xd
 	.uaword	.LASF38
 	.byte	0xa
 	.byte	0xe9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -8884,7 +8884,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.byte	0xea
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -8894,18 +8894,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_IRQ_MODE_Bits"
 	.byte	0xa
 	.byte	0xeb
-	.uaword	0x3e80
+	.uaword	0x3e75
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ARU_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xee
-	.uaword	0x3f55
+	.uaword	0x3f4a
 	.uleb128 0xc
 	.string	"NEW_DATA0"
 	.byte	0xa
 	.byte	0xf0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -8914,7 +8914,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"NEW_DATA1"
 	.byte	0xa
 	.byte	0xf1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -8923,7 +8923,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACC_ACK"
 	.byte	0xa
 	.byte	0xf2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -8932,7 +8932,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.byte	0xf3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -8942,18 +8942,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ARU_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.byte	0xf4
-	.uaword	0x3ee3
+	.uaword	0x3ed8
 	.uleb128 0xb
 	.string	"_Ifx_GTM_ATOM_AGC_ACT_TB_Bits"
 	.byte	0x4
 	.byte	0xa
 	.byte	0xf7
-	.uaword	0x3fdb
+	.uaword	0x3fd0
 	.uleb128 0xd
 	.uaword	.LASF39
 	.byte	0xa
 	.byte	0xf9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -8962,7 +8962,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF40
 	.byte	0xa
 	.byte	0xfa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -8971,7 +8971,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF41
 	.byte	0xa
 	.byte	0xfb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x5
@@ -8980,7 +8980,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF42
 	.byte	0xa
 	.byte	0xfc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -8990,18 +8990,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_AGC_ACT_TB_Bits"
 	.byte	0xa
 	.byte	0xfd
-	.uaword	0x3f78
+	.uaword	0x3f6d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_AGC_ENDIS_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x100
-	.uaword	0x40bb
+	.uaword	0x40b0
 	.uleb128 0xf
 	.uaword	.LASF43
 	.byte	0xa
 	.uahalf	0x102
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9010,7 +9010,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF44
 	.byte	0xa
 	.uahalf	0x103
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -9019,7 +9019,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF45
 	.byte	0xa
 	.uahalf	0x104
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -9028,7 +9028,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF46
 	.byte	0xa
 	.uahalf	0x105
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -9037,7 +9037,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF47
 	.byte	0xa
 	.uahalf	0x106
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -9046,7 +9046,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF48
 	.byte	0xa
 	.uahalf	0x107
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -9055,7 +9055,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF49
 	.byte	0xa
 	.uahalf	0x108
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -9064,7 +9064,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF50
 	.byte	0xa
 	.uahalf	0x109
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -9073,7 +9073,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x10a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9083,18 +9083,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_AGC_ENDIS_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x10b
-	.uaword	0x3fff
+	.uaword	0x3ff4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_AGC_ENDIS_STAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x10e
-	.uaword	0x41a0
+	.uaword	0x4195
 	.uleb128 0xf
 	.uaword	.LASF51
 	.byte	0xa
 	.uahalf	0x110
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9103,7 +9103,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF52
 	.byte	0xa
 	.uahalf	0x111
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -9112,7 +9112,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF53
 	.byte	0xa
 	.uahalf	0x112
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -9121,7 +9121,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF54
 	.byte	0xa
 	.uahalf	0x113
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -9130,7 +9130,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF55
 	.byte	0xa
 	.uahalf	0x114
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -9139,7 +9139,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF56
 	.byte	0xa
 	.uahalf	0x115
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -9148,7 +9148,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF57
 	.byte	0xa
 	.uahalf	0x116
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -9157,7 +9157,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF58
 	.byte	0xa
 	.uahalf	0x117
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -9166,7 +9166,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x118
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9176,18 +9176,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_AGC_ENDIS_STAT_Bits"
 	.byte	0xa
 	.uahalf	0x119
-	.uaword	0x40e4
+	.uaword	0x40d9
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_AGC_FUPD_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11c
-	.uaword	0x42f4
+	.uaword	0x42e9
 	.uleb128 0xf
 	.uaword	.LASF59
 	.byte	0xa
 	.uahalf	0x11e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9196,7 +9196,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF60
 	.byte	0xa
 	.uahalf	0x11f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -9205,7 +9205,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF61
 	.byte	0xa
 	.uahalf	0x120
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -9214,7 +9214,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF62
 	.byte	0xa
 	.uahalf	0x121
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -9223,7 +9223,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF63
 	.byte	0xa
 	.uahalf	0x122
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -9232,7 +9232,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF64
 	.byte	0xa
 	.uahalf	0x123
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -9241,7 +9241,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF65
 	.byte	0xa
 	.uahalf	0x124
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -9250,7 +9250,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF66
 	.byte	0xa
 	.uahalf	0x125
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -9259,7 +9259,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF67
 	.byte	0xa
 	.uahalf	0x126
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -9268,7 +9268,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF68
 	.byte	0xa
 	.uahalf	0x127
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -9277,7 +9277,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF69
 	.byte	0xa
 	.uahalf	0x128
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -9286,7 +9286,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF70
 	.byte	0xa
 	.uahalf	0x129
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -9295,7 +9295,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF71
 	.byte	0xa
 	.uahalf	0x12a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -9304,7 +9304,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF72
 	.byte	0xa
 	.uahalf	0x12b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -9313,7 +9313,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF73
 	.byte	0xa
 	.uahalf	0x12c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -9322,7 +9322,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF74
 	.byte	0xa
 	.uahalf	0x12d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -9332,18 +9332,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_AGC_FUPD_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x12e
-	.uaword	0x41c9
+	.uaword	0x41be
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_AGC_GLB_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x131
-	.uaword	0x4466
+	.uaword	0x445b
 	.uleb128 0xf
 	.uaword	.LASF75
 	.byte	0xa
 	.uahalf	0x133
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -9352,7 +9352,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0x134
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0x18
@@ -9361,7 +9361,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF77
 	.byte	0xa
 	.uahalf	0x135
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -9370,7 +9370,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF78
 	.byte	0xa
 	.uahalf	0x136
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9379,7 +9379,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF79
 	.byte	0xa
 	.uahalf	0x137
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9388,7 +9388,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF80
 	.byte	0xa
 	.uahalf	0x138
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9397,7 +9397,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF81
 	.byte	0xa
 	.uahalf	0x139
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -9406,7 +9406,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF82
 	.byte	0xa
 	.uahalf	0x13a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -9415,7 +9415,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF83
 	.byte	0xa
 	.uahalf	0x13b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -9424,7 +9424,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF84
 	.byte	0xa
 	.uahalf	0x13c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9433,7 +9433,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF85
 	.byte	0xa
 	.uahalf	0x13d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -9442,7 +9442,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF86
 	.byte	0xa
 	.uahalf	0x13e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -9451,7 +9451,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF87
 	.byte	0xa
 	.uahalf	0x13f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -9460,7 +9460,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF88
 	.byte	0xa
 	.uahalf	0x140
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -9469,7 +9469,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF89
 	.byte	0xa
 	.uahalf	0x141
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -9478,7 +9478,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF90
 	.byte	0xa
 	.uahalf	0x142
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -9487,7 +9487,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF91
 	.byte	0xa
 	.uahalf	0x143
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -9496,7 +9496,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF92
 	.byte	0xa
 	.uahalf	0x144
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -9506,18 +9506,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_AGC_GLB_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x145
-	.uaword	0x431c
+	.uaword	0x4311
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_AGC_INT_TRIG_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x148
-	.uaword	0x4547
+	.uaword	0x453c
 	.uleb128 0xf
 	.uaword	.LASF93
 	.byte	0xa
 	.uahalf	0x14a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9526,7 +9526,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF94
 	.byte	0xa
 	.uahalf	0x14b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -9535,7 +9535,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF95
 	.byte	0xa
 	.uahalf	0x14c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -9544,7 +9544,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF96
 	.byte	0xa
 	.uahalf	0x14d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -9553,7 +9553,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF97
 	.byte	0xa
 	.uahalf	0x14e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -9562,7 +9562,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF98
 	.byte	0xa
 	.uahalf	0x14f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -9571,7 +9571,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF99
 	.byte	0xa
 	.uahalf	0x150
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -9580,7 +9580,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF100
 	.byte	0xa
 	.uahalf	0x151
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -9589,7 +9589,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x152
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9599,18 +9599,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_AGC_INT_TRIG_Bits"
 	.byte	0xa
 	.uahalf	0x153
-	.uaword	0x448d
+	.uaword	0x4482
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_AGC_OUTEN_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x156
-	.uaword	0x462a
+	.uaword	0x461f
 	.uleb128 0xf
 	.uaword	.LASF101
 	.byte	0xa
 	.uahalf	0x158
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9619,7 +9619,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF102
 	.byte	0xa
 	.uahalf	0x159
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -9628,7 +9628,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF103
 	.byte	0xa
 	.uahalf	0x15a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -9637,7 +9637,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF104
 	.byte	0xa
 	.uahalf	0x15b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -9646,7 +9646,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF105
 	.byte	0xa
 	.uahalf	0x15c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -9655,7 +9655,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF106
 	.byte	0xa
 	.uahalf	0x15d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -9664,7 +9664,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF107
 	.byte	0xa
 	.uahalf	0x15e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -9673,7 +9673,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF108
 	.byte	0xa
 	.uahalf	0x15f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -9682,7 +9682,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x160
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9692,18 +9692,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_AGC_OUTEN_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x161
-	.uaword	0x456e
+	.uaword	0x4563
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_AGC_OUTEN_STAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x164
-	.uaword	0x470f
+	.uaword	0x4704
 	.uleb128 0xf
 	.uaword	.LASF109
 	.byte	0xa
 	.uahalf	0x166
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9712,7 +9712,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF110
 	.byte	0xa
 	.uahalf	0x167
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -9721,7 +9721,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF111
 	.byte	0xa
 	.uahalf	0x168
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -9730,7 +9730,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF112
 	.byte	0xa
 	.uahalf	0x169
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -9739,7 +9739,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF113
 	.byte	0xa
 	.uahalf	0x16a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -9748,7 +9748,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF114
 	.byte	0xa
 	.uahalf	0x16b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -9757,7 +9757,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF115
 	.byte	0xa
 	.uahalf	0x16c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -9766,7 +9766,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF116
 	.byte	0xa
 	.uahalf	0x16d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -9775,7 +9775,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x16e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -9785,18 +9785,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_AGC_OUTEN_STAT_Bits"
 	.byte	0xa
 	.uahalf	0x16f
-	.uaword	0x4653
+	.uaword	0x4648
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_CM0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x172
-	.uaword	0x477c
+	.uaword	0x4771
 	.uleb128 0xe
 	.string	"CM0"
 	.byte	0xa
 	.uahalf	0x174
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -9805,7 +9805,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x175
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -9815,18 +9815,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_CM0_Bits"
 	.byte	0xa
 	.uahalf	0x176
-	.uaword	0x4738
+	.uaword	0x472d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_CM1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x179
-	.uaword	0x47e1
+	.uaword	0x47d6
 	.uleb128 0xe
 	.string	"CM1"
 	.byte	0xa
 	.uahalf	0x17b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -9835,7 +9835,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x17c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -9845,18 +9845,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_CM1_Bits"
 	.byte	0xa
 	.uahalf	0x17d
-	.uaword	0x479d
+	.uaword	0x4792
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_CN0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x180
-	.uaword	0x4846
+	.uaword	0x483b
 	.uleb128 0xe
 	.string	"CN0"
 	.byte	0xa
 	.uahalf	0x182
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -9865,7 +9865,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x183
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -9875,18 +9875,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_CN0_Bits"
 	.byte	0xa
 	.uahalf	0x184
-	.uaword	0x4802
+	.uaword	0x47f7
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x187
-	.uaword	0x49b2
+	.uaword	0x49a7
 	.uleb128 0xf
 	.uaword	.LASF117
 	.byte	0xa
 	.uahalf	0x189
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -9895,7 +9895,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF118
 	.byte	0xa
 	.uahalf	0x18a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -9904,7 +9904,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF119
 	.byte	0xa
 	.uahalf	0x18b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -9913,7 +9913,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB"
 	.byte	0xa
 	.uahalf	0x18c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x17
@@ -9922,7 +9922,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF120
 	.byte	0xa
 	.uahalf	0x18d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -9931,7 +9931,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x18e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -9940,7 +9940,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SL"
 	.byte	0xa
 	.uahalf	0x18f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -9949,7 +9949,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CLK_SRC"
 	.byte	0xa
 	.uahalf	0x190
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -9958,7 +9958,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF121
 	.byte	0xa
 	.uahalf	0x191
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -9967,7 +9967,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WR_REQ"
 	.byte	0xa
 	.uahalf	0x192
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -9976,7 +9976,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF122
 	.byte	0xa
 	.uahalf	0x193
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0xc
@@ -9985,7 +9985,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF123
 	.byte	0xa
 	.uahalf	0x194
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -9994,7 +9994,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.uahalf	0x195
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -10003,7 +10003,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF124
 	.byte	0xa
 	.uahalf	0x196
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10012,7 +10012,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SLA"
 	.byte	0xa
 	.uahalf	0x197
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -10021,7 +10021,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OSM"
 	.byte	0xa
 	.uahalf	0x198
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -10030,7 +10030,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABM"
 	.byte	0xa
 	.uahalf	0x199
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -10039,7 +10039,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF7
 	.byte	0xa
 	.uahalf	0x19a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -10049,18 +10049,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x19b
-	.uaword	0x4867
+	.uaword	0x485c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19e
-	.uaword	0x4a2b
+	.uaword	0x4a20
 	.uleb128 0xf
 	.uaword	.LASF125
 	.byte	0xa
 	.uahalf	0x1a0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10069,7 +10069,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF126
 	.byte	0xa
 	.uahalf	0x1a1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10078,7 +10078,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x1a2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10088,18 +10088,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x1a3
-	.uaword	0x49d4
+	.uaword	0x49c9
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a6
-	.uaword	0x4ab9
+	.uaword	0x4aae
 	.uleb128 0xe
 	.string	"TRG_CCU0TC"
 	.byte	0xa
 	.uahalf	0x1a8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10108,7 +10108,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_CCU1TC"
 	.byte	0xa
 	.uahalf	0x1a9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10117,7 +10117,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x1aa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10127,18 +10127,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0x1ab
-	.uaword	0x4a4f
+	.uaword	0x4a44
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1ae
-	.uaword	0x4b2b
+	.uaword	0x4b20
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1b0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -10147,7 +10147,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x1b1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10157,18 +10157,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0x1b2
-	.uaword	0x4ae2
+	.uaword	0x4ad7
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b5
-	.uaword	0x4bb2
+	.uaword	0x4ba7
 	.uleb128 0xe
 	.string	"CCU0TC"
 	.byte	0xa
 	.uahalf	0x1b7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10177,7 +10177,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CCU1TC"
 	.byte	0xa
 	.uahalf	0x1b8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10186,7 +10186,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x1b9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -10196,18 +10196,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0x1ba
-	.uaword	0x4b51
+	.uaword	0x4b46
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_RDADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bd
-	.uaword	0x4c49
+	.uaword	0x4c3e
 	.uleb128 0xe
 	.string	"RDADDR0"
 	.byte	0xa
 	.uahalf	0x1bf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -10216,7 +10216,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x1c0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0x10
@@ -10225,7 +10225,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RDADDR1"
 	.byte	0xa
 	.uahalf	0x1c1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x7
@@ -10234,7 +10234,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF127
 	.byte	0xa
 	.uahalf	0x1c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -10244,18 +10244,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_RDADDR_Bits"
 	.byte	0xa
 	.uahalf	0x1c3
-	.uaword	0x4bda
+	.uaword	0x4bcf
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_SOMC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c6
-	.uaword	0x4d98
+	.uaword	0x4d8d
 	.uleb128 0xf
 	.uaword	.LASF117
 	.byte	0xa
 	.uahalf	0x1c8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -10264,7 +10264,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF118
 	.byte	0xa
 	.uahalf	0x1c9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10273,7 +10273,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF119
 	.byte	0xa
 	.uahalf	0x1ca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10282,7 +10282,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB10"
 	.byte	0xa
 	.uahalf	0x1cb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -10291,7 +10291,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB42"
 	.byte	0xa
 	.uahalf	0x1cc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x17
@@ -10300,7 +10300,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF120
 	.byte	0xa
 	.uahalf	0x1cd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10309,7 +10309,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x1ce
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -10318,7 +10318,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SL"
 	.byte	0xa
 	.uahalf	0x1cf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10327,7 +10327,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF9
 	.byte	0xa
 	.uahalf	0x1d0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -10336,7 +10336,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WR_REQ"
 	.byte	0xa
 	.uahalf	0x1d1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -10345,7 +10345,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF122
 	.byte	0xa
 	.uahalf	0x1d2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8
@@ -10354,7 +10354,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF124
 	.byte	0xa
 	.uahalf	0x1d3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10363,7 +10363,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SLA"
 	.byte	0xa
 	.uahalf	0x1d4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -10372,7 +10372,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF128
 	.byte	0xa
 	.uahalf	0x1d5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -10381,7 +10381,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABM"
 	.byte	0xa
 	.uahalf	0x1d6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -10390,7 +10390,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF7
 	.byte	0xa
 	.uahalf	0x1d7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -10400,18 +10400,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_SOMC_Bits"
 	.byte	0xa
 	.uahalf	0x1d8
-	.uaword	0x4c6d
+	.uaword	0x4c62
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_SOMI_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1db
-	.uaword	0x4e4f
+	.uaword	0x4e44
 	.uleb128 0xf
 	.uaword	.LASF117
 	.byte	0xa
 	.uahalf	0x1dd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -10420,7 +10420,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x1de
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10429,7 +10429,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF119
 	.byte	0xa
 	.uahalf	0x1df
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10438,7 +10438,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB0"
 	.byte	0xa
 	.uahalf	0x1e0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10447,7 +10447,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0x1e1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x15
@@ -10456,7 +10456,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SL"
 	.byte	0xa
 	.uahalf	0x1e2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10465,7 +10465,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF9
 	.byte	0xa
 	.uahalf	0x1e3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -10475,18 +10475,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_SOMI_Bits"
 	.byte	0xa
 	.uahalf	0x1e4
-	.uaword	0x4dba
+	.uaword	0x4daf
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_SOMP_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1e7
-	.uaword	0x4f75
+	.uaword	0x4f6a
 	.uleb128 0xf
 	.uaword	.LASF117
 	.byte	0xa
 	.uahalf	0x1e9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -10495,7 +10495,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x1ea
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10504,7 +10504,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF119
 	.byte	0xa
 	.uahalf	0x1eb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10513,7 +10513,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ADL"
 	.byte	0xa
 	.uahalf	0x1ec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -10522,7 +10522,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF130
 	.byte	0xa
 	.uahalf	0x1ed
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x15
@@ -10531,7 +10531,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SL"
 	.byte	0xa
 	.uahalf	0x1ee
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10540,7 +10540,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF131
 	.byte	0xa
 	.uahalf	0x1ef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -10549,7 +10549,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF121
 	.byte	0xa
 	.uahalf	0x1f0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xc
@@ -10558,7 +10558,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF123
 	.byte	0xa
 	.uahalf	0x1f1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -10567,7 +10567,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.uahalf	0x1f2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -10576,7 +10576,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF124
 	.byte	0xa
 	.uahalf	0x1f3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -10585,7 +10585,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF127
 	.byte	0xa
 	.uahalf	0x1f4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -10594,7 +10594,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OSM"
 	.byte	0xa
 	.uahalf	0x1f5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -10603,7 +10603,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF42
 	.byte	0xa
 	.uahalf	0x1f6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -10613,18 +10613,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_SOMP_Bits"
 	.byte	0xa
 	.uahalf	0x1f7
-	.uaword	0x4e71
+	.uaword	0x4e66
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_SOMS_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1fa
-	.uaword	0x5060
+	.uaword	0x5055
 	.uleb128 0xf
 	.uaword	.LASF117
 	.byte	0xa
 	.uahalf	0x1fc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -10633,7 +10633,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x1fd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10642,7 +10642,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF119
 	.byte	0xa
 	.uahalf	0x1fe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10651,7 +10651,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB0"
 	.byte	0xa
 	.uahalf	0x1ff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10660,7 +10660,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0x200
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x15
@@ -10669,7 +10669,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SL"
 	.byte	0xa
 	.uahalf	0x201
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10678,7 +10678,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CLK_SRC"
 	.byte	0xa
 	.uahalf	0x202
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -10687,7 +10687,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF121
 	.byte	0xa
 	.uahalf	0x203
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xb
 	.byte	0x6
@@ -10696,7 +10696,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OSM"
 	.byte	0xa
 	.uahalf	0x204
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -10705,7 +10705,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF42
 	.byte	0xa
 	.uahalf	0x205
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -10715,18 +10715,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_SOMS_Bits"
 	.byte	0xa
 	.uahalf	0x206
-	.uaword	0x4f97
+	.uaword	0x4f8c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_SR0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x209
-	.uaword	0x50c6
+	.uaword	0x50bb
 	.uleb128 0xe
 	.string	"SR0"
 	.byte	0xa
 	.uahalf	0x20b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -10735,7 +10735,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x20c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -10745,18 +10745,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_SR0_Bits"
 	.byte	0xa
 	.uahalf	0x20d
-	.uaword	0x5082
+	.uaword	0x5077
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_SR1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x210
-	.uaword	0x512b
+	.uaword	0x5120
 	.uleb128 0xe
 	.string	"SR1"
 	.byte	0xa
 	.uahalf	0x212
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -10765,7 +10765,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x213
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -10775,18 +10775,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_SR1_Bits"
 	.byte	0xa
 	.uahalf	0x214
-	.uaword	0x50e7
+	.uaword	0x50dc
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH_STAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x217
-	.uaword	0x51f1
+	.uaword	0x51e6
 	.uleb128 0xe
 	.string	"OL"
 	.byte	0xa
 	.uahalf	0x219
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10795,7 +10795,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0x21a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xf
 	.byte	0x10
@@ -10804,7 +10804,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACBI"
 	.byte	0xa
 	.uahalf	0x21b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -10813,7 +10813,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DV"
 	.byte	0xa
 	.uahalf	0x21c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -10822,7 +10822,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WRF"
 	.byte	0xa
 	.uahalf	0x21d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -10831,7 +10831,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x21e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -10840,7 +10840,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACBO"
 	.byte	0xa
 	.uahalf	0x21f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -10849,7 +10849,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0x220
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -10859,18 +10859,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ATOM_CH_STAT_Bits"
 	.byte	0xa
 	.uahalf	0x221
-	.uaword	0x514c
+	.uaword	0x5141
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_EIRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x224
-	.uaword	0x533f
+	.uaword	0x5334
 	.uleb128 0xf
 	.uaword	.LASF133
 	.byte	0xa
 	.uahalf	0x226
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -10879,7 +10879,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN0"
 	.byte	0xa
 	.uahalf	0x227
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -10888,7 +10888,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN1"
 	.byte	0xa
 	.uahalf	0x228
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -10897,7 +10897,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN2"
 	.byte	0xa
 	.uahalf	0x229
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -10906,7 +10906,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN3"
 	.byte	0xa
 	.uahalf	0x22a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -10915,7 +10915,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN4"
 	.byte	0xa
 	.uahalf	0x22b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -10924,7 +10924,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN5"
 	.byte	0xa
 	.uahalf	0x22c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -10933,7 +10933,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN6"
 	.byte	0xa
 	.uahalf	0x22d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -10942,7 +10942,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN7"
 	.byte	0xa
 	.uahalf	0x22e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -10951,7 +10951,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN8"
 	.byte	0xa
 	.uahalf	0x22f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -10960,7 +10960,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN9"
 	.byte	0xa
 	.uahalf	0x230
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -10969,7 +10969,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF134
 	.byte	0xa
 	.uahalf	0x231
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -10978,7 +10978,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF135
 	.byte	0xa
 	.uahalf	0x232
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -10987,7 +10987,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x233
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -10997,18 +10997,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_EIRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x234
-	.uaword	0x5213
+	.uaword	0x5208
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x237
-	.uaword	0x548b
+	.uaword	0x5480
 	.uleb128 0xf
 	.uaword	.LASF133
 	.byte	0xa
 	.uahalf	0x239
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11017,7 +11017,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN0"
 	.byte	0xa
 	.uahalf	0x23a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11026,7 +11026,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN1"
 	.byte	0xa
 	.uahalf	0x23b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11035,7 +11035,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN2"
 	.byte	0xa
 	.uahalf	0x23c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11044,7 +11044,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN3"
 	.byte	0xa
 	.uahalf	0x23d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11053,7 +11053,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN4"
 	.byte	0xa
 	.uahalf	0x23e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11062,7 +11062,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN5"
 	.byte	0xa
 	.uahalf	0x23f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11071,7 +11071,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN6"
 	.byte	0xa
 	.uahalf	0x240
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11080,7 +11080,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN7"
 	.byte	0xa
 	.uahalf	0x241
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11089,7 +11089,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN8"
 	.byte	0xa
 	.uahalf	0x242
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11098,7 +11098,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID_EN9"
 	.byte	0xa
 	.uahalf	0x243
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11107,7 +11107,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF134
 	.byte	0xa
 	.uahalf	0x244
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11116,7 +11116,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF135
 	.byte	0xa
 	.uahalf	0x245
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11125,7 +11125,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x246
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -11135,18 +11135,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x247
-	.uaword	0x5360
+	.uaword	0x5355
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x24a
-	.uaword	0x55fa
+	.uaword	0x55ef
 	.uleb128 0xe
 	.string	"TRG_DEST_ERR"
 	.byte	0xa
 	.uahalf	0x24c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11155,7 +11155,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID0"
 	.byte	0xa
 	.uahalf	0x24d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11164,7 +11164,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID1"
 	.byte	0xa
 	.uahalf	0x24e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11173,7 +11173,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID2"
 	.byte	0xa
 	.uahalf	0x24f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11182,7 +11182,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID3"
 	.byte	0xa
 	.uahalf	0x250
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11191,7 +11191,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID4"
 	.byte	0xa
 	.uahalf	0x251
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11200,7 +11200,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID5"
 	.byte	0xa
 	.uahalf	0x252
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11209,7 +11209,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID6"
 	.byte	0xa
 	.uahalf	0x253
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11218,7 +11218,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID7"
 	.byte	0xa
 	.uahalf	0x254
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11227,7 +11227,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID8"
 	.byte	0xa
 	.uahalf	0x255
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11236,7 +11236,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID9"
 	.byte	0xa
 	.uahalf	0x256
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11245,7 +11245,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID10"
 	.byte	0xa
 	.uahalf	0x257
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11254,7 +11254,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DID11"
 	.byte	0xa
 	.uahalf	0x258
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11263,7 +11263,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x259
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -11273,18 +11273,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0x25a
-	.uaword	0x54ab
+	.uaword	0x54a0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x25d
-	.uaword	0x5664
+	.uaword	0x5659
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x25f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -11293,7 +11293,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x260
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -11303,18 +11303,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0x261
-	.uaword	0x561f
+	.uaword	0x5614
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x264
-	.uaword	0x57a0
+	.uaword	0x5795
 	.uleb128 0xe
 	.string	"DEST_ERR"
 	.byte	0xa
 	.uahalf	0x266
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11323,7 +11323,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID0"
 	.byte	0xa
 	.uahalf	0x267
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11332,7 +11332,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID1"
 	.byte	0xa
 	.uahalf	0x268
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11341,7 +11341,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID2"
 	.byte	0xa
 	.uahalf	0x269
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11350,7 +11350,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID3"
 	.byte	0xa
 	.uahalf	0x26a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11359,7 +11359,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID4"
 	.byte	0xa
 	.uahalf	0x26b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11368,7 +11368,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID5"
 	.byte	0xa
 	.uahalf	0x26c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11377,7 +11377,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID6"
 	.byte	0xa
 	.uahalf	0x26d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11386,7 +11386,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID7"
 	.byte	0xa
 	.uahalf	0x26e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11395,7 +11395,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID8"
 	.byte	0xa
 	.uahalf	0x26f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11404,7 +11404,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID9"
 	.byte	0xa
 	.uahalf	0x270
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11413,7 +11413,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID10"
 	.byte	0xa
 	.uahalf	0x271
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11422,7 +11422,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DID11"
 	.byte	0xa
 	.uahalf	0x272
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11431,7 +11431,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x273
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -11441,18 +11441,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0x274
-	.uaword	0x5686
+	.uaword	0x567b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_RST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x277
-	.uaword	0x5804
+	.uaword	0x57f9
 	.uleb128 0xe
 	.string	"RST"
 	.byte	0xa
 	.uahalf	0x279
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11461,7 +11461,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0x27a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -11471,18 +11471,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_RST_Bits"
 	.byte	0xa
 	.uahalf	0x27b
-	.uaword	0x57c4
+	.uaword	0x57b9
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC0_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x27e
-	.uaword	0x5887
+	.uaword	0x587c
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x280
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -11491,7 +11491,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x281
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -11500,7 +11500,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x282
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11509,7 +11509,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x283
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -11519,18 +11519,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC0_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x284
-	.uaword	0x5821
+	.uaword	0x5816
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC0_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x287
-	.uaword	0x5a50
+	.uaword	0x5a45
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x289
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11539,7 +11539,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x28a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11548,7 +11548,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x28b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11557,7 +11557,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x28c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11566,7 +11566,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x28d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11575,7 +11575,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x28e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11584,7 +11584,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x28f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11593,7 +11593,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x290
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11602,7 +11602,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x291
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11611,7 +11611,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x292
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11620,7 +11620,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x293
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11629,7 +11629,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x294
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11638,7 +11638,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x295
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11647,7 +11647,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x296
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11656,7 +11656,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x297
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11665,7 +11665,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x298
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11674,7 +11674,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x299
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11683,7 +11683,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x29a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11692,7 +11692,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x29b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11701,7 +11701,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x29c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11710,7 +11710,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x29d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11719,7 +11719,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x29e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -11728,7 +11728,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x29f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -11737,7 +11737,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x2a0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -11747,18 +11747,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC0_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x2a1
-	.uaword	0x58aa
+	.uaword	0x589f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC10_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x2a4
-	.uaword	0x5ada
+	.uaword	0x5acf
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x2a6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -11767,7 +11767,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x2a7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -11776,7 +11776,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x2a8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11785,7 +11785,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x2a9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -11795,18 +11795,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC10_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x2aa
-	.uaword	0x5a73
+	.uaword	0x5a68
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC10_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x2ad
-	.uaword	0x5ca5
+	.uaword	0x5c9a
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x2af
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -11815,7 +11815,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x2b0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -11824,7 +11824,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x2b1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -11833,7 +11833,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x2b2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -11842,7 +11842,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x2b3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -11851,7 +11851,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x2b4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -11860,7 +11860,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x2b5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -11869,7 +11869,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x2b6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -11878,7 +11878,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x2b7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -11887,7 +11887,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x2b8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -11896,7 +11896,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x2b9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -11905,7 +11905,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x2ba
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -11914,7 +11914,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x2bb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -11923,7 +11923,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x2bc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -11932,7 +11932,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x2bd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -11941,7 +11941,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x2be
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -11950,7 +11950,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x2bf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -11959,7 +11959,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x2c0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -11968,7 +11968,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x2c1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -11977,7 +11977,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x2c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -11986,7 +11986,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x2c3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -11995,7 +11995,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x2c4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -12004,7 +12004,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x2c5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -12013,7 +12013,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x2c6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -12023,18 +12023,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC10_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x2c7
-	.uaword	0x5afe
+	.uaword	0x5af3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC11_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x2ca
-	.uaword	0x5d30
+	.uaword	0x5d25
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x2cc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -12043,7 +12043,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x2cd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -12052,7 +12052,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x2ce
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12061,7 +12061,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x2cf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -12071,18 +12071,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC11_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x2d0
-	.uaword	0x5cc9
+	.uaword	0x5cbe
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC11_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x2d3
-	.uaword	0x5efb
+	.uaword	0x5ef0
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x2d5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12091,7 +12091,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x2d6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12100,7 +12100,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x2d7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12109,7 +12109,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x2d8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12118,7 +12118,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x2d9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12127,7 +12127,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x2da
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12136,7 +12136,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x2db
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12145,7 +12145,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x2dc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12154,7 +12154,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x2dd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12163,7 +12163,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x2de
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12172,7 +12172,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x2df
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12181,7 +12181,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x2e0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12190,7 +12190,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x2e1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12199,7 +12199,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x2e2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12208,7 +12208,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x2e3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12217,7 +12217,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x2e4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12226,7 +12226,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x2e5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -12235,7 +12235,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x2e6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -12244,7 +12244,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x2e7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -12253,7 +12253,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x2e8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12262,7 +12262,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x2e9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -12271,7 +12271,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x2ea
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -12280,7 +12280,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x2eb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -12289,7 +12289,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x2ec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -12299,18 +12299,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC11_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x2ed
-	.uaword	0x5d54
+	.uaword	0x5d49
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC1_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x2f0
-	.uaword	0x5f85
+	.uaword	0x5f7a
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x2f2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -12319,7 +12319,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x2f3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -12328,7 +12328,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x2f4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12337,7 +12337,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x2f5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -12347,18 +12347,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC1_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x2f6
-	.uaword	0x5f1f
+	.uaword	0x5f14
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC1_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x2f9
-	.uaword	0x614e
+	.uaword	0x6143
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x2fb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12367,7 +12367,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x2fc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12376,7 +12376,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x2fd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12385,7 +12385,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x2fe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12394,7 +12394,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x2ff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12403,7 +12403,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x300
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12412,7 +12412,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x301
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12421,7 +12421,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x302
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12430,7 +12430,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x303
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12439,7 +12439,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x304
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12448,7 +12448,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x305
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12457,7 +12457,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x306
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12466,7 +12466,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x307
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12475,7 +12475,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x308
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12484,7 +12484,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x309
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12493,7 +12493,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x30a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12502,7 +12502,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x30b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -12511,7 +12511,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x30c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -12520,7 +12520,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x30d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -12529,7 +12529,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x30e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12538,7 +12538,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x30f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -12547,7 +12547,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x310
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -12556,7 +12556,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x311
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -12565,7 +12565,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x312
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -12575,18 +12575,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC1_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x313
-	.uaword	0x5fa8
+	.uaword	0x5f9d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC2_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x316
-	.uaword	0x61d7
+	.uaword	0x61cc
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x318
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -12595,7 +12595,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x319
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -12604,7 +12604,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x31a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12613,7 +12613,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x31b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -12623,18 +12623,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC2_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x31c
-	.uaword	0x6171
+	.uaword	0x6166
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC2_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x31f
-	.uaword	0x63a0
+	.uaword	0x6395
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x321
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12643,7 +12643,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x322
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12652,7 +12652,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x323
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12661,7 +12661,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x324
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12670,7 +12670,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x325
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12679,7 +12679,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x326
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12688,7 +12688,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x327
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12697,7 +12697,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x328
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12706,7 +12706,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x329
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12715,7 +12715,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x32a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -12724,7 +12724,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x32b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -12733,7 +12733,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x32c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -12742,7 +12742,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x32d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12751,7 +12751,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x32e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -12760,7 +12760,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x32f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -12769,7 +12769,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x330
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -12778,7 +12778,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x331
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -12787,7 +12787,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x332
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -12796,7 +12796,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x333
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -12805,7 +12805,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x334
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -12814,7 +12814,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x335
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -12823,7 +12823,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x336
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -12832,7 +12832,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x337
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -12841,7 +12841,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x338
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -12851,18 +12851,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC2_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x339
-	.uaword	0x61fa
+	.uaword	0x61ef
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC3_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x33c
-	.uaword	0x6429
+	.uaword	0x641e
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x33e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -12871,7 +12871,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x33f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -12880,7 +12880,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x340
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -12889,7 +12889,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x341
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -12899,18 +12899,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC3_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x342
-	.uaword	0x63c3
+	.uaword	0x63b8
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC3_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x345
-	.uaword	0x65f2
+	.uaword	0x65e7
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x347
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -12919,7 +12919,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x348
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -12928,7 +12928,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x349
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -12937,7 +12937,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x34a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -12946,7 +12946,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x34b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -12955,7 +12955,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x34c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -12964,7 +12964,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x34d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -12973,7 +12973,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x34e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -12982,7 +12982,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x34f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -12991,7 +12991,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x350
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -13000,7 +13000,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x351
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -13009,7 +13009,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x352
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -13018,7 +13018,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x353
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13027,7 +13027,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x354
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -13036,7 +13036,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x355
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -13045,7 +13045,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x356
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -13054,7 +13054,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x357
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -13063,7 +13063,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x358
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -13072,7 +13072,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x359
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -13081,7 +13081,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x35a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -13090,7 +13090,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x35b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -13099,7 +13099,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x35c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -13108,7 +13108,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x35d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -13117,7 +13117,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x35e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -13127,18 +13127,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC3_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x35f
-	.uaword	0x644c
+	.uaword	0x6441
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC4_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x362
-	.uaword	0x667b
+	.uaword	0x6670
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x364
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -13147,7 +13147,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x365
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -13156,7 +13156,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x366
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13165,7 +13165,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x367
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -13175,18 +13175,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC4_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x368
-	.uaword	0x6615
+	.uaword	0x660a
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC4_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x36b
-	.uaword	0x6844
+	.uaword	0x6839
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x36d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -13195,7 +13195,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x36e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -13204,7 +13204,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x36f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -13213,7 +13213,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x370
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -13222,7 +13222,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x371
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -13231,7 +13231,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x372
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -13240,7 +13240,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x373
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -13249,7 +13249,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x374
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -13258,7 +13258,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x375
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -13267,7 +13267,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x376
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -13276,7 +13276,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x377
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -13285,7 +13285,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x378
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -13294,7 +13294,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x379
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13303,7 +13303,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x37a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -13312,7 +13312,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x37b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -13321,7 +13321,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x37c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -13330,7 +13330,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x37d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -13339,7 +13339,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x37e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -13348,7 +13348,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x37f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -13357,7 +13357,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x380
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -13366,7 +13366,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x381
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -13375,7 +13375,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x382
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -13384,7 +13384,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x383
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -13393,7 +13393,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x384
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -13403,18 +13403,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC4_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x385
-	.uaword	0x669e
+	.uaword	0x6693
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC5_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x388
-	.uaword	0x68cd
+	.uaword	0x68c2
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x38a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -13423,7 +13423,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x38b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -13432,7 +13432,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x38c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13441,7 +13441,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x38d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -13451,18 +13451,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC5_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x38e
-	.uaword	0x6867
+	.uaword	0x685c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC5_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x391
-	.uaword	0x6a96
+	.uaword	0x6a8b
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x393
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -13471,7 +13471,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x394
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -13480,7 +13480,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x395
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -13489,7 +13489,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x396
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -13498,7 +13498,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x397
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -13507,7 +13507,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x398
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -13516,7 +13516,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x399
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -13525,7 +13525,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x39a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -13534,7 +13534,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x39b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -13543,7 +13543,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x39c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -13552,7 +13552,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x39d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -13561,7 +13561,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x39e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -13570,7 +13570,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x39f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13579,7 +13579,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x3a0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -13588,7 +13588,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x3a1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -13597,7 +13597,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x3a2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -13606,7 +13606,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x3a3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -13615,7 +13615,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x3a4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -13624,7 +13624,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x3a5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -13633,7 +13633,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x3a6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -13642,7 +13642,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x3a7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -13651,7 +13651,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x3a8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -13660,7 +13660,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x3a9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -13669,7 +13669,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x3aa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -13679,18 +13679,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC5_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x3ab
-	.uaword	0x68f0
+	.uaword	0x68e5
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC6_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x3ae
-	.uaword	0x6b1f
+	.uaword	0x6b14
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x3b0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -13699,7 +13699,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x3b1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -13708,7 +13708,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x3b2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13717,7 +13717,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x3b3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -13727,18 +13727,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC6_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x3b4
-	.uaword	0x6ab9
+	.uaword	0x6aae
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC6_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x3b7
-	.uaword	0x6ce8
+	.uaword	0x6cdd
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x3b9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -13747,7 +13747,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x3ba
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -13756,7 +13756,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x3bb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -13765,7 +13765,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x3bc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -13774,7 +13774,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x3bd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -13783,7 +13783,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x3be
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -13792,7 +13792,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x3bf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -13801,7 +13801,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x3c0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -13810,7 +13810,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x3c1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -13819,7 +13819,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x3c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -13828,7 +13828,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x3c3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -13837,7 +13837,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x3c4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -13846,7 +13846,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x3c5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13855,7 +13855,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x3c6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -13864,7 +13864,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x3c7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -13873,7 +13873,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x3c8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -13882,7 +13882,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x3c9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -13891,7 +13891,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x3ca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -13900,7 +13900,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x3cb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -13909,7 +13909,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x3cc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -13918,7 +13918,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x3cd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -13927,7 +13927,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x3ce
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -13936,7 +13936,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x3cf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -13945,7 +13945,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x3d0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -13955,18 +13955,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC6_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x3d1
-	.uaword	0x6b42
+	.uaword	0x6b37
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC7_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x3d4
-	.uaword	0x6d71
+	.uaword	0x6d66
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x3d6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -13975,7 +13975,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x3d7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -13984,7 +13984,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x3d8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -13993,7 +13993,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x3d9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -14003,18 +14003,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC7_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x3da
-	.uaword	0x6d0b
+	.uaword	0x6d00
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC7_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x3dd
-	.uaword	0x6f3a
+	.uaword	0x6f2f
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x3df
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -14023,7 +14023,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x3e0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -14032,7 +14032,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x3e1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -14041,7 +14041,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x3e2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -14050,7 +14050,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x3e3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -14059,7 +14059,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x3e4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -14068,7 +14068,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x3e5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -14077,7 +14077,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x3e6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -14086,7 +14086,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x3e7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -14095,7 +14095,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x3e8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -14104,7 +14104,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x3e9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -14113,7 +14113,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x3ea
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -14122,7 +14122,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x3eb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -14131,7 +14131,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x3ec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -14140,7 +14140,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x3ed
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -14149,7 +14149,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x3ee
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -14158,7 +14158,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x3ef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -14167,7 +14167,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x3f0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -14176,7 +14176,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x3f1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -14185,7 +14185,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x3f2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -14194,7 +14194,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x3f3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -14203,7 +14203,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x3f4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -14212,7 +14212,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x3f5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -14221,7 +14221,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x3f6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -14231,18 +14231,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC7_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x3f7
-	.uaword	0x6d94
+	.uaword	0x6d89
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC8_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x3fa
-	.uaword	0x6fc3
+	.uaword	0x6fb8
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x3fc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -14251,7 +14251,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x3fd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -14260,7 +14260,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x3fe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -14269,7 +14269,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x3ff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -14279,18 +14279,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC8_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x400
-	.uaword	0x6f5d
+	.uaword	0x6f52
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC8_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x403
-	.uaword	0x718c
+	.uaword	0x7181
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x405
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -14299,7 +14299,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x406
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -14308,7 +14308,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x407
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -14317,7 +14317,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x408
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -14326,7 +14326,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x409
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -14335,7 +14335,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x40a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -14344,7 +14344,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x40b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -14353,7 +14353,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x40c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -14362,7 +14362,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x40d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -14371,7 +14371,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x40e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -14380,7 +14380,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x40f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -14389,7 +14389,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x410
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -14398,7 +14398,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x411
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -14407,7 +14407,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x412
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -14416,7 +14416,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x413
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -14425,7 +14425,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x414
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -14434,7 +14434,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x415
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -14443,7 +14443,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x416
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -14452,7 +14452,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x417
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -14461,7 +14461,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x418
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -14470,7 +14470,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x419
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -14479,7 +14479,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x41a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -14488,7 +14488,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x41b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -14497,7 +14497,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x41c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -14507,18 +14507,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC8_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x41d
-	.uaword	0x6fe6
+	.uaword	0x6fdb
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC9_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x420
-	.uaword	0x7215
+	.uaword	0x720a
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x422
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -14527,7 +14527,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x423
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -14536,7 +14536,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF137
 	.byte	0xa
 	.uahalf	0x424
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -14545,7 +14545,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x425
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x13
 	.byte	0
@@ -14555,18 +14555,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC9_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x426
-	.uaword	0x71af
+	.uaword	0x71a4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC_SRC9_DEST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x429
-	.uaword	0x73de
+	.uaword	0x73d3
 	.uleb128 0xf
 	.uaword	.LASF138
 	.byte	0xa
 	.uahalf	0x42b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -14575,7 +14575,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF139
 	.byte	0xa
 	.uahalf	0x42c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -14584,7 +14584,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF140
 	.byte	0xa
 	.uahalf	0x42d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -14593,7 +14593,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF141
 	.byte	0xa
 	.uahalf	0x42e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -14602,7 +14602,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF142
 	.byte	0xa
 	.uahalf	0x42f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -14611,7 +14611,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF143
 	.byte	0xa
 	.uahalf	0x430
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -14620,7 +14620,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF144
 	.byte	0xa
 	.uahalf	0x431
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -14629,7 +14629,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF145
 	.byte	0xa
 	.uahalf	0x432
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -14638,7 +14638,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF146
 	.byte	0xa
 	.uahalf	0x433
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -14647,7 +14647,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF147
 	.byte	0xa
 	.uahalf	0x434
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -14656,7 +14656,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF148
 	.byte	0xa
 	.uahalf	0x435
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -14665,7 +14665,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF149
 	.byte	0xa
 	.uahalf	0x436
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -14674,7 +14674,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF150
 	.byte	0xa
 	.uahalf	0x437
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -14683,7 +14683,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF151
 	.byte	0xa
 	.uahalf	0x438
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -14692,7 +14692,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF152
 	.byte	0xa
 	.uahalf	0x439
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -14701,7 +14701,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF153
 	.byte	0xa
 	.uahalf	0x43a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -14710,7 +14710,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF154
 	.byte	0xa
 	.uahalf	0x43b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -14719,7 +14719,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF155
 	.byte	0xa
 	.uahalf	0x43c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -14728,7 +14728,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF156
 	.byte	0xa
 	.uahalf	0x43d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -14737,7 +14737,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF157
 	.byte	0xa
 	.uahalf	0x43e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -14746,7 +14746,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF158
 	.byte	0xa
 	.uahalf	0x43f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -14755,7 +14755,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF159
 	.byte	0xa
 	.uahalf	0x440
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -14764,7 +14764,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF160
 	.byte	0xa
 	.uahalf	0x441
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -14773,7 +14773,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0x442
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -14783,18 +14783,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRC_SRC9_DEST_Bits"
 	.byte	0xa
 	.uahalf	0x443
-	.uaword	0x7238
+	.uaword	0x722d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRIDGE_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x446
-	.uaword	0x7502
+	.uaword	0x74f7
 	.uleb128 0xe
 	.string	"BRG_MODE"
 	.byte	0xa
 	.uahalf	0x448
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -14803,7 +14803,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MSK_WR_RSP"
 	.byte	0xa
 	.uahalf	0x449
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -14812,7 +14812,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x44a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x18
@@ -14821,7 +14821,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODE_UP_PGR"
 	.byte	0xa
 	.uahalf	0x44b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -14830,7 +14830,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"BUFF_OVL"
 	.byte	0xa
 	.uahalf	0x44c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -14839,7 +14839,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x44d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -14848,7 +14848,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYNC_INPUT_REG"
 	.byte	0xa
 	.uahalf	0x44e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -14857,7 +14857,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x44f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -14866,7 +14866,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"BRG_RST"
 	.byte	0xa
 	.uahalf	0x450
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -14875,7 +14875,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF122
 	.byte	0xa
 	.uahalf	0x451
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0x8
@@ -14884,7 +14884,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"BUFF_DPT"
 	.byte	0xa
 	.uahalf	0x452
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -14894,18 +14894,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRIDGE_MODE_Bits"
 	.byte	0xa
 	.uahalf	0x453
-	.uaword	0x7401
+	.uaword	0x73f6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRIDGE_PTR1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x456
-	.uaword	0x75d4
+	.uaword	0x75c9
 	.uleb128 0xe
 	.string	"NEW_TRAN_PTR"
 	.byte	0xa
 	.uahalf	0x458
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -14914,7 +14914,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIRST_RSP_PTR"
 	.byte	0xa
 	.uahalf	0x459
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x16
@@ -14923,7 +14923,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRAN_IN_PGR"
 	.byte	0xa
 	.uahalf	0x45a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x11
@@ -14932,7 +14932,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABT_TRAN_PGR"
 	.byte	0xa
 	.uahalf	0x45b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xc
@@ -14941,7 +14941,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FBC"
 	.byte	0xa
 	.uahalf	0x45c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x6
@@ -14950,7 +14950,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RSP_TRAN_RDY"
 	.byte	0xa
 	.uahalf	0x45d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -14960,18 +14960,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRIDGE_PTR1_Bits"
 	.byte	0xa
 	.uahalf	0x45e
-	.uaword	0x7523
+	.uaword	0x7518
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRIDGE_PTR2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x461
-	.uaword	0x7642
+	.uaword	0x7637
 	.uleb128 0xe
 	.string	"TRAN_IN_PGR2"
 	.byte	0xa
 	.uahalf	0x463
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -14980,7 +14980,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0x464
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1b
 	.byte	0
@@ -14990,18 +14990,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_BRIDGE_PTR2_Bits"
 	.byte	0xa
 	.uahalf	0x465
-	.uaword	0x75f5
+	.uaword	0x75ea
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CLC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x468
-	.uaword	0x76d2
+	.uaword	0x76c7
 	.uleb128 0xe
 	.string	"DISR"
 	.byte	0xa
 	.uahalf	0x46a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -15010,7 +15010,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DISS"
 	.byte	0xa
 	.uahalf	0x46b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -15019,7 +15019,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x46c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -15028,7 +15028,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EDIS"
 	.byte	0xa
 	.uahalf	0x46d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -15037,7 +15037,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x46e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -15047,18 +15047,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CLC_Bits"
 	.byte	0xa
 	.uahalf	0x46f
-	.uaword	0x7663
+	.uaword	0x7658
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMP_EIRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x472
-	.uaword	0x7993
+	.uaword	0x7988
 	.uleb128 0xe
 	.string	"ABWC0_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x474
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -15067,7 +15067,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC1_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x475
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -15076,7 +15076,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC2_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x476
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -15085,7 +15085,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC3_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x477
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -15094,7 +15094,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC4_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x478
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -15103,7 +15103,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC5_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x479
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -15112,7 +15112,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC6_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x47a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -15121,7 +15121,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC7_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x47b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -15130,7 +15130,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC8_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x47c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -15139,7 +15139,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC9_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x47d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -15148,7 +15148,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC10_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x47e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -15157,7 +15157,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC11_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x47f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -15166,7 +15166,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC0_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x480
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -15175,7 +15175,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC1_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x481
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -15184,7 +15184,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC2_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x482
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -15193,7 +15193,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC3_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x483
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -15202,7 +15202,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC4_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x484
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -15211,7 +15211,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC5_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x485
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -15220,7 +15220,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC6_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x486
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -15229,7 +15229,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC7_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x487
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -15238,7 +15238,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC8_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x488
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -15247,7 +15247,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC9_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x489
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -15256,7 +15256,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC10_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x48a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -15265,7 +15265,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC11_EN_EIRQ"
 	.byte	0xa
 	.uahalf	0x48b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -15274,7 +15274,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x48c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -15284,18 +15284,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMP_EIRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x48d
-	.uaword	0x76eb
+	.uaword	0x76e0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMP_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x490
-	.uaword	0x7bdf
+	.uaword	0x7bd4
 	.uleb128 0xe
 	.string	"ABWC0_EN"
 	.byte	0xa
 	.uahalf	0x492
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -15304,7 +15304,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC1_EN"
 	.byte	0xa
 	.uahalf	0x493
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -15313,7 +15313,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC2_EN"
 	.byte	0xa
 	.uahalf	0x494
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -15322,7 +15322,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC3_EN"
 	.byte	0xa
 	.uahalf	0x495
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -15331,7 +15331,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC4_EN"
 	.byte	0xa
 	.uahalf	0x496
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -15340,7 +15340,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC5_EN"
 	.byte	0xa
 	.uahalf	0x497
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -15349,7 +15349,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC6_EN"
 	.byte	0xa
 	.uahalf	0x498
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -15358,7 +15358,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC7_EN"
 	.byte	0xa
 	.uahalf	0x499
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -15367,7 +15367,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC8_EN"
 	.byte	0xa
 	.uahalf	0x49a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -15376,7 +15376,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC9_EN"
 	.byte	0xa
 	.uahalf	0x49b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -15385,7 +15385,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC10_EN"
 	.byte	0xa
 	.uahalf	0x49c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -15394,7 +15394,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC11_EN"
 	.byte	0xa
 	.uahalf	0x49d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -15403,7 +15403,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC0_EN"
 	.byte	0xa
 	.uahalf	0x49e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -15412,7 +15412,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC1_EN"
 	.byte	0xa
 	.uahalf	0x49f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -15421,7 +15421,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC2_EN"
 	.byte	0xa
 	.uahalf	0x4a0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -15430,7 +15430,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC3_EN"
 	.byte	0xa
 	.uahalf	0x4a1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -15439,7 +15439,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC4_EN"
 	.byte	0xa
 	.uahalf	0x4a2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -15448,7 +15448,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC5_EN"
 	.byte	0xa
 	.uahalf	0x4a3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -15457,7 +15457,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC6_EN"
 	.byte	0xa
 	.uahalf	0x4a4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -15466,7 +15466,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC7_EN"
 	.byte	0xa
 	.uahalf	0x4a5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -15475,7 +15475,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC8_EN"
 	.byte	0xa
 	.uahalf	0x4a6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -15484,7 +15484,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC9_EN"
 	.byte	0xa
 	.uahalf	0x4a7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -15493,7 +15493,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC10_EN"
 	.byte	0xa
 	.uahalf	0x4a8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -15502,7 +15502,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC11_EN"
 	.byte	0xa
 	.uahalf	0x4a9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -15511,7 +15511,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x4aa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -15521,18 +15521,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMP_EN_Bits"
 	.byte	0xa
 	.uahalf	0x4ab
-	.uaword	0x79b4
+	.uaword	0x79a9
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMP_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x4ae
-	.uaword	0x7e8a
+	.uaword	0x7e7f
 	.uleb128 0xe
 	.string	"ABWC0_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -15541,7 +15541,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC1_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -15550,7 +15550,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC2_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -15559,7 +15559,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC3_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -15568,7 +15568,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC4_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -15577,7 +15577,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC5_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -15586,7 +15586,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC6_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -15595,7 +15595,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC7_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -15604,7 +15604,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC8_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -15613,7 +15613,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC9_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4b9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -15622,7 +15622,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC10_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4ba
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -15631,7 +15631,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC11_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4bb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -15640,7 +15640,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC0_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4bc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -15649,7 +15649,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC1_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4bd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -15658,7 +15658,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC2_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4be
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -15667,7 +15667,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC3_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4bf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -15676,7 +15676,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC4_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4c0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -15685,7 +15685,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC5_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4c1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -15694,7 +15694,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC6_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -15703,7 +15703,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC7_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4c3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -15712,7 +15712,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC8_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4c4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -15721,7 +15721,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC9_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4c5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -15730,7 +15730,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC10_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4c6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -15739,7 +15739,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC11_EN_IRQ"
 	.byte	0xa
 	.uahalf	0x4c7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -15748,7 +15748,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x4c8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -15758,18 +15758,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMP_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x4c9
-	.uaword	0x7bfb
+	.uaword	0x7bf0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMP_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x4cc
-	.uaword	0x80f6
+	.uaword	0x80eb
 	.uleb128 0xe
 	.string	"TRG_ABWC0"
 	.byte	0xa
 	.uahalf	0x4ce
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -15778,7 +15778,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC1"
 	.byte	0xa
 	.uahalf	0x4cf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -15787,7 +15787,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC2"
 	.byte	0xa
 	.uahalf	0x4d0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -15796,7 +15796,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC3"
 	.byte	0xa
 	.uahalf	0x4d1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -15805,7 +15805,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC4"
 	.byte	0xa
 	.uahalf	0x4d2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -15814,7 +15814,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC5"
 	.byte	0xa
 	.uahalf	0x4d3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -15823,7 +15823,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC6"
 	.byte	0xa
 	.uahalf	0x4d4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -15832,7 +15832,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC7"
 	.byte	0xa
 	.uahalf	0x4d5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -15841,7 +15841,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC8"
 	.byte	0xa
 	.uahalf	0x4d6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -15850,7 +15850,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC9"
 	.byte	0xa
 	.uahalf	0x4d7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -15859,7 +15859,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC10"
 	.byte	0xa
 	.uahalf	0x4d8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -15868,7 +15868,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ABWC11"
 	.byte	0xa
 	.uahalf	0x4d9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -15877,7 +15877,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC0"
 	.byte	0xa
 	.uahalf	0x4da
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -15886,7 +15886,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC1"
 	.byte	0xa
 	.uahalf	0x4db
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -15895,7 +15895,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC2"
 	.byte	0xa
 	.uahalf	0x4dc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -15904,7 +15904,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC3"
 	.byte	0xa
 	.uahalf	0x4dd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -15913,7 +15913,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC4"
 	.byte	0xa
 	.uahalf	0x4de
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -15922,7 +15922,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC5"
 	.byte	0xa
 	.uahalf	0x4df
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -15931,7 +15931,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC6"
 	.byte	0xa
 	.uahalf	0x4e0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -15940,7 +15940,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC7"
 	.byte	0xa
 	.uahalf	0x4e1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -15949,7 +15949,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC8"
 	.byte	0xa
 	.uahalf	0x4e2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -15958,7 +15958,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC9"
 	.byte	0xa
 	.uahalf	0x4e3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -15967,7 +15967,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC10"
 	.byte	0xa
 	.uahalf	0x4e4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -15976,7 +15976,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TBWC11"
 	.byte	0xa
 	.uahalf	0x4e5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -15985,7 +15985,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x4e6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -15995,18 +15995,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMP_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0x4e7
-	.uaword	0x7eaa
+	.uaword	0x7e9f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMP_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x4ea
-	.uaword	0x8160
+	.uaword	0x8155
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x4ec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -16015,7 +16015,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x4ed
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -16025,18 +16025,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMP_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0x4ee
-	.uaword	0x811b
+	.uaword	0x8110
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMP_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x4f1
-	.uaword	0x836d
+	.uaword	0x8362
 	.uleb128 0xe
 	.string	"ABWC0"
 	.byte	0xa
 	.uahalf	0x4f3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -16045,7 +16045,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC1"
 	.byte	0xa
 	.uahalf	0x4f4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -16054,7 +16054,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC2"
 	.byte	0xa
 	.uahalf	0x4f5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -16063,7 +16063,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC3"
 	.byte	0xa
 	.uahalf	0x4f6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -16072,7 +16072,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC4"
 	.byte	0xa
 	.uahalf	0x4f7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -16081,7 +16081,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC5"
 	.byte	0xa
 	.uahalf	0x4f8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -16090,7 +16090,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC6"
 	.byte	0xa
 	.uahalf	0x4f9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -16099,7 +16099,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC7"
 	.byte	0xa
 	.uahalf	0x4fa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -16108,7 +16108,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC8"
 	.byte	0xa
 	.uahalf	0x4fb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -16117,7 +16117,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC9"
 	.byte	0xa
 	.uahalf	0x4fc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -16126,7 +16126,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC10"
 	.byte	0xa
 	.uahalf	0x4fd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -16135,7 +16135,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ABWC11"
 	.byte	0xa
 	.uahalf	0x4fe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -16144,7 +16144,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC0"
 	.byte	0xa
 	.uahalf	0x4ff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -16153,7 +16153,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC1"
 	.byte	0xa
 	.uahalf	0x500
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -16162,7 +16162,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC2"
 	.byte	0xa
 	.uahalf	0x501
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -16171,7 +16171,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC3"
 	.byte	0xa
 	.uahalf	0x502
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -16180,7 +16180,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC4"
 	.byte	0xa
 	.uahalf	0x503
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -16189,7 +16189,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC5"
 	.byte	0xa
 	.uahalf	0x504
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -16198,7 +16198,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC6"
 	.byte	0xa
 	.uahalf	0x505
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -16207,7 +16207,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC7"
 	.byte	0xa
 	.uahalf	0x506
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -16216,7 +16216,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC8"
 	.byte	0xa
 	.uahalf	0x507
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -16225,7 +16225,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC9"
 	.byte	0xa
 	.uahalf	0x508
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -16234,7 +16234,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC10"
 	.byte	0xa
 	.uahalf	0x509
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -16243,7 +16243,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBWC11"
 	.byte	0xa
 	.uahalf	0x50a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -16252,7 +16252,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x50b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16262,18 +16262,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMP_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0x50c
-	.uaword	0x8182
+	.uaword	0x8177
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_CLK0_5_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x50f
-	.uaword	0x83d9
+	.uaword	0x83ce
 	.uleb128 0xf
 	.uaword	.LASF161
 	.byte	0xa
 	.uahalf	0x511
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16282,7 +16282,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x512
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16292,18 +16292,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMU_CLK0_5_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x513
-	.uaword	0x8391
+	.uaword	0x8386
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_CLK_6_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x516
-	.uaword	0x845a
+	.uaword	0x844f
 	.uleb128 0xf
 	.uaword	.LASF161
 	.byte	0xa
 	.uahalf	0x518
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16312,7 +16312,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CLK6_SEL"
 	.byte	0xa
 	.uahalf	0x519
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -16321,7 +16321,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF127
 	.byte	0xa
 	.uahalf	0x51a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -16331,18 +16331,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMU_CLK_6_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x51b
-	.uaword	0x83fe
+	.uaword	0x83f3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_CLK_7_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x51e
-	.uaword	0x84da
+	.uaword	0x84cf
 	.uleb128 0xf
 	.uaword	.LASF161
 	.byte	0xa
 	.uahalf	0x520
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16351,7 +16351,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CLK7_SEL"
 	.byte	0xa
 	.uahalf	0x521
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -16360,7 +16360,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF127
 	.byte	0xa
 	.uahalf	0x522
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0
@@ -16370,18 +16370,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMU_CLK_7_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x523
-	.uaword	0x847e
+	.uaword	0x8473
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_CLK_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x526
-	.uaword	0x8625
+	.uaword	0x861a
 	.uleb128 0xe
 	.string	"EN_CLK0"
 	.byte	0xa
 	.uahalf	0x528
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -16390,7 +16390,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_CLK1"
 	.byte	0xa
 	.uahalf	0x529
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -16399,7 +16399,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_CLK2"
 	.byte	0xa
 	.uahalf	0x52a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -16408,7 +16408,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_CLK3"
 	.byte	0xa
 	.uahalf	0x52b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -16417,7 +16417,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_CLK4"
 	.byte	0xa
 	.uahalf	0x52c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -16426,7 +16426,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_CLK5"
 	.byte	0xa
 	.uahalf	0x52d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -16435,7 +16435,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_CLK6"
 	.byte	0xa
 	.uahalf	0x52e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -16444,7 +16444,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_CLK7"
 	.byte	0xa
 	.uahalf	0x52f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -16453,7 +16453,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_ECLK0"
 	.byte	0xa
 	.uahalf	0x530
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -16462,7 +16462,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_ECLK1"
 	.byte	0xa
 	.uahalf	0x531
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -16471,7 +16471,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_ECLK2"
 	.byte	0xa
 	.uahalf	0x532
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -16480,7 +16480,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN_FXCLK"
 	.byte	0xa
 	.uahalf	0x533
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -16489,7 +16489,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x534
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16499,18 +16499,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMU_CLK_EN_Bits"
 	.byte	0xa
 	.uahalf	0x535
-	.uaword	0x84fe
+	.uaword	0x84f3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_ECLK_DEN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x538
-	.uaword	0x868f
+	.uaword	0x8684
 	.uleb128 0xe
 	.string	"ECLK_DEN"
 	.byte	0xa
 	.uahalf	0x53a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16519,7 +16519,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x53b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16529,18 +16529,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMU_ECLK_DEN_Bits"
 	.byte	0xa
 	.uahalf	0x53c
-	.uaword	0x8645
+	.uaword	0x863a
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_ECLK_NUM_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x53f
-	.uaword	0x86fb
+	.uaword	0x86f0
 	.uleb128 0xe
 	.string	"ECLK_NUM"
 	.byte	0xa
 	.uahalf	0x541
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16549,7 +16549,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x542
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16559,18 +16559,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMU_ECLK_NUM_Bits"
 	.byte	0xa
 	.uahalf	0x543
-	.uaword	0x86b1
+	.uaword	0x86a6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_FXCLK_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x546
-	.uaword	0x876a
+	.uaword	0x875f
 	.uleb128 0xe
 	.string	"FXCLK_SEL"
 	.byte	0xa
 	.uahalf	0x548
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -16579,7 +16579,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x549
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -16589,18 +16589,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMU_FXCLK_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x54a
-	.uaword	0x871d
+	.uaword	0x8712
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_GCLK_DEN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x54d
-	.uaword	0x87d3
+	.uaword	0x87c8
 	.uleb128 0xf
 	.uaword	.LASF162
 	.byte	0xa
 	.uahalf	0x54f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16609,7 +16609,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x550
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16619,18 +16619,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMU_GCLK_DEN_Bits"
 	.byte	0xa
 	.uahalf	0x551
-	.uaword	0x878e
+	.uaword	0x8783
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_GCLK_NUM_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x554
-	.uaword	0x883a
+	.uaword	0x882f
 	.uleb128 0xf
 	.uaword	.LASF163
 	.byte	0xa
 	.uahalf	0x556
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16639,7 +16639,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x557
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16649,18 +16649,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CMU_GCLK_NUM_Bits"
 	.byte	0xa
 	.uahalf	0x558
-	.uaword	0x87f5
+	.uaword	0x87ea
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x55b
-	.uaword	0x88d4
+	.uaword	0x88c9
 	.uleb128 0xe
 	.string	"RF_PROT"
 	.byte	0xa
 	.uahalf	0x55d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -16669,7 +16669,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TO_MODE"
 	.byte	0xa
 	.uahalf	0x55e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -16678,7 +16678,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x55f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -16687,7 +16687,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TO_VAL"
 	.byte	0xa
 	.uahalf	0x560
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x17
@@ -16696,7 +16696,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x561
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -16706,18 +16706,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x562
-	.uaword	0x885c
+	.uaword	0x8851
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DATAIN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x565
-	.uaword	0x891d
+	.uaword	0x8912
 	.uleb128 0xf
 	.uaword	.LASF32
 	.byte	0xa
 	.uahalf	0x567
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x20
 	.byte	0
@@ -16727,18 +16727,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DATAIN_Bits"
 	.byte	0xa
 	.uahalf	0x568
-	.uaword	0x88ee
+	.uaword	0x88e3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_ACB_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x56b
-	.uaword	0x89e2
+	.uaword	0x89d7
 	.uleb128 0xe
 	.string	"ACB_0"
 	.byte	0xa
 	.uahalf	0x56d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -16747,7 +16747,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0x56e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -16756,7 +16756,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB_1"
 	.byte	0xa
 	.uahalf	0x56f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -16765,7 +16765,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x570
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -16774,7 +16774,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB_2"
 	.byte	0xa
 	.uahalf	0x571
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -16783,7 +16783,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.uahalf	0x572
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -16792,7 +16792,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB_3"
 	.byte	0xa
 	.uahalf	0x573
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -16801,7 +16801,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0x574
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -16811,18 +16811,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_ACB_Bits"
 	.byte	0xa
 	.uahalf	0x575
-	.uaword	0x8939
+	.uaword	0x892e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_ACT_STA_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x578
-	.uaword	0x8a48
+	.uaword	0x8a3d
 	.uleb128 0xe
 	.string	"ACT_Ni"
 	.byte	0xa
 	.uahalf	0x57a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16831,7 +16831,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x57b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16841,18 +16841,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_ACT_STA_Bits"
 	.byte	0xa
 	.uahalf	0x57c
-	.uaword	0x8a00
+	.uaword	0x89f5
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_ADD_IN_CAL1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x57f
-	.uaword	0x8abc
+	.uaword	0x8ab1
 	.uleb128 0xe
 	.string	"ADD_IN_CAL_1"
 	.byte	0xa
 	.uahalf	0x581
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16861,7 +16861,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x582
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16871,18 +16871,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_ADD_IN_CAL1_Bits"
 	.byte	0xa
 	.uahalf	0x583
-	.uaword	0x8a6a
+	.uaword	0x8a5f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_ADD_IN_CAL2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x586
-	.uaword	0x8b34
+	.uaword	0x8b29
 	.uleb128 0xe
 	.string	"ADD_IN_CAL_2"
 	.byte	0xa
 	.uahalf	0x588
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16891,7 +16891,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x589
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16901,18 +16901,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_ADD_IN_CAL2_Bits"
 	.byte	0xa
 	.uahalf	0x58a
-	.uaword	0x8ae2
+	.uaword	0x8ad7
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_ADD_IN_LD1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x58d
-	.uaword	0x8baa
+	.uaword	0x8b9f
 	.uleb128 0xe
 	.string	"ADD_IN_LD_1"
 	.byte	0xa
 	.uahalf	0x58f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16921,7 +16921,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x590
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16931,18 +16931,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_ADD_IN_LD1_Bits"
 	.byte	0xa
 	.uahalf	0x591
-	.uaword	0x8b5a
+	.uaword	0x8b4f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_ADD_IN_LD2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x594
-	.uaword	0x8c1f
+	.uaword	0x8c14
 	.uleb128 0xe
 	.string	"ADD_IN_LD_2"
 	.byte	0xa
 	.uahalf	0x596
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -16951,7 +16951,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x597
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -16961,18 +16961,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_ADD_IN_LD2_Bits"
 	.byte	0xa
 	.uahalf	0x598
-	.uaword	0x8bcf
+	.uaword	0x8bc4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_ADT_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x59b
-	.uaword	0x8c97
+	.uaword	0x8c8c
 	.uleb128 0xe
 	.string	"PD_S"
 	.byte	0xa
 	.uahalf	0x59d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -16981,7 +16981,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"NS"
 	.byte	0xa
 	.uahalf	0x59e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0xa
@@ -16990,7 +16990,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF164
 	.byte	0xa
 	.uahalf	0x59f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0
@@ -17000,18 +17000,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_ADT_S_Bits"
 	.byte	0xa
 	.uahalf	0x5a0
-	.uaword	0x8c44
+	.uaword	0x8c39
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_AOSV_2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5a3
-	.uaword	0x8d2b
+	.uaword	0x8d20
 	.uleb128 0xe
 	.string	"AOSV_2A"
 	.byte	0xa
 	.uahalf	0x5a5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -17020,7 +17020,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AOSV_2B"
 	.byte	0xa
 	.uahalf	0x5a6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -17029,7 +17029,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AOSV_2C"
 	.byte	0xa
 	.uahalf	0x5a7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -17038,7 +17038,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AOSV_2D"
 	.byte	0xa
 	.uahalf	0x5a8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -17048,18 +17048,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_AOSV_2_Bits"
 	.byte	0xa
 	.uahalf	0x5a9
-	.uaword	0x8cb7
+	.uaword	0x8cac
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_APS_1C3_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5ac
-	.uaword	0x8da5
+	.uaword	0x8d9a
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x5ae
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -17068,7 +17068,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APS_1C3"
 	.byte	0xa
 	.uahalf	0x5af
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x18
@@ -17077,7 +17077,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0x5b0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -17087,18 +17087,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_APS_1C3_Bits"
 	.byte	0xa
 	.uahalf	0x5b1
-	.uaword	0x8d4c
+	.uaword	0x8d41
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_APS_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5b4
-	.uaword	0x8e62
+	.uaword	0x8e57
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x5b6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -17107,7 +17107,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAPS"
 	.byte	0xa
 	.uahalf	0x5b7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -17116,7 +17116,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APS"
 	.byte	0xa
 	.uahalf	0x5b8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x18
@@ -17125,7 +17125,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0x5b9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -17134,7 +17134,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAPS_1C2"
 	.byte	0xa
 	.uahalf	0x5ba
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -17143,7 +17143,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APS_1C2"
 	.byte	0xa
 	.uahalf	0x5bb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0xc
@@ -17152,7 +17152,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0x5bc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -17162,18 +17162,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_APS_Bits"
 	.byte	0xa
 	.uahalf	0x5bd
-	.uaword	0x8dc7
+	.uaword	0x8dbc
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_APS_SYNC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5c0
-	.uaword	0x8f11
+	.uaword	0x8f06
 	.uleb128 0xe
 	.string	"APS_1C2_EXT"
 	.byte	0xa
 	.uahalf	0x5c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -17182,7 +17182,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APS_1C2_STATUS"
 	.byte	0xa
 	.uahalf	0x5c3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -17191,7 +17191,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF17
 	.byte	0xa
 	.uahalf	0x5c4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0x12
@@ -17200,7 +17200,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APS_1C2_OLD"
 	.byte	0xa
 	.uahalf	0x5c5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0xc
@@ -17209,7 +17209,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0x5c6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -17219,18 +17219,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_APS_SYNC_Bits"
 	.byte	0xa
 	.uahalf	0x5c7
-	.uaword	0x8e80
+	.uaword	0x8e75
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_APT_2C_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5ca
-	.uaword	0x8f8b
+	.uaword	0x8f80
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x5cc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -17239,7 +17239,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APT_2C"
 	.byte	0xa
 	.uahalf	0x5cd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x14
@@ -17248,7 +17248,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF9
 	.byte	0xa
 	.uahalf	0x5ce
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -17258,18 +17258,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_APT_2C_Bits"
 	.byte	0xa
 	.uahalf	0x5cf
-	.uaword	0x8f34
+	.uaword	0x8f29
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_APT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5d2
-	.uaword	0x9045
+	.uaword	0x903a
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x5d4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -17278,7 +17278,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAPT"
 	.byte	0xa
 	.uahalf	0x5d5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -17287,7 +17287,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APT"
 	.byte	0xa
 	.uahalf	0x5d6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x14
@@ -17296,7 +17296,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF9
 	.byte	0xa
 	.uahalf	0x5d7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -17305,7 +17305,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAPT_2B"
 	.byte	0xa
 	.uahalf	0x5d8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -17314,7 +17314,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APT_2B"
 	.byte	0xa
 	.uahalf	0x5d9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x8
@@ -17323,7 +17323,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x5da
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -17333,18 +17333,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_APT_Bits"
 	.byte	0xa
 	.uahalf	0x5db
-	.uaword	0x8fac
+	.uaword	0x8fa1
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_APT_SYNC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5de
-	.uaword	0x90f1
+	.uaword	0x90e6
 	.uleb128 0xe
 	.string	"APT_2B_EXT"
 	.byte	0xa
 	.uahalf	0x5e0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -17353,7 +17353,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APT_2B_STATUS"
 	.byte	0xa
 	.uahalf	0x5e1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -17362,7 +17362,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF17
 	.byte	0xa
 	.uahalf	0x5e2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0x12
@@ -17371,7 +17371,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"APT_2B_OLD"
 	.byte	0xa
 	.uahalf	0x5e3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x8
@@ -17380,7 +17380,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x5e4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -17390,18 +17390,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_APT_SYNC_Bits"
 	.byte	0xa
 	.uahalf	0x5e5
-	.uaword	0x9063
+	.uaword	0x9058
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CDT_SX_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5e8
-	.uaword	0x915b
+	.uaword	0x9150
 	.uleb128 0xe
 	.string	"CDT_SX"
 	.byte	0xa
 	.uahalf	0x5ea
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -17410,7 +17410,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x5eb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -17420,18 +17420,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CDT_SX_Bits"
 	.byte	0xa
 	.uahalf	0x5ec
-	.uaword	0x9114
+	.uaword	0x9109
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CDT_SX_NOM_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5ef
-	.uaword	0x91c4
+	.uaword	0x91b9
 	.uleb128 0xf
 	.uaword	.LASF165
 	.byte	0xa
 	.uahalf	0x5f1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -17440,7 +17440,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x5f2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -17450,18 +17450,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CDT_SX_NOM_Bits"
 	.byte	0xa
 	.uahalf	0x5f3
-	.uaword	0x917c
+	.uaword	0x9171
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CDT_TX_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5f6
-	.uaword	0x9230
+	.uaword	0x9225
 	.uleb128 0xe
 	.string	"CDT_TX"
 	.byte	0xa
 	.uahalf	0x5f8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -17470,7 +17470,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x5f9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -17480,18 +17480,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CDT_TX_Bits"
 	.byte	0xa
 	.uahalf	0x5fa
-	.uaword	0x91e9
+	.uaword	0x91de
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CDT_TX_NOM_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x5fd
-	.uaword	0x9299
+	.uaword	0x928e
 	.uleb128 0xf
 	.uaword	.LASF166
 	.byte	0xa
 	.uahalf	0x5ff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -17500,7 +17500,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x600
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -17510,18 +17510,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CDT_TX_NOM_Bits"
 	.byte	0xa
 	.uahalf	0x601
-	.uaword	0x9251
+	.uaword	0x9246
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CNT_NUM1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x604
-	.uaword	0x930a
+	.uaword	0x92ff
 	.uleb128 0xe
 	.string	"CNT_NUM_1"
 	.byte	0xa
 	.uahalf	0x606
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -17530,7 +17530,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x607
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -17540,18 +17540,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CNT_NUM1_Bits"
 	.byte	0xa
 	.uahalf	0x608
-	.uaword	0x92be
+	.uaword	0x92b3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CNT_NUM2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x60b
-	.uaword	0x9379
+	.uaword	0x936e
 	.uleb128 0xe
 	.string	"CNT_NUM_2"
 	.byte	0xa
 	.uahalf	0x60d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -17560,7 +17560,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x60e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -17570,18 +17570,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CNT_NUM2_Bits"
 	.byte	0xa
 	.uahalf	0x60f
-	.uaword	0x932d
+	.uaword	0x9322
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CRTL_1_SHADOW_STATE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x612
-	.uaword	0x9486
+	.uaword	0x947b
 	.uleb128 0xe
 	.string	"DMO"
 	.byte	0xa
 	.uahalf	0x614
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -17590,7 +17590,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0x615
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1d
@@ -17599,7 +17599,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"COA"
 	.byte	0xa
 	.uahalf	0x616
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -17608,7 +17608,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PIT"
 	.byte	0xa
 	.uahalf	0x617
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -17617,7 +17617,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SGE1"
 	.byte	0xa
 	.uahalf	0x618
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -17626,7 +17626,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DLM1"
 	.byte	0xa
 	.uahalf	0x619
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -17635,7 +17635,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCM1"
 	.byte	0xa
 	.uahalf	0x61a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -17644,7 +17644,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SGE2"
 	.byte	0xa
 	.uahalf	0x61b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -17653,7 +17653,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DLM2"
 	.byte	0xa
 	.uahalf	0x61c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -17662,7 +17662,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCM2"
 	.byte	0xa
 	.uahalf	0x61d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -17671,7 +17671,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYN_NS"
 	.byte	0xa
 	.uahalf	0x61e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x15
 	.byte	0
@@ -17681,18 +17681,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CRTL_1_SHADOW_STATE_Bits"
 	.byte	0xa
 	.uahalf	0x61f
-	.uaword	0x939c
+	.uaword	0x9391
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CTRL_0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x622
-	.uaword	0x9588
+	.uaword	0x957d
 	.uleb128 0xe
 	.string	"MLT"
 	.byte	0xa
 	.uahalf	0x624
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -17701,7 +17701,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IFP"
 	.byte	0xa
 	.uahalf	0x625
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -17710,7 +17710,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SNU"
 	.byte	0xa
 	.uahalf	0x626
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -17719,7 +17719,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TNU"
 	.byte	0xa
 	.uahalf	0x627
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x7
@@ -17728,7 +17728,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AMS"
 	.byte	0xa
 	.uahalf	0x628
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -17737,7 +17737,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AMT"
 	.byte	0xa
 	.uahalf	0x629
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -17746,7 +17746,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IDS"
 	.byte	0xa
 	.uahalf	0x62a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -17755,7 +17755,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IDT"
 	.byte	0xa
 	.uahalf	0x62b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -17764,7 +17764,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SEN"
 	.byte	0xa
 	.uahalf	0x62c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -17773,7 +17773,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TEN"
 	.byte	0xa
 	.uahalf	0x62d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -17782,7 +17782,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RMO"
 	.byte	0xa
 	.uahalf	0x62e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -17792,18 +17792,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CTRL_0_Bits"
 	.byte	0xa
 	.uahalf	0x62f
-	.uaword	0x94b4
+	.uaword	0x94a9
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CTRL_0_SHADOW_STATE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x632
-	.uaword	0x965a
+	.uaword	0x964f
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x634
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -17812,7 +17812,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IFP"
 	.byte	0xa
 	.uahalf	0x635
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -17821,7 +17821,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF167
 	.byte	0xa
 	.uahalf	0x636
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xe
 	.byte	0x7
@@ -17830,7 +17830,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AMS"
 	.byte	0xa
 	.uahalf	0x637
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -17839,7 +17839,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF128
 	.byte	0xa
 	.uahalf	0x638
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -17848,7 +17848,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IDS"
 	.byte	0xa
 	.uahalf	0x639
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -17857,7 +17857,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF7
 	.byte	0xa
 	.uahalf	0x63a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -17866,7 +17866,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RMO"
 	.byte	0xa
 	.uahalf	0x63b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -17876,18 +17876,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CTRL_0_SHADOW_STATE_Bits"
 	.byte	0xa
 	.uahalf	0x63c
-	.uaword	0x95a9
+	.uaword	0x959e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CTRL_0_SHADOW_TRIGGER_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x63f
-	.uaword	0x973b
+	.uaword	0x9730
 	.uleb128 0xe
 	.string	"MLT"
 	.byte	0xa
 	.uahalf	0x641
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -17896,7 +17896,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IFP"
 	.byte	0xa
 	.uahalf	0x642
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -17905,7 +17905,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF167
 	.byte	0xa
 	.uahalf	0x643
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xf
 	.byte	0x6
@@ -17914,7 +17914,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AMT"
 	.byte	0xa
 	.uahalf	0x644
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -17923,7 +17923,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IDS"
 	.byte	0xa
 	.uahalf	0x645
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -17932,7 +17932,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IDT"
 	.byte	0xa
 	.uahalf	0x646
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -17941,7 +17941,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0x647
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1
@@ -17950,7 +17950,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RMO"
 	.byte	0xa
 	.uahalf	0x648
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -17960,18 +17960,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CTRL_0_SHADOW_TRIGGER_Bits"
 	.byte	0xa
 	.uahalf	0x649
-	.uaword	0x9688
+	.uaword	0x967d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CTRL_1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x64c
-	.uaword	0x9905
+	.uaword	0x98fa
 	.uleb128 0xe
 	.string	"DMO"
 	.byte	0xa
 	.uahalf	0x64e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -17980,7 +17980,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DEN"
 	.byte	0xa
 	.uahalf	0x64f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -17989,7 +17989,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IDDS"
 	.byte	0xa
 	.uahalf	0x650
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -17998,7 +17998,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"COA"
 	.byte	0xa
 	.uahalf	0x651
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -18007,7 +18007,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PIT"
 	.byte	0xa
 	.uahalf	0x652
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -18016,7 +18016,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SGE1"
 	.byte	0xa
 	.uahalf	0x653
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -18025,7 +18025,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DLM1"
 	.byte	0xa
 	.uahalf	0x654
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -18034,7 +18034,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCM1"
 	.byte	0xa
 	.uahalf	0x655
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -18043,7 +18043,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SGE2"
 	.byte	0xa
 	.uahalf	0x656
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -18052,7 +18052,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DLM2"
 	.byte	0xa
 	.uahalf	0x657
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -18061,7 +18061,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCM2"
 	.byte	0xa
 	.uahalf	0x658
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -18070,7 +18070,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYN_NS"
 	.byte	0xa
 	.uahalf	0x659
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x10
@@ -18079,7 +18079,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYN_NT"
 	.byte	0xa
 	.uahalf	0x65a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -18088,7 +18088,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.uahalf	0x65b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -18097,7 +18097,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LCD"
 	.byte	0xa
 	.uahalf	0x65c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -18106,7 +18106,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SWR"
 	.byte	0xa
 	.uahalf	0x65d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -18115,7 +18115,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYSF"
 	.byte	0xa
 	.uahalf	0x65e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -18124,7 +18124,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TS0_HRS"
 	.byte	0xa
 	.uahalf	0x65f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -18133,7 +18133,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TS0_HRT"
 	.byte	0xa
 	.uahalf	0x660
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -18142,7 +18142,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SMC"
 	.byte	0xa
 	.uahalf	0x661
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -18151,7 +18151,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SSL"
 	.byte	0xa
 	.uahalf	0x662
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -18160,7 +18160,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSL"
 	.byte	0xa
 	.uahalf	0x663
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -18170,18 +18170,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CTRL_1_Bits"
 	.byte	0xa
 	.uahalf	0x664
-	.uaword	0x976b
+	.uaword	0x9760
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CTRL_1_SHADOW_TRIGGER_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x667
-	.uaword	0x99dc
+	.uaword	0x99d1
 	.uleb128 0xe
 	.string	"DMO"
 	.byte	0xa
 	.uahalf	0x669
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -18190,7 +18190,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0x66a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1d
@@ -18199,7 +18199,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"COA"
 	.byte	0xa
 	.uahalf	0x66b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -18208,7 +18208,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PIT"
 	.byte	0xa
 	.uahalf	0x66c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -18217,7 +18217,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SGE1"
 	.byte	0xa
 	.uahalf	0x66d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -18226,7 +18226,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DLM1"
 	.byte	0xa
 	.uahalf	0x66e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -18235,7 +18235,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PCM1"
 	.byte	0xa
 	.uahalf	0x66f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -18244,7 +18244,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0x670
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -18254,18 +18254,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CTRL_1_SHADOW_TRIGGER_Bits"
 	.byte	0xa
 	.uahalf	0x671
-	.uaword	0x9926
+	.uaword	0x991b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CTRL_2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x674
-	.uaword	0x9b60
+	.uaword	0x9b55
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x676
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -18274,7 +18274,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN0"
 	.byte	0xa
 	.uahalf	0x677
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -18283,7 +18283,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN1"
 	.byte	0xa
 	.uahalf	0x678
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -18292,7 +18292,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN2"
 	.byte	0xa
 	.uahalf	0x679
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -18301,7 +18301,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN3"
 	.byte	0xa
 	.uahalf	0x67a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -18310,7 +18310,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN4"
 	.byte	0xa
 	.uahalf	0x67b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -18319,7 +18319,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN5"
 	.byte	0xa
 	.uahalf	0x67c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -18328,7 +18328,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN6"
 	.byte	0xa
 	.uahalf	0x67d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -18337,7 +18337,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN7"
 	.byte	0xa
 	.uahalf	0x67e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -18346,7 +18346,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD0"
 	.byte	0xa
 	.uahalf	0x67f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -18355,7 +18355,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD1"
 	.byte	0xa
 	.uahalf	0x680
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -18364,7 +18364,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD2"
 	.byte	0xa
 	.uahalf	0x681
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -18373,7 +18373,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD3"
 	.byte	0xa
 	.uahalf	0x682
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -18382,7 +18382,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD4"
 	.byte	0xa
 	.uahalf	0x683
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -18391,7 +18391,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD5"
 	.byte	0xa
 	.uahalf	0x684
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -18400,7 +18400,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD6"
 	.byte	0xa
 	.uahalf	0x685
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -18409,7 +18409,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD7"
 	.byte	0xa
 	.uahalf	0x686
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -18418,7 +18418,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x687
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18428,18 +18428,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CTRL_2_Bits"
 	.byte	0xa
 	.uahalf	0x688
-	.uaword	0x9a0c
+	.uaword	0x9a01
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CTRL_3_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x68b
-	.uaword	0x9ce1
+	.uaword	0x9cd6
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x68d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -18448,7 +18448,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN8"
 	.byte	0xa
 	.uahalf	0x68e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -18457,7 +18457,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN9"
 	.byte	0xa
 	.uahalf	0x68f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -18466,7 +18466,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN10"
 	.byte	0xa
 	.uahalf	0x690
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -18475,7 +18475,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN11"
 	.byte	0xa
 	.uahalf	0x691
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -18484,7 +18484,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN12"
 	.byte	0xa
 	.uahalf	0x692
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -18493,7 +18493,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN13"
 	.byte	0xa
 	.uahalf	0x693
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -18502,7 +18502,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN14"
 	.byte	0xa
 	.uahalf	0x694
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -18511,7 +18511,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN15"
 	.byte	0xa
 	.uahalf	0x695
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -18520,7 +18520,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD8"
 	.byte	0xa
 	.uahalf	0x696
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -18529,7 +18529,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD9"
 	.byte	0xa
 	.uahalf	0x697
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -18538,7 +18538,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD10"
 	.byte	0xa
 	.uahalf	0x698
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -18547,7 +18547,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD11"
 	.byte	0xa
 	.uahalf	0x699
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -18556,7 +18556,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD12"
 	.byte	0xa
 	.uahalf	0x69a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -18565,7 +18565,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD13"
 	.byte	0xa
 	.uahalf	0x69b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -18574,7 +18574,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD14"
 	.byte	0xa
 	.uahalf	0x69c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -18583,7 +18583,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD15"
 	.byte	0xa
 	.uahalf	0x69d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -18592,7 +18592,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x69e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18602,18 +18602,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CTRL_3_Bits"
 	.byte	0xa
 	.uahalf	0x69f
-	.uaword	0x9b81
+	.uaword	0x9b76
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_CTRL_4_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x6a2
-	.uaword	0x9e66
+	.uaword	0x9e5b
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x6a4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -18622,7 +18622,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN16"
 	.byte	0xa
 	.uahalf	0x6a5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -18631,7 +18631,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN17"
 	.byte	0xa
 	.uahalf	0x6a6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -18640,7 +18640,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN18"
 	.byte	0xa
 	.uahalf	0x6a7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -18649,7 +18649,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN19"
 	.byte	0xa
 	.uahalf	0x6a8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -18658,7 +18658,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN20"
 	.byte	0xa
 	.uahalf	0x6a9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -18667,7 +18667,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN21"
 	.byte	0xa
 	.uahalf	0x6aa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -18676,7 +18676,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN22"
 	.byte	0xa
 	.uahalf	0x6ab
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -18685,7 +18685,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEN23"
 	.byte	0xa
 	.uahalf	0x6ac
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -18694,7 +18694,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD16"
 	.byte	0xa
 	.uahalf	0x6ad
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -18703,7 +18703,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD17"
 	.byte	0xa
 	.uahalf	0x6ae
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -18712,7 +18712,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD18"
 	.byte	0xa
 	.uahalf	0x6af
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -18721,7 +18721,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD19"
 	.byte	0xa
 	.uahalf	0x6b0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -18730,7 +18730,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD20"
 	.byte	0xa
 	.uahalf	0x6b1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -18739,7 +18739,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD21"
 	.byte	0xa
 	.uahalf	0x6b2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -18748,7 +18748,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD22"
 	.byte	0xa
 	.uahalf	0x6b3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -18757,7 +18757,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WAD23"
 	.byte	0xa
 	.uahalf	0x6b4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -18766,7 +18766,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x6b5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18776,18 +18776,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_CTRL_4_Bits"
 	.byte	0xa
 	.uahalf	0x6b6
-	.uaword	0x9d02
+	.uaword	0x9cf7
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_DLA_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x6b9
-	.uaword	0x9ec8
+	.uaword	0x9ebd
 	.uleb128 0xe
 	.string	"DLA"
 	.byte	0xa
 	.uahalf	0x6bb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -18796,7 +18796,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x6bc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18806,18 +18806,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_DLA_Bits"
 	.byte	0xa
 	.uahalf	0x6bd
-	.uaword	0x9e87
+	.uaword	0x9e7c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_DT_S_ACT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x6c0
-	.uaword	0x9f2c
+	.uaword	0x9f21
 	.uleb128 0xf
 	.uaword	.LASF168
 	.byte	0xa
 	.uahalf	0x6c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -18826,7 +18826,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x6c3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18836,18 +18836,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_DT_S_ACT_Bits"
 	.byte	0xa
 	.uahalf	0x6c4
-	.uaword	0x9ee6
+	.uaword	0x9edb
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_DT_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x6c7
-	.uaword	0x9f92
+	.uaword	0x9f87
 	.uleb128 0xe
 	.string	"DT_S"
 	.byte	0xa
 	.uahalf	0x6c9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -18856,7 +18856,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x6ca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18866,18 +18866,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_DT_S_Bits"
 	.byte	0xa
 	.uahalf	0x6cb
-	.uaword	0x9f4f
+	.uaword	0x9f44
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_DT_T_ACT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x6ce
-	.uaword	0x9ff7
+	.uaword	0x9fec
 	.uleb128 0xf
 	.uaword	.LASF169
 	.byte	0xa
 	.uahalf	0x6d0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -18886,7 +18886,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x6d1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18896,18 +18896,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_DT_T_ACT_Bits"
 	.byte	0xa
 	.uahalf	0x6d2
-	.uaword	0x9fb1
+	.uaword	0x9fa6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_DTA_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x6d5
-	.uaword	0xa05b
+	.uaword	0xa050
 	.uleb128 0xe
 	.string	"DTA"
 	.byte	0xa
 	.uahalf	0x6d7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -18916,7 +18916,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x6d8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18926,18 +18926,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_DTA_Bits"
 	.byte	0xa
 	.uahalf	0x6d9
-	.uaword	0xa01a
+	.uaword	0xa00f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_EDT_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x6dd
-	.uaword	0xa0be
+	.uaword	0xa0b3
 	.uleb128 0xe
 	.string	"EDT_S"
 	.byte	0xa
 	.uahalf	0x6df
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -18946,7 +18946,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x6e0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18956,18 +18956,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_EDT_S_Bits"
 	.byte	0xa
 	.uahalf	0x6e1
-	.uaword	0xa079
+	.uaword	0xa06e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_EDT_T_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x6e5
-	.uaword	0xa123
+	.uaword	0xa118
 	.uleb128 0xe
 	.string	"EDT_T"
 	.byte	0xa
 	.uahalf	0x6e7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -18976,7 +18976,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x6e8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -18986,18 +18986,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_EDT_T_Bits"
 	.byte	0xa
 	.uahalf	0x6e9
-	.uaword	0xa0de
+	.uaword	0xa0d3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_EIRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x6ec
-	.uaword	0xa413
+	.uaword	0xa408
 	.uleb128 0xe
 	.string	"PDI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6ee
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -19006,7 +19006,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PEI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6ef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -19015,7 +19015,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TINI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -19024,7 +19024,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TAXI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -19033,7 +19033,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SISI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -19042,7 +19042,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TISI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -19051,7 +19051,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MSI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -19060,7 +19060,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MTI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -19069,7 +19069,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SASI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -19078,7 +19078,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TASI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -19087,7 +19087,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PWI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -19096,7 +19096,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"W2I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6f9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -19105,7 +19105,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"W1I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6fa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -19114,7 +19114,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GL1I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6fb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -19123,7 +19123,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LL1I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6fc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -19132,7 +19132,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6fd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -19141,7 +19141,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GL2I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6fe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -19150,7 +19150,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LL2I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x6ff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -19159,7 +19159,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE0I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x700
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -19168,7 +19168,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE1I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x701
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -19177,7 +19177,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE2I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x702
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -19186,7 +19186,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE3I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x703
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -19195,7 +19195,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE4I_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x704
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -19204,7 +19204,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CDTI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x705
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -19213,7 +19213,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CDSI_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x706
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -19222,7 +19222,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TORI"
 	.byte	0xa
 	.uahalf	0x707
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -19231,7 +19231,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SORI"
 	.byte	0xa
 	.uahalf	0x708
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -19240,7 +19240,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DCGI"
 	.byte	0xa
 	.uahalf	0x709
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -19249,7 +19249,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF7
 	.byte	0xa
 	.uahalf	0x70a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -19259,18 +19259,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_EIRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x70b
-	.uaword	0xa143
+	.uaword	0xa138
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_FTV_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x70e
-	.uaword	0xa47d
+	.uaword	0xa472
 	.uleb128 0xe
 	.string	"STATE_FT"
 	.byte	0xa
 	.uahalf	0x710
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -19279,7 +19279,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x711
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -19289,18 +19289,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_FTV_S_Bits"
 	.byte	0xa
 	.uahalf	0x712
-	.uaword	0xa435
+	.uaword	0xa42a
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_FTV_T_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x715
-	.uaword	0xa4e7
+	.uaword	0xa4dc
 	.uleb128 0xe
 	.string	"TRIGGER_FT"
 	.byte	0xa
 	.uahalf	0x717
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -19309,7 +19309,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x718
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -19319,18 +19319,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_FTV_T_Bits"
 	.byte	0xa
 	.uahalf	0x719
-	.uaword	0xa49d
+	.uaword	0xa492
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_ID_PMTR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x71c
-	.uaword	0xa552
+	.uaword	0xa547
 	.uleb128 0xe
 	.string	"ID_PMTR_x"
 	.byte	0xa
 	.uahalf	0x71e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -19339,7 +19339,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x71f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -19349,18 +19349,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_ID_PMTR_Bits"
 	.byte	0xa
 	.uahalf	0x720
-	.uaword	0xa507
+	.uaword	0xa4fc
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_INC_CNT1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x723
-	.uaword	0xa5ba
+	.uaword	0xa5af
 	.uleb128 0xf
 	.uaword	.LASF170
 	.byte	0xa
 	.uahalf	0x725
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -19369,7 +19369,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x726
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -19379,18 +19379,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_INC_CNT1_Bits"
 	.byte	0xa
 	.uahalf	0x727
-	.uaword	0xa574
+	.uaword	0xa569
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_INC_CNT2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x72b
-	.uaword	0xa623
+	.uaword	0xa618
 	.uleb128 0xf
 	.uaword	.LASF171
 	.byte	0xa
 	.uahalf	0x72d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -19399,7 +19399,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x72e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -19409,18 +19409,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_INC_CNT2_Bits"
 	.byte	0xa
 	.uahalf	0x72f
-	.uaword	0xa5dd
+	.uaword	0xa5d2
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x732
-	.uaword	0xa8fc
+	.uaword	0xa8f1
 	.uleb128 0xe
 	.string	"PDI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x734
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -19429,7 +19429,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PEI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x735
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -19438,7 +19438,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TINI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x736
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -19447,7 +19447,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TAXI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x737
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -19456,7 +19456,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SISI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x738
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -19465,7 +19465,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TISI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x739
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -19474,7 +19474,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MSI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x73a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -19483,7 +19483,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MTI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x73b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -19492,7 +19492,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SASI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x73c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -19501,7 +19501,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TASI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x73d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -19510,7 +19510,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PWI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x73e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -19519,7 +19519,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"W2I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x73f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -19528,7 +19528,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"W1I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x740
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -19537,7 +19537,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GL1I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x741
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -19546,7 +19546,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LL1I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x742
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -19555,7 +19555,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x743
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -19564,7 +19564,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GL2I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x744
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -19573,7 +19573,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LL2I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x745
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -19582,7 +19582,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE0I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x746
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -19591,7 +19591,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE1I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x747
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -19600,7 +19600,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE2I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x748
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -19609,7 +19609,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE3I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x749
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -19618,7 +19618,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE4I_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x74a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -19627,7 +19627,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CDTI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x74b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -19636,7 +19636,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CDSI_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x74c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -19645,7 +19645,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TORI"
 	.byte	0xa
 	.uahalf	0x74d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -19654,7 +19654,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SORI"
 	.byte	0xa
 	.uahalf	0x74e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -19663,7 +19663,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DCGI"
 	.byte	0xa
 	.uahalf	0x74f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -19672,7 +19672,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF7
 	.byte	0xa
 	.uahalf	0x750
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -19682,18 +19682,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x751
-	.uaword	0xa646
+	.uaword	0xa63b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x754
-	.uaword	0xab99
+	.uaword	0xab8e
 	.uleb128 0xe
 	.string	"TRG_PDI"
 	.byte	0xa
 	.uahalf	0x756
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -19702,7 +19702,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_PEI"
 	.byte	0xa
 	.uahalf	0x757
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -19711,7 +19711,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TINI"
 	.byte	0xa
 	.uahalf	0x758
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -19720,7 +19720,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TAXI"
 	.byte	0xa
 	.uahalf	0x759
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -19729,7 +19729,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_SISI"
 	.byte	0xa
 	.uahalf	0x75a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -19738,7 +19738,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TISI"
 	.byte	0xa
 	.uahalf	0x75b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -19747,7 +19747,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_MSI"
 	.byte	0xa
 	.uahalf	0x75c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -19756,7 +19756,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_MTI"
 	.byte	0xa
 	.uahalf	0x75d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -19765,7 +19765,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_SASI"
 	.byte	0xa
 	.uahalf	0x75e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -19774,7 +19774,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TASI"
 	.byte	0xa
 	.uahalf	0x75f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -19783,7 +19783,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_PWI"
 	.byte	0xa
 	.uahalf	0x760
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -19792,7 +19792,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_W2I"
 	.byte	0xa
 	.uahalf	0x761
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -19801,7 +19801,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_W1I"
 	.byte	0xa
 	.uahalf	0x762
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -19810,7 +19810,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_GL1I"
 	.byte	0xa
 	.uahalf	0x763
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -19819,7 +19819,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_LL1I"
 	.byte	0xa
 	.uahalf	0x764
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -19828,7 +19828,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_EI"
 	.byte	0xa
 	.uahalf	0x765
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -19837,7 +19837,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_GL2I"
 	.byte	0xa
 	.uahalf	0x766
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -19846,7 +19846,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_LL2I"
 	.byte	0xa
 	.uahalf	0x767
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -19855,7 +19855,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TE0I"
 	.byte	0xa
 	.uahalf	0x768
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -19864,7 +19864,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TE1I"
 	.byte	0xa
 	.uahalf	0x769
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -19873,7 +19873,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TE2I"
 	.byte	0xa
 	.uahalf	0x76a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -19882,7 +19882,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TE3I"
 	.byte	0xa
 	.uahalf	0x76b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -19891,7 +19891,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TE4I"
 	.byte	0xa
 	.uahalf	0x76c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -19900,7 +19900,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_CDTI"
 	.byte	0xa
 	.uahalf	0x76d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -19909,7 +19909,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_CDSI"
 	.byte	0xa
 	.uahalf	0x76e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -19918,7 +19918,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TORI"
 	.byte	0xa
 	.uahalf	0x76f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -19927,7 +19927,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_SORI"
 	.byte	0xa
 	.uahalf	0x770
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -19936,7 +19936,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_DCGI"
 	.byte	0xa
 	.uahalf	0x771
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -19945,7 +19945,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF7
 	.byte	0xa
 	.uahalf	0x772
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -19955,18 +19955,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0x773
-	.uaword	0xa91d
+	.uaword	0xa912
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x776
-	.uaword	0xac05
+	.uaword	0xabfa
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x778
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -19975,7 +19975,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x779
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -19985,18 +19985,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0x77a
-	.uaword	0xabbf
+	.uaword	0xabb4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x77d
-	.uaword	0xae33
+	.uaword	0xae28
 	.uleb128 0xe
 	.string	"PDI"
 	.byte	0xa
 	.uahalf	0x77f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -20005,7 +20005,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PEI"
 	.byte	0xa
 	.uahalf	0x780
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -20014,7 +20014,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TINI"
 	.byte	0xa
 	.uahalf	0x781
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -20023,7 +20023,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TAXI"
 	.byte	0xa
 	.uahalf	0x782
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -20032,7 +20032,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SISI"
 	.byte	0xa
 	.uahalf	0x783
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -20041,7 +20041,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TISI"
 	.byte	0xa
 	.uahalf	0x784
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -20050,7 +20050,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MSI"
 	.byte	0xa
 	.uahalf	0x785
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -20059,7 +20059,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MTI"
 	.byte	0xa
 	.uahalf	0x786
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -20068,7 +20068,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SASI"
 	.byte	0xa
 	.uahalf	0x787
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -20077,7 +20077,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TASI"
 	.byte	0xa
 	.uahalf	0x788
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -20086,7 +20086,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PWI"
 	.byte	0xa
 	.uahalf	0x789
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -20095,7 +20095,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"W2I"
 	.byte	0xa
 	.uahalf	0x78a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -20104,7 +20104,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"W1I"
 	.byte	0xa
 	.uahalf	0x78b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -20113,7 +20113,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GL1I"
 	.byte	0xa
 	.uahalf	0x78c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -20122,7 +20122,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LL1I"
 	.byte	0xa
 	.uahalf	0x78d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -20131,7 +20131,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EI"
 	.byte	0xa
 	.uahalf	0x78e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -20140,7 +20140,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GL2I"
 	.byte	0xa
 	.uahalf	0x78f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -20149,7 +20149,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LL2I"
 	.byte	0xa
 	.uahalf	0x790
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -20158,7 +20158,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE0I"
 	.byte	0xa
 	.uahalf	0x791
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -20167,7 +20167,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE1I"
 	.byte	0xa
 	.uahalf	0x792
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -20176,7 +20176,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE2I"
 	.byte	0xa
 	.uahalf	0x793
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -20185,7 +20185,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE3I"
 	.byte	0xa
 	.uahalf	0x794
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -20194,7 +20194,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TE4I"
 	.byte	0xa
 	.uahalf	0x795
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -20203,7 +20203,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CDTI"
 	.byte	0xa
 	.uahalf	0x796
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -20212,7 +20212,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CDSI"
 	.byte	0xa
 	.uahalf	0x797
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -20221,7 +20221,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TORI"
 	.byte	0xa
 	.uahalf	0x798
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -20230,7 +20230,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SORI"
 	.byte	0xa
 	.uahalf	0x799
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -20239,7 +20239,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DCGI"
 	.byte	0xa
 	.uahalf	0x79a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -20248,7 +20248,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF7
 	.byte	0xa
 	.uahalf	0x79b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -20258,18 +20258,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0x79c
-	.uaword	0xac28
+	.uaword	0xac1d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_MEDT_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7a0
-	.uaword	0xae9f
+	.uaword	0xae94
 	.uleb128 0xe
 	.string	"MEDT_S"
 	.byte	0xa
 	.uahalf	0x7a2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -20278,7 +20278,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x7a3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -20288,18 +20288,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_MEDT_S_Bits"
 	.byte	0xa
 	.uahalf	0x7a4
-	.uaword	0xae58
+	.uaword	0xae4d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_MEDT_T_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7a8
-	.uaword	0xaf07
+	.uaword	0xaefc
 	.uleb128 0xe
 	.string	"MEDT_T"
 	.byte	0xa
 	.uahalf	0x7aa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -20308,7 +20308,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x7ab
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -20318,18 +20318,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_MEDT_T_Bits"
 	.byte	0xa
 	.uahalf	0x7ac
-	.uaword	0xaec0
+	.uaword	0xaeb5
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_MLS1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7af
-	.uaword	0xaf6b
+	.uaword	0xaf60
 	.uleb128 0xe
 	.string	"MLS1"
 	.byte	0xa
 	.uahalf	0x7b1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x12
 	.byte	0xe
@@ -20338,7 +20338,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF172
 	.byte	0xa
 	.uahalf	0x7b2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -20348,18 +20348,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_MLS1_Bits"
 	.byte	0xa
 	.uahalf	0x7b3
-	.uaword	0xaf28
+	.uaword	0xaf1d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_MLS2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7b6
-	.uaword	0xafcd
+	.uaword	0xafc2
 	.uleb128 0xe
 	.string	"MLS2"
 	.byte	0xa
 	.uahalf	0x7b8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x12
 	.byte	0xe
@@ -20368,7 +20368,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF172
 	.byte	0xa
 	.uahalf	0x7b9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xe
 	.byte	0
@@ -20378,18 +20378,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_MLS2_Bits"
 	.byte	0xa
 	.uahalf	0x7ba
-	.uaword	0xaf8a
+	.uaword	0xaf7f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_MPVAL1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7be
-	.uaword	0xb044
+	.uaword	0xb039
 	.uleb128 0xe
 	.string	"MPVAL1"
 	.byte	0xa
 	.uahalf	0x7c0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -20398,7 +20398,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SIX1"
 	.byte	0xa
 	.uahalf	0x7c1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -20407,7 +20407,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x7c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -20417,18 +20417,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_MPVAL1_Bits"
 	.byte	0xa
 	.uahalf	0x7c3
-	.uaword	0xafec
+	.uaword	0xafe1
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_MPVAL2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7c7
-	.uaword	0xb0bd
+	.uaword	0xb0b2
 	.uleb128 0xe
 	.string	"MPVAL2"
 	.byte	0xa
 	.uahalf	0x7c9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -20437,7 +20437,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SIX2"
 	.byte	0xa
 	.uahalf	0x7ca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x8
@@ -20446,7 +20446,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x7cb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -20456,18 +20456,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_MPVAL2_Bits"
 	.byte	0xa
 	.uahalf	0x7cc
-	.uaword	0xb065
+	.uaword	0xb05a
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NA_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7cf
-	.uaword	0xb12c
+	.uaword	0xb121
 	.uleb128 0xe
 	.string	"DB"
 	.byte	0xa
 	.uahalf	0x7d1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -20476,7 +20476,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DW"
 	.byte	0xa
 	.uahalf	0x7d2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0xc
@@ -20485,7 +20485,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0x7d3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -20495,18 +20495,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NA_Bits"
 	.byte	0xa
 	.uahalf	0x7d4
-	.uaword	0xb0de
+	.uaword	0xb0d3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NMB_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7d7
-	.uaword	0xb18e
+	.uaword	0xb183
 	.uleb128 0xe
 	.string	"NMB_S"
 	.byte	0xa
 	.uahalf	0x7d9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -20515,7 +20515,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0x7da
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -20525,18 +20525,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NMB_S_Bits"
 	.byte	0xa
 	.uahalf	0x7db
-	.uaword	0xb149
+	.uaword	0xb13e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NMB_S_TAR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7de
-	.uaword	0xb1f5
+	.uaword	0xb1ea
 	.uleb128 0xf
 	.uaword	.LASF173
 	.byte	0xa
 	.uahalf	0x7e0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -20545,7 +20545,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0x7e1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -20555,18 +20555,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NMB_S_TAR_Bits"
 	.byte	0xa
 	.uahalf	0x7e2
-	.uaword	0xb1ae
+	.uaword	0xb1a3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NMB_S_TAR_OLD_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7e5
-	.uaword	0xb264
+	.uaword	0xb259
 	.uleb128 0xf
 	.uaword	.LASF174
 	.byte	0xa
 	.uahalf	0x7e7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x14
 	.byte	0xc
@@ -20575,7 +20575,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0x7e8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -20585,18 +20585,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NMB_S_TAR_OLD_Bits"
 	.byte	0xa
 	.uahalf	0x7e9
-	.uaword	0xb219
+	.uaword	0xb20e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NMB_T_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7ec
-	.uaword	0xb2d1
+	.uaword	0xb2c6
 	.uleb128 0xe
 	.string	"NMB_T"
 	.byte	0xa
 	.uahalf	0x7ee
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -20605,7 +20605,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x7ef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -20615,18 +20615,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NMB_T_Bits"
 	.byte	0xa
 	.uahalf	0x7f0
-	.uaword	0xb28c
+	.uaword	0xb281
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NMB_T_TAR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7f3
-	.uaword	0xb338
+	.uaword	0xb32d
 	.uleb128 0xf
 	.uaword	.LASF175
 	.byte	0xa
 	.uahalf	0x7f5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -20635,7 +20635,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x7f6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -20645,18 +20645,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NMB_T_TAR_Bits"
 	.byte	0xa
 	.uahalf	0x7f7
-	.uaword	0xb2f1
+	.uaword	0xb2e6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NMB_T_TAR_OLD_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x7fa
-	.uaword	0xb3a7
+	.uaword	0xb39c
 	.uleb128 0xf
 	.uaword	.LASF176
 	.byte	0xa
 	.uahalf	0x7fc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -20665,7 +20665,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x7fd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -20675,18 +20675,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NMB_T_TAR_OLD_Bits"
 	.byte	0xa
 	.uahalf	0x7fe
-	.uaword	0xb35c
+	.uaword	0xb351
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NTI_CNT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x801
-	.uaword	0xb418
+	.uaword	0xb40d
 	.uleb128 0xe
 	.string	"NTI_CNT"
 	.byte	0xa
 	.uahalf	0x803
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -20695,7 +20695,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x804
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -20705,18 +20705,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NTI_CNT_Bits"
 	.byte	0xa
 	.uahalf	0x805
-	.uaword	0xb3cf
+	.uaword	0xb3c4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NUSC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x808
-	.uaword	0xb4f8
+	.uaword	0xb4ed
 	.uleb128 0xe
 	.string	"NUSE"
 	.byte	0xa
 	.uahalf	0x80a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x1a
@@ -20725,7 +20725,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FSS"
 	.byte	0xa
 	.uahalf	0x80b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -20734,7 +20734,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYN_S"
 	.byte	0xa
 	.uahalf	0x80c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x13
@@ -20743,7 +20743,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYN_S_OLD"
 	.byte	0xa
 	.uahalf	0x80d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0xd
@@ -20752,7 +20752,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"VSN"
 	.byte	0xa
 	.uahalf	0x80e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x7
@@ -20761,7 +20761,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF127
 	.byte	0xa
 	.uahalf	0x80f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x3
@@ -20770,7 +20770,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WNUS"
 	.byte	0xa
 	.uahalf	0x810
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -20779,7 +20779,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WSYN"
 	.byte	0xa
 	.uahalf	0x811
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -20788,7 +20788,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WVSN"
 	.byte	0xa
 	.uahalf	0x812
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -20798,18 +20798,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NUSC_Bits"
 	.byte	0xa
 	.uahalf	0x813
-	.uaword	0xb43a
+	.uaword	0xb42f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_NUTC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x816
-	.uaword	0xb5e5
+	.uaword	0xb5da
 	.uleb128 0xe
 	.string	"NUTE"
 	.byte	0xa
 	.uahalf	0x818
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -20818,7 +20818,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FST"
 	.byte	0xa
 	.uahalf	0x819
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -20827,7 +20827,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF167
 	.byte	0xa
 	.uahalf	0x81a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x13
@@ -20836,7 +20836,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYN_T"
 	.byte	0xa
 	.uahalf	0x81b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -20845,7 +20845,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYN_T_OLD"
 	.byte	0xa
 	.uahalf	0x81c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -20854,7 +20854,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"VTN"
 	.byte	0xa
 	.uahalf	0x81d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x7
@@ -20863,7 +20863,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF127
 	.byte	0xa
 	.uahalf	0x81e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x3
@@ -20872,7 +20872,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WNUT"
 	.byte	0xa
 	.uahalf	0x81f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -20881,7 +20881,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WSYN"
 	.byte	0xa
 	.uahalf	0x820
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -20890,7 +20890,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WVTN"
 	.byte	0xa
 	.uahalf	0x821
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -20900,18 +20900,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_NUTC_Bits"
 	.byte	0xa
 	.uahalf	0x822
-	.uaword	0xb517
+	.uaword	0xb50c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_OSW_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x825
-	.uaword	0xb67b
+	.uaword	0xb670
 	.uleb128 0xe
 	.string	"SWON_S"
 	.byte	0xa
 	.uahalf	0x827
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -20920,7 +20920,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SWON_T"
 	.byte	0xa
 	.uahalf	0x828
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -20929,7 +20929,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x829
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x18
@@ -20938,7 +20938,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OSS"
 	.byte	0xa
 	.uahalf	0x82a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -20947,7 +20947,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x82b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -20957,18 +20957,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_OSW_Bits"
 	.byte	0xa
 	.uahalf	0x82c
-	.uaword	0xb604
+	.uaword	0xb5f9
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PDT_T_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x82f
-	.uaword	0xb6ea
+	.uaword	0xb6df
 	.uleb128 0xe
 	.string	"DB"
 	.byte	0xa
 	.uahalf	0x831
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xe
 	.byte	0x12
@@ -20977,7 +20977,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DW"
 	.byte	0xa
 	.uahalf	0x832
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x8
@@ -20986,7 +20986,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x833
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -20996,18 +20996,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PDT_T_Bits"
 	.byte	0xa
 	.uahalf	0x834
-	.uaword	0xb699
+	.uaword	0xb68e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PSA_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x837
-	.uaword	0xb74b
+	.uaword	0xb740
 	.uleb128 0xe
 	.string	"PSA"
 	.byte	0xa
 	.uahalf	0x839
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21016,7 +21016,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x83a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21026,18 +21026,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PSA_Bits"
 	.byte	0xa
 	.uahalf	0x83b
-	.uaword	0xb70a
+	.uaword	0xb6ff
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PSAC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x83e
-	.uaword	0xb7ac
+	.uaword	0xb7a1
 	.uleb128 0xe
 	.string	"PSAC"
 	.byte	0xa
 	.uahalf	0x840
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21046,7 +21046,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x841
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21056,18 +21056,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PSAC_Bits"
 	.byte	0xa
 	.uahalf	0x842
-	.uaword	0xb769
+	.uaword	0xb75e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PSSC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x845
-	.uaword	0xb80e
+	.uaword	0xb803
 	.uleb128 0xe
 	.string	"PSSC"
 	.byte	0xa
 	.uahalf	0x847
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21076,7 +21076,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x848
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21086,18 +21086,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PSSC_Bits"
 	.byte	0xa
 	.uahalf	0x849
-	.uaword	0xb7cb
+	.uaword	0xb7c0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PSSM_0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x84c
-	.uaword	0xb872
+	.uaword	0xb867
 	.uleb128 0xe
 	.string	"PSSM"
 	.byte	0xa
 	.uahalf	0x84e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21106,7 +21106,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x84f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21116,18 +21116,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PSSM_0_Bits"
 	.byte	0xa
 	.uahalf	0x850
-	.uaword	0xb82d
+	.uaword	0xb822
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PSSM_1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x853
-	.uaword	0xb8d8
+	.uaword	0xb8cd
 	.uleb128 0xe
 	.string	"PSSM"
 	.byte	0xa
 	.uahalf	0x855
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21136,7 +21136,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x856
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21146,18 +21146,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PSSM_1_Bits"
 	.byte	0xa
 	.uahalf	0x857
-	.uaword	0xb893
+	.uaword	0xb888
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PSTC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x85a
-	.uaword	0xb93c
+	.uaword	0xb931
 	.uleb128 0xe
 	.string	"PSTC"
 	.byte	0xa
 	.uahalf	0x85c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21166,7 +21166,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x85d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21176,18 +21176,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PSTC_Bits"
 	.byte	0xa
 	.uahalf	0x85e
-	.uaword	0xb8f9
+	.uaword	0xb8ee
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PSTM_0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x861
-	.uaword	0xb9a0
+	.uaword	0xb995
 	.uleb128 0xe
 	.string	"PSTM"
 	.byte	0xa
 	.uahalf	0x863
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21196,7 +21196,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x864
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21206,18 +21206,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PSTM_0_Bits"
 	.byte	0xa
 	.uahalf	0x865
-	.uaword	0xb95b
+	.uaword	0xb950
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PSTM_1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x868
-	.uaword	0xba06
+	.uaword	0xb9fb
 	.uleb128 0xe
 	.string	"PSTM"
 	.byte	0xa
 	.uahalf	0x86a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21226,7 +21226,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x86b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21236,18 +21236,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PSTM_1_Bits"
 	.byte	0xa
 	.uahalf	0x86c
-	.uaword	0xb9c1
+	.uaword	0xb9b6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_PVT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x86f
-	.uaword	0xba68
+	.uaword	0xba5d
 	.uleb128 0xe
 	.string	"PVT"
 	.byte	0xa
 	.uahalf	0x871
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21256,7 +21256,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x872
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21266,18 +21266,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_PVT_Bits"
 	.byte	0xa
 	.uahalf	0x873
-	.uaword	0xba27
+	.uaword	0xba1c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_RAM_INI_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x876
-	.uaword	0xbb1b
+	.uaword	0xbb10
 	.uleb128 0xe
 	.string	"INIT_1A"
 	.byte	0xa
 	.uahalf	0x878
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -21286,7 +21286,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INIT_1B"
 	.byte	0xa
 	.uahalf	0x879
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -21295,7 +21295,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INIT_2"
 	.byte	0xa
 	.uahalf	0x87a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -21304,7 +21304,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0x87b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -21313,7 +21313,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INIT_RAM"
 	.byte	0xa
 	.uahalf	0x87c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -21322,7 +21322,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0x87d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1b
 	.byte	0
@@ -21332,18 +21332,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_RAM_INI_Bits"
 	.byte	0xa
 	.uahalf	0x87e
-	.uaword	0xba86
+	.uaword	0xba7b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_RCDT_SX_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x881
-	.uaword	0xbb86
+	.uaword	0xbb7b
 	.uleb128 0xe
 	.string	"RCDT_SX"
 	.byte	0xa
 	.uahalf	0x883
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21352,7 +21352,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x884
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21362,18 +21362,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_RCDT_SX_Bits"
 	.byte	0xa
 	.uahalf	0x885
-	.uaword	0xbb3d
+	.uaword	0xbb32
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_RCDT_SX_NOM_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x889
-	.uaword	0xbbf1
+	.uaword	0xbbe6
 	.uleb128 0xf
 	.uaword	.LASF177
 	.byte	0xa
 	.uahalf	0x88b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21382,7 +21382,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x88c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21392,18 +21392,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_RCDT_SX_NOM_Bits"
 	.byte	0xa
 	.uahalf	0x88d
-	.uaword	0xbba8
+	.uaword	0xbb9d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_RCDT_TX_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x890
-	.uaword	0xbc60
+	.uaword	0xbc55
 	.uleb128 0xe
 	.string	"RCDT_TX"
 	.byte	0xa
 	.uahalf	0x892
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21412,7 +21412,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x893
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21422,18 +21422,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_RCDT_TX_Bits"
 	.byte	0xa
 	.uahalf	0x894
-	.uaword	0xbc17
+	.uaword	0xbc0c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_RCDT_TX_NOM_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x898
-	.uaword	0xbccb
+	.uaword	0xbcc0
 	.uleb128 0xf
 	.uaword	.LASF178
 	.byte	0xa
 	.uahalf	0x89a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21442,7 +21442,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x89b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21452,18 +21452,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_RCDT_TX_NOM_Bits"
 	.byte	0xa
 	.uahalf	0x89c
-	.uaword	0xbc82
+	.uaword	0xbc77
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_RDT_S_ACT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x89f
-	.uaword	0xbd38
+	.uaword	0xbd2d
 	.uleb128 0xf
 	.uaword	.LASF179
 	.byte	0xa
 	.uahalf	0x8a1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21472,7 +21472,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x8a2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21482,18 +21482,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_RDT_S_ACT_Bits"
 	.byte	0xa
 	.uahalf	0x8a3
-	.uaword	0xbcf1
+	.uaword	0xbce6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_RDT_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x8a6
-	.uaword	0xbda1
+	.uaword	0xbd96
 	.uleb128 0xe
 	.string	"RDT_S"
 	.byte	0xa
 	.uahalf	0x8a8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21502,7 +21502,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x8a9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21512,18 +21512,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_RDT_S_Bits"
 	.byte	0xa
 	.uahalf	0x8aa
-	.uaword	0xbd5c
+	.uaword	0xbd51
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_RDT_T_ACT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x8ad
-	.uaword	0xbe08
+	.uaword	0xbdfd
 	.uleb128 0xf
 	.uaword	.LASF180
 	.byte	0xa
 	.uahalf	0x8af
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21532,7 +21532,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x8b0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21542,18 +21542,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_RDT_T_ACT_Bits"
 	.byte	0xa
 	.uahalf	0x8b1
-	.uaword	0xbdc1
+	.uaword	0xbdb6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_SLR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x8b4
-	.uaword	0xbe6d
+	.uaword	0xbe62
 	.uleb128 0xe
 	.string	"SLR"
 	.byte	0xa
 	.uahalf	0x8b6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -21562,7 +21562,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0x8b7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -21572,18 +21572,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_SLR_Bits"
 	.byte	0xa
 	.uahalf	0x8b8
-	.uaword	0xbe2c
+	.uaword	0xbe21
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_STATUS_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x8bb
-	.uaword	0xc0b2
+	.uaword	0xc0a7
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x8bd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -21592,7 +21592,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CSO"
 	.byte	0xa
 	.uahalf	0x8be
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -21601,7 +21601,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x8bf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -21610,7 +21610,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CTO"
 	.byte	0xa
 	.uahalf	0x8c0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -21619,7 +21619,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CRO"
 	.byte	0xa
 	.uahalf	0x8c1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -21628,7 +21628,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RCS"
 	.byte	0xa
 	.uahalf	0x8c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -21637,7 +21637,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RCT"
 	.byte	0xa
 	.uahalf	0x8c3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -21646,7 +21646,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PSE"
 	.byte	0xa
 	.uahalf	0x8c4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -21655,7 +21655,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SOR"
 	.byte	0xa
 	.uahalf	0x8c5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -21664,7 +21664,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MS"
 	.byte	0xa
 	.uahalf	0x8c6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -21673,7 +21673,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOR"
 	.byte	0xa
 	.uahalf	0x8c7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -21682,7 +21682,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MT"
 	.byte	0xa
 	.uahalf	0x8c8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -21691,7 +21691,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RAM2_ERR"
 	.byte	0xa
 	.uahalf	0x8c9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -21700,7 +21700,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0x8ca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x11
@@ -21709,7 +21709,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LOW_RES"
 	.byte	0xa
 	.uahalf	0x8cb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -21718,7 +21718,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CSVS"
 	.byte	0xa
 	.uahalf	0x8cc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -21727,7 +21727,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CSVT"
 	.byte	0xa
 	.uahalf	0x8cd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -21736,7 +21736,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAIP2"
 	.byte	0xa
 	.uahalf	0x8ce
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -21745,7 +21745,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAIP1"
 	.byte	0xa
 	.uahalf	0x8cf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -21754,7 +21754,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ISN"
 	.byte	0xa
 	.uahalf	0x8d0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -21763,7 +21763,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ITN"
 	.byte	0xa
 	.uahalf	0x8d1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -21772,7 +21772,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"BWD2"
 	.byte	0xa
 	.uahalf	0x8d2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -21781,7 +21781,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"BWD1"
 	.byte	0xa
 	.uahalf	0x8d3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -21790,7 +21790,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x8d4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -21799,7 +21799,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LOCK2"
 	.byte	0xa
 	.uahalf	0x8d5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -21808,7 +21808,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYS"
 	.byte	0xa
 	.uahalf	0x8d6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -21817,7 +21817,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SYT"
 	.byte	0xa
 	.uahalf	0x8d7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -21826,7 +21826,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FSD"
 	.byte	0xa
 	.uahalf	0x8d8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -21835,7 +21835,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FTD"
 	.byte	0xa
 	.uahalf	0x8d9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -21844,7 +21844,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LOCK1"
 	.byte	0xa
 	.uahalf	0x8da
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -21853,7 +21853,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ERR"
 	.byte	0xa
 	.uahalf	0x8db
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -21863,18 +21863,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_STATUS_Bits"
 	.byte	0xa
 	.uahalf	0x8dc
-	.uaword	0xbe8b
+	.uaword	0xbe80
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TBU_TS0_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x8df
-	.uaword	0xc11a
+	.uaword	0xc10f
 	.uleb128 0xf
 	.uaword	.LASF181
 	.byte	0xa
 	.uahalf	0x8e1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21883,7 +21883,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x8e2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21893,18 +21893,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TBU_TS0_S_Bits"
 	.byte	0xa
 	.uahalf	0x8e3
-	.uaword	0xc0d3
+	.uaword	0xc0c8
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TBU_TS0_T_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x8e6
-	.uaword	0xc185
+	.uaword	0xc17a
 	.uleb128 0xf
 	.uaword	.LASF182
 	.byte	0xa
 	.uahalf	0x8e8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -21913,7 +21913,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x8e9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -21923,18 +21923,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TBU_TS0_T_Bits"
 	.byte	0xa
 	.uahalf	0x8ea
-	.uaword	0xc13e
+	.uaword	0xc133
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_THMA_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x8ed
-	.uaword	0xc1ec
+	.uaword	0xc1e1
 	.uleb128 0xe
 	.string	"THMA"
 	.byte	0xa
 	.uahalf	0x8ef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -21943,7 +21943,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x8f0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -21953,18 +21953,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_THMA_Bits"
 	.byte	0xa
 	.uahalf	0x8f1
-	.uaword	0xc1a9
+	.uaword	0xc19e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_THMI_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x8f4
-	.uaword	0xc24e
+	.uaword	0xc243
 	.uleb128 0xe
 	.string	"THMI"
 	.byte	0xa
 	.uahalf	0x8f6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -21973,7 +21973,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x8f7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -21983,18 +21983,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_THMI_Bits"
 	.byte	0xa
 	.uahalf	0x8f8
-	.uaword	0xc20b
+	.uaword	0xc200
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_THVAL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x8fb
-	.uaword	0xc2b2
+	.uaword	0xc2a7
 	.uleb128 0xe
 	.string	"THVAL"
 	.byte	0xa
 	.uahalf	0x8fd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -22003,7 +22003,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x8fe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -22013,18 +22013,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_THVAL_Bits"
 	.byte	0xa
 	.uahalf	0x8ff
-	.uaword	0xc26d
+	.uaword	0xc262
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TLR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x902
-	.uaword	0xc313
+	.uaword	0xc308
 	.uleb128 0xe
 	.string	"TLR"
 	.byte	0xa
 	.uahalf	0x904
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -22033,7 +22033,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0x905
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -22043,18 +22043,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TLR_Bits"
 	.byte	0xa
 	.uahalf	0x906
-	.uaword	0xc2d2
+	.uaword	0xc2c7
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TOV_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x909
-	.uaword	0xc380
+	.uaword	0xc375
 	.uleb128 0xe
 	.string	"DB"
 	.byte	0xa
 	.uahalf	0x90b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -22063,7 +22063,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DW"
 	.byte	0xa
 	.uahalf	0x90c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -22072,7 +22072,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x90d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -22082,18 +22082,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TOV_Bits"
 	.byte	0xa
 	.uahalf	0x90e
-	.uaword	0xc331
+	.uaword	0xc326
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TOV_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x911
-	.uaword	0xc3ef
+	.uaword	0xc3e4
 	.uleb128 0xe
 	.string	"DB"
 	.byte	0xa
 	.uahalf	0x913
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -22102,7 +22102,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DW"
 	.byte	0xa
 	.uahalf	0x914
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -22111,7 +22111,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x915
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -22121,18 +22121,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TOV_S_Bits"
 	.byte	0xa
 	.uahalf	0x916
-	.uaword	0xc39e
+	.uaword	0xc393
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TS_S_0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x919
-	.uaword	0xc453
+	.uaword	0xc448
 	.uleb128 0xf
 	.uaword	.LASF183
 	.byte	0xa
 	.uahalf	0x91b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -22141,7 +22141,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x91c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -22151,18 +22151,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TS_S_0_Bits"
 	.byte	0xa
 	.uahalf	0x91d
-	.uaword	0xc40f
+	.uaword	0xc404
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TS_S_1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x920
-	.uaword	0xc4b8
+	.uaword	0xc4ad
 	.uleb128 0xf
 	.uaword	.LASF183
 	.byte	0xa
 	.uahalf	0x922
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -22171,7 +22171,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x923
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -22181,18 +22181,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TS_S_1_Bits"
 	.byte	0xa
 	.uahalf	0x924
-	.uaword	0xc474
+	.uaword	0xc469
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TS_T_0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x927
-	.uaword	0xc51d
+	.uaword	0xc512
 	.uleb128 0xf
 	.uaword	.LASF184
 	.byte	0xa
 	.uahalf	0x929
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -22201,7 +22201,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x92a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -22211,18 +22211,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TS_T_0_Bits"
 	.byte	0xa
 	.uahalf	0x92b
-	.uaword	0xc4d9
+	.uaword	0xc4ce
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TS_T_1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x92e
-	.uaword	0xc582
+	.uaword	0xc577
 	.uleb128 0xf
 	.uaword	.LASF184
 	.byte	0xa
 	.uahalf	0x930
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -22231,7 +22231,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x931
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -22241,18 +22241,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TS_T_1_Bits"
 	.byte	0xa
 	.uahalf	0x932
-	.uaword	0xc53e
+	.uaword	0xc533
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TSAC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x935
-	.uaword	0xc5e6
+	.uaword	0xc5db
 	.uleb128 0xe
 	.string	"TSAC"
 	.byte	0xa
 	.uahalf	0x937
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -22261,7 +22261,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x938
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -22271,18 +22271,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TSAC_Bits"
 	.byte	0xa
 	.uahalf	0x939
-	.uaword	0xc5a3
+	.uaword	0xc598
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DPLL_TSF_S_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x93c
-	.uaword	0xc64a
+	.uaword	0xc63f
 	.uleb128 0xe
 	.string	"TSF_S"
 	.byte	0xa
 	.uahalf	0x93e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -22291,7 +22291,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x93f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -22301,18 +22301,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DPLL_TSF_S_Bits"
 	.byte	0xa
 	.uahalf	0x940
-	.uaword	0xc605
+	.uaword	0xc5fa
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DXINCON_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x943
-	.uaword	0xc7e2
+	.uaword	0xc7d7
 	.uleb128 0xe
 	.string	"IN00"
 	.byte	0xa
 	.uahalf	0x945
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -22321,7 +22321,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IN01"
 	.byte	0xa
 	.uahalf	0x946
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -22330,7 +22330,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IN02"
 	.byte	0xa
 	.uahalf	0x947
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -22339,7 +22339,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IN03"
 	.byte	0xa
 	.uahalf	0x948
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -22348,7 +22348,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x949
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -22357,7 +22357,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IN10"
 	.byte	0xa
 	.uahalf	0x94a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -22366,7 +22366,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IN11"
 	.byte	0xa
 	.uahalf	0x94b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -22375,7 +22375,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IN12"
 	.byte	0xa
 	.uahalf	0x94c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -22384,7 +22384,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IN13"
 	.byte	0xa
 	.uahalf	0x94d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -22393,7 +22393,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF9
 	.byte	0xa
 	.uahalf	0x94e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -22402,7 +22402,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DSS00"
 	.byte	0xa
 	.uahalf	0x94f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -22411,7 +22411,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DSS01"
 	.byte	0xa
 	.uahalf	0x950
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -22420,7 +22420,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DSS02"
 	.byte	0xa
 	.uahalf	0x951
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -22429,7 +22429,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DSS03"
 	.byte	0xa
 	.uahalf	0x952
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -22438,7 +22438,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0x953
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -22447,7 +22447,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DSS10"
 	.byte	0xa
 	.uahalf	0x954
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -22456,7 +22456,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DSS11"
 	.byte	0xa
 	.uahalf	0x955
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -22465,7 +22465,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DSS12"
 	.byte	0xa
 	.uahalf	0x956
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -22474,7 +22474,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DSS13"
 	.byte	0xa
 	.uahalf	0x957
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -22483,7 +22483,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF7
 	.byte	0xa
 	.uahalf	0x958
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -22493,18 +22493,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DXINCON_Bits"
 	.byte	0xa
 	.uahalf	0x959
-	.uaword	0xc66a
+	.uaword	0xc65f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_DXOUTCON_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x95c
-	.uaword	0xc8d0
+	.uaword	0xc8c5
 	.uleb128 0xe
 	.string	"OUT00"
 	.byte	0xa
 	.uahalf	0x95e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -22513,7 +22513,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OUT01"
 	.byte	0xa
 	.uahalf	0x95f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -22522,7 +22522,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OUT02"
 	.byte	0xa
 	.uahalf	0x960
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -22531,7 +22531,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OUT03"
 	.byte	0xa
 	.uahalf	0x961
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -22540,7 +22540,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x962
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -22549,7 +22549,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OUT10"
 	.byte	0xa
 	.uahalf	0x963
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -22558,7 +22558,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OUT11"
 	.byte	0xa
 	.uahalf	0x964
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -22567,7 +22567,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OUT12"
 	.byte	0xa
 	.uahalf	0x965
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -22576,7 +22576,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OUT13"
 	.byte	0xa
 	.uahalf	0x966
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -22585,7 +22585,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF9
 	.byte	0xa
 	.uahalf	0x967
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x14
 	.byte	0
@@ -22595,18 +22595,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_DXOUTCON_Bits"
 	.byte	0xa
 	.uahalf	0x968
-	.uaword	0xc7ff
+	.uaword	0xc7f4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_EIRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x96b
-	.uaword	0xc99d
+	.uaword	0xc992
 	.uleb128 0xe
 	.string	"AEI_TO_XPT_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x96d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -22615,7 +22615,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_USP_ADDR_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x96e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -22624,7 +22624,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_IM_ADDR_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x96f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -22633,7 +22633,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_USP_BE_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x970
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -22642,7 +22642,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x971
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -22652,18 +22652,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_EIRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x972
-	.uaword	0xc8ee
+	.uaword	0xc8e3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_F2A_ENABLE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x975
-	.uaword	0xca8d
+	.uaword	0xca82
 	.uleb128 0xe
 	.string	"STR0_EN"
 	.byte	0xa
 	.uahalf	0x977
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -22672,7 +22672,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STR1_EN"
 	.byte	0xa
 	.uahalf	0x978
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -22681,7 +22681,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STR2_EN"
 	.byte	0xa
 	.uahalf	0x979
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -22690,7 +22690,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STR3_EN"
 	.byte	0xa
 	.uahalf	0x97a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -22699,7 +22699,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STR4_EN"
 	.byte	0xa
 	.uahalf	0x97b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -22708,7 +22708,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STR5_EN"
 	.byte	0xa
 	.uahalf	0x97c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -22717,7 +22717,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STR6_EN"
 	.byte	0xa
 	.uahalf	0x97d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -22726,7 +22726,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STR7_EN"
 	.byte	0xa
 	.uahalf	0x97e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -22735,7 +22735,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x97f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -22745,18 +22745,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_F2A_ENABLE_Bits"
 	.byte	0xa
 	.uahalf	0x980
-	.uaword	0xc9ba
+	.uaword	0xc9af
 	.uleb128 0x11
 	.string	"_Ifx_GTM_F2A_RD_CH_ARU_RD_FIFO_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x983
-	.uaword	0xcafb
+	.uaword	0xcaf0
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x985
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0x17
@@ -22765,7 +22765,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF35
 	.byte	0xa
 	.uahalf	0x986
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x17
 	.byte	0
@@ -22775,18 +22775,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_F2A_RD_CH_ARU_RD_FIFO_Bits"
 	.byte	0xa
 	.uahalf	0x987
-	.uaword	0xcaad
+	.uaword	0xcaa2
 	.uleb128 0x11
 	.string	"_Ifx_GTM_F2A_STR_CH_STR_CFG_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x98a
-	.uaword	0xcb93
+	.uaword	0xcb88
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0x98c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -22795,7 +22795,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TMODE"
 	.byte	0xa
 	.uahalf	0x98d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -22804,7 +22804,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DIR"
 	.byte	0xa
 	.uahalf	0x98e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -22813,7 +22813,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF185
 	.byte	0xa
 	.uahalf	0x98f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xd
 	.byte	0
@@ -22823,18 +22823,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_F2A_STR_CH_STR_CFG_Bits"
 	.byte	0xa
 	.uahalf	0x990
-	.uaword	0xcb26
+	.uaword	0xcb1b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x993
-	.uaword	0xcc35
+	.uaword	0xcc2a
 	.uleb128 0xe
 	.string	"RBM"
 	.byte	0xa
 	.uahalf	0x995
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -22843,7 +22843,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RAP"
 	.byte	0xa
 	.uahalf	0x996
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -22852,7 +22852,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FLUSH"
 	.byte	0xa
 	.uahalf	0x997
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -22861,7 +22861,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"WULOCK"
 	.byte	0xa
 	.uahalf	0x998
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -22870,7 +22870,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x999
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -22880,18 +22880,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x99a
-	.uaword	0xcbbb
+	.uaword	0xcbb0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_EIRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x99d
-	.uaword	0xcd0b
+	.uaword	0xcd00
 	.uleb128 0xe
 	.string	"FIFO_EMPTY_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x99f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -22900,7 +22900,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO_FULL_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x9a0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -22909,7 +22909,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO_LWM_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x9a1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -22918,7 +22918,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO_UWM_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x9a2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -22927,7 +22927,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Reserved"
 	.byte	0xa
 	.uahalf	0x9a3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -22937,18 +22937,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_EIRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x9a4
-	.uaword	0xcc57
+	.uaword	0xcc4c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_END_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9a7
-	.uaword	0xcd79
+	.uaword	0xcd6e
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x9a9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -22957,7 +22957,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x9aa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -22967,18 +22967,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_END_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x9ab
-	.uaword	0xcd30
+	.uaword	0xcd25
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_FILL_LEVEL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9ae
-	.uaword	0xcdec
+	.uaword	0xcde1
 	.uleb128 0xe
 	.string	"LEVEL"
 	.byte	0xa
 	.uahalf	0x9b0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xb
 	.byte	0x15
@@ -22987,7 +22987,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF167
 	.byte	0xa
 	.uahalf	0x9b1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x15
 	.byte	0
@@ -22997,18 +22997,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_FILL_LEVEL_Bits"
 	.byte	0xa
 	.uahalf	0x9b2
-	.uaword	0xcd9f
+	.uaword	0xcd94
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9b5
-	.uaword	0xcebe
+	.uaword	0xceb3
 	.uleb128 0xe
 	.string	"FIFO_EMPTY_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x9b7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -23017,7 +23017,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO_FULL_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x9b8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -23026,7 +23026,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO_LWM_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x9b9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -23035,7 +23035,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO_UWM_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x9ba
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -23044,7 +23044,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x9bb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -23054,18 +23054,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0x9bc
-	.uaword	0xce14
+	.uaword	0xce09
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9bf
-	.uaword	0xcf85
+	.uaword	0xcf7a
 	.uleb128 0xe
 	.string	"TRG_FIFO_EMPTY"
 	.byte	0xa
 	.uahalf	0x9c1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -23074,7 +23074,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_FIFO_FULL"
 	.byte	0xa
 	.uahalf	0x9c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -23083,7 +23083,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_FIFO_LWM"
 	.byte	0xa
 	.uahalf	0x9c3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -23092,7 +23092,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_FIFO_UWM"
 	.byte	0xa
 	.uahalf	0x9c4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -23101,7 +23101,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x9c5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -23111,18 +23111,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0x9c6
-	.uaword	0xcee2
+	.uaword	0xced7
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9c9
-	.uaword	0xd02b
+	.uaword	0xd020
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x9cb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -23131,7 +23131,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DMA_HYSTERESIS"
 	.byte	0xa
 	.uahalf	0x9cc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -23140,7 +23140,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DMA_HYST_DIR"
 	.byte	0xa
 	.uahalf	0x9cd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -23149,7 +23149,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x9ce
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -23159,18 +23159,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0x9cf
-	.uaword	0xcfae
+	.uaword	0xcfa3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9d2
-	.uaword	0xd0e3
+	.uaword	0xd0d8
 	.uleb128 0xe
 	.string	"FIFO_EMPTY"
 	.byte	0xa
 	.uahalf	0x9d4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -23179,7 +23179,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO_FULL"
 	.byte	0xa
 	.uahalf	0x9d5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -23188,7 +23188,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO_LWM"
 	.byte	0xa
 	.uahalf	0x9d6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -23197,7 +23197,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO_UWM"
 	.byte	0xa
 	.uahalf	0x9d7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -23206,7 +23206,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x9d8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -23216,18 +23216,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0x9d9
-	.uaword	0xd051
+	.uaword	0xd046
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_LOWER_WM_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9dc
-	.uaword	0xd154
+	.uaword	0xd149
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x9de
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -23236,7 +23236,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x9df
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -23246,18 +23246,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_LOWER_WM_Bits"
 	.byte	0xa
 	.uahalf	0x9e0
-	.uaword	0xd10b
+	.uaword	0xd100
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_RD_PTR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9e3
-	.uaword	0xd1c1
+	.uaword	0xd1b6
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x9e5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -23266,7 +23266,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x9e6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -23276,18 +23276,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_RD_PTR_Bits"
 	.byte	0xa
 	.uahalf	0x9e7
-	.uaword	0xd17a
+	.uaword	0xd16f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_START_ADDR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9ea
-	.uaword	0xd230
+	.uaword	0xd225
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x9ec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -23296,7 +23296,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x9ed
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -23306,18 +23306,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_START_ADDR_Bits"
 	.byte	0xa
 	.uahalf	0x9ee
-	.uaword	0xd1e5
+	.uaword	0xd1da
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_STATUS_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9f1
-	.uaword	0xd2d7
+	.uaword	0xd2cc
 	.uleb128 0xe
 	.string	"EMPTY"
 	.byte	0xa
 	.uahalf	0x9f3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -23326,7 +23326,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FULL"
 	.byte	0xa
 	.uahalf	0x9f4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -23335,7 +23335,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LOW_WM"
 	.byte	0xa
 	.uahalf	0x9f5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -23344,7 +23344,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"UP_WM"
 	.byte	0xa
 	.uahalf	0x9f6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -23353,7 +23353,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x9f7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -23363,18 +23363,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_STATUS_Bits"
 	.byte	0xa
 	.uahalf	0x9f8
-	.uaword	0xd258
+	.uaword	0xd24d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_UPPER_WM_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x9fb
-	.uaword	0xd344
+	.uaword	0xd339
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0x9fd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -23383,7 +23383,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x9fe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -23393,18 +23393,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_UPPER_WM_Bits"
 	.byte	0xa
 	.uahalf	0x9ff
-	.uaword	0xd2fb
+	.uaword	0xd2f0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH_WR_PTR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xa02
-	.uaword	0xd3b1
+	.uaword	0xd3a6
 	.uleb128 0xf
 	.uaword	.LASF34
 	.byte	0xa
 	.uahalf	0xa04
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xa
 	.byte	0x16
@@ -23413,7 +23413,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0xa05
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -23423,18 +23423,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_FIFO_CH_WR_PTR_Bits"
 	.byte	0xa
 	.uahalf	0xa06
-	.uaword	0xd36a
+	.uaword	0xd35f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xa09
-	.uaword	0xd59e
+	.uaword	0xd593
 	.uleb128 0xe
 	.string	"ARU_NEW_DATA0_IRQ"
 	.byte	0xa
 	.uahalf	0xa0b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -23443,7 +23443,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ARU_NEW_DATA1_IRQ"
 	.byte	0xa
 	.uahalf	0xa0c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -23452,7 +23452,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ARU_ACC_ACK_IRQ"
 	.byte	0xa
 	.uahalf	0xa0d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -23461,7 +23461,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"BRC_IRQ"
 	.byte	0xa
 	.uahalf	0xa0e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -23470,7 +23470,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_IRQ"
 	.byte	0xa
 	.uahalf	0xa0f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -23479,7 +23479,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CMP_IRQ"
 	.byte	0xa
 	.uahalf	0xa10
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -23488,7 +23488,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE0_IRQ"
 	.byte	0xa
 	.uahalf	0xa11
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -23497,7 +23497,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE1_IRQ"
 	.byte	0xa
 	.uahalf	0xa12
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -23506,7 +23506,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xa13
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x10
@@ -23515,7 +23515,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PSM0_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa14
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -23524,7 +23524,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PSM0_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa15
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -23533,7 +23533,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PSM0_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa16
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -23542,7 +23542,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PSM0_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa17
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -23551,7 +23551,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PSM0_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa18
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -23560,7 +23560,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PSM0_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xa19
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -23569,7 +23569,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PSM0_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa1a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -23578,7 +23578,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PSM0_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa1b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -23587,7 +23587,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xa1c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -23597,18 +23597,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_0_Bits"
 	.byte	0xa
 	.uahalf	0xa1d
-	.uaword	0xd3d5
+	.uaword	0xd3ca
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_10_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xa20
-	.uaword	0xd6c2
+	.uaword	0xd6b7
 	.uleb128 0xe
 	.string	"ATOM4_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa22
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -23617,7 +23617,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM4_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa23
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -23626,7 +23626,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM4_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa24
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -23635,7 +23635,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM4_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa25
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -23644,7 +23644,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM4_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa26
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -23653,7 +23653,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM4_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xa27
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -23662,7 +23662,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM4_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa28
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -23671,7 +23671,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM4_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa29
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -23680,7 +23680,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xa2a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -23690,18 +23690,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_10_Bits"
 	.byte	0xa
 	.uahalf	0xa2b
-	.uaword	0xd5be
+	.uaword	0xd5b3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xa2e
-	.uaword	0xd9be
+	.uaword	0xd9b3
 	.uleb128 0xe
 	.string	"DPLL_DCG_IRQ"
 	.byte	0xa
 	.uahalf	0xa30
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -23710,7 +23710,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_EDI_IRQ"
 	.byte	0xa
 	.uahalf	0xa31
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -23719,7 +23719,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TIN_IRQ"
 	.byte	0xa
 	.uahalf	0xa32
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -23728,7 +23728,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TAX_IRQ"
 	.byte	0xa
 	.uahalf	0xa33
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -23737,7 +23737,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_SIS_IRQ"
 	.byte	0xa
 	.uahalf	0xa34
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -23746,7 +23746,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TIS_IRQ"
 	.byte	0xa
 	.uahalf	0xa35
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -23755,7 +23755,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_MSI_IRQ"
 	.byte	0xa
 	.uahalf	0xa36
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -23764,7 +23764,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_MTI_IRQ"
 	.byte	0xa
 	.uahalf	0xa37
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -23773,7 +23773,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_SAS_IRQ"
 	.byte	0xa
 	.uahalf	0xa38
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -23782,7 +23782,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TAS_IRQ"
 	.byte	0xa
 	.uahalf	0xa39
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -23791,7 +23791,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_PWI_IRQ"
 	.byte	0xa
 	.uahalf	0xa3a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -23800,7 +23800,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_W2I_IRQ"
 	.byte	0xa
 	.uahalf	0xa3b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -23809,7 +23809,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_W1I_IRQ"
 	.byte	0xa
 	.uahalf	0xa3c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -23818,7 +23818,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_GLI_IRQ"
 	.byte	0xa
 	.uahalf	0xa3d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -23827,7 +23827,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_LLI_IRQ"
 	.byte	0xa
 	.uahalf	0xa3e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -23836,7 +23836,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_EI_IRQ"
 	.byte	0xa
 	.uahalf	0xa3f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -23845,7 +23845,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_GL2I_IRQ"
 	.byte	0xa
 	.uahalf	0xa40
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -23854,7 +23854,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_LL2I_IRQ"
 	.byte	0xa
 	.uahalf	0xa41
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -23863,7 +23863,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TE0_IRQ"
 	.byte	0xa
 	.uahalf	0xa42
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -23872,7 +23872,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TE1_IRQ"
 	.byte	0xa
 	.uahalf	0xa43
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -23881,7 +23881,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TE2_IRQ"
 	.byte	0xa
 	.uahalf	0xa44
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -23890,7 +23890,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TE3_IRQ"
 	.byte	0xa
 	.uahalf	0xa45
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -23899,7 +23899,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TE4_IRQ"
 	.byte	0xa
 	.uahalf	0xa46
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -23908,7 +23908,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_CDIT_IRQ"
 	.byte	0xa
 	.uahalf	0xa47
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -23917,7 +23917,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_CDIS_IRQ"
 	.byte	0xa
 	.uahalf	0xa48
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -23926,7 +23926,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_TORI_IRQ"
 	.byte	0xa
 	.uahalf	0xa49
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -23935,7 +23935,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_SORI_IRQ"
 	.byte	0xa
 	.uahalf	0xa4a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -23944,7 +23944,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF42
 	.byte	0xa
 	.uahalf	0xa4b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -23954,18 +23954,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_1_Bits"
 	.byte	0xa
 	.uahalf	0xa4c
-	.uaword	0xd6e3
+	.uaword	0xd6d8
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xa4f
-	.uaword	0xdd18
+	.uaword	0xdd0d
 	.uleb128 0xe
 	.string	"TIM0_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa51
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -23974,7 +23974,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa52
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -23983,7 +23983,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa53
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -23992,7 +23992,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa54
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -24001,7 +24001,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa55
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -24010,7 +24010,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xa56
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -24019,7 +24019,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa57
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -24028,7 +24028,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa58
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -24037,7 +24037,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa59
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -24046,7 +24046,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa5a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -24055,7 +24055,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa5b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -24064,7 +24064,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa5c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -24073,7 +24073,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa5d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -24082,7 +24082,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xa5e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -24091,7 +24091,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa5f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -24100,7 +24100,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa60
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -24109,7 +24109,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa61
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -24118,7 +24118,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa62
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -24127,7 +24127,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa63
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -24136,7 +24136,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa64
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -24145,7 +24145,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa65
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -24154,7 +24154,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xa66
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -24163,7 +24163,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa67
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -24172,7 +24172,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa68
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -24181,7 +24181,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa69
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -24190,7 +24190,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa6a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -24199,7 +24199,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa6b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -24208,7 +24208,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa6c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -24217,7 +24217,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa6d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -24226,7 +24226,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF186
 	.byte	0xa
 	.uahalf	0xa6e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -24235,7 +24235,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa6f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -24244,7 +24244,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa70
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -24254,18 +24254,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_2_Bits"
 	.byte	0xa
 	.uahalf	0xa71
-	.uaword	0xd9de
+	.uaword	0xd9d3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_4_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xa74
-	.uaword	0xe07b
+	.uaword	0xe070
 	.uleb128 0xe
 	.string	"MCS0_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa76
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -24274,7 +24274,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa77
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -24283,7 +24283,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa78
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -24292,7 +24292,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa79
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -24301,7 +24301,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa7a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -24310,7 +24310,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xa7b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -24319,7 +24319,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa7c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -24328,7 +24328,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa7d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -24337,7 +24337,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa7e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -24346,7 +24346,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa7f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -24355,7 +24355,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa80
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -24364,7 +24364,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa81
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -24373,7 +24373,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa82
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -24382,7 +24382,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xa83
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -24391,7 +24391,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa84
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -24400,7 +24400,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa85
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -24409,7 +24409,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa86
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -24418,7 +24418,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa87
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -24427,7 +24427,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa88
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -24436,7 +24436,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa89
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -24445,7 +24445,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa8a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -24454,7 +24454,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xa8b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -24463,7 +24463,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa8c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -24472,7 +24472,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa8d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -24481,7 +24481,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa8e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -24490,7 +24490,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa8f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -24499,7 +24499,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa90
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -24508,7 +24508,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa91
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -24517,7 +24517,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa92
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -24526,7 +24526,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xa93
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -24535,7 +24535,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xa94
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -24544,7 +24544,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xa95
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -24554,18 +24554,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_4_Bits"
 	.byte	0xa
 	.uahalf	0xa96
-	.uaword	0xdd38
+	.uaword	0xdd2d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_6_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xa99
-	.uaword	0xe3ea
+	.uaword	0xe3df
 	.uleb128 0xe
 	.string	"TOM0_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xa9b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -24574,7 +24574,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xa9c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -24583,7 +24583,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xa9d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -24592,7 +24592,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xa9e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -24601,7 +24601,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xa9f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -24610,7 +24610,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xaa0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -24619,7 +24619,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xaa1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -24628,7 +24628,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xaa2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -24637,7 +24637,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH8_IRQ"
 	.byte	0xa
 	.uahalf	0xaa3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -24646,7 +24646,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH9_IRQ"
 	.byte	0xa
 	.uahalf	0xaa4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -24655,7 +24655,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH10_IRQ"
 	.byte	0xa
 	.uahalf	0xaa5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -24664,7 +24664,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH11_IRQ"
 	.byte	0xa
 	.uahalf	0xaa6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -24673,7 +24673,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH12_IRQ"
 	.byte	0xa
 	.uahalf	0xaa7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -24682,7 +24682,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH13_IRQ"
 	.byte	0xa
 	.uahalf	0xaa8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -24691,7 +24691,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH14_IRQ"
 	.byte	0xa
 	.uahalf	0xaa9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -24700,7 +24700,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM0_CH15_IRQ"
 	.byte	0xa
 	.uahalf	0xaaa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -24709,7 +24709,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xaab
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -24718,7 +24718,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xaac
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -24727,7 +24727,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xaad
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -24736,7 +24736,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xaae
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -24745,7 +24745,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xaaf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -24754,7 +24754,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xab0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -24763,7 +24763,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xab1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -24772,7 +24772,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xab2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -24781,7 +24781,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH8_IRQ"
 	.byte	0xa
 	.uahalf	0xab3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -24790,7 +24790,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH9_IRQ"
 	.byte	0xa
 	.uahalf	0xab4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -24799,7 +24799,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH10_IRQ"
 	.byte	0xa
 	.uahalf	0xab5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -24808,7 +24808,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH11_IRQ"
 	.byte	0xa
 	.uahalf	0xab6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -24817,7 +24817,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH12_IRQ"
 	.byte	0xa
 	.uahalf	0xab7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -24826,7 +24826,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH13_IRQ"
 	.byte	0xa
 	.uahalf	0xab8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -24835,7 +24835,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH14_IRQ"
 	.byte	0xa
 	.uahalf	0xab9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -24844,7 +24844,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM1_CH15_IRQ"
 	.byte	0xa
 	.uahalf	0xaba
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -24854,18 +24854,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_6_Bits"
 	.byte	0xa
 	.uahalf	0xabb
-	.uaword	0xe09b
+	.uaword	0xe090
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_7_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xabe
-	.uaword	0xe5d3
+	.uaword	0xe5c8
 	.uleb128 0xe
 	.string	"TOM2_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xac0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -24874,7 +24874,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xac1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -24883,7 +24883,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xac2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -24892,7 +24892,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xac3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -24901,7 +24901,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xac4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -24910,7 +24910,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xac5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -24919,7 +24919,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xac6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -24928,7 +24928,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xac7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -24937,7 +24937,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH8_IRQ"
 	.byte	0xa
 	.uahalf	0xac8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -24946,7 +24946,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH9_IRQ"
 	.byte	0xa
 	.uahalf	0xac9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -24955,7 +24955,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH10_IRQ"
 	.byte	0xa
 	.uahalf	0xaca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -24964,7 +24964,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH11_IRQ"
 	.byte	0xa
 	.uahalf	0xacb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -24973,7 +24973,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH12_IRQ"
 	.byte	0xa
 	.uahalf	0xacc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -24982,7 +24982,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH13_IRQ"
 	.byte	0xa
 	.uahalf	0xacd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -24991,7 +24991,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH14_IRQ"
 	.byte	0xa
 	.uahalf	0xace
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -25000,7 +25000,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOM2_CH15_IRQ"
 	.byte	0xa
 	.uahalf	0xacf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -25009,7 +25009,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xad0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -25019,18 +25019,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_7_Bits"
 	.byte	0xa
 	.uahalf	0xad1
-	.uaword	0xe40a
+	.uaword	0xe3ff
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_9_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xad4
-	.uaword	0xe956
+	.uaword	0xe94b
 	.uleb128 0xe
 	.string	"ATOM0_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xad6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -25039,7 +25039,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM0_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xad7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -25048,7 +25048,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM0_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xad8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -25057,7 +25057,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM0_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xad9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -25066,7 +25066,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM0_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xada
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -25075,7 +25075,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM0_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xadb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -25084,7 +25084,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM0_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xadc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -25093,7 +25093,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM0_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xadd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -25102,7 +25102,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM1_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xade
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -25111,7 +25111,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM1_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xadf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -25120,7 +25120,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM1_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xae0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -25129,7 +25129,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM1_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xae1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -25138,7 +25138,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM1_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xae2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -25147,7 +25147,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM1_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xae3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -25156,7 +25156,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM1_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xae4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -25165,7 +25165,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM1_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xae5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -25174,7 +25174,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM2_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xae6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -25183,7 +25183,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM2_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xae7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -25192,7 +25192,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM2_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xae8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -25201,7 +25201,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM2_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xae9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -25210,7 +25210,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM2_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xaea
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -25219,7 +25219,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM2_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xaeb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -25228,7 +25228,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM2_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xaec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -25237,7 +25237,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM2_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xaed
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -25246,7 +25246,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM3_CH0_IRQ"
 	.byte	0xa
 	.uahalf	0xaee
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -25255,7 +25255,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM3_CH1_IRQ"
 	.byte	0xa
 	.uahalf	0xaef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -25264,7 +25264,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM3_CH2_IRQ"
 	.byte	0xa
 	.uahalf	0xaf0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -25273,7 +25273,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM3_CH3_IRQ"
 	.byte	0xa
 	.uahalf	0xaf1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -25282,7 +25282,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM3_CH4_IRQ"
 	.byte	0xa
 	.uahalf	0xaf2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -25291,7 +25291,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM3_CH5_IRQ"
 	.byte	0xa
 	.uahalf	0xaf3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -25300,7 +25300,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM3_CH6_IRQ"
 	.byte	0xa
 	.uahalf	0xaf4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -25309,7 +25309,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ATOM3_CH7_IRQ"
 	.byte	0xa
 	.uahalf	0xaf5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -25319,18 +25319,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_9_Bits"
 	.byte	0xa
 	.uahalf	0xaf6
-	.uaword	0xe5f3
+	.uaword	0xe5e8
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_CEI0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xaf9
-	.uaword	0xea84
+	.uaword	0xea79
 	.uleb128 0xe
 	.string	"FIFO0_CH0_EIRQ"
 	.byte	0xa
 	.uahalf	0xafb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -25339,7 +25339,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO0_CH1_EIRQ"
 	.byte	0xa
 	.uahalf	0xafc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -25348,7 +25348,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO0_CH2_EIRQ"
 	.byte	0xa
 	.uahalf	0xafd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -25357,7 +25357,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO0_CH3_EIRQ"
 	.byte	0xa
 	.uahalf	0xafe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -25366,7 +25366,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO0_CH4_EIRQ"
 	.byte	0xa
 	.uahalf	0xaff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -25375,7 +25375,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO0_CH5_EIRQ"
 	.byte	0xa
 	.uahalf	0xb00
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -25384,7 +25384,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO0_CH6_EIRQ"
 	.byte	0xa
 	.uahalf	0xb01
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -25393,7 +25393,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO0_CH7_EIRQ"
 	.byte	0xa
 	.uahalf	0xb02
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -25402,7 +25402,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xb03
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -25412,18 +25412,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_CEI0_Bits"
 	.byte	0xa
 	.uahalf	0xb04
-	.uaword	0xe976
+	.uaword	0xe96b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_CEI1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xb07
-	.uaword	0xee03
+	.uaword	0xedf8
 	.uleb128 0xe
 	.string	"TIM0_CH0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb09
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -25432,7 +25432,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb0a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -25441,7 +25441,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb0b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -25450,7 +25450,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb0c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -25459,7 +25459,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH4_EIRQ"
 	.byte	0xa
 	.uahalf	0xb0d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -25468,7 +25468,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH5_EIRQ"
 	.byte	0xa
 	.uahalf	0xb0e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -25477,7 +25477,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH6_EIRQ"
 	.byte	0xa
 	.uahalf	0xb0f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -25486,7 +25486,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_CH7_EIRQ"
 	.byte	0xa
 	.uahalf	0xb10
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -25495,7 +25495,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb11
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -25504,7 +25504,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb12
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -25513,7 +25513,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb13
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -25522,7 +25522,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb14
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -25531,7 +25531,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH4_EIRQ"
 	.byte	0xa
 	.uahalf	0xb15
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -25540,7 +25540,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH5_EIRQ"
 	.byte	0xa
 	.uahalf	0xb16
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -25549,7 +25549,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH6_EIRQ"
 	.byte	0xa
 	.uahalf	0xb17
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -25558,7 +25558,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_CH7_EIRQ"
 	.byte	0xa
 	.uahalf	0xb18
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -25567,7 +25567,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb19
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -25576,7 +25576,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb1a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -25585,7 +25585,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb1b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -25594,7 +25594,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb1c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -25603,7 +25603,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH4_EIRQ"
 	.byte	0xa
 	.uahalf	0xb1d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -25612,7 +25612,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH5_EIRQ"
 	.byte	0xa
 	.uahalf	0xb1e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -25621,7 +25621,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH6_EIRQ"
 	.byte	0xa
 	.uahalf	0xb1f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -25630,7 +25630,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_CH7_EIRQ"
 	.byte	0xa
 	.uahalf	0xb20
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -25639,7 +25639,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb21
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -25648,7 +25648,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb22
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -25657,7 +25657,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb23
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -25666,7 +25666,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb24
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -25675,7 +25675,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH4_EIRQ"
 	.byte	0xa
 	.uahalf	0xb25
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -25684,7 +25684,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF186
 	.byte	0xa
 	.uahalf	0xb26
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -25693,7 +25693,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH6_EIRQ"
 	.byte	0xa
 	.uahalf	0xb27
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -25702,7 +25702,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_CH7_EIRQ"
 	.byte	0xa
 	.uahalf	0xb28
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -25712,18 +25712,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_CEI1_Bits"
 	.byte	0xa
 	.uahalf	0xb29
-	.uaword	0xeaa7
+	.uaword	0xea9c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_CEI3_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xb2c
-	.uaword	0xf18c
+	.uaword	0xf181
 	.uleb128 0xe
 	.string	"MCS0_CH0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb2e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -25732,7 +25732,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb2f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -25741,7 +25741,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb30
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -25750,7 +25750,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb31
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -25759,7 +25759,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH4_EIRQ"
 	.byte	0xa
 	.uahalf	0xb32
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -25768,7 +25768,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH5_EIRQ"
 	.byte	0xa
 	.uahalf	0xb33
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -25777,7 +25777,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH6_EIRQ"
 	.byte	0xa
 	.uahalf	0xb34
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -25786,7 +25786,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_CH7_EIRQ"
 	.byte	0xa
 	.uahalf	0xb35
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -25795,7 +25795,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb36
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -25804,7 +25804,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb37
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -25813,7 +25813,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb38
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -25822,7 +25822,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb39
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -25831,7 +25831,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH4_EIRQ"
 	.byte	0xa
 	.uahalf	0xb3a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -25840,7 +25840,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH5_EIRQ"
 	.byte	0xa
 	.uahalf	0xb3b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -25849,7 +25849,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH6_EIRQ"
 	.byte	0xa
 	.uahalf	0xb3c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -25858,7 +25858,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_CH7_EIRQ"
 	.byte	0xa
 	.uahalf	0xb3d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -25867,7 +25867,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb3e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -25876,7 +25876,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb3f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -25885,7 +25885,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb40
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -25894,7 +25894,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb41
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -25903,7 +25903,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH4_EIRQ"
 	.byte	0xa
 	.uahalf	0xb42
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -25912,7 +25912,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH5_EIRQ"
 	.byte	0xa
 	.uahalf	0xb43
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -25921,7 +25921,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH6_EIRQ"
 	.byte	0xa
 	.uahalf	0xb44
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -25930,7 +25930,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_CH7_EIRQ"
 	.byte	0xa
 	.uahalf	0xb45
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -25939,7 +25939,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb46
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -25948,7 +25948,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb47
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -25957,7 +25957,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb48
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -25966,7 +25966,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb49
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -25975,7 +25975,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH4_EIRQ"
 	.byte	0xa
 	.uahalf	0xb4a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -25984,7 +25984,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH5_EIRQ"
 	.byte	0xa
 	.uahalf	0xb4b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -25993,7 +25993,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH6_EIRQ"
 	.byte	0xa
 	.uahalf	0xb4c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -26002,7 +26002,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_CH7_EIRQ"
 	.byte	0xa
 	.uahalf	0xb4d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -26012,18 +26012,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_CEI3_Bits"
 	.byte	0xa
 	.uahalf	0xb4e
-	.uaword	0xee26
+	.uaword	0xee1b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM_IRQG_MEI_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xb51
-	.uaword	0xf36c
+	.uaword	0xf361
 	.uleb128 0xe
 	.string	"GTM_EIRQ"
 	.byte	0xa
 	.uahalf	0xb53
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -26032,7 +26032,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"BRC_EIRQ"
 	.byte	0xa
 	.uahalf	0xb54
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -26041,7 +26041,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FIFO0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb55
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -26050,7 +26050,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0xb56
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -26059,7 +26059,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb57
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -26068,7 +26068,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb58
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -26077,7 +26077,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb59
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -26086,7 +26086,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb5a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -26095,7 +26095,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xb5b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -26104,7 +26104,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb5c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -26113,7 +26113,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb5d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -26122,7 +26122,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_EIRQ"
 	.byte	0xa
 	.uahalf	0xb5e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -26131,7 +26131,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_EIRQ"
 	.byte	0xa
 	.uahalf	0xb5f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -26140,7 +26140,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xb60
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -26149,7 +26149,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE0_EIRQ"
 	.byte	0xa
 	.uahalf	0xb61
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -26158,7 +26158,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE1_EIRQ"
 	.byte	0xa
 	.uahalf	0xb62
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -26167,7 +26167,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF164
 	.byte	0xa
 	.uahalf	0xb63
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -26176,7 +26176,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CMP_EIRQ"
 	.byte	0xa
 	.uahalf	0xb64
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -26185,7 +26185,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DPLL_EIRQ"
 	.byte	0xa
 	.uahalf	0xb65
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -26194,7 +26194,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF128
 	.byte	0xa
 	.uahalf	0xb66
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0
@@ -26204,18 +26204,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ICM_IRQG_MEI_Bits"
 	.byte	0xa
 	.uahalf	0xb67
-	.uaword	0xf1af
+	.uaword	0xf1a4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_CAN_OUTSEL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xb6a
-	.uaword	0xf43a
+	.uaword	0xf42f
 	.uleb128 0xf
 	.uaword	.LASF10
 	.byte	0xa
 	.uahalf	0xb6c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -26224,7 +26224,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.uahalf	0xb6d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -26233,7 +26233,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.uahalf	0xb6e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -26242,7 +26242,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.uahalf	0xb6f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -26251,7 +26251,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0xa
 	.uahalf	0xb70
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -26260,7 +26260,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.uahalf	0xb71
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -26269,7 +26269,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF16
 	.byte	0xa
 	.uahalf	0xb72
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -26278,7 +26278,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF30
 	.byte	0xa
 	.uahalf	0xb73
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -26288,18 +26288,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_INOUTSEL_CAN_OUTSEL_Bits"
 	.byte	0xa
 	.uahalf	0xb74
-	.uaword	0xf38e
+	.uaword	0xf383
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_DSADC_INSEL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xb77
-	.uaword	0xf528
+	.uaword	0xf51d
 	.uleb128 0xe
 	.string	"INSEL0"
 	.byte	0xa
 	.uahalf	0xb79
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -26308,7 +26308,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INSEL1"
 	.byte	0xa
 	.uahalf	0xb7a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -26317,7 +26317,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INSEL2"
 	.byte	0xa
 	.uahalf	0xb7b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -26326,7 +26326,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INSEL3"
 	.byte	0xa
 	.uahalf	0xb7c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -26335,7 +26335,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INSEL4"
 	.byte	0xa
 	.uahalf	0xb7d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -26344,7 +26344,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INSEL5"
 	.byte	0xa
 	.uahalf	0xb7e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -26353,7 +26353,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INSEL6"
 	.byte	0xa
 	.uahalf	0xb7f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -26362,7 +26362,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INSEL7"
 	.byte	0xa
 	.uahalf	0xb80
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -26372,18 +26372,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_INOUTSEL_DSADC_INSEL_Bits"
 	.byte	0xa
 	.uahalf	0xb81
-	.uaword	0xf463
+	.uaword	0xf458
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_DSADC_OUTSEL0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xb84
-	.uaword	0xf641
+	.uaword	0xf636
 	.uleb128 0xf
 	.uaword	.LASF10
 	.byte	0xa
 	.uahalf	0xb86
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -26392,7 +26392,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0xb87
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -26401,7 +26401,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.uahalf	0xb88
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x19
@@ -26410,7 +26410,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF17
 	.byte	0xa
 	.uahalf	0xb89
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -26419,7 +26419,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.uahalf	0xb8a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -26428,7 +26428,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF167
 	.byte	0xa
 	.uahalf	0xb8b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -26437,7 +26437,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.uahalf	0xb8c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -26446,7 +26446,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF121
 	.byte	0xa
 	.uahalf	0xb8d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -26455,7 +26455,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0xa
 	.uahalf	0xb8e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -26464,7 +26464,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF185
 	.byte	0xa
 	.uahalf	0xb8f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -26473,7 +26473,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.uahalf	0xb90
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -26482,7 +26482,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0xb91
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x9
 	.byte	0
@@ -26492,18 +26492,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_INOUTSEL_DSADC_OUTSEL0_Bits"
 	.byte	0xa
 	.uahalf	0xb92
-	.uaword	0xf552
+	.uaword	0xf547
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_PSI5_OUTSEL0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xb95
-	.uaword	0xf70b
+	.uaword	0xf700
 	.uleb128 0xf
 	.uaword	.LASF10
 	.byte	0xa
 	.uahalf	0xb97
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -26512,7 +26512,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.uahalf	0xb98
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -26521,7 +26521,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.uahalf	0xb99
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -26530,7 +26530,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.uahalf	0xb9a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -26539,7 +26539,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0xa
 	.uahalf	0xb9b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -26548,7 +26548,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.uahalf	0xb9c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -26557,7 +26557,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xb9d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -26567,18 +26567,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_INOUTSEL_PSI5_OUTSEL0_Bits"
 	.byte	0xa
 	.uahalf	0xb9e
-	.uaword	0xf66d
+	.uaword	0xf662
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_PSI5S_OUTSEL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xba1
-	.uaword	0xf7e4
+	.uaword	0xf7d9
 	.uleb128 0xf
 	.uaword	.LASF10
 	.byte	0xa
 	.uahalf	0xba3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -26587,7 +26587,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.uahalf	0xba4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -26596,7 +26596,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.uahalf	0xba5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -26605,7 +26605,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.uahalf	0xba6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -26614,7 +26614,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0xa
 	.uahalf	0xba7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -26623,7 +26623,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.uahalf	0xba8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -26632,7 +26632,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF16
 	.byte	0xa
 	.uahalf	0xba9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -26641,7 +26641,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF30
 	.byte	0xa
 	.uahalf	0xbaa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -26651,18 +26651,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_INOUTSEL_PSI5S_OUTSEL_Bits"
 	.byte	0xa
 	.uahalf	0xbab
-	.uaword	0xf736
+	.uaword	0xf72b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_T_OUTSEL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xbae
-	.uaword	0xf93b
+	.uaword	0xf930
 	.uleb128 0xf
 	.uaword	.LASF10
 	.byte	0xa
 	.uahalf	0xbb0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -26671,7 +26671,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.uahalf	0xbb1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -26680,7 +26680,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.uahalf	0xbb2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -26689,7 +26689,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.uahalf	0xbb3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -26698,7 +26698,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0xa
 	.uahalf	0xbb4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -26707,7 +26707,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.uahalf	0xbb5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -26716,7 +26716,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF16
 	.byte	0xa
 	.uahalf	0xbb6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -26725,7 +26725,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF30
 	.byte	0xa
 	.uahalf	0xbb7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -26734,7 +26734,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SEL8"
 	.byte	0xa
 	.uahalf	0xbb8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -26743,7 +26743,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SEL9"
 	.byte	0xa
 	.uahalf	0xbb9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -26752,7 +26752,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF18
 	.byte	0xa
 	.uahalf	0xbba
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -26761,7 +26761,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF19
 	.byte	0xa
 	.uahalf	0xbbb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -26770,7 +26770,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF187
 	.byte	0xa
 	.uahalf	0xbbc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -26779,7 +26779,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF188
 	.byte	0xa
 	.uahalf	0xbbd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -26788,7 +26788,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF189
 	.byte	0xa
 	.uahalf	0xbbe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -26797,7 +26797,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF190
 	.byte	0xa
 	.uahalf	0xbbf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -26807,18 +26807,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_INOUTSEL_T_OUTSEL_Bits"
 	.byte	0xa
 	.uahalf	0xbc0
-	.uaword	0xf80f
+	.uaword	0xf804
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_TIM_INSEL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xbc3
-	.uaword	0xfa25
+	.uaword	0xfa1a
 	.uleb128 0xe
 	.string	"CH0SEL"
 	.byte	0xa
 	.uahalf	0xbc5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -26827,7 +26827,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CH1SEL"
 	.byte	0xa
 	.uahalf	0xbc6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -26836,7 +26836,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CH2SEL"
 	.byte	0xa
 	.uahalf	0xbc7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -26845,7 +26845,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CH3SEL"
 	.byte	0xa
 	.uahalf	0xbc8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -26854,7 +26854,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CH4SEL"
 	.byte	0xa
 	.uahalf	0xbc9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -26863,7 +26863,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CH5SEL"
 	.byte	0xa
 	.uahalf	0xbca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -26872,7 +26872,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CH6SEL"
 	.byte	0xa
 	.uahalf	0xbcb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -26881,7 +26881,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CH7SEL"
 	.byte	0xa
 	.uahalf	0xbcc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -26891,18 +26891,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_INOUTSEL_TIM_INSEL_Bits"
 	.byte	0xa
 	.uahalf	0xbcd
-	.uaword	0xf962
+	.uaword	0xf957
 	.uleb128 0x11
 	.string	"_Ifx_GTM_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xbd0
-	.uaword	0xfaf7
+	.uaword	0xfaec
 	.uleb128 0xe
 	.string	"AEI_TO_XPT_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xbd2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -26911,7 +26911,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_USP_ADDR_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xbd3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -26920,7 +26920,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_IM_ADDR_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xbd4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -26929,7 +26929,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_USP_BE_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xbd5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -26938,7 +26938,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0xbd6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -26948,18 +26948,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0xbd7
-	.uaword	0xfa4d
+	.uaword	0xfa42
 	.uleb128 0x11
 	.string	"_Ifx_GTM_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xbda
-	.uaword	0xfbb6
+	.uaword	0xfbab
 	.uleb128 0xe
 	.string	"TRG_AEI_TO_XPT"
 	.byte	0xa
 	.uahalf	0xbdc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -26968,7 +26968,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_AEI_USP_ADDR"
 	.byte	0xa
 	.uahalf	0xbdd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -26977,7 +26977,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_AEI_IM_ADDR"
 	.byte	0xa
 	.uahalf	0xbde
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -26986,7 +26986,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_AEI_USP_BE"
 	.byte	0xa
 	.uahalf	0xbdf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -26995,7 +26995,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0xbe0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -27005,18 +27005,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0xbe1
-	.uaword	0xfb13
+	.uaword	0xfb08
 	.uleb128 0x11
 	.string	"_Ifx_GTM_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xbe4
-	.uaword	0xfc18
+	.uaword	0xfc0d
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0xbe6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -27025,7 +27025,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xbe7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -27035,18 +27035,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0xbe8
-	.uaword	0xfbd7
+	.uaword	0xfbcc
 	.uleb128 0x11
 	.string	"_Ifx_GTM_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xbeb
-	.uaword	0xfcc8
+	.uaword	0xfcbd
 	.uleb128 0xe
 	.string	"AEI_TO_XPT"
 	.byte	0xa
 	.uahalf	0xbed
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27055,7 +27055,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_USP_ADDR"
 	.byte	0xa
 	.uahalf	0xbee
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -27064,7 +27064,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_IM_ADDR"
 	.byte	0xa
 	.uahalf	0xbef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -27073,7 +27073,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AEI_USP_BE"
 	.byte	0xa
 	.uahalf	0xbf0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -27082,7 +27082,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0xbf1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -27092,18 +27092,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0xbf2
-	.uaword	0xfc36
+	.uaword	0xfc2b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_KRST0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xbf5
-	.uaword	0xfd3a
+	.uaword	0xfd2f
 	.uleb128 0xe
 	.string	"RST"
 	.byte	0xa
 	.uahalf	0xbf7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27112,7 +27112,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RSTSTAT"
 	.byte	0xa
 	.uahalf	0xbf8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -27121,7 +27121,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xbf9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -27131,18 +27131,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_KRST0_Bits"
 	.byte	0xa
 	.uahalf	0xbfa
-	.uaword	0xfce8
+	.uaword	0xfcdd
 	.uleb128 0x11
 	.string	"_Ifx_GTM_KRST1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xbfd
-	.uaword	0xfd93
+	.uaword	0xfd88
 	.uleb128 0xe
 	.string	"RST"
 	.byte	0xa
 	.uahalf	0xbff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27151,7 +27151,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0xc00
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -27161,18 +27161,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_KRST1_Bits"
 	.byte	0xa
 	.uahalf	0xc01
-	.uaword	0xfd55
+	.uaword	0xfd4a
 	.uleb128 0x11
 	.string	"_Ifx_GTM_KRSTCLR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc04
-	.uaword	0xfdee
+	.uaword	0xfde3
 	.uleb128 0xe
 	.string	"CLR"
 	.byte	0xa
 	.uahalf	0xc06
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27181,7 +27181,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0xc07
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -27191,18 +27191,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_KRSTCLR_Bits"
 	.byte	0xa
 	.uahalf	0xc08
-	.uaword	0xfdae
+	.uaword	0xfda3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MAP_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc0b
-	.uaword	0xff88
+	.uaword	0xff7d
 	.uleb128 0xe
 	.string	"TSEL"
 	.byte	0xa
 	.uahalf	0xc0d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27211,7 +27211,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SSL"
 	.byte	0xa
 	.uahalf	0xc0e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -27220,7 +27220,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"LSEL"
 	.byte	0xa
 	.uahalf	0xc0f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -27229,7 +27229,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xc10
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xb
 	.byte	0x10
@@ -27238,7 +27238,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP0_EN"
 	.byte	0xa
 	.uahalf	0xc11
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -27247,7 +27247,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP0_DLD"
 	.byte	0xa
 	.uahalf	0xc12
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -27256,7 +27256,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF172
 	.byte	0xa
 	.uahalf	0xc13
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -27265,7 +27265,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP0_I0V"
 	.byte	0xa
 	.uahalf	0xc14
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -27274,7 +27274,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP0_I1V"
 	.byte	0xa
 	.uahalf	0xc15
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -27283,7 +27283,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP0_I2V"
 	.byte	0xa
 	.uahalf	0xc16
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -27292,7 +27292,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0xc17
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -27301,7 +27301,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP1_EN"
 	.byte	0xa
 	.uahalf	0xc18
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -27310,7 +27310,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP1_DLD"
 	.byte	0xa
 	.uahalf	0xc19
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -27319,7 +27319,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF128
 	.byte	0xa
 	.uahalf	0xc1a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -27328,7 +27328,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP1_I0V"
 	.byte	0xa
 	.uahalf	0xc1b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -27337,7 +27337,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP1_I1V"
 	.byte	0xa
 	.uahalf	0xc1c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -27346,7 +27346,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TSPP1_I2V"
 	.byte	0xa
 	.uahalf	0xc1d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -27355,7 +27355,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF191
 	.byte	0xa
 	.uahalf	0xc1e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -27365,18 +27365,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MAP_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xc1f
-	.uaword	0xfe0b
+	.uaword	0xfe00
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCFG_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc22
-	.uaword	0x1001c
+	.uaword	0x10011
 	.uleb128 0xe
 	.string	"MEM0"
 	.byte	0xa
 	.uahalf	0xc24
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -27385,7 +27385,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MEM1"
 	.byte	0xa
 	.uahalf	0xc25
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -27394,7 +27394,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MEM2"
 	.byte	0xa
 	.uahalf	0xc26
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -27403,7 +27403,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MEM3"
 	.byte	0xa
 	.uahalf	0xc27
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -27412,7 +27412,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xc28
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -27422,18 +27422,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCFG_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xc29
-	.uaword	0xffa6
+	.uaword	0xff9b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH0_CTRG_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc2c
-	.uaword	0x10186
+	.uaword	0x1017b
 	.uleb128 0xe
 	.string	"TRG0"
 	.byte	0xa
 	.uahalf	0xc2e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27442,7 +27442,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG1"
 	.byte	0xa
 	.uahalf	0xc2f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -27451,7 +27451,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG2"
 	.byte	0xa
 	.uahalf	0xc30
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -27460,7 +27460,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG3"
 	.byte	0xa
 	.uahalf	0xc31
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -27469,7 +27469,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG4"
 	.byte	0xa
 	.uahalf	0xc32
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -27478,7 +27478,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG5"
 	.byte	0xa
 	.uahalf	0xc33
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -27487,7 +27487,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG6"
 	.byte	0xa
 	.uahalf	0xc34
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -27496,7 +27496,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG7"
 	.byte	0xa
 	.uahalf	0xc35
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -27505,7 +27505,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG8"
 	.byte	0xa
 	.uahalf	0xc36
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -27514,7 +27514,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG9"
 	.byte	0xa
 	.uahalf	0xc37
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -27523,7 +27523,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG10"
 	.byte	0xa
 	.uahalf	0xc38
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -27532,7 +27532,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG11"
 	.byte	0xa
 	.uahalf	0xc39
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -27541,7 +27541,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG12"
 	.byte	0xa
 	.uahalf	0xc3a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -27550,7 +27550,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG13"
 	.byte	0xa
 	.uahalf	0xc3b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -27559,7 +27559,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG14"
 	.byte	0xa
 	.uahalf	0xc3c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -27568,7 +27568,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG15"
 	.byte	0xa
 	.uahalf	0xc3d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -27577,7 +27577,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xc3e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -27587,18 +27587,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH0_CTRG_Bits"
 	.byte	0xa
 	.uahalf	0xc3f
-	.uaword	0x1003b
+	.uaword	0x10030
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH0_STRG_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc42
-	.uaword	0x102f3
+	.uaword	0x102e8
 	.uleb128 0xe
 	.string	"TRG0"
 	.byte	0xa
 	.uahalf	0xc44
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27607,7 +27607,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG1"
 	.byte	0xa
 	.uahalf	0xc45
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -27616,7 +27616,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG2"
 	.byte	0xa
 	.uahalf	0xc46
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -27625,7 +27625,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG3"
 	.byte	0xa
 	.uahalf	0xc47
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -27634,7 +27634,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG4"
 	.byte	0xa
 	.uahalf	0xc48
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -27643,7 +27643,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG5"
 	.byte	0xa
 	.uahalf	0xc49
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -27652,7 +27652,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG6"
 	.byte	0xa
 	.uahalf	0xc4a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -27661,7 +27661,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG7"
 	.byte	0xa
 	.uahalf	0xc4b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -27670,7 +27670,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG8"
 	.byte	0xa
 	.uahalf	0xc4c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -27679,7 +27679,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG9"
 	.byte	0xa
 	.uahalf	0xc4d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -27688,7 +27688,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG10"
 	.byte	0xa
 	.uahalf	0xc4e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -27697,7 +27697,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG11"
 	.byte	0xa
 	.uahalf	0xc4f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -27706,7 +27706,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG12"
 	.byte	0xa
 	.uahalf	0xc50
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -27715,7 +27715,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG13"
 	.byte	0xa
 	.uahalf	0xc51
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -27724,7 +27724,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG14"
 	.byte	0xa
 	.uahalf	0xc52
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -27733,7 +27733,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG15"
 	.byte	0xa
 	.uahalf	0xc53
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -27742,7 +27742,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xc54
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -27752,18 +27752,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH0_STRG_Bits"
 	.byte	0xa
 	.uahalf	0xc55
-	.uaword	0x101a8
+	.uaword	0x1019d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_ACB_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc58
-	.uaword	0x1039d
+	.uaword	0x10392
 	.uleb128 0xe
 	.string	"ACB0"
 	.byte	0xa
 	.uahalf	0xc5a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27772,7 +27772,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB1"
 	.byte	0xa
 	.uahalf	0xc5b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -27781,7 +27781,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB2"
 	.byte	0xa
 	.uahalf	0xc5c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -27790,7 +27790,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB3"
 	.byte	0xa
 	.uahalf	0xc5d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -27799,7 +27799,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACB4"
 	.byte	0xa
 	.uahalf	0xc5e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -27808,7 +27808,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xc5f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1b
 	.byte	0
@@ -27818,18 +27818,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_ACB_Bits"
 	.byte	0xa
 	.uahalf	0xc60
-	.uaword	0x10315
+	.uaword	0x1030a
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc63
-	.uaword	0x104ac
+	.uaword	0x104a1
 	.uleb128 0xe
 	.string	"EN"
 	.byte	0xa
 	.uahalf	0xc65
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27838,7 +27838,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IRQ"
 	.byte	0xa
 	.uahalf	0xc66
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -27847,7 +27847,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ERR"
 	.byte	0xa
 	.uahalf	0xc67
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -27856,7 +27856,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0xc68
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -27865,7 +27865,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CY"
 	.byte	0xa
 	.uahalf	0xc69
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -27874,7 +27874,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Z"
 	.byte	0xa
 	.uahalf	0xc6a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -27883,7 +27883,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"V"
 	.byte	0xa
 	.uahalf	0xc6b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -27892,7 +27892,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"N"
 	.byte	0xa
 	.uahalf	0xc6c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -27901,7 +27901,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAT"
 	.byte	0xa
 	.uahalf	0xc6d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -27910,7 +27910,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CWT"
 	.byte	0xa
 	.uahalf	0xc6e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -27919,7 +27919,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0xc6f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x6
 	.byte	0x10
@@ -27928,7 +27928,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SP_CNT"
 	.byte	0xa
 	.uahalf	0xc70
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -27937,7 +27937,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF185
 	.byte	0xa
 	.uahalf	0xc71
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xd
 	.byte	0
@@ -27947,18 +27947,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xc72
-	.uaword	0x103bd
+	.uaword	0x103b2
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_EIRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc75
-	.uaword	0x10554
+	.uaword	0x10549
 	.uleb128 0xe
 	.string	"MCS_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xc77
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -27967,7 +27967,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STK_ERR_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xc78
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -27976,7 +27976,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MEM_ERR_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xc79
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -27985,7 +27985,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0xc7a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -27995,18 +27995,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_EIRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0xc7b
-	.uaword	0x104cd
+	.uaword	0x104c2
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc7e
-	.uaword	0x105fb
+	.uaword	0x105f0
 	.uleb128 0xe
 	.string	"MCS_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xc80
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -28015,7 +28015,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STK_ERR_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xc81
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -28024,7 +28024,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MEM_ERR_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xc82
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -28033,7 +28033,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0xc83
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -28043,18 +28043,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0xc84
-	.uaword	0x10578
+	.uaword	0x1056d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc87
-	.uaword	0x106a9
+	.uaword	0x1069e
 	.uleb128 0xe
 	.string	"TRG_MCS_IRQ"
 	.byte	0xa
 	.uahalf	0xc89
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -28063,7 +28063,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_STK_ERR_IRQ"
 	.byte	0xa
 	.uahalf	0xc8a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -28072,7 +28072,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_MEM_ERR_IRQ"
 	.byte	0xa
 	.uahalf	0xc8b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -28081,7 +28081,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0xc8c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -28091,18 +28091,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0xc8d
-	.uaword	0x1061e
+	.uaword	0x10613
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc90
-	.uaword	0x10719
+	.uaword	0x1070e
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0xc92
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -28111,7 +28111,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xc93
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -28121,18 +28121,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0xc94
-	.uaword	0x106d1
+	.uaword	0x106c6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xc97
-	.uaword	0x107bc
+	.uaword	0x107b1
 	.uleb128 0xe
 	.string	"MCS_IRQ"
 	.byte	0xa
 	.uahalf	0xc99
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -28141,7 +28141,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"STK_ERR_IRQ"
 	.byte	0xa
 	.uahalf	0xc9a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -28150,7 +28150,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MEM_ERR_IRQ"
 	.byte	0xa
 	.uahalf	0xc9b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -28159,7 +28159,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0xc9c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -28169,18 +28169,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0xc9d
-	.uaword	0x1073e
+	.uaword	0x10733
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_PC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xca0
-	.uaword	0x10824
+	.uaword	0x10819
 	.uleb128 0xe
 	.string	"PC"
 	.byte	0xa
 	.uahalf	0xca2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xe
 	.byte	0x12
@@ -28189,7 +28189,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF36
 	.byte	0xa
 	.uahalf	0xca3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x12
 	.byte	0
@@ -28199,18 +28199,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_PC_Bits"
 	.byte	0xa
 	.uahalf	0xca4
-	.uaword	0x107e3
+	.uaword	0x107d8
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_R0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xca7
-	.uaword	0x10885
+	.uaword	0x1087a
 	.uleb128 0xf
 	.uaword	.LASF32
 	.byte	0xa
 	.uahalf	0xca9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -28219,7 +28219,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xcaa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -28229,18 +28229,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_R0_Bits"
 	.byte	0xa
 	.uahalf	0xcab
-	.uaword	0x10843
+	.uaword	0x10838
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_R1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xcae
-	.uaword	0x108e6
+	.uaword	0x108db
 	.uleb128 0xf
 	.uaword	.LASF32
 	.byte	0xa
 	.uahalf	0xcb0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -28249,7 +28249,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xcb1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -28259,18 +28259,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_R1_Bits"
 	.byte	0xa
 	.uahalf	0xcb2
-	.uaword	0x108a4
+	.uaword	0x10899
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_R2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xcb5
-	.uaword	0x10947
+	.uaword	0x1093c
 	.uleb128 0xf
 	.uaword	.LASF32
 	.byte	0xa
 	.uahalf	0xcb7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -28279,7 +28279,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xcb8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -28289,18 +28289,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_R2_Bits"
 	.byte	0xa
 	.uahalf	0xcb9
-	.uaword	0x10905
+	.uaword	0x108fa
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_R3_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xcbc
-	.uaword	0x109a8
+	.uaword	0x1099d
 	.uleb128 0xf
 	.uaword	.LASF32
 	.byte	0xa
 	.uahalf	0xcbe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -28309,7 +28309,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xcbf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -28319,18 +28319,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_R3_Bits"
 	.byte	0xa
 	.uahalf	0xcc0
-	.uaword	0x10966
+	.uaword	0x1095b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_R4_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xcc3
-	.uaword	0x10a09
+	.uaword	0x109fe
 	.uleb128 0xf
 	.uaword	.LASF32
 	.byte	0xa
 	.uahalf	0xcc5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -28339,7 +28339,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xcc6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -28349,18 +28349,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_R4_Bits"
 	.byte	0xa
 	.uahalf	0xcc7
-	.uaword	0x109c7
+	.uaword	0x109bc
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_R5_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xcca
-	.uaword	0x10a6a
+	.uaword	0x10a5f
 	.uleb128 0xf
 	.uaword	.LASF32
 	.byte	0xa
 	.uahalf	0xccc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -28369,7 +28369,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xccd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -28379,18 +28379,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_R5_Bits"
 	.byte	0xa
 	.uahalf	0xcce
-	.uaword	0x10a28
+	.uaword	0x10a1d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_R6_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xcd1
-	.uaword	0x10acb
+	.uaword	0x10ac0
 	.uleb128 0xf
 	.uaword	.LASF32
 	.byte	0xa
 	.uahalf	0xcd3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -28399,7 +28399,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xcd4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -28409,18 +28409,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_R6_Bits"
 	.byte	0xa
 	.uahalf	0xcd5
-	.uaword	0x10a89
+	.uaword	0x10a7e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH_R7_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xcd8
-	.uaword	0x10b2c
+	.uaword	0x10b21
 	.uleb128 0xf
 	.uaword	.LASF32
 	.byte	0xa
 	.uahalf	0xcda
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -28429,7 +28429,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xcdb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -28439,18 +28439,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CH_R7_Bits"
 	.byte	0xa
 	.uahalf	0xcdc
-	.uaword	0x10aea
+	.uaword	0x10adf
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xcdf
-	.uaword	0x10bc9
+	.uaword	0x10bbe
 	.uleb128 0xe
 	.string	"SCHED"
 	.byte	0xa
 	.uahalf	0xce1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -28459,7 +28459,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"HLT_SP_OFL"
 	.byte	0xa
 	.uahalf	0xce2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -28468,7 +28468,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xce3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xe
 	.byte	0x10
@@ -28477,7 +28477,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RAM_RST"
 	.byte	0xa
 	.uahalf	0xce4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -28486,7 +28486,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF122
 	.byte	0xa
 	.uahalf	0xce5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xf
 	.byte	0
@@ -28496,18 +28496,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xce6
-	.uaword	0x10b4b
+	.uaword	0x10b40
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_ERR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xce9
-	.uaword	0x10c9f
+	.uaword	0x10c94
 	.uleb128 0xe
 	.string	"ERR0"
 	.byte	0xa
 	.uahalf	0xceb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -28516,7 +28516,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ERR1"
 	.byte	0xa
 	.uahalf	0xcec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -28525,7 +28525,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ERR2"
 	.byte	0xa
 	.uahalf	0xced
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -28534,7 +28534,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ERR3"
 	.byte	0xa
 	.uahalf	0xcee
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -28543,7 +28543,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ERR4"
 	.byte	0xa
 	.uahalf	0xcef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -28552,7 +28552,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ERR5"
 	.byte	0xa
 	.uahalf	0xcf0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -28561,7 +28561,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ERR6"
 	.byte	0xa
 	.uahalf	0xcf1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -28570,7 +28570,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ERR7"
 	.byte	0xa
 	.uahalf	0xcf2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -28579,7 +28579,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xcf3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -28589,18 +28589,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_ERR_Bits"
 	.byte	0xa
 	.uahalf	0xcf4
-	.uaword	0x10be7
+	.uaword	0x10bdc
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_RST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xcf7
-	.uaword	0x10e84
+	.uaword	0x10e79
 	.uleb128 0xe
 	.string	"RST0"
 	.byte	0xa
 	.uahalf	0xcf9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -28609,7 +28609,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RST1"
 	.byte	0xa
 	.uahalf	0xcfa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -28618,7 +28618,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RST2"
 	.byte	0xa
 	.uahalf	0xcfb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -28627,7 +28627,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RST3"
 	.byte	0xa
 	.uahalf	0xcfc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -28636,7 +28636,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RST4"
 	.byte	0xa
 	.uahalf	0xcfd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -28645,7 +28645,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RST5"
 	.byte	0xa
 	.uahalf	0xcfe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -28654,7 +28654,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RST6"
 	.byte	0xa
 	.uahalf	0xcff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -28663,7 +28663,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"RST7"
 	.byte	0xa
 	.uahalf	0xd00
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -28672,7 +28672,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAT0"
 	.byte	0xa
 	.uahalf	0xd01
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -28681,7 +28681,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAT1"
 	.byte	0xa
 	.uahalf	0xd02
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -28690,7 +28690,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAT2"
 	.byte	0xa
 	.uahalf	0xd03
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -28699,7 +28699,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAT3"
 	.byte	0xa
 	.uahalf	0xd04
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -28708,7 +28708,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAT4"
 	.byte	0xa
 	.uahalf	0xd05
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -28717,7 +28717,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAT5"
 	.byte	0xa
 	.uahalf	0xd06
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -28726,7 +28726,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAT6"
 	.byte	0xa
 	.uahalf	0xd07
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -28735,7 +28735,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CAT7"
 	.byte	0xa
 	.uahalf	0xd08
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -28744,7 +28744,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CWT0"
 	.byte	0xa
 	.uahalf	0xd09
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -28753,7 +28753,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CWT1"
 	.byte	0xa
 	.uahalf	0xd0a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -28762,7 +28762,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CWT2"
 	.byte	0xa
 	.uahalf	0xd0b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -28771,7 +28771,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CWT3"
 	.byte	0xa
 	.uahalf	0xd0c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -28780,7 +28780,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CWT4"
 	.byte	0xa
 	.uahalf	0xd0d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -28789,7 +28789,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CWT5"
 	.byte	0xa
 	.uahalf	0xd0e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -28798,7 +28798,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CWT6"
 	.byte	0xa
 	.uahalf	0xd0f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -28807,7 +28807,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CWT7"
 	.byte	0xa
 	.uahalf	0xd10
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -28816,7 +28816,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xd11
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -28826,18 +28826,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCS_RST_Bits"
 	.byte	0xa
 	.uahalf	0xd12
-	.uaword	0x10cbc
+	.uaword	0x10cb1
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCSINTCLR_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xd15
-	.uaword	0x11003
+	.uaword	0x10ff8
 	.uleb128 0xe
 	.string	"MCS000"
 	.byte	0xa
 	.uahalf	0xd17
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -28846,7 +28846,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS001"
 	.byte	0xa
 	.uahalf	0xd18
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -28855,7 +28855,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS010"
 	.byte	0xa
 	.uahalf	0xd19
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -28864,7 +28864,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS011"
 	.byte	0xa
 	.uahalf	0xd1a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -28873,7 +28873,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS100"
 	.byte	0xa
 	.uahalf	0xd1b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -28882,7 +28882,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS101"
 	.byte	0xa
 	.uahalf	0xd1c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -28891,7 +28891,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS110"
 	.byte	0xa
 	.uahalf	0xd1d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -28900,7 +28900,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS111"
 	.byte	0xa
 	.uahalf	0xd1e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -28909,7 +28909,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS200"
 	.byte	0xa
 	.uahalf	0xd1f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -28918,7 +28918,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS201"
 	.byte	0xa
 	.uahalf	0xd20
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -28927,7 +28927,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS210"
 	.byte	0xa
 	.uahalf	0xd21
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -28936,7 +28936,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS211"
 	.byte	0xa
 	.uahalf	0xd22
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -28945,7 +28945,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS300"
 	.byte	0xa
 	.uahalf	0xd23
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -28954,7 +28954,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS301"
 	.byte	0xa
 	.uahalf	0xd24
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -28963,7 +28963,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS310"
 	.byte	0xa
 	.uahalf	0xd25
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -28972,7 +28972,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS311"
 	.byte	0xa
 	.uahalf	0xd26
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -28981,7 +28981,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xd27
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -28991,18 +28991,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCSINTCLR_Bits"
 	.byte	0xa
 	.uahalf	0xd28
-	.uaword	0x10ea1
+	.uaword	0x10e96
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCSINTSTAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xd2b
-	.uaword	0x11185
+	.uaword	0x1117a
 	.uleb128 0xe
 	.string	"MCS000"
 	.byte	0xa
 	.uahalf	0xd2d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -29011,7 +29011,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS001"
 	.byte	0xa
 	.uahalf	0xd2e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -29020,7 +29020,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS010"
 	.byte	0xa
 	.uahalf	0xd2f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -29029,7 +29029,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS011"
 	.byte	0xa
 	.uahalf	0xd30
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -29038,7 +29038,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS100"
 	.byte	0xa
 	.uahalf	0xd31
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -29047,7 +29047,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS101"
 	.byte	0xa
 	.uahalf	0xd32
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -29056,7 +29056,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS110"
 	.byte	0xa
 	.uahalf	0xd33
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -29065,7 +29065,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS111"
 	.byte	0xa
 	.uahalf	0xd34
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -29074,7 +29074,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS200"
 	.byte	0xa
 	.uahalf	0xd35
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -29083,7 +29083,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS201"
 	.byte	0xa
 	.uahalf	0xd36
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -29092,7 +29092,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS210"
 	.byte	0xa
 	.uahalf	0xd37
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -29101,7 +29101,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS211"
 	.byte	0xa
 	.uahalf	0xd38
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -29110,7 +29110,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS300"
 	.byte	0xa
 	.uahalf	0xd39
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -29119,7 +29119,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS301"
 	.byte	0xa
 	.uahalf	0xd3a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -29128,7 +29128,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS310"
 	.byte	0xa
 	.uahalf	0xd3b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -29137,7 +29137,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS311"
 	.byte	0xa
 	.uahalf	0xd3c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -29146,7 +29146,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xd3d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -29156,18 +29156,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MCSINTSTAT_Bits"
 	.byte	0xa
 	.uahalf	0xd3e
-	.uaword	0x11022
+	.uaword	0x11017
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MON_ACTIVITY_0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xd41
-	.uaword	0x1144c
+	.uaword	0x11441
 	.uleb128 0xe
 	.string	"MCA_0_0"
 	.byte	0xa
 	.uahalf	0xd43
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -29176,7 +29176,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_0_1"
 	.byte	0xa
 	.uahalf	0xd44
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -29185,7 +29185,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_0_2"
 	.byte	0xa
 	.uahalf	0xd45
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -29194,7 +29194,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_0_3"
 	.byte	0xa
 	.uahalf	0xd46
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -29203,7 +29203,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_0_4"
 	.byte	0xa
 	.uahalf	0xd47
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -29212,7 +29212,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_0_5"
 	.byte	0xa
 	.uahalf	0xd48
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -29221,7 +29221,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_0_6"
 	.byte	0xa
 	.uahalf	0xd49
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -29230,7 +29230,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_0_7"
 	.byte	0xa
 	.uahalf	0xd4a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -29239,7 +29239,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_1_0"
 	.byte	0xa
 	.uahalf	0xd4b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -29248,7 +29248,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_1_1"
 	.byte	0xa
 	.uahalf	0xd4c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -29257,7 +29257,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_1_2"
 	.byte	0xa
 	.uahalf	0xd4d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -29266,7 +29266,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_1_3"
 	.byte	0xa
 	.uahalf	0xd4e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -29275,7 +29275,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_1_4"
 	.byte	0xa
 	.uahalf	0xd4f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -29284,7 +29284,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_1_5"
 	.byte	0xa
 	.uahalf	0xd50
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -29293,7 +29293,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_1_6"
 	.byte	0xa
 	.uahalf	0xd51
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -29302,7 +29302,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_1_7"
 	.byte	0xa
 	.uahalf	0xd52
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -29311,7 +29311,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_2_0"
 	.byte	0xa
 	.uahalf	0xd53
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -29320,7 +29320,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_2_1"
 	.byte	0xa
 	.uahalf	0xd54
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xe
@@ -29329,7 +29329,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_2_2"
 	.byte	0xa
 	.uahalf	0xd55
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xd
@@ -29338,7 +29338,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_2_3"
 	.byte	0xa
 	.uahalf	0xd56
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -29347,7 +29347,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_2_4"
 	.byte	0xa
 	.uahalf	0xd57
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -29356,7 +29356,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_2_5"
 	.byte	0xa
 	.uahalf	0xd58
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -29365,7 +29365,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_2_6"
 	.byte	0xa
 	.uahalf	0xd59
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -29374,7 +29374,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_2_7"
 	.byte	0xa
 	.uahalf	0xd5a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -29383,7 +29383,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_3_0"
 	.byte	0xa
 	.uahalf	0xd5b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -29392,7 +29392,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_3_1"
 	.byte	0xa
 	.uahalf	0xd5c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -29401,7 +29401,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_3_2"
 	.byte	0xa
 	.uahalf	0xd5d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -29410,7 +29410,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_3_3"
 	.byte	0xa
 	.uahalf	0xd5e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -29419,7 +29419,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_3_4"
 	.byte	0xa
 	.uahalf	0xd5f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -29428,7 +29428,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_3_5"
 	.byte	0xa
 	.uahalf	0xd60
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -29437,7 +29437,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_3_6"
 	.byte	0xa
 	.uahalf	0xd61
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1
@@ -29446,7 +29446,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCA_3_7"
 	.byte	0xa
 	.uahalf	0xd62
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -29456,18 +29456,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MON_ACTIVITY_0_Bits"
 	.byte	0xa
 	.uahalf	0xd63
-	.uaword	0x111a5
+	.uaword	0x1119a
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MON_STATUS_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xd66
-	.uaword	0x11646
+	.uaword	0x1163b
 	.uleb128 0xe
 	.string	"ACT_CMU0"
 	.byte	0xa
 	.uahalf	0xd68
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -29476,7 +29476,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMU1"
 	.byte	0xa
 	.uahalf	0xd69
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -29485,7 +29485,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMU2"
 	.byte	0xa
 	.uahalf	0xd6a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -29494,7 +29494,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMU3"
 	.byte	0xa
 	.uahalf	0xd6b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -29503,7 +29503,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMU4"
 	.byte	0xa
 	.uahalf	0xd6c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -29512,7 +29512,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMU5"
 	.byte	0xa
 	.uahalf	0xd6d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -29521,7 +29521,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMU6"
 	.byte	0xa
 	.uahalf	0xd6e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -29530,7 +29530,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMU7"
 	.byte	0xa
 	.uahalf	0xd6f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -29539,7 +29539,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMUFX0"
 	.byte	0xa
 	.uahalf	0xd70
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -29548,7 +29548,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMUFX1"
 	.byte	0xa
 	.uahalf	0xd71
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -29557,7 +29557,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMUFX2"
 	.byte	0xa
 	.uahalf	0xd72
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -29566,7 +29566,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMUFX3"
 	.byte	0xa
 	.uahalf	0xd73
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -29575,7 +29575,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ACT_CMUFX4"
 	.byte	0xa
 	.uahalf	0xd74
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -29584,7 +29584,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0xd75
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -29593,7 +29593,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CMP_ERR"
 	.byte	0xa
 	.uahalf	0xd76
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -29602,7 +29602,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF122
 	.byte	0xa
 	.uahalf	0xd77
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0xc
@@ -29611,7 +29611,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS0_ERR"
 	.byte	0xa
 	.uahalf	0xd78
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -29620,7 +29620,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS1_ERR"
 	.byte	0xa
 	.uahalf	0xd79
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -29629,7 +29629,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS2_ERR"
 	.byte	0xa
 	.uahalf	0xd7a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -29638,7 +29638,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MCS3_ERR"
 	.byte	0xa
 	.uahalf	0xd7b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -29647,7 +29647,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xd7c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -29657,18 +29657,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MON_STATUS_Bits"
 	.byte	0xa
 	.uahalf	0xd7d
-	.uaword	0x11470
+	.uaword	0x11465
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MSCIN_INHCON_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xd80
-	.uaword	0x1178d
+	.uaword	0x11782
 	.uleb128 0xf
 	.uaword	.LASF10
 	.byte	0xa
 	.uahalf	0xd82
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -29677,7 +29677,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.uahalf	0xd83
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -29686,7 +29686,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.uahalf	0xd84
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -29695,7 +29695,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.uahalf	0xd85
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -29704,7 +29704,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0xa
 	.uahalf	0xd86
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -29713,7 +29713,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.uahalf	0xd87
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -29722,7 +29722,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF16
 	.byte	0xa
 	.uahalf	0xd88
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -29731,7 +29731,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF30
 	.byte	0xa
 	.uahalf	0xd89
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -29740,7 +29740,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SEL8"
 	.byte	0xa
 	.uahalf	0xd8a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -29749,7 +29749,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SEL9"
 	.byte	0xa
 	.uahalf	0xd8b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -29758,7 +29758,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF18
 	.byte	0xa
 	.uahalf	0xd8c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -29767,7 +29767,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF19
 	.byte	0xa
 	.uahalf	0xd8d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -29776,7 +29776,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF187
 	.byte	0xa
 	.uahalf	0xd8e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -29785,7 +29785,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF188
 	.byte	0xa
 	.uahalf	0xd8f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -29794,7 +29794,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF189
 	.byte	0xa
 	.uahalf	0xd90
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -29803,7 +29803,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF190
 	.byte	0xa
 	.uahalf	0xd91
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -29813,18 +29813,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MSCIN_INHCON_Bits"
 	.byte	0xa
 	.uahalf	0xd92
-	.uaword	0x11666
+	.uaword	0x1165b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MSCIN_INLCON_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xd95
-	.uaword	0x118d6
+	.uaword	0x118cb
 	.uleb128 0xf
 	.uaword	.LASF10
 	.byte	0xa
 	.uahalf	0xd97
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -29833,7 +29833,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.uahalf	0xd98
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -29842,7 +29842,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.uahalf	0xd99
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -29851,7 +29851,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.uahalf	0xd9a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -29860,7 +29860,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF14
 	.byte	0xa
 	.uahalf	0xd9b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -29869,7 +29869,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.uahalf	0xd9c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -29878,7 +29878,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF16
 	.byte	0xa
 	.uahalf	0xd9d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -29887,7 +29887,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF30
 	.byte	0xa
 	.uahalf	0xd9e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -29896,7 +29896,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SEL8"
 	.byte	0xa
 	.uahalf	0xd9f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -29905,7 +29905,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SEL9"
 	.byte	0xa
 	.uahalf	0xda0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -29914,7 +29914,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF18
 	.byte	0xa
 	.uahalf	0xda1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -29923,7 +29923,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF19
 	.byte	0xa
 	.uahalf	0xda2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -29932,7 +29932,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF187
 	.byte	0xa
 	.uahalf	0xda3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -29941,7 +29941,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF188
 	.byte	0xa
 	.uahalf	0xda4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -29950,7 +29950,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF189
 	.byte	0xa
 	.uahalf	0xda5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -29959,7 +29959,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF190
 	.byte	0xa
 	.uahalf	0xda6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -29969,18 +29969,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MSCIN_INLCON_Bits"
 	.byte	0xa
 	.uahalf	0xda7
-	.uaword	0x117af
+	.uaword	0x117a4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MSCSET_CON0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xdaa
-	.uaword	0x1199c
+	.uaword	0x11991
 	.uleb128 0xf
 	.uaword	.LASF10
 	.byte	0xa
 	.uahalf	0xdac
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -29989,7 +29989,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xdad
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -29998,7 +29998,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF11
 	.byte	0xa
 	.uahalf	0xdae
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -30007,7 +30007,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0xdaf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -30016,7 +30016,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF12
 	.byte	0xa
 	.uahalf	0xdb0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -30025,7 +30025,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.uahalf	0xdb1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -30034,7 +30034,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF13
 	.byte	0xa
 	.uahalf	0xdb2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -30043,7 +30043,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0xdb3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -30053,18 +30053,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MSCSET_CON0_Bits"
 	.byte	0xa
 	.uahalf	0xdb4
-	.uaword	0x118f8
+	.uaword	0x118ed
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MSCSET_CON1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xdb7
-	.uaword	0x11a61
+	.uaword	0x11a56
 	.uleb128 0xf
 	.uaword	.LASF14
 	.byte	0xa
 	.uahalf	0xdb9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -30073,7 +30073,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xdba
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -30082,7 +30082,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF15
 	.byte	0xa
 	.uahalf	0xdbb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -30091,7 +30091,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0xdbc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -30100,7 +30100,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF16
 	.byte	0xa
 	.uahalf	0xdbd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -30109,7 +30109,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.uahalf	0xdbe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -30118,7 +30118,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF30
 	.byte	0xa
 	.uahalf	0xdbf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -30127,7 +30127,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0xdc0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -30137,18 +30137,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MSCSET_CON1_Bits"
 	.byte	0xa
 	.uahalf	0xdc1
-	.uaword	0x119bd
+	.uaword	0x119b2
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MSCSET_CON2_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xdc4
-	.uaword	0x11b28
+	.uaword	0x11b1d
 	.uleb128 0xe
 	.string	"SEL8"
 	.byte	0xa
 	.uahalf	0xdc6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -30157,7 +30157,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xdc7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -30166,7 +30166,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SEL9"
 	.byte	0xa
 	.uahalf	0xdc8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -30175,7 +30175,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0xdc9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -30184,7 +30184,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF18
 	.byte	0xa
 	.uahalf	0xdca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -30193,7 +30193,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.uahalf	0xdcb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -30202,7 +30202,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF19
 	.byte	0xa
 	.uahalf	0xdcc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -30211,7 +30211,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0xdcd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -30221,18 +30221,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MSCSET_CON2_Bits"
 	.byte	0xa
 	.uahalf	0xdce
-	.uaword	0x11a82
+	.uaword	0x11a77
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MSCSET_CON3_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xdd1
-	.uaword	0x11bed
+	.uaword	0x11be2
 	.uleb128 0xf
 	.uaword	.LASF187
 	.byte	0xa
 	.uahalf	0xdd3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x1b
@@ -30241,7 +30241,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xdd4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -30250,7 +30250,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF188
 	.byte	0xa
 	.uahalf	0xdd5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x13
@@ -30259,7 +30259,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF136
 	.byte	0xa
 	.uahalf	0xdd6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -30268,7 +30268,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF189
 	.byte	0xa
 	.uahalf	0xdd7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xb
@@ -30277,7 +30277,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.uahalf	0xdd8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -30286,7 +30286,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF190
 	.byte	0xa
 	.uahalf	0xdd9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0x3
@@ -30295,7 +30295,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0xdda
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -30305,18 +30305,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_MSCSET_CON3_Bits"
 	.byte	0xa
 	.uahalf	0xddb
-	.uaword	0x11b49
+	.uaword	0x11b3e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_OCS_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xdde
-	.uaword	0x11c7f
+	.uaword	0x11c74
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0xde0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -30325,7 +30325,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SUS"
 	.byte	0xa
 	.uahalf	0xde1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -30334,7 +30334,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SUS_P"
 	.byte	0xa
 	.uahalf	0xde2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -30343,7 +30343,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SUSSTA"
 	.byte	0xa
 	.uahalf	0xde3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -30352,7 +30352,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF192
 	.byte	0xa
 	.uahalf	0xde4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -30362,18 +30362,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_OCS_Bits"
 	.byte	0xa
 	.uahalf	0xde5
-	.uaword	0x11c0e
+	.uaword	0x11c03
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ODA_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xde8
-	.uaword	0x11ce7
+	.uaword	0x11cdc
 	.uleb128 0xe
 	.string	"DDREN"
 	.byte	0xa
 	.uahalf	0xdea
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -30382,7 +30382,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DREN"
 	.byte	0xa
 	.uahalf	0xdeb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -30391,7 +30391,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xdec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -30401,18 +30401,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_ODA_Bits"
 	.byte	0xa
 	.uahalf	0xded
-	.uaword	0x11c98
+	.uaword	0x11c8d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_OTBU0T_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xdf0
-	.uaword	0x11d5d
+	.uaword	0x11d52
 	.uleb128 0xe
 	.string	"CV"
 	.byte	0xa
 	.uahalf	0xdf2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1b
 	.byte	0x5
@@ -30421,7 +30421,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF42
 	.byte	0xa
 	.uahalf	0xdf3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -30430,7 +30430,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CM"
 	.byte	0xa
 	.uahalf	0xdf4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -30439,7 +30439,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF192
 	.byte	0xa
 	.uahalf	0xdf5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -30449,18 +30449,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_OTBU0T_Bits"
 	.byte	0xa
 	.uahalf	0xdf6
-	.uaword	0x11d00
+	.uaword	0x11cf5
 	.uleb128 0x11
 	.string	"_Ifx_GTM_OTBU1T_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xdf9
-	.uaword	0x11dd6
+	.uaword	0x11dcb
 	.uleb128 0xe
 	.string	"CV"
 	.byte	0xa
 	.uahalf	0xdfb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -30469,7 +30469,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xdfc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -30478,7 +30478,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN"
 	.byte	0xa
 	.uahalf	0xdfd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -30487,7 +30487,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0xdfe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -30497,18 +30497,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_OTBU1T_Bits"
 	.byte	0xa
 	.uahalf	0xdff
-	.uaword	0x11d79
+	.uaword	0x11d6e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_OTBU2T_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe02
-	.uaword	0x11e4f
+	.uaword	0x11e44
 	.uleb128 0xe
 	.string	"CV"
 	.byte	0xa
 	.uahalf	0xe04
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -30517,7 +30517,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xe05
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -30526,7 +30526,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EN"
 	.byte	0xa
 	.uahalf	0xe06
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -30535,7 +30535,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF33
 	.byte	0xa
 	.uahalf	0xe07
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -30545,18 +30545,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_OTBU2T_Bits"
 	.byte	0xa
 	.uahalf	0xe08
-	.uaword	0x11df2
+	.uaword	0x11de7
 	.uleb128 0x11
 	.string	"_Ifx_GTM_OTSC0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe0b
-	.uaword	0x11f59
+	.uaword	0x11f4e
 	.uleb128 0xe
 	.string	"B0LMT"
 	.byte	0xa
 	.uahalf	0xe0d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -30565,7 +30565,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0xe0e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -30574,7 +30574,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"B0LMI"
 	.byte	0xa
 	.uahalf	0xe0f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -30583,7 +30583,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"B0HMT"
 	.byte	0xa
 	.uahalf	0xe10
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -30592,7 +30592,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF167
 	.byte	0xa
 	.uahalf	0xe11
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -30601,7 +30601,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"B0HMI"
 	.byte	0xa
 	.uahalf	0xe12
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -30610,7 +30610,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"B1LMT"
 	.byte	0xa
 	.uahalf	0xe13
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -30619,7 +30619,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF185
 	.byte	0xa
 	.uahalf	0xe14
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -30628,7 +30628,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"B1LMI"
 	.byte	0xa
 	.uahalf	0xe15
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -30637,7 +30637,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"B1HMT"
 	.byte	0xa
 	.uahalf	0xe16
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -30646,7 +30646,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF42
 	.byte	0xa
 	.uahalf	0xe17
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -30655,7 +30655,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"B1HMI"
 	.byte	0xa
 	.uahalf	0xe18
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -30665,18 +30665,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_OTSC0_Bits"
 	.byte	0xa
 	.uahalf	0xe19
-	.uaword	0x11e6b
+	.uaword	0x11e60
 	.uleb128 0x11
 	.string	"_Ifx_GTM_OTSC1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe1c
-	.uaword	0x11fe1
+	.uaword	0x11fd6
 	.uleb128 0xe
 	.string	"MCS"
 	.byte	0xa
 	.uahalf	0xe1e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -30685,7 +30685,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MI"
 	.byte	0xa
 	.uahalf	0xe1f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -30694,7 +30694,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xe20
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -30703,7 +30703,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MOE"
 	.byte	0xa
 	.uahalf	0xe21
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -30712,7 +30712,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0xe22
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x16
 	.byte	0
@@ -30722,18 +30722,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_OTSC1_Bits"
 	.byte	0xa
 	.uahalf	0xe23
-	.uaword	0x11f74
+	.uaword	0x11f69
 	.uleb128 0x11
 	.string	"_Ifx_GTM_OTSS_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe26
-	.uaword	0x1207f
+	.uaword	0x12074
 	.uleb128 0xe
 	.string	"OTGB0"
 	.byte	0xa
 	.uahalf	0xe28
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x1c
@@ -30742,7 +30742,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0xe29
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x18
@@ -30751,7 +30751,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OTGB1"
 	.byte	0xa
 	.uahalf	0xe2a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -30760,7 +30760,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF9
 	.byte	0xa
 	.uahalf	0xe2b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -30769,7 +30769,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OTGB2"
 	.byte	0xa
 	.uahalf	0xe2c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -30778,7 +30778,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0xe2d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xc
 	.byte	0
@@ -30788,18 +30788,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_OTSS_Bits"
 	.byte	0xa
 	.uahalf	0xe2e
-	.uaword	0x11ffc
+	.uaword	0x11ff1
 	.uleb128 0x11
 	.string	"_Ifx_GTM_REV_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe31
-	.uaword	0x1213b
+	.uaword	0x12130
 	.uleb128 0xe
 	.string	"STEP"
 	.byte	0xa
 	.uahalf	0xe33
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -30808,7 +30808,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"NO"
 	.byte	0xa
 	.uahalf	0xe34
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x14
@@ -30817,7 +30817,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MINOR"
 	.byte	0xa
 	.uahalf	0xe35
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x10
@@ -30826,7 +30826,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MAJOR"
 	.byte	0xa
 	.uahalf	0xe36
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0xc
@@ -30835,7 +30835,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DEV_CODE0"
 	.byte	0xa
 	.uahalf	0xe37
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x8
@@ -30844,7 +30844,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DEV_CODE1"
 	.byte	0xa
 	.uahalf	0xe38
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0x4
@@ -30853,7 +30853,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DEV_CODE2"
 	.byte	0xa
 	.uahalf	0xe39
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x4
 	.byte	0
@@ -30863,18 +30863,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_REV_Bits"
 	.byte	0xa
 	.uahalf	0xe3a
-	.uaword	0x12099
+	.uaword	0x1208e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_RST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe3d
-	.uaword	0x12190
+	.uaword	0x12185
 	.uleb128 0xe
 	.string	"RST"
 	.byte	0xa
 	.uahalf	0xe3f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -30883,7 +30883,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0xe40
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -30893,18 +30893,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_RST_Bits"
 	.byte	0xa
 	.uahalf	0xe41
-	.uaword	0x12154
+	.uaword	0x12149
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_CMP_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe44
-	.uaword	0x121e9
+	.uaword	0x121de
 	.uleb128 0xe
 	.string	"CMP"
 	.byte	0xa
 	.uahalf	0xe46
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -30913,7 +30913,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xe47
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -30923,18 +30923,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_CMP_Bits"
 	.byte	0xa
 	.uahalf	0xe48
-	.uaword	0x121a9
+	.uaword	0x1219e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_CNT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe4b
-	.uaword	0x12246
+	.uaword	0x1223b
 	.uleb128 0xe
 	.string	"CNT"
 	.byte	0xa
 	.uahalf	0xe4d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -30943,7 +30943,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xe4e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -30953,18 +30953,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_CNT_Bits"
 	.byte	0xa
 	.uahalf	0xe4f
-	.uaword	0x12206
+	.uaword	0x121fb
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_CTRL_STAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe52
-	.uaword	0x123a4
+	.uaword	0x12399
 	.uleb128 0xe
 	.string	"SPE_EN"
 	.byte	0xa
 	.uahalf	0xe54
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -30973,7 +30973,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SIE0"
 	.byte	0xa
 	.uahalf	0xe55
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -30982,7 +30982,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SIE1"
 	.byte	0xa
 	.uahalf	0xe56
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -30991,7 +30991,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SIE2"
 	.byte	0xa
 	.uahalf	0xe57
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -31000,7 +31000,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRIG_SEL"
 	.byte	0xa
 	.uahalf	0xe58
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -31009,7 +31009,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM_SEL"
 	.byte	0xa
 	.uahalf	0xe59
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -31018,7 +31018,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FSOM"
 	.byte	0xa
 	.uahalf	0xe5a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -31027,7 +31027,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_PAT_PTR"
 	.byte	0xa
 	.uahalf	0xe5b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x15
@@ -31036,7 +31036,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF167
 	.byte	0xa
 	.uahalf	0xe5c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -31045,7 +31045,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"AIP"
 	.byte	0xa
 	.uahalf	0xe5d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -31054,7 +31054,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ADIR"
 	.byte	0xa
 	.uahalf	0xe5e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -31063,7 +31063,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PIP"
 	.byte	0xa
 	.uahalf	0xe5f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0xd
@@ -31072,7 +31072,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"PDIR"
 	.byte	0xa
 	.uahalf	0xe60
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -31081,7 +31081,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"NIP"
 	.byte	0xa
 	.uahalf	0xe61
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x9
@@ -31090,7 +31090,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF132
 	.byte	0xa
 	.uahalf	0xe62
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -31099,7 +31099,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FSOL"
 	.byte	0xa
 	.uahalf	0xe63
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -31109,18 +31109,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_CTRL_STAT_Bits"
 	.byte	0xa
 	.uahalf	0xe64
-	.uaword	0x12263
+	.uaword	0x12258
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_EIRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe67
-	.uaword	0x1248b
+	.uaword	0x12480
 	.uleb128 0xe
 	.string	"SPE_NIPD_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xe69
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -31129,7 +31129,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_DCHG_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xe6a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -31138,7 +31138,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_PERR_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xe6b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -31147,7 +31147,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_BIS_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xe6c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -31156,7 +31156,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_RCMP_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xe6d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -31165,7 +31165,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xe6e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1b
 	.byte	0
@@ -31175,18 +31175,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_EIRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0xe6f
-	.uaword	0x123c7
+	.uaword	0x123bc
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe72
-	.uaword	0x1256a
+	.uaword	0x1255f
 	.uleb128 0xe
 	.string	"SPE_NIPD_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xe74
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -31195,7 +31195,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_DCHG_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xe75
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -31204,7 +31204,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_PERR_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xe76
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -31213,7 +31213,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_BIS_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xe77
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -31222,7 +31222,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_RCMP_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xe78
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -31231,7 +31231,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xe79
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1b
 	.byte	0
@@ -31241,18 +31241,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0xe7a
-	.uaword	0x124ac
+	.uaword	0x124a1
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe7d
-	.uaword	0x1263e
+	.uaword	0x12633
 	.uleb128 0xe
 	.string	"TRG_SPE_NIPD"
 	.byte	0xa
 	.uahalf	0xe7f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -31261,7 +31261,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_SPE_DCHG"
 	.byte	0xa
 	.uahalf	0xe80
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -31270,7 +31270,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_SPE_PERR"
 	.byte	0xa
 	.uahalf	0xe81
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -31279,7 +31279,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_SPE_BIS"
 	.byte	0xa
 	.uahalf	0xe82
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -31288,7 +31288,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_SPE_RCMP"
 	.byte	0xa
 	.uahalf	0xe83
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -31297,7 +31297,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xe84
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1b
 	.byte	0
@@ -31307,18 +31307,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0xe85
-	.uaword	0x1258a
+	.uaword	0x1257f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe88
-	.uaword	0x126a8
+	.uaword	0x1269d
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0xe8a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -31327,7 +31327,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xe8b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -31337,18 +31337,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0xe8c
-	.uaword	0x12663
+	.uaword	0x12658
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe8f
-	.uaword	0x12769
+	.uaword	0x1275e
 	.uleb128 0xe
 	.string	"SPE_NIPD"
 	.byte	0xa
 	.uahalf	0xe91
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -31357,7 +31357,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_DCHG"
 	.byte	0xa
 	.uahalf	0xe92
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -31366,7 +31366,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_PERR"
 	.byte	0xa
 	.uahalf	0xe93
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -31375,7 +31375,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_BIS"
 	.byte	0xa
 	.uahalf	0xe94
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -31384,7 +31384,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPE_RCMP"
 	.byte	0xa
 	.uahalf	0xe95
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -31393,7 +31393,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF129
 	.byte	0xa
 	.uahalf	0xe96
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1b
 	.byte	0
@@ -31403,18 +31403,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0xe97
-	.uaword	0x126ca
+	.uaword	0x126bf
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_OUT_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xe9a
-	.uaword	0x127db
+	.uaword	0x127d0
 	.uleb128 0xe
 	.string	"SPE_OUT_CTRL"
 	.byte	0xa
 	.uahalf	0xe9c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -31423,7 +31423,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xe9d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -31433,18 +31433,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_OUT_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xe9e
-	.uaword	0x1278d
+	.uaword	0x12782
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_OUT_PAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xea1
-	.uaword	0x12849
+	.uaword	0x1283e
 	.uleb128 0xe
 	.string	"SPE_OUT_PAT"
 	.byte	0xa
 	.uahalf	0xea3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -31453,7 +31453,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xea4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -31463,18 +31463,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_OUT_PAT_Bits"
 	.byte	0xa
 	.uahalf	0xea5
-	.uaword	0x127fd
+	.uaword	0x127f2
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE_PAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xea8
-	.uaword	0x129ca
+	.uaword	0x129bf
 	.uleb128 0xe
 	.string	"IP0_VAL"
 	.byte	0xa
 	.uahalf	0xeaa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -31483,7 +31483,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP0_PAT"
 	.byte	0xa
 	.uahalf	0xeab
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -31492,7 +31492,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP1_VAL"
 	.byte	0xa
 	.uahalf	0xeac
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -31501,7 +31501,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP1_PAT"
 	.byte	0xa
 	.uahalf	0xead
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x18
@@ -31510,7 +31510,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP2_VAL"
 	.byte	0xa
 	.uahalf	0xeae
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -31519,7 +31519,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP2_PAT"
 	.byte	0xa
 	.uahalf	0xeaf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x14
@@ -31528,7 +31528,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP3_VAL"
 	.byte	0xa
 	.uahalf	0xeb0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -31537,7 +31537,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP3_PAT"
 	.byte	0xa
 	.uahalf	0xeb1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x10
@@ -31546,7 +31546,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP4_VAL"
 	.byte	0xa
 	.uahalf	0xeb2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -31555,7 +31555,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP4_PAT"
 	.byte	0xa
 	.uahalf	0xeb3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0xc
@@ -31564,7 +31564,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP5_VAL"
 	.byte	0xa
 	.uahalf	0xeb4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -31573,7 +31573,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP5_PAT"
 	.byte	0xa
 	.uahalf	0xeb5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -31582,7 +31582,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP6_VAL"
 	.byte	0xa
 	.uahalf	0xeb6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -31591,7 +31591,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP6_PAT"
 	.byte	0xa
 	.uahalf	0xeb7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x4
@@ -31600,7 +31600,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP7_VAL"
 	.byte	0xa
 	.uahalf	0xeb8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -31609,7 +31609,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IP7_PAT"
 	.byte	0xa
 	.uahalf	0xeb9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0
@@ -31619,18 +31619,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_SPE_PAT_Bits"
 	.byte	0xa
 	.uahalf	0xeba
-	.uaword	0x1286a
+	.uaword	0x1285f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TBU_CH0_BASE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xebd
-	.uaword	0x12a2d
+	.uaword	0x12a22
 	.uleb128 0xe
 	.string	"BASE"
 	.byte	0xa
 	.uahalf	0xebf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1b
 	.byte	0x5
@@ -31639,7 +31639,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF42
 	.byte	0xa
 	.uahalf	0xec0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -31649,18 +31649,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TBU_CH0_BASE_Bits"
 	.byte	0xa
 	.uahalf	0xec1
-	.uaword	0x129e7
+	.uaword	0x129dc
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TBU_CH0_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xec4
-	.uaword	0x12aa8
+	.uaword	0x12a9d
 	.uleb128 0xe
 	.string	"LOW_RES"
 	.byte	0xa
 	.uahalf	0xec6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -31669,7 +31669,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF193
 	.byte	0xa
 	.uahalf	0xec7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -31678,7 +31678,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0xec8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -31688,18 +31688,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TBU_CH0_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xec9
-	.uaword	0x12a4f
+	.uaword	0x12a44
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TBU_CH1_BASE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xecc
-	.uaword	0x12b10
+	.uaword	0x12b05
 	.uleb128 0xe
 	.string	"BASE"
 	.byte	0xa
 	.uahalf	0xece
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -31708,7 +31708,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xecf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -31718,18 +31718,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TBU_CH1_BASE_Bits"
 	.byte	0xa
 	.uahalf	0xed0
-	.uaword	0x12aca
+	.uaword	0x12abf
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TBU_CH1_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xed3
-	.uaword	0x12b8b
+	.uaword	0x12b80
 	.uleb128 0xe
 	.string	"CH_MODE"
 	.byte	0xa
 	.uahalf	0xed5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -31738,7 +31738,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF193
 	.byte	0xa
 	.uahalf	0xed6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -31747,7 +31747,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0xed7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -31757,18 +31757,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TBU_CH1_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xed8
-	.uaword	0x12b32
+	.uaword	0x12b27
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TBU_CH2_BASE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xedb
-	.uaword	0x12bf3
+	.uaword	0x12be8
 	.uleb128 0xe
 	.string	"BASE"
 	.byte	0xa
 	.uahalf	0xedd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -31777,7 +31777,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xede
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -31787,18 +31787,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TBU_CH2_BASE_Bits"
 	.byte	0xa
 	.uahalf	0xedf
-	.uaword	0x12bad
+	.uaword	0x12ba2
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TBU_CH2_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xee2
-	.uaword	0x12c6e
+	.uaword	0x12c63
 	.uleb128 0xe
 	.string	"CH_MODE"
 	.byte	0xa
 	.uahalf	0xee4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -31807,7 +31807,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF193
 	.byte	0xa
 	.uahalf	0xee5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -31816,7 +31816,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0xee6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1c
 	.byte	0
@@ -31826,18 +31826,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TBU_CH2_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xee7
-	.uaword	0x12c15
+	.uaword	0x12c0a
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TBU_CHEN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xeea
-	.uaword	0x12d03
+	.uaword	0x12cf8
 	.uleb128 0xe
 	.string	"ENDIS_CH0"
 	.byte	0xa
 	.uahalf	0xeec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -31846,7 +31846,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ENDIS_CH1"
 	.byte	0xa
 	.uahalf	0xeed
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -31855,7 +31855,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ENDIS_CH2"
 	.byte	0xa
 	.uahalf	0xeee
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -31864,7 +31864,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF130
 	.byte	0xa
 	.uahalf	0xeef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -31874,18 +31874,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TBU_CHEN_Bits"
 	.byte	0xa
 	.uahalf	0xef0
-	.uaword	0x12c90
+	.uaword	0x12c85
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_AUX_IN_SRC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xef3
-	.uaword	0x12df8
+	.uaword	0x12ded
 	.uleb128 0xe
 	.string	"SRC_CH0"
 	.byte	0xa
 	.uahalf	0xef5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -31894,7 +31894,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SRC_CH1"
 	.byte	0xa
 	.uahalf	0xef6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -31903,7 +31903,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SRC_CH2"
 	.byte	0xa
 	.uahalf	0xef7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -31912,7 +31912,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SRC_CH3"
 	.byte	0xa
 	.uahalf	0xef8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -31921,7 +31921,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SRC_CH4"
 	.byte	0xa
 	.uahalf	0xef9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -31930,7 +31930,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SRC_CH5"
 	.byte	0xa
 	.uahalf	0xefa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -31939,7 +31939,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SRC_CH6"
 	.byte	0xa
 	.uahalf	0xefb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -31948,7 +31948,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SRC_CH7"
 	.byte	0xa
 	.uahalf	0xefc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -31957,7 +31957,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xefd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -31967,18 +31967,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_AUX_IN_SRC_Bits"
 	.byte	0xa
 	.uahalf	0xefe
-	.uaword	0x12d21
+	.uaword	0x12d16
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_CNT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf01
-	.uaword	0x12e5f
+	.uaword	0x12e54
 	.uleb128 0xe
 	.string	"CNT"
 	.byte	0xa
 	.uahalf	0xf03
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -31987,7 +31987,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xf04
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -31997,18 +31997,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_CNT_Bits"
 	.byte	0xa
 	.uahalf	0xf05
-	.uaword	0x12e1c
+	.uaword	0x12e11
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_CNTS_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf08
-	.uaword	0x12ec5
+	.uaword	0x12eba
 	.uleb128 0xe
 	.string	"CNTS"
 	.byte	0xa
 	.uahalf	0xf0a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -32017,7 +32017,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ECNT"
 	.byte	0xa
 	.uahalf	0xf0b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -32027,18 +32027,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_CNTS_Bits"
 	.byte	0xa
 	.uahalf	0xf0c
-	.uaword	0x12e7f
+	.uaword	0x12e74
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf0f
-	.uaword	0x130fb
+	.uaword	0x130f0
 	.uleb128 0xe
 	.string	"TIM_EN"
 	.byte	0xa
 	.uahalf	0xf11
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -32047,7 +32047,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TIM_MODE"
 	.byte	0xa
 	.uahalf	0xf12
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1c
@@ -32056,7 +32056,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OSM"
 	.byte	0xa
 	.uahalf	0xf13
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -32065,7 +32065,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF119
 	.byte	0xa
 	.uahalf	0xf14
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -32074,7 +32074,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CICTRL"
 	.byte	0xa
 	.uahalf	0xf15
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -32083,7 +32083,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TBU0_SEL"
 	.byte	0xa
 	.uahalf	0xf16
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -32092,7 +32092,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GPR0_SEL"
 	.byte	0xa
 	.uahalf	0xf17
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -32101,7 +32101,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GPR1_SEL"
 	.byte	0xa
 	.uahalf	0xf18
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -32110,7 +32110,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CNTS_SEL"
 	.byte	0xa
 	.uahalf	0xf19
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -32119,7 +32119,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"DSL"
 	.byte	0xa
 	.uahalf	0xf1a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -32128,7 +32128,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ISL"
 	.byte	0xa
 	.uahalf	0xf1b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -32137,7 +32137,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ECNT_RESET"
 	.byte	0xa
 	.uahalf	0xf1c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -32146,7 +32146,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FLT_EN"
 	.byte	0xa
 	.uahalf	0xf1d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xf
@@ -32155,7 +32155,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FLT_CNT_FRQ"
 	.byte	0xa
 	.uahalf	0xf1e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xd
@@ -32164,7 +32164,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EXT_CAP_EN"
 	.byte	0xa
 	.uahalf	0xf1f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xc
@@ -32173,7 +32173,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FLT_MODE_RE"
 	.byte	0xa
 	.uahalf	0xf20
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -32182,7 +32182,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FLT_CTR_RE"
 	.byte	0xa
 	.uahalf	0xf21
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xa
@@ -32191,7 +32191,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FLT_MODE_FE"
 	.byte	0xa
 	.uahalf	0xf22
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x9
@@ -32200,7 +32200,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FLT_CTR_FE"
 	.byte	0xa
 	.uahalf	0xf23
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x8
@@ -32209,7 +32209,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CLK_SEL"
 	.byte	0xa
 	.uahalf	0xf24
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x5
@@ -32218,7 +32218,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"FR_ECNT_OFL"
 	.byte	0xa
 	.uahalf	0xf25
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -32227,7 +32227,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EGPR0_SEL"
 	.byte	0xa
 	.uahalf	0xf26
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -32236,7 +32236,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"EGPR1_SEL"
 	.byte	0xa
 	.uahalf	0xf27
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -32245,7 +32245,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TOCTRL"
 	.byte	0xa
 	.uahalf	0xf28
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -32255,18 +32255,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xf29
-	.uaword	0x12ee6
+	.uaword	0x12edb
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_ECNT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf2c
-	.uaword	0x13161
+	.uaword	0x13156
 	.uleb128 0xe
 	.string	"ECNT"
 	.byte	0xa
 	.uahalf	0xf2e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -32275,7 +32275,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xf2f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -32285,18 +32285,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_ECNT_Bits"
 	.byte	0xa
 	.uahalf	0xf30
-	.uaword	0x1311c
+	.uaword	0x13111
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_ECTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf33
-	.uaword	0x131cf
+	.uaword	0x131c4
 	.uleb128 0xe
 	.string	"EXT_CAP_SRC"
 	.byte	0xa
 	.uahalf	0xf35
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1d
@@ -32305,7 +32305,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF37
 	.byte	0xa
 	.uahalf	0xf36
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1d
 	.byte	0
@@ -32315,18 +32315,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_ECTRL_Bits"
 	.byte	0xa
 	.uahalf	0xf37
-	.uaword	0x13182
+	.uaword	0x13177
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_EIRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf3a
-	.uaword	0x132cd
+	.uaword	0x132c2
 	.uleb128 0xe
 	.string	"NEWVAL_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xf3c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -32335,7 +32335,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ECNTOFL_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xf3d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -32344,7 +32344,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CNTOFL_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xf3e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -32353,7 +32353,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GPROFL_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xf3f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -32362,7 +32362,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TODET_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xf40
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -32371,7 +32371,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GLITCHDET_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0xf41
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -32380,7 +32380,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF130
 	.byte	0xa
 	.uahalf	0xf42
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -32390,18 +32390,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_EIRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0xf43
-	.uaword	0x131f1
+	.uaword	0x131e6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_FLT_FE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf46
-	.uaword	0x1333a
+	.uaword	0x1332f
 	.uleb128 0xe
 	.string	"FLT_FE"
 	.byte	0xa
 	.uahalf	0xf48
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -32410,7 +32410,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xf49
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -32420,18 +32420,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_FLT_FE_Bits"
 	.byte	0xa
 	.uahalf	0xf4a
-	.uaword	0x132f1
+	.uaword	0x132e6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_FLT_RE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf4d
-	.uaword	0x133a6
+	.uaword	0x1339b
 	.uleb128 0xe
 	.string	"FLT_RE"
 	.byte	0xa
 	.uahalf	0xf4f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -32440,7 +32440,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0xf50
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -32450,18 +32450,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_FLT_RE_Bits"
 	.byte	0xa
 	.uahalf	0xf51
-	.uaword	0x1335d
+	.uaword	0x13352
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_GPR0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf54
-	.uaword	0x1340f
+	.uaword	0x13404
 	.uleb128 0xe
 	.string	"GPR0"
 	.byte	0xa
 	.uahalf	0xf56
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -32470,7 +32470,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ECNT"
 	.byte	0xa
 	.uahalf	0xf57
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -32480,18 +32480,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_GPR0_Bits"
 	.byte	0xa
 	.uahalf	0xf58
-	.uaword	0x133c9
+	.uaword	0x133be
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_GPR1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf5b
-	.uaword	0x13476
+	.uaword	0x1346b
 	.uleb128 0xe
 	.string	"GPR1"
 	.byte	0xa
 	.uahalf	0xf5d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -32500,7 +32500,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ECNT"
 	.byte	0xa
 	.uahalf	0xf5e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0
@@ -32510,18 +32510,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_GPR1_Bits"
 	.byte	0xa
 	.uahalf	0xf5f
-	.uaword	0x13430
+	.uaword	0x13425
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf62
-	.uaword	0x1356c
+	.uaword	0x13561
 	.uleb128 0xe
 	.string	"NEWVAL_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xf64
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -32530,7 +32530,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ECNTOFL_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xf65
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -32539,7 +32539,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CNTOFL_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xf66
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -32548,7 +32548,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GPROFL_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xf67
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -32557,7 +32557,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TODET_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xf68
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -32566,7 +32566,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GLITCHDET_IRQ_EN"
 	.byte	0xa
 	.uahalf	0xf69
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -32575,7 +32575,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF130
 	.byte	0xa
 	.uahalf	0xf6a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -32585,18 +32585,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0xf6b
-	.uaword	0x13497
+	.uaword	0x1348c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf6e
-	.uaword	0x13657
+	.uaword	0x1364c
 	.uleb128 0xe
 	.string	"TRG_NEWVAL"
 	.byte	0xa
 	.uahalf	0xf70
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -32605,7 +32605,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_ECNTOFL"
 	.byte	0xa
 	.uahalf	0xf71
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -32614,7 +32614,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_CNTOFL"
 	.byte	0xa
 	.uahalf	0xf72
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -32623,7 +32623,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_GPROFL"
 	.byte	0xa
 	.uahalf	0xf73
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -32632,7 +32632,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_TODET"
 	.byte	0xa
 	.uahalf	0xf74
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -32641,7 +32641,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_GLITCHDET"
 	.byte	0xa
 	.uahalf	0xf75
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -32650,7 +32650,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF130
 	.byte	0xa
 	.uahalf	0xf76
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -32660,18 +32660,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0xf77
-	.uaword	0x1358f
+	.uaword	0x13584
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf7a
-	.uaword	0x136c7
+	.uaword	0x136bc
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0xf7c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -32680,7 +32680,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xf7d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -32690,18 +32690,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0xf7e
-	.uaword	0x1367f
+	.uaword	0x13674
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf81
-	.uaword	0x1379b
+	.uaword	0x13790
 	.uleb128 0xe
 	.string	"NEWVAL"
 	.byte	0xa
 	.uahalf	0xf83
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -32710,7 +32710,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"ECNTOFL"
 	.byte	0xa
 	.uahalf	0xf84
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -32719,7 +32719,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CNTOFL"
 	.byte	0xa
 	.uahalf	0xf85
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -32728,7 +32728,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GPROFL"
 	.byte	0xa
 	.uahalf	0xf86
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -32737,7 +32737,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TODET"
 	.byte	0xa
 	.uahalf	0xf87
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -32746,7 +32746,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GLITCHDET"
 	.byte	0xa
 	.uahalf	0xf88
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -32755,7 +32755,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF130
 	.byte	0xa
 	.uahalf	0xf89
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1a
 	.byte	0
@@ -32765,18 +32765,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0xf8a
-	.uaword	0x136ec
+	.uaword	0x136e1
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_TDUC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf8d
-	.uaword	0x13809
+	.uaword	0x137fe
 	.uleb128 0xe
 	.string	"TO_CNT"
 	.byte	0xa
 	.uahalf	0xf8f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -32785,7 +32785,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xf90
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -32795,18 +32795,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_TDUC_Bits"
 	.byte	0xa
 	.uahalf	0xf91
-	.uaword	0x137c2
+	.uaword	0x137b7
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH_TDUV_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf94
-	.uaword	0x1388e
+	.uaword	0x13883
 	.uleb128 0xe
 	.string	"TOV"
 	.byte	0xa
 	.uahalf	0xf96
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x8
 	.byte	0x18
@@ -32815,7 +32815,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xf97
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x14
 	.byte	0x4
@@ -32824,7 +32824,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TCS"
 	.byte	0xa
 	.uahalf	0xf98
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x1
@@ -32833,7 +32833,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF191
 	.byte	0xa
 	.uahalf	0xf99
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0
@@ -32843,18 +32843,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_CH_TDUV_Bits"
 	.byte	0xa
 	.uahalf	0xf9a
-	.uaword	0x1382a
+	.uaword	0x1381f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_IN_SRC_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xf9d
-	.uaword	0x139fa
+	.uaword	0x139ef
 	.uleb128 0xe
 	.string	"VAL_0"
 	.byte	0xa
 	.uahalf	0xf9f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -32863,7 +32863,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODE_0"
 	.byte	0xa
 	.uahalf	0xfa0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -32872,7 +32872,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"VAL_1"
 	.byte	0xa
 	.uahalf	0xfa1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -32881,7 +32881,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODE_1"
 	.byte	0xa
 	.uahalf	0xfa2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -32890,7 +32890,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"VAL_2"
 	.byte	0xa
 	.uahalf	0xfa3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -32899,7 +32899,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODE_2"
 	.byte	0xa
 	.uahalf	0xfa4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -32908,7 +32908,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"VAL_3"
 	.byte	0xa
 	.uahalf	0xfa5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -32917,7 +32917,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODE_3"
 	.byte	0xa
 	.uahalf	0xfa6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -32926,7 +32926,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"VAL_4"
 	.byte	0xa
 	.uahalf	0xfa7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -32935,7 +32935,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODE_4"
 	.byte	0xa
 	.uahalf	0xfa8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -32944,7 +32944,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"VAL_5"
 	.byte	0xa
 	.uahalf	0xfa9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -32953,7 +32953,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODE_5"
 	.byte	0xa
 	.uahalf	0xfaa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -32962,7 +32962,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"VAL_6"
 	.byte	0xa
 	.uahalf	0xfab
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -32971,7 +32971,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODE_6"
 	.byte	0xa
 	.uahalf	0xfac
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -32980,7 +32980,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"VAL_7"
 	.byte	0xa
 	.uahalf	0xfad
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -32989,7 +32989,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"MODE_7"
 	.byte	0xa
 	.uahalf	0xfae
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -32999,18 +32999,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_IN_SRC_Bits"
 	.byte	0xa
 	.uahalf	0xfaf
-	.uaword	0x138af
+	.uaword	0x138a4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_RST_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xfb2
-	.uaword	0x13aca
+	.uaword	0x13abf
 	.uleb128 0xf
 	.uaword	.LASF77
 	.byte	0xa
 	.uahalf	0xfb4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -33019,7 +33019,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF78
 	.byte	0xa
 	.uahalf	0xfb5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -33028,7 +33028,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF79
 	.byte	0xa
 	.uahalf	0xfb6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1d
@@ -33037,7 +33037,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF80
 	.byte	0xa
 	.uahalf	0xfb7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1c
@@ -33046,7 +33046,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF81
 	.byte	0xa
 	.uahalf	0xfb8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1b
@@ -33055,7 +33055,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF82
 	.byte	0xa
 	.uahalf	0xfb9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1a
@@ -33064,7 +33064,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF83
 	.byte	0xa
 	.uahalf	0xfba
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x19
@@ -33073,7 +33073,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF84
 	.byte	0xa
 	.uahalf	0xfbb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x18
@@ -33082,7 +33082,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF2
 	.byte	0xa
 	.uahalf	0xfbc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0
@@ -33092,18 +33092,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TIM_RST_Bits"
 	.byte	0xa
 	.uahalf	0xfbd
-	.uaword	0x13a1a
+	.uaword	0x13a0f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_CM0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xfc0
-	.uaword	0x13b2a
+	.uaword	0x13b1f
 	.uleb128 0xe
 	.string	"CM0"
 	.byte	0xa
 	.uahalf	0xfc2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -33112,7 +33112,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xfc3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -33122,18 +33122,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_CM0_Bits"
 	.byte	0xa
 	.uahalf	0xfc4
-	.uaword	0x13ae7
+	.uaword	0x13adc
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_CM1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xfc7
-	.uaword	0x13b8d
+	.uaword	0x13b82
 	.uleb128 0xe
 	.string	"CM1"
 	.byte	0xa
 	.uahalf	0xfc9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -33142,7 +33142,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xfca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -33152,18 +33152,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_CM1_Bits"
 	.byte	0xa
 	.uahalf	0xfcb
-	.uaword	0x13b4a
+	.uaword	0x13b3f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_CN0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xfce
-	.uaword	0x13bf0
+	.uaword	0x13be5
 	.uleb128 0xe
 	.string	"CN0"
 	.byte	0xa
 	.uahalf	0xfd0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -33172,7 +33172,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0xfd1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -33182,18 +33182,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_CN0_Bits"
 	.byte	0xa
 	.uahalf	0xfd2
-	.uaword	0x13bad
+	.uaword	0x13ba2
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xfd5
-	.uaword	0x13d07
+	.uaword	0x13cfc
 	.uleb128 0xf
 	.uaword	.LASF0
 	.byte	0xa
 	.uahalf	0xfd7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0xb
 	.byte	0x15
@@ -33202,7 +33202,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SL"
 	.byte	0xa
 	.uahalf	0xfd8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -33211,7 +33211,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF131
 	.byte	0xa
 	.uahalf	0xfd9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x11
@@ -33220,7 +33220,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF121
 	.byte	0xa
 	.uahalf	0xfda
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0xc
@@ -33229,7 +33229,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF123
 	.byte	0xa
 	.uahalf	0xfdb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0xb
@@ -33238,7 +33238,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF31
 	.byte	0xa
 	.uahalf	0xfdc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x3
 	.byte	0x8
@@ -33247,7 +33247,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF124
 	.byte	0xa
 	.uahalf	0xfdd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -33256,7 +33256,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF127
 	.byte	0xa
 	.uahalf	0xfde
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x6
@@ -33265,7 +33265,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"OSM"
 	.byte	0xa
 	.uahalf	0xfdf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x5
@@ -33274,7 +33274,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"BITREV"
 	.byte	0xa
 	.uahalf	0xfe0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x4
@@ -33283,7 +33283,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"SPEM"
 	.byte	0xa
 	.uahalf	0xfe1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x3
@@ -33292,7 +33292,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"GCM"
 	.byte	0xa
 	.uahalf	0xfe2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x2
@@ -33301,7 +33301,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF192
 	.byte	0xa
 	.uahalf	0xfe3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -33311,18 +33311,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0xfe4
-	.uaword	0x13c10
+	.uaword	0x13c05
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_IRQ_EN_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xfe7
-	.uaword	0x13d7e
+	.uaword	0x13d73
 	.uleb128 0xf
 	.uaword	.LASF125
 	.byte	0xa
 	.uahalf	0xfe9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -33331,7 +33331,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF126
 	.byte	0xa
 	.uahalf	0xfea
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -33340,7 +33340,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xfeb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -33350,18 +33350,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_IRQ_EN_Bits"
 	.byte	0xa
 	.uahalf	0xfec
-	.uaword	0x13d28
+	.uaword	0x13d1d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_IRQ_FORCINT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xfef
-	.uaword	0x13e0c
+	.uaword	0x13e01
 	.uleb128 0xe
 	.string	"TRG_CCU0TC0"
 	.byte	0xa
 	.uahalf	0xff1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -33370,7 +33370,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRG_CCU1TC0"
 	.byte	0xa
 	.uahalf	0xff2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -33379,7 +33379,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xff3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -33389,18 +33389,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_IRQ_FORCINT_Bits"
 	.byte	0xa
 	.uahalf	0xff4
-	.uaword	0x13da1
+	.uaword	0x13d96
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_IRQ_MODE_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xff7
-	.uaword	0x13e7c
+	.uaword	0x13e71
 	.uleb128 0xf
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0xff9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -33409,7 +33409,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0xffa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -33419,18 +33419,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_IRQ_MODE_Bits"
 	.byte	0xa
 	.uahalf	0xffb
-	.uaword	0x13e34
+	.uaword	0x13e29
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_IRQ_NOTIFY_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0xffe
-	.uaword	0x13f01
+	.uaword	0x13ef6
 	.uleb128 0xe
 	.string	"CCU0TC"
 	.byte	0xa
 	.uahalf	0x1000
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -33439,7 +33439,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"CCU1TC"
 	.byte	0xa
 	.uahalf	0x1001
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1e
@@ -33448,7 +33448,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF4
 	.byte	0xa
 	.uahalf	0x1002
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1e
 	.byte	0
@@ -33458,18 +33458,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_IRQ_NOTIFY_Bits"
 	.byte	0xa
 	.uahalf	0x1003
-	.uaword	0x13ea1
+	.uaword	0x13e96
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_SR0_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1006
-	.uaword	0x13f6b
+	.uaword	0x13f60
 	.uleb128 0xe
 	.string	"SR0"
 	.byte	0xa
 	.uahalf	0x1008
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -33478,7 +33478,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x1009
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -33488,18 +33488,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_SR0_Bits"
 	.byte	0xa
 	.uahalf	0x100a
-	.uaword	0x13f28
+	.uaword	0x13f1d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_SR1_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x100d
-	.uaword	0x13fce
+	.uaword	0x13fc3
 	.uleb128 0xe
 	.string	"SR1"
 	.byte	0xa
 	.uahalf	0x100f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0x10
@@ -33508,7 +33508,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x1010
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -33518,18 +33518,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_SR1_Bits"
 	.byte	0xa
 	.uahalf	0x1011
-	.uaword	0x13f8b
+	.uaword	0x13f80
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH_STAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1014
-	.uaword	0x14031
+	.uaword	0x14026
 	.uleb128 0xe
 	.string	"OL"
 	.byte	0xa
 	.uahalf	0x1016
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -33538,7 +33538,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0x1017
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1f
 	.byte	0
@@ -33548,18 +33548,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_CH_STAT_Bits"
 	.byte	0xa
 	.uahalf	0x1018
-	.uaword	0x13fee
+	.uaword	0x13fe3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC0_ACT_TB_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x101b
-	.uaword	0x140ba
+	.uaword	0x140af
 	.uleb128 0xf
 	.uaword	.LASF39
 	.byte	0xa
 	.uahalf	0x101d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -33568,7 +33568,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF40
 	.byte	0xa
 	.uahalf	0x101e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -33577,7 +33577,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF41
 	.byte	0xa
 	.uahalf	0x101f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x5
@@ -33586,7 +33586,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF42
 	.byte	0xa
 	.uahalf	0x1020
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -33596,18 +33596,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC0_ACT_TB_Bits"
 	.byte	0xa
 	.uahalf	0x1021
-	.uaword	0x14052
+	.uaword	0x14047
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC0_ENDIS_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1024
-	.uaword	0x1419b
+	.uaword	0x14190
 	.uleb128 0xf
 	.uaword	.LASF43
 	.byte	0xa
 	.uahalf	0x1026
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -33616,7 +33616,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF44
 	.byte	0xa
 	.uahalf	0x1027
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -33625,7 +33625,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF45
 	.byte	0xa
 	.uahalf	0x1028
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -33634,7 +33634,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF46
 	.byte	0xa
 	.uahalf	0x1029
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -33643,7 +33643,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF47
 	.byte	0xa
 	.uahalf	0x102a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -33652,7 +33652,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF48
 	.byte	0xa
 	.uahalf	0x102b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -33661,7 +33661,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF49
 	.byte	0xa
 	.uahalf	0x102c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -33670,7 +33670,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF50
 	.byte	0xa
 	.uahalf	0x102d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -33679,7 +33679,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x102e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -33689,18 +33689,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC0_ENDIS_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x102f
-	.uaword	0x140df
+	.uaword	0x140d4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC0_ENDIS_STAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1032
-	.uaword	0x14280
+	.uaword	0x14275
 	.uleb128 0xf
 	.uaword	.LASF51
 	.byte	0xa
 	.uahalf	0x1034
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -33709,7 +33709,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF52
 	.byte	0xa
 	.uahalf	0x1035
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -33718,7 +33718,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF53
 	.byte	0xa
 	.uahalf	0x1036
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -33727,7 +33727,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF54
 	.byte	0xa
 	.uahalf	0x1037
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -33736,7 +33736,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF55
 	.byte	0xa
 	.uahalf	0x1038
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -33745,7 +33745,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF56
 	.byte	0xa
 	.uahalf	0x1039
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -33754,7 +33754,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF57
 	.byte	0xa
 	.uahalf	0x103a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -33763,7 +33763,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF58
 	.byte	0xa
 	.uahalf	0x103b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -33772,7 +33772,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x103c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -33782,18 +33782,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC0_ENDIS_STAT_Bits"
 	.byte	0xa
 	.uahalf	0x103d
-	.uaword	0x141c4
+	.uaword	0x141b9
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC0_FUPD_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1040
-	.uaword	0x143d4
+	.uaword	0x143c9
 	.uleb128 0xf
 	.uaword	.LASF59
 	.byte	0xa
 	.uahalf	0x1042
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -33802,7 +33802,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF60
 	.byte	0xa
 	.uahalf	0x1043
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -33811,7 +33811,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF61
 	.byte	0xa
 	.uahalf	0x1044
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -33820,7 +33820,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF62
 	.byte	0xa
 	.uahalf	0x1045
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -33829,7 +33829,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF63
 	.byte	0xa
 	.uahalf	0x1046
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -33838,7 +33838,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF64
 	.byte	0xa
 	.uahalf	0x1047
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -33847,7 +33847,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF65
 	.byte	0xa
 	.uahalf	0x1048
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -33856,7 +33856,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF66
 	.byte	0xa
 	.uahalf	0x1049
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -33865,7 +33865,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF67
 	.byte	0xa
 	.uahalf	0x104a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -33874,7 +33874,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF68
 	.byte	0xa
 	.uahalf	0x104b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -33883,7 +33883,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF69
 	.byte	0xa
 	.uahalf	0x104c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -33892,7 +33892,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF70
 	.byte	0xa
 	.uahalf	0x104d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -33901,7 +33901,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF71
 	.byte	0xa
 	.uahalf	0x104e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -33910,7 +33910,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF72
 	.byte	0xa
 	.uahalf	0x104f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -33919,7 +33919,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF73
 	.byte	0xa
 	.uahalf	0x1050
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -33928,7 +33928,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF74
 	.byte	0xa
 	.uahalf	0x1051
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -33938,18 +33938,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC0_FUPD_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x1052
-	.uaword	0x142a9
+	.uaword	0x1429e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC0_GLB_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1055
-	.uaword	0x14546
+	.uaword	0x1453b
 	.uleb128 0xf
 	.uaword	.LASF75
 	.byte	0xa
 	.uahalf	0x1057
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -33958,7 +33958,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0x1058
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0x18
@@ -33967,7 +33967,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF77
 	.byte	0xa
 	.uahalf	0x1059
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -33976,7 +33976,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF78
 	.byte	0xa
 	.uahalf	0x105a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -33985,7 +33985,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF79
 	.byte	0xa
 	.uahalf	0x105b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -33994,7 +33994,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF80
 	.byte	0xa
 	.uahalf	0x105c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -34003,7 +34003,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF81
 	.byte	0xa
 	.uahalf	0x105d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -34012,7 +34012,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF82
 	.byte	0xa
 	.uahalf	0x105e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -34021,7 +34021,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF83
 	.byte	0xa
 	.uahalf	0x105f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -34030,7 +34030,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF84
 	.byte	0xa
 	.uahalf	0x1060
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -34039,7 +34039,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF85
 	.byte	0xa
 	.uahalf	0x1061
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -34048,7 +34048,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF86
 	.byte	0xa
 	.uahalf	0x1062
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -34057,7 +34057,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF87
 	.byte	0xa
 	.uahalf	0x1063
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -34066,7 +34066,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF88
 	.byte	0xa
 	.uahalf	0x1064
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -34075,7 +34075,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF89
 	.byte	0xa
 	.uahalf	0x1065
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -34084,7 +34084,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF90
 	.byte	0xa
 	.uahalf	0x1066
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -34093,7 +34093,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF91
 	.byte	0xa
 	.uahalf	0x1067
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -34102,7 +34102,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF92
 	.byte	0xa
 	.uahalf	0x1068
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -34112,18 +34112,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC0_GLB_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x1069
-	.uaword	0x143fc
+	.uaword	0x143f1
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC0_INT_TRIG_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x106c
-	.uaword	0x14627
+	.uaword	0x1461c
 	.uleb128 0xf
 	.uaword	.LASF93
 	.byte	0xa
 	.uahalf	0x106e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -34132,7 +34132,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF94
 	.byte	0xa
 	.uahalf	0x106f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -34141,7 +34141,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF95
 	.byte	0xa
 	.uahalf	0x1070
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -34150,7 +34150,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF96
 	.byte	0xa
 	.uahalf	0x1071
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -34159,7 +34159,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF97
 	.byte	0xa
 	.uahalf	0x1072
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -34168,7 +34168,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF98
 	.byte	0xa
 	.uahalf	0x1073
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -34177,7 +34177,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF99
 	.byte	0xa
 	.uahalf	0x1074
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -34186,7 +34186,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF100
 	.byte	0xa
 	.uahalf	0x1075
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -34195,7 +34195,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x1076
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -34205,18 +34205,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC0_INT_TRIG_Bits"
 	.byte	0xa
 	.uahalf	0x1077
-	.uaword	0x1456d
+	.uaword	0x14562
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC0_OUTEN_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x107a
-	.uaword	0x1470a
+	.uaword	0x146ff
 	.uleb128 0xf
 	.uaword	.LASF101
 	.byte	0xa
 	.uahalf	0x107c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -34225,7 +34225,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF102
 	.byte	0xa
 	.uahalf	0x107d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -34234,7 +34234,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF103
 	.byte	0xa
 	.uahalf	0x107e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -34243,7 +34243,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF104
 	.byte	0xa
 	.uahalf	0x107f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -34252,7 +34252,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF105
 	.byte	0xa
 	.uahalf	0x1080
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -34261,7 +34261,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF106
 	.byte	0xa
 	.uahalf	0x1081
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -34270,7 +34270,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF107
 	.byte	0xa
 	.uahalf	0x1082
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -34279,7 +34279,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF108
 	.byte	0xa
 	.uahalf	0x1083
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -34288,7 +34288,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x1084
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -34298,18 +34298,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC0_OUTEN_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x1085
-	.uaword	0x1464e
+	.uaword	0x14643
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC0_OUTEN_STAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1088
-	.uaword	0x147ef
+	.uaword	0x147e4
 	.uleb128 0xf
 	.uaword	.LASF109
 	.byte	0xa
 	.uahalf	0x108a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -34318,7 +34318,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF110
 	.byte	0xa
 	.uahalf	0x108b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -34327,7 +34327,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF111
 	.byte	0xa
 	.uahalf	0x108c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -34336,7 +34336,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF112
 	.byte	0xa
 	.uahalf	0x108d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -34345,7 +34345,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF113
 	.byte	0xa
 	.uahalf	0x108e
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -34354,7 +34354,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF114
 	.byte	0xa
 	.uahalf	0x108f
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -34363,7 +34363,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF115
 	.byte	0xa
 	.uahalf	0x1090
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -34372,7 +34372,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF116
 	.byte	0xa
 	.uahalf	0x1091
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -34381,7 +34381,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x1092
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -34391,18 +34391,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC0_OUTEN_STAT_Bits"
 	.byte	0xa
 	.uahalf	0x1093
-	.uaword	0x14733
+	.uaword	0x14728
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC1_ACT_TB_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1096
-	.uaword	0x14880
+	.uaword	0x14875
 	.uleb128 0xf
 	.uaword	.LASF39
 	.byte	0xa
 	.uahalf	0x1098
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x18
 	.byte	0x8
@@ -34411,7 +34411,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF40
 	.byte	0xa
 	.uahalf	0x1099
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x7
@@ -34420,7 +34420,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF41
 	.byte	0xa
 	.uahalf	0x109a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x5
@@ -34429,7 +34429,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF42
 	.byte	0xa
 	.uahalf	0x109b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x5
 	.byte	0
@@ -34439,18 +34439,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC1_ACT_TB_Bits"
 	.byte	0xa
 	.uahalf	0x109c
-	.uaword	0x14818
+	.uaword	0x1480d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC1_ENDIS_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x109f
-	.uaword	0x14961
+	.uaword	0x14956
 	.uleb128 0xf
 	.uaword	.LASF43
 	.byte	0xa
 	.uahalf	0x10a1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -34459,7 +34459,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF44
 	.byte	0xa
 	.uahalf	0x10a2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -34468,7 +34468,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF45
 	.byte	0xa
 	.uahalf	0x10a3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -34477,7 +34477,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF46
 	.byte	0xa
 	.uahalf	0x10a4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -34486,7 +34486,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF47
 	.byte	0xa
 	.uahalf	0x10a5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -34495,7 +34495,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF48
 	.byte	0xa
 	.uahalf	0x10a6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -34504,7 +34504,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF49
 	.byte	0xa
 	.uahalf	0x10a7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -34513,7 +34513,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF50
 	.byte	0xa
 	.uahalf	0x10a8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -34522,7 +34522,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x10a9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -34532,18 +34532,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC1_ENDIS_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x10aa
-	.uaword	0x148a5
+	.uaword	0x1489a
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC1_ENDIS_STAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x10ad
-	.uaword	0x14a46
+	.uaword	0x14a3b
 	.uleb128 0xf
 	.uaword	.LASF51
 	.byte	0xa
 	.uahalf	0x10af
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -34552,7 +34552,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF52
 	.byte	0xa
 	.uahalf	0x10b0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -34561,7 +34561,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF53
 	.byte	0xa
 	.uahalf	0x10b1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -34570,7 +34570,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF54
 	.byte	0xa
 	.uahalf	0x10b2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -34579,7 +34579,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF55
 	.byte	0xa
 	.uahalf	0x10b3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -34588,7 +34588,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF56
 	.byte	0xa
 	.uahalf	0x10b4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -34597,7 +34597,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF57
 	.byte	0xa
 	.uahalf	0x10b5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -34606,7 +34606,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF58
 	.byte	0xa
 	.uahalf	0x10b6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -34615,7 +34615,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x10b7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -34625,18 +34625,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC1_ENDIS_STAT_Bits"
 	.byte	0xa
 	.uahalf	0x10b8
-	.uaword	0x1498a
+	.uaword	0x1497f
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC1_FUPD_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x10bb
-	.uaword	0x14b9a
+	.uaword	0x14b8f
 	.uleb128 0xf
 	.uaword	.LASF59
 	.byte	0xa
 	.uahalf	0x10bd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -34645,7 +34645,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF60
 	.byte	0xa
 	.uahalf	0x10be
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -34654,7 +34654,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF61
 	.byte	0xa
 	.uahalf	0x10bf
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -34663,7 +34663,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF62
 	.byte	0xa
 	.uahalf	0x10c0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -34672,7 +34672,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF63
 	.byte	0xa
 	.uahalf	0x10c1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -34681,7 +34681,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF64
 	.byte	0xa
 	.uahalf	0x10c2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -34690,7 +34690,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF65
 	.byte	0xa
 	.uahalf	0x10c3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -34699,7 +34699,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF66
 	.byte	0xa
 	.uahalf	0x10c4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -34708,7 +34708,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF67
 	.byte	0xa
 	.uahalf	0x10c5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -34717,7 +34717,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF68
 	.byte	0xa
 	.uahalf	0x10c6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -34726,7 +34726,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF69
 	.byte	0xa
 	.uahalf	0x10c7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -34735,7 +34735,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF70
 	.byte	0xa
 	.uahalf	0x10c8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -34744,7 +34744,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF71
 	.byte	0xa
 	.uahalf	0x10c9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -34753,7 +34753,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF72
 	.byte	0xa
 	.uahalf	0x10ca
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -34762,7 +34762,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF73
 	.byte	0xa
 	.uahalf	0x10cb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -34771,7 +34771,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF74
 	.byte	0xa
 	.uahalf	0x10cc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -34781,18 +34781,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC1_FUPD_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x10cd
-	.uaword	0x14a6f
+	.uaword	0x14a64
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC1_GLB_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x10d0
-	.uaword	0x14d0c
+	.uaword	0x14d01
 	.uleb128 0xf
 	.uaword	.LASF75
 	.byte	0xa
 	.uahalf	0x10d2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x1f
@@ -34801,7 +34801,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF76
 	.byte	0xa
 	.uahalf	0x10d3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x7
 	.byte	0x18
@@ -34810,7 +34810,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF77
 	.byte	0xa
 	.uahalf	0x10d4
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x17
@@ -34819,7 +34819,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF78
 	.byte	0xa
 	.uahalf	0x10d5
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x16
@@ -34828,7 +34828,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF79
 	.byte	0xa
 	.uahalf	0x10d6
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x15
@@ -34837,7 +34837,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF80
 	.byte	0xa
 	.uahalf	0x10d7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x14
@@ -34846,7 +34846,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF81
 	.byte	0xa
 	.uahalf	0x10d8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x13
@@ -34855,7 +34855,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF82
 	.byte	0xa
 	.uahalf	0x10d9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x12
@@ -34864,7 +34864,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF83
 	.byte	0xa
 	.uahalf	0x10da
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x11
@@ -34873,7 +34873,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF84
 	.byte	0xa
 	.uahalf	0x10db
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x1
 	.byte	0x10
@@ -34882,7 +34882,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF85
 	.byte	0xa
 	.uahalf	0x10dc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xe
@@ -34891,7 +34891,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF86
 	.byte	0xa
 	.uahalf	0x10dd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xc
@@ -34900,7 +34900,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF87
 	.byte	0xa
 	.uahalf	0x10de
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0xa
@@ -34909,7 +34909,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF88
 	.byte	0xa
 	.uahalf	0x10df
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x8
@@ -34918,7 +34918,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF89
 	.byte	0xa
 	.uahalf	0x10e0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x6
@@ -34927,7 +34927,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF90
 	.byte	0xa
 	.uahalf	0x10e1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x4
@@ -34936,7 +34936,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF91
 	.byte	0xa
 	.uahalf	0x10e2
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x2
@@ -34945,7 +34945,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF92
 	.byte	0xa
 	.uahalf	0x10e3
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0
@@ -34955,18 +34955,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC1_GLB_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x10e4
-	.uaword	0x14bc2
+	.uaword	0x14bb7
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC1_INT_TRIG_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x10e7
-	.uaword	0x14ded
+	.uaword	0x14de2
 	.uleb128 0xf
 	.uaword	.LASF93
 	.byte	0xa
 	.uahalf	0x10e9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -34975,7 +34975,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF94
 	.byte	0xa
 	.uahalf	0x10ea
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -34984,7 +34984,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF95
 	.byte	0xa
 	.uahalf	0x10eb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -34993,7 +34993,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF96
 	.byte	0xa
 	.uahalf	0x10ec
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -35002,7 +35002,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF97
 	.byte	0xa
 	.uahalf	0x10ed
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -35011,7 +35011,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF98
 	.byte	0xa
 	.uahalf	0x10ee
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -35020,7 +35020,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF99
 	.byte	0xa
 	.uahalf	0x10ef
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -35029,7 +35029,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF100
 	.byte	0xa
 	.uahalf	0x10f0
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -35038,7 +35038,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x10f1
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -35048,18 +35048,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC1_INT_TRIG_Bits"
 	.byte	0xa
 	.uahalf	0x10f2
-	.uaword	0x14d33
+	.uaword	0x14d28
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC1_OUTEN_CTRL_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x10f5
-	.uaword	0x14ed0
+	.uaword	0x14ec5
 	.uleb128 0xf
 	.uaword	.LASF101
 	.byte	0xa
 	.uahalf	0x10f7
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -35068,7 +35068,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF102
 	.byte	0xa
 	.uahalf	0x10f8
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -35077,7 +35077,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF103
 	.byte	0xa
 	.uahalf	0x10f9
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -35086,7 +35086,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF104
 	.byte	0xa
 	.uahalf	0x10fa
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -35095,7 +35095,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF105
 	.byte	0xa
 	.uahalf	0x10fb
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -35104,7 +35104,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF106
 	.byte	0xa
 	.uahalf	0x10fc
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -35113,7 +35113,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF107
 	.byte	0xa
 	.uahalf	0x10fd
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -35122,7 +35122,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF108
 	.byte	0xa
 	.uahalf	0x10fe
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -35131,7 +35131,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x10ff
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -35141,18 +35141,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC1_OUTEN_CTRL_Bits"
 	.byte	0xa
 	.uahalf	0x1100
-	.uaword	0x14e14
+	.uaword	0x14e09
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_TGC1_OUTEN_STAT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1103
-	.uaword	0x14fb5
+	.uaword	0x14faa
 	.uleb128 0xf
 	.uaword	.LASF109
 	.byte	0xa
 	.uahalf	0x1105
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -35161,7 +35161,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF110
 	.byte	0xa
 	.uahalf	0x1106
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -35170,7 +35170,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF111
 	.byte	0xa
 	.uahalf	0x1107
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -35179,7 +35179,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF112
 	.byte	0xa
 	.uahalf	0x1108
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -35188,7 +35188,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF113
 	.byte	0xa
 	.uahalf	0x1109
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -35197,7 +35197,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF114
 	.byte	0xa
 	.uahalf	0x110a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -35206,7 +35206,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF115
 	.byte	0xa
 	.uahalf	0x110b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -35215,7 +35215,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF116
 	.byte	0xa
 	.uahalf	0x110c
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -35224,7 +35224,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x110d
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -35234,18 +35234,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TOM_TGC1_OUTEN_STAT_Bits"
 	.byte	0xa
 	.uahalf	0x110e
-	.uaword	0x14ef9
+	.uaword	0x14eee
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TRIGOUT_Bits"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1111
-	.uaword	0x1509c
+	.uaword	0x15091
 	.uleb128 0xe
 	.string	"INT0"
 	.byte	0xa
 	.uahalf	0x1113
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1e
@@ -35254,7 +35254,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"INT1"
 	.byte	0xa
 	.uahalf	0x1114
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1c
@@ -35263,7 +35263,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRIG0"
 	.byte	0xa
 	.uahalf	0x1115
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x1a
@@ -35272,7 +35272,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRIG1"
 	.byte	0xa
 	.uahalf	0x1116
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x18
@@ -35281,7 +35281,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRIG2"
 	.byte	0xa
 	.uahalf	0x1117
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x16
@@ -35290,7 +35290,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRIG3"
 	.byte	0xa
 	.uahalf	0x1118
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x14
@@ -35299,7 +35299,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRIG4"
 	.byte	0xa
 	.uahalf	0x1119
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x12
@@ -35308,7 +35308,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"TRIG5"
 	.byte	0xa
 	.uahalf	0x111a
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x2
 	.byte	0x10
@@ -35317,7 +35317,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF1
 	.byte	0xa
 	.uahalf	0x111b
-	.uaword	0x27fd
+	.uaword	0x27f2
 	.byte	0x4
 	.byte	0x10
 	.byte	0
@@ -35327,13272 +35327,13272 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"Ifx_GTM_TRIGOUT_Bits"
 	.byte	0xa
 	.uahalf	0x111c
-	.uaword	0x14fde
+	.uaword	0x14fd3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1124
-	.uaword	0x150e1
+	.uaword	0x150d6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1126
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1127
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1128
-	.uaword	0x35ee
+	.uaword	0x35e3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ACCEN0"
 	.byte	0xa
 	.uahalf	0x1129
-	.uaword	0x150b9
+	.uaword	0x150ae
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x112c
-	.uaword	0x15120
+	.uaword	0x15115
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x112e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x112f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1130
-	.uaword	0x3636
+	.uaword	0x362b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ACCEN1"
 	.byte	0xa
 	.uahalf	0x1131
-	.uaword	0x150f8
+	.uaword	0x150ed
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1134
-	.uaword	0x1515f
+	.uaword	0x15154
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1136
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1137
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1138
-	.uaword	0x36ed
+	.uaword	0x36e2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ADCTRIG0OUT0"
 	.byte	0xa
 	.uahalf	0x1139
-	.uaword	0x15137
+	.uaword	0x1512c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x113c
-	.uaword	0x151a4
+	.uaword	0x15199
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x113e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x113f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1140
-	.uaword	0x3750
+	.uaword	0x3745
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ADCTRIG0OUT1"
 	.byte	0xa
 	.uahalf	0x1141
-	.uaword	0x1517c
+	.uaword	0x15171
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1144
-	.uaword	0x151e9
+	.uaword	0x151de
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1146
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1147
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1148
-	.uaword	0x380d
+	.uaword	0x3802
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ADCTRIG1OUT0"
 	.byte	0xa
 	.uahalf	0x1149
-	.uaword	0x151c1
+	.uaword	0x151b6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x114c
-	.uaword	0x1522e
+	.uaword	0x15223
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x114e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x114f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1150
-	.uaword	0x3870
+	.uaword	0x3865
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ADCTRIG1OUT1"
 	.byte	0xa
 	.uahalf	0x1151
-	.uaword	0x15206
+	.uaword	0x151fb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1154
-	.uaword	0x15273
+	.uaword	0x15268
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1156
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1157
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1158
-	.uaword	0x38ea
+	.uaword	0x38df
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_AEI_ADDR_XPT"
 	.byte	0xa
 	.uahalf	0x1159
-	.uaword	0x1524b
+	.uaword	0x15240
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x115c
-	.uaword	0x152b8
+	.uaword	0x152ad
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x115e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x115f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1160
-	.uaword	0x394f
+	.uaword	0x3944
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_AFD_CH_BUF_ACC"
 	.byte	0xa
 	.uahalf	0x1161
-	.uaword	0x15290
+	.uaword	0x15285
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1164
-	.uaword	0x152ff
+	.uaword	0x152f4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1166
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1167
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1168
-	.uaword	0x39e5
+	.uaword	0x39da
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_ARU_ACCESS"
 	.byte	0xa
 	.uahalf	0x1169
-	.uaword	0x152d7
+	.uaword	0x152cc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x116c
-	.uaword	0x15346
+	.uaword	0x1533b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x116e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x116f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1170
-	.uaword	0x3a48
+	.uaword	0x3a3d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_DATA_H"
 	.byte	0xa
 	.uahalf	0x1171
-	.uaword	0x1531e
+	.uaword	0x15313
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1174
-	.uaword	0x15389
+	.uaword	0x1537e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1176
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1177
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1178
-	.uaword	0x3aa7
+	.uaword	0x3a9c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_DATA_L"
 	.byte	0xa
 	.uahalf	0x1179
-	.uaword	0x15361
+	.uaword	0x15356
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x117c
-	.uaword	0x153cc
+	.uaword	0x153c1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x117e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x117f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1180
-	.uaword	0x3b0b
+	.uaword	0x3b00
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_DBG_ACCESS0"
 	.byte	0xa
 	.uahalf	0x1181
-	.uaword	0x153a4
+	.uaword	0x15399
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1184
-	.uaword	0x15414
+	.uaword	0x15409
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1186
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1187
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1188
-	.uaword	0x3b74
+	.uaword	0x3b69
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_DBG_ACCESS1"
 	.byte	0xa
 	.uahalf	0x1189
-	.uaword	0x153ec
+	.uaword	0x153e1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x118c
-	.uaword	0x1545c
+	.uaword	0x15451
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x118e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x118f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1190
-	.uaword	0x3bdd
+	.uaword	0x3bd2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_DBG_DATA0_H"
 	.byte	0xa
 	.uahalf	0x1191
-	.uaword	0x15434
+	.uaword	0x15429
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1194
-	.uaword	0x154a4
+	.uaword	0x15499
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1196
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1197
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1198
-	.uaword	0x3c46
+	.uaword	0x3c3b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_DBG_DATA0_L"
 	.byte	0xa
 	.uahalf	0x1199
-	.uaword	0x1547c
+	.uaword	0x15471
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x119c
-	.uaword	0x154ec
+	.uaword	0x154e1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x119e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x119f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11a0
-	.uaword	0x3caf
+	.uaword	0x3ca4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_DBG_DATA1_H"
 	.byte	0xa
 	.uahalf	0x11a1
-	.uaword	0x154c4
+	.uaword	0x154b9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11a4
-	.uaword	0x15534
+	.uaword	0x15529
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11a6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11a7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11a8
-	.uaword	0x3d18
+	.uaword	0x3d0d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_DBG_DATA1_L"
 	.byte	0xa
 	.uahalf	0x11a9
-	.uaword	0x1550c
+	.uaword	0x15501
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11ac
-	.uaword	0x1557c
+	.uaword	0x15571
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11ae
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11af
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11b0
-	.uaword	0x3dbf
+	.uaword	0x3db4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x11b1
-	.uaword	0x15554
+	.uaword	0x15549
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11b4
-	.uaword	0x155bf
+	.uaword	0x155b4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11b6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11b7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11b8
-	.uaword	0x3e5c
+	.uaword	0x3e51
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x11b9
-	.uaword	0x15597
+	.uaword	0x1558c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11bc
-	.uaword	0x15607
+	.uaword	0x155fc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11be
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11bf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11c0
-	.uaword	0x3ec2
+	.uaword	0x3eb7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x11c1
-	.uaword	0x155df
+	.uaword	0x155d4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11c4
-	.uaword	0x1564c
+	.uaword	0x15641
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11c6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11c7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11c8
-	.uaword	0x3f55
+	.uaword	0x3f4a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x11c9
-	.uaword	0x15624
+	.uaword	0x15619
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11cc
-	.uaword	0x15693
+	.uaword	0x15688
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11ce
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11cf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11d0
-	.uaword	0x3fdb
+	.uaword	0x3fd0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_AGC_ACT_TB"
 	.byte	0xa
 	.uahalf	0x11d1
-	.uaword	0x1566b
+	.uaword	0x15660
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11d4
-	.uaword	0x156db
+	.uaword	0x156d0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11d6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11d7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11d8
-	.uaword	0x40bb
+	.uaword	0x40b0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_AGC_ENDIS_CTRL"
 	.byte	0xa
 	.uahalf	0x11d9
-	.uaword	0x156b3
+	.uaword	0x156a8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11dc
-	.uaword	0x15727
+	.uaword	0x1571c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11de
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11df
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11e0
-	.uaword	0x41a0
+	.uaword	0x4195
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_AGC_ENDIS_STAT"
 	.byte	0xa
 	.uahalf	0x11e1
-	.uaword	0x156ff
+	.uaword	0x156f4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11e4
-	.uaword	0x15773
+	.uaword	0x15768
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11e6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11e7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11e8
-	.uaword	0x42f4
+	.uaword	0x42e9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_AGC_FUPD_CTRL"
 	.byte	0xa
 	.uahalf	0x11e9
-	.uaword	0x1574b
+	.uaword	0x15740
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11ec
-	.uaword	0x157be
+	.uaword	0x157b3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11ee
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11ef
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11f0
-	.uaword	0x4466
+	.uaword	0x445b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_AGC_GLB_CTRL"
 	.byte	0xa
 	.uahalf	0x11f1
-	.uaword	0x15796
+	.uaword	0x1578b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11f4
-	.uaword	0x15808
+	.uaword	0x157fd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11f6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11f7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x11f8
-	.uaword	0x4547
+	.uaword	0x453c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_AGC_INT_TRIG"
 	.byte	0xa
 	.uahalf	0x11f9
-	.uaword	0x157e0
+	.uaword	0x157d5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x11fc
-	.uaword	0x15852
+	.uaword	0x15847
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x11fe
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x11ff
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1200
-	.uaword	0x462a
+	.uaword	0x461f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_AGC_OUTEN_CTRL"
 	.byte	0xa
 	.uahalf	0x1201
-	.uaword	0x1582a
+	.uaword	0x1581f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1204
-	.uaword	0x1589e
+	.uaword	0x15893
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1206
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1207
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1208
-	.uaword	0x470f
+	.uaword	0x4704
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_AGC_OUTEN_STAT"
 	.byte	0xa
 	.uahalf	0x1209
-	.uaword	0x15876
+	.uaword	0x1586b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x120c
-	.uaword	0x158ea
+	.uaword	0x158df
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x120e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x120f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1210
-	.uaword	0x477c
+	.uaword	0x4771
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_CM0"
 	.byte	0xa
 	.uahalf	0x1211
-	.uaword	0x158c2
+	.uaword	0x158b7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1214
-	.uaword	0x1592e
+	.uaword	0x15923
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1216
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1217
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1218
-	.uaword	0x47e1
+	.uaword	0x47d6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_CM1"
 	.byte	0xa
 	.uahalf	0x1219
-	.uaword	0x15906
+	.uaword	0x158fb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x121c
-	.uaword	0x15972
+	.uaword	0x15967
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x121e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x121f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1220
-	.uaword	0x4846
+	.uaword	0x483b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_CN0"
 	.byte	0xa
 	.uahalf	0x1221
-	.uaword	0x1594a
+	.uaword	0x1593f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1224
-	.uaword	0x159b6
+	.uaword	0x159ab
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1226
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1227
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1228
-	.uaword	0x49b2
+	.uaword	0x49a7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_CTRL"
 	.byte	0xa
 	.uahalf	0x1229
-	.uaword	0x1598e
+	.uaword	0x15983
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x122c
-	.uaword	0x159fb
+	.uaword	0x159f0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x122e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x122f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1230
-	.uaword	0x4a2b
+	.uaword	0x4a20
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x1231
-	.uaword	0x159d3
+	.uaword	0x159c8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1234
-	.uaword	0x15a42
+	.uaword	0x15a37
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1236
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1237
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1238
-	.uaword	0x4ab9
+	.uaword	0x4aae
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x1239
-	.uaword	0x15a1a
+	.uaword	0x15a0f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x123c
-	.uaword	0x15a8e
+	.uaword	0x15a83
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x123e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x123f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1240
-	.uaword	0x4b2b
+	.uaword	0x4b20
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x1241
-	.uaword	0x15a66
+	.uaword	0x15a5b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1244
-	.uaword	0x15ad7
+	.uaword	0x15acc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1246
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1247
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1248
-	.uaword	0x4bb2
+	.uaword	0x4ba7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x1249
-	.uaword	0x15aaf
+	.uaword	0x15aa4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x124c
-	.uaword	0x15b22
+	.uaword	0x15b17
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x124e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x124f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1250
-	.uaword	0x4c49
+	.uaword	0x4c3e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_RDADDR"
 	.byte	0xa
 	.uahalf	0x1251
-	.uaword	0x15afa
+	.uaword	0x15aef
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1254
-	.uaword	0x15b69
+	.uaword	0x15b5e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1256
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1257
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1258
-	.uaword	0x4d98
+	.uaword	0x4d8d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_SOMC"
 	.byte	0xa
 	.uahalf	0x1259
-	.uaword	0x15b41
+	.uaword	0x15b36
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x125c
-	.uaword	0x15bae
+	.uaword	0x15ba3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x125e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x125f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1260
-	.uaword	0x4e4f
+	.uaword	0x4e44
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_SOMI"
 	.byte	0xa
 	.uahalf	0x1261
-	.uaword	0x15b86
+	.uaword	0x15b7b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1264
-	.uaword	0x15bf3
+	.uaword	0x15be8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1266
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1267
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1268
-	.uaword	0x4f75
+	.uaword	0x4f6a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_SOMP"
 	.byte	0xa
 	.uahalf	0x1269
-	.uaword	0x15bcb
+	.uaword	0x15bc0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x126c
-	.uaword	0x15c38
+	.uaword	0x15c2d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x126e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x126f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1270
-	.uaword	0x5060
+	.uaword	0x5055
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_SOMS"
 	.byte	0xa
 	.uahalf	0x1271
-	.uaword	0x15c10
+	.uaword	0x15c05
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1274
-	.uaword	0x15c7d
+	.uaword	0x15c72
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1276
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1277
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1278
-	.uaword	0x50c6
+	.uaword	0x50bb
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_SR0"
 	.byte	0xa
 	.uahalf	0x1279
-	.uaword	0x15c55
+	.uaword	0x15c4a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x127c
-	.uaword	0x15cc1
+	.uaword	0x15cb6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x127e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x127f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1280
-	.uaword	0x512b
+	.uaword	0x5120
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_SR1"
 	.byte	0xa
 	.uahalf	0x1281
-	.uaword	0x15c99
+	.uaword	0x15c8e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1284
-	.uaword	0x15d05
+	.uaword	0x15cfa
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1286
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1287
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1288
-	.uaword	0x51f1
+	.uaword	0x51e6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH_STAT"
 	.byte	0xa
 	.uahalf	0x1289
-	.uaword	0x15cdd
+	.uaword	0x15cd2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x128c
-	.uaword	0x15d4a
+	.uaword	0x15d3f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x128e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x128f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1290
-	.uaword	0x533f
+	.uaword	0x5334
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x1291
-	.uaword	0x15d22
+	.uaword	0x15d17
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1294
-	.uaword	0x15d8e
+	.uaword	0x15d83
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1296
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1297
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1298
-	.uaword	0x548b
+	.uaword	0x5480
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x1299
-	.uaword	0x15d66
+	.uaword	0x15d5b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x129c
-	.uaword	0x15dd1
+	.uaword	0x15dc6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x129e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x129f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12a0
-	.uaword	0x55fa
+	.uaword	0x55ef
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x12a1
-	.uaword	0x15da9
+	.uaword	0x15d9e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12a4
-	.uaword	0x15e19
+	.uaword	0x15e0e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12a6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12a7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12a8
-	.uaword	0x5664
+	.uaword	0x5659
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x12a9
-	.uaword	0x15df1
+	.uaword	0x15de6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12ac
-	.uaword	0x15e5e
+	.uaword	0x15e53
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12ae
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12af
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12b0
-	.uaword	0x57a0
+	.uaword	0x5795
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x12b1
-	.uaword	0x15e36
+	.uaword	0x15e2b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12b4
-	.uaword	0x15ea5
+	.uaword	0x15e9a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12b6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12b7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12b8
-	.uaword	0x5804
+	.uaword	0x57f9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_RST"
 	.byte	0xa
 	.uahalf	0x12b9
-	.uaword	0x15e7d
+	.uaword	0x15e72
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12bc
-	.uaword	0x15ee5
+	.uaword	0x15eda
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12be
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12bf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12c0
-	.uaword	0x5887
+	.uaword	0x587c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC0_ADDR"
 	.byte	0xa
 	.uahalf	0x12c1
-	.uaword	0x15ebd
+	.uaword	0x15eb2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12c4
-	.uaword	0x15f2b
+	.uaword	0x15f20
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12c6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12c7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12c8
-	.uaword	0x5a50
+	.uaword	0x5a45
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC0_DEST"
 	.byte	0xa
 	.uahalf	0x12c9
-	.uaword	0x15f03
+	.uaword	0x15ef8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12cc
-	.uaword	0x15f71
+	.uaword	0x15f66
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12ce
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12cf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12d0
-	.uaword	0x5ada
+	.uaword	0x5acf
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC10_ADDR"
 	.byte	0xa
 	.uahalf	0x12d1
-	.uaword	0x15f49
+	.uaword	0x15f3e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12d4
-	.uaword	0x15fb8
+	.uaword	0x15fad
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12d6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12d7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12d8
-	.uaword	0x5ca5
+	.uaword	0x5c9a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC10_DEST"
 	.byte	0xa
 	.uahalf	0x12d9
-	.uaword	0x15f90
+	.uaword	0x15f85
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12dc
-	.uaword	0x15fff
+	.uaword	0x15ff4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12de
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12df
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12e0
-	.uaword	0x5d30
+	.uaword	0x5d25
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC11_ADDR"
 	.byte	0xa
 	.uahalf	0x12e1
-	.uaword	0x15fd7
+	.uaword	0x15fcc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12e4
-	.uaword	0x16046
+	.uaword	0x1603b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12e6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12e7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12e8
-	.uaword	0x5efb
+	.uaword	0x5ef0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC11_DEST"
 	.byte	0xa
 	.uahalf	0x12e9
-	.uaword	0x1601e
+	.uaword	0x16013
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12ec
-	.uaword	0x1608d
+	.uaword	0x16082
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12ee
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12ef
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12f0
-	.uaword	0x5f85
+	.uaword	0x5f7a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC1_ADDR"
 	.byte	0xa
 	.uahalf	0x12f1
-	.uaword	0x16065
+	.uaword	0x1605a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12f4
-	.uaword	0x160d3
+	.uaword	0x160c8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12f6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12f7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x12f8
-	.uaword	0x614e
+	.uaword	0x6143
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC1_DEST"
 	.byte	0xa
 	.uahalf	0x12f9
-	.uaword	0x160ab
+	.uaword	0x160a0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x12fc
-	.uaword	0x16119
+	.uaword	0x1610e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x12fe
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x12ff
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1300
-	.uaword	0x61d7
+	.uaword	0x61cc
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC2_ADDR"
 	.byte	0xa
 	.uahalf	0x1301
-	.uaword	0x160f1
+	.uaword	0x160e6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1304
-	.uaword	0x1615f
+	.uaword	0x16154
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1306
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1307
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1308
-	.uaword	0x63a0
+	.uaword	0x6395
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC2_DEST"
 	.byte	0xa
 	.uahalf	0x1309
-	.uaword	0x16137
+	.uaword	0x1612c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x130c
-	.uaword	0x161a5
+	.uaword	0x1619a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x130e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x130f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1310
-	.uaword	0x6429
+	.uaword	0x641e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC3_ADDR"
 	.byte	0xa
 	.uahalf	0x1311
-	.uaword	0x1617d
+	.uaword	0x16172
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1314
-	.uaword	0x161eb
+	.uaword	0x161e0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1316
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1317
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1318
-	.uaword	0x65f2
+	.uaword	0x65e7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC3_DEST"
 	.byte	0xa
 	.uahalf	0x1319
-	.uaword	0x161c3
+	.uaword	0x161b8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x131c
-	.uaword	0x16231
+	.uaword	0x16226
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x131e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x131f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1320
-	.uaword	0x667b
+	.uaword	0x6670
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC4_ADDR"
 	.byte	0xa
 	.uahalf	0x1321
-	.uaword	0x16209
+	.uaword	0x161fe
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1324
-	.uaword	0x16277
+	.uaword	0x1626c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1326
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1327
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1328
-	.uaword	0x6844
+	.uaword	0x6839
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC4_DEST"
 	.byte	0xa
 	.uahalf	0x1329
-	.uaword	0x1624f
+	.uaword	0x16244
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x132c
-	.uaword	0x162bd
+	.uaword	0x162b2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x132e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x132f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1330
-	.uaword	0x68cd
+	.uaword	0x68c2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC5_ADDR"
 	.byte	0xa
 	.uahalf	0x1331
-	.uaword	0x16295
+	.uaword	0x1628a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1334
-	.uaword	0x16303
+	.uaword	0x162f8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1336
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1337
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1338
-	.uaword	0x6a96
+	.uaword	0x6a8b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC5_DEST"
 	.byte	0xa
 	.uahalf	0x1339
-	.uaword	0x162db
+	.uaword	0x162d0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x133c
-	.uaword	0x16349
+	.uaword	0x1633e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x133e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x133f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1340
-	.uaword	0x6b1f
+	.uaword	0x6b14
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC6_ADDR"
 	.byte	0xa
 	.uahalf	0x1341
-	.uaword	0x16321
+	.uaword	0x16316
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1344
-	.uaword	0x1638f
+	.uaword	0x16384
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1346
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1347
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1348
-	.uaword	0x6ce8
+	.uaword	0x6cdd
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC6_DEST"
 	.byte	0xa
 	.uahalf	0x1349
-	.uaword	0x16367
+	.uaword	0x1635c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x134c
-	.uaword	0x163d5
+	.uaword	0x163ca
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x134e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x134f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1350
-	.uaword	0x6d71
+	.uaword	0x6d66
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC7_ADDR"
 	.byte	0xa
 	.uahalf	0x1351
-	.uaword	0x163ad
+	.uaword	0x163a2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1354
-	.uaword	0x1641b
+	.uaword	0x16410
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1356
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1357
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1358
-	.uaword	0x6f3a
+	.uaword	0x6f2f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC7_DEST"
 	.byte	0xa
 	.uahalf	0x1359
-	.uaword	0x163f3
+	.uaword	0x163e8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x135c
-	.uaword	0x16461
+	.uaword	0x16456
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x135e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x135f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1360
-	.uaword	0x6fc3
+	.uaword	0x6fb8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC8_ADDR"
 	.byte	0xa
 	.uahalf	0x1361
-	.uaword	0x16439
+	.uaword	0x1642e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1364
-	.uaword	0x164a7
+	.uaword	0x1649c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1366
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1367
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1368
-	.uaword	0x718c
+	.uaword	0x7181
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC8_DEST"
 	.byte	0xa
 	.uahalf	0x1369
-	.uaword	0x1647f
+	.uaword	0x16474
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x136c
-	.uaword	0x164ed
+	.uaword	0x164e2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x136e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x136f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1370
-	.uaword	0x7215
+	.uaword	0x720a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC9_ADDR"
 	.byte	0xa
 	.uahalf	0x1371
-	.uaword	0x164c5
+	.uaword	0x164ba
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1374
-	.uaword	0x16533
+	.uaword	0x16528
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1376
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1377
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1378
-	.uaword	0x73de
+	.uaword	0x73d3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC_SRC9_DEST"
 	.byte	0xa
 	.uahalf	0x1379
-	.uaword	0x1650b
+	.uaword	0x16500
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x137c
-	.uaword	0x16579
+	.uaword	0x1656e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x137e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x137f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1380
-	.uaword	0x7502
+	.uaword	0x74f7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRIDGE_MODE"
 	.byte	0xa
 	.uahalf	0x1381
-	.uaword	0x16551
+	.uaword	0x16546
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1384
-	.uaword	0x165bd
+	.uaword	0x165b2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1386
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1387
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1388
-	.uaword	0x75d4
+	.uaword	0x75c9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRIDGE_PTR1"
 	.byte	0xa
 	.uahalf	0x1389
-	.uaword	0x16595
+	.uaword	0x1658a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x138c
-	.uaword	0x16601
+	.uaword	0x165f6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x138e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x138f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1390
-	.uaword	0x7642
+	.uaword	0x7637
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRIDGE_PTR2"
 	.byte	0xa
 	.uahalf	0x1391
-	.uaword	0x165d9
+	.uaword	0x165ce
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1394
-	.uaword	0x16645
+	.uaword	0x1663a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1396
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1397
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1398
-	.uaword	0x76d2
+	.uaword	0x76c7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CLC"
 	.byte	0xa
 	.uahalf	0x1399
-	.uaword	0x1661d
+	.uaword	0x16612
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x139c
-	.uaword	0x16681
+	.uaword	0x16676
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x139e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x139f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13a0
-	.uaword	0x7993
+	.uaword	0x7988
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMP_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x13a1
-	.uaword	0x16659
+	.uaword	0x1664e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13a4
-	.uaword	0x166c5
+	.uaword	0x166ba
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13a6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13a7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13a8
-	.uaword	0x7bdf
+	.uaword	0x7bd4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMP_EN"
 	.byte	0xa
 	.uahalf	0x13a9
-	.uaword	0x1669d
+	.uaword	0x16692
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13ac
-	.uaword	0x16704
+	.uaword	0x166f9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13ae
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13af
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13b0
-	.uaword	0x7e8a
+	.uaword	0x7e7f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMP_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x13b1
-	.uaword	0x166dc
+	.uaword	0x166d1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13b4
-	.uaword	0x16747
+	.uaword	0x1673c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13b6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13b7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13b8
-	.uaword	0x80f6
+	.uaword	0x80eb
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMP_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x13b9
-	.uaword	0x1671f
+	.uaword	0x16714
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13bc
-	.uaword	0x1678f
+	.uaword	0x16784
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13be
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13bf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13c0
-	.uaword	0x8160
+	.uaword	0x8155
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMP_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x13c1
-	.uaword	0x16767
+	.uaword	0x1675c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13c4
-	.uaword	0x167d4
+	.uaword	0x167c9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13c6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13c7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13c8
-	.uaword	0x836d
+	.uaword	0x8362
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMP_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x13c9
-	.uaword	0x167ac
+	.uaword	0x167a1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13cc
-	.uaword	0x1681b
+	.uaword	0x16810
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13ce
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13cf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13d0
-	.uaword	0x83d9
+	.uaword	0x83ce
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_CLK0_5_CTRL"
 	.byte	0xa
 	.uahalf	0x13d1
-	.uaword	0x167f3
+	.uaword	0x167e8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13d4
-	.uaword	0x16863
+	.uaword	0x16858
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13d6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13d7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13d8
-	.uaword	0x845a
+	.uaword	0x844f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_CLK_6_CTRL"
 	.byte	0xa
 	.uahalf	0x13d9
-	.uaword	0x1683b
+	.uaword	0x16830
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13dc
-	.uaword	0x168aa
+	.uaword	0x1689f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13de
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13df
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13e0
-	.uaword	0x84da
+	.uaword	0x84cf
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_CLK_7_CTRL"
 	.byte	0xa
 	.uahalf	0x13e1
-	.uaword	0x16882
+	.uaword	0x16877
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13e4
-	.uaword	0x168f1
+	.uaword	0x168e6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13e6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13e7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13e8
-	.uaword	0x8625
+	.uaword	0x861a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_CLK_EN"
 	.byte	0xa
 	.uahalf	0x13e9
-	.uaword	0x168c9
+	.uaword	0x168be
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13ec
-	.uaword	0x16934
+	.uaword	0x16929
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13ee
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13ef
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13f0
-	.uaword	0x868f
+	.uaword	0x8684
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_ECLK_DEN"
 	.byte	0xa
 	.uahalf	0x13f1
-	.uaword	0x1690c
+	.uaword	0x16901
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13f4
-	.uaword	0x16979
+	.uaword	0x1696e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13f6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13f7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x13f8
-	.uaword	0x86fb
+	.uaword	0x86f0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_ECLK_NUM"
 	.byte	0xa
 	.uahalf	0x13f9
-	.uaword	0x16951
+	.uaword	0x16946
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x13fc
-	.uaword	0x169be
+	.uaword	0x169b3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x13fe
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x13ff
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1400
-	.uaword	0x876a
+	.uaword	0x875f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_FXCLK_CTRL"
 	.byte	0xa
 	.uahalf	0x1401
-	.uaword	0x16996
+	.uaword	0x1698b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1404
-	.uaword	0x16a05
+	.uaword	0x169fa
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1406
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1407
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1408
-	.uaword	0x87d3
+	.uaword	0x87c8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_GCLK_DEN"
 	.byte	0xa
 	.uahalf	0x1409
-	.uaword	0x169dd
+	.uaword	0x169d2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x140c
-	.uaword	0x16a4a
+	.uaword	0x16a3f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x140e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x140f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1410
-	.uaword	0x883a
+	.uaword	0x882f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_GCLK_NUM"
 	.byte	0xa
 	.uahalf	0x1411
-	.uaword	0x16a22
+	.uaword	0x16a17
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1414
-	.uaword	0x16a8f
+	.uaword	0x16a84
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1416
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1417
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1418
-	.uaword	0x88d4
+	.uaword	0x88c9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CTRL"
 	.byte	0xa
 	.uahalf	0x1419
-	.uaword	0x16a67
+	.uaword	0x16a5c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x141c
-	.uaword	0x16acc
+	.uaword	0x16ac1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x141e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x141f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1420
-	.uaword	0x891d
+	.uaword	0x8912
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DATAIN"
 	.byte	0xa
 	.uahalf	0x1421
-	.uaword	0x16aa4
+	.uaword	0x16a99
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1424
-	.uaword	0x16b0b
+	.uaword	0x16b00
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1426
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1427
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1428
-	.uaword	0x89e2
+	.uaword	0x89d7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_ACB"
 	.byte	0xa
 	.uahalf	0x1429
-	.uaword	0x16ae3
+	.uaword	0x16ad8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x142c
-	.uaword	0x16b4c
+	.uaword	0x16b41
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x142e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x142f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1430
-	.uaword	0x8a48
+	.uaword	0x8a3d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_ACT_STA"
 	.byte	0xa
 	.uahalf	0x1431
-	.uaword	0x16b24
+	.uaword	0x16b19
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1434
-	.uaword	0x16b91
+	.uaword	0x16b86
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1436
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1437
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1438
-	.uaword	0x8abc
+	.uaword	0x8ab1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_ADD_IN_CAL1"
 	.byte	0xa
 	.uahalf	0x1439
-	.uaword	0x16b69
+	.uaword	0x16b5e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x143c
-	.uaword	0x16bda
+	.uaword	0x16bcf
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x143e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x143f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1440
-	.uaword	0x8b34
+	.uaword	0x8b29
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_ADD_IN_CAL2"
 	.byte	0xa
 	.uahalf	0x1441
-	.uaword	0x16bb2
+	.uaword	0x16ba7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1444
-	.uaword	0x16c23
+	.uaword	0x16c18
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1446
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1447
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1448
-	.uaword	0x8baa
+	.uaword	0x8b9f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_ADD_IN_LD1"
 	.byte	0xa
 	.uahalf	0x1449
-	.uaword	0x16bfb
+	.uaword	0x16bf0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x144c
-	.uaword	0x16c6b
+	.uaword	0x16c60
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x144e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x144f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1450
-	.uaword	0x8c1f
+	.uaword	0x8c14
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_ADD_IN_LD2"
 	.byte	0xa
 	.uahalf	0x1451
-	.uaword	0x16c43
+	.uaword	0x16c38
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1454
-	.uaword	0x16cb3
+	.uaword	0x16ca8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1456
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1457
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1458
-	.uaword	0x8c97
+	.uaword	0x8c8c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_ADT_S"
 	.byte	0xa
 	.uahalf	0x1459
-	.uaword	0x16c8b
+	.uaword	0x16c80
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x145c
-	.uaword	0x16cf6
+	.uaword	0x16ceb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x145e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x145f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1460
-	.uaword	0x8d2b
+	.uaword	0x8d20
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_AOSV_2"
 	.byte	0xa
 	.uahalf	0x1461
-	.uaword	0x16cce
+	.uaword	0x16cc3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1464
-	.uaword	0x16d3a
+	.uaword	0x16d2f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1466
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1467
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1468
-	.uaword	0x8e62
+	.uaword	0x8e57
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_APS"
 	.byte	0xa
 	.uahalf	0x1469
-	.uaword	0x16d12
+	.uaword	0x16d07
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x146c
-	.uaword	0x16d7b
+	.uaword	0x16d70
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x146e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x146f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1470
-	.uaword	0x8da5
+	.uaword	0x8d9a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_APS_1C3"
 	.byte	0xa
 	.uahalf	0x1471
-	.uaword	0x16d53
+	.uaword	0x16d48
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1474
-	.uaword	0x16dc0
+	.uaword	0x16db5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1476
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1477
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1478
-	.uaword	0x8f11
+	.uaword	0x8f06
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_APS_SYNC"
 	.byte	0xa
 	.uahalf	0x1479
-	.uaword	0x16d98
+	.uaword	0x16d8d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x147c
-	.uaword	0x16e06
+	.uaword	0x16dfb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x147e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x147f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1480
-	.uaword	0x9045
+	.uaword	0x903a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_APT"
 	.byte	0xa
 	.uahalf	0x1481
-	.uaword	0x16dde
+	.uaword	0x16dd3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1484
-	.uaword	0x16e47
+	.uaword	0x16e3c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1486
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1487
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1488
-	.uaword	0x8f8b
+	.uaword	0x8f80
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_APT_2C"
 	.byte	0xa
 	.uahalf	0x1489
-	.uaword	0x16e1f
+	.uaword	0x16e14
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x148c
-	.uaword	0x16e8b
+	.uaword	0x16e80
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x148e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x148f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1490
-	.uaword	0x90f1
+	.uaword	0x90e6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_APT_SYNC"
 	.byte	0xa
 	.uahalf	0x1491
-	.uaword	0x16e63
+	.uaword	0x16e58
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1494
-	.uaword	0x16ed1
+	.uaword	0x16ec6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1496
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1497
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1498
-	.uaword	0x915b
+	.uaword	0x9150
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CDT_SX"
 	.byte	0xa
 	.uahalf	0x1499
-	.uaword	0x16ea9
+	.uaword	0x16e9e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x149c
-	.uaword	0x16f15
+	.uaword	0x16f0a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x149e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x149f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14a0
-	.uaword	0x91c4
+	.uaword	0x91b9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CDT_SX_NOM"
 	.byte	0xa
 	.uahalf	0x14a1
-	.uaword	0x16eed
+	.uaword	0x16ee2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14a4
-	.uaword	0x16f5d
+	.uaword	0x16f52
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14a6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14a7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14a8
-	.uaword	0x9230
+	.uaword	0x9225
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CDT_TX"
 	.byte	0xa
 	.uahalf	0x14a9
-	.uaword	0x16f35
+	.uaword	0x16f2a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14ac
-	.uaword	0x16fa1
+	.uaword	0x16f96
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14ae
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14af
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14b0
-	.uaword	0x9299
+	.uaword	0x928e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CDT_TX_NOM"
 	.byte	0xa
 	.uahalf	0x14b1
-	.uaword	0x16f79
+	.uaword	0x16f6e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14b4
-	.uaword	0x16fe9
+	.uaword	0x16fde
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14b6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14b7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14b8
-	.uaword	0x930a
+	.uaword	0x92ff
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CNT_NUM1"
 	.byte	0xa
 	.uahalf	0x14b9
-	.uaword	0x16fc1
+	.uaword	0x16fb6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14bc
-	.uaword	0x1702f
+	.uaword	0x17024
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14be
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14bf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14c0
-	.uaword	0x9379
+	.uaword	0x936e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CNT_NUM2"
 	.byte	0xa
 	.uahalf	0x14c1
-	.uaword	0x17007
+	.uaword	0x16ffc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14c4
-	.uaword	0x17075
+	.uaword	0x1706a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14c6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14c7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14c8
-	.uaword	0x9486
+	.uaword	0x947b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CRTL_1_SHADOW_STATE"
 	.byte	0xa
 	.uahalf	0x14c9
-	.uaword	0x1704d
+	.uaword	0x17042
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14cc
-	.uaword	0x170c6
+	.uaword	0x170bb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14ce
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14cf
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14d0
-	.uaword	0x9588
+	.uaword	0x957d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CTRL_0"
 	.byte	0xa
 	.uahalf	0x14d1
-	.uaword	0x1709e
+	.uaword	0x17093
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14d4
-	.uaword	0x1710a
+	.uaword	0x170ff
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14d6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14d7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14d8
-	.uaword	0x965a
+	.uaword	0x964f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CTRL_0_SHADOW_STATE"
 	.byte	0xa
 	.uahalf	0x14d9
-	.uaword	0x170e2
+	.uaword	0x170d7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14dc
-	.uaword	0x1715b
+	.uaword	0x17150
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14de
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14df
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14e0
-	.uaword	0x973b
+	.uaword	0x9730
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CTRL_0_SHADOW_TRIGGER"
 	.byte	0xa
 	.uahalf	0x14e1
-	.uaword	0x17133
+	.uaword	0x17128
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14e4
-	.uaword	0x171ae
+	.uaword	0x171a3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14e6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14e7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14e8
-	.uaword	0x9905
+	.uaword	0x98fa
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CTRL_1"
 	.byte	0xa
 	.uahalf	0x14e9
-	.uaword	0x17186
+	.uaword	0x1717b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14ec
-	.uaword	0x171f2
+	.uaword	0x171e7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14ee
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14ef
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14f0
-	.uaword	0x99dc
+	.uaword	0x99d1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CTRL_1_SHADOW_TRIGGER"
 	.byte	0xa
 	.uahalf	0x14f1
-	.uaword	0x171ca
+	.uaword	0x171bf
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14f4
-	.uaword	0x17245
+	.uaword	0x1723a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14f6
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14f7
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x14f8
-	.uaword	0x9b60
+	.uaword	0x9b55
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CTRL_2"
 	.byte	0xa
 	.uahalf	0x14f9
-	.uaword	0x1721d
+	.uaword	0x17212
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x14fc
-	.uaword	0x17289
+	.uaword	0x1727e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x14fe
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x14ff
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1500
-	.uaword	0x9ce1
+	.uaword	0x9cd6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CTRL_3"
 	.byte	0xa
 	.uahalf	0x1501
-	.uaword	0x17261
+	.uaword	0x17256
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1504
-	.uaword	0x172cd
+	.uaword	0x172c2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1506
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1507
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1508
-	.uaword	0x9e66
+	.uaword	0x9e5b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_CTRL_4"
 	.byte	0xa
 	.uahalf	0x1509
-	.uaword	0x172a5
+	.uaword	0x1729a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x150c
-	.uaword	0x17311
+	.uaword	0x17306
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x150e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x150f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1510
-	.uaword	0x9ec8
+	.uaword	0x9ebd
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_DLA"
 	.byte	0xa
 	.uahalf	0x1511
-	.uaword	0x172e9
+	.uaword	0x172de
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1514
-	.uaword	0x17352
+	.uaword	0x17347
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1516
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1517
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1518
-	.uaword	0x9f92
+	.uaword	0x9f87
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_DT_S"
 	.byte	0xa
 	.uahalf	0x1519
-	.uaword	0x1732a
+	.uaword	0x1731f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x151c
-	.uaword	0x17394
+	.uaword	0x17389
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x151e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x151f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1520
-	.uaword	0x9f2c
+	.uaword	0x9f21
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_DT_S_ACT"
 	.byte	0xa
 	.uahalf	0x1521
-	.uaword	0x1736c
+	.uaword	0x17361
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1524
-	.uaword	0x173da
+	.uaword	0x173cf
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1526
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1527
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1528
-	.uaword	0x9ff7
+	.uaword	0x9fec
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_DT_T_ACT"
 	.byte	0xa
 	.uahalf	0x1529
-	.uaword	0x173b2
+	.uaword	0x173a7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x152c
-	.uaword	0x17420
+	.uaword	0x17415
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x152e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x152f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1530
-	.uaword	0xa05b
+	.uaword	0xa050
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_DTA"
 	.byte	0xa
 	.uahalf	0x1531
-	.uaword	0x173f8
+	.uaword	0x173ed
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1535
-	.uaword	0x17461
+	.uaword	0x17456
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1537
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1538
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1539
-	.uaword	0xa0be
+	.uaword	0xa0b3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_EDT_S"
 	.byte	0xa
 	.uahalf	0x153a
-	.uaword	0x17439
+	.uaword	0x1742e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x153e
-	.uaword	0x174a4
+	.uaword	0x17499
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1540
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1541
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1542
-	.uaword	0xa123
+	.uaword	0xa118
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_EDT_T"
 	.byte	0xa
 	.uahalf	0x1543
-	.uaword	0x1747c
+	.uaword	0x17471
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1546
-	.uaword	0x174e7
+	.uaword	0x174dc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1548
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1549
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x154a
-	.uaword	0xa413
+	.uaword	0xa408
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x154b
-	.uaword	0x174bf
+	.uaword	0x174b4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x154e
-	.uaword	0x1752c
+	.uaword	0x17521
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1550
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1551
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1552
-	.uaword	0xa47d
+	.uaword	0xa472
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_FTV_S"
 	.byte	0xa
 	.uahalf	0x1553
-	.uaword	0x17504
+	.uaword	0x174f9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1556
-	.uaword	0x1756f
+	.uaword	0x17564
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1558
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1559
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x155a
-	.uaword	0xa4e7
+	.uaword	0xa4dc
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_FTV_T"
 	.byte	0xa
 	.uahalf	0x155b
-	.uaword	0x17547
+	.uaword	0x1753c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x155e
-	.uaword	0x175b2
+	.uaword	0x175a7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1560
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1561
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1562
-	.uaword	0xa552
+	.uaword	0xa547
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_ID_PMTR"
 	.byte	0xa
 	.uahalf	0x1563
-	.uaword	0x1758a
+	.uaword	0x1757f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1566
-	.uaword	0x175f7
+	.uaword	0x175ec
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1568
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1569
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x156a
-	.uaword	0xa5ba
+	.uaword	0xa5af
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_INC_CNT1"
 	.byte	0xa
 	.uahalf	0x156b
-	.uaword	0x175cf
+	.uaword	0x175c4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x156f
-	.uaword	0x1763d
+	.uaword	0x17632
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1571
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1572
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1573
-	.uaword	0xa623
+	.uaword	0xa618
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_INC_CNT2"
 	.byte	0xa
 	.uahalf	0x1574
-	.uaword	0x17615
+	.uaword	0x1760a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1577
-	.uaword	0x17683
+	.uaword	0x17678
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1579
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x157a
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x157b
-	.uaword	0xa8fc
+	.uaword	0xa8f1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x157c
-	.uaword	0x1765b
+	.uaword	0x17650
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x157f
-	.uaword	0x176c7
+	.uaword	0x176bc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1581
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1582
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1583
-	.uaword	0xab99
+	.uaword	0xab8e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x1584
-	.uaword	0x1769f
+	.uaword	0x17694
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1587
-	.uaword	0x17710
+	.uaword	0x17705
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1589
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x158a
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x158b
-	.uaword	0xac05
+	.uaword	0xabfa
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x158c
-	.uaword	0x176e8
+	.uaword	0x176dd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x158f
-	.uaword	0x17756
+	.uaword	0x1774b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1591
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1592
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1593
-	.uaword	0xae33
+	.uaword	0xae28
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x1594
-	.uaword	0x1772e
+	.uaword	0x17723
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1598
-	.uaword	0x1779e
+	.uaword	0x17793
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x159a
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x159b
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x159c
-	.uaword	0xae9f
+	.uaword	0xae94
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_MEDT_S"
 	.byte	0xa
 	.uahalf	0x159d
-	.uaword	0x17776
+	.uaword	0x1776b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15a1
-	.uaword	0x177e2
+	.uaword	0x177d7
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15a3
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15a4
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15a5
-	.uaword	0xaf07
+	.uaword	0xaefc
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_MEDT_T"
 	.byte	0xa
 	.uahalf	0x15a6
-	.uaword	0x177ba
+	.uaword	0x177af
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15a9
-	.uaword	0x17826
+	.uaword	0x1781b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15ab
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15ac
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15ad
-	.uaword	0xaf6b
+	.uaword	0xaf60
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_MLS1"
 	.byte	0xa
 	.uahalf	0x15ae
-	.uaword	0x177fe
+	.uaword	0x177f3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15b1
-	.uaword	0x17868
+	.uaword	0x1785d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15b3
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15b4
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15b5
-	.uaword	0xafcd
+	.uaword	0xafc2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_MLS2"
 	.byte	0xa
 	.uahalf	0x15b6
-	.uaword	0x17840
+	.uaword	0x17835
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15ba
-	.uaword	0x178aa
+	.uaword	0x1789f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15bc
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15bd
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15be
-	.uaword	0xb044
+	.uaword	0xb039
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_MPVAL1"
 	.byte	0xa
 	.uahalf	0x15bf
-	.uaword	0x17882
+	.uaword	0x17877
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15c3
-	.uaword	0x178ee
+	.uaword	0x178e3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15c5
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15c6
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15c7
-	.uaword	0xb0bd
+	.uaword	0xb0b2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_MPVAL2"
 	.byte	0xa
 	.uahalf	0x15c8
-	.uaword	0x178c6
+	.uaword	0x178bb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15cb
-	.uaword	0x17932
+	.uaword	0x17927
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15cd
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15ce
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15cf
-	.uaword	0xb12c
+	.uaword	0xb121
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NA"
 	.byte	0xa
 	.uahalf	0x15d0
-	.uaword	0x1790a
+	.uaword	0x178ff
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15d3
-	.uaword	0x17972
+	.uaword	0x17967
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15d5
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15d6
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15d7
-	.uaword	0xb18e
+	.uaword	0xb183
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NMB_S"
 	.byte	0xa
 	.uahalf	0x15d8
-	.uaword	0x1794a
+	.uaword	0x1793f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15db
-	.uaword	0x179b5
+	.uaword	0x179aa
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15dd
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15de
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15df
-	.uaword	0xb1f5
+	.uaword	0xb1ea
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NMB_S_TAR"
 	.byte	0xa
 	.uahalf	0x15e0
-	.uaword	0x1798d
+	.uaword	0x17982
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15e3
-	.uaword	0x179fc
+	.uaword	0x179f1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15e5
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15e6
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15e7
-	.uaword	0xb264
+	.uaword	0xb259
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NMB_S_TAR_OLD"
 	.byte	0xa
 	.uahalf	0x15e8
-	.uaword	0x179d4
+	.uaword	0x179c9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15eb
-	.uaword	0x17a47
+	.uaword	0x17a3c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15ed
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15ee
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15ef
-	.uaword	0xb2d1
+	.uaword	0xb2c6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NMB_T"
 	.byte	0xa
 	.uahalf	0x15f0
-	.uaword	0x17a1f
+	.uaword	0x17a14
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15f3
-	.uaword	0x17a8a
+	.uaword	0x17a7f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15f5
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15f6
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15f7
-	.uaword	0xb338
+	.uaword	0xb32d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NMB_T_TAR"
 	.byte	0xa
 	.uahalf	0x15f8
-	.uaword	0x17a62
+	.uaword	0x17a57
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x15fb
-	.uaword	0x17ad1
+	.uaword	0x17ac6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x15fd
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x15fe
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x15ff
-	.uaword	0xb3a7
+	.uaword	0xb39c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NMB_T_TAR_OLD"
 	.byte	0xa
 	.uahalf	0x1600
-	.uaword	0x17aa9
+	.uaword	0x17a9e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1603
-	.uaword	0x17b1c
+	.uaword	0x17b11
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1605
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1606
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1607
-	.uaword	0xb418
+	.uaword	0xb40d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NTI_CNT"
 	.byte	0xa
 	.uahalf	0x1608
-	.uaword	0x17af4
+	.uaword	0x17ae9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x160b
-	.uaword	0x17b61
+	.uaword	0x17b56
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x160d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x160e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x160f
-	.uaword	0xb4f8
+	.uaword	0xb4ed
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NUSC"
 	.byte	0xa
 	.uahalf	0x1610
-	.uaword	0x17b39
+	.uaword	0x17b2e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1613
-	.uaword	0x17ba3
+	.uaword	0x17b98
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1615
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1616
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1617
-	.uaword	0xb5e5
+	.uaword	0xb5da
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_NUTC"
 	.byte	0xa
 	.uahalf	0x1618
-	.uaword	0x17b7b
+	.uaword	0x17b70
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x161b
-	.uaword	0x17be5
+	.uaword	0x17bda
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x161d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x161e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x161f
-	.uaword	0xb67b
+	.uaword	0xb670
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_OSW"
 	.byte	0xa
 	.uahalf	0x1620
-	.uaword	0x17bbd
+	.uaword	0x17bb2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1623
-	.uaword	0x17c26
+	.uaword	0x17c1b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1625
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1626
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1627
-	.uaword	0xb6ea
+	.uaword	0xb6df
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PDT_T"
 	.byte	0xa
 	.uahalf	0x1628
-	.uaword	0x17bfe
+	.uaword	0x17bf3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x162b
-	.uaword	0x17c69
+	.uaword	0x17c5e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x162d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x162e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x162f
-	.uaword	0xb74b
+	.uaword	0xb740
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PSA"
 	.byte	0xa
 	.uahalf	0x1630
-	.uaword	0x17c41
+	.uaword	0x17c36
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1633
-	.uaword	0x17caa
+	.uaword	0x17c9f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1635
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1636
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1637
-	.uaword	0xb7ac
+	.uaword	0xb7a1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PSAC"
 	.byte	0xa
 	.uahalf	0x1638
-	.uaword	0x17c82
+	.uaword	0x17c77
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x163b
-	.uaword	0x17cec
+	.uaword	0x17ce1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x163d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x163e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x163f
-	.uaword	0xb80e
+	.uaword	0xb803
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PSSC"
 	.byte	0xa
 	.uahalf	0x1640
-	.uaword	0x17cc4
+	.uaword	0x17cb9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1643
-	.uaword	0x17d2e
+	.uaword	0x17d23
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1645
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1646
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1647
-	.uaword	0xb872
+	.uaword	0xb867
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PSSM_0"
 	.byte	0xa
 	.uahalf	0x1648
-	.uaword	0x17d06
+	.uaword	0x17cfb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x164b
-	.uaword	0x17d72
+	.uaword	0x17d67
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x164d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x164e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x164f
-	.uaword	0xb8d8
+	.uaword	0xb8cd
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PSSM_1"
 	.byte	0xa
 	.uahalf	0x1650
-	.uaword	0x17d4a
+	.uaword	0x17d3f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1653
-	.uaword	0x17db6
+	.uaword	0x17dab
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1655
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1656
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1657
-	.uaword	0xb93c
+	.uaword	0xb931
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PSTC"
 	.byte	0xa
 	.uahalf	0x1658
-	.uaword	0x17d8e
+	.uaword	0x17d83
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x165b
-	.uaword	0x17df8
+	.uaword	0x17ded
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x165d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x165e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x165f
-	.uaword	0xb9a0
+	.uaword	0xb995
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PSTM_0"
 	.byte	0xa
 	.uahalf	0x1660
-	.uaword	0x17dd0
+	.uaword	0x17dc5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1663
-	.uaword	0x17e3c
+	.uaword	0x17e31
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1665
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1666
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1667
-	.uaword	0xba06
+	.uaword	0xb9fb
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PSTM_1"
 	.byte	0xa
 	.uahalf	0x1668
-	.uaword	0x17e14
+	.uaword	0x17e09
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x166b
-	.uaword	0x17e80
+	.uaword	0x17e75
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x166d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x166e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x166f
-	.uaword	0xba68
+	.uaword	0xba5d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_PVT"
 	.byte	0xa
 	.uahalf	0x1670
-	.uaword	0x17e58
+	.uaword	0x17e4d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1673
-	.uaword	0x17ec1
+	.uaword	0x17eb6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1675
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1676
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1677
-	.uaword	0xbb1b
+	.uaword	0xbb10
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_RAM_INI"
 	.byte	0xa
 	.uahalf	0x1678
-	.uaword	0x17e99
+	.uaword	0x17e8e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x167b
-	.uaword	0x17f06
+	.uaword	0x17efb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x167d
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x167e
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x167f
-	.uaword	0xbb86
+	.uaword	0xbb7b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_RCDT_SX"
 	.byte	0xa
 	.uahalf	0x1680
-	.uaword	0x17ede
+	.uaword	0x17ed3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1684
-	.uaword	0x17f4b
+	.uaword	0x17f40
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1686
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1687
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1688
-	.uaword	0xbbf1
+	.uaword	0xbbe6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_RCDT_SX_NOM"
 	.byte	0xa
 	.uahalf	0x1689
-	.uaword	0x17f23
+	.uaword	0x17f18
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x168c
-	.uaword	0x17f94
+	.uaword	0x17f89
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x168e
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x168f
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1690
-	.uaword	0xbc60
+	.uaword	0xbc55
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_RCDT_TX"
 	.byte	0xa
 	.uahalf	0x1691
-	.uaword	0x17f6c
+	.uaword	0x17f61
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1695
-	.uaword	0x17fd9
+	.uaword	0x17fce
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1697
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1698
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1699
-	.uaword	0xbccb
+	.uaword	0xbcc0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_RCDT_TX_NOM"
 	.byte	0xa
 	.uahalf	0x169a
-	.uaword	0x17fb1
+	.uaword	0x17fa6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x169d
-	.uaword	0x18022
+	.uaword	0x18017
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x169f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16a0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16a1
-	.uaword	0xbda1
+	.uaword	0xbd96
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_RDT_S"
 	.byte	0xa
 	.uahalf	0x16a2
-	.uaword	0x17ffa
+	.uaword	0x17fef
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16a5
-	.uaword	0x18065
+	.uaword	0x1805a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16a7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16a8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16a9
-	.uaword	0xbd38
+	.uaword	0xbd2d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_RDT_S_ACT"
 	.byte	0xa
 	.uahalf	0x16aa
-	.uaword	0x1803d
+	.uaword	0x18032
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16ad
-	.uaword	0x180ac
+	.uaword	0x180a1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16af
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16b0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16b1
-	.uaword	0xbe08
+	.uaword	0xbdfd
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_RDT_T_ACT"
 	.byte	0xa
 	.uahalf	0x16b2
-	.uaword	0x18084
+	.uaword	0x18079
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16b5
-	.uaword	0x180f3
+	.uaword	0x180e8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16b7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16b8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16b9
-	.uaword	0xbe6d
+	.uaword	0xbe62
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_SLR"
 	.byte	0xa
 	.uahalf	0x16ba
-	.uaword	0x180cb
+	.uaword	0x180c0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16bd
-	.uaword	0x18134
+	.uaword	0x18129
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16bf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16c0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16c1
-	.uaword	0xc0b2
+	.uaword	0xc0a7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_STATUS"
 	.byte	0xa
 	.uahalf	0x16c2
-	.uaword	0x1810c
+	.uaword	0x18101
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16c5
-	.uaword	0x18178
+	.uaword	0x1816d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16c7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16c8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16c9
-	.uaword	0xc11a
+	.uaword	0xc10f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TBU_TS0_S"
 	.byte	0xa
 	.uahalf	0x16ca
-	.uaword	0x18150
+	.uaword	0x18145
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16cd
-	.uaword	0x181bf
+	.uaword	0x181b4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16cf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16d0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16d1
-	.uaword	0xc185
+	.uaword	0xc17a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TBU_TS0_T"
 	.byte	0xa
 	.uahalf	0x16d2
-	.uaword	0x18197
+	.uaword	0x1818c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16d5
-	.uaword	0x18206
+	.uaword	0x181fb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16d7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16d8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16d9
-	.uaword	0xc1ec
+	.uaword	0xc1e1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_THMA"
 	.byte	0xa
 	.uahalf	0x16da
-	.uaword	0x181de
+	.uaword	0x181d3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16dd
-	.uaword	0x18248
+	.uaword	0x1823d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16df
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16e0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16e1
-	.uaword	0xc24e
+	.uaword	0xc243
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_THMI"
 	.byte	0xa
 	.uahalf	0x16e2
-	.uaword	0x18220
+	.uaword	0x18215
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16e5
-	.uaword	0x1828a
+	.uaword	0x1827f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16e7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16e8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16e9
-	.uaword	0xc2b2
+	.uaword	0xc2a7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_THVAL"
 	.byte	0xa
 	.uahalf	0x16ea
-	.uaword	0x18262
+	.uaword	0x18257
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16ed
-	.uaword	0x182cd
+	.uaword	0x182c2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16ef
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16f0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16f1
-	.uaword	0xc313
+	.uaword	0xc308
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TLR"
 	.byte	0xa
 	.uahalf	0x16f2
-	.uaword	0x182a5
+	.uaword	0x1829a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16f5
-	.uaword	0x1830e
+	.uaword	0x18303
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16f7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x16f8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x16f9
-	.uaword	0xc380
+	.uaword	0xc375
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TOV"
 	.byte	0xa
 	.uahalf	0x16fa
-	.uaword	0x182e6
+	.uaword	0x182db
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x16fd
-	.uaword	0x1834f
+	.uaword	0x18344
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x16ff
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1700
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1701
-	.uaword	0xc3ef
+	.uaword	0xc3e4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TOV_S"
 	.byte	0xa
 	.uahalf	0x1702
-	.uaword	0x18327
+	.uaword	0x1831c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1705
-	.uaword	0x18392
+	.uaword	0x18387
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1707
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1708
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1709
-	.uaword	0xc453
+	.uaword	0xc448
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TS_S_0"
 	.byte	0xa
 	.uahalf	0x170a
-	.uaword	0x1836a
+	.uaword	0x1835f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x170d
-	.uaword	0x183d6
+	.uaword	0x183cb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x170f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1710
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1711
-	.uaword	0xc4b8
+	.uaword	0xc4ad
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TS_S_1"
 	.byte	0xa
 	.uahalf	0x1712
-	.uaword	0x183ae
+	.uaword	0x183a3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1715
-	.uaword	0x1841a
+	.uaword	0x1840f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1717
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1718
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1719
-	.uaword	0xc51d
+	.uaword	0xc512
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TS_T_0"
 	.byte	0xa
 	.uahalf	0x171a
-	.uaword	0x183f2
+	.uaword	0x183e7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x171d
-	.uaword	0x1845e
+	.uaword	0x18453
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x171f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1720
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1721
-	.uaword	0xc582
+	.uaword	0xc577
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TS_T_1"
 	.byte	0xa
 	.uahalf	0x1722
-	.uaword	0x18436
+	.uaword	0x1842b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1725
-	.uaword	0x184a2
+	.uaword	0x18497
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1727
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1728
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1729
-	.uaword	0xc5e6
+	.uaword	0xc5db
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TSAC"
 	.byte	0xa
 	.uahalf	0x172a
-	.uaword	0x1847a
+	.uaword	0x1846f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x172d
-	.uaword	0x184e4
+	.uaword	0x184d9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x172f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1730
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1731
-	.uaword	0xc64a
+	.uaword	0xc63f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL_TSF_S"
 	.byte	0xa
 	.uahalf	0x1732
-	.uaword	0x184bc
+	.uaword	0x184b1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1735
-	.uaword	0x18527
+	.uaword	0x1851c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1737
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1738
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1739
-	.uaword	0xc7e2
+	.uaword	0xc7d7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DXINCON"
 	.byte	0xa
 	.uahalf	0x173a
-	.uaword	0x184ff
+	.uaword	0x184f4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x173d
-	.uaword	0x18567
+	.uaword	0x1855c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x173f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1740
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1741
-	.uaword	0xc8d0
+	.uaword	0xc8c5
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DXOUTCON"
 	.byte	0xa
 	.uahalf	0x1742
-	.uaword	0x1853f
+	.uaword	0x18534
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1745
-	.uaword	0x185a8
+	.uaword	0x1859d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1747
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1748
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1749
-	.uaword	0xc99d
+	.uaword	0xc992
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x174a
-	.uaword	0x18580
+	.uaword	0x18575
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x174d
-	.uaword	0x185e8
+	.uaword	0x185dd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x174f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1750
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1751
-	.uaword	0xca8d
+	.uaword	0xca82
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_F2A_ENABLE"
 	.byte	0xa
 	.uahalf	0x1752
-	.uaword	0x185c0
+	.uaword	0x185b5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1755
-	.uaword	0x1862b
+	.uaword	0x18620
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1757
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1758
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1759
-	.uaword	0xcafb
+	.uaword	0xcaf0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_F2A_RD_CH_ARU_RD_FIFO"
 	.byte	0xa
 	.uahalf	0x175a
-	.uaword	0x18603
+	.uaword	0x185f8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x175d
-	.uaword	0x18679
+	.uaword	0x1866e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x175f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1760
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1761
-	.uaword	0xcb93
+	.uaword	0xcb88
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_F2A_STR_CH_STR_CFG"
 	.byte	0xa
 	.uahalf	0x1762
-	.uaword	0x18651
+	.uaword	0x18646
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1765
-	.uaword	0x186c4
+	.uaword	0x186b9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1767
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1768
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1769
-	.uaword	0xcc35
+	.uaword	0xcc2a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_CTRL"
 	.byte	0xa
 	.uahalf	0x176a
-	.uaword	0x1869c
+	.uaword	0x18691
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x176d
-	.uaword	0x18709
+	.uaword	0x186fe
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x176f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1770
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1771
-	.uaword	0xcd0b
+	.uaword	0xcd00
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x1772
-	.uaword	0x186e1
+	.uaword	0x186d6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1775
-	.uaword	0x18751
+	.uaword	0x18746
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1777
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1778
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1779
-	.uaword	0xcd79
+	.uaword	0xcd6e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_END_ADDR"
 	.byte	0xa
 	.uahalf	0x177a
-	.uaword	0x18729
+	.uaword	0x1871e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x177d
-	.uaword	0x1879a
+	.uaword	0x1878f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x177f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1780
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1781
-	.uaword	0xcdec
+	.uaword	0xcde1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_FILL_LEVEL"
 	.byte	0xa
 	.uahalf	0x1782
-	.uaword	0x18772
+	.uaword	0x18767
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1785
-	.uaword	0x187e5
+	.uaword	0x187da
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1787
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1788
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1789
-	.uaword	0xcebe
+	.uaword	0xceb3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x178a
-	.uaword	0x187bd
+	.uaword	0x187b2
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x178d
-	.uaword	0x1882c
+	.uaword	0x18821
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x178f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1790
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1791
-	.uaword	0xcf85
+	.uaword	0xcf7a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x1792
-	.uaword	0x18804
+	.uaword	0x187f9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1795
-	.uaword	0x18878
+	.uaword	0x1886d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1797
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1798
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1799
-	.uaword	0xd02b
+	.uaword	0xd020
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x179a
-	.uaword	0x18850
+	.uaword	0x18845
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x179d
-	.uaword	0x188c1
+	.uaword	0x188b6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x179f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17a0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17a1
-	.uaword	0xd0e3
+	.uaword	0xd0d8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x17a2
-	.uaword	0x18899
+	.uaword	0x1888e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17a5
-	.uaword	0x1890c
+	.uaword	0x18901
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17a7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17a8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17a9
-	.uaword	0xd154
+	.uaword	0xd149
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_LOWER_WM"
 	.byte	0xa
 	.uahalf	0x17aa
-	.uaword	0x188e4
+	.uaword	0x188d9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17ad
-	.uaword	0x18955
+	.uaword	0x1894a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17af
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17b0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17b1
-	.uaword	0xd1c1
+	.uaword	0xd1b6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_RD_PTR"
 	.byte	0xa
 	.uahalf	0x17b2
-	.uaword	0x1892d
+	.uaword	0x18922
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17b5
-	.uaword	0x1899c
+	.uaword	0x18991
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17b7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17b8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17b9
-	.uaword	0xd230
+	.uaword	0xd225
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_START_ADDR"
 	.byte	0xa
 	.uahalf	0x17ba
-	.uaword	0x18974
+	.uaword	0x18969
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17bd
-	.uaword	0x189e7
+	.uaword	0x189dc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17bf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17c0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17c1
-	.uaword	0xd2d7
+	.uaword	0xd2cc
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_STATUS"
 	.byte	0xa
 	.uahalf	0x17c2
-	.uaword	0x189bf
+	.uaword	0x189b4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17c5
-	.uaword	0x18a2e
+	.uaword	0x18a23
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17c7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17c8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17c9
-	.uaword	0xd344
+	.uaword	0xd339
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_UPPER_WM"
 	.byte	0xa
 	.uahalf	0x17ca
-	.uaword	0x18a06
+	.uaword	0x189fb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17cd
-	.uaword	0x18a77
+	.uaword	0x18a6c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17cf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17d0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17d1
-	.uaword	0xd3b1
+	.uaword	0xd3a6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH_WR_PTR"
 	.byte	0xa
 	.uahalf	0x17d2
-	.uaword	0x18a4f
+	.uaword	0x18a44
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17d5
-	.uaword	0x18abe
+	.uaword	0x18ab3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17d7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17d8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17d9
-	.uaword	0xd59e
+	.uaword	0xd593
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_0"
 	.byte	0xa
 	.uahalf	0x17da
-	.uaword	0x18a96
+	.uaword	0x18a8b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17dd
-	.uaword	0x18b01
+	.uaword	0x18af6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17df
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17e0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17e1
-	.uaword	0xd9be
+	.uaword	0xd9b3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_1"
 	.byte	0xa
 	.uahalf	0x17e2
-	.uaword	0x18ad9
+	.uaword	0x18ace
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17e5
-	.uaword	0x18b44
+	.uaword	0x18b39
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17e7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17e8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17e9
-	.uaword	0xd6c2
+	.uaword	0xd6b7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_10"
 	.byte	0xa
 	.uahalf	0x17ea
-	.uaword	0x18b1c
+	.uaword	0x18b11
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17ed
-	.uaword	0x18b88
+	.uaword	0x18b7d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17ef
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17f0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17f1
-	.uaword	0xdd18
+	.uaword	0xdd0d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_2"
 	.byte	0xa
 	.uahalf	0x17f2
-	.uaword	0x18b60
+	.uaword	0x18b55
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17f5
-	.uaword	0x18bcb
+	.uaword	0x18bc0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17f7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x17f8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x17f9
-	.uaword	0xe07b
+	.uaword	0xe070
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_4"
 	.byte	0xa
 	.uahalf	0x17fa
-	.uaword	0x18ba3
+	.uaword	0x18b98
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x17fd
-	.uaword	0x18c0e
+	.uaword	0x18c03
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x17ff
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1800
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1801
-	.uaword	0xe3ea
+	.uaword	0xe3df
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_6"
 	.byte	0xa
 	.uahalf	0x1802
-	.uaword	0x18be6
+	.uaword	0x18bdb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1805
-	.uaword	0x18c51
+	.uaword	0x18c46
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1807
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1808
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1809
-	.uaword	0xe5d3
+	.uaword	0xe5c8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_7"
 	.byte	0xa
 	.uahalf	0x180a
-	.uaword	0x18c29
+	.uaword	0x18c1e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x180d
-	.uaword	0x18c94
+	.uaword	0x18c89
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x180f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1810
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1811
-	.uaword	0xe956
+	.uaword	0xe94b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_9"
 	.byte	0xa
 	.uahalf	0x1812
-	.uaword	0x18c6c
+	.uaword	0x18c61
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1815
-	.uaword	0x18cd7
+	.uaword	0x18ccc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1817
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1818
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1819
-	.uaword	0xea84
+	.uaword	0xea79
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_CEI0"
 	.byte	0xa
 	.uahalf	0x181a
-	.uaword	0x18caf
+	.uaword	0x18ca4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x181d
-	.uaword	0x18d1d
+	.uaword	0x18d12
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x181f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1820
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1821
-	.uaword	0xee03
+	.uaword	0xedf8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_CEI1"
 	.byte	0xa
 	.uahalf	0x1822
-	.uaword	0x18cf5
+	.uaword	0x18cea
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1825
-	.uaword	0x18d63
+	.uaword	0x18d58
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1827
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1828
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1829
-	.uaword	0xf18c
+	.uaword	0xf181
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_CEI3"
 	.byte	0xa
 	.uahalf	0x182a
-	.uaword	0x18d3b
+	.uaword	0x18d30
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x182d
-	.uaword	0x18da9
+	.uaword	0x18d9e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x182f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1830
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1831
-	.uaword	0xf36c
+	.uaword	0xf361
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM_IRQG_MEI"
 	.byte	0xa
 	.uahalf	0x1832
-	.uaword	0x18d81
+	.uaword	0x18d76
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1835
-	.uaword	0x18dee
+	.uaword	0x18de3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1837
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1838
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1839
-	.uaword	0xf43a
+	.uaword	0xf42f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_CAN_OUTSEL"
 	.byte	0xa
 	.uahalf	0x183a
-	.uaword	0x18dc6
+	.uaword	0x18dbb
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x183d
-	.uaword	0x18e3a
+	.uaword	0x18e2f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x183f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1840
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1841
-	.uaword	0xf528
+	.uaword	0xf51d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_DSADC_INSEL"
 	.byte	0xa
 	.uahalf	0x1842
-	.uaword	0x18e12
+	.uaword	0x18e07
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1845
-	.uaword	0x18e87
+	.uaword	0x18e7c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1847
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1848
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1849
-	.uaword	0xf641
+	.uaword	0xf636
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_DSADC_OUTSEL0"
 	.byte	0xa
 	.uahalf	0x184a
-	.uaword	0x18e5f
+	.uaword	0x18e54
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x184d
-	.uaword	0x18ed6
+	.uaword	0x18ecb
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x184f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1850
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1851
-	.uaword	0xf70b
+	.uaword	0xf700
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_PSI5_OUTSEL0"
 	.byte	0xa
 	.uahalf	0x1852
-	.uaword	0x18eae
+	.uaword	0x18ea3
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1855
-	.uaword	0x18f24
+	.uaword	0x18f19
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1857
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1858
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1859
-	.uaword	0xf7e4
+	.uaword	0xf7d9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_PSI5S_OUTSEL"
 	.byte	0xa
 	.uahalf	0x185a
-	.uaword	0x18efc
+	.uaword	0x18ef1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x185d
-	.uaword	0x18f72
+	.uaword	0x18f67
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x185f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1860
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1861
-	.uaword	0xf93b
+	.uaword	0xf930
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_T_OUTSEL"
 	.byte	0xa
 	.uahalf	0x1862
-	.uaword	0x18f4a
+	.uaword	0x18f3f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1865
-	.uaword	0x18fbc
+	.uaword	0x18fb1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1867
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1868
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1869
-	.uaword	0xfa25
+	.uaword	0xfa1a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_TIM_INSEL"
 	.byte	0xa
 	.uahalf	0x186a
-	.uaword	0x18f94
+	.uaword	0x18f89
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x186d
-	.uaword	0x19007
+	.uaword	0x18ffc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x186f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1870
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1871
-	.uaword	0xfaf7
+	.uaword	0xfaec
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x1872
-	.uaword	0x18fdf
+	.uaword	0x18fd4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1875
-	.uaword	0x19046
+	.uaword	0x1903b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1877
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1878
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1879
-	.uaword	0xfbb6
+	.uaword	0xfbab
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x187a
-	.uaword	0x1901e
+	.uaword	0x19013
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x187d
-	.uaword	0x1908a
+	.uaword	0x1907f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x187f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1880
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1881
-	.uaword	0xfc18
+	.uaword	0xfc0d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x1882
-	.uaword	0x19062
+	.uaword	0x19057
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1885
-	.uaword	0x190cb
+	.uaword	0x190c0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1887
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1888
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1889
-	.uaword	0xfcc8
+	.uaword	0xfcbd
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x188a
-	.uaword	0x190a3
+	.uaword	0x19098
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x188d
-	.uaword	0x1910e
+	.uaword	0x19103
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x188f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1890
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1891
-	.uaword	0xfd3a
+	.uaword	0xfd2f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_KRST0"
 	.byte	0xa
 	.uahalf	0x1892
-	.uaword	0x190e6
+	.uaword	0x190db
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1895
-	.uaword	0x1914c
+	.uaword	0x19141
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1897
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1898
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1899
-	.uaword	0xfd93
+	.uaword	0xfd88
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_KRST1"
 	.byte	0xa
 	.uahalf	0x189a
-	.uaword	0x19124
+	.uaword	0x19119
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x189d
-	.uaword	0x1918a
+	.uaword	0x1917f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x189f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18a0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18a1
-	.uaword	0xfdee
+	.uaword	0xfde3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_KRSTCLR"
 	.byte	0xa
 	.uahalf	0x18a2
-	.uaword	0x19162
+	.uaword	0x19157
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18a5
-	.uaword	0x191ca
+	.uaword	0x191bf
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18a7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18a8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18a9
-	.uaword	0xff88
+	.uaword	0xff7d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MAP_CTRL"
 	.byte	0xa
 	.uahalf	0x18aa
-	.uaword	0x191a2
+	.uaword	0x19197
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18ad
-	.uaword	0x1920b
+	.uaword	0x19200
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18af
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18b0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18b1
-	.uaword	0x1001c
+	.uaword	0x10011
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCFG_CTRL"
 	.byte	0xa
 	.uahalf	0x18b2
-	.uaword	0x191e3
+	.uaword	0x191d8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18b5
-	.uaword	0x1924d
+	.uaword	0x19242
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18b7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18b8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18b9
-	.uaword	0x10186
+	.uaword	0x1017b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH0_CTRG"
 	.byte	0xa
 	.uahalf	0x18ba
-	.uaword	0x19225
+	.uaword	0x1921a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18bd
-	.uaword	0x19292
+	.uaword	0x19287
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18bf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18c0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18c1
-	.uaword	0x102f3
+	.uaword	0x102e8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH0_STRG"
 	.byte	0xa
 	.uahalf	0x18c2
-	.uaword	0x1926a
+	.uaword	0x1925f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18c5
-	.uaword	0x192d7
+	.uaword	0x192cc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18c7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18c8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18c9
-	.uaword	0x1039d
+	.uaword	0x10392
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_ACB"
 	.byte	0xa
 	.uahalf	0x18ca
-	.uaword	0x192af
+	.uaword	0x192a4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18cd
-	.uaword	0x1931a
+	.uaword	0x1930f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18cf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18d0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18d1
-	.uaword	0x104ac
+	.uaword	0x104a1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_CTRL"
 	.byte	0xa
 	.uahalf	0x18d2
-	.uaword	0x192f2
+	.uaword	0x192e7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18d5
-	.uaword	0x1935e
+	.uaword	0x19353
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18d7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18d8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18d9
-	.uaword	0x10554
+	.uaword	0x10549
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x18da
-	.uaword	0x19336
+	.uaword	0x1932b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18dd
-	.uaword	0x193a5
+	.uaword	0x1939a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18df
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18e0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18e1
-	.uaword	0x105fb
+	.uaword	0x105f0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x18e2
-	.uaword	0x1937d
+	.uaword	0x19372
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18e5
-	.uaword	0x193eb
+	.uaword	0x193e0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18e7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18e8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18e9
-	.uaword	0x106a9
+	.uaword	0x1069e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x18ea
-	.uaword	0x193c3
+	.uaword	0x193b8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18ed
-	.uaword	0x19436
+	.uaword	0x1942b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18ef
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18f0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18f1
-	.uaword	0x10719
+	.uaword	0x1070e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x18f2
-	.uaword	0x1940e
+	.uaword	0x19403
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18f5
-	.uaword	0x1947e
+	.uaword	0x19473
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18f7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x18f8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x18f9
-	.uaword	0x107bc
+	.uaword	0x107b1
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x18fa
-	.uaword	0x19456
+	.uaword	0x1944b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x18fd
-	.uaword	0x194c8
+	.uaword	0x194bd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x18ff
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1900
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1901
-	.uaword	0x10824
+	.uaword	0x10819
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_PC"
 	.byte	0xa
 	.uahalf	0x1902
-	.uaword	0x194a0
+	.uaword	0x19495
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1905
-	.uaword	0x1950a
+	.uaword	0x194ff
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1907
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1908
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1909
-	.uaword	0x10885
+	.uaword	0x1087a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_R0"
 	.byte	0xa
 	.uahalf	0x190a
-	.uaword	0x194e2
+	.uaword	0x194d7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x190d
-	.uaword	0x1954c
+	.uaword	0x19541
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x190f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1910
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1911
-	.uaword	0x108e6
+	.uaword	0x108db
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_R1"
 	.byte	0xa
 	.uahalf	0x1912
-	.uaword	0x19524
+	.uaword	0x19519
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1915
-	.uaword	0x1958e
+	.uaword	0x19583
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1917
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1918
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1919
-	.uaword	0x10947
+	.uaword	0x1093c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_R2"
 	.byte	0xa
 	.uahalf	0x191a
-	.uaword	0x19566
+	.uaword	0x1955b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x191d
-	.uaword	0x195d0
+	.uaword	0x195c5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x191f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1920
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1921
-	.uaword	0x109a8
+	.uaword	0x1099d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_R3"
 	.byte	0xa
 	.uahalf	0x1922
-	.uaword	0x195a8
+	.uaword	0x1959d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1925
-	.uaword	0x19612
+	.uaword	0x19607
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1927
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1928
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1929
-	.uaword	0x10a09
+	.uaword	0x109fe
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_R4"
 	.byte	0xa
 	.uahalf	0x192a
-	.uaword	0x195ea
+	.uaword	0x195df
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x192d
-	.uaword	0x19654
+	.uaword	0x19649
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x192f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1930
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1931
-	.uaword	0x10a6a
+	.uaword	0x10a5f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_R5"
 	.byte	0xa
 	.uahalf	0x1932
-	.uaword	0x1962c
+	.uaword	0x19621
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1935
-	.uaword	0x19696
+	.uaword	0x1968b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1937
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1938
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1939
-	.uaword	0x10acb
+	.uaword	0x10ac0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_R6"
 	.byte	0xa
 	.uahalf	0x193a
-	.uaword	0x1966e
+	.uaword	0x19663
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x193d
-	.uaword	0x196d8
+	.uaword	0x196cd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x193f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1940
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1941
-	.uaword	0x10b2c
+	.uaword	0x10b21
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH_R7"
 	.byte	0xa
 	.uahalf	0x1942
-	.uaword	0x196b0
+	.uaword	0x196a5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1945
-	.uaword	0x1971a
+	.uaword	0x1970f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1947
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1948
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1949
-	.uaword	0x10bc9
+	.uaword	0x10bbe
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CTRL"
 	.byte	0xa
 	.uahalf	0x194a
-	.uaword	0x196f2
+	.uaword	0x196e7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x194d
-	.uaword	0x1975b
+	.uaword	0x19750
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x194f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1950
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1951
-	.uaword	0x10c9f
+	.uaword	0x10c94
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_ERR"
 	.byte	0xa
 	.uahalf	0x1952
-	.uaword	0x19733
+	.uaword	0x19728
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1955
-	.uaword	0x1979b
+	.uaword	0x19790
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1957
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1958
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1959
-	.uaword	0x10e84
+	.uaword	0x10e79
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_RST"
 	.byte	0xa
 	.uahalf	0x195a
-	.uaword	0x19773
+	.uaword	0x19768
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x195d
-	.uaword	0x197db
+	.uaword	0x197d0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x195f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1960
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1961
-	.uaword	0x11003
+	.uaword	0x10ff8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCSINTCLR"
 	.byte	0xa
 	.uahalf	0x1962
-	.uaword	0x197b3
+	.uaword	0x197a8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1965
-	.uaword	0x1981d
+	.uaword	0x19812
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1967
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1968
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1969
-	.uaword	0x11185
+	.uaword	0x1117a
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCSINTSTAT"
 	.byte	0xa
 	.uahalf	0x196a
-	.uaword	0x197f5
+	.uaword	0x197ea
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x196d
-	.uaword	0x19860
+	.uaword	0x19855
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x196f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1970
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1971
-	.uaword	0x1144c
+	.uaword	0x11441
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MON_ACTIVITY_0"
 	.byte	0xa
 	.uahalf	0x1972
-	.uaword	0x19838
+	.uaword	0x1982d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1975
-	.uaword	0x198a7
+	.uaword	0x1989c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1977
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1978
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1979
-	.uaword	0x11646
+	.uaword	0x1163b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MON_STATUS"
 	.byte	0xa
 	.uahalf	0x197a
-	.uaword	0x1987f
+	.uaword	0x19874
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x197d
-	.uaword	0x198ea
+	.uaword	0x198df
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x197f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1980
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1981
-	.uaword	0x1178d
+	.uaword	0x11782
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MSCIN_INHCON"
 	.byte	0xa
 	.uahalf	0x1982
-	.uaword	0x198c2
+	.uaword	0x198b7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1985
-	.uaword	0x1992f
+	.uaword	0x19924
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1987
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1988
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1989
-	.uaword	0x118d6
+	.uaword	0x118cb
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MSCIN_INLCON"
 	.byte	0xa
 	.uahalf	0x198a
-	.uaword	0x19907
+	.uaword	0x198fc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x198d
-	.uaword	0x19974
+	.uaword	0x19969
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x198f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1990
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1991
-	.uaword	0x1199c
+	.uaword	0x11991
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MSCSET_CON0"
 	.byte	0xa
 	.uahalf	0x1992
-	.uaword	0x1994c
+	.uaword	0x19941
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1995
-	.uaword	0x199b8
+	.uaword	0x199ad
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1997
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1998
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1999
-	.uaword	0x11a61
+	.uaword	0x11a56
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MSCSET_CON1"
 	.byte	0xa
 	.uahalf	0x199a
-	.uaword	0x19990
+	.uaword	0x19985
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x199d
-	.uaword	0x199fc
+	.uaword	0x199f1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x199f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19a0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19a1
-	.uaword	0x11b28
+	.uaword	0x11b1d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MSCSET_CON2"
 	.byte	0xa
 	.uahalf	0x19a2
-	.uaword	0x199d4
+	.uaword	0x199c9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19a5
-	.uaword	0x19a40
+	.uaword	0x19a35
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19a7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19a8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19a9
-	.uaword	0x11bed
+	.uaword	0x11be2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MSCSET_CON3"
 	.byte	0xa
 	.uahalf	0x19aa
-	.uaword	0x19a18
+	.uaword	0x19a0d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19ad
-	.uaword	0x19a84
+	.uaword	0x19a79
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19af
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19b0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19b1
-	.uaword	0x11c7f
+	.uaword	0x11c74
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_OCS"
 	.byte	0xa
 	.uahalf	0x19b2
-	.uaword	0x19a5c
+	.uaword	0x19a51
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19b5
-	.uaword	0x19ac0
+	.uaword	0x19ab5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19b7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19b8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19b9
-	.uaword	0x11ce7
+	.uaword	0x11cdc
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ODA"
 	.byte	0xa
 	.uahalf	0x19ba
-	.uaword	0x19a98
+	.uaword	0x19a8d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19bd
-	.uaword	0x19afc
+	.uaword	0x19af1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19bf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19c0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19c1
-	.uaword	0x11d5d
+	.uaword	0x11d52
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_OTBU0T"
 	.byte	0xa
 	.uahalf	0x19c2
-	.uaword	0x19ad4
+	.uaword	0x19ac9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19c5
-	.uaword	0x19b3b
+	.uaword	0x19b30
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19c7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19c8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19c9
-	.uaword	0x11dd6
+	.uaword	0x11dcb
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_OTBU1T"
 	.byte	0xa
 	.uahalf	0x19ca
-	.uaword	0x19b13
+	.uaword	0x19b08
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19cd
-	.uaword	0x19b7a
+	.uaword	0x19b6f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19cf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19d0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19d1
-	.uaword	0x11e4f
+	.uaword	0x11e44
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_OTBU2T"
 	.byte	0xa
 	.uahalf	0x19d2
-	.uaword	0x19b52
+	.uaword	0x19b47
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19d5
-	.uaword	0x19bb9
+	.uaword	0x19bae
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19d7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19d8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19d9
-	.uaword	0x11f59
+	.uaword	0x11f4e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_OTSC0"
 	.byte	0xa
 	.uahalf	0x19da
-	.uaword	0x19b91
+	.uaword	0x19b86
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19dd
-	.uaword	0x19bf7
+	.uaword	0x19bec
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19df
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19e0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19e1
-	.uaword	0x11fe1
+	.uaword	0x11fd6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_OTSC1"
 	.byte	0xa
 	.uahalf	0x19e2
-	.uaword	0x19bcf
+	.uaword	0x19bc4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19e5
-	.uaword	0x19c35
+	.uaword	0x19c2a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19e7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19e8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19e9
-	.uaword	0x1207f
+	.uaword	0x12074
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_OTSS"
 	.byte	0xa
 	.uahalf	0x19ea
-	.uaword	0x19c0d
+	.uaword	0x19c02
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19ed
-	.uaword	0x19c72
+	.uaword	0x19c67
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19ef
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19f0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19f1
-	.uaword	0x1213b
+	.uaword	0x12130
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_REV"
 	.byte	0xa
 	.uahalf	0x19f2
-	.uaword	0x19c4a
+	.uaword	0x19c3f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19f5
-	.uaword	0x19cae
+	.uaword	0x19ca3
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19f7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x19f8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x19f9
-	.uaword	0x12190
+	.uaword	0x12185
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_RST"
 	.byte	0xa
 	.uahalf	0x19fa
-	.uaword	0x19c86
+	.uaword	0x19c7b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x19fd
-	.uaword	0x19cea
+	.uaword	0x19cdf
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x19ff
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a00
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a01
-	.uaword	0x121e9
+	.uaword	0x121de
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_CMP"
 	.byte	0xa
 	.uahalf	0x1a02
-	.uaword	0x19cc2
+	.uaword	0x19cb7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a05
-	.uaword	0x19d2a
+	.uaword	0x19d1f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a07
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a08
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a09
-	.uaword	0x12246
+	.uaword	0x1223b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_CNT"
 	.byte	0xa
 	.uahalf	0x1a0a
-	.uaword	0x19d02
+	.uaword	0x19cf7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a0d
-	.uaword	0x19d6a
+	.uaword	0x19d5f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a0f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a10
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a11
-	.uaword	0x123a4
+	.uaword	0x12399
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_CTRL_STAT"
 	.byte	0xa
 	.uahalf	0x1a12
-	.uaword	0x19d42
+	.uaword	0x19d37
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a15
-	.uaword	0x19db0
+	.uaword	0x19da5
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a17
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a18
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a19
-	.uaword	0x1248b
+	.uaword	0x12480
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x1a1a
-	.uaword	0x19d88
+	.uaword	0x19d7d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a1d
-	.uaword	0x19df4
+	.uaword	0x19de9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a1f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a20
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a21
-	.uaword	0x1256a
+	.uaword	0x1255f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x1a22
-	.uaword	0x19dcc
+	.uaword	0x19dc1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a25
-	.uaword	0x19e37
+	.uaword	0x19e2c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a27
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a28
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a29
-	.uaword	0x1263e
+	.uaword	0x12633
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x1a2a
-	.uaword	0x19e0f
+	.uaword	0x19e04
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a2d
-	.uaword	0x19e7f
+	.uaword	0x19e74
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a2f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a30
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a31
-	.uaword	0x126a8
+	.uaword	0x1269d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x1a32
-	.uaword	0x19e57
+	.uaword	0x19e4c
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a35
-	.uaword	0x19ec4
+	.uaword	0x19eb9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a37
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a38
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a39
-	.uaword	0x12769
+	.uaword	0x1275e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x1a3a
-	.uaword	0x19e9c
+	.uaword	0x19e91
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a3d
-	.uaword	0x19f0b
+	.uaword	0x19f00
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a3f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a40
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a41
-	.uaword	0x127db
+	.uaword	0x127d0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_OUT_CTRL"
 	.byte	0xa
 	.uahalf	0x1a42
-	.uaword	0x19ee3
+	.uaword	0x19ed8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a45
-	.uaword	0x19f50
+	.uaword	0x19f45
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a47
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a48
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a49
-	.uaword	0x12849
+	.uaword	0x1283e
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_OUT_PAT"
 	.byte	0xa
 	.uahalf	0x1a4a
-	.uaword	0x19f28
+	.uaword	0x19f1d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a4d
-	.uaword	0x19f94
+	.uaword	0x19f89
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a4f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a50
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a51
-	.uaword	0x129ca
+	.uaword	0x129bf
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE_PAT"
 	.byte	0xa
 	.uahalf	0x1a52
-	.uaword	0x19f6c
+	.uaword	0x19f61
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a55
-	.uaword	0x19fd4
+	.uaword	0x19fc9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a57
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a58
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a59
-	.uaword	0x12a2d
+	.uaword	0x12a22
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TBU_CH0_BASE"
 	.byte	0xa
 	.uahalf	0x1a5a
-	.uaword	0x19fac
+	.uaword	0x19fa1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a5d
-	.uaword	0x1a019
+	.uaword	0x1a00e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a5f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a60
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a61
-	.uaword	0x12aa8
+	.uaword	0x12a9d
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TBU_CH0_CTRL"
 	.byte	0xa
 	.uahalf	0x1a62
-	.uaword	0x19ff1
+	.uaword	0x19fe6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a65
-	.uaword	0x1a05e
+	.uaword	0x1a053
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a67
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a68
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a69
-	.uaword	0x12b10
+	.uaword	0x12b05
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TBU_CH1_BASE"
 	.byte	0xa
 	.uahalf	0x1a6a
-	.uaword	0x1a036
+	.uaword	0x1a02b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a6d
-	.uaword	0x1a0a3
+	.uaword	0x1a098
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a6f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a70
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a71
-	.uaword	0x12b8b
+	.uaword	0x12b80
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TBU_CH1_CTRL"
 	.byte	0xa
 	.uahalf	0x1a72
-	.uaword	0x1a07b
+	.uaword	0x1a070
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a75
-	.uaword	0x1a0e8
+	.uaword	0x1a0dd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a77
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a78
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a79
-	.uaword	0x12bf3
+	.uaword	0x12be8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TBU_CH2_BASE"
 	.byte	0xa
 	.uahalf	0x1a7a
-	.uaword	0x1a0c0
+	.uaword	0x1a0b5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a7d
-	.uaword	0x1a12d
+	.uaword	0x1a122
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a7f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a80
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a81
-	.uaword	0x12c6e
+	.uaword	0x12c63
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TBU_CH2_CTRL"
 	.byte	0xa
 	.uahalf	0x1a82
-	.uaword	0x1a105
+	.uaword	0x1a0fa
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a85
-	.uaword	0x1a172
+	.uaword	0x1a167
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a87
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a88
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a89
-	.uaword	0x12d03
+	.uaword	0x12cf8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TBU_CHEN"
 	.byte	0xa
 	.uahalf	0x1a8a
-	.uaword	0x1a14a
+	.uaword	0x1a13f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a8d
-	.uaword	0x1a1b3
+	.uaword	0x1a1a8
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a8f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a90
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a91
-	.uaword	0x12df8
+	.uaword	0x12ded
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_AUX_IN_SRC"
 	.byte	0xa
 	.uahalf	0x1a92
-	.uaword	0x1a18b
+	.uaword	0x1a180
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a95
-	.uaword	0x1a1fa
+	.uaword	0x1a1ef
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a97
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1a98
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1a99
-	.uaword	0x12e5f
+	.uaword	0x12e54
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_CNT"
 	.byte	0xa
 	.uahalf	0x1a9a
-	.uaword	0x1a1d2
+	.uaword	0x1a1c7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1a9d
-	.uaword	0x1a23d
+	.uaword	0x1a232
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1a9f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1aa0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1aa1
-	.uaword	0x12ec5
+	.uaword	0x12eba
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_CNTS"
 	.byte	0xa
 	.uahalf	0x1aa2
-	.uaword	0x1a215
+	.uaword	0x1a20a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1aa5
-	.uaword	0x1a281
+	.uaword	0x1a276
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1aa7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1aa8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1aa9
-	.uaword	0x130fb
+	.uaword	0x130f0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_CTRL"
 	.byte	0xa
 	.uahalf	0x1aaa
-	.uaword	0x1a259
+	.uaword	0x1a24e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1aad
-	.uaword	0x1a2c5
+	.uaword	0x1a2ba
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1aaf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ab0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ab1
-	.uaword	0x13161
+	.uaword	0x13156
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_ECNT"
 	.byte	0xa
 	.uahalf	0x1ab2
-	.uaword	0x1a29d
+	.uaword	0x1a292
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1ab5
-	.uaword	0x1a309
+	.uaword	0x1a2fe
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1ab7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ab8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ab9
-	.uaword	0x131cf
+	.uaword	0x131c4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_ECTRL"
 	.byte	0xa
 	.uahalf	0x1aba
-	.uaword	0x1a2e1
+	.uaword	0x1a2d6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1abd
-	.uaword	0x1a34e
+	.uaword	0x1a343
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1abf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ac0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ac1
-	.uaword	0x132cd
+	.uaword	0x132c2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_EIRQ_EN"
 	.byte	0xa
 	.uahalf	0x1ac2
-	.uaword	0x1a326
+	.uaword	0x1a31b
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1ac5
-	.uaword	0x1a395
+	.uaword	0x1a38a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1ac7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ac8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ac9
-	.uaword	0x1333a
+	.uaword	0x1332f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_FLT_FE"
 	.byte	0xa
 	.uahalf	0x1aca
-	.uaword	0x1a36d
+	.uaword	0x1a362
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1acd
-	.uaword	0x1a3db
+	.uaword	0x1a3d0
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1acf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ad0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ad1
-	.uaword	0x133a6
+	.uaword	0x1339b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_FLT_RE"
 	.byte	0xa
 	.uahalf	0x1ad2
-	.uaword	0x1a3b3
+	.uaword	0x1a3a8
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1ad5
-	.uaword	0x1a421
+	.uaword	0x1a416
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1ad7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ad8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ad9
-	.uaword	0x1340f
+	.uaword	0x13404
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_GPR0"
 	.byte	0xa
 	.uahalf	0x1ada
-	.uaword	0x1a3f9
+	.uaword	0x1a3ee
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1add
-	.uaword	0x1a465
+	.uaword	0x1a45a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1adf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ae0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ae1
-	.uaword	0x13476
+	.uaword	0x1346b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_GPR1"
 	.byte	0xa
 	.uahalf	0x1ae2
-	.uaword	0x1a43d
+	.uaword	0x1a432
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1ae5
-	.uaword	0x1a4a9
+	.uaword	0x1a49e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1ae7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ae8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ae9
-	.uaword	0x1356c
+	.uaword	0x13561
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x1aea
-	.uaword	0x1a481
+	.uaword	0x1a476
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1aed
-	.uaword	0x1a4ef
+	.uaword	0x1a4e4
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1aef
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1af0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1af1
-	.uaword	0x13657
+	.uaword	0x1364c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x1af2
-	.uaword	0x1a4c7
+	.uaword	0x1a4bc
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1af5
-	.uaword	0x1a53a
+	.uaword	0x1a52f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1af7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1af8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1af9
-	.uaword	0x136c7
+	.uaword	0x136bc
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x1afa
-	.uaword	0x1a512
+	.uaword	0x1a507
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1afd
-	.uaword	0x1a582
+	.uaword	0x1a577
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1aff
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b00
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b01
-	.uaword	0x1379b
+	.uaword	0x13790
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x1b02
-	.uaword	0x1a55a
+	.uaword	0x1a54f
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b05
-	.uaword	0x1a5cc
+	.uaword	0x1a5c1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b07
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b08
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b09
-	.uaword	0x13809
+	.uaword	0x137fe
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_TDUC"
 	.byte	0xa
 	.uahalf	0x1b0a
-	.uaword	0x1a5a4
+	.uaword	0x1a599
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b0d
-	.uaword	0x1a610
+	.uaword	0x1a605
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b0f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b10
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b11
-	.uaword	0x1388e
+	.uaword	0x13883
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH_TDUV"
 	.byte	0xa
 	.uahalf	0x1b12
-	.uaword	0x1a5e8
+	.uaword	0x1a5dd
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b15
-	.uaword	0x1a654
+	.uaword	0x1a649
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b17
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b18
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b19
-	.uaword	0x139fa
+	.uaword	0x139ef
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_IN_SRC"
 	.byte	0xa
 	.uahalf	0x1b1a
-	.uaword	0x1a62c
+	.uaword	0x1a621
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b1d
-	.uaword	0x1a697
+	.uaword	0x1a68c
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b1f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b20
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b21
-	.uaword	0x13aca
+	.uaword	0x13abf
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_RST"
 	.byte	0xa
 	.uahalf	0x1b22
-	.uaword	0x1a66f
+	.uaword	0x1a664
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b25
-	.uaword	0x1a6d7
+	.uaword	0x1a6cc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b27
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b28
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b29
-	.uaword	0x13b2a
+	.uaword	0x13b1f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_CM0"
 	.byte	0xa
 	.uahalf	0x1b2a
-	.uaword	0x1a6af
+	.uaword	0x1a6a4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b2d
-	.uaword	0x1a71a
+	.uaword	0x1a70f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b2f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b30
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b31
-	.uaword	0x13b8d
+	.uaword	0x13b82
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_CM1"
 	.byte	0xa
 	.uahalf	0x1b32
-	.uaword	0x1a6f2
+	.uaword	0x1a6e7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b35
-	.uaword	0x1a75d
+	.uaword	0x1a752
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b37
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b38
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b39
-	.uaword	0x13bf0
+	.uaword	0x13be5
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_CN0"
 	.byte	0xa
 	.uahalf	0x1b3a
-	.uaword	0x1a735
+	.uaword	0x1a72a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b3d
-	.uaword	0x1a7a0
+	.uaword	0x1a795
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b3f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b40
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b41
-	.uaword	0x13d07
+	.uaword	0x13cfc
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_CTRL"
 	.byte	0xa
 	.uahalf	0x1b42
-	.uaword	0x1a778
+	.uaword	0x1a76d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b45
-	.uaword	0x1a7e4
+	.uaword	0x1a7d9
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b47
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b48
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b49
-	.uaword	0x13d7e
+	.uaword	0x13d73
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_IRQ_EN"
 	.byte	0xa
 	.uahalf	0x1b4a
-	.uaword	0x1a7bc
+	.uaword	0x1a7b1
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b4d
-	.uaword	0x1a82a
+	.uaword	0x1a81f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b4f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b50
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b51
-	.uaword	0x13e0c
+	.uaword	0x13e01
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_IRQ_FORCINT"
 	.byte	0xa
 	.uahalf	0x1b52
-	.uaword	0x1a802
+	.uaword	0x1a7f7
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b55
-	.uaword	0x1a875
+	.uaword	0x1a86a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b57
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b58
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b59
-	.uaword	0x13e7c
+	.uaword	0x13e71
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_IRQ_MODE"
 	.byte	0xa
 	.uahalf	0x1b5a
-	.uaword	0x1a84d
+	.uaword	0x1a842
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b5d
-	.uaword	0x1a8bd
+	.uaword	0x1a8b2
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b5f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b60
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b61
-	.uaword	0x13f01
+	.uaword	0x13ef6
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_IRQ_NOTIFY"
 	.byte	0xa
 	.uahalf	0x1b62
-	.uaword	0x1a895
+	.uaword	0x1a88a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b65
-	.uaword	0x1a907
+	.uaword	0x1a8fc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b67
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b68
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b69
-	.uaword	0x13f6b
+	.uaword	0x13f60
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_SR0"
 	.byte	0xa
 	.uahalf	0x1b6a
-	.uaword	0x1a8df
+	.uaword	0x1a8d4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b6d
-	.uaword	0x1a94a
+	.uaword	0x1a93f
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b6f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b70
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b71
-	.uaword	0x13fce
+	.uaword	0x13fc3
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_SR1"
 	.byte	0xa
 	.uahalf	0x1b72
-	.uaword	0x1a922
+	.uaword	0x1a917
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b75
-	.uaword	0x1a98d
+	.uaword	0x1a982
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b77
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b78
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b79
-	.uaword	0x14031
+	.uaword	0x14026
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH_STAT"
 	.byte	0xa
 	.uahalf	0x1b7a
-	.uaword	0x1a965
+	.uaword	0x1a95a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b7d
-	.uaword	0x1a9d1
+	.uaword	0x1a9c6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b7f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b80
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b81
-	.uaword	0x140ba
+	.uaword	0x140af
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC0_ACT_TB"
 	.byte	0xa
 	.uahalf	0x1b82
-	.uaword	0x1a9a9
+	.uaword	0x1a99e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b85
-	.uaword	0x1aa19
+	.uaword	0x1aa0e
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b87
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b88
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b89
-	.uaword	0x1419b
+	.uaword	0x14190
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC0_ENDIS_CTRL"
 	.byte	0xa
 	.uahalf	0x1b8a
-	.uaword	0x1a9f1
+	.uaword	0x1a9e6
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b8d
-	.uaword	0x1aa65
+	.uaword	0x1aa5a
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b8f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b90
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b91
-	.uaword	0x14280
+	.uaword	0x14275
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC0_ENDIS_STAT"
 	.byte	0xa
 	.uahalf	0x1b92
-	.uaword	0x1aa3d
+	.uaword	0x1aa32
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b95
-	.uaword	0x1aab1
+	.uaword	0x1aaa6
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b97
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1b98
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1b99
-	.uaword	0x143d4
+	.uaword	0x143c9
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC0_FUPD_CTRL"
 	.byte	0xa
 	.uahalf	0x1b9a
-	.uaword	0x1aa89
+	.uaword	0x1aa7e
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1b9d
-	.uaword	0x1aafc
+	.uaword	0x1aaf1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1b9f
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ba0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ba1
-	.uaword	0x14546
+	.uaword	0x1453b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC0_GLB_CTRL"
 	.byte	0xa
 	.uahalf	0x1ba2
-	.uaword	0x1aad4
+	.uaword	0x1aac9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1ba5
-	.uaword	0x1ab46
+	.uaword	0x1ab3b
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1ba7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1ba8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1ba9
-	.uaword	0x14627
+	.uaword	0x1461c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC0_INT_TRIG"
 	.byte	0xa
 	.uahalf	0x1baa
-	.uaword	0x1ab1e
+	.uaword	0x1ab13
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bad
-	.uaword	0x1ab90
+	.uaword	0x1ab85
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1baf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1bb0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1bb1
-	.uaword	0x1470a
+	.uaword	0x146ff
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC0_OUTEN_CTRL"
 	.byte	0xa
 	.uahalf	0x1bb2
-	.uaword	0x1ab68
+	.uaword	0x1ab5d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bb5
-	.uaword	0x1abdc
+	.uaword	0x1abd1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1bb7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1bb8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1bb9
-	.uaword	0x147ef
+	.uaword	0x147e4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC0_OUTEN_STAT"
 	.byte	0xa
 	.uahalf	0x1bba
-	.uaword	0x1abb4
+	.uaword	0x1aba9
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bbd
-	.uaword	0x1ac28
+	.uaword	0x1ac1d
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1bbf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1bc0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1bc1
-	.uaword	0x14880
+	.uaword	0x14875
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC1_ACT_TB"
 	.byte	0xa
 	.uahalf	0x1bc2
-	.uaword	0x1ac00
+	.uaword	0x1abf5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bc5
-	.uaword	0x1ac70
+	.uaword	0x1ac65
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1bc7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1bc8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1bc9
-	.uaword	0x14961
+	.uaword	0x14956
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC1_ENDIS_CTRL"
 	.byte	0xa
 	.uahalf	0x1bca
-	.uaword	0x1ac48
+	.uaword	0x1ac3d
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bcd
-	.uaword	0x1acbc
+	.uaword	0x1acb1
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1bcf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1bd0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1bd1
-	.uaword	0x14a46
+	.uaword	0x14a3b
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC1_ENDIS_STAT"
 	.byte	0xa
 	.uahalf	0x1bd2
-	.uaword	0x1ac94
+	.uaword	0x1ac89
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bd5
-	.uaword	0x1ad08
+	.uaword	0x1acfd
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1bd7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1bd8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1bd9
-	.uaword	0x14b9a
+	.uaword	0x14b8f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC1_FUPD_CTRL"
 	.byte	0xa
 	.uahalf	0x1bda
-	.uaword	0x1ace0
+	.uaword	0x1acd5
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bdd
-	.uaword	0x1ad53
+	.uaword	0x1ad48
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1bdf
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1be0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1be1
-	.uaword	0x14d0c
+	.uaword	0x14d01
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC1_GLB_CTRL"
 	.byte	0xa
 	.uahalf	0x1be2
-	.uaword	0x1ad2b
+	.uaword	0x1ad20
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1be5
-	.uaword	0x1ad9d
+	.uaword	0x1ad92
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1be7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1be8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1be9
-	.uaword	0x14ded
+	.uaword	0x14de2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC1_INT_TRIG"
 	.byte	0xa
 	.uahalf	0x1bea
-	.uaword	0x1ad75
+	.uaword	0x1ad6a
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bed
-	.uaword	0x1ade7
+	.uaword	0x1addc
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1bef
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1bf0
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1bf1
-	.uaword	0x14ed0
+	.uaword	0x14ec5
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC1_OUTEN_CTRL"
 	.byte	0xa
 	.uahalf	0x1bf2
-	.uaword	0x1adbf
+	.uaword	0x1adb4
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bf5
-	.uaword	0x1ae33
+	.uaword	0x1ae28
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1bf7
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1bf8
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1bf9
-	.uaword	0x14fb5
+	.uaword	0x14faa
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_TGC1_OUTEN_STAT"
 	.byte	0xa
 	.uahalf	0x1bfa
-	.uaword	0x1ae0b
+	.uaword	0x1ae00
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1bfd
-	.uaword	0x1ae7f
+	.uaword	0x1ae74
 	.uleb128 0x13
 	.string	"U"
 	.byte	0xa
 	.uahalf	0x1bff
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x13
 	.string	"I"
 	.byte	0xa
 	.uahalf	0x1c00
-	.uaword	0x202
+	.uaword	0x1f7
 	.uleb128 0x13
 	.string	"B"
 	.byte	0xa
 	.uahalf	0x1c01
-	.uaword	0x1509c
+	.uaword	0x15091
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TRIGOUT"
 	.byte	0xa
 	.uahalf	0x1c02
-	.uaword	0x1ae57
+	.uaword	0x1ae4c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_AFD_CH"
 	.byte	0x10
 	.byte	0xa
 	.uahalf	0x1c0d
-	.uaword	0x1aecf
+	.uaword	0x1aec4
 	.uleb128 0x15
 	.string	"BUF_ACC"
 	.byte	0xa
 	.uahalf	0x1c0f
-	.uaword	0x152b8
+	.uaword	0x152ad
 	.byte	0
 	.uleb128 0x16
 	.uaword	.LASF8
 	.byte	0xa
 	.uahalf	0x1c10
-	.uaword	0x468
+	.uaword	0x45d
 	.byte	0x4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_AFD_CH"
 	.byte	0xa
 	.uahalf	0x1c11
-	.uaword	0x1aee6
+	.uaword	0x1aedb
 	.uleb128 0x17
-	.uaword	0x1ae97
+	.uaword	0x1ae8c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_AGC"
 	.byte	0x40
 	.byte	0xa
 	.uahalf	0x1c14
-	.uaword	0x1afa8
+	.uaword	0x1af9d
 	.uleb128 0x15
 	.string	"GLB_CTRL"
 	.byte	0xa
 	.uahalf	0x1c16
-	.uaword	0x157be
+	.uaword	0x157b3
 	.byte	0
 	.uleb128 0x15
 	.string	"ENDIS_CTRL"
 	.byte	0xa
 	.uahalf	0x1c17
-	.uaword	0x156db
+	.uaword	0x156d0
 	.byte	0x4
 	.uleb128 0x15
 	.string	"ENDIS_STAT"
 	.byte	0xa
 	.uahalf	0x1c18
-	.uaword	0x15727
+	.uaword	0x1571c
 	.byte	0x8
 	.uleb128 0x16
 	.uaword	.LASF39
 	.byte	0xa
 	.uahalf	0x1c19
-	.uaword	0x15693
+	.uaword	0x15688
 	.byte	0xc
 	.uleb128 0x15
 	.string	"OUTEN_CTRL"
 	.byte	0xa
 	.uahalf	0x1c1a
-	.uaword	0x15852
+	.uaword	0x15847
 	.byte	0x10
 	.uleb128 0x15
 	.string	"OUTEN_STAT"
 	.byte	0xa
 	.uahalf	0x1c1b
-	.uaword	0x1589e
+	.uaword	0x15893
 	.byte	0x14
 	.uleb128 0x15
 	.string	"FUPD_CTRL"
 	.byte	0xa
 	.uahalf	0x1c1c
-	.uaword	0x15773
+	.uaword	0x15768
 	.byte	0x18
 	.uleb128 0x15
 	.string	"INT_TRIG"
 	.byte	0xa
 	.uahalf	0x1c1d
-	.uaword	0x15808
+	.uaword	0x157fd
 	.byte	0x1c
 	.uleb128 0x16
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0x1c1e
-	.uaword	0x528
+	.uaword	0x51d
 	.byte	0x20
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_AGC"
 	.byte	0xa
 	.uahalf	0x1c1f
-	.uaword	0x1afc1
+	.uaword	0x1afb6
 	.uleb128 0x17
-	.uaword	0x1aeeb
+	.uaword	0x1aee0
 	.uleb128 0x12
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c25
-	.uaword	0x1b010
+	.uaword	0x1b005
 	.uleb128 0x1e
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1c27
-	.uaword	0x159b6
+	.uaword	0x159ab
 	.uleb128 0x13
 	.string	"SOMC"
 	.byte	0xa
 	.uahalf	0x1c28
-	.uaword	0x15b69
+	.uaword	0x15b5e
 	.uleb128 0x13
 	.string	"SOMI"
 	.byte	0xa
 	.uahalf	0x1c29
-	.uaword	0x15bae
+	.uaword	0x15ba3
 	.uleb128 0x13
 	.string	"SOMP"
 	.byte	0xa
 	.uahalf	0x1c2a
-	.uaword	0x15bf3
+	.uaword	0x15be8
 	.uleb128 0x13
 	.string	"SOMS"
 	.byte	0xa
 	.uahalf	0x1c2b
-	.uaword	0x15c38
+	.uaword	0x15c2d
 	.byte	0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ATOM_CH"
 	.byte	0x40
 	.byte	0xa
 	.uahalf	0x1c22
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.uleb128 0x15
 	.string	"RDADDR"
 	.byte	0xa
 	.uahalf	0x1c24
-	.uaword	0x15b22
+	.uaword	0x15b17
 	.byte	0
 	.uleb128 0x1f
-	.uaword	0x1afc6
+	.uaword	0x1afbb
 	.byte	0x4
 	.uleb128 0x15
 	.string	"SR0"
 	.byte	0xa
 	.uahalf	0x1c2e
-	.uaword	0x15c7d
+	.uaword	0x15c72
 	.byte	0x8
 	.uleb128 0x15
 	.string	"SR1"
 	.byte	0xa
 	.uahalf	0x1c2f
-	.uaword	0x15cc1
+	.uaword	0x15cb6
 	.byte	0xc
 	.uleb128 0x15
 	.string	"CM0"
 	.byte	0xa
 	.uahalf	0x1c30
-	.uaword	0x158ea
+	.uaword	0x158df
 	.byte	0x10
 	.uleb128 0x15
 	.string	"CM1"
 	.byte	0xa
 	.uahalf	0x1c31
-	.uaword	0x1592e
+	.uaword	0x15923
 	.byte	0x14
 	.uleb128 0x15
 	.string	"CN0"
 	.byte	0xa
 	.uahalf	0x1c32
-	.uaword	0x15972
+	.uaword	0x15967
 	.byte	0x18
 	.uleb128 0x15
 	.string	"STAT"
 	.byte	0xa
 	.uahalf	0x1c33
-	.uaword	0x15d05
+	.uaword	0x15cfa
 	.byte	0x1c
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1c34
-	.uaword	0x15ad7
+	.uaword	0x15acc
 	.byte	0x20
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1c35
-	.uaword	0x159fb
+	.uaword	0x159f0
 	.byte	0x24
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1c36
-	.uaword	0x15a42
+	.uaword	0x15a37
 	.byte	0x28
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1c37
-	.uaword	0x15a8e
+	.uaword	0x15a83
 	.byte	0x2c
 	.uleb128 0x16
 	.uaword	.LASF192
 	.byte	0xa
 	.uahalf	0x1c38
-	.uaword	0x488
+	.uaword	0x47d
 	.byte	0x30
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM_CH"
 	.byte	0xa
 	.uahalf	0x1c39
-	.uaword	0x1b0e9
+	.uaword	0x1b0de
 	.uleb128 0x17
-	.uaword	0x1b010
+	.uaword	0x1b005
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_CLK0_5"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c3c
-	.uaword	0x1b119
+	.uaword	0x1b10e
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1c3e
-	.uaword	0x1681b
+	.uaword	0x16810
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_CLK0_5"
 	.byte	0xa
 	.uahalf	0x1c3f
-	.uaword	0x1b134
+	.uaword	0x1b129
 	.uleb128 0x17
-	.uaword	0x1b0ee
+	.uaword	0x1b0e3
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_CLK_6"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c42
-	.uaword	0x1b163
+	.uaword	0x1b158
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1c44
-	.uaword	0x16863
+	.uaword	0x16858
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_CLK_6"
 	.byte	0xa
 	.uahalf	0x1c45
-	.uaword	0x1b17d
+	.uaword	0x1b172
 	.uleb128 0x17
-	.uaword	0x1b139
+	.uaword	0x1b12e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_CLK_7"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c48
-	.uaword	0x1b1ac
+	.uaword	0x1b1a1
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1c4a
-	.uaword	0x168aa
+	.uaword	0x1689f
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_CLK_7"
 	.byte	0xa
 	.uahalf	0x1c4b
-	.uaword	0x1b1c6
+	.uaword	0x1b1bb
 	.uleb128 0x17
-	.uaword	0x1b182
+	.uaword	0x1b177
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_ECLK"
 	.byte	0x8
 	.byte	0xa
 	.uahalf	0x1c4e
-	.uaword	0x1b201
+	.uaword	0x1b1f6
 	.uleb128 0x15
 	.string	"NUM"
 	.byte	0xa
 	.uahalf	0x1c50
-	.uaword	0x16979
+	.uaword	0x1696e
 	.byte	0
 	.uleb128 0x15
 	.string	"DEN"
 	.byte	0xa
 	.uahalf	0x1c51
-	.uaword	0x16934
+	.uaword	0x16929
 	.byte	0x4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_ECLK"
 	.byte	0xa
 	.uahalf	0x1c52
-	.uaword	0x1b21a
+	.uaword	0x1b20f
 	.uleb128 0x17
-	.uaword	0x1b1cb
+	.uaword	0x1b1c0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU_FXCLK"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c55
-	.uaword	0x1b249
+	.uaword	0x1b23e
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1c57
-	.uaword	0x169be
+	.uaword	0x169b3
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU_FXCLK"
 	.byte	0xa
 	.uahalf	0x1c58
-	.uaword	0x1b263
+	.uaword	0x1b258
 	.uleb128 0x17
-	.uaword	0x1b21f
+	.uaword	0x1b214
 	.uleb128 0x11
 	.string	"_Ifx_GTM_F2A_RD_CH"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c5b
-	.uaword	0x1b29a
+	.uaword	0x1b28f
 	.uleb128 0x15
 	.string	"ARU_RD_FIFO"
 	.byte	0xa
 	.uahalf	0x1c5d
-	.uaword	0x1862b
+	.uaword	0x18620
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_F2A_RD_CH"
 	.byte	0xa
 	.uahalf	0x1c5e
-	.uaword	0x1b2b4
+	.uaword	0x1b2a9
 	.uleb128 0x17
-	.uaword	0x1b268
+	.uaword	0x1b25d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_F2A_STR_CH"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c61
-	.uaword	0x1b2e8
+	.uaword	0x1b2dd
 	.uleb128 0x15
 	.string	"STR_CFG"
 	.byte	0xa
 	.uahalf	0x1c63
-	.uaword	0x18679
+	.uaword	0x1866e
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_F2A_STR_CH"
 	.byte	0xa
 	.uahalf	0x1c64
-	.uaword	0x1b303
+	.uaword	0x1b2f8
 	.uleb128 0x17
-	.uaword	0x1b2b9
+	.uaword	0x1b2ae
 	.uleb128 0x11
 	.string	"_Ifx_GTM_FIFO_CH"
 	.byte	0x40
 	.byte	0xa
 	.uahalf	0x1c67
-	.uaword	0x1b411
+	.uaword	0x1b406
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1c69
-	.uaword	0x186c4
+	.uaword	0x186b9
 	.byte	0
 	.uleb128 0x15
 	.string	"END_ADDR"
 	.byte	0xa
 	.uahalf	0x1c6a
-	.uaword	0x18751
+	.uaword	0x18746
 	.byte	0x4
 	.uleb128 0x15
 	.string	"START_ADDR"
 	.byte	0xa
 	.uahalf	0x1c6b
-	.uaword	0x1899c
+	.uaword	0x18991
 	.byte	0x8
 	.uleb128 0x15
 	.string	"UPPER_WM"
 	.byte	0xa
 	.uahalf	0x1c6c
-	.uaword	0x18a2e
+	.uaword	0x18a23
 	.byte	0xc
 	.uleb128 0x15
 	.string	"LOWER_WM"
 	.byte	0xa
 	.uahalf	0x1c6d
-	.uaword	0x1890c
+	.uaword	0x18901
 	.byte	0x10
 	.uleb128 0x16
 	.uaword	.LASF198
 	.byte	0xa
 	.uahalf	0x1c6e
-	.uaword	0x189e7
+	.uaword	0x189dc
 	.byte	0x14
 	.uleb128 0x15
 	.string	"FILL_LEVEL"
 	.byte	0xa
 	.uahalf	0x1c6f
-	.uaword	0x1879a
+	.uaword	0x1878f
 	.byte	0x18
 	.uleb128 0x15
 	.string	"WR_PTR"
 	.byte	0xa
 	.uahalf	0x1c70
-	.uaword	0x18a77
+	.uaword	0x18a6c
 	.byte	0x1c
 	.uleb128 0x15
 	.string	"RD_PTR"
 	.byte	0xa
 	.uahalf	0x1c71
-	.uaword	0x18955
+	.uaword	0x1894a
 	.byte	0x20
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1c72
-	.uaword	0x188c1
+	.uaword	0x188b6
 	.byte	0x24
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1c73
-	.uaword	0x187e5
+	.uaword	0x187da
 	.byte	0x28
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1c74
-	.uaword	0x1882c
+	.uaword	0x18821
 	.byte	0x2c
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1c75
-	.uaword	0x18878
+	.uaword	0x1886d
 	.byte	0x30
 	.uleb128 0x16
 	.uaword	.LASF199
 	.byte	0xa
 	.uahalf	0x1c76
-	.uaword	0x18709
+	.uaword	0x186fe
 	.byte	0x34
 	.uleb128 0x15
 	.string	"reserved_38"
 	.byte	0xa
 	.uahalf	0x1c77
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.byte	0x38
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO_CH"
 	.byte	0xa
 	.uahalf	0x1c78
-	.uaword	0x1b429
+	.uaword	0x1b41e
 	.uleb128 0x17
-	.uaword	0x1b308
+	.uaword	0x1b2fd
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_CAN"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c7b
-	.uaword	0x1b45b
+	.uaword	0x1b450
 	.uleb128 0x16
 	.uaword	.LASF200
 	.byte	0xa
 	.uahalf	0x1c7d
-	.uaword	0x18dee
+	.uaword	0x18de3
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_CAN"
 	.byte	0xa
 	.uahalf	0x1c7e
-	.uaword	0x1b478
+	.uaword	0x1b46d
 	.uleb128 0x17
-	.uaword	0x1b42e
+	.uaword	0x1b423
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_DSADC"
 	.byte	0x18
 	.byte	0xa
 	.uahalf	0x1c81
-	.uaword	0x1b4df
+	.uaword	0x1b4d4
 	.uleb128 0x15
 	.string	"INSEL"
 	.byte	0xa
 	.uahalf	0x1c83
-	.uaword	0x1b4df
+	.uaword	0x1b4d4
 	.byte	0
 	.uleb128 0x15
 	.string	"OUTSEL00"
 	.byte	0xa
 	.uahalf	0x1c84
-	.uaword	0x18e87
+	.uaword	0x18e7c
 	.byte	0xc
 	.uleb128 0x16
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x1c85
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0x10
 	.uleb128 0x15
 	.string	"OUTSEL10"
 	.byte	0xa
 	.uahalf	0x1c86
-	.uaword	0x18e87
+	.uaword	0x18e7c
 	.byte	0x14
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x18e3a
-	.uaword	0x1b4ef
+	.uaword	0x18e2f
+	.uaword	0x1b4e4
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x2
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_DSADC"
 	.byte	0xa
 	.uahalf	0x1c87
-	.uaword	0x1b50e
+	.uaword	0x1b503
 	.uleb128 0x17
-	.uaword	0x1b47d
+	.uaword	0x1b472
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_PSI5"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c8a
-	.uaword	0x1b545
+	.uaword	0x1b53a
 	.uleb128 0x15
 	.string	"OUTSEL0"
 	.byte	0xa
 	.uahalf	0x1c8c
-	.uaword	0x18ed6
+	.uaword	0x18ecb
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_PSI5"
 	.byte	0xa
 	.uahalf	0x1c8d
-	.uaword	0x1b563
+	.uaword	0x1b558
 	.uleb128 0x17
-	.uaword	0x1b513
+	.uaword	0x1b508
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_PSI5S"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c90
-	.uaword	0x1b597
+	.uaword	0x1b58c
 	.uleb128 0x16
 	.uaword	.LASF200
 	.byte	0xa
 	.uahalf	0x1c92
-	.uaword	0x18f24
+	.uaword	0x18f19
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_PSI5S"
 	.byte	0xa
 	.uahalf	0x1c93
-	.uaword	0x1b5b6
+	.uaword	0x1b5ab
 	.uleb128 0x17
-	.uaword	0x1b568
+	.uaword	0x1b55d
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_T"
 	.byte	0x3c
 	.byte	0xa
 	.uahalf	0x1c96
-	.uaword	0x1b5e6
+	.uaword	0x1b5db
 	.uleb128 0x16
 	.uaword	.LASF200
 	.byte	0xa
 	.uahalf	0x1c98
-	.uaword	0x1b5e6
+	.uaword	0x1b5db
 	.byte	0
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x18f72
-	.uaword	0x1b5f6
+	.uaword	0x18f67
+	.uaword	0x1b5eb
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0xe
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_T"
 	.byte	0xa
 	.uahalf	0x1c99
-	.uaword	0x1b611
+	.uaword	0x1b606
 	.uleb128 0x17
-	.uaword	0x1b5bb
+	.uaword	0x1b5b0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL_TIM"
 	.byte	0x4
 	.byte	0xa
 	.uahalf	0x1c9c
-	.uaword	0x1b645
+	.uaword	0x1b63a
 	.uleb128 0x15
 	.string	"INSEL"
 	.byte	0xa
 	.uahalf	0x1c9e
-	.uaword	0x18fbc
+	.uaword	0x18fb1
 	.byte	0
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL_TIM"
 	.byte	0xa
 	.uahalf	0x1c9f
-	.uaword	0x1b662
+	.uaword	0x1b657
 	.uleb128 0x17
-	.uaword	0x1b616
+	.uaword	0x1b60b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH"
 	.byte	0x80
 	.byte	0xa
 	.uahalf	0x1ca2
-	.uaword	0x1b762
+	.uaword	0x1b757
 	.uleb128 0x15
 	.string	"R0"
 	.byte	0xa
 	.uahalf	0x1ca4
-	.uaword	0x1950a
+	.uaword	0x194ff
 	.byte	0
 	.uleb128 0x15
 	.string	"R1"
 	.byte	0xa
 	.uahalf	0x1ca5
-	.uaword	0x1954c
+	.uaword	0x19541
 	.byte	0x4
 	.uleb128 0x15
 	.string	"R2"
 	.byte	0xa
 	.uahalf	0x1ca6
-	.uaword	0x1958e
+	.uaword	0x19583
 	.byte	0x8
 	.uleb128 0x15
 	.string	"R3"
 	.byte	0xa
 	.uahalf	0x1ca7
-	.uaword	0x195d0
+	.uaword	0x195c5
 	.byte	0xc
 	.uleb128 0x15
 	.string	"R4"
 	.byte	0xa
 	.uahalf	0x1ca8
-	.uaword	0x19612
+	.uaword	0x19607
 	.byte	0x10
 	.uleb128 0x15
 	.string	"R5"
 	.byte	0xa
 	.uahalf	0x1ca9
-	.uaword	0x19654
+	.uaword	0x19649
 	.byte	0x14
 	.uleb128 0x15
 	.string	"R6"
 	.byte	0xa
 	.uahalf	0x1caa
-	.uaword	0x19696
+	.uaword	0x1968b
 	.byte	0x18
 	.uleb128 0x15
 	.string	"R7"
 	.byte	0xa
 	.uahalf	0x1cab
-	.uaword	0x196d8
+	.uaword	0x196cd
 	.byte	0x1c
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1cac
-	.uaword	0x1931a
+	.uaword	0x1930f
 	.byte	0x20
 	.uleb128 0x15
 	.string	"ACB"
 	.byte	0xa
 	.uahalf	0x1cad
-	.uaword	0x192d7
+	.uaword	0x192cc
 	.byte	0x24
 	.uleb128 0x16
 	.uaword	.LASF7
 	.byte	0xa
 	.uahalf	0x1cae
-	.uaword	0x498
+	.uaword	0x48d
 	.byte	0x28
 	.uleb128 0x15
 	.string	"PC"
 	.byte	0xa
 	.uahalf	0x1caf
-	.uaword	0x194c8
+	.uaword	0x194bd
 	.byte	0x40
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1cb0
-	.uaword	0x1947e
+	.uaword	0x19473
 	.byte	0x44
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1cb1
-	.uaword	0x193a5
+	.uaword	0x1939a
 	.byte	0x48
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1cb2
-	.uaword	0x193eb
+	.uaword	0x193e0
 	.byte	0x4c
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1cb3
-	.uaword	0x19436
+	.uaword	0x1942b
 	.byte	0x50
 	.uleb128 0x16
 	.uaword	.LASF199
 	.byte	0xa
 	.uahalf	0x1cb4
-	.uaword	0x1935e
+	.uaword	0x19353
 	.byte	0x54
 	.uleb128 0x16
 	.uaword	.LASF201
 	.byte	0xa
 	.uahalf	0x1cb5
-	.uaword	0x478
+	.uaword	0x46d
 	.byte	0x58
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH"
 	.byte	0xa
 	.uahalf	0x1cb6
-	.uaword	0x1b779
+	.uaword	0x1b76e
 	.uleb128 0x17
-	.uaword	0x1b667
+	.uaword	0x1b65c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MCS_CH0"
 	.byte	0x58
 	.byte	0xa
 	.uahalf	0x1cb9
-	.uaword	0x1b889
+	.uaword	0x1b87e
 	.uleb128 0x15
 	.string	"R0"
 	.byte	0xa
 	.uahalf	0x1cbb
-	.uaword	0x1950a
+	.uaword	0x194ff
 	.byte	0
 	.uleb128 0x15
 	.string	"R1"
 	.byte	0xa
 	.uahalf	0x1cbc
-	.uaword	0x1954c
+	.uaword	0x19541
 	.byte	0x4
 	.uleb128 0x15
 	.string	"R2"
 	.byte	0xa
 	.uahalf	0x1cbd
-	.uaword	0x1958e
+	.uaword	0x19583
 	.byte	0x8
 	.uleb128 0x15
 	.string	"R3"
 	.byte	0xa
 	.uahalf	0x1cbe
-	.uaword	0x195d0
+	.uaword	0x195c5
 	.byte	0xc
 	.uleb128 0x15
 	.string	"R4"
 	.byte	0xa
 	.uahalf	0x1cbf
-	.uaword	0x19612
+	.uaword	0x19607
 	.byte	0x10
 	.uleb128 0x15
 	.string	"R5"
 	.byte	0xa
 	.uahalf	0x1cc0
-	.uaword	0x19654
+	.uaword	0x19649
 	.byte	0x14
 	.uleb128 0x15
 	.string	"R6"
 	.byte	0xa
 	.uahalf	0x1cc1
-	.uaword	0x19696
+	.uaword	0x1968b
 	.byte	0x18
 	.uleb128 0x15
 	.string	"R7"
 	.byte	0xa
 	.uahalf	0x1cc2
-	.uaword	0x196d8
+	.uaword	0x196cd
 	.byte	0x1c
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1cc3
-	.uaword	0x1931a
+	.uaword	0x1930f
 	.byte	0x20
 	.uleb128 0x15
 	.string	"ACB"
 	.byte	0xa
 	.uahalf	0x1cc4
-	.uaword	0x192d7
+	.uaword	0x192cc
 	.byte	0x24
 	.uleb128 0x15
 	.string	"CTRG"
 	.byte	0xa
 	.uahalf	0x1cc5
-	.uaword	0x1924d
+	.uaword	0x19242
 	.byte	0x28
 	.uleb128 0x15
 	.string	"STRG"
 	.byte	0xa
 	.uahalf	0x1cc6
-	.uaword	0x19292
+	.uaword	0x19287
 	.byte	0x2c
 	.uleb128 0x16
 	.uaword	.LASF192
 	.byte	0xa
 	.uahalf	0x1cc7
-	.uaword	0x488
+	.uaword	0x47d
 	.byte	0x30
 	.uleb128 0x15
 	.string	"PC"
 	.byte	0xa
 	.uahalf	0x1cc8
-	.uaword	0x194c8
+	.uaword	0x194bd
 	.byte	0x40
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1cc9
-	.uaword	0x1947e
+	.uaword	0x19473
 	.byte	0x44
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1cca
-	.uaword	0x193a5
+	.uaword	0x1939a
 	.byte	0x48
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1ccb
-	.uaword	0x193eb
+	.uaword	0x193e0
 	.byte	0x4c
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1ccc
-	.uaword	0x19436
+	.uaword	0x1942b
 	.byte	0x50
 	.uleb128 0x16
 	.uaword	.LASF199
 	.byte	0xa
 	.uahalf	0x1ccd
-	.uaword	0x1935e
+	.uaword	0x19353
 	.byte	0x54
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS_CH0"
 	.byte	0xa
 	.uahalf	0x1cce
-	.uaword	0x1b8a1
+	.uaword	0x1b896
 	.uleb128 0x17
-	.uaword	0x1b77e
+	.uaword	0x1b773
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TIM_CH"
 	.byte	0x78
 	.byte	0xa
 	.uahalf	0x1cd1
-	.uaword	0x1b9b3
+	.uaword	0x1b9a8
 	.uleb128 0x15
 	.string	"GPR0"
 	.byte	0xa
 	.uahalf	0x1cd3
-	.uaword	0x1a421
+	.uaword	0x1a416
 	.byte	0
 	.uleb128 0x15
 	.string	"GPR1"
 	.byte	0xa
 	.uahalf	0x1cd4
-	.uaword	0x1a465
+	.uaword	0x1a45a
 	.byte	0x4
 	.uleb128 0x15
 	.string	"CNT"
 	.byte	0xa
 	.uahalf	0x1cd5
-	.uaword	0x1a1fa
+	.uaword	0x1a1ef
 	.byte	0x8
 	.uleb128 0x15
 	.string	"ECNT"
 	.byte	0xa
 	.uahalf	0x1cd6
-	.uaword	0x1a2c5
+	.uaword	0x1a2ba
 	.byte	0xc
 	.uleb128 0x15
 	.string	"CNTS"
 	.byte	0xa
 	.uahalf	0x1cd7
-	.uaword	0x1a23d
+	.uaword	0x1a232
 	.byte	0x10
 	.uleb128 0x15
 	.string	"TDUC"
 	.byte	0xa
 	.uahalf	0x1cd8
-	.uaword	0x1a5cc
+	.uaword	0x1a5c1
 	.byte	0x14
 	.uleb128 0x15
 	.string	"TDUV"
 	.byte	0xa
 	.uahalf	0x1cd9
-	.uaword	0x1a610
+	.uaword	0x1a605
 	.byte	0x18
 	.uleb128 0x15
 	.string	"FLT_RE"
 	.byte	0xa
 	.uahalf	0x1cda
-	.uaword	0x1a3db
+	.uaword	0x1a3d0
 	.byte	0x1c
 	.uleb128 0x15
 	.string	"FLT_FE"
 	.byte	0xa
 	.uahalf	0x1cdb
-	.uaword	0x1a395
+	.uaword	0x1a38a
 	.byte	0x20
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1cdc
-	.uaword	0x1a281
+	.uaword	0x1a276
 	.byte	0x24
 	.uleb128 0x15
 	.string	"ECTRL"
 	.byte	0xa
 	.uahalf	0x1cdd
-	.uaword	0x1a309
+	.uaword	0x1a2fe
 	.byte	0x28
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1cde
-	.uaword	0x1a582
+	.uaword	0x1a577
 	.byte	0x2c
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1cdf
-	.uaword	0x1a4a9
+	.uaword	0x1a49e
 	.byte	0x30
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1ce0
-	.uaword	0x1a4ef
+	.uaword	0x1a4e4
 	.byte	0x34
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1ce1
-	.uaword	0x1a53a
+	.uaword	0x1a52f
 	.byte	0x38
 	.uleb128 0x16
 	.uaword	.LASF199
 	.byte	0xa
 	.uahalf	0x1ce2
-	.uaword	0x1a34e
+	.uaword	0x1a343
 	.byte	0x3c
 	.uleb128 0x15
 	.string	"reserved_40"
 	.byte	0xa
 	.uahalf	0x1ce3
-	.uaword	0x4f8
+	.uaword	0x4ed
 	.byte	0x40
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM_CH"
 	.byte	0xa
 	.uahalf	0x1ce4
-	.uaword	0x1b9ca
+	.uaword	0x1b9bf
 	.uleb128 0x17
-	.uaword	0x1b8a6
+	.uaword	0x1b89b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TOM_CH"
 	.byte	0x30
 	.byte	0xa
 	.uahalf	0x1ce7
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1ce9
-	.uaword	0x1a7a0
+	.uaword	0x1a795
 	.byte	0
 	.uleb128 0x15
 	.string	"SR0"
 	.byte	0xa
 	.uahalf	0x1cea
-	.uaword	0x1a907
+	.uaword	0x1a8fc
 	.byte	0x4
 	.uleb128 0x15
 	.string	"SR1"
 	.byte	0xa
 	.uahalf	0x1ceb
-	.uaword	0x1a94a
+	.uaword	0x1a93f
 	.byte	0x8
 	.uleb128 0x15
 	.string	"CM0"
 	.byte	0xa
 	.uahalf	0x1cec
-	.uaword	0x1a6d7
+	.uaword	0x1a6cc
 	.byte	0xc
 	.uleb128 0x15
 	.string	"CM1"
 	.byte	0xa
 	.uahalf	0x1ced
-	.uaword	0x1a71a
+	.uaword	0x1a70f
 	.byte	0x10
 	.uleb128 0x15
 	.string	"CN0"
 	.byte	0xa
 	.uahalf	0x1cee
-	.uaword	0x1a75d
+	.uaword	0x1a752
 	.byte	0x14
 	.uleb128 0x15
 	.string	"STAT"
 	.byte	0xa
 	.uahalf	0x1cef
-	.uaword	0x1a98d
+	.uaword	0x1a982
 	.byte	0x18
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1cf0
-	.uaword	0x1a8bd
+	.uaword	0x1a8b2
 	.byte	0x1c
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1cf1
-	.uaword	0x1a7e4
+	.uaword	0x1a7d9
 	.byte	0x20
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1cf2
-	.uaword	0x1a82a
+	.uaword	0x1a81f
 	.byte	0x24
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1cf3
-	.uaword	0x1a875
+	.uaword	0x1a86a
 	.byte	0x28
 	.uleb128 0x16
 	.uaword	.LASF202
 	.byte	0xa
 	.uahalf	0x1cf4
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0x2c
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM_CH"
 	.byte	0xa
 	.uahalf	0x1cf5
-	.uaword	0x1ba9d
+	.uaword	0x1ba92
 	.uleb128 0x17
-	.uaword	0x1b9cf
+	.uaword	0x1b9c4
 	.uleb128 0x11
 	.string	"_Ifx_GTM_AFD"
 	.byte	0x80
 	.byte	0xa
 	.uahalf	0x1d02
-	.uaword	0x1bac5
+	.uaword	0x1baba
 	.uleb128 0x15
 	.string	"CH"
 	.byte	0xa
 	.uahalf	0x1d04
-	.uaword	0x1bad5
+	.uaword	0x1baca
 	.byte	0
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1aecf
-	.uaword	0x1bad5
+	.uaword	0x1aec4
+	.uaword	0x1baca
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x7
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1bac5
+	.uaword	0x1baba
 	.uleb128 0x10
 	.string	"Ifx_GTM_AFD"
 	.byte	0xa
 	.uahalf	0x1d05
-	.uaword	0x1baee
+	.uaword	0x1bae3
 	.uleb128 0x17
-	.uaword	0x1baa2
+	.uaword	0x1ba97
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ARU"
 	.byte	0x34
 	.byte	0xa
 	.uahalf	0x1d08
-	.uaword	0x1bbf0
+	.uaword	0x1bbe5
 	.uleb128 0x15
 	.string	"ARU_ACCESS"
 	.byte	0xa
 	.uahalf	0x1d0a
-	.uaword	0x152ff
+	.uaword	0x152f4
 	.byte	0
 	.uleb128 0x15
 	.string	"DATA_H"
 	.byte	0xa
 	.uahalf	0x1d0b
-	.uaword	0x15346
+	.uaword	0x1533b
 	.byte	0x4
 	.uleb128 0x15
 	.string	"DATA_L"
 	.byte	0xa
 	.uahalf	0x1d0c
-	.uaword	0x15389
+	.uaword	0x1537e
 	.byte	0x8
 	.uleb128 0x15
 	.string	"DBG_ACCESS0"
 	.byte	0xa
 	.uahalf	0x1d0d
-	.uaword	0x153cc
+	.uaword	0x153c1
 	.byte	0xc
 	.uleb128 0x15
 	.string	"DBG_DATA0_H"
 	.byte	0xa
 	.uahalf	0x1d0e
-	.uaword	0x1545c
+	.uaword	0x15451
 	.byte	0x10
 	.uleb128 0x15
 	.string	"DBG_DATA0_L"
 	.byte	0xa
 	.uahalf	0x1d0f
-	.uaword	0x154a4
+	.uaword	0x15499
 	.byte	0x14
 	.uleb128 0x15
 	.string	"DBG_ACCESS1"
 	.byte	0xa
 	.uahalf	0x1d10
-	.uaword	0x15414
+	.uaword	0x15409
 	.byte	0x18
 	.uleb128 0x15
 	.string	"DBG_DATA1_H"
 	.byte	0xa
 	.uahalf	0x1d11
-	.uaword	0x154ec
+	.uaword	0x154e1
 	.byte	0x1c
 	.uleb128 0x15
 	.string	"DBG_DATA1_L"
 	.byte	0xa
 	.uahalf	0x1d12
-	.uaword	0x15534
+	.uaword	0x15529
 	.byte	0x20
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1d13
-	.uaword	0x1564c
+	.uaword	0x15641
 	.byte	0x24
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1d14
-	.uaword	0x1557c
+	.uaword	0x15571
 	.byte	0x28
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1d15
-	.uaword	0x155bf
+	.uaword	0x155b4
 	.byte	0x2c
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1d16
-	.uaword	0x15607
+	.uaword	0x155fc
 	.byte	0x30
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ARU"
 	.byte	0xa
 	.uahalf	0x1d17
-	.uaword	0x1bc04
+	.uaword	0x1bbf9
 	.uleb128 0x17
-	.uaword	0x1baf3
+	.uaword	0x1bae8
 	.uleb128 0x14
 	.string	"_Ifx_GTM_ATOM"
 	.uahalf	0x800
 	.byte	0xa
 	.uahalf	0x1d1a
-	.uaword	0x1bd3c
+	.uaword	0x1bd31
 	.uleb128 0x15
 	.string	"CH0"
 	.byte	0xa
 	.uahalf	0x1d1c
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.byte	0
 	.uleb128 0x15
 	.string	"AGC"
 	.byte	0xa
 	.uahalf	0x1d1d
-	.uaword	0x1afa8
+	.uaword	0x1af9d
 	.byte	0x40
 	.uleb128 0x15
 	.string	"CH1"
 	.byte	0xa
 	.uahalf	0x1d1e
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.byte	0x80
 	.uleb128 0x15
 	.string	"reserved_C0"
 	.byte	0xa
 	.uahalf	0x1d1f
-	.uaword	0x548
+	.uaword	0x53d
 	.byte	0xc0
 	.uleb128 0x20
 	.string	"CH2"
 	.byte	0xa
 	.uahalf	0x1d20
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.uahalf	0x100
 	.uleb128 0x20
 	.string	"reserved_140"
 	.byte	0xa
 	.uahalf	0x1d21
-	.uaword	0x548
+	.uaword	0x53d
 	.uahalf	0x140
 	.uleb128 0x20
 	.string	"CH3"
 	.byte	0xa
 	.uahalf	0x1d22
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.uahalf	0x180
 	.uleb128 0x20
 	.string	"reserved_1C0"
 	.byte	0xa
 	.uahalf	0x1d23
-	.uaword	0x548
+	.uaword	0x53d
 	.uahalf	0x1c0
 	.uleb128 0x20
 	.string	"CH4"
 	.byte	0xa
 	.uahalf	0x1d24
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.uahalf	0x200
 	.uleb128 0x20
 	.string	"reserved_240"
 	.byte	0xa
 	.uahalf	0x1d25
-	.uaword	0x548
+	.uaword	0x53d
 	.uahalf	0x240
 	.uleb128 0x20
 	.string	"CH5"
 	.byte	0xa
 	.uahalf	0x1d26
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.uahalf	0x280
 	.uleb128 0x20
 	.string	"reserved_2C0"
 	.byte	0xa
 	.uahalf	0x1d27
-	.uaword	0x548
+	.uaword	0x53d
 	.uahalf	0x2c0
 	.uleb128 0x20
 	.string	"CH6"
 	.byte	0xa
 	.uahalf	0x1d28
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.uahalf	0x300
 	.uleb128 0x20
 	.string	"reserved_340"
 	.byte	0xa
 	.uahalf	0x1d29
-	.uaword	0x548
+	.uaword	0x53d
 	.uahalf	0x340
 	.uleb128 0x20
 	.string	"CH7"
 	.byte	0xa
 	.uahalf	0x1d2a
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.uahalf	0x380
 	.uleb128 0x20
 	.string	"reserved_3C0"
 	.byte	0xa
 	.uahalf	0x1d2b
-	.uaword	0x1bd3c
+	.uaword	0x1bd31
 	.uahalf	0x3c0
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1bd4d
+	.uaword	0x227
+	.uaword	0x1bd42
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x43f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ATOM"
 	.byte	0xa
 	.uahalf	0x1d2c
-	.uaword	0x1bd62
+	.uaword	0x1bd57
 	.uleb128 0x17
-	.uaword	0x1bc09
+	.uaword	0x1bbfe
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRC"
 	.byte	0x78
 	.byte	0xa
 	.uahalf	0x1d2f
-	.uaword	0x1bf98
+	.uaword	0x1bf8d
 	.uleb128 0x15
 	.string	"SRC0_ADDR"
 	.byte	0xa
 	.uahalf	0x1d31
-	.uaword	0x15ee5
+	.uaword	0x15eda
 	.byte	0
 	.uleb128 0x15
 	.string	"SRC0_DEST"
 	.byte	0xa
 	.uahalf	0x1d32
-	.uaword	0x15f2b
+	.uaword	0x15f20
 	.byte	0x4
 	.uleb128 0x15
 	.string	"SRC1_ADDR"
 	.byte	0xa
 	.uahalf	0x1d33
-	.uaword	0x1608d
+	.uaword	0x16082
 	.byte	0x8
 	.uleb128 0x15
 	.string	"SRC1_DEST"
 	.byte	0xa
 	.uahalf	0x1d34
-	.uaword	0x160d3
+	.uaword	0x160c8
 	.byte	0xc
 	.uleb128 0x15
 	.string	"SRC2_ADDR"
 	.byte	0xa
 	.uahalf	0x1d35
-	.uaword	0x16119
+	.uaword	0x1610e
 	.byte	0x10
 	.uleb128 0x15
 	.string	"SRC2_DEST"
 	.byte	0xa
 	.uahalf	0x1d36
-	.uaword	0x1615f
+	.uaword	0x16154
 	.byte	0x14
 	.uleb128 0x15
 	.string	"SRC3_ADDR"
 	.byte	0xa
 	.uahalf	0x1d37
-	.uaword	0x161a5
+	.uaword	0x1619a
 	.byte	0x18
 	.uleb128 0x15
 	.string	"SRC3_DEST"
 	.byte	0xa
 	.uahalf	0x1d38
-	.uaword	0x161eb
+	.uaword	0x161e0
 	.byte	0x1c
 	.uleb128 0x15
 	.string	"SRC4_ADDR"
 	.byte	0xa
 	.uahalf	0x1d39
-	.uaword	0x16231
+	.uaword	0x16226
 	.byte	0x20
 	.uleb128 0x15
 	.string	"SRC4_DEST"
 	.byte	0xa
 	.uahalf	0x1d3a
-	.uaword	0x16277
+	.uaword	0x1626c
 	.byte	0x24
 	.uleb128 0x15
 	.string	"SRC5_ADDR"
 	.byte	0xa
 	.uahalf	0x1d3b
-	.uaword	0x162bd
+	.uaword	0x162b2
 	.byte	0x28
 	.uleb128 0x15
 	.string	"SRC5_DEST"
 	.byte	0xa
 	.uahalf	0x1d3c
-	.uaword	0x16303
+	.uaword	0x162f8
 	.byte	0x2c
 	.uleb128 0x15
 	.string	"SRC6_ADDR"
 	.byte	0xa
 	.uahalf	0x1d3d
-	.uaword	0x16349
+	.uaword	0x1633e
 	.byte	0x30
 	.uleb128 0x15
 	.string	"SRC6_DEST"
 	.byte	0xa
 	.uahalf	0x1d3e
-	.uaword	0x1638f
+	.uaword	0x16384
 	.byte	0x34
 	.uleb128 0x15
 	.string	"SRC7_ADDR"
 	.byte	0xa
 	.uahalf	0x1d3f
-	.uaword	0x163d5
+	.uaword	0x163ca
 	.byte	0x38
 	.uleb128 0x15
 	.string	"SRC7_DEST"
 	.byte	0xa
 	.uahalf	0x1d40
-	.uaword	0x1641b
+	.uaword	0x16410
 	.byte	0x3c
 	.uleb128 0x15
 	.string	"SRC8_ADDR"
 	.byte	0xa
 	.uahalf	0x1d41
-	.uaword	0x16461
+	.uaword	0x16456
 	.byte	0x40
 	.uleb128 0x15
 	.string	"SRC8_DEST"
 	.byte	0xa
 	.uahalf	0x1d42
-	.uaword	0x164a7
+	.uaword	0x1649c
 	.byte	0x44
 	.uleb128 0x15
 	.string	"SRC9_ADDR"
 	.byte	0xa
 	.uahalf	0x1d43
-	.uaword	0x164ed
+	.uaword	0x164e2
 	.byte	0x48
 	.uleb128 0x15
 	.string	"SRC9_DEST"
 	.byte	0xa
 	.uahalf	0x1d44
-	.uaword	0x16533
+	.uaword	0x16528
 	.byte	0x4c
 	.uleb128 0x15
 	.string	"SRC10_ADDR"
 	.byte	0xa
 	.uahalf	0x1d45
-	.uaword	0x15f71
+	.uaword	0x15f66
 	.byte	0x50
 	.uleb128 0x15
 	.string	"SRC10_DEST"
 	.byte	0xa
 	.uahalf	0x1d46
-	.uaword	0x15fb8
+	.uaword	0x15fad
 	.byte	0x54
 	.uleb128 0x15
 	.string	"SRC11_ADDR"
 	.byte	0xa
 	.uahalf	0x1d47
-	.uaword	0x15fff
+	.uaword	0x15ff4
 	.byte	0x58
 	.uleb128 0x15
 	.string	"SRC11_DEST"
 	.byte	0xa
 	.uahalf	0x1d48
-	.uaword	0x16046
+	.uaword	0x1603b
 	.byte	0x5c
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1d49
-	.uaword	0x15e5e
+	.uaword	0x15e53
 	.byte	0x60
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1d4a
-	.uaword	0x15d8e
+	.uaword	0x15d83
 	.byte	0x64
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1d4b
-	.uaword	0x15dd1
+	.uaword	0x15dc6
 	.byte	0x68
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1d4c
-	.uaword	0x15e19
+	.uaword	0x15e0e
 	.byte	0x6c
 	.uleb128 0x15
 	.string	"RST"
 	.byte	0xa
 	.uahalf	0x1d4d
-	.uaword	0x15ea5
+	.uaword	0x15e9a
 	.byte	0x70
 	.uleb128 0x16
 	.uaword	.LASF199
 	.byte	0xa
 	.uahalf	0x1d4e
-	.uaword	0x15d4a
+	.uaword	0x15d3f
 	.byte	0x74
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRC"
 	.byte	0xa
 	.uahalf	0x1d4f
-	.uaword	0x1bfac
+	.uaword	0x1bfa1
 	.uleb128 0x17
-	.uaword	0x1bd67
+	.uaword	0x1bd5c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_BRIDGE"
 	.byte	0xc
 	.byte	0xa
 	.uahalf	0x1d52
-	.uaword	0x1bff4
+	.uaword	0x1bfe9
 	.uleb128 0x16
 	.uaword	.LASF117
 	.byte	0xa
 	.uahalf	0x1d54
-	.uaword	0x16579
+	.uaword	0x1656e
 	.byte	0
 	.uleb128 0x15
 	.string	"PTR1"
 	.byte	0xa
 	.uahalf	0x1d55
-	.uaword	0x165bd
+	.uaword	0x165b2
 	.byte	0x4
 	.uleb128 0x15
 	.string	"PTR2"
 	.byte	0xa
 	.uahalf	0x1d56
-	.uaword	0x16601
+	.uaword	0x165f6
 	.byte	0x8
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_BRIDGE"
 	.byte	0xa
 	.uahalf	0x1d57
-	.uaword	0x1c00b
+	.uaword	0x1c000
 	.uleb128 0x17
-	.uaword	0x1bfb1
+	.uaword	0x1bfa6
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMP"
 	.byte	0x18
 	.byte	0xa
 	.uahalf	0x1d5a
-	.uaword	0x1c074
+	.uaword	0x1c069
 	.uleb128 0x15
 	.string	"EN"
 	.byte	0xa
 	.uahalf	0x1d5c
-	.uaword	0x166c5
+	.uaword	0x166ba
 	.byte	0
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1d5d
-	.uaword	0x167d4
+	.uaword	0x167c9
 	.byte	0x4
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1d5e
-	.uaword	0x16704
+	.uaword	0x166f9
 	.byte	0x8
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1d5f
-	.uaword	0x16747
+	.uaword	0x1673c
 	.byte	0xc
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1d60
-	.uaword	0x1678f
+	.uaword	0x16784
 	.byte	0x10
 	.uleb128 0x16
 	.uaword	.LASF199
 	.byte	0xa
 	.uahalf	0x1d61
-	.uaword	0x16681
+	.uaword	0x16676
 	.byte	0x14
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMP"
 	.byte	0xa
 	.uahalf	0x1d62
-	.uaword	0x1c088
+	.uaword	0x1c07d
 	.uleb128 0x17
-	.uaword	0x1c010
+	.uaword	0x1c005
 	.uleb128 0x11
 	.string	"_Ifx_GTM_CMU"
 	.byte	0x48
 	.byte	0xa
 	.uahalf	0x1d65
-	.uaword	0x1c119
+	.uaword	0x1c10e
 	.uleb128 0x15
 	.string	"CLK_EN"
 	.byte	0xa
 	.uahalf	0x1d67
-	.uaword	0x168f1
+	.uaword	0x168e6
 	.byte	0
 	.uleb128 0x16
 	.uaword	.LASF163
 	.byte	0xa
 	.uahalf	0x1d68
-	.uaword	0x16a4a
+	.uaword	0x16a3f
 	.byte	0x4
 	.uleb128 0x16
 	.uaword	.LASF162
 	.byte	0xa
 	.uahalf	0x1d69
-	.uaword	0x16a05
+	.uaword	0x169fa
 	.byte	0x8
 	.uleb128 0x15
 	.string	"CLK0_5"
 	.byte	0xa
 	.uahalf	0x1d6a
-	.uaword	0x1c129
+	.uaword	0x1c11e
 	.byte	0xc
 	.uleb128 0x15
 	.string	"CLK_6"
 	.byte	0xa
 	.uahalf	0x1d6b
-	.uaword	0x1b163
+	.uaword	0x1b158
 	.byte	0x24
 	.uleb128 0x15
 	.string	"CLK_7"
 	.byte	0xa
 	.uahalf	0x1d6c
-	.uaword	0x1b1ac
+	.uaword	0x1b1a1
 	.byte	0x28
 	.uleb128 0x15
 	.string	"ECLK"
 	.byte	0xa
 	.uahalf	0x1d6d
-	.uaword	0x1c13e
+	.uaword	0x1c133
 	.byte	0x2c
 	.uleb128 0x15
 	.string	"FXCLK"
 	.byte	0xa
 	.uahalf	0x1d6e
-	.uaword	0x1b249
+	.uaword	0x1b23e
 	.byte	0x44
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1b119
-	.uaword	0x1c129
+	.uaword	0x1b10e
+	.uaword	0x1c11e
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x5
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1c119
+	.uaword	0x1c10e
 	.uleb128 0x9
-	.uaword	0x1b201
-	.uaword	0x1c13e
+	.uaword	0x1b1f6
+	.uaword	0x1c133
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x2
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1c12e
+	.uaword	0x1c123
 	.uleb128 0x10
 	.string	"Ifx_GTM_CMU"
 	.byte	0xa
 	.uahalf	0x1d6f
-	.uaword	0x1c157
+	.uaword	0x1c14c
 	.uleb128 0x17
-	.uaword	0x1c08d
+	.uaword	0x1c082
 	.uleb128 0x14
 	.string	"_Ifx_GTM_DPLL"
 	.uahalf	0xf18
 	.byte	0xa
 	.uahalf	0x1d72
-	.uaword	0x1c92f
+	.uaword	0x1c924
 	.uleb128 0x15
 	.string	"CTRL_0"
 	.byte	0xa
 	.uahalf	0x1d74
-	.uaword	0x170c6
+	.uaword	0x170bb
 	.byte	0
 	.uleb128 0x15
 	.string	"CTRL_1"
 	.byte	0xa
 	.uahalf	0x1d75
-	.uaword	0x171ae
+	.uaword	0x171a3
 	.byte	0x4
 	.uleb128 0x15
 	.string	"CTRL_2"
 	.byte	0xa
 	.uahalf	0x1d76
-	.uaword	0x17245
+	.uaword	0x1723a
 	.byte	0x8
 	.uleb128 0x15
 	.string	"CTRL_3"
 	.byte	0xa
 	.uahalf	0x1d77
-	.uaword	0x17289
+	.uaword	0x1727e
 	.byte	0xc
 	.uleb128 0x15
 	.string	"CTRL_4"
 	.byte	0xa
 	.uahalf	0x1d78
-	.uaword	0x172cd
+	.uaword	0x172c2
 	.byte	0x10
 	.uleb128 0x16
 	.uaword	.LASF36
 	.byte	0xa
 	.uahalf	0x1d79
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0x14
 	.uleb128 0x15
 	.string	"ACT_STA"
 	.byte	0xa
 	.uahalf	0x1d7a
-	.uaword	0x16b4c
+	.uaword	0x16b41
 	.byte	0x18
 	.uleb128 0x15
 	.string	"OSW"
 	.byte	0xa
 	.uahalf	0x1d7b
-	.uaword	0x17be5
+	.uaword	0x17bda
 	.byte	0x1c
 	.uleb128 0x15
 	.string	"AOSV_2"
 	.byte	0xa
 	.uahalf	0x1d7c
-	.uaword	0x16cf6
+	.uaword	0x16ceb
 	.byte	0x20
 	.uleb128 0x15
 	.string	"APT"
 	.byte	0xa
 	.uahalf	0x1d7d
-	.uaword	0x16e06
+	.uaword	0x16dfb
 	.byte	0x24
 	.uleb128 0x15
 	.string	"APS"
 	.byte	0xa
 	.uahalf	0x1d7e
-	.uaword	0x16d3a
+	.uaword	0x16d2f
 	.byte	0x28
 	.uleb128 0x15
 	.string	"APT_2C"
 	.byte	0xa
 	.uahalf	0x1d7f
-	.uaword	0x16e47
+	.uaword	0x16e3c
 	.byte	0x2c
 	.uleb128 0x15
 	.string	"APS_1C3"
 	.byte	0xa
 	.uahalf	0x1d80
-	.uaword	0x16d7b
+	.uaword	0x16d70
 	.byte	0x30
 	.uleb128 0x15
 	.string	"NUTC"
 	.byte	0xa
 	.uahalf	0x1d81
-	.uaword	0x17ba3
+	.uaword	0x17b98
 	.byte	0x34
 	.uleb128 0x15
 	.string	"NUSC"
 	.byte	0xa
 	.uahalf	0x1d82
-	.uaword	0x17b61
+	.uaword	0x17b56
 	.byte	0x38
 	.uleb128 0x15
 	.string	"NTI_CNT"
 	.byte	0xa
 	.uahalf	0x1d83
-	.uaword	0x17b1c
+	.uaword	0x17b11
 	.byte	0x3c
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1d84
-	.uaword	0x17756
+	.uaword	0x1774b
 	.byte	0x40
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1d85
-	.uaword	0x17683
+	.uaword	0x17678
 	.byte	0x44
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1d86
-	.uaword	0x176c7
+	.uaword	0x176bc
 	.byte	0x48
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1d87
-	.uaword	0x17710
+	.uaword	0x17705
 	.byte	0x4c
 	.uleb128 0x16
 	.uaword	.LASF199
 	.byte	0xa
 	.uahalf	0x1d88
-	.uaword	0x174e7
+	.uaword	0x174dc
 	.byte	0x50
 	.uleb128 0x16
 	.uaword	.LASF22
 	.byte	0xa
 	.uahalf	0x1d89
-	.uaword	0x1c92f
+	.uaword	0x1c924
 	.byte	0x54
 	.uleb128 0x16
 	.uaword	.LASF170
 	.byte	0xa
 	.uahalf	0x1d8a
-	.uaword	0x175f7
+	.uaword	0x175ec
 	.byte	0xb0
 	.uleb128 0x16
 	.uaword	.LASF171
 	.byte	0xa
 	.uahalf	0x1d8b
-	.uaword	0x1763d
+	.uaword	0x17632
 	.byte	0xb4
 	.uleb128 0x15
 	.string	"APT_SYNC"
 	.byte	0xa
 	.uahalf	0x1d8c
-	.uaword	0x16e8b
+	.uaword	0x16e80
 	.byte	0xb8
 	.uleb128 0x15
 	.string	"APS_SYNC"
 	.byte	0xa
 	.uahalf	0x1d8d
-	.uaword	0x16dc0
+	.uaword	0x16db5
 	.byte	0xbc
 	.uleb128 0x16
 	.uaword	.LASF182
 	.byte	0xa
 	.uahalf	0x1d8e
-	.uaword	0x181bf
+	.uaword	0x181b4
 	.byte	0xc0
 	.uleb128 0x16
 	.uaword	.LASF181
 	.byte	0xa
 	.uahalf	0x1d8f
-	.uaword	0x18178
+	.uaword	0x1816d
 	.byte	0xc4
 	.uleb128 0x15
 	.string	"ADD_IN_LD1"
 	.byte	0xa
 	.uahalf	0x1d90
-	.uaword	0x16c23
+	.uaword	0x16c18
 	.byte	0xc8
 	.uleb128 0x15
 	.string	"ADD_IN_LD2"
 	.byte	0xa
 	.uahalf	0x1d91
-	.uaword	0x16c6b
+	.uaword	0x16c60
 	.byte	0xcc
 	.uleb128 0x15
 	.string	"reserved_D0"
 	.byte	0xa
 	.uahalf	0x1d92
-	.uaword	0x568
+	.uaword	0x55d
 	.byte	0xd0
 	.uleb128 0x16
 	.uaword	.LASF198
 	.byte	0xa
 	.uahalf	0x1d93
-	.uaword	0x18134
+	.uaword	0x18129
 	.byte	0xfc
 	.uleb128 0x20
 	.string	"ID_PMTR"
 	.byte	0xa
 	.uahalf	0x1d94
-	.uaword	0x1c93f
+	.uaword	0x1c934
 	.uahalf	0x100
 	.uleb128 0x20
 	.string	"reserved_160"
 	.byte	0xa
 	.uahalf	0x1d95
-	.uaword	0x1c94f
+	.uaword	0x1c944
 	.uahalf	0x160
 	.uleb128 0x20
 	.string	"CTRL_0_SHADOW_TRIGGER"
 	.byte	0xa
 	.uahalf	0x1d96
-	.uaword	0x1715b
+	.uaword	0x17150
 	.uahalf	0x1e0
 	.uleb128 0x20
 	.string	"CTRL_0_SHADOW_STATE"
 	.byte	0xa
 	.uahalf	0x1d97
-	.uaword	0x1710a
+	.uaword	0x170ff
 	.uahalf	0x1e4
 	.uleb128 0x20
 	.string	"CTRL_1_SHADOW_TRIGGER"
 	.byte	0xa
 	.uahalf	0x1d98
-	.uaword	0x171f2
+	.uaword	0x171e7
 	.uahalf	0x1e8
 	.uleb128 0x20
 	.string	"CRTL_1_SHADOW_STATE"
 	.byte	0xa
 	.uahalf	0x1d99
-	.uaword	0x17075
+	.uaword	0x1706a
 	.uahalf	0x1ec
 	.uleb128 0x22
 	.uaword	.LASF203
 	.byte	0xa
 	.uahalf	0x1d9a
-	.uaword	0x468
+	.uaword	0x45d
 	.uahalf	0x1f0
 	.uleb128 0x20
 	.string	"RAM_INI"
 	.byte	0xa
 	.uahalf	0x1d9b
-	.uaword	0x17ec1
+	.uaword	0x17eb6
 	.uahalf	0x1fc
 	.uleb128 0x20
 	.string	"PSA"
 	.byte	0xa
 	.uahalf	0x1d9c
-	.uaword	0x1c95f
+	.uaword	0x1c954
 	.uahalf	0x200
 	.uleb128 0x20
 	.string	"reserved_260"
 	.byte	0xa
 	.uahalf	0x1d9d
-	.uaword	0x528
+	.uaword	0x51d
 	.uahalf	0x260
 	.uleb128 0x20
 	.string	"DLA"
 	.byte	0xa
 	.uahalf	0x1d9e
-	.uaword	0x1c96f
+	.uaword	0x1c964
 	.uahalf	0x280
 	.uleb128 0x20
 	.string	"reserved_2E0"
 	.byte	0xa
 	.uahalf	0x1d9f
-	.uaword	0x528
+	.uaword	0x51d
 	.uahalf	0x2e0
 	.uleb128 0x20
 	.string	"NA"
 	.byte	0xa
 	.uahalf	0x1da0
-	.uaword	0x1c97f
+	.uaword	0x1c974
 	.uahalf	0x300
 	.uleb128 0x20
 	.string	"reserved_360"
 	.byte	0xa
 	.uahalf	0x1da1
-	.uaword	0x528
+	.uaword	0x51d
 	.uahalf	0x360
 	.uleb128 0x20
 	.string	"DTA"
 	.byte	0xa
 	.uahalf	0x1da2
-	.uaword	0x1c98f
+	.uaword	0x1c984
 	.uahalf	0x380
 	.uleb128 0x20
 	.string	"reserved_3E0"
 	.byte	0xa
 	.uahalf	0x1da3
-	.uaword	0x528
+	.uaword	0x51d
 	.uahalf	0x3e0
 	.uleb128 0x20
 	.string	"TS_T_0"
 	.byte	0xa
 	.uahalf	0x1da4
-	.uaword	0x1841a
+	.uaword	0x1840f
 	.uahalf	0x400
 	.uleb128 0x20
 	.string	"TS_T_1"
 	.byte	0xa
 	.uahalf	0x1da5
-	.uaword	0x1845e
+	.uaword	0x18453
 	.uahalf	0x404
 	.uleb128 0x20
 	.string	"FTV_T"
 	.byte	0xa
 	.uahalf	0x1da6
-	.uaword	0x1756f
+	.uaword	0x17564
 	.uahalf	0x408
 	.uleb128 0x20
 	.string	"reserved_40C"
 	.byte	0xa
 	.uahalf	0x1da7
-	.uaword	0x4a8
+	.uaword	0x49d
 	.uahalf	0x40c
 	.uleb128 0x20
 	.string	"TS_S_0"
 	.byte	0xa
 	.uahalf	0x1da8
-	.uaword	0x18392
+	.uaword	0x18387
 	.uahalf	0x410
 	.uleb128 0x20
 	.string	"TS_S_1"
 	.byte	0xa
 	.uahalf	0x1da9
-	.uaword	0x183d6
+	.uaword	0x183cb
 	.uahalf	0x414
 	.uleb128 0x20
 	.string	"FTV_S"
 	.byte	0xa
 	.uahalf	0x1daa
-	.uaword	0x1752c
+	.uaword	0x17521
 	.uahalf	0x418
 	.uleb128 0x20
 	.string	"reserved_41C"
 	.byte	0xa
 	.uahalf	0x1dab
-	.uaword	0x4a8
+	.uaword	0x49d
 	.uahalf	0x41c
 	.uleb128 0x20
 	.string	"THMI"
 	.byte	0xa
 	.uahalf	0x1dac
-	.uaword	0x18248
+	.uaword	0x1823d
 	.uahalf	0x420
 	.uleb128 0x20
 	.string	"THMA"
 	.byte	0xa
 	.uahalf	0x1dad
-	.uaword	0x18206
+	.uaword	0x181fb
 	.uahalf	0x424
 	.uleb128 0x20
 	.string	"THVAL"
 	.byte	0xa
 	.uahalf	0x1dae
-	.uaword	0x1828a
+	.uaword	0x1827f
 	.uahalf	0x428
 	.uleb128 0x20
 	.string	"reserved_42C"
 	.byte	0xa
 	.uahalf	0x1daf
-	.uaword	0x4a8
+	.uaword	0x49d
 	.uahalf	0x42c
 	.uleb128 0x20
 	.string	"TOV"
 	.byte	0xa
 	.uahalf	0x1db0
-	.uaword	0x1830e
+	.uaword	0x18303
 	.uahalf	0x430
 	.uleb128 0x20
 	.string	"TOV_S"
 	.byte	0xa
 	.uahalf	0x1db1
-	.uaword	0x1834f
+	.uaword	0x18344
 	.uahalf	0x434
 	.uleb128 0x20
 	.string	"ADD_IN_CAL1"
 	.byte	0xa
 	.uahalf	0x1db2
-	.uaword	0x16b91
+	.uaword	0x16b86
 	.uahalf	0x438
 	.uleb128 0x20
 	.string	"ADD_IN_CAL2"
 	.byte	0xa
 	.uahalf	0x1db3
-	.uaword	0x16bda
+	.uaword	0x16bcf
 	.uahalf	0x43c
 	.uleb128 0x20
 	.string	"MPVAL1"
 	.byte	0xa
 	.uahalf	0x1db4
-	.uaword	0x178aa
+	.uaword	0x1789f
 	.uahalf	0x440
 	.uleb128 0x20
 	.string	"MPVAL2"
 	.byte	0xa
 	.uahalf	0x1db5
-	.uaword	0x178ee
+	.uaword	0x178e3
 	.uahalf	0x444
 	.uleb128 0x22
 	.uaword	.LASF175
 	.byte	0xa
 	.uahalf	0x1db6
-	.uaword	0x17a8a
+	.uaword	0x17a7f
 	.uahalf	0x448
 	.uleb128 0x22
 	.uaword	.LASF176
 	.byte	0xa
 	.uahalf	0x1db7
-	.uaword	0x17ad1
+	.uaword	0x17ac6
 	.uahalf	0x44c
 	.uleb128 0x22
 	.uaword	.LASF173
 	.byte	0xa
 	.uahalf	0x1db8
-	.uaword	0x179b5
+	.uaword	0x179aa
 	.uahalf	0x450
 	.uleb128 0x22
 	.uaword	.LASF174
 	.byte	0xa
 	.uahalf	0x1db9
-	.uaword	0x179fc
+	.uaword	0x179f1
 	.uahalf	0x454
 	.uleb128 0x20
 	.string	"reserved_458"
 	.byte	0xa
 	.uahalf	0x1dba
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.uahalf	0x458
 	.uleb128 0x20
 	.string	"RCDT_TX"
 	.byte	0xa
 	.uahalf	0x1dbb
-	.uaword	0x17f94
+	.uaword	0x17f89
 	.uahalf	0x460
 	.uleb128 0x20
 	.string	"RCDT_SX"
 	.byte	0xa
 	.uahalf	0x1dbc
-	.uaword	0x17f06
+	.uaword	0x17efb
 	.uahalf	0x464
 	.uleb128 0x22
 	.uaword	.LASF178
 	.byte	0xa
 	.uahalf	0x1dbd
-	.uaword	0x17fd9
+	.uaword	0x17fce
 	.uahalf	0x468
 	.uleb128 0x22
 	.uaword	.LASF177
 	.byte	0xa
 	.uahalf	0x1dbe
-	.uaword	0x17f4b
+	.uaword	0x17f40
 	.uahalf	0x46c
 	.uleb128 0x22
 	.uaword	.LASF180
 	.byte	0xa
 	.uahalf	0x1dbf
-	.uaword	0x180ac
+	.uaword	0x180a1
 	.uahalf	0x470
 	.uleb128 0x22
 	.uaword	.LASF179
 	.byte	0xa
 	.uahalf	0x1dc0
-	.uaword	0x18065
+	.uaword	0x1805a
 	.uahalf	0x474
 	.uleb128 0x22
 	.uaword	.LASF169
 	.byte	0xa
 	.uahalf	0x1dc1
-	.uaword	0x173da
+	.uaword	0x173cf
 	.uahalf	0x478
 	.uleb128 0x22
 	.uaword	.LASF168
 	.byte	0xa
 	.uahalf	0x1dc2
-	.uaword	0x17394
+	.uaword	0x17389
 	.uahalf	0x47c
 	.uleb128 0x20
 	.string	"EDT_T"
 	.byte	0xa
 	.uahalf	0x1dc3
-	.uaword	0x174a4
+	.uaword	0x17499
 	.uahalf	0x480
 	.uleb128 0x20
 	.string	"MEDT_T"
 	.byte	0xa
 	.uahalf	0x1dc4
-	.uaword	0x177e2
+	.uaword	0x177d7
 	.uahalf	0x484
 	.uleb128 0x20
 	.string	"EDT_S"
 	.byte	0xa
 	.uahalf	0x1dc5
-	.uaword	0x17461
+	.uaword	0x17456
 	.uahalf	0x488
 	.uleb128 0x20
 	.string	"MEDT_S"
 	.byte	0xa
 	.uahalf	0x1dc6
-	.uaword	0x1779e
+	.uaword	0x17793
 	.uahalf	0x48c
 	.uleb128 0x20
 	.string	"CDT_TX"
 	.byte	0xa
 	.uahalf	0x1dc7
-	.uaword	0x16f5d
+	.uaword	0x16f52
 	.uahalf	0x490
 	.uleb128 0x20
 	.string	"CDT_SX"
 	.byte	0xa
 	.uahalf	0x1dc8
-	.uaword	0x16ed1
+	.uaword	0x16ec6
 	.uahalf	0x494
 	.uleb128 0x22
 	.uaword	.LASF166
 	.byte	0xa
 	.uahalf	0x1dc9
-	.uaword	0x16fa1
+	.uaword	0x16f96
 	.uahalf	0x498
 	.uleb128 0x22
 	.uaword	.LASF165
 	.byte	0xa
 	.uahalf	0x1dca
-	.uaword	0x16f15
+	.uaword	0x16f0a
 	.uahalf	0x49c
 	.uleb128 0x20
 	.string	"TLR"
 	.byte	0xa
 	.uahalf	0x1dcb
-	.uaword	0x182cd
+	.uaword	0x182c2
 	.uahalf	0x4a0
 	.uleb128 0x20
 	.string	"SLR"
 	.byte	0xa
 	.uahalf	0x1dcc
-	.uaword	0x180f3
+	.uaword	0x180e8
 	.uahalf	0x4a4
 	.uleb128 0x20
 	.string	"reserved_4A8"
 	.byte	0xa
 	.uahalf	0x1dcd
-	.uaword	0x4c8
+	.uaword	0x4bd
 	.uahalf	0x4a8
 	.uleb128 0x20
 	.string	"PDT_T"
 	.byte	0xa
 	.uahalf	0x1dce
-	.uaword	0x1c99f
+	.uaword	0x1c994
 	.uahalf	0x500
 	.uleb128 0x20
 	.string	"reserved_560"
 	.byte	0xa
 	.uahalf	0x1dcf
-	.uaword	0x4d8
+	.uaword	0x4cd
 	.uahalf	0x560
 	.uleb128 0x20
 	.string	"MLS1"
 	.byte	0xa
 	.uahalf	0x1dd0
-	.uaword	0x17826
+	.uaword	0x1781b
 	.uahalf	0x5c0
 	.uleb128 0x20
 	.string	"MLS2"
 	.byte	0xa
 	.uahalf	0x1dd1
-	.uaword	0x17868
+	.uaword	0x1785d
 	.uahalf	0x5c4
 	.uleb128 0x20
 	.string	"CNT_NUM1"
 	.byte	0xa
 	.uahalf	0x1dd2
-	.uaword	0x16fe9
+	.uaword	0x16fde
 	.uahalf	0x5c8
 	.uleb128 0x20
 	.string	"CNT_NUM2"
 	.byte	0xa
 	.uahalf	0x1dd3
-	.uaword	0x1702f
+	.uaword	0x17024
 	.uahalf	0x5cc
 	.uleb128 0x20
 	.string	"PVT"
 	.byte	0xa
 	.uahalf	0x1dd4
-	.uaword	0x17e80
+	.uaword	0x17e75
 	.uahalf	0x5d0
 	.uleb128 0x20
 	.string	"reserved_5D4"
 	.byte	0xa
 	.uahalf	0x1dd5
-	.uaword	0x468
+	.uaword	0x45d
 	.uahalf	0x5d4
 	.uleb128 0x20
 	.string	"PSTC"
 	.byte	0xa
 	.uahalf	0x1dd6
-	.uaword	0x17db6
+	.uaword	0x17dab
 	.uahalf	0x5e0
 	.uleb128 0x20
 	.string	"PSSC"
 	.byte	0xa
 	.uahalf	0x1dd7
-	.uaword	0x17cec
+	.uaword	0x17ce1
 	.uahalf	0x5e4
 	.uleb128 0x20
 	.string	"PSTM_0"
 	.byte	0xa
 	.uahalf	0x1dd8
-	.uaword	0x17df8
+	.uaword	0x17ded
 	.uahalf	0x5e8
 	.uleb128 0x20
 	.string	"PSTM_1"
 	.byte	0xa
 	.uahalf	0x1dd9
-	.uaword	0x17e3c
+	.uaword	0x17e31
 	.uahalf	0x5ec
 	.uleb128 0x20
 	.string	"PSSM_0"
 	.byte	0xa
 	.uahalf	0x1dda
-	.uaword	0x17d2e
+	.uaword	0x17d23
 	.uahalf	0x5f0
 	.uleb128 0x20
 	.string	"PSSM_1"
 	.byte	0xa
 	.uahalf	0x1ddb
-	.uaword	0x17d72
+	.uaword	0x17d67
 	.uahalf	0x5f4
 	.uleb128 0x20
 	.string	"NMB_T"
 	.byte	0xa
 	.uahalf	0x1ddc
-	.uaword	0x17a47
+	.uaword	0x17a3c
 	.uahalf	0x5f8
 	.uleb128 0x20
 	.string	"NMB_S"
 	.byte	0xa
 	.uahalf	0x1ddd
-	.uaword	0x17972
+	.uaword	0x17967
 	.uahalf	0x5fc
 	.uleb128 0x20
 	.string	"RDT_S"
 	.byte	0xa
 	.uahalf	0x1dde
-	.uaword	0x1c9af
+	.uaword	0x1c9a4
 	.uahalf	0x600
 	.uleb128 0x20
 	.string	"TSF_S"
 	.byte	0xa
 	.uahalf	0x1ddf
-	.uaword	0x1c9bf
+	.uaword	0x1c9b4
 	.uahalf	0x700
 	.uleb128 0x20
 	.string	"ADT_S"
 	.byte	0xa
 	.uahalf	0x1de0
-	.uaword	0x1c9cf
+	.uaword	0x1c9c4
 	.uahalf	0x800
 	.uleb128 0x20
 	.string	"DT_S"
 	.byte	0xa
 	.uahalf	0x1de1
-	.uaword	0x1c9df
+	.uaword	0x1c9d4
 	.uahalf	0x900
 	.uleb128 0x20
 	.string	"reserved_A00"
 	.byte	0xa
 	.uahalf	0x1de2
-	.uaword	0x1c9ef
+	.uaword	0x1c9e4
 	.uahalf	0xa00
 	.uleb128 0x20
 	.string	"TSAC"
 	.byte	0xa
 	.uahalf	0x1de3
-	.uaword	0x1ca00
+	.uaword	0x1c9f5
 	.uahalf	0xe00
 	.uleb128 0x20
 	.string	"reserved_E60"
 	.byte	0xa
 	.uahalf	0x1de4
-	.uaword	0x528
+	.uaword	0x51d
 	.uahalf	0xe60
 	.uleb128 0x20
 	.string	"PSAC"
 	.byte	0xa
 	.uahalf	0x1de5
-	.uaword	0x1ca10
+	.uaword	0x1ca05
 	.uahalf	0xe80
 	.uleb128 0x20
 	.string	"reserved_EE0"
 	.byte	0xa
 	.uahalf	0x1de6
-	.uaword	0x528
+	.uaword	0x51d
 	.uahalf	0xee0
 	.uleb128 0x20
 	.string	"ACB"
 	.byte	0xa
 	.uahalf	0x1de7
-	.uaword	0x1ca20
+	.uaword	0x1ca15
 	.uahalf	0xf00
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1c93f
+	.uaword	0x227
+	.uaword	0x1c934
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x5b
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x175b2
-	.uaword	0x1c94f
+	.uaword	0x175a7
+	.uaword	0x1c944
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x17
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1c95f
+	.uaword	0x227
+	.uaword	0x1c954
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x7f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x17c69
-	.uaword	0x1c96f
+	.uaword	0x17c5e
+	.uaword	0x1c964
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x17
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x17311
-	.uaword	0x1c97f
+	.uaword	0x17306
+	.uaword	0x1c974
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x17
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x17932
-	.uaword	0x1c98f
+	.uaword	0x17927
+	.uaword	0x1c984
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x17
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x17420
-	.uaword	0x1c99f
+	.uaword	0x17415
+	.uaword	0x1c994
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x17
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x17c26
-	.uaword	0x1c9af
+	.uaword	0x17c1b
+	.uaword	0x1c9a4
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x17
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x18022
-	.uaword	0x1c9bf
+	.uaword	0x18017
+	.uaword	0x1c9b4
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x184e4
-	.uaword	0x1c9cf
+	.uaword	0x184d9
+	.uaword	0x1c9c4
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x16cb3
-	.uaword	0x1c9df
+	.uaword	0x16ca8
+	.uaword	0x1c9d4
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x17352
-	.uaword	0x1c9ef
+	.uaword	0x17347
+	.uaword	0x1c9e4
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3f
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1ca00
+	.uaword	0x227
+	.uaword	0x1c9f5
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x3ff
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x184a2
-	.uaword	0x1ca10
+	.uaword	0x18497
+	.uaword	0x1ca05
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x17
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x17caa
-	.uaword	0x1ca20
+	.uaword	0x17c9f
+	.uaword	0x1ca15
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x17
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x16b0b
-	.uaword	0x1ca30
+	.uaword	0x16b00
+	.uaword	0x1ca25
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x5
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_DPLL"
 	.byte	0xa
 	.uahalf	0x1de8
-	.uaword	0x1ca45
+	.uaword	0x1ca3a
 	.uleb128 0x17
-	.uaword	0x1c15c
+	.uaword	0x1c151
 	.uleb128 0x11
 	.string	"_Ifx_GTM_F2A"
 	.byte	0x44
 	.byte	0xa
 	.uahalf	0x1deb
-	.uaword	0x1ca90
+	.uaword	0x1ca85
 	.uleb128 0x15
 	.string	"RD_CH"
 	.byte	0xa
 	.uahalf	0x1ded
-	.uaword	0x1caa0
+	.uaword	0x1ca95
 	.byte	0
 	.uleb128 0x15
 	.string	"STR_CH"
 	.byte	0xa
 	.uahalf	0x1dee
-	.uaword	0x1cab5
+	.uaword	0x1caaa
 	.byte	0x20
 	.uleb128 0x15
 	.string	"ENABLE"
 	.byte	0xa
 	.uahalf	0x1def
-	.uaword	0x185e8
+	.uaword	0x185dd
 	.byte	0x40
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1b29a
-	.uaword	0x1caa0
+	.uaword	0x1b28f
+	.uaword	0x1ca95
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x7
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1ca90
+	.uaword	0x1ca85
 	.uleb128 0x9
-	.uaword	0x1b2e8
-	.uaword	0x1cab5
+	.uaword	0x1b2dd
+	.uaword	0x1caaa
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x7
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1caa5
+	.uaword	0x1ca9a
 	.uleb128 0x10
 	.string	"Ifx_GTM_F2A"
 	.byte	0xa
 	.uahalf	0x1df0
-	.uaword	0x1cace
+	.uaword	0x1cac3
 	.uleb128 0x17
-	.uaword	0x1ca4a
+	.uaword	0x1ca3f
 	.uleb128 0x14
 	.string	"_Ifx_GTM_FIFO"
 	.uahalf	0x200
 	.byte	0xa
 	.uahalf	0x1df3
-	.uaword	0x1caf8
+	.uaword	0x1caed
 	.uleb128 0x15
 	.string	"CH"
 	.byte	0xa
 	.uahalf	0x1df5
-	.uaword	0x1cb08
+	.uaword	0x1cafd
 	.byte	0
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1b411
-	.uaword	0x1cb08
+	.uaword	0x1b406
+	.uaword	0x1cafd
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x7
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1caf8
+	.uaword	0x1caed
 	.uleb128 0x10
 	.string	"Ifx_GTM_FIFO"
 	.byte	0xa
 	.uahalf	0x1df6
-	.uaword	0x1cb22
+	.uaword	0x1cb17
 	.uleb128 0x17
-	.uaword	0x1cad3
+	.uaword	0x1cac8
 	.uleb128 0x11
 	.string	"_Ifx_GTM_ICM"
 	.byte	0x44
 	.byte	0xa
 	.uahalf	0x1df9
-	.uaword	0x1cc4b
+	.uaword	0x1cc40
 	.uleb128 0x15
 	.string	"IRQG_0"
 	.byte	0xa
 	.uahalf	0x1dfb
-	.uaword	0x18abe
+	.uaword	0x18ab3
 	.byte	0
 	.uleb128 0x15
 	.string	"IRQG_1"
 	.byte	0xa
 	.uahalf	0x1dfc
-	.uaword	0x18b01
+	.uaword	0x18af6
 	.byte	0x4
 	.uleb128 0x15
 	.string	"IRQG_2"
 	.byte	0xa
 	.uahalf	0x1dfd
-	.uaword	0x18b88
+	.uaword	0x18b7d
 	.byte	0x8
 	.uleb128 0x16
 	.uaword	.LASF20
 	.byte	0xa
 	.uahalf	0x1dfe
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0xc
 	.uleb128 0x15
 	.string	"IRQG_4"
 	.byte	0xa
 	.uahalf	0x1dff
-	.uaword	0x18bcb
+	.uaword	0x18bc0
 	.byte	0x10
 	.uleb128 0x16
 	.uaword	.LASF36
 	.byte	0xa
 	.uahalf	0x1e00
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0x14
 	.uleb128 0x15
 	.string	"IRQG_6"
 	.byte	0xa
 	.uahalf	0x1e01
-	.uaword	0x18c0e
+	.uaword	0x18c03
 	.byte	0x18
 	.uleb128 0x15
 	.string	"IRQG_7"
 	.byte	0xa
 	.uahalf	0x1e02
-	.uaword	0x18c51
+	.uaword	0x18c46
 	.byte	0x1c
 	.uleb128 0x16
 	.uaword	.LASF6
 	.byte	0xa
 	.uahalf	0x1e03
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0x20
 	.uleb128 0x15
 	.string	"IRQG_9"
 	.byte	0xa
 	.uahalf	0x1e04
-	.uaword	0x18c94
+	.uaword	0x18c89
 	.byte	0x24
 	.uleb128 0x15
 	.string	"IRQG_10"
 	.byte	0xa
 	.uahalf	0x1e05
-	.uaword	0x18b44
+	.uaword	0x18b39
 	.byte	0x28
 	.uleb128 0x16
 	.uaword	.LASF202
 	.byte	0xa
 	.uahalf	0x1e06
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0x2c
 	.uleb128 0x15
 	.string	"IRQG_MEI"
 	.byte	0xa
 	.uahalf	0x1e07
-	.uaword	0x18da9
+	.uaword	0x18d9e
 	.byte	0x30
 	.uleb128 0x15
 	.string	"IRQG_CEI0"
 	.byte	0xa
 	.uahalf	0x1e08
-	.uaword	0x18cd7
+	.uaword	0x18ccc
 	.byte	0x34
 	.uleb128 0x15
 	.string	"IRQG_CEI1"
 	.byte	0xa
 	.uahalf	0x1e09
-	.uaword	0x18d1d
+	.uaword	0x18d12
 	.byte	0x38
 	.uleb128 0x16
 	.uaword	.LASF204
 	.byte	0xa
 	.uahalf	0x1e0a
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0x3c
 	.uleb128 0x15
 	.string	"IRQG_CEI3"
 	.byte	0xa
 	.uahalf	0x1e0b
-	.uaword	0x18d63
+	.uaword	0x18d58
 	.byte	0x40
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_ICM"
 	.byte	0xa
 	.uahalf	0x1e0c
-	.uaword	0x1cc5f
+	.uaword	0x1cc54
 	.uleb128 0x17
-	.uaword	0x1cb27
+	.uaword	0x1cb1c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_INOUTSEL"
 	.byte	0x9c
 	.byte	0xa
 	.uahalf	0x1e0f
-	.uaword	0x1cd08
+	.uaword	0x1ccfd
 	.uleb128 0x15
 	.string	"TIM"
 	.byte	0xa
 	.uahalf	0x1e11
-	.uaword	0x1cd18
+	.uaword	0x1cd0d
 	.byte	0
 	.uleb128 0x16
 	.uaword	.LASF5
 	.byte	0xa
 	.uahalf	0x1e12
-	.uaword	0x488
+	.uaword	0x47d
 	.byte	0x10
 	.uleb128 0x15
 	.string	"T"
 	.byte	0xa
 	.uahalf	0x1e13
-	.uaword	0x1b5f6
+	.uaword	0x1b5eb
 	.byte	0x20
 	.uleb128 0x15
 	.string	"reserved_5C"
 	.byte	0xa
 	.uahalf	0x1e14
-	.uaword	0x488
+	.uaword	0x47d
 	.byte	0x5c
 	.uleb128 0x15
 	.string	"DSADC"
 	.byte	0xa
 	.uahalf	0x1e15
-	.uaword	0x1b4ef
+	.uaword	0x1b4e4
 	.byte	0x6c
 	.uleb128 0x15
 	.string	"reserved_84"
 	.byte	0xa
 	.uahalf	0x1e16
-	.uaword	0x468
+	.uaword	0x45d
 	.byte	0x84
 	.uleb128 0x15
 	.string	"CAN"
 	.byte	0xa
 	.uahalf	0x1e17
-	.uaword	0x1b45b
+	.uaword	0x1b450
 	.byte	0x90
 	.uleb128 0x15
 	.string	"PSI5"
 	.byte	0xa
 	.uahalf	0x1e18
-	.uaword	0x1b545
+	.uaword	0x1b53a
 	.byte	0x94
 	.uleb128 0x15
 	.string	"PSI5S"
 	.byte	0xa
 	.uahalf	0x1e19
-	.uaword	0x1b597
+	.uaword	0x1b58c
 	.byte	0x98
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1b645
-	.uaword	0x1cd18
+	.uaword	0x1b63a
+	.uaword	0x1cd0d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1cd08
+	.uaword	0x1ccfd
 	.uleb128 0x10
 	.string	"Ifx_GTM_INOUTSEL"
 	.byte	0xa
 	.uahalf	0x1e1a
-	.uaword	0x1cd36
+	.uaword	0x1cd2b
 	.uleb128 0x17
-	.uaword	0x1cc64
+	.uaword	0x1cc59
 	.uleb128 0x14
 	.string	"_Ifx_GTM_MCS"
 	.uahalf	0x1000
 	.byte	0xa
 	.uahalf	0x1e1d
-	.uaword	0x1ce0c
+	.uaword	0x1ce01
 	.uleb128 0x15
 	.string	"CH0"
 	.byte	0xa
 	.uahalf	0x1e1f
-	.uaword	0x1b889
+	.uaword	0x1b87e
 	.byte	0
 	.uleb128 0x16
 	.uaword	.LASF201
 	.byte	0xa
 	.uahalf	0x1e20
-	.uaword	0x508
+	.uaword	0x4fd
 	.byte	0x58
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1e21
-	.uaword	0x1971a
+	.uaword	0x1970f
 	.byte	0x74
 	.uleb128 0x15
 	.string	"RST"
 	.byte	0xa
 	.uahalf	0x1e22
-	.uaword	0x1979b
+	.uaword	0x19790
 	.byte	0x78
 	.uleb128 0x15
 	.string	"ERR"
 	.byte	0xa
 	.uahalf	0x1e23
-	.uaword	0x1975b
+	.uaword	0x19750
 	.byte	0x7c
 	.uleb128 0x15
 	.string	"CH1"
 	.byte	0xa
 	.uahalf	0x1e24
-	.uaword	0x1b762
+	.uaword	0x1b757
 	.byte	0x80
 	.uleb128 0x20
 	.string	"CH2"
 	.byte	0xa
 	.uahalf	0x1e25
-	.uaword	0x1b762
+	.uaword	0x1b757
 	.uahalf	0x100
 	.uleb128 0x20
 	.string	"CH3"
 	.byte	0xa
 	.uahalf	0x1e26
-	.uaword	0x1b762
+	.uaword	0x1b757
 	.uahalf	0x180
 	.uleb128 0x20
 	.string	"CH4"
 	.byte	0xa
 	.uahalf	0x1e27
-	.uaword	0x1b762
+	.uaword	0x1b757
 	.uahalf	0x200
 	.uleb128 0x20
 	.string	"CH5"
 	.byte	0xa
 	.uahalf	0x1e28
-	.uaword	0x1b762
+	.uaword	0x1b757
 	.uahalf	0x280
 	.uleb128 0x20
 	.string	"CH6"
 	.byte	0xa
 	.uahalf	0x1e29
-	.uaword	0x1b762
+	.uaword	0x1b757
 	.uahalf	0x300
 	.uleb128 0x20
 	.string	"CH7"
 	.byte	0xa
 	.uahalf	0x1e2a
-	.uaword	0x1b762
+	.uaword	0x1b757
 	.uahalf	0x380
 	.uleb128 0x20
 	.string	"reserved_400"
 	.byte	0xa
 	.uahalf	0x1e2b
-	.uaword	0x1ce0c
+	.uaword	0x1ce01
 	.uahalf	0x400
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1ce1d
+	.uaword	0x227
+	.uaword	0x1ce12
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0xbff
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MCS"
 	.byte	0xa
 	.uahalf	0x1e2c
-	.uaword	0x1ce31
+	.uaword	0x1ce26
 	.uleb128 0x17
-	.uaword	0x1cd3b
+	.uaword	0x1cd30
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MON"
 	.byte	0x8
 	.byte	0xa
 	.uahalf	0x1e2f
-	.uaword	0x1ce6e
+	.uaword	0x1ce63
 	.uleb128 0x16
 	.uaword	.LASF198
 	.byte	0xa
 	.uahalf	0x1e31
-	.uaword	0x198a7
+	.uaword	0x1989c
 	.byte	0
 	.uleb128 0x15
 	.string	"ACTIVITY_0"
 	.byte	0xa
 	.uahalf	0x1e32
-	.uaword	0x19860
+	.uaword	0x19855
 	.byte	0x4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MON"
 	.byte	0xa
 	.uahalf	0x1e33
-	.uaword	0x1ce82
+	.uaword	0x1ce77
 	.uleb128 0x17
-	.uaword	0x1ce36
+	.uaword	0x1ce2b
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MSCIN"
 	.byte	0x8
 	.byte	0xa
 	.uahalf	0x1e36
-	.uaword	0x1cec0
+	.uaword	0x1ceb5
 	.uleb128 0x15
 	.string	"INLCON"
 	.byte	0xa
 	.uahalf	0x1e38
-	.uaword	0x1992f
+	.uaword	0x19924
 	.byte	0
 	.uleb128 0x15
 	.string	"INHCON"
 	.byte	0xa
 	.uahalf	0x1e39
-	.uaword	0x198ea
+	.uaword	0x198df
 	.byte	0x4
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MSCIN"
 	.byte	0xa
 	.uahalf	0x1e3a
-	.uaword	0x1ced6
+	.uaword	0x1cecb
 	.uleb128 0x17
-	.uaword	0x1ce87
+	.uaword	0x1ce7c
 	.uleb128 0x11
 	.string	"_Ifx_GTM_MSCSET"
 	.byte	0x10
 	.byte	0xa
 	.uahalf	0x1e3d
-	.uaword	0x1cf2d
+	.uaword	0x1cf22
 	.uleb128 0x15
 	.string	"CON0"
 	.byte	0xa
 	.uahalf	0x1e3f
-	.uaword	0x19974
+	.uaword	0x19969
 	.byte	0
 	.uleb128 0x15
 	.string	"CON1"
 	.byte	0xa
 	.uahalf	0x1e40
-	.uaword	0x199b8
+	.uaword	0x199ad
 	.byte	0x4
 	.uleb128 0x15
 	.string	"CON2"
 	.byte	0xa
 	.uahalf	0x1e41
-	.uaword	0x199fc
+	.uaword	0x199f1
 	.byte	0x8
 	.uleb128 0x15
 	.string	"CON3"
 	.byte	0xa
 	.uahalf	0x1e42
-	.uaword	0x19a40
+	.uaword	0x19a35
 	.byte	0xc
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_MSCSET"
 	.byte	0xa
 	.uahalf	0x1e43
-	.uaword	0x1cf44
+	.uaword	0x1cf39
 	.uleb128 0x17
-	.uaword	0x1cedb
+	.uaword	0x1ced0
 	.uleb128 0x11
 	.string	"_Ifx_GTM_SPE"
 	.byte	0x80
 	.byte	0xa
 	.uahalf	0x1e46
-	.uaword	0x1d00b
+	.uaword	0x1d000
 	.uleb128 0x15
 	.string	"CTRL_STAT"
 	.byte	0xa
 	.uahalf	0x1e48
-	.uaword	0x19d6a
+	.uaword	0x19d5f
 	.byte	0
 	.uleb128 0x15
 	.string	"PAT"
 	.byte	0xa
 	.uahalf	0x1e49
-	.uaword	0x19f94
+	.uaword	0x19f89
 	.byte	0x4
 	.uleb128 0x15
 	.string	"OUT_PAT"
 	.byte	0xa
 	.uahalf	0x1e4a
-	.uaword	0x1d00b
+	.uaword	0x1d000
 	.byte	0x8
 	.uleb128 0x15
 	.string	"OUT_CTRL"
 	.byte	0xa
 	.uahalf	0x1e4b
-	.uaword	0x19f0b
+	.uaword	0x19f00
 	.byte	0x28
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1e4c
-	.uaword	0x19ec4
+	.uaword	0x19eb9
 	.byte	0x2c
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1e4d
-	.uaword	0x19df4
+	.uaword	0x19de9
 	.byte	0x30
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1e4e
-	.uaword	0x19e37
+	.uaword	0x19e2c
 	.byte	0x34
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1e4f
-	.uaword	0x19e7f
+	.uaword	0x19e74
 	.byte	0x38
 	.uleb128 0x16
 	.uaword	.LASF199
 	.byte	0xa
 	.uahalf	0x1e50
-	.uaword	0x19db0
+	.uaword	0x19da5
 	.byte	0x3c
 	.uleb128 0x15
 	.string	"CNT"
 	.byte	0xa
 	.uahalf	0x1e51
-	.uaword	0x19d2a
+	.uaword	0x19d1f
 	.byte	0x40
 	.uleb128 0x15
 	.string	"CMP"
 	.byte	0xa
 	.uahalf	0x1e52
-	.uaword	0x19cea
+	.uaword	0x19cdf
 	.byte	0x44
 	.uleb128 0x16
 	.uaword	.LASF21
 	.byte	0xa
 	.uahalf	0x1e53
-	.uaword	0x4f8
+	.uaword	0x4ed
 	.byte	0x48
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x19f50
-	.uaword	0x1d01b
+	.uaword	0x19f45
+	.uaword	0x1d010
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x7
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_SPE"
 	.byte	0xa
 	.uahalf	0x1e54
-	.uaword	0x1d02f
+	.uaword	0x1d024
 	.uleb128 0x17
-	.uaword	0x1cf49
+	.uaword	0x1cf3e
 	.uleb128 0x11
 	.string	"_Ifx_GTM_TBU"
 	.byte	0x1c
 	.byte	0xa
 	.uahalf	0x1e57
-	.uaword	0x1d0c5
+	.uaword	0x1d0ba
 	.uleb128 0x15
 	.string	"CHEN"
 	.byte	0xa
 	.uahalf	0x1e59
-	.uaword	0x1a172
+	.uaword	0x1a167
 	.byte	0
 	.uleb128 0x15
 	.string	"CH0_CTRL"
 	.byte	0xa
 	.uahalf	0x1e5a
-	.uaword	0x1a019
+	.uaword	0x1a00e
 	.byte	0x4
 	.uleb128 0x15
 	.string	"CH0_BASE"
 	.byte	0xa
 	.uahalf	0x1e5b
-	.uaword	0x19fd4
+	.uaword	0x19fc9
 	.byte	0x8
 	.uleb128 0x15
 	.string	"CH1_CTRL"
 	.byte	0xa
 	.uahalf	0x1e5c
-	.uaword	0x1a0a3
+	.uaword	0x1a098
 	.byte	0xc
 	.uleb128 0x15
 	.string	"CH1_BASE"
 	.byte	0xa
 	.uahalf	0x1e5d
-	.uaword	0x1a05e
+	.uaword	0x1a053
 	.byte	0x10
 	.uleb128 0x15
 	.string	"CH2_CTRL"
 	.byte	0xa
 	.uahalf	0x1e5e
-	.uaword	0x1a12d
+	.uaword	0x1a122
 	.byte	0x14
 	.uleb128 0x15
 	.string	"CH2_BASE"
 	.byte	0xa
 	.uahalf	0x1e5f
-	.uaword	0x1a0e8
+	.uaword	0x1a0dd
 	.byte	0x18
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TBU"
 	.byte	0xa
 	.uahalf	0x1e60
-	.uaword	0x1d0d9
+	.uaword	0x1d0ce
 	.uleb128 0x17
-	.uaword	0x1d034
+	.uaword	0x1d029
 	.uleb128 0x14
 	.string	"_Ifx_GTM_TIM"
 	.uahalf	0x800
 	.byte	0xa
 	.uahalf	0x1e63
-	.uaword	0x1d220
+	.uaword	0x1d215
 	.uleb128 0x15
 	.string	"CH0"
 	.byte	0xa
 	.uahalf	0x1e65
-	.uaword	0x1b9b3
+	.uaword	0x1b9a8
 	.byte	0
 	.uleb128 0x15
 	.string	"IN_SRC"
 	.byte	0xa
 	.uahalf	0x1e66
-	.uaword	0x1a654
+	.uaword	0x1a649
 	.byte	0x78
 	.uleb128 0x15
 	.string	"RST"
 	.byte	0xa
 	.uahalf	0x1e67
-	.uaword	0x1a697
+	.uaword	0x1a68c
 	.byte	0x7c
 	.uleb128 0x15
 	.string	"CH1"
 	.byte	0xa
 	.uahalf	0x1e68
-	.uaword	0x1b9b3
+	.uaword	0x1b9a8
 	.byte	0x80
 	.uleb128 0x15
 	.string	"reserved_F8"
 	.byte	0xa
 	.uahalf	0x1e69
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.byte	0xf8
 	.uleb128 0x20
 	.string	"CH2"
 	.byte	0xa
 	.uahalf	0x1e6a
-	.uaword	0x1b9b3
+	.uaword	0x1b9a8
 	.uahalf	0x100
 	.uleb128 0x20
 	.string	"reserved_178"
 	.byte	0xa
 	.uahalf	0x1e6b
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.uahalf	0x178
 	.uleb128 0x20
 	.string	"CH3"
 	.byte	0xa
 	.uahalf	0x1e6c
-	.uaword	0x1b9b3
+	.uaword	0x1b9a8
 	.uahalf	0x180
 	.uleb128 0x20
 	.string	"reserved_1F8"
 	.byte	0xa
 	.uahalf	0x1e6d
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.uahalf	0x1f8
 	.uleb128 0x20
 	.string	"CH4"
 	.byte	0xa
 	.uahalf	0x1e6e
-	.uaword	0x1b9b3
+	.uaword	0x1b9a8
 	.uahalf	0x200
 	.uleb128 0x20
 	.string	"reserved_278"
 	.byte	0xa
 	.uahalf	0x1e6f
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.uahalf	0x278
 	.uleb128 0x20
 	.string	"CH5"
 	.byte	0xa
 	.uahalf	0x1e70
-	.uaword	0x1b9b3
+	.uaword	0x1b9a8
 	.uahalf	0x280
 	.uleb128 0x20
 	.string	"reserved_2F8"
 	.byte	0xa
 	.uahalf	0x1e71
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.uahalf	0x2f8
 	.uleb128 0x20
 	.string	"CH6"
 	.byte	0xa
 	.uahalf	0x1e72
-	.uaword	0x1b9b3
+	.uaword	0x1b9a8
 	.uahalf	0x300
 	.uleb128 0x20
 	.string	"reserved_378"
 	.byte	0xa
 	.uahalf	0x1e73
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.uahalf	0x378
 	.uleb128 0x20
 	.string	"CH7"
 	.byte	0xa
 	.uahalf	0x1e74
-	.uaword	0x1b9b3
+	.uaword	0x1b9a8
 	.uahalf	0x380
 	.uleb128 0x20
 	.string	"reserved_3F8"
 	.byte	0xa
 	.uahalf	0x1e75
-	.uaword	0x1d220
+	.uaword	0x1d215
 	.uahalf	0x3f8
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1d231
+	.uaword	0x227
+	.uaword	0x1d226
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x407
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TIM"
 	.byte	0xa
 	.uahalf	0x1e76
-	.uaword	0x1d245
+	.uaword	0x1d23a
 	.uleb128 0x17
-	.uaword	0x1d0de
+	.uaword	0x1d0d3
 	.uleb128 0x14
 	.string	"_Ifx_GTM_TOM"
 	.uahalf	0x800
 	.byte	0xa
 	.uahalf	0x1e79
-	.uaword	0x1d5d1
+	.uaword	0x1d5c6
 	.uleb128 0x15
 	.string	"CH0"
 	.byte	0xa
 	.uahalf	0x1e7b
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.byte	0
 	.uleb128 0x15
 	.string	"TGC0_GLB_CTRL"
 	.byte	0xa
 	.uahalf	0x1e7c
-	.uaword	0x1aafc
+	.uaword	0x1aaf1
 	.byte	0x30
 	.uleb128 0x15
 	.string	"TGC0_ACT_TB"
 	.byte	0xa
 	.uahalf	0x1e7d
-	.uaword	0x1a9d1
+	.uaword	0x1a9c6
 	.byte	0x34
 	.uleb128 0x15
 	.string	"TGC0_FUPD_CTRL"
 	.byte	0xa
 	.uahalf	0x1e7e
-	.uaword	0x1aab1
+	.uaword	0x1aaa6
 	.byte	0x38
 	.uleb128 0x15
 	.string	"TGC0_INT_TRIG"
 	.byte	0xa
 	.uahalf	0x1e7f
-	.uaword	0x1ab46
+	.uaword	0x1ab3b
 	.byte	0x3c
 	.uleb128 0x15
 	.string	"CH1"
 	.byte	0xa
 	.uahalf	0x1e80
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.byte	0x40
 	.uleb128 0x15
 	.string	"TGC0_ENDIS_CTRL"
 	.byte	0xa
 	.uahalf	0x1e81
-	.uaword	0x1aa19
+	.uaword	0x1aa0e
 	.byte	0x70
 	.uleb128 0x15
 	.string	"TGC0_ENDIS_STAT"
 	.byte	0xa
 	.uahalf	0x1e82
-	.uaword	0x1aa65
+	.uaword	0x1aa5a
 	.byte	0x74
 	.uleb128 0x15
 	.string	"TGC0_OUTEN_CTRL"
 	.byte	0xa
 	.uahalf	0x1e83
-	.uaword	0x1ab90
+	.uaword	0x1ab85
 	.byte	0x78
 	.uleb128 0x15
 	.string	"TGC0_OUTEN_STAT"
 	.byte	0xa
 	.uahalf	0x1e84
-	.uaword	0x1abdc
+	.uaword	0x1abd1
 	.byte	0x7c
 	.uleb128 0x15
 	.string	"CH2"
 	.byte	0xa
 	.uahalf	0x1e85
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.byte	0x80
 	.uleb128 0x15
 	.string	"reserved_B0"
 	.byte	0xa
 	.uahalf	0x1e86
-	.uaword	0x488
+	.uaword	0x47d
 	.byte	0xb0
 	.uleb128 0x15
 	.string	"CH3"
 	.byte	0xa
 	.uahalf	0x1e87
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.byte	0xc0
 	.uleb128 0x15
 	.string	"reserved_F0"
 	.byte	0xa
 	.uahalf	0x1e88
-	.uaword	0x488
+	.uaword	0x47d
 	.byte	0xf0
 	.uleb128 0x20
 	.string	"CH4"
 	.byte	0xa
 	.uahalf	0x1e89
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x100
 	.uleb128 0x20
 	.string	"reserved_130"
 	.byte	0xa
 	.uahalf	0x1e8a
-	.uaword	0x488
+	.uaword	0x47d
 	.uahalf	0x130
 	.uleb128 0x20
 	.string	"CH5"
 	.byte	0xa
 	.uahalf	0x1e8b
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x140
 	.uleb128 0x20
 	.string	"reserved_170"
 	.byte	0xa
 	.uahalf	0x1e8c
-	.uaword	0x488
+	.uaword	0x47d
 	.uahalf	0x170
 	.uleb128 0x20
 	.string	"CH6"
 	.byte	0xa
 	.uahalf	0x1e8d
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x180
 	.uleb128 0x20
 	.string	"reserved_1B0"
 	.byte	0xa
 	.uahalf	0x1e8e
-	.uaword	0x488
+	.uaword	0x47d
 	.uahalf	0x1b0
 	.uleb128 0x20
 	.string	"CH7"
 	.byte	0xa
 	.uahalf	0x1e8f
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x1c0
 	.uleb128 0x22
 	.uaword	.LASF203
 	.byte	0xa
 	.uahalf	0x1e90
-	.uaword	0x488
+	.uaword	0x47d
 	.uahalf	0x1f0
 	.uleb128 0x20
 	.string	"CH8"
 	.byte	0xa
 	.uahalf	0x1e91
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x200
 	.uleb128 0x20
 	.string	"TGC1_GLB_CTRL"
 	.byte	0xa
 	.uahalf	0x1e92
-	.uaword	0x1ad53
+	.uaword	0x1ad48
 	.uahalf	0x230
 	.uleb128 0x20
 	.string	"TGC1_ACT_TB"
 	.byte	0xa
 	.uahalf	0x1e93
-	.uaword	0x1ac28
+	.uaword	0x1ac1d
 	.uahalf	0x234
 	.uleb128 0x20
 	.string	"TGC1_FUPD_CTRL"
 	.byte	0xa
 	.uahalf	0x1e94
-	.uaword	0x1ad08
+	.uaword	0x1acfd
 	.uahalf	0x238
 	.uleb128 0x20
 	.string	"TGC1_INT_TRIG"
 	.byte	0xa
 	.uahalf	0x1e95
-	.uaword	0x1ad9d
+	.uaword	0x1ad92
 	.uahalf	0x23c
 	.uleb128 0x20
 	.string	"CH9"
 	.byte	0xa
 	.uahalf	0x1e96
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x240
 	.uleb128 0x20
 	.string	"TGC1_ENDIS_CTRL"
 	.byte	0xa
 	.uahalf	0x1e97
-	.uaword	0x1ac70
+	.uaword	0x1ac65
 	.uahalf	0x270
 	.uleb128 0x20
 	.string	"TGC1_ENDIS_STAT"
 	.byte	0xa
 	.uahalf	0x1e98
-	.uaword	0x1acbc
+	.uaword	0x1acb1
 	.uahalf	0x274
 	.uleb128 0x20
 	.string	"TGC1_OUTEN_CTRL"
 	.byte	0xa
 	.uahalf	0x1e99
-	.uaword	0x1ade7
+	.uaword	0x1addc
 	.uahalf	0x278
 	.uleb128 0x20
 	.string	"TGC1_OUTEN_STAT"
 	.byte	0xa
 	.uahalf	0x1e9a
-	.uaword	0x1ae33
+	.uaword	0x1ae28
 	.uahalf	0x27c
 	.uleb128 0x20
 	.string	"CH10"
 	.byte	0xa
 	.uahalf	0x1e9b
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x280
 	.uleb128 0x20
 	.string	"reserved_2B0"
 	.byte	0xa
 	.uahalf	0x1e9c
-	.uaword	0x488
+	.uaword	0x47d
 	.uahalf	0x2b0
 	.uleb128 0x20
 	.string	"CH11"
 	.byte	0xa
 	.uahalf	0x1e9d
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x2c0
 	.uleb128 0x20
 	.string	"reserved_2F0"
 	.byte	0xa
 	.uahalf	0x1e9e
-	.uaword	0x488
+	.uaword	0x47d
 	.uahalf	0x2f0
 	.uleb128 0x20
 	.string	"CH12"
 	.byte	0xa
 	.uahalf	0x1e9f
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x300
 	.uleb128 0x20
 	.string	"reserved_330"
 	.byte	0xa
 	.uahalf	0x1ea0
-	.uaword	0x488
+	.uaword	0x47d
 	.uahalf	0x330
 	.uleb128 0x20
 	.string	"CH13"
 	.byte	0xa
 	.uahalf	0x1ea1
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x340
 	.uleb128 0x20
 	.string	"reserved_370"
 	.byte	0xa
 	.uahalf	0x1ea2
-	.uaword	0x488
+	.uaword	0x47d
 	.uahalf	0x370
 	.uleb128 0x20
 	.string	"CH14"
 	.byte	0xa
 	.uahalf	0x1ea3
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x380
 	.uleb128 0x20
 	.string	"reserved_3B0"
 	.byte	0xa
 	.uahalf	0x1ea4
-	.uaword	0x488
+	.uaword	0x47d
 	.uahalf	0x3b0
 	.uleb128 0x20
 	.string	"CH15"
 	.byte	0xa
 	.uahalf	0x1ea5
-	.uaword	0x1ba86
+	.uaword	0x1ba7b
 	.uahalf	0x3c0
 	.uleb128 0x20
 	.string	"reserved_3F0"
 	.byte	0xa
 	.uahalf	0x1ea6
-	.uaword	0x1d5d1
+	.uaword	0x1d5c6
 	.uahalf	0x3f0
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1d5e2
+	.uaword	0x227
+	.uaword	0x1d5d7
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x40f
 	.byte	0
 	.uleb128 0x10
 	.string	"Ifx_GTM_TOM"
 	.byte	0xa
 	.uahalf	0x1ea7
-	.uaword	0x1d5f6
+	.uaword	0x1d5eb
 	.uleb128 0x17
-	.uaword	0x1d24a
+	.uaword	0x1d23f
 	.uleb128 0x23
 	.string	"_Ifx_GTM"
 	.uaword	0xa0000
 	.byte	0xa
 	.uahalf	0x1eb4
-	.uaword	0x1dcee
+	.uaword	0x1dce3
 	.uleb128 0x15
 	.string	"REV"
 	.byte	0xa
 	.uahalf	0x1eb6
-	.uaword	0x19c72
+	.uaword	0x19c67
 	.byte	0
 	.uleb128 0x15
 	.string	"RST"
 	.byte	0xa
 	.uahalf	0x1eb7
-	.uaword	0x19cae
+	.uaword	0x19ca3
 	.byte	0x4
 	.uleb128 0x16
 	.uaword	.LASF194
 	.byte	0xa
 	.uahalf	0x1eb8
-	.uaword	0x16a8f
+	.uaword	0x16a84
 	.byte	0x8
 	.uleb128 0x15
 	.string	"AEI_ADDR_XPT"
 	.byte	0xa
 	.uahalf	0x1eb9
-	.uaword	0x15273
+	.uaword	0x15268
 	.byte	0xc
 	.uleb128 0x16
 	.uaword	.LASF195
 	.byte	0xa
 	.uahalf	0x1eba
-	.uaword	0x190cb
+	.uaword	0x190c0
 	.byte	0x10
 	.uleb128 0x16
 	.uaword	.LASF196
 	.byte	0xa
 	.uahalf	0x1ebb
-	.uaword	0x19007
+	.uaword	0x18ffc
 	.byte	0x14
 	.uleb128 0x16
 	.uaword	.LASF197
 	.byte	0xa
 	.uahalf	0x1ebc
-	.uaword	0x19046
+	.uaword	0x1903b
 	.byte	0x18
 	.uleb128 0x16
 	.uaword	.LASF38
 	.byte	0xa
 	.uahalf	0x1ebd
-	.uaword	0x1908a
+	.uaword	0x1907f
 	.byte	0x1c
 	.uleb128 0x16
 	.uaword	.LASF199
 	.byte	0xa
 	.uahalf	0x1ebe
-	.uaword	0x185a8
+	.uaword	0x1859d
 	.byte	0x20
 	.uleb128 0x16
 	.uaword	.LASF3
 	.byte	0xa
 	.uahalf	0x1ebf
-	.uaword	0x468
+	.uaword	0x45d
 	.byte	0x24
 	.uleb128 0x15
 	.string	"BRIDGE"
 	.byte	0xa
 	.uahalf	0x1ec0
-	.uaword	0x1bff4
+	.uaword	0x1bfe9
 	.byte	0x30
 	.uleb128 0x16
 	.uaword	.LASF204
 	.byte	0xa
 	.uahalf	0x1ec1
-	.uaword	0x4a8
+	.uaword	0x49d
 	.byte	0x3c
 	.uleb128 0x15
 	.string	"TIM_AUX_IN_SRC"
 	.byte	0xa
 	.uahalf	0x1ec2
-	.uaword	0x1dcee
+	.uaword	0x1dce3
 	.byte	0x40
 	.uleb128 0x15
 	.string	"reserved_50"
 	.byte	0xa
 	.uahalf	0x1ec3
-	.uaword	0x578
+	.uaword	0x56d
 	.byte	0x50
 	.uleb128 0x20
 	.string	"TBU"
 	.byte	0xa
 	.uahalf	0x1ec4
-	.uaword	0x1d0c5
+	.uaword	0x1d0ba
 	.uahalf	0x100
 	.uleb128 0x20
 	.string	"reserved_11C"
 	.byte	0xa
 	.uahalf	0x1ec5
-	.uaword	0x1dcfe
+	.uaword	0x1dcf3
 	.uahalf	0x11c
 	.uleb128 0x20
 	.string	"MON"
 	.byte	0xa
 	.uahalf	0x1ec6
-	.uaword	0x1ce6e
+	.uaword	0x1ce63
 	.uahalf	0x180
 	.uleb128 0x20
 	.string	"reserved_188"
 	.byte	0xa
 	.uahalf	0x1ec7
-	.uaword	0x1dd0e
+	.uaword	0x1dd03
 	.uahalf	0x188
 	.uleb128 0x20
 	.string	"CMP"
 	.byte	0xa
 	.uahalf	0x1ec8
-	.uaword	0x1c074
+	.uaword	0x1c069
 	.uahalf	0x200
 	.uleb128 0x20
 	.string	"reserved_218"
 	.byte	0xa
 	.uahalf	0x1ec9
-	.uaword	0x518
+	.uaword	0x50d
 	.uahalf	0x218
 	.uleb128 0x20
 	.string	"ARU"
 	.byte	0xa
 	.uahalf	0x1eca
-	.uaword	0x1bbf0
+	.uaword	0x1bbe5
 	.uahalf	0x280
 	.uleb128 0x20
 	.string	"reserved_2B4"
 	.byte	0xa
 	.uahalf	0x1ecb
-	.uaword	0x27d4
+	.uaword	0x27c9
 	.uahalf	0x2b4
 	.uleb128 0x20
 	.string	"CMU"
 	.byte	0xa
 	.uahalf	0x1ecc
-	.uaword	0x1c143
+	.uaword	0x1c138
 	.uahalf	0x300
 	.uleb128 0x20
 	.string	"reserved_348"
 	.byte	0xa
 	.uahalf	0x1ecd
-	.uaword	0x1dd1e
+	.uaword	0x1dd13
 	.uahalf	0x348
 	.uleb128 0x20
 	.string	"BRC"
 	.byte	0xa
 	.uahalf	0x1ece
-	.uaword	0x1bf98
+	.uaword	0x1bf8d
 	.uahalf	0x400
 	.uleb128 0x20
 	.string	"reserved_478"
 	.byte	0xa
 	.uahalf	0x1ecf
-	.uaword	0x1dd2e
+	.uaword	0x1dd23
 	.uahalf	0x478
 	.uleb128 0x20
 	.string	"ICM"
 	.byte	0xa
 	.uahalf	0x1ed0
-	.uaword	0x1cc4b
+	.uaword	0x1cc40
 	.uahalf	0x600
 	.uleb128 0x20
 	.string	"reserved_644"
 	.byte	0xa
 	.uahalf	0x1ed1
-	.uaword	0x1dd3f
+	.uaword	0x1dd34
 	.uahalf	0x644
 	.uleb128 0x20
 	.string	"SPE"
 	.byte	0xa
 	.uahalf	0x1ed2
-	.uaword	0x1dd60
+	.uaword	0x1dd55
 	.uahalf	0x800
 	.uleb128 0x20
 	.string	"reserved_900"
 	.byte	0xa
 	.uahalf	0x1ed3
-	.uaword	0x1dd65
+	.uaword	0x1dd5a
 	.uahalf	0x900
 	.uleb128 0x20
 	.string	"MAP_CTRL"
 	.byte	0xa
 	.uahalf	0x1ed4
-	.uaword	0x191ca
+	.uaword	0x191bf
 	.uahalf	0xf00
 	.uleb128 0x20
 	.string	"reserved_F04"
 	.byte	0xa
 	.uahalf	0x1ed5
-	.uaword	0x538
+	.uaword	0x52d
 	.uahalf	0xf04
 	.uleb128 0x20
 	.string	"MCFG_CTRL"
 	.byte	0xa
 	.uahalf	0x1ed6
-	.uaword	0x1920b
+	.uaword	0x19200
 	.uahalf	0xf40
 	.uleb128 0x20
 	.string	"reserved_F44"
 	.byte	0xa
 	.uahalf	0x1ed7
-	.uaword	0x1dd76
+	.uaword	0x1dd6b
 	.uahalf	0xf44
 	.uleb128 0x20
 	.string	"TIM"
 	.byte	0xa
 	.uahalf	0x1ed8
-	.uaword	0x1dd96
+	.uaword	0x1dd8b
 	.uahalf	0x1000
 	.uleb128 0x20
 	.string	"reserved_3000"
 	.byte	0xa
 	.uahalf	0x1ed9
-	.uaword	0x1dd9b
+	.uaword	0x1dd90
 	.uahalf	0x3000
 	.uleb128 0x20
 	.string	"TOM"
 	.byte	0xa
 	.uahalf	0x1eda
-	.uaword	0x1ddbc
+	.uaword	0x1ddb1
 	.uahalf	0x8000
 	.uleb128 0x20
 	.string	"reserved_9800"
 	.byte	0xa
 	.uahalf	0x1edb
-	.uaword	0x1ddc1
+	.uaword	0x1ddb6
 	.uahalf	0x9800
 	.uleb128 0x20
 	.string	"ATOM"
 	.byte	0xa
 	.uahalf	0x1edc
-	.uaword	0x1dde2
+	.uaword	0x1ddd7
 	.uahalf	0xd000
 	.uleb128 0x20
 	.string	"reserved_F800"
 	.byte	0xa
 	.uahalf	0x1edd
-	.uaword	0x1dde7
+	.uaword	0x1dddc
 	.uahalf	0xf800
 	.uleb128 0x24
 	.string	"F2A0"
 	.byte	0xa
 	.uahalf	0x1ede
-	.uaword	0x1caba
+	.uaword	0x1caaf
 	.uleb128 0x18000
 	.uleb128 0x24
 	.string	"reserved_18044"
 	.byte	0xa
 	.uahalf	0x1edf
-	.uaword	0x538
+	.uaword	0x52d
 	.uleb128 0x18044
 	.uleb128 0x24
 	.string	"AFD0"
 	.byte	0xa
 	.uahalf	0x1ee0
-	.uaword	0x1bada
+	.uaword	0x1bacf
 	.uleb128 0x18080
 	.uleb128 0x24
 	.string	"reserved_18100"
 	.byte	0xa
 	.uahalf	0x1ee1
-	.uaword	0x1ddf8
+	.uaword	0x1dded
 	.uleb128 0x18100
 	.uleb128 0x24
 	.string	"FIFO0"
 	.byte	0xa
 	.uahalf	0x1ee2
-	.uaword	0x1cb0d
+	.uaword	0x1cb02
 	.uleb128 0x18400
 	.uleb128 0x24
 	.string	"reserved_18600"
 	.byte	0xa
 	.uahalf	0x1ee3
-	.uaword	0x1de09
+	.uaword	0x1ddfe
 	.uleb128 0x18600
 	.uleb128 0x24
 	.string	"DPLL"
 	.byte	0xa
 	.uahalf	0x1ee4
-	.uaword	0x1ca30
+	.uaword	0x1ca25
 	.uleb128 0x28000
 	.uleb128 0x24
 	.string	"reserved_28F18"
 	.byte	0xa
 	.uahalf	0x1ee5
-	.uaword	0x1de1a
+	.uaword	0x1de0f
 	.uleb128 0x28f18
 	.uleb128 0x24
 	.string	"MCS"
 	.byte	0xa
 	.uahalf	0x1ee6
-	.uaword	0x1de3b
+	.uaword	0x1de30
 	.uleb128 0x30000
 	.uleb128 0x24
 	.string	"reserved_34000"
 	.byte	0xa
 	.uahalf	0x1ee7
-	.uaword	0x1de40
+	.uaword	0x1de35
 	.uleb128 0x34000
 	.uleb128 0x24
 	.string	"CLC"
 	.byte	0xa
 	.uahalf	0x1ee8
-	.uaword	0x16645
+	.uaword	0x1663a
 	.uleb128 0x9fd00
 	.uleb128 0x24
 	.string	"reserved_9FD04"
 	.byte	0xa
 	.uahalf	0x1ee9
-	.uaword	0x468
+	.uaword	0x45d
 	.uleb128 0x9fd04
 	.uleb128 0x24
 	.string	"INOUTSEL"
 	.byte	0xa
 	.uahalf	0x1eea
-	.uaword	0x1cd1d
+	.uaword	0x1cd12
 	.uleb128 0x9fd10
 	.uleb128 0x24
 	.string	"reserved_9FDAC"
 	.byte	0xa
 	.uahalf	0x1eeb
-	.uaword	0x4a8
+	.uaword	0x49d
 	.uleb128 0x9fdac
 	.uleb128 0x24
 	.string	"ADCTRIG0OUT0"
 	.byte	0xa
 	.uahalf	0x1eec
-	.uaword	0x1515f
+	.uaword	0x15154
 	.uleb128 0x9fdb0
 	.uleb128 0x24
 	.string	"ADCTRIG0OUT1"
 	.byte	0xa
 	.uahalf	0x1eed
-	.uaword	0x151a4
+	.uaword	0x15199
 	.uleb128 0x9fdb4
 	.uleb128 0x24
 	.string	"ADCTRIG1OUT0"
 	.byte	0xa
 	.uahalf	0x1eee
-	.uaword	0x151e9
+	.uaword	0x151de
 	.uleb128 0x9fdb8
 	.uleb128 0x24
 	.string	"ADCTRIG1OUT1"
 	.byte	0xa
 	.uahalf	0x1eef
-	.uaword	0x1522e
+	.uaword	0x15223
 	.uleb128 0x9fdbc
 	.uleb128 0x24
 	.string	"reserved_9FDC0"
 	.byte	0xa
 	.uahalf	0x1ef0
-	.uaword	0x4a8
+	.uaword	0x49d
 	.uleb128 0x9fdc0
 	.uleb128 0x24
 	.string	"OTBU0T"
 	.byte	0xa
 	.uahalf	0x1ef1
-	.uaword	0x19afc
+	.uaword	0x19af1
 	.uleb128 0x9fdc4
 	.uleb128 0x24
 	.string	"OTBU1T"
 	.byte	0xa
 	.uahalf	0x1ef2
-	.uaword	0x19b3b
+	.uaword	0x19b30
 	.uleb128 0x9fdc8
 	.uleb128 0x24
 	.string	"OTBU2T"
 	.byte	0xa
 	.uahalf	0x1ef3
-	.uaword	0x19b7a
+	.uaword	0x19b6f
 	.uleb128 0x9fdcc
 	.uleb128 0x24
 	.string	"OTSS"
 	.byte	0xa
 	.uahalf	0x1ef4
-	.uaword	0x19c35
+	.uaword	0x19c2a
 	.uleb128 0x9fdd0
 	.uleb128 0x24
 	.string	"OTSC0"
 	.byte	0xa
 	.uahalf	0x1ef5
-	.uaword	0x19bb9
+	.uaword	0x19bae
 	.uleb128 0x9fdd4
 	.uleb128 0x24
 	.string	"OTSC1"
 	.byte	0xa
 	.uahalf	0x1ef6
-	.uaword	0x19bf7
+	.uaword	0x19bec
 	.uleb128 0x9fdd8
 	.uleb128 0x24
 	.string	"ODA"
 	.byte	0xa
 	.uahalf	0x1ef7
-	.uaword	0x19ac0
+	.uaword	0x19ab5
 	.uleb128 0x9fddc
 	.uleb128 0x24
 	.string	"reserved_9FDE0"
 	.byte	0xa
 	.uahalf	0x1ef8
-	.uaword	0x4b8
+	.uaword	0x4ad
 	.uleb128 0x9fde0
 	.uleb128 0x24
 	.string	"OCS"
 	.byte	0xa
 	.uahalf	0x1ef9
-	.uaword	0x19a84
+	.uaword	0x19a79
 	.uleb128 0x9fde8
 	.uleb128 0x24
 	.string	"KRSTCLR"
 	.byte	0xa
 	.uahalf	0x1efa
-	.uaword	0x1918a
+	.uaword	0x1917f
 	.uleb128 0x9fdec
 	.uleb128 0x24
 	.string	"KRST1"
 	.byte	0xa
 	.uahalf	0x1efb
-	.uaword	0x1914c
+	.uaword	0x19141
 	.uleb128 0x9fdf0
 	.uleb128 0x24
 	.string	"KRST0"
 	.byte	0xa
 	.uahalf	0x1efc
-	.uaword	0x1910e
+	.uaword	0x19103
 	.uleb128 0x9fdf4
 	.uleb128 0x24
 	.string	"ACCEN1"
 	.byte	0xa
 	.uahalf	0x1efd
-	.uaword	0x15120
+	.uaword	0x15115
 	.uleb128 0x9fdf8
 	.uleb128 0x24
 	.string	"ACCEN0"
 	.byte	0xa
 	.uahalf	0x1efe
-	.uaword	0x150e1
+	.uaword	0x150d6
 	.uleb128 0x9fdfc
 	.uleb128 0x24
 	.string	"DXOUTCON"
 	.byte	0xa
 	.uahalf	0x1eff
-	.uaword	0x18567
+	.uaword	0x1855c
 	.uleb128 0x9fe00
 	.uleb128 0x24
 	.string	"TRIGOUT0"
 	.byte	0xa
 	.uahalf	0x1f00
-	.uaword	0x1de53
+	.uaword	0x1de48
 	.uleb128 0x9fe04
 	.uleb128 0x24
 	.string	"reserved_9FE14"
 	.byte	0xa
 	.uahalf	0x1f01
-	.uaword	0x4e8
+	.uaword	0x4dd
 	.uleb128 0x9fe14
 	.uleb128 0x24
 	.string	"TRIGOUT1"
 	.byte	0xa
 	.uahalf	0x1f02
-	.uaword	0x1de53
+	.uaword	0x1de48
 	.uleb128 0x9fe44
 	.uleb128 0x24
 	.string	"reserved_9FE54"
 	.byte	0xa
 	.uahalf	0x1f03
-	.uaword	0x508
+	.uaword	0x4fd
 	.uleb128 0x9fe54
 	.uleb128 0x24
 	.string	"MCSINTSTAT"
 	.byte	0xa
 	.uahalf	0x1f04
-	.uaword	0x1981d
+	.uaword	0x19812
 	.uleb128 0x9fe70
 	.uleb128 0x24
 	.string	"MCSINTCLR"
 	.byte	0xa
 	.uahalf	0x1f05
-	.uaword	0x197db
+	.uaword	0x197d0
 	.uleb128 0x9fe74
 	.uleb128 0x24
 	.string	"reserved_9FE78"
 	.byte	0xa
 	.uahalf	0x1f06
-	.uaword	0x498
+	.uaword	0x48d
 	.uleb128 0x9fe78
 	.uleb128 0x24
 	.string	"DXINCON"
 	.byte	0xa
 	.uahalf	0x1f07
-	.uaword	0x18527
+	.uaword	0x1851c
 	.uleb128 0x9fe90
 	.uleb128 0x24
 	.string	"DATAIN0"
 	.byte	0xa
 	.uahalf	0x1f08
-	.uaword	0x1de63
+	.uaword	0x1de58
 	.uleb128 0x9fe94
 	.uleb128 0x24
 	.string	"reserved_9FEA4"
 	.byte	0xa
 	.uahalf	0x1f09
-	.uaword	0x4e8
+	.uaword	0x4dd
 	.uleb128 0x9fea4
 	.uleb128 0x24
 	.string	"DATAIN1"
 	.byte	0xa
 	.uahalf	0x1f0a
-	.uaword	0x1de63
+	.uaword	0x1de58
 	.uleb128 0x9fed4
 	.uleb128 0x24
 	.string	"reserved_9FEE4"
 	.byte	0xa
 	.uahalf	0x1f0b
-	.uaword	0x508
+	.uaword	0x4fd
 	.uleb128 0x9fee4
 	.uleb128 0x24
 	.string	"MSCSET_1S"
 	.byte	0xa
 	.uahalf	0x1f0c
-	.uaword	0x1de83
+	.uaword	0x1de78
 	.uleb128 0x9ff00
 	.uleb128 0x24
 	.string	"reserved_9FF40"
 	.byte	0xa
 	.uahalf	0x1f0d
-	.uaword	0x528
+	.uaword	0x51d
 	.uleb128 0x9ff40
 	.uleb128 0x24
 	.string	"MSCIN"
 	.byte	0xa
 	.uahalf	0x1f0e
-	.uaword	0x1de98
+	.uaword	0x1de8d
 	.uleb128 0x9ff60
 	.uleb128 0x24
 	.string	"reserved_9FF70"
 	.byte	0xa
 	.uahalf	0x1f0f
-	.uaword	0x558
+	.uaword	0x54d
 	.uleb128 0x9ff70
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1a1b3
-	.uaword	0x1dcfe
+	.uaword	0x1a1a8
+	.uaword	0x1dcf3
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1dd0e
+	.uaword	0x227
+	.uaword	0x1dd03
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x63
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1dd1e
+	.uaword	0x227
+	.uaword	0x1dd13
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x77
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1dd2e
+	.uaword	0x227
+	.uaword	0x1dd23
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0xb7
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1dd3f
+	.uaword	0x227
+	.uaword	0x1dd34
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x187
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1dd50
+	.uaword	0x227
+	.uaword	0x1dd45
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x1bb
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1d01b
-	.uaword	0x1dd60
+	.uaword	0x1d010
+	.uaword	0x1dd55
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x1
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1dd50
+	.uaword	0x1dd45
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1dd76
+	.uaword	0x227
+	.uaword	0x1dd6b
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x5ff
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1dd86
+	.uaword	0x227
+	.uaword	0x1dd7b
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0xbb
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1d231
-	.uaword	0x1dd96
+	.uaword	0x1d226
+	.uaword	0x1dd8b
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1dd86
+	.uaword	0x1dd7b
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1ddac
+	.uaword	0x227
+	.uaword	0x1dda1
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x4fff
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1d5e2
-	.uaword	0x1ddbc
+	.uaword	0x1d5d7
+	.uaword	0x1ddb1
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x2
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1ddac
+	.uaword	0x1dda1
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1ddd2
+	.uaword	0x227
+	.uaword	0x1ddc7
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x37ff
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1bd4d
-	.uaword	0x1dde2
+	.uaword	0x1bd42
+	.uaword	0x1ddd7
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x4
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1ddd2
+	.uaword	0x1ddc7
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1ddf8
+	.uaword	0x227
+	.uaword	0x1dded
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x87ff
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1de09
+	.uaword	0x227
+	.uaword	0x1ddfe
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x2ff
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1de1a
+	.uaword	0x227
+	.uaword	0x1de0f
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0xf9ff
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1de2b
+	.uaword	0x227
+	.uaword	0x1de20
 	.uleb128 0x21
-	.uaword	0x45c
+	.uaword	0x451
 	.uahalf	0x70e7
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1ce1d
-	.uaword	0x1de3b
+	.uaword	0x1ce12
+	.uaword	0x1de30
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1de2b
+	.uaword	0x1de20
 	.uleb128 0x9
-	.uaword	0x232
-	.uaword	0x1de53
+	.uaword	0x227
+	.uaword	0x1de48
 	.uleb128 0x25
-	.uaword	0x45c
+	.uaword	0x451
 	.uaword	0x6bcff
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1ae7f
-	.uaword	0x1de63
+	.uaword	0x1ae74
+	.uaword	0x1de58
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x16acc
-	.uaword	0x1de73
+	.uaword	0x16ac1
+	.uaword	0x1de68
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3
 	.byte	0
 	.uleb128 0x9
-	.uaword	0x1cf2d
-	.uaword	0x1de83
+	.uaword	0x1cf22
+	.uaword	0x1de78
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x3
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1de73
+	.uaword	0x1de68
 	.uleb128 0x9
-	.uaword	0x1cec0
-	.uaword	0x1de98
+	.uaword	0x1ceb5
+	.uaword	0x1de8d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x1
 	.byte	0
 	.uleb128 0x17
-	.uaword	0x1de88
+	.uaword	0x1de7d
 	.uleb128 0x10
 	.string	"Ifx_GTM"
 	.byte	0xa
 	.uahalf	0x1f10
-	.uaword	0x1dead
+	.uaword	0x1dea2
 	.uleb128 0x17
-	.uaword	0x1d5fb
+	.uaword	0x1d5f0
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0xb
 	.byte	0xc1
-	.uaword	0x1df0b
+	.uaword	0x1df00
 	.uleb128 0x8
 	.string	"IfxGtm_Atom_0"
 	.sleb128 0
@@ -48613,12 +48613,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxGtm_Atom"
 	.byte	0xb
 	.byte	0xc7
-	.uaword	0x1deb2
+	.uaword	0x1dea7
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0xb
 	.byte	0xcc
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.uleb128 0x8
 	.string	"IfxGtm_Atom_Ch_none"
 	.sleb128 -1
@@ -48651,12 +48651,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxGtm_Atom_Ch"
 	.byte	0xb
 	.byte	0xd6
-	.uaword	0x1df1e
+	.uaword	0x1df13
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0xc
 	.byte	0x30
-	.uaword	0x1e08c
+	.uaword	0x1e081
 	.uleb128 0x8
 	.string	"IfxGtm_Cmu_Clk_0"
 	.sleb128 0
@@ -48686,12 +48686,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxGtm_Cmu_Clk"
 	.byte	0xc
 	.byte	0x39
-	.uaword	0x1dfeb
+	.uaword	0x1dfe0
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x3
 	.byte	0x3b
-	.uaword	0x1e0fa
+	.uaword	0x1e0ef
 	.uleb128 0x8
 	.string	"IfxGtm_Atom_Ch_OutputTrigger_forward"
 	.sleb128 0
@@ -48703,12 +48703,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxGtm_Atom_Ch_OutputTrigger"
 	.byte	0x3
 	.byte	0x3e
-	.uaword	0x1e0a2
+	.uaword	0x1e097
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0x3
 	.byte	0x43
-	.uaword	0x1e16f
+	.uaword	0x1e164
 	.uleb128 0x8
 	.string	"IfxGtm_Atom_Ch_ResetEvent_onCm0"
 	.sleb128 0
@@ -48720,12 +48720,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxGtm_Atom_Ch_ResetEvent"
 	.byte	0x3
 	.byte	0x46
-	.uaword	0x1e11e
+	.uaword	0x1e113
 	.uleb128 0x7
 	.byte	0x1
 	.byte	0xd
 	.byte	0x43
-	.uaword	0x1e1f8
+	.uaword	0x1e1ed
 	.uleb128 0x8
 	.string	"IfxGtm_ToutSel_a"
 	.sleb128 0
@@ -48746,488 +48746,488 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"IfxGtm_ToutSel"
 	.byte	0xd
 	.byte	0x49
-	.uaword	0x1e190
+	.uaword	0x1e185
 	.uleb128 0x18
 	.byte	0x14
 	.byte	0xd
 	.byte	0x55
-	.uaword	0x1e268
+	.uaword	0x1e25d
 	.uleb128 0x1a
 	.uaword	.LASF205
 	.byte	0xd
 	.byte	0x57
-	.uaword	0x1df0b
+	.uaword	0x1df00
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF206
 	.byte	0xd
 	.byte	0x58
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.byte	0x1
 	.uleb128 0x19
 	.string	"toutSel"
 	.byte	0xd
 	.byte	0x59
-	.uaword	0x1e1f8
+	.uaword	0x1e1ed
 	.byte	0x2
 	.uleb128 0x19
 	.string	"toutn"
 	.byte	0xd
 	.byte	0x5a
-	.uaword	0x274
+	.uaword	0x269
 	.byte	0x4
 	.uleb128 0x19
 	.string	"pin"
 	.byte	0xd
 	.byte	0x5b
-	.uaword	0x2b3a
+	.uaword	0x2b2f
 	.byte	0x8
 	.uleb128 0x19
 	.string	"select"
 	.byte	0xd
 	.byte	0x5c
-	.uaword	0x28de
+	.uaword	0x28d3
 	.byte	0x10
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_ToutMap"
 	.byte	0xd
 	.byte	0x5d
-	.uaword	0x1e283
+	.uaword	0x1e278
 	.uleb128 0x5
-	.uaword	0x1e20e
+	.uaword	0x1e203
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_ToutMapP"
 	.byte	0xd
 	.byte	0x60
-	.uaword	0x1e2a4
+	.uaword	0x1e299
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e268
+	.uaword	0x1e25d
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1de9d
+	.uaword	0x1de92
 	.uleb128 0x18
 	.byte	0x10
 	.byte	0xe
 	.byte	0x56
-	.uaword	0x1e2f9
+	.uaword	0x1e2ee
 	.uleb128 0x1a
 	.uaword	.LASF207
 	.byte	0xe
 	.byte	0x58
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0
 	.uleb128 0x19
 	.string	"triggerEnabled"
 	.byte	0xe
 	.byte	0x59
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0x4
 	.uleb128 0x1a
 	.uaword	.LASF208
 	.byte	0xe
 	.byte	0x5a
-	.uaword	0x282
+	.uaword	0x277
 	.byte	0x8
 	.uleb128 0x19
 	.string	"countDir"
 	.byte	0xe
 	.byte	0x5b
-	.uaword	0x2bb6
+	.uaword	0x2bab
 	.byte	0xc
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_Timer_Base"
 	.byte	0xe
 	.byte	0x5c
-	.uaword	0x1e2b0
+	.uaword	0x1e2a5
 	.uleb128 0x18
 	.byte	0x30
 	.byte	0xe
 	.byte	0x64
-	.uaword	0x1e3d7
+	.uaword	0x1e3cc
 	.uleb128 0x19
 	.string	"base"
 	.byte	0xe
 	.byte	0x66
-	.uaword	0x1e2f9
+	.uaword	0x1e2ee
 	.byte	0
 	.uleb128 0x19
 	.string	"gtm"
 	.byte	0xe
 	.byte	0x67
-	.uaword	0x1e2aa
+	.uaword	0x1e29f
 	.byte	0x10
 	.uleb128 0x1a
 	.uaword	.LASF205
 	.byte	0xe
 	.byte	0x68
-	.uaword	0x1e3d7
+	.uaword	0x1e3cc
 	.byte	0x14
 	.uleb128 0x19
 	.string	"agc"
 	.byte	0xe
 	.byte	0x69
-	.uaword	0x1e3dd
+	.uaword	0x1e3d2
 	.byte	0x18
 	.uleb128 0x19
 	.string	"atomIndex"
 	.byte	0xe
 	.byte	0x6a
-	.uaword	0x1df0b
+	.uaword	0x1df00
 	.byte	0x1c
 	.uleb128 0x19
 	.string	"timerChannel"
 	.byte	0xe
 	.byte	0x6b
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.byte	0x1d
 	.uleb128 0x19
 	.string	"triggerChannel"
 	.byte	0xe
 	.byte	0x6c
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.byte	0x1e
 	.uleb128 0x1a
 	.uaword	.LASF209
 	.byte	0xe
 	.byte	0x6d
-	.uaword	0x250
+	.uaword	0x245
 	.byte	0x20
 	.uleb128 0x1a
 	.uaword	.LASF210
 	.byte	0xe
 	.byte	0x6e
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x24
 	.uleb128 0x19
 	.string	"agcDisableUpdate"
 	.byte	0xe
 	.byte	0x6f
-	.uaword	0x274
+	.uaword	0x269
 	.byte	0x28
 	.uleb128 0x19
 	.string	"agcApplyUpdate"
 	.byte	0xe
 	.byte	0x70
-	.uaword	0x274
+	.uaword	0x269
 	.byte	0x2c
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1bd4d
+	.uaword	0x1bd42
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1afa8
+	.uaword	0x1af9d
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_Timer"
 	.byte	0xe
 	.byte	0x71
-	.uaword	0x1e317
+	.uaword	0x1e30c
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_PwmHl"
 	.byte	0xf
 	.byte	0x5f
-	.uaword	0x1e415
+	.uaword	0x1e40a
 	.uleb128 0xb
 	.string	"IfxGtm_Atom_PwmHl_s"
 	.byte	0x44
 	.byte	0xf
 	.byte	0x98
-	.uaword	0x1e4c6
+	.uaword	0x1e4bb
 	.uleb128 0x19
 	.string	"base"
 	.byte	0xf
 	.byte	0x9a
-	.uaword	0x1e604
+	.uaword	0x1e5f9
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF24
 	.byte	0xf
 	.byte	0x9b
-	.uaword	0x1e66a
+	.uaword	0x1e65f
 	.byte	0x14
 	.uleb128 0x19
 	.string	"update"
 	.byte	0xf
 	.byte	0x9c
-	.uaword	0x1e4c6
+	.uaword	0x1e4bb
 	.byte	0x18
 	.uleb128 0x1a
 	.uaword	.LASF211
 	.byte	0xf
 	.byte	0x9d
-	.uaword	0x1e503
+	.uaword	0x1e4f8
 	.byte	0x1c
 	.uleb128 0x1a
 	.uaword	.LASF212
 	.byte	0xf
 	.byte	0x9e
-	.uaword	0x1e544
+	.uaword	0x1e539
 	.byte	0x20
 	.uleb128 0x1a
 	.uaword	.LASF205
 	.byte	0xf
 	.byte	0x9f
-	.uaword	0x1e3d7
+	.uaword	0x1e3cc
 	.byte	0x24
 	.uleb128 0x19
 	.string	"agc"
 	.byte	0xf
 	.byte	0xa0
-	.uaword	0x1e3dd
+	.uaword	0x1e3d2
 	.byte	0x28
 	.uleb128 0x19
 	.string	"ccx"
 	.byte	0xf
 	.byte	0xa1
-	.uaword	0x1e702
+	.uaword	0x1e6f7
 	.byte	0x2c
 	.uleb128 0x19
 	.string	"coutx"
 	.byte	0xf
 	.byte	0xa2
-	.uaword	0x1e702
+	.uaword	0x1e6f7
 	.byte	0x34
 	.uleb128 0x19
 	.string	"ccxTemp"
 	.byte	0xf
 	.byte	0xa3
-	.uaword	0x1e712
+	.uaword	0x1e707
 	.byte	0x3c
 	.uleb128 0x19
 	.string	"coutxTemp"
 	.byte	0xf
 	.byte	0xa4
-	.uaword	0x1e712
+	.uaword	0x1e707
 	.byte	0x40
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_PwmHl_Update"
 	.byte	0xf
 	.byte	0x61
-	.uaword	0x1e4e6
+	.uaword	0x1e4db
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e4ec
+	.uaword	0x1e4e1
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uleb128 0x1c
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uleb128 0x1c
-	.uaword	0x3266
+	.uaword	0x325b
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e3fc
+	.uaword	0x1e3f1
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_PwmHl_UpdateShift"
 	.byte	0xf
 	.byte	0x63
-	.uaword	0x1e528
+	.uaword	0x1e51d
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e52e
+	.uaword	0x1e523
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x1e544
+	.uaword	0x1e539
 	.uleb128 0x1c
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uleb128 0x1c
-	.uaword	0x3266
+	.uaword	0x325b
 	.uleb128 0x1c
-	.uaword	0x3266
+	.uaword	0x325b
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_PwmHl_UpdatePulse"
 	.byte	0xf
 	.byte	0x65
-	.uaword	0x1e569
+	.uaword	0x1e55e
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e56f
+	.uaword	0x1e564
 	.uleb128 0x1d
 	.byte	0x1
-	.uaword	0x1e585
+	.uaword	0x1e57a
 	.uleb128 0x1c
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uleb128 0x1c
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.uleb128 0x1c
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.byte	0
 	.uleb128 0x18
 	.byte	0x14
 	.byte	0xf
 	.byte	0x6f
-	.uaword	0x1e604
+	.uaword	0x1e5f9
 	.uleb128 0x1a
 	.uaword	.LASF25
 	.byte	0xf
 	.byte	0x71
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF26
 	.byte	0xf
 	.byte	0x72
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x4
 	.uleb128 0x19
 	.string	"maxPulse"
 	.byte	0xf
 	.byte	0x73
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x8
 	.uleb128 0x19
 	.string	"mode"
 	.byte	0xf
 	.byte	0x74
-	.uaword	0x418
+	.uaword	0x40d
 	.byte	0xc
 	.uleb128 0x19
 	.string	"setMode"
 	.byte	0xf
 	.byte	0x75
-	.uaword	0x209
+	.uaword	0x1fe
 	.byte	0xd
 	.uleb128 0x1a
 	.uaword	.LASF28
 	.byte	0xf
 	.byte	0x76
-	.uaword	0x343
+	.uaword	0x338
 	.byte	0xe
 	.uleb128 0x1a
 	.uaword	.LASF29
 	.byte	0xf
 	.byte	0x77
-	.uaword	0x343
+	.uaword	0x338
 	.byte	0xf
 	.uleb128 0x1a
 	.uaword	.LASF213
 	.byte	0xf
 	.byte	0x78
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0x10
 	.uleb128 0x1a
 	.uaword	.LASF27
 	.byte	0xf
 	.byte	0x79
-	.uaword	0x225
+	.uaword	0x21a
 	.byte	0x11
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_PwmHl_Base"
 	.byte	0xf
 	.byte	0x7a
-	.uaword	0x1e585
+	.uaword	0x1e57a
 	.uleb128 0x18
 	.byte	0x20
 	.byte	0xf
 	.byte	0x82
-	.uaword	0x1e66a
+	.uaword	0x1e65f
 	.uleb128 0x19
 	.string	"base"
 	.byte	0xf
 	.byte	0x84
-	.uaword	0x33bd
+	.uaword	0x33b2
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF24
 	.byte	0xf
 	.byte	0x85
-	.uaword	0x1e66a
+	.uaword	0x1e65f
 	.byte	0x10
 	.uleb128 0x1a
 	.uaword	.LASF205
 	.byte	0xf
 	.byte	0x86
-	.uaword	0x1df0b
+	.uaword	0x1df00
 	.byte	0x14
 	.uleb128 0x19
 	.string	"ccx"
 	.byte	0xf
 	.byte	0x87
-	.uaword	0x1e670
+	.uaword	0x1e665
 	.byte	0x18
 	.uleb128 0x19
 	.string	"coutx"
 	.byte	0xf
 	.byte	0x88
-	.uaword	0x1e670
+	.uaword	0x1e665
 	.byte	0x1c
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e3e3
+	.uaword	0x1e3d8
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e676
+	.uaword	0x1e66b
 	.uleb128 0x5
-	.uaword	0x1e288
+	.uaword	0x1e27d
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_PwmHl_Config"
 	.byte	0xf
 	.byte	0x89
-	.uaword	0x1e622
+	.uaword	0x1e617
 	.uleb128 0x18
 	.byte	0x10
 	.byte	0xf
 	.byte	0x8d
-	.uaword	0x1e6e4
+	.uaword	0x1e6d9
 	.uleb128 0x19
 	.string	"mode"
 	.byte	0xf
 	.byte	0x8f
-	.uaword	0x418
+	.uaword	0x40d
 	.byte	0
 	.uleb128 0x1a
 	.uaword	.LASF213
 	.byte	0xf
 	.byte	0x90
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0x1
 	.uleb128 0x19
 	.string	"update"
 	.byte	0xf
 	.byte	0x91
-	.uaword	0x1e4c6
+	.uaword	0x1e4bb
 	.byte	0x4
 	.uleb128 0x1a
 	.uaword	.LASF211
 	.byte	0xf
 	.byte	0x92
-	.uaword	0x1e503
+	.uaword	0x1e4f8
 	.byte	0x8
 	.uleb128 0x1a
 	.uaword	.LASF212
 	.byte	0xf
 	.byte	0x93
-	.uaword	0x1e544
+	.uaword	0x1e539
 	.byte	0xc
 	.byte	0
 	.uleb128 0x3
 	.string	"IfxGtm_Atom_PwmHl_Mode"
 	.byte	0xf
 	.byte	0x94
-	.uaword	0x1e69b
+	.uaword	0x1e690
 	.uleb128 0x9
-	.uaword	0x1dfd5
-	.uaword	0x1e712
+	.uaword	0x1dfca
+	.uaword	0x1e707
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x7
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.uleb128 0x9
-	.uaword	0x2ed
-	.uaword	0x1e728
+	.uaword	0x2e2
+	.uaword	0x1e71d
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x19
 	.byte	0
 	.uleb128 0x26
@@ -49235,60 +49235,60 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x3
 	.uahalf	0x238
 	.byte	0x1
-	.uaword	0x1e770
+	.uaword	0x1e765
 	.byte	0x3
-	.uaword	0x1e770
+	.uaword	0x1e765
 	.uleb128 0x27
 	.uaword	.LASF205
 	.byte	0x3
 	.uahalf	0x238
-	.uaword	0x1e3d7
+	.uaword	0x1e3cc
 	.uleb128 0x27
 	.uaword	.LASF206
 	.byte	0x3
 	.uahalf	0x238
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1b0d1
+	.uaword	0x1b0c6
 	.uleb128 0x26
 	.string	"IfxStdIf_Timer_tickToS"
 	.byte	0x2
 	.uahalf	0x1a2
 	.byte	0x1
-	.uaword	0x282
+	.uaword	0x277
 	.byte	0x3
-	.uaword	0x1e7b6
+	.uaword	0x1e7ab
 	.uleb128 0x27
 	.uaword	.LASF208
 	.byte	0x2
 	.uahalf	0x1a2
-	.uaword	0x282
+	.uaword	0x277
 	.uleb128 0x28
 	.string	"ticks"
 	.byte	0x2
 	.uahalf	0x1a2
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0
 	.uleb128 0x26
 	.string	"IfxStdIf_Timer_sToTick"
 	.byte	0x2
 	.uahalf	0x1ad
 	.byte	0x1
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x3
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uleb128 0x27
 	.uaword	.LASF208
 	.byte	0x2
 	.uahalf	0x1ad
-	.uaword	0x282
+	.uaword	0x277
 	.uleb128 0x28
 	.string	"seconds"
 	.byte	0x2
 	.uahalf	0x1ad
-	.uaword	0x282
+	.uaword	0x277
 	.byte	0
 	.uleb128 0x29
 	.string	"IfxGtm_Atom_Ch_setCompareShadow"
@@ -49296,46 +49296,46 @@ IfxGtm_Atom_PwmHl_modes:
 	.uahalf	0x23e
 	.byte	0x1
 	.byte	0x3
-	.uaword	0x1e86f
+	.uaword	0x1e864
 	.uleb128 0x27
 	.uaword	.LASF205
 	.byte	0x3
 	.uahalf	0x23e
-	.uaword	0x1e3d7
+	.uaword	0x1e3cc
 	.uleb128 0x27
 	.uaword	.LASF206
 	.byte	0x3
 	.uahalf	0x23e
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.uleb128 0x28
 	.string	"shadowZero"
 	.byte	0x3
 	.uahalf	0x23e
-	.uaword	0x274
+	.uaword	0x269
 	.uleb128 0x28
 	.string	"shadowOne"
 	.byte	0x3
 	.uahalf	0x23e
-	.uaword	0x274
+	.uaword	0x269
 	.uleb128 0x2a
 	.string	"atomCh"
 	.byte	0x3
 	.uahalf	0x240
-	.uaword	0x1e770
+	.uaword	0x1e765
 	.byte	0
 	.uleb128 0x2b
 	.string	"IfxGtm_Atom_PwmHl_invertActiveState"
 	.byte	0x1
 	.byte	0x79
 	.byte	0x1
-	.uaword	0x343
+	.uaword	0x338
 	.byte	0x3
-	.uaword	0x1e8b4
+	.uaword	0x1e8a9
 	.uleb128 0x2c
 	.string	"activeState"
 	.byte	0x1
 	.byte	0x79
-	.uaword	0x343
+	.uaword	0x338
 	.byte	0
 	.uleb128 0x2d
 	.byte	0x1
@@ -49343,24 +49343,24 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0xf9
 	.byte	0x1
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0x1
-	.uaword	0x1e904
+	.uaword	0x1e8f9
 	.uleb128 0x2e
 	.uaword	.LASF23
 	.byte	0x1
 	.byte	0xf9
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uleb128 0x2e
 	.uaword	.LASF25
 	.byte	0x1
 	.byte	0xf9
-	.uaword	0x282
+	.uaword	0x277
 	.uleb128 0x2f
 	.string	"value"
 	.byte	0x1
 	.byte	0xfb
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0
 	.uleb128 0x30
 	.byte	0x1
@@ -49368,24 +49368,24 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.uahalf	0x104
 	.byte	0x1
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0x1
-	.uaword	0x1e958
+	.uaword	0x1e94d
 	.uleb128 0x27
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x104
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uleb128 0x27
 	.uaword	.LASF26
 	.byte	0x1
 	.uahalf	0x104
-	.uaword	0x282
+	.uaword	0x277
 	.uleb128 0x2a
 	.string	"value"
 	.byte	0x1
 	.uahalf	0x106
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0
 	.uleb128 0x31
 	.byte	0x1
@@ -49393,33 +49393,33 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x83
 	.byte	0x1
-	.uaword	0x282
+	.uaword	0x277
 	.uaword	.LFB260
 	.uaword	.LFE260
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1e9bf
+	.uaword	0x1e9b4
 	.uleb128 0x32
 	.uaword	.LASF23
 	.byte	0x1
 	.byte	0x83
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x33
-	.uaword	0x1e776
+	.uaword	0x1e76b
 	.uaword	.LBB148
 	.uaword	.LBE148
 	.byte	0x1
 	.byte	0x85
 	.uleb128 0x34
-	.uaword	0x1e7a7
+	.uaword	0x1e79c
 	.byte	0x2
 	.byte	0x84
 	.sleb128 0
 	.uleb128 0x34
-	.uaword	0x1e79b
+	.uaword	0x1e790
 	.byte	0x5
 	.byte	0x84
 	.sleb128 20
@@ -49434,31 +49434,31 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x89
 	.byte	0x1
-	.uaword	0x282
+	.uaword	0x277
 	.uaword	.LFB261
 	.uaword	.LFE261
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1ea27
+	.uaword	0x1ea1c
 	.uleb128 0x32
 	.uaword	.LASF23
 	.byte	0x1
 	.byte	0x89
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x33
-	.uaword	0x1e776
+	.uaword	0x1e76b
 	.uaword	.LBB150
 	.uaword	.LBE150
 	.byte	0x1
 	.byte	0x8b
 	.uleb128 0x35
-	.uaword	0x1e7a7
+	.uaword	0x1e79c
 	.uaword	.LLST0
 	.uleb128 0x34
-	.uaword	0x1e79b
+	.uaword	0x1e790
 	.byte	0x5
 	.byte	0x84
 	.sleb128 20
@@ -49473,80 +49473,80 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x8f
 	.byte	0x1
-	.uaword	0x418
+	.uaword	0x40d
 	.uaword	.LFB262
 	.uaword	.LFE262
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1ea67
+	.uaword	0x1ea5c
 	.uleb128 0x32
 	.uaword	.LASF23
 	.byte	0x1
 	.byte	0x8f
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.byte	0x1
 	.byte	0x64
 	.byte	0
 	.uleb128 0x36
-	.uaword	0x1e8b4
+	.uaword	0x1e8a9
 	.uaword	.LFB265
 	.uaword	.LFE265
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1eab3
+	.uaword	0x1eaa8
 	.uleb128 0x34
-	.uaword	0x1e8e0
+	.uaword	0x1e8d5
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x35
-	.uaword	0x1e8eb
+	.uaword	0x1e8e0
 	.uaword	.LLST1
 	.uleb128 0x37
-	.uaword	0x1e8f6
+	.uaword	0x1e8eb
 	.uleb128 0x33
-	.uaword	0x1e7b6
+	.uaword	0x1e7ab
 	.uaword	.LBB152
 	.uaword	.LBE152
 	.byte	0x1
 	.byte	0xfb
 	.uleb128 0x35
-	.uaword	0x1e7e7
+	.uaword	0x1e7dc
 	.uaword	.LLST1
 	.uleb128 0x35
-	.uaword	0x1e7db
+	.uaword	0x1e7d0
 	.uaword	.LLST3
 	.byte	0
 	.byte	0
 	.uleb128 0x36
-	.uaword	0x1e904
+	.uaword	0x1e8f9
 	.uaword	.LFB266
 	.uaword	.LFE266
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1eb00
+	.uaword	0x1eaf5
 	.uleb128 0x34
-	.uaword	0x1e931
+	.uaword	0x1e926
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x35
-	.uaword	0x1e93d
+	.uaword	0x1e932
 	.uaword	.LLST4
 	.uleb128 0x37
-	.uaword	0x1e949
+	.uaword	0x1e93e
 	.uleb128 0x38
-	.uaword	0x1e7b6
+	.uaword	0x1e7ab
 	.uaword	.LBB154
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.uahalf	0x106
 	.uleb128 0x35
-	.uaword	0x1e7e7
+	.uaword	0x1e7dc
 	.uaword	.LLST5
 	.uleb128 0x35
-	.uaword	0x1e7db
+	.uaword	0x1e7d0
 	.uaword	.LLST6
 	.byte	0
 	.byte	0
@@ -49561,18 +49561,18 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1eb6a
+	.uaword	0x1eb5f
 	.uleb128 0x3a
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x154
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uaword	.LLST7
 	.uleb128 0x3b
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x154
-	.uaword	0x3266
+	.uaword	0x325b
 	.uaword	.LLST8
 	.uleb128 0x3c
 	.uaword	.LVL13
@@ -49607,24 +49607,24 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1ebf5
+	.uaword	0x1ebea
 	.uleb128 0x3a
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x15a
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uaword	.LLST9
 	.uleb128 0x3b
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x15a
-	.uaword	0x3266
+	.uaword	0x325b
 	.uaword	.LLST10
 	.uleb128 0x3b
 	.string	"shift"
 	.byte	0x1
 	.uahalf	0x15a
-	.uaword	0x3266
+	.uaword	0x325b
 	.uaword	.LLST11
 	.uleb128 0x3c
 	.uaword	.LVL15
@@ -49666,24 +49666,24 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1ec75
+	.uaword	0x1ec6a
 	.uleb128 0x3a
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x160
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uaword	.LLST12
 	.uleb128 0x3b
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x160
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.uaword	.LLST13
 	.uleb128 0x3a
 	.uaword	.LASF210
 	.byte	0x1
 	.uahalf	0x160
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.uaword	.LLST14
 	.uleb128 0x3c
 	.uaword	.LVL17
@@ -49725,26 +49725,26 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1ecde
+	.uaword	0x1ecd3
 	.uleb128 0x3e
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x166
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3f
 	.string	"activeCh"
 	.byte	0x1
 	.uahalf	0x166
-	.uaword	0x3331
+	.uaword	0x3326
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x3f
 	.string	"stuckSt"
 	.byte	0x1
 	.uahalf	0x166
-	.uaword	0x3331
+	.uaword	0x3326
 	.byte	0x1
 	.byte	0x66
 	.byte	0
@@ -49758,39 +49758,39 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1efff
+	.uaword	0x1eff4
 	.uleb128 0x3e
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x18b
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3f
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x18b
-	.uaword	0x3266
+	.uaword	0x325b
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x41
 	.uaword	.LASF214
 	.byte	0x1
 	.uahalf	0x18d
-	.uaword	0x225
+	.uaword	0x21a
 	.uaword	.LLST15
 	.uleb128 0x42
 	.uaword	.LASF207
 	.byte	0x1
 	.uahalf	0x18e
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x1
 	.byte	0x53
 	.uleb128 0x42
 	.uaword	.LASF25
 	.byte	0x1
 	.uahalf	0x18f
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x1
 	.byte	0x56
 	.uleb128 0x43
@@ -49799,244 +49799,244 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"x"
 	.byte	0x1
 	.uahalf	0x195
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST16
 	.uleb128 0x44
 	.string	"cm0"
 	.byte	0x1
 	.uahalf	0x196
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST17
 	.uleb128 0x44
 	.string	"cm1"
 	.byte	0x1
 	.uahalf	0x196
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST18
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB159
 	.uaword	.Ldebug_ranges0+0x48
 	.byte	0x1
 	.uahalf	0x1b1
-	.uaword	0x1edfa
+	.uaword	0x1edef
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST19
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST20
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST21
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST22
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x48
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x46
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB161
 	.uaword	.LBE161
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST21
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST22
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB164
 	.uaword	.Ldebug_ranges0+0x60
 	.byte	0x1
 	.uahalf	0x1b9
-	.uaword	0x1ee61
+	.uaword	0x1ee56
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST25
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST26
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST27
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST28
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x60
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB166
 	.uaword	.Ldebug_ranges0+0x80
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST27
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST28
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB172
 	.uaword	.Ldebug_ranges0+0x98
 	.byte	0x1
 	.uahalf	0x1ae
-	.uaword	0x1eec8
+	.uaword	0x1eebd
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST31
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST32
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST33
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST34
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x98
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB174
 	.uaword	.Ldebug_ranges0+0xb0
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST33
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST34
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB183
 	.uaword	.Ldebug_ranges0+0xc8
 	.byte	0x1
 	.uahalf	0x1ba
-	.uaword	0x1ef2f
+	.uaword	0x1ef24
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST37
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST38
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST39
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST40
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0xc8
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB185
 	.uaword	.Ldebug_ranges0+0xe0
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST39
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST40
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB191
 	.uaword	.Ldebug_ranges0+0xf8
 	.byte	0x1
 	.uahalf	0x1c0
-	.uaword	0x1ef96
+	.uaword	0x1ef8b
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST43
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST44
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST45
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST46
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0xf8
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB193
 	.uaword	.Ldebug_ranges0+0x120
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST45
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST46
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x46
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB207
 	.uaword	.LBE207
 	.byte	0x1
 	.uahalf	0x1c1
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST49
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST50
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST51
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST52
 	.uleb128 0x47
 	.uaword	.LBB208
 	.uaword	.LBE208
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x46
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB209
 	.uaword	.LBE209
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST51
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST52
 	.byte	0
 	.byte	0
@@ -50053,39 +50053,39 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1f31e
+	.uaword	0x1f313
 	.uleb128 0x3e
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x1c7
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3f
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x1c7
-	.uaword	0x3266
+	.uaword	0x325b
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x41
 	.uaword	.LASF214
 	.byte	0x1
 	.uahalf	0x1c9
-	.uaword	0x225
+	.uaword	0x21a
 	.uaword	.LLST55
 	.uleb128 0x42
 	.uaword	.LASF207
 	.byte	0x1
 	.uahalf	0x1ca
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x1
 	.byte	0x54
 	.uleb128 0x42
 	.uaword	.LASF25
 	.byte	0x1
 	.uahalf	0x1cb
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x1
 	.byte	0x56
 	.uleb128 0x43
@@ -50094,244 +50094,244 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"x"
 	.byte	0x1
 	.uahalf	0x1d1
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST56
 	.uleb128 0x44
 	.string	"cm0"
 	.byte	0x1
 	.uahalf	0x1d2
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST57
 	.uleb128 0x44
 	.string	"cm1"
 	.byte	0x1
 	.uahalf	0x1d2
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST58
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB216
 	.uaword	.Ldebug_ranges0+0x178
 	.byte	0x1
 	.uahalf	0x1fd
-	.uaword	0x1f119
+	.uaword	0x1f10e
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST59
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST60
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST61
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST62
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x178
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x46
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB218
 	.uaword	.LBE218
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST61
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST62
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB221
 	.uaword	.Ldebug_ranges0+0x190
 	.byte	0x1
 	.uahalf	0x1f5
-	.uaword	0x1f180
+	.uaword	0x1f175
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST65
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST66
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST67
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST68
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x190
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB223
 	.uaword	.Ldebug_ranges0+0x1b0
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST67
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST68
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB229
 	.uaword	.Ldebug_ranges0+0x1c8
 	.byte	0x1
 	.uahalf	0x1ea
-	.uaword	0x1f1e7
+	.uaword	0x1f1dc
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST71
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST72
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST73
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST74
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x1c8
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB231
 	.uaword	.Ldebug_ranges0+0x1e0
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST73
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST74
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x48
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB237
 	.uaword	.LBE237
 	.byte	0x1
 	.uahalf	0x1ed
-	.uaword	0x1f252
+	.uaword	0x1f247
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST77
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST78
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST79
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST80
 	.uleb128 0x47
 	.uaword	.LBB238
 	.uaword	.LBE238
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x46
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB239
 	.uaword	.LBE239
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST79
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST80
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB243
 	.uaword	.Ldebug_ranges0+0x1f8
 	.byte	0x1
 	.uahalf	0x1f6
-	.uaword	0x1f2b9
+	.uaword	0x1f2ae
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST83
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST84
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST85
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST86
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x1f8
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB245
 	.uaword	.Ldebug_ranges0+0x210
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST85
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST86
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x38
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB251
 	.uaword	.Ldebug_ranges0+0x228
 	.byte	0x1
 	.uahalf	0x1fc
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST89
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST90
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST91
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST92
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x228
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB253
 	.uaword	.Ldebug_ranges0+0x240
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST91
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST92
 	.byte	0
 	.byte	0
@@ -50348,104 +50348,104 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1f455
+	.uaword	0x1f44a
 	.uleb128 0x3e
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x203
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3f
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x203
-	.uaword	0x3266
+	.uaword	0x325b
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x41
 	.uaword	.LASF214
 	.byte	0x1
 	.uahalf	0x205
-	.uaword	0x225
+	.uaword	0x21a
 	.uaword	.LLST95
 	.uleb128 0x41
 	.uaword	.LASF207
 	.byte	0x1
 	.uahalf	0x206
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST96
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB264
 	.uaword	.Ldebug_ranges0+0x258
 	.byte	0x1
 	.uahalf	0x20b
-	.uaword	0x1f3f1
+	.uaword	0x1f3e6
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST97
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST98
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST99
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST100
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x258
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB266
 	.uaword	.Ldebug_ranges0+0x278
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST99
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST100
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x38
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB274
 	.uaword	.Ldebug_ranges0+0x290
 	.byte	0x1
 	.uahalf	0x20d
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST103
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST104
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST105
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST106
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x290
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB276
 	.uaword	.Ldebug_ranges0+0x2a8
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST105
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST106
 	.byte	0
 	.byte	0
@@ -50461,29 +50461,29 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1f4d7
+	.uaword	0x1f4cc
 	.uleb128 0x3a
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x185
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uaword	.LLST109
 	.uleb128 0x3b
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x185
-	.uaword	0x3266
+	.uaword	0x325b
 	.uaword	.LLST110
 	.uleb128 0x3b
 	.string	"shift"
 	.byte	0x1
 	.uahalf	0x185
-	.uaword	0x3266
+	.uaword	0x325b
 	.uaword	.LLST111
 	.uleb128 0x49
 	.uaword	.LVL125
 	.byte	0x1
-	.uaword	0x1f31e
+	.uaword	0x1f313
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x65
@@ -50508,200 +50508,200 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1f8b8
+	.uaword	0x1f8ad
 	.uleb128 0x3e
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x212
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3f
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x212
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x3e
 	.uaword	.LASF210
 	.byte	0x1
 	.uahalf	0x212
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.byte	0x1
 	.byte	0x66
 	.uleb128 0x41
 	.uaword	.LASF214
 	.byte	0x1
 	.uahalf	0x214
-	.uaword	0x225
+	.uaword	0x21a
 	.uaword	.LLST112
 	.uleb128 0x42
 	.uaword	.LASF207
 	.byte	0x1
 	.uahalf	0x215
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x1
 	.byte	0x52
 	.uleb128 0x4a
 	.uaword	.Ldebug_ranges0+0x2c0
-	.uaword	0x1f702
+	.uaword	0x1f6f7
 	.uleb128 0x44
 	.string	"x"
 	.byte	0x1
 	.uahalf	0x21c
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST113
 	.uleb128 0x2a
 	.string	"o"
 	.byte	0x1
 	.uahalf	0x21d
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uleb128 0x44
 	.string	"cm0"
 	.byte	0x1
 	.uahalf	0x21e
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST114
 	.uleb128 0x44
 	.string	"cm1"
 	.byte	0x1
 	.uahalf	0x21e
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST115
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB283
 	.uaword	.Ldebug_ranges0+0x2e8
 	.byte	0x1
 	.uahalf	0x240
-	.uaword	0x1f5f9
+	.uaword	0x1f5ee
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST116
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST117
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST118
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST119
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x2e8
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB285
 	.uaword	.Ldebug_ranges0+0x310
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST118
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST119
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB294
 	.uaword	.Ldebug_ranges0+0x330
 	.byte	0x1
 	.uahalf	0x238
-	.uaword	0x1f660
+	.uaword	0x1f655
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST122
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST123
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST124
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST125
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x330
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB296
 	.uaword	.Ldebug_ranges0+0x350
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST124
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST125
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7b6
+	.uaword	0x1e7ab
 	.uaword	.LBB304
 	.uaword	.Ldebug_ranges0+0x368
 	.byte	0x1
 	.uahalf	0x220
-	.uaword	0x1f67f
+	.uaword	0x1f674
 	.uleb128 0x4b
-	.uaword	0x1e7e7
+	.uaword	0x1e7dc
 	.uleb128 0x4b
-	.uaword	0x1e7db
+	.uaword	0x1e7d0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7b6
+	.uaword	0x1e7ab
 	.uaword	.LBB309
 	.uaword	.Ldebug_ranges0+0x388
 	.byte	0x1
 	.uahalf	0x221
-	.uaword	0x1f69e
+	.uaword	0x1f693
 	.uleb128 0x4b
-	.uaword	0x1e7e7
+	.uaword	0x1e7dc
 	.uleb128 0x4b
-	.uaword	0x1e7db
+	.uaword	0x1e7d0
 	.byte	0
 	.uleb128 0x38
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB319
 	.uaword	.Ldebug_ranges0+0x3a8
 	.byte	0x1
 	.uahalf	0x246
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST128
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST129
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST130
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST131
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x3a8
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB321
 	.uaword	.Ldebug_ranges0+0x3c0
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST130
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST131
 	.byte	0
 	.byte	0
@@ -50713,163 +50713,163 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"x"
 	.byte	0x1
 	.uahalf	0x24d
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST134
 	.uleb128 0x2a
 	.string	"o"
 	.byte	0x1
 	.uahalf	0x24e
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uleb128 0x44
 	.string	"cm0"
 	.byte	0x1
 	.uahalf	0x24f
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST135
 	.uleb128 0x44
 	.string	"cm1"
 	.byte	0x1
 	.uahalf	0x24f
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST136
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB330
 	.uaword	.Ldebug_ranges0+0x400
 	.byte	0x1
 	.uahalf	0x271
-	.uaword	0x1f7a6
+	.uaword	0x1f79b
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST137
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST138
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST139
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST140
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x400
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB332
 	.uaword	.Ldebug_ranges0+0x428
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST139
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST140
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB341
 	.uaword	.Ldebug_ranges0+0x448
 	.byte	0x1
 	.uahalf	0x269
-	.uaword	0x1f80d
+	.uaword	0x1f802
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST143
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST144
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST145
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST146
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x448
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB343
 	.uaword	.Ldebug_ranges0+0x468
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST145
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST146
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7b6
+	.uaword	0x1e7ab
 	.uaword	.LBB351
 	.uaword	.Ldebug_ranges0+0x480
 	.byte	0x1
 	.uahalf	0x251
-	.uaword	0x1f830
+	.uaword	0x1f825
 	.uleb128 0x4b
-	.uaword	0x1e7e7
+	.uaword	0x1e7dc
 	.uleb128 0x35
-	.uaword	0x1e7db
+	.uaword	0x1e7d0
 	.uaword	.LLST149
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7b6
+	.uaword	0x1e7ab
 	.uaword	.LBB358
 	.uaword	.Ldebug_ranges0+0x498
 	.byte	0x1
 	.uahalf	0x252
-	.uaword	0x1f857
+	.uaword	0x1f84c
 	.uleb128 0x35
-	.uaword	0x1e7e7
+	.uaword	0x1e7dc
 	.uaword	.LLST150
 	.uleb128 0x35
-	.uaword	0x1e7db
+	.uaword	0x1e7d0
 	.uaword	.LLST151
 	.byte	0
 	.uleb128 0x38
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB362
 	.uaword	.Ldebug_ranges0+0x4b0
 	.byte	0x1
 	.uahalf	0x277
 	.uleb128 0x34
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.byte	0x1
 	.byte	0x57
 	.uleb128 0x34
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.byte	0x1
 	.byte	0x56
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST152
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST153
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x4b0
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB364
 	.uaword	.Ldebug_ranges0+0x4c8
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST152
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST153
 	.byte	0
 	.byte	0
@@ -50886,29 +50886,29 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1f935
+	.uaword	0x1f92a
 	.uleb128 0x3a
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x27d
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uaword	.LLST156
 	.uleb128 0x3b
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x27d
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.uaword	.LLST157
 	.uleb128 0x3a
 	.uaword	.LASF210
 	.byte	0x1
 	.uahalf	0x27d
-	.uaword	0x32eb
+	.uaword	0x32e0
 	.uaword	.LLST158
 	.uleb128 0x49
 	.uaword	.LVL177
 	.byte	0x1
-	.uaword	0x1f31e
+	.uaword	0x1f313
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x65
@@ -50933,46 +50933,46 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1fc79
+	.uaword	0x1fc6e
 	.uleb128 0x3e
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x283
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.byte	0x1
 	.byte	0x64
 	.uleb128 0x3f
 	.string	"tOn"
 	.byte	0x1
 	.uahalf	0x283
-	.uaword	0x3266
+	.uaword	0x325b
 	.byte	0x1
 	.byte	0x65
 	.uleb128 0x3f
 	.string	"shift"
 	.byte	0x1
 	.uahalf	0x283
-	.uaword	0x3266
+	.uaword	0x325b
 	.byte	0x1
 	.byte	0x66
 	.uleb128 0x41
 	.uaword	.LASF214
 	.byte	0x1
 	.uahalf	0x285
-	.uaword	0x225
+	.uaword	0x21a
 	.uaword	.LLST159
 	.uleb128 0x42
 	.uaword	.LASF207
 	.byte	0x1
 	.uahalf	0x286
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x1
 	.byte	0x53
 	.uleb128 0x42
 	.uaword	.LASF25
 	.byte	0x1
 	.uahalf	0x287
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.byte	0x1
 	.byte	0x56
 	.uleb128 0x43
@@ -50981,250 +50981,250 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"x"
 	.byte	0x1
 	.uahalf	0x28d
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST160
 	.uleb128 0x44
 	.string	"s"
 	.byte	0x1
 	.uahalf	0x28e
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST161
 	.uleb128 0x44
 	.string	"cm0"
 	.byte	0x1
 	.uahalf	0x28f
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST162
 	.uleb128 0x44
 	.string	"cm1"
 	.byte	0x1
 	.uahalf	0x28f
-	.uaword	0x2f7
+	.uaword	0x2ec
 	.uaword	.LLST163
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB375
 	.uaword	.Ldebug_ranges0+0x510
 	.byte	0x1
 	.uahalf	0x2aa
-	.uaword	0x1fa74
+	.uaword	0x1fa69
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST164
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST165
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST166
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST167
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x510
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x46
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB377
 	.uaword	.LBE377
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST166
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST167
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB380
 	.uaword	.Ldebug_ranges0+0x528
 	.byte	0x1
 	.uahalf	0x2b2
-	.uaword	0x1fadb
+	.uaword	0x1fad0
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST170
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST171
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST172
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST173
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x528
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB382
 	.uaword	.Ldebug_ranges0+0x548
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST172
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST173
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB388
 	.uaword	.Ldebug_ranges0+0x560
 	.byte	0x1
 	.uahalf	0x2a7
-	.uaword	0x1fb42
+	.uaword	0x1fb37
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST176
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST177
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST178
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST179
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x560
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB390
 	.uaword	.Ldebug_ranges0+0x578
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST178
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST179
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB399
 	.uaword	.Ldebug_ranges0+0x590
 	.byte	0x1
 	.uahalf	0x2b3
-	.uaword	0x1fba9
+	.uaword	0x1fb9e
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST182
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST183
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST184
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST185
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x590
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB401
 	.uaword	.Ldebug_ranges0+0x5a8
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST184
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST185
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB407
 	.uaword	.Ldebug_ranges0+0x5c0
 	.byte	0x1
 	.uahalf	0x2c4
-	.uaword	0x1fc10
+	.uaword	0x1fc05
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST188
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST189
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST190
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST191
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x5c0
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x38
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB409
 	.uaword	.Ldebug_ranges0+0x5e0
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST190
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST191
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x46
-	.uaword	0x1e7f8
+	.uaword	0x1e7ed
 	.uaword	.LBB419
 	.uaword	.LBE419
 	.byte	0x1
 	.uahalf	0x2c5
 	.uleb128 0x35
-	.uaword	0x1e84d
+	.uaword	0x1e842
 	.uaword	.LLST194
 	.uleb128 0x35
-	.uaword	0x1e83a
+	.uaword	0x1e82f
 	.uaword	.LLST195
 	.uleb128 0x35
-	.uaword	0x1e82e
+	.uaword	0x1e823
 	.uaword	.LLST196
 	.uleb128 0x35
-	.uaword	0x1e822
+	.uaword	0x1e817
 	.uaword	.LLST197
 	.uleb128 0x47
 	.uaword	.LBB420
 	.uaword	.LBE420
 	.uleb128 0x37
-	.uaword	0x1e85f
+	.uaword	0x1e854
 	.uleb128 0x46
-	.uaword	0x1e728
+	.uaword	0x1e71d
 	.uaword	.LBB421
 	.uaword	.LBE421
 	.byte	0x3
 	.uahalf	0x240
 	.uleb128 0x35
-	.uaword	0x1e763
+	.uaword	0x1e758
 	.uaword	.LLST196
 	.uleb128 0x35
-	.uaword	0x1e757
+	.uaword	0x1e74c
 	.uaword	.LLST197
 	.byte	0
 	.byte	0
@@ -51237,40 +51237,40 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.uahalf	0x10f
 	.byte	0x1
-	.uaword	0x29b
+	.uaword	0x290
 	.uaword	.LFB267
 	.uaword	.LFE267
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x1fdb9
+	.uaword	0x1fdae
 	.uleb128 0x3a
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x10f
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uaword	.LLST200
 	.uleb128 0x3b
 	.string	"mode"
 	.byte	0x1
 	.uahalf	0x10f
-	.uaword	0x418
+	.uaword	0x40d
 	.uaword	.LLST201
 	.uleb128 0x44
 	.string	"result"
 	.byte	0x1
 	.uahalf	0x111
-	.uaword	0x29b
+	.uaword	0x290
 	.uaword	.LLST202
 	.uleb128 0x44
 	.string	"base"
 	.byte	0x1
 	.uahalf	0x112
-	.uaword	0x1fdb9
+	.uaword	0x1fdae
 	.uaword	.LLST200
 	.uleb128 0x4d
 	.uaword	.LASF215
-	.uaword	0x1fdbf
+	.uaword	0x1fdb4
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -51278,12 +51278,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.uleb128 0x4e
 	.uaword	.LBB427
 	.uaword	.LBE427
-	.uaword	0x1fd87
+	.uaword	0x1fd7c
 	.uleb128 0x41
 	.uaword	.LASF214
 	.byte	0x1
 	.uahalf	0x13d
-	.uaword	0x274
+	.uaword	0x269
 	.uaword	.LLST204
 	.uleb128 0x47
 	.uaword	.LBB428
@@ -51292,41 +51292,41 @@ IfxGtm_Atom_PwmHl_modes:
 	.uaword	.LASF206
 	.byte	0x1
 	.uahalf	0x141
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.uaword	.LLST205
 	.uleb128 0x48
-	.uaword	0x1e86f
+	.uaword	0x1e864
 	.uaword	.LBB429
 	.uaword	.LBE429
 	.byte	0x1
 	.uahalf	0x144
-	.uaword	0x1fd55
+	.uaword	0x1fd4a
 	.uleb128 0x35
-	.uaword	0x1e8a0
+	.uaword	0x1e895
 	.uaword	.LLST206
 	.byte	0
 	.uleb128 0x45
-	.uaword	0x1e86f
+	.uaword	0x1e864
 	.uaword	.LBB431
 	.uaword	.Ldebug_ranges0+0x600
 	.byte	0x1
 	.uahalf	0x149
-	.uaword	0x1fd73
+	.uaword	0x1fd68
 	.uleb128 0x35
-	.uaword	0x1e8a0
+	.uaword	0x1e895
 	.uaword	.LLST207
 	.byte	0
 	.uleb128 0x4f
 	.uaword	.LVL240
-	.uaword	0x20256
+	.uaword	0x2024b
 	.uleb128 0x4f
 	.uaword	.LVL244
-	.uaword	0x20256
+	.uaword	0x2024b
 	.byte	0
 	.byte	0
 	.uleb128 0x50
 	.uaword	.LVL232
-	.uaword	0x2028f
+	.uaword	0x20284
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x66
@@ -51360,68 +51360,68 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e604
+	.uaword	0x1e5f9
 	.uleb128 0x5
-	.uaword	0x1e718
+	.uaword	0x1e70d
 	.uleb128 0x31
 	.byte	0x1
 	.string	"IfxGtm_Atom_PwmHl_init"
 	.byte	0x1
 	.byte	0x95
 	.byte	0x1
-	.uaword	0x29b
+	.uaword	0x290
 	.uaword	.LFB263
 	.uaword	.LFE263
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x200ff
+	.uaword	0x200f4
 	.uleb128 0x51
 	.uaword	.LASF23
 	.byte	0x1
 	.byte	0x95
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uaword	.LLST208
 	.uleb128 0x52
 	.string	"config"
 	.byte	0x1
 	.byte	0x95
-	.uaword	0x200ff
+	.uaword	0x200f4
 	.uaword	.LLST209
 	.uleb128 0x53
 	.string	"result"
 	.byte	0x1
 	.byte	0x97
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0x1
 	.uleb128 0x54
 	.string	"channelMask"
 	.byte	0x1
 	.byte	0x98
-	.uaword	0x250
+	.uaword	0x245
 	.uaword	.LLST210
 	.uleb128 0x55
 	.uaword	.LASF209
 	.byte	0x1
 	.byte	0x99
-	.uaword	0x250
+	.uaword	0x245
 	.uaword	.LLST211
 	.uleb128 0x55
 	.uaword	.LASF214
 	.byte	0x1
 	.byte	0x9a
-	.uaword	0x274
+	.uaword	0x269
 	.uaword	.LLST212
 	.uleb128 0x56
 	.uaword	.LASF24
 	.byte	0x1
 	.byte	0x9c
-	.uaword	0x1e66a
+	.uaword	0x1e65f
 	.byte	0x1
 	.byte	0x6e
 	.uleb128 0x4d
 	.uaword	.LASF215
-	.uaword	0x2011a
+	.uaword	0x2010f
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -51430,114 +51430,114 @@ IfxGtm_Atom_PwmHl_modes:
 	.string	"clock"
 	.byte	0x1
 	.byte	0xaf
-	.uaword	0x1e08c
+	.uaword	0x1e081
 	.uaword	.LLST213
 	.uleb128 0x57
 	.string	"tOn"
 	.byte	0x1
 	.byte	0xdb
-	.uaword	0x2011f
+	.uaword	0x20114
 	.byte	0x2
 	.byte	0x91
 	.sleb128 -32
 	.uleb128 0x58
-	.uaword	0x1e8b4
+	.uaword	0x1e8a9
 	.uaword	.LBB435
 	.uaword	.Ldebug_ranges0+0x618
 	.byte	0x1
 	.byte	0xa6
-	.uaword	0x1fee7
-	.uleb128 0x35
-	.uaword	0x1e8eb
-	.uaword	.LLST214
+	.uaword	0x1fedc
 	.uleb128 0x35
 	.uaword	0x1e8e0
+	.uaword	.LLST214
+	.uleb128 0x35
+	.uaword	0x1e8d5
 	.uaword	.LLST215
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x618
 	.uleb128 0x37
-	.uaword	0x1e8f6
+	.uaword	0x1e8eb
 	.uleb128 0x59
-	.uaword	0x1e7b6
+	.uaword	0x1e7ab
 	.uaword	.LBB437
 	.uaword	.Ldebug_ranges0+0x640
 	.byte	0x1
 	.byte	0xfb
 	.uleb128 0x35
-	.uaword	0x1e7e7
+	.uaword	0x1e7dc
 	.uaword	.LLST216
 	.uleb128 0x35
-	.uaword	0x1e7db
+	.uaword	0x1e7d0
 	.uaword	.LLST217
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x58
-	.uaword	0x1e904
+	.uaword	0x1e8f9
 	.uaword	.LBB446
 	.uaword	.Ldebug_ranges0+0x660
 	.byte	0x1
 	.byte	0xa7
-	.uaword	0x1ff37
+	.uaword	0x1ff2c
 	.uleb128 0x35
-	.uaword	0x1e93d
+	.uaword	0x1e932
 	.uaword	.LLST218
 	.uleb128 0x35
-	.uaword	0x1e931
+	.uaword	0x1e926
 	.uaword	.LLST219
 	.uleb128 0x43
 	.uaword	.Ldebug_ranges0+0x660
 	.uleb128 0x37
-	.uaword	0x1e949
+	.uaword	0x1e93e
 	.uleb128 0x38
-	.uaword	0x1e7b6
+	.uaword	0x1e7ab
 	.uaword	.LBB448
 	.uaword	.Ldebug_ranges0+0x698
 	.byte	0x1
 	.uahalf	0x106
 	.uleb128 0x35
-	.uaword	0x1e7e7
+	.uaword	0x1e7dc
 	.uaword	.LLST218
 	.uleb128 0x4b
-	.uaword	0x1e7db
+	.uaword	0x1e7d0
 	.byte	0
 	.byte	0
 	.byte	0
 	.uleb128 0x4a
 	.uaword	.Ldebug_ranges0+0x6b8
-	.uaword	0x1ffdc
+	.uaword	0x1ffd1
 	.uleb128 0x55
 	.uaword	.LASF206
 	.byte	0x1
 	.byte	0xb3
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.uaword	.LLST221
 	.uleb128 0x5a
-	.uaword	0x1e86f
+	.uaword	0x1e864
 	.uaword	.LBB468
 	.uaword	.LBE468
 	.byte	0x1
 	.byte	0xbb
-	.uaword	0x1ff6c
+	.uaword	0x1ff61
 	.uleb128 0x35
-	.uaword	0x1e8a0
+	.uaword	0x1e895
 	.uaword	.LLST222
 	.byte	0
 	.uleb128 0x58
-	.uaword	0x1e86f
+	.uaword	0x1e864
 	.uaword	.LBB470
 	.uaword	.Ldebug_ranges0+0x6d0
 	.byte	0x1
 	.byte	0xcb
-	.uaword	0x1ff89
+	.uaword	0x1ff7e
 	.uleb128 0x35
-	.uaword	0x1e8a0
+	.uaword	0x1e895
 	.uaword	.LLST223
 	.byte	0
 	.uleb128 0x5b
 	.uaword	.LVL270
-	.uaword	0x202c6
-	.uaword	0x1ffa9
+	.uaword	0x202bb
+	.uaword	0x1ff9e
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x57
@@ -51559,11 +51559,11 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x4f
 	.uaword	.LVL271
-	.uaword	0x2030f
+	.uaword	0x20304
 	.uleb128 0x5b
 	.uaword	.LVL280
-	.uaword	0x202c6
-	.uaword	0x1ffd2
+	.uaword	0x202bb
+	.uaword	0x1ffc7
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x57
@@ -51585,12 +51585,12 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x4f
 	.uaword	.LVL282
-	.uaword	0x2030f
+	.uaword	0x20304
 	.byte	0
 	.uleb128 0x5b
 	.uaword	.LVL259
-	.uaword	0x2028f
-	.uaword	0x20010
+	.uaword	0x20284
+	.uaword	0x20005
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x66
@@ -51623,11 +51623,11 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x4f
 	.uaword	.LVL260
-	.uaword	0x20343
+	.uaword	0x20338
 	.uleb128 0x5b
 	.uaword	.LVL284
-	.uaword	0x2037a
-	.uaword	0x20037
+	.uaword	0x2036f
+	.uaword	0x2002c
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x56
@@ -51647,8 +51647,8 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x5b
 	.uaword	.LVL285
-	.uaword	0x203bf
-	.uaword	0x20055
+	.uaword	0x203b4
+	.uaword	0x2004a
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x56
@@ -51668,8 +51668,8 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x5b
 	.uaword	.LVL286
-	.uaword	0x1fc79
-	.uaword	0x2006e
+	.uaword	0x1fc6e
+	.uaword	0x20063
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x54
@@ -51684,8 +51684,8 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x5b
 	.uaword	.LVL288
-	.uaword	0x1f31e
-	.uaword	0x20088
+	.uaword	0x1f313
+	.uaword	0x2007d
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x65
@@ -51701,8 +51701,8 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x5b
 	.uaword	.LVL289
-	.uaword	0x203fe
-	.uaword	0x200ab
+	.uaword	0x203f3
+	.uaword	0x200a0
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x57
@@ -51727,11 +51727,11 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x4f
 	.uaword	.LVL290
-	.uaword	0x2044a
+	.uaword	0x2043f
 	.uleb128 0x5b
 	.uaword	.LVL291
-	.uaword	0x203fe
-	.uaword	0x200da
+	.uaword	0x203f3
+	.uaword	0x200cf
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x57
@@ -51759,8 +51759,8 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x5b
 	.uaword	.LVL294
-	.uaword	0x20473
-	.uaword	0x200ee
+	.uaword	0x20468
+	.uaword	0x200e3
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x64
@@ -51770,7 +51770,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x50
 	.uaword	.LVL295
-	.uaword	0x20473
+	.uaword	0x20468
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x64
@@ -51781,23 +51781,23 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x20105
+	.uaword	0x200fa
 	.uleb128 0x5
-	.uaword	0x1e67b
+	.uaword	0x1e670
 	.uleb128 0x9
-	.uaword	0x2ed
-	.uaword	0x2011a
+	.uaword	0x2e2
+	.uaword	0x2010f
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x16
 	.byte	0
 	.uleb128 0x5
-	.uaword	0x2010a
+	.uaword	0x200ff
 	.uleb128 0x9
-	.uaword	0x2f7
-	.uaword	0x2012f
+	.uaword	0x2ec
+	.uaword	0x20124
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x7
 	.byte	0
 	.uleb128 0x5c
@@ -51811,16 +51811,16 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x20183
+	.uaword	0x20178
 	.uleb128 0x52
 	.string	"config"
 	.byte	0x1
 	.byte	0xef
-	.uaword	0x20183
+	.uaword	0x20178
 	.uaword	.LLST224
 	.uleb128 0x50
 	.uaword	.LVL298
-	.uaword	0x204ab
+	.uaword	0x204a0
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x64
@@ -51831,35 +51831,35 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x1e67b
+	.uaword	0x1e670
 	.uleb128 0x4c
 	.byte	0x1
 	.string	"IfxGtm_Atom_PwmHl_stdIfPwmHlInit"
 	.byte	0x1
 	.uahalf	0x16c
 	.byte	0x1
-	.uaword	0x29b
+	.uaword	0x290
 	.uaword	.LFB272
 	.uaword	.LFE272
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x201f9
+	.uaword	0x201ee
 	.uleb128 0x3b
 	.string	"stdif"
 	.byte	0x1
 	.uahalf	0x16c
-	.uaword	0x201f9
+	.uaword	0x201ee
 	.uaword	.LLST225
 	.uleb128 0x3a
 	.uaword	.LASF23
 	.byte	0x1
 	.uahalf	0x16c
-	.uaword	0x1e4fd
+	.uaword	0x1e4f2
 	.uaword	.LLST226
 	.uleb128 0x50
 	.uaword	.LVL302
-	.uaword	0x204dc
+	.uaword	0x204d1
 	.uleb128 0x3d
 	.byte	0x1
 	.byte	0x64
@@ -51873,29 +51873,29 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x3030
+	.uaword	0x3025
 	.uleb128 0x9
-	.uaword	0x1e6e4
-	.uaword	0x2020f
+	.uaword	0x1e6d9
+	.uaword	0x20204
 	.uleb128 0xa
-	.uaword	0x45c
+	.uaword	0x451
 	.byte	0x4
 	.byte	0
 	.uleb128 0x57
 	.string	"IfxGtm_Atom_PwmHl_modes"
 	.byte	0x1
 	.byte	0x6d
-	.uaword	0x20234
+	.uaword	0x20229
 	.byte	0x5
 	.byte	0x3
 	.uaword	IfxGtm_Atom_PwmHl_modes
 	.uleb128 0x5
-	.uaword	0x201ff
+	.uaword	0x201f4
 	.uleb128 0x5d
 	.string	"Assert_verboseLevel"
 	.byte	0x10
 	.byte	0x79
-	.uaword	0x274
+	.uaword	0x269
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x5e
@@ -51905,13 +51905,13 @@ IfxGtm_Atom_PwmHl_modes:
 	.uahalf	0x166
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2028f
+	.uaword	0x20284
 	.uleb128 0x1c
-	.uaword	0x1e3d7
+	.uaword	0x1e3cc
 	.uleb128 0x1c
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.uleb128 0x1c
-	.uaword	0x343
+	.uaword	0x338
 	.byte	0
 	.uleb128 0x5f
 	.byte	0x1
@@ -51920,17 +51920,17 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x67
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x202c6
+	.uaword	0x202bb
 	.uleb128 0x1c
-	.uaword	0x225
+	.uaword	0x21a
 	.uleb128 0x1c
-	.uaword	0x2d5
+	.uaword	0x2ca
 	.uleb128 0x1c
-	.uaword	0x2d5
+	.uaword	0x2ca
 	.uleb128 0x1c
-	.uaword	0x44c
+	.uaword	0x441
 	.uleb128 0x1c
-	.uaword	0x2d5
+	.uaword	0x2ca
 	.byte	0
 	.uleb128 0x5f
 	.byte	0x1
@@ -51939,19 +51939,19 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0xa6
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2030f
+	.uaword	0x20304
 	.uleb128 0x1c
-	.uaword	0x1e3d7
+	.uaword	0x1e3cc
 	.uleb128 0x1c
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.uleb128 0x1c
-	.uaword	0x1e08c
+	.uaword	0x1e081
 	.uleb128 0x1c
-	.uaword	0x343
+	.uaword	0x338
 	.uleb128 0x1c
-	.uaword	0x1e16f
+	.uaword	0x1e164
 	.uleb128 0x1c
-	.uaword	0x1e0fa
+	.uaword	0x1e0ef
 	.byte	0
 	.uleb128 0x5f
 	.byte	0x1
@@ -51960,13 +51960,13 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x79
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x20343
+	.uaword	0x20338
 	.uleb128 0x1c
-	.uaword	0x1e2a4
+	.uaword	0x1e299
 	.uleb128 0x1c
-	.uaword	0x293f
+	.uaword	0x2934
 	.uleb128 0x1c
-	.uaword	0x2afa
+	.uaword	0x2aef
 	.byte	0
 	.uleb128 0x60
 	.byte	0x1
@@ -51974,13 +51974,13 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x3
 	.byte	0xb5
 	.byte	0x1
-	.uaword	0x1e08c
+	.uaword	0x1e081
 	.byte	0x1
-	.uaword	0x2037a
+	.uaword	0x2036f
 	.uleb128 0x1c
-	.uaword	0x1e3d7
+	.uaword	0x1e3cc
 	.uleb128 0x1c
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.byte	0
 	.uleb128 0x5e
 	.byte	0x1
@@ -51989,15 +51989,15 @@ IfxGtm_Atom_PwmHl_modes:
 	.uahalf	0x1c5
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x203bf
+	.uaword	0x203b4
 	.uleb128 0x1c
-	.uaword	0x1e3dd
+	.uaword	0x1e3d2
 	.uleb128 0x1c
-	.uaword	0x250
+	.uaword	0x245
 	.uleb128 0x1c
-	.uaword	0x250
+	.uaword	0x245
 	.uleb128 0x1c
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0
 	.uleb128 0x5e
 	.byte	0x1
@@ -52006,15 +52006,15 @@ IfxGtm_Atom_PwmHl_modes:
 	.uahalf	0x1bc
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x203fe
+	.uaword	0x203f3
 	.uleb128 0x1c
-	.uaword	0x1e3dd
+	.uaword	0x1e3d2
 	.uleb128 0x1c
-	.uaword	0x250
+	.uaword	0x245
 	.uleb128 0x1c
-	.uaword	0x250
+	.uaword	0x245
 	.uleb128 0x1c
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0
 	.uleb128 0x5e
 	.byte	0x1
@@ -52023,17 +52023,17 @@ IfxGtm_Atom_PwmHl_modes:
 	.uahalf	0x1f6
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x2044a
+	.uaword	0x2043f
 	.uleb128 0x1c
-	.uaword	0x1e3dd
+	.uaword	0x1e3d2
 	.uleb128 0x1c
-	.uaword	0x250
+	.uaword	0x245
 	.uleb128 0x1c
-	.uaword	0x250
+	.uaword	0x245
 	.uleb128 0x1c
-	.uaword	0x250
+	.uaword	0x245
 	.uleb128 0x1c
-	.uaword	0x250
+	.uaword	0x245
 	.byte	0
 	.uleb128 0x5e
 	.byte	0x1
@@ -52042,9 +52042,9 @@ IfxGtm_Atom_PwmHl_modes:
 	.uahalf	0x204
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x20473
+	.uaword	0x20468
 	.uleb128 0x1c
-	.uaword	0x1e3dd
+	.uaword	0x1e3d2
 	.byte	0
 	.uleb128 0x5f
 	.byte	0x1
@@ -52053,11 +52053,11 @@ IfxGtm_Atom_PwmHl_modes:
 	.byte	0x9f
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x204ab
+	.uaword	0x204a0
 	.uleb128 0x1c
-	.uaword	0x1e66a
+	.uaword	0x1e65f
 	.uleb128 0x1c
-	.uaword	0x1dfd5
+	.uaword	0x1dfca
 	.byte	0
 	.uleb128 0x5e
 	.byte	0x1
@@ -52066,30 +52066,30 @@ IfxGtm_Atom_PwmHl_modes:
 	.uahalf	0x128
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x204d6
+	.uaword	0x204cb
 	.uleb128 0x1c
-	.uaword	0x204d6
+	.uaword	0x204cb
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x33bd
+	.uaword	0x33b2
 	.uleb128 0x60
 	.byte	0x1
 	.string	"IfxGtm_Atom_Timer_stdIfTimerInit"
 	.byte	0xe
 	.byte	0xfd
 	.byte	0x1
-	.uaword	0x29b
+	.uaword	0x290
 	.byte	0x1
-	.uaword	0x20516
+	.uaword	0x2050b
 	.uleb128 0x1c
-	.uaword	0x20516
+	.uaword	0x2050b
 	.uleb128 0x1c
-	.uaword	0x1e66a
+	.uaword	0x1e65f
 	.byte	0
 	.uleb128 0x4
 	.byte	0x4
-	.uaword	0x2bd5
+	.uaword	0x2bca
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
@@ -53509,7 +53509,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d8
+	.uleb128 0x1cd
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -53540,7 +53540,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d8
+	.uleb128 0x1cd
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -53556,7 +53556,7 @@ IfxGtm_Atom_PwmHl_modes:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d8
+	.uleb128 0x1cd
 	.byte	0x9f
 	.uaword	0
 	.uaword	0

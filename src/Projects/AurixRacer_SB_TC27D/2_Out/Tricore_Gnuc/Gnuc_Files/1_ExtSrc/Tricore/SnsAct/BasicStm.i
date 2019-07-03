@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicStm.c"
-# 1 "C:\\Users\\boldasl\\SEUNGHO\\Workspace\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\Jimmy\\Documents\\Github\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicStm.c"
@@ -35471,9 +35471,20 @@ extern void InfineonRacer_control(void);
 extern void Line_avgerage(void);
 extern void Line_Buffer(void);
 extern void median_filter(void);
+
+extern void Line_avgerage_RIGHT(void);
+extern void Line_Buffer_RIGHT(void);
+extern void median_filter_RIGHT(void);
+
 extern void convolutionOP(void);
 extern void getLineData (void);
 extern void clearBuffer(void);
+
+extern void convolutionOP_RIGHT(void);
+extern void getLineData_RIGHT (void);
+extern void clearBuffer_RIGHT(void);
+
+
 extern boolean IsOutSchoolZone(void);
 extern boolean IsInSchoolZone(void);
 extern boolean Boundary(void);

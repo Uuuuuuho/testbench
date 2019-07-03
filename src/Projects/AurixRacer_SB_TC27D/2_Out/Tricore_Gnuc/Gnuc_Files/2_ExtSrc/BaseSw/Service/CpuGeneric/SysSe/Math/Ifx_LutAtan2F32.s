@@ -689,7 +689,7 @@ Ifx_LutAtan2F32_float32:
 	.file 4 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x735
+	.uaword	0x72a
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -697,7 +697,7 @@ Ifx_LutAtan2F32_float32:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutAtan2F32.c"
-	.string	"C:\\\\Users\\\\boldasl\\\\SEUNGHO\\\\Workspace\\\\GitHub\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\Jimmy\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0xc0
 	.uaword	0
 	.uaword	0
@@ -742,17 +742,17 @@ Ifx_LutAtan2F32_float32:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x5c
-	.uaword	0x1eb
+	.uaword	0x1e0
 	.uleb128 0x3
 	.string	"uint32"
 	.byte	0x2
 	.byte	0x5d
-	.uaword	0x1f7
+	.uaword	0x1ec
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x2
 	.byte	0x5e
-	.uaword	0x1d2
+	.uaword	0x1c7
 	.uleb128 0x2
 	.byte	0x8
 	.byte	0x4
@@ -773,7 +773,7 @@ Ifx_LutAtan2F32_float32:
 	.string	"Ifx_Lut_FxpAngle"
 	.byte	0x3
 	.byte	0x40
-	.uaword	0x256
+	.uaword	0x24b
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x7
@@ -787,33 +787,33 @@ Ifx_LutAtan2F32_float32:
 	.byte	0x1
 	.byte	0x2e
 	.byte	0x1
-	.uaword	0x2be
+	.uaword	0x2b3
 	.byte	0x3
-	.uaword	0x337
+	.uaword	0x32c
 	.uleb128 0x5
 	.string	"valf"
 	.byte	0x1
 	.byte	0x2e
-	.uaword	0x272
+	.uaword	0x267
 	.uleb128 0x6
 	.string	"vali"
 	.byte	0x1
 	.byte	0x30
-	.uaword	0x264
+	.uaword	0x259
 	.byte	0
 	.uleb128 0x4
 	.string	"Ifx_LutAtan2F32_float32Private"
 	.byte	0x1
 	.byte	0x3d
 	.byte	0x1
-	.uaword	0x272
+	.uaword	0x267
 	.byte	0x3
-	.uaword	0x36f
+	.uaword	0x364
 	.uleb128 0x5
 	.string	"val"
 	.byte	0x1
 	.byte	0x3d
-	.uaword	0x272
+	.uaword	0x267
 	.byte	0
 	.uleb128 0x7
 	.byte	0x1
@@ -832,181 +832,181 @@ Ifx_LutAtan2F32_float32:
 	.byte	0x1
 	.byte	0x43
 	.byte	0x1
-	.uaword	0x2be
+	.uaword	0x2b3
 	.uaword	.LFB166
 	.uaword	.LFE166
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x581
+	.uaword	0x576
 	.uleb128 0x9
 	.string	"x"
 	.byte	0x1
 	.byte	0x43
-	.uaword	0x272
+	.uaword	0x267
 	.uaword	.LLST0
 	.uleb128 0x9
 	.string	"y"
 	.byte	0x1
 	.byte	0x43
-	.uaword	0x272
+	.uaword	0x267
 	.uaword	.LLST1
 	.uleb128 0xa
 	.string	"angle"
 	.byte	0x1
 	.byte	0x45
-	.uaword	0x2be
+	.uaword	0x2b3
 	.uaword	.LLST2
 	.uleb128 0xa
 	.string	"fx"
 	.byte	0x1
 	.byte	0x46
-	.uaword	0x272
+	.uaword	0x267
 	.uaword	.LLST0
 	.uleb128 0xa
 	.string	"fy"
 	.byte	0x1
 	.byte	0x47
-	.uaword	0x272
+	.uaword	0x267
 	.uaword	.LLST1
 	.uleb128 0xb
-	.uaword	0x2f1
+	.uaword	0x2e6
 	.uaword	.LBB34
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
 	.byte	0x77
-	.uaword	0x438
+	.uaword	0x42d
 	.uleb128 0xc
-	.uaword	0x31e
+	.uaword	0x313
 	.uaword	.LLST5
 	.uleb128 0xd
 	.uaword	.Ldebug_ranges0+0
 	.uleb128 0xe
-	.uaword	0x32a
+	.uaword	0x31f
 	.uaword	.LLST6
 	.byte	0
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x2f1
+	.uaword	0x2e6
 	.uaword	.LBB38
 	.uaword	.LBE38
 	.byte	0x1
 	.byte	0x73
-	.uaword	0x468
+	.uaword	0x45d
 	.uleb128 0xc
-	.uaword	0x31e
+	.uaword	0x313
 	.uaword	.LLST7
 	.uleb128 0x10
 	.uaword	.LBB39
 	.uaword	.LBE39
 	.uleb128 0xe
-	.uaword	0x32a
+	.uaword	0x31f
 	.uaword	.LLST8
 	.byte	0
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x2f1
+	.uaword	0x2e6
 	.uaword	.LBB40
 	.uaword	.LBE40
 	.byte	0x1
 	.byte	0x5a
-	.uaword	0x498
+	.uaword	0x48d
 	.uleb128 0xc
-	.uaword	0x31e
+	.uaword	0x313
 	.uaword	.LLST9
 	.uleb128 0x10
 	.uaword	.LBB41
 	.uaword	.LBE41
 	.uleb128 0xe
-	.uaword	0x32a
+	.uaword	0x31f
 	.uaword	.LLST10
 	.byte	0
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x2f1
+	.uaword	0x2e6
 	.uaword	.LBB42
 	.uaword	.LBE42
 	.byte	0x1
 	.byte	0x4f
-	.uaword	0x4c8
+	.uaword	0x4bd
 	.uleb128 0xc
-	.uaword	0x31e
+	.uaword	0x313
 	.uaword	.LLST11
 	.uleb128 0x10
 	.uaword	.LBB43
 	.uaword	.LBE43
 	.uleb128 0xe
-	.uaword	0x32a
+	.uaword	0x31f
 	.uaword	.LLST12
 	.byte	0
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x2f1
+	.uaword	0x2e6
 	.uaword	.LBB44
 	.uaword	.Ldebug_ranges0+0x18
 	.byte	0x1
 	.byte	0x68
-	.uaword	0x4f4
+	.uaword	0x4e9
 	.uleb128 0xc
-	.uaword	0x31e
+	.uaword	0x313
 	.uaword	.LLST13
 	.uleb128 0xd
 	.uaword	.Ldebug_ranges0+0x18
 	.uleb128 0xe
-	.uaword	0x32a
+	.uaword	0x31f
 	.uaword	.LLST14
 	.byte	0
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x2f1
+	.uaword	0x2e6
 	.uaword	.LBB48
 	.uaword	.LBE48
 	.byte	0x1
 	.byte	0x5e
-	.uaword	0x524
+	.uaword	0x519
 	.uleb128 0xc
-	.uaword	0x31e
+	.uaword	0x313
 	.uaword	.LLST15
 	.uleb128 0x10
 	.uaword	.LBB49
 	.uaword	.LBE49
 	.uleb128 0xe
-	.uaword	0x32a
+	.uaword	0x31f
 	.uaword	.LLST16
 	.byte	0
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x2f1
+	.uaword	0x2e6
 	.uaword	.LBB50
 	.uaword	.LBE50
 	.byte	0x1
 	.byte	0x6c
-	.uaword	0x554
+	.uaword	0x549
 	.uleb128 0xc
-	.uaword	0x31e
+	.uaword	0x313
 	.uaword	.LLST17
 	.uleb128 0x10
 	.uaword	.LBB51
 	.uaword	.LBE51
 	.uleb128 0xe
-	.uaword	0x32a
+	.uaword	0x31f
 	.uaword	.LLST18
 	.byte	0
 	.byte	0
 	.uleb128 0x11
-	.uaword	0x2f1
+	.uaword	0x2e6
 	.uaword	.LBB52
 	.uaword	.LBE52
 	.byte	0x1
 	.byte	0x53
 	.uleb128 0xc
-	.uaword	0x31e
+	.uaword	0x313
 	.uaword	.LLST19
 	.uleb128 0x10
 	.uaword	.LBB53
 	.uaword	.LBE53
 	.uleb128 0xe
-	.uaword	0x32a
+	.uaword	0x31f
 	.uaword	.LLST20
 	.byte	0
 	.byte	0
@@ -1017,151 +1017,151 @@ Ifx_LutAtan2F32_float32:
 	.byte	0x1
 	.byte	0x80
 	.byte	0x1
-	.uaword	0x272
+	.uaword	0x267
 	.uaword	.LFB167
 	.uaword	.LFE167
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x6c1
+	.uaword	0x6b6
 	.uleb128 0x9
 	.string	"y"
 	.byte	0x1
 	.byte	0x80
-	.uaword	0x272
+	.uaword	0x267
 	.uaword	.LLST21
 	.uleb128 0x9
 	.string	"x"
 	.byte	0x1
 	.byte	0x80
-	.uaword	0x272
+	.uaword	0x267
 	.uaword	.LLST22
 	.uleb128 0xa
 	.string	"angle"
 	.byte	0x1
 	.byte	0x82
-	.uaword	0x272
+	.uaword	0x267
 	.uaword	.LLST23
 	.uleb128 0xb
-	.uaword	0x337
+	.uaword	0x32c
 	.uaword	.LBB54
 	.uaword	.Ldebug_ranges0+0x30
 	.byte	0x1
 	.byte	0xb2
-	.uaword	0x5f9
+	.uaword	0x5ee
 	.uleb128 0xc
-	.uaword	0x363
+	.uaword	0x358
 	.uaword	.LLST24
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x337
+	.uaword	0x32c
 	.uaword	.LBB58
 	.uaword	.LBE58
 	.byte	0x1
 	.byte	0xae
-	.uaword	0x616
+	.uaword	0x60b
 	.uleb128 0xc
-	.uaword	0x363
+	.uaword	0x358
 	.uaword	.LLST25
 	.byte	0
 	.uleb128 0xf
-	.uaword	0x337
+	.uaword	0x32c
 	.uaword	.LBB60
 	.uaword	.LBE60
 	.byte	0x1
 	.byte	0x95
-	.uaword	0x633
+	.uaword	0x628
 	.uleb128 0xc
-	.uaword	0x363
+	.uaword	0x358
 	.uaword	.LLST26
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x337
+	.uaword	0x32c
 	.uaword	.LBB62
 	.uaword	.Ldebug_ranges0+0x48
 	.byte	0x1
 	.byte	0x8a
-	.uaword	0x650
+	.uaword	0x645
 	.uleb128 0xc
-	.uaword	0x363
+	.uaword	0x358
 	.uaword	.LLST27
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x337
+	.uaword	0x32c
 	.uaword	.LBB66
 	.uaword	.Ldebug_ranges0+0x60
 	.byte	0x1
 	.byte	0xa3
-	.uaword	0x66d
+	.uaword	0x662
 	.uleb128 0xc
-	.uaword	0x363
+	.uaword	0x358
 	.uaword	.LLST28
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x337
+	.uaword	0x32c
 	.uaword	.LBB70
 	.uaword	.Ldebug_ranges0+0x78
 	.byte	0x1
 	.byte	0x99
-	.uaword	0x68a
+	.uaword	0x67f
 	.uleb128 0xc
-	.uaword	0x363
+	.uaword	0x358
 	.uaword	.LLST29
 	.byte	0
 	.uleb128 0xb
-	.uaword	0x337
+	.uaword	0x32c
 	.uaword	.LBB74
 	.uaword	.Ldebug_ranges0+0x90
 	.byte	0x1
 	.byte	0xa7
-	.uaword	0x6a7
+	.uaword	0x69c
 	.uleb128 0xc
-	.uaword	0x363
+	.uaword	0x358
 	.uaword	.LLST30
 	.byte	0
 	.uleb128 0x12
-	.uaword	0x337
+	.uaword	0x32c
 	.uaword	.LBB78
 	.uaword	.Ldebug_ranges0+0xa8
 	.byte	0x1
 	.byte	0x8e
 	.uleb128 0xc
-	.uaword	0x363
+	.uaword	0x358
 	.uaword	.LLST31
 	.byte	0
 	.byte	0
 	.uleb128 0x13
-	.uaword	0x2be
-	.uaword	0x6d2
+	.uaword	0x2b3
+	.uaword	0x6c7
 	.uleb128 0x14
-	.uaword	0x2d6
+	.uaword	0x2cb
 	.uahalf	0x400
 	.byte	0
 	.uleb128 0x15
 	.string	"Ifx_g_LutAtan2F32_FxpAngle_table"
 	.byte	0x4
 	.byte	0x28
-	.uaword	0x6fc
+	.uaword	0x6f1
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
-	.uaword	0x6c1
+	.uaword	0x6b6
 	.uleb128 0x13
-	.uaword	0x272
-	.uaword	0x712
+	.uaword	0x267
+	.uaword	0x707
 	.uleb128 0x14
-	.uaword	0x2d6
+	.uaword	0x2cb
 	.uahalf	0x400
 	.byte	0
 	.uleb128 0x15
 	.string	"Ifx_g_LutAtan2F32_table"
 	.byte	0x4
 	.byte	0x29
-	.uaword	0x733
+	.uaword	0x728
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x16
-	.uaword	0x701
+	.uaword	0x6f6
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
@@ -1490,7 +1490,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL11
 	.uaword	.LVL15
@@ -1503,7 +1503,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL20
 	.uaword	.LVL26
@@ -1516,7 +1516,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL30
 	.uaword	.LVL33
@@ -1529,7 +1529,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL38
 	.uaword	.LVL39
@@ -1542,7 +1542,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL49
 	.uaword	.LVL53
@@ -1555,7 +1555,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL65
 	.uaword	.LFE166
@@ -1575,7 +1575,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL11
 	.uaword	.LVL12
@@ -1588,7 +1588,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL20
 	.uaword	.LVL21
@@ -1601,7 +1601,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL30
 	.uaword	.LVL32
@@ -1614,7 +1614,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL38
 	.uaword	.LVL44
@@ -1627,7 +1627,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL57
 	.uaword	.LVL61
@@ -1640,7 +1640,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL65
 	.uaword	.LVL66
@@ -1653,7 +1653,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -1703,10 +1703,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL2
@@ -1720,15 +1720,15 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
@@ -1751,20 +1751,20 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
 	.byte	0xf7
-	.uleb128 0x1db
+	.uleb128 0x1d0
 	.byte	0x22
 	.byte	0x9f
 	.uaword	0
@@ -1775,10 +1775,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL12
@@ -1792,15 +1792,15 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
@@ -1820,10 +1820,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL23
@@ -1837,16 +1837,16 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1f
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
@@ -1866,10 +1866,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL32
@@ -1885,9 +1885,9 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xe
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
@@ -1907,10 +1907,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL41
@@ -1924,16 +1924,16 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1f
 	.byte	0x1b
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
@@ -1956,21 +1956,21 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1f
 	.byte	0x1b
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
 	.byte	0xf7
-	.uleb128 0x1db
+	.uleb128 0x1d0
 	.byte	0x22
 	.byte	0x9f
 	.uaword	0
@@ -1981,10 +1981,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL50
@@ -1998,16 +1998,16 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1f
 	.byte	0x1b
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
@@ -2027,10 +2027,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL58
@@ -2044,16 +2044,16 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1f
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
@@ -2073,10 +2073,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL66
@@ -2088,15 +2088,15 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0x15
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0xf4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x4
 	.uaword	0x44800000
 	.byte	0x1e
@@ -2122,7 +2122,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL78
 	.uaword	.LVL79
@@ -2135,7 +2135,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL81
 	.uaword	.LVL82
@@ -2148,7 +2148,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL87
 	.uaword	.LVL89
@@ -2161,7 +2161,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL92
 	.uaword	.LVL98
@@ -2174,7 +2174,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL102
 	.uaword	.LVL107
@@ -2187,7 +2187,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	0
 	.uaword	0
@@ -2203,7 +2203,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL98
 	.uaword	.LVL102
@@ -2216,7 +2216,7 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x9f
 	.uaword	.LVL106
 	.uaword	.LFE167
@@ -2261,10 +2261,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL75
@@ -2276,12 +2276,12 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xc
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
@@ -2292,10 +2292,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL79
@@ -2309,10 +2309,10 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
@@ -2323,10 +2323,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL84
@@ -2340,11 +2340,11 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1f
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
@@ -2355,10 +2355,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL89
@@ -2372,10 +2372,10 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
@@ -2386,10 +2386,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL95
@@ -2401,12 +2401,12 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xd
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1f
 	.byte	0x1b
 	.byte	0x9f
@@ -2418,10 +2418,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL99
@@ -2433,12 +2433,12 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xd
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1f
 	.byte	0x1b
 	.byte	0x9f
@@ -2450,10 +2450,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL103
@@ -2467,11 +2467,11 @@ Ifx_LutAtan2F32_float32:
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1f
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
@@ -2482,10 +2482,10 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xa
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	.LVL107
@@ -2497,12 +2497,12 @@ Ifx_LutAtan2F32_float32:
 	.uahalf	0xc
 	.byte	0xf5
 	.uleb128 0x5
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0xf3
 	.uleb128 0x4
 	.byte	0xf5
 	.uleb128 0x4
-	.uleb128 0x1d2
+	.uleb128 0x1c7
 	.byte	0x1b
 	.byte	0x9f
 	.uaword	0
