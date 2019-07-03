@@ -1,5 +1,5 @@
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
-# 1 "C:\\Users\\Jimmy\\Documents\\Github\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
+# 1 "C:\\Users\\boldasl\\SEUNGHO\\Workspace\\GitHub\\testbench\\src\\Projects\\AurixRacer_SB_TC27D//"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
@@ -35475,6 +35475,7 @@ extern boolean IsInSchoolZone(void);
 extern boolean Boundary(void);
 
 extern float32 Direction(void);
+extern float32 Direction_CENTER(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h" 1
 # 24 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h"
@@ -35850,7 +35851,7 @@ void Speed2Vol(void){
 
 void SrvControl(float32 diff){
 
-           float32 result = -0.6 - diff * 0.3 / 108;
+           float32 result = -0.4 - diff / 108;
               IR_setSrvAngle(result);
 
 

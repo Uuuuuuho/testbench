@@ -263,10 +263,13 @@ float32 Direction(void){
     //return (IR_LineData.present - CENTER_INDEX);
 }
 
+float32 Direction_CENTER(void){
+    //return (IR_LineData.present - IR_LineData.previous);
+    return (IR_LineData.present - CENTER_INDEX);
+}
+
 boolean Boundary(void){
-	if(IR_LineData.present < MAX_INDEX)    		//keep servo angle
-		return FALSE;
-	else if(IR_LineData.present > MIN_INDEX)
+	if((IR_LineData.present < MAX_INDEX) && (IR_LineData.present > MIN_INDEX))
 		return FALSE;
 	else
 		return TRUE;

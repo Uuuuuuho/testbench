@@ -252,7 +252,7 @@ void Speed2Vol(void){
 
 void SrvControl(float32 diff){
 
-	        	 float32 result = -0.6 - diff * 0.3 / 108;
+	        	 float32 result = -0.4 - diff / 108;
 	        	    IR_setSrvAngle(result);
 
 

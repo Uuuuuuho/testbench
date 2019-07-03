@@ -102,7 +102,7 @@ IFX_EXTERN boolean IsInSchoolZone(void);
 IFX_EXTERN boolean Boundary(void);
 
 IFX_EXTERN float32 Direction(void);
-
+IFX_EXTERN float32 Direction_CENTER(void);
 
 
 #endif

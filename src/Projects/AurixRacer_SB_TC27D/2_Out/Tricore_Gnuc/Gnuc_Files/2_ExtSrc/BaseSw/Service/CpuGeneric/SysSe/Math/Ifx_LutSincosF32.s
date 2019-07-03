@@ -111,7 +111,7 @@ Ifx_LutSincosF32_sin:
 	.file 4 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutSincosF32.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x388
+	.uaword	0x393
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -119,7 +119,7 @@ Ifx_LutSincosF32_sin:
 	.string	"GNU C 4.9.4 build on 2018-04-18 -mlicense-dir=c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\bin\\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc161 -g -O2 -std=c99 -fno-common -fstrict-volatile-bitfields -ffunction-sections -fdata-sections"
 	.byte	0x1
 	.string	"../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Math/Ifx_LutSincosF32.c"
-	.string	"C:\\\\Users\\\\Jimmy\\\\Documents\\\\Github\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
+	.string	"C:\\\\Users\\\\boldasl\\\\SEUNGHO\\\\Workspace\\\\GitHub\\\\testbench\\\\src\\\\Projects\\\\AurixRacer_SB_TC27D"
 	.uaword	.Ldebug_ranges0+0
 	.uaword	0
 	.uaword	0
@@ -156,12 +156,12 @@ Ifx_LutSincosF32_sin:
 	.string	"sint32"
 	.byte	0x2
 	.byte	0x5c
-	.uaword	0x1c8
+	.uaword	0x1d3
 	.uleb128 0x3
 	.string	"float32"
 	.byte	0x2
 	.byte	0x5e
-	.uaword	0x250
+	.uaword	0x25b
 	.uleb128 0x2
 	.byte	0x4
 	.byte	0x4
@@ -198,7 +198,7 @@ Ifx_LutSincosF32_sin:
 	.string	"Ifx_Lut_FxpAngle"
 	.byte	0x3
 	.byte	0x40
-	.uaword	0x233
+	.uaword	0x23e
 	.uleb128 0x4
 	.byte	0x1
 	.string	"Ifx_LutSincosF32_init"
@@ -216,42 +216,42 @@ Ifx_LutSincosF32_sin:
 	.byte	0x1
 	.byte	0x2c
 	.byte	0x1
-	.uaword	0x241
+	.uaword	0x24c
 	.uaword	.LFB177
 	.uaword	.LFE177
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x353
+	.uaword	0x35e
 	.uleb128 0x6
 	.string	"fxpAngle"
 	.byte	0x1
 	.byte	0x2c
-	.uaword	0x2c1
+	.uaword	0x2cc
 	.uaword	.LLST0
 	.uleb128 0x7
 	.string	"result"
 	.byte	0x1
 	.byte	0x2e
-	.uaword	0x241
+	.uaword	0x24c
 	.uaword	.LLST1
 	.byte	0
 	.uleb128 0x8
-	.uaword	0x241
-	.uaword	0x364
+	.uaword	0x24c
+	.uaword	0x36f
 	.uleb128 0x9
-	.uaword	0x2a6
+	.uaword	0x2b1
 	.uahalf	0x400
 	.byte	0
 	.uleb128 0xa
 	.string	"Ifx_g_LutSincosF32_table"
 	.byte	0x4
 	.byte	0x2a
-	.uaword	0x386
+	.uaword	0x391
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0xb
-	.uaword	0x353
+	.uaword	0x35e
 	.byte	0
 .section .debug_abbrev,"",@progbits
 .Ldebug_abbrev0:
