@@ -28,6 +28,9 @@ LineData IR_LineData
 float32 MIN_INDEX = CENTER_INDEX - BOUNDARY;
 float32 MAX_INDEX = CENTER_INDEX + BOUNDARY;
 
+float32 MIN_INDEX_RIGHT = CENTER_INDEX_RIGHT - BOUNDARY;
+float32 MAX_INDEX_RIGHT = CENTER_INDEX_RIGHT + BOUNDARY;
+
 /******************************************************************************/
 /*-------------------------Function Prototypes--------------------------------*/
 /******************************************************************************/
@@ -46,6 +49,7 @@ void InfineonRacer_init(void){
     
     IR_LineData.School_Zone_flag = FALSE;
     IR_LineData.Direction_Determined = FALSE;
+    IR_LineData.Direction_Determined_RIGHT = FALSE;
 }
 
 void InfineonRacer_detectLane(){
@@ -216,6 +220,37 @@ void threshold_LINE(void){
     }
 }
 
+void threshold_LINE_RIGHT(void){
+    uint32 index = 0;
+    float32 threshold = THRESHOLD_RIGHT;
+    float32 MinVal = 500000;
+
+    if(!IR_LineData.Direction_Determined_RIGHT){
+    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+            if(IR_LineScan.adcBuffer[1][index] < threshold){
+                if(IR_LineScan.adcBuffer[1][index] < MinVal){
+                    IR_LineData.previous_RIGHT = index;
+                    MinVal = IR_LineScan.adcBuffer[1][index];
+                }
+            }
+        }
+    	IR_LineData.Direction_Determined_RIGHT = TRUE;
+    }
+
+    else{
+    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+            if(IR_LineScan.adcBuffer[1][index] < threshold){
+                if(IR_LineScan.adcBuffer[1][index] < MinVal){
+                    IR_LineData.present_RIGHT = index;
+                    MinVal = IR_LineScan.adcBuffer[1][index];
+                }
+            }
+        }
+    	IR_LineData.Direction_Determined_RIGHT = FALSE;
+    }
+}
+
+
 void getLineData (void){    //left linescanner only
     uint32 index = 0;
     int MaxVal = 0;
@@ -250,21 +285,21 @@ void getLineData_RIGHT (void){    //left linescanner only
     if(!IR_LineData.Direction_Determined){
     	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
             if(IR_LineData.Result[index] > MaxVal){
-                IR_LineData.previous = index;
+                IR_LineData.previous_RIGHT= index;
                 MaxVal = IR_LineData.Result[index];
             }
         }
-    	IR_LineData.Direction_Determined = TRUE;
+    	IR_LineData.Direction_Determined_RIGHT= TRUE;
     }
 
     else{
     	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
             if(IR_LineData.Result[index] > MaxVal){
-                IR_LineData.present= index;
+                IR_LineData.present_RIGHT = index;
                 MaxVal = IR_LineData.Result[index];
             }
         }
-    	IR_LineData.Direction_Determined = FALSE;
+    	IR_LineData.Direction_Determined_RIGHT= FALSE;
     }
 
 
@@ -272,28 +307,91 @@ void getLineData_RIGHT (void){    //left linescanner only
 
 boolean IsInSchoolZone_THRESHOLD(void){
     uint32 index = 0;
-    uint32 Min = IR_LineScan[0][IR_LineData.present];
-    uint32 SCHOOLZONE_DETECTION = MinVal * 2;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+    uint32 MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present];
+    uint32 half_index = LINEMAX / 2;
+    float32 SCHOOLZONE_DETECTION = MinVal * 1.5;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+    uint32 line_count = 0;
 
-    for(index = IR_LineData.present; index < LINEMAX - IGNOREIDX; index++){
-        if(IR_LineScan[0][index] < SCHOOLZONE_DETECTION){
-            IR_LineData.School_Zone_flag = TRUE;
-
+    //left lane scanner school zone check
+    
+    for(index = IGNOREIDX; index < half_index; index ++){
+        if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
+            line_count++;
         }
     }
+
+    for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+        }
+    }
+
+    MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present_RIGHT];
+    SCHOOLZONE_DETECTION = MinVal * 1.5;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+
+    for(index = IGNOREIDX; index < half_index; index ++){
+        if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+        }
+    }
+
+    for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+        }
+    }
+
+    if(line_count > 2)
+        IR_LineData.School_Zone_flag = TRUE;
+
+    else
+        IR_LineData.School_Zone_flag = FALSE;
+    
     return IR_LineData.School_Zone_flag;
 }
 
 boolean IsOutSchoolZone_THRESHOLD(void){
     uint32 index = 0;
-    uint32 Min = IR_LineScan[0][IR_LineData.present];
-    uint32 SCHOOLZONE_DETECTION = MinVal * 2;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+    uint32 MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present];
+    uint32 half_index = LINEMAX / 2;
+    float32 SCHOOLZONE_DETECTION = MinVal * 1.5;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+    uint32 line_count = 0;
 
-    for(index = IR_LineData.present; index < LINEMAX - IGNOREIDX; index++){
-        if(IR_LineScan[0][index] < SCHOOLZONE_DETECTION){
-            IR_LineData.School_Zone_flag = FALSE;
+    //left lane scanner school zone check
+    
+    for(index = IGNOREIDX; index < half_index; index ++){
+        if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
+            line_count++;
         }
     }
+
+    for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+        }
+    }
+
+    MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present_RIGHT];
+    SCHOOLZONE_DETECTION = MinVal * 1.5;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+
+    for(index = IGNOREIDX; index < half_index; index ++){
+        if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+        }
+    }
+
+    for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+        }
+    }
+
+    if(line_count > 2)
+        IR_LineData.School_Zone_flag = FALSE;
+
+    else
+        IR_LineData.School_Zone_flag = TRUE;
+    
     return IR_LineData.School_Zone_flag;
 }
 
@@ -337,6 +435,10 @@ float32 Direction_CENTER(void){
     return (IR_LineData.present - CENTER_INDEX);
 }
 
+float32 Direction_CENTER_RIGHT(void){
+    return (IR_LineData.present_RIGHT - CENTER_INDEX);
+}
+
 boolean Boundary(void){
 	if((IR_LineData.present < MAX_INDEX) && (IR_LineData.present > MIN_INDEX))
 		return FALSE;
@@ -344,8 +446,31 @@ boolean Boundary(void){
 		return TRUE;
 }
 
+
+boolean Boundary_RIGHT(void){
+	if((IR_LineData.present_RIGHT < MAX_INDEX_RIGHT) && (IR_LineData.present_RIGHT> MIN_INDEX_RIGHT))
+		return FALSE;
+	else
+		return TRUE;
+}
+
+
 boolean Over_Boundary(void){
     if(IR_LineData.present < MIN_INDEX)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+boolean isEndOfLEFT(void){
+    if(IR_LineData.present > 115)   //恙祀쪽에 아주 많이 붙은 경우
+        return TRUE;
+    else
+        return FALSE;
+}
+
+boolean Over_Boundary_RIGHT(void){
+    if(IR_LineData.present_RIGHT < MIN_INDEX_RIGHT)
         return TRUE;
     else
         return FALSE;

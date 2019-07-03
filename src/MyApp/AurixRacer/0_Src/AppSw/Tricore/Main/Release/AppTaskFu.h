@@ -15,6 +15,8 @@
 
 #endif
 
+
+//simulator mode selection
 #define ON 1
 #define OFF 0
 
@@ -23,6 +25,11 @@
 #define CONVOLUTION OFF
 #define LINE_THRESHOLD ON
 #define BUFFER OFF
+
+//macro
+#define LEFT_LANE 1
+#define RIGHT_LANE 2
+
 
 IFX_EXTERN boolean task_flag_1m;
 IFX_EXTERN boolean task_flag_10m;

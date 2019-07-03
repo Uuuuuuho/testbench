@@ -25,12 +25,14 @@
 
 #define CENTER_INDEX 40
 #define BOUNDARY 10
+#define CENTER_INDEX_RIGHT 80
 
 #define STAY 0
 #define TURN_LEFT 1
 #define TURN_RIGHT 2
 #define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
-#define THRESHOLD 1000
+#define THRESHOLD 200
+#define THRESHOLD_RIGHT 1500
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/
@@ -56,8 +58,11 @@ typedef struct{
     
     uint32 previous;
     uint32 present;
+    uint32 previous_RIGHT;
+    uint32 present_RIGHT;
     
     boolean Direction_Determined;
+    boolean Direction_Determined_RIGHT;
     boolean School_Zone_flag;
 }LineData;
 
@@ -90,6 +95,8 @@ IFX_EXTERN void convolutionOP(void);
 IFX_EXTERN void getLineData (void);
 
 IFX_EXTERN void threshold_LINE(void);
+IFX_EXTERN void threshold_LINE_RIGHT(void);
+
 IFX_EXTERN boolean is_THRESHOLD(void);
 
 
@@ -108,11 +115,18 @@ IFX_EXTERN boolean IsInSchoolZone_THRESHOLD(void);
 
 
 IFX_EXTERN boolean Boundary(void);
+IFX_EXTERN boolean isEndOfLEFT(void);
+
+IFX_EXTERN boolean Boundary_RIGHT(void);
+
 IFX_EXTERN boolean Over_Boundary(void);
+IFX_EXTERN boolean Over_Boundary_RIGHT(void);
 
 
 IFX_EXTERN float32 Direction(void);
 IFX_EXTERN float32 Direction_CENTER(void);
+IFX_EXTERN float32 Direction_CENTER_RIGHT(void);
+
 
 
 #endif

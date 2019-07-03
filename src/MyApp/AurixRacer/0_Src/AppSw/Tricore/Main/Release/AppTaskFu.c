@@ -15,7 +15,7 @@ float32 testSrv = 0;
 float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0, NextVol = 0;
 float32 signORunsign = 0;
 
-
+uint32 WHICH_LANE = LEFT_LANE;
 
 void appTaskfu_init(void){
 	BasicLineScan_init();
@@ -67,31 +67,59 @@ void appTaskfu_10ms(void)
 	task_cnt_10m++;
     //empty buffer after calculating average of speed
     Speed_Avg();
-#if BUFFER == OFF
+#if BUFFER == OFF   //10ms unit line scanning & schoolzone check
     BasicLineScan_run();
+    //LEFT lane scanner
     median_filter();
     Line_Buffer();
-#if LINE_THRESHOLD == ON
-    threshold_LINE();
 
-    if(!is_THRESHOLD())     //lane을 전혀 찾지못하는 경우
-        SrvControl(-0.1);    //turn left to detect line
-    else{
+    //RIGHT lane scanner
+    median_filter_RIGHT();
+    Line_Buffer_RIGHT();
+    
+#if LINE_THRESHOLD == ON
+    //get line data
+    threshold_LINE();
+    threshold_LINE_RIGHT();
+
+    //checking school zone
+    if(!IR_LineData.School_Zone_flag)
+        IsInSchoolZone_THRESHOLD();
+    else
+        IsOutSchoolZone_THRESHOLD();
+
+    
+    if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
+        if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary
+            if(!Over_Boundary_RIGHT()){   //when over minimum boundary
+                SrvControl(Direction_CENTER_RIGHT());    //determine wheel direction
+            }
+            else{   //when out of boundary
+                SrvControl(-0.8);    //turn left to detect line, when not able to detect on the left and right at the same time
+            }
+        }
+        
+    }
+    
+    else{   //left lane detected
         if(Boundary()){ //if present index is out of boundary
             if(!Over_Boundary()){   //when over minimum boundary
                 SrvControl(Direction_CENTER());    //determine wheel direction
             }
             else{   //when out of boundary
-                SrvControl(-0.1);    //turn left to detect line
+                if(isEndOfLEFT()){  //when car stick to left side
+                    SrvControl(-0.8);   //turn right
+                }
+                else{
+                    SrvControl(-0.1);    //turn left to detect line
+                }
             }
         }
     }
 
-
-    if(!IR_LineData.School_Zone_flag)
-        IsInSchoolZone_THRESHOLD();
-    else
-        IsOutSchoolZone_THRESHOLD();
+    clearBuffer();
+    clearBuffer_RIGHT();
+    
     
 #endif
 
@@ -308,7 +336,7 @@ void Speed2Vol(void){
 
 void SrvControl(float32 diff){
 
-    float32 result = -0.4 - diff / 108;
+    float32 result = -0.4 - (diff / 108);
     IR_setSrvAngle(result);
 
 
@@ -319,6 +347,17 @@ void AEB(void){
 }
 
 void Avoid(void){
-    IR_setSrvAngle(-1);   //first turn left, assuming second line is on the left
-    resetPSD();             //reset PSD counter
+    switch(WHICH_LANE){
+        case LEFT_LANE :    //when on the left lane
+            IR_setSrvAngle(-0.8);   //turn right, assuming second line is on the left
+            WHICH_LANE = RIGHT_LANE;    
+            break;
+        case RIGHT_LANE:    //when on the right lane
+            IR_setSrvAngle(-0.2);   //turn left
+            WHICH_LANE = LEFT_LANE;
+            break;
+    }
+            
+    
+    resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
 }

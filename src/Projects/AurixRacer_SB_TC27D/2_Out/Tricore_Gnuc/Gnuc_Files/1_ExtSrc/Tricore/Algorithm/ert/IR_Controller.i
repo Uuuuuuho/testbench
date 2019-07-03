@@ -31841,7 +31841,7 @@ void SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 26 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_private.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 1
-# 44 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 46 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
@@ -31857,8 +31857,11 @@ typedef struct{
 
     uint32 previous;
     uint32 present;
+    uint32 previous_RIGHT;
+    uint32 present_RIGHT;
 
     boolean Direction_Determined;
+    boolean Direction_Determined_RIGHT;
     boolean School_Zone_flag;
 }LineData;
 
@@ -31867,7 +31870,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 77 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 82 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -31884,6 +31887,8 @@ extern void convolutionOP(void);
 extern void getLineData (void);
 
 extern void threshold_LINE(void);
+extern void threshold_LINE_RIGHT(void);
+
 extern boolean is_THRESHOLD(void);
 
 
@@ -31902,11 +31907,17 @@ extern boolean IsInSchoolZone_THRESHOLD(void);
 
 
 extern boolean Boundary(void);
+extern boolean isEndOfLEFT(void);
+
+extern boolean Boundary_RIGHT(void);
+
 extern boolean Over_Boundary(void);
+extern boolean Over_Boundary_RIGHT(void);
 
 
 extern float32 Direction(void);
 extern float32 Direction_CENTER(void);
+extern float32 Direction_CENTER_RIGHT(void);
 # 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_private.h" 2
 # 22 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.c" 2
 
