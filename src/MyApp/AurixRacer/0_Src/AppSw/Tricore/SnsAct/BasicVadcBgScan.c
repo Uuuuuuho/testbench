@@ -165,7 +165,9 @@ boolean Checking_PSD(void){
     if(IR_AdcResult[1] > THRESHOLD_VOL) //assuming #1 channel is used only
         IR_PSD_counter.PSD_counter++;
     
-
+    if(IR_AdcResult[2] > THRESHOLD_VOL_RIGHT) //assuming #1 channel is used only
+        IR_PSD_counter.PSD_counter++;
+    
 
     return FALSE;
 }

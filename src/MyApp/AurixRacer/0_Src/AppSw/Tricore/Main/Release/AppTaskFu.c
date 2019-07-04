@@ -14,7 +14,7 @@ float32 testVol = 1;
 float32 testSrv = 0;
 float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0, NextVol = 0;
 float32 signORunsign = 0;
-boolean Obstacle_flag = FALSE;
+uint32 Obstacle_flag = FALSE;
 
 uint32 WHICH_LANE = LEFT_LANE;
 
@@ -77,22 +77,62 @@ void appTaskfu_10ms(void)
     
     if(Checking_PSD()){    //determine avoid or AEB
         Obstacle_flag = TRUE;   
-        if(!IR_LineData.School_Zone_flag){
+
+        if(!IR_LineData.School_Zone_flag){  //Out of school zone
             AEB();
         }
-        else{
-            Avoid();
-            if(IR_AdcResult[1] < THRESHOLD_VOL){ //assuming #1 channel is used only
-                if(is_THRESHOLD_RIGHT() && is_THRESHOLD()){
-                    resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
-                    Obstacle_flag = FALSE;
-                }
+        else{   //In school zone
+            switch(get_Dash()){ //dash buffer를 활용하여 determine next lane direction
+                case LEFT_LANE :
+                    WHICH_LANE = RIGHT_LANE;
+                    break;
+                case RIGHT_LANE :
+                    WHICH_LANE = LEFT_LANE;
+                    break;
             }
+            
+            Avoid();
+            
+            switch(WHICH_LANE){
+                case LEFT_LANE:
+                    if(IR_AdcResult[2] < THRESHOLD_VOL){ //right PSD can't detect anything
+                        resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
+                        Obstacle_flag = MIDDLE;
+                    }
+                    break;
+                    
+                case RIGHT_LANE:
+                    if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't detect anything
+                        resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
+                        Obstacle_flag = MIDDLE;
+                    }
+                    break;
+            }
+            
         }
     }
 
     else{
         IR_setMotor0Vol(testVol);
+    }
+
+    if(Obstacle_flag == MIDDLE){
+        switch(WHICH_LANE){
+            case LEFT_LANE:
+                if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
+                    Obstacle_flag = OFF;
+                    clear_Dash();
+                }
+                break;
+                
+            case RIGHT_LANE:
+                if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
+                    Obstacle_flag = OFF;
+                    clear_Dash();
+                }
+                break;
+        }
+
     }
 
 
@@ -120,10 +160,40 @@ void appTaskfu_10ms(void)
             IsOutSchoolZone_THRESHOLD();
     }
     
-    if(!Obstacle_flag){
-        if(!IR_LineData.School_Zone_flag){      //when out of school zone 
+    if(!IR_LineData.School_Zone_flag){      //Out of school zone 
+        if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
+            if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
+                if(!Over_Boundary_RIGHT()){   //when over minimum boundary
+                    SrvControl(Direction_CENTER_RIGHT());    //determine wheel direction
+                }
+                else{   //when out of boundary
+                    SrvControl(-0.8);    //turn left to detect line, when not able to detect on the left and right at the same time
+                }
+            }
+            
+        }
+        
+        else{   //left lane detected
+            if(Boundary()){ //if present index is out of boundary(0 ~ 40 or 60 ~ 120)
+                if(!Over_Boundary()){   //when over minimum boundary
+                    SrvControl(Direction_CENTER());    //determine wheel direction
+                }
+                else{   //when out of boundary
+                    if(isEndOfLEFT()){  //when car stick to left side
+                        SrvControl(-0.8);   //turn right
+                    }
+                    else{
+                        SrvControl(-0.1);    //turn left to detect line
+                    }
+                }
+            }
+        }
+    }
+
+    else{       //In school zone
+        if(Obstacle_flag == OFF){
             if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
-                if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary
+                if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
                     if(!Over_Boundary_RIGHT()){   //when over minimum boundary
                         SrvControl(Direction_CENTER_RIGHT());    //determine wheel direction
                     }
@@ -131,7 +201,6 @@ void appTaskfu_10ms(void)
                         SrvControl(-0.8);    //turn left to detect line, when not able to detect on the left and right at the same time
                     }
                 }
-                
             }
             
             else{   //left lane detected
@@ -151,26 +220,8 @@ void appTaskfu_10ms(void)
             }
         }
 
-        else{       //when in school zone
-            if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
-                SrvControl(-0.1);    //turn left to detect line
-            }
-            
-            else{   //left lane detected
-                if(Boundary()){ //if present index is out of boundary
-                    if(!Over_Boundary()){   //when over minimum boundary
-                        SrvControl(Direction_CENTER());    //determine wheel direction
-                    }
-                    else{   //when out of boundary
-                        if(isEndOfLEFT()){  //when car stick to left side
-                            SrvControl(-0.8);   //turn right
-                        }
-                        else{
-                            SrvControl(-0.1);    //turn left to detect line
-                        }
-                    }
-                }
-            }
+        else if(Obstacle_flag == MIDDLE){   //while changing lane
+            SrvControl(-0.4);   //straight forward
         }
     }
     clearBuffer();

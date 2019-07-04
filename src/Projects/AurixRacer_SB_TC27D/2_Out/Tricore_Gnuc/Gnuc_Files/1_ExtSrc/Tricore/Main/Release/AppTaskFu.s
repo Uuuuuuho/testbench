@@ -94,17 +94,17 @@ appTaskfu_1ms:
 	.type	appTaskfu_100ms, @function
 appTaskfu_100ms:
 .LFB727:
-	.loc 1 282 0
-	.loc 1 283 0
+	.loc 1 333 0
+	.loc 1 334 0
 	movh.a	%a15, hi:task_cnt_100m
 	ld.w	%d15, [%a15] lo:task_cnt_100m
-	.loc 1 296 0
+	.loc 1 347 0
 	mov	%d2, 1000
-	.loc 1 283 0
+	.loc 1 334 0
 	add	%d15, 1
-	.loc 1 296 0
+	.loc 1 347 0
 	jne	%d15, %d2, .L11
-	.loc 1 297 0
+	.loc 1 348 0
 	mov	%d15, 0
 .L11:
 	st.w	[%a15] lo:task_cnt_100m, %d15
@@ -117,17 +117,17 @@ appTaskfu_100ms:
 	.type	appTaskfu_1000ms, @function
 appTaskfu_1000ms:
 .LFB728:
-	.loc 1 313 0
-	.loc 1 314 0
+	.loc 1 364 0
+	.loc 1 365 0
 	movh.a	%a15, hi:task_cnt_1000m
 	ld.w	%d15, [%a15] lo:task_cnt_1000m
-	.loc 1 341 0
+	.loc 1 392 0
 	mov	%d2, 1000
-	.loc 1 314 0
+	.loc 1 365 0
 	add	%d15, 1
-	.loc 1 341 0
+	.loc 1 392 0
 	jne	%d15, %d2, .L15
-	.loc 1 342 0
+	.loc 1 393 0
 	mov	%d15, 0
 .L15:
 	st.w	[%a15] lo:task_cnt_1000m, %d15
@@ -140,11 +140,11 @@ appTaskfu_1000ms:
 	.type	appTaskfu_idle, @function
 appTaskfu_idle:
 .LFB729:
-	.loc 1 353 0
-	.loc 1 354 0
+	.loc 1 404 0
+	.loc 1 405 0
 	call	AsclinShellInterface_run
 .LVL14:
-	.loc 1 360 0
+	.loc 1 411 0
 	j	BasicGpt12Enc_IR_Encoder_turn
 .LVL15:
 .LFE729:
@@ -155,7 +155,7 @@ appTaskfu_idle:
 	.type	appIsrCb_1ms, @function
 appIsrCb_1ms:
 .LFB730:
-	.loc 1 364 0
+	.loc 1 415 0
 	ret
 .LFE730:
 	.size	appIsrCb_1ms, .-appIsrCb_1ms
@@ -165,17 +165,17 @@ appIsrCb_1ms:
 	.type	PID, @function
 PID:
 .LFB731:
-	.loc 1 369 0
-	.loc 1 370 0
+	.loc 1 420 0
+	.loc 1 421 0
 	movh.a	%a15, hi:IR_Encoder
 	ld.w	%d15, [%a15] lo:IR_Encoder
-	.loc 1 371 0
+	.loc 1 422 0
 	movh.a	%a15, hi:Target_speeed
 	ld.w	%d2, [%a15] lo:Target_speeed
 	movh.a	%a15, hi:error
 	sub.f	%d2, %d2, %d15
 	st.w	[%a15] lo:error, %d2
-	.loc 1 372 0
+	.loc 1 423 0
 	movh.a	%a15, hi:Kp
 	ld.w	%d3, [%a15] lo:Kp
 	movh.a	%a15, hi:Current_Speed
@@ -191,7 +191,7 @@ PID:
 	.type	Speed2Vol, @function
 Speed2Vol:
 .LFB732:
-	.loc 1 375 0
+	.loc 1 426 0
 	ret
 .LFE732:
 	.size	Speed2Vol, .-Speed2Vol
@@ -204,9 +204,9 @@ Speed2Vol:
 	.type	SrvControl, @function
 SrvControl:
 .LFB733:
-	.loc 1 380 0
+	.loc 1 431 0
 .LVL16:
-	.loc 1 382 0
+	.loc 1 433 0
 	movh	%d15, 17112
 	div.f	%d4, %d4, %d15
 .LVL17:
@@ -222,7 +222,7 @@ SrvControl:
 	mov	%e4, %d3, %d2
 	call	__truncdfsf2
 .LVL20:
-	.loc 1 383 0
+	.loc 1 434 0
 	mov	%d4, %d2
 	j	IR_setSrvAngle
 .LVL21:
@@ -234,8 +234,8 @@ SrvControl:
 	.type	AEB, @function
 AEB:
 .LFB734:
-	.loc 1 388 0
-	.loc 1 389 0
+	.loc 1 439 0
+	.loc 1 440 0
 	movh	%d4, 49024
 	j	IR_setMotor0Vol
 .LVL22:
@@ -247,13 +247,13 @@ AEB:
 	.type	Avoid, @function
 Avoid:
 .LFB735:
-	.loc 1 392 0
-	.loc 1 393 0
+	.loc 1 443 0
+	.loc 1 444 0
 	movh.a	%a15, hi:WHICH_LANE
 	ld.w	%d15, [%a15] lo:WHICH_LANE
 	jeq	%d15, 1, .L24
 	jne	%d15, 2, .L27
-	.loc 1 398 0
+	.loc 1 449 0
 	movh	%d4, 48717
 	addi	%d4, %d4, -13107
 	j	IR_setSrvAngle
@@ -261,7 +261,7 @@ Avoid:
 .L27:
 	ret
 .L24:
-	.loc 1 395 0
+	.loc 1 446 0
 	movh	%d4, 49024
 	j	IR_setSrvAngle
 .LVL24:
@@ -290,248 +290,327 @@ appTaskfu_10ms:
 .LVL27:
 	jz	%d2, .L29
 	.loc 1 79 0
-	mov	%d15, 1
-	.loc 1 80 0
-	movh.a	%a2, hi:IR_LineData
+	mov	%d8, 1
+	.loc 1 81 0
+	movh.a	%a13, hi:IR_LineData
+	lea	%a13, [%a13] lo:IR_LineData
 	.loc 1 79 0
 	movh.a	%a12, hi:Obstacle_flag
-	.loc 1 80 0
-	lea	%a2, [%a2] lo:IR_LineData
+	.loc 1 81 0
+	ld.bu	%d15, [%a13] 574
 	.loc 1 79 0
-	st.b	[%a12] lo:Obstacle_flag, %d15
-	.loc 1 80 0
-	ld.bu	%d15, [%a2] 574
-	jz	%d15, .L73
-	.loc 1 84 0
-	call	Avoid
+	st.w	[%a12] lo:Obstacle_flag, %d8
+	.loc 1 81 0
+	jnz	%d15, .L30
+.LBB27:
+.LBB28:
+	.loc 1 440 0
+	movh	%d4, 49024
+	call	IR_setMotor0Vol
 .LVL28:
-	.loc 1 85 0
-	movh.a	%a2, hi:IR_AdcResult
-	lea	%a2, [%a2] lo:IR_AdcResult
-	ld.w	%d15, [%a2] 4
-	movh	%d2, 16000
-	cmp.f	%d15, %d15, %d2
-	jnz.t	%d15, 0, .L74
 .L31:
-	.loc 1 101 0
+.LBE28:
+.LBE27:
+	.loc 1 119 0
+	ld.w	%d15, [%a12] lo:Obstacle_flag
+	jeq	%d15, 3, .L102
+.L42:
+	.loc 1 141 0
 	call	BasicLineScan_run
 .LVL29:
-	.loc 1 103 0
+	.loc 1 143 0
 	call	median_filter
 .LVL30:
-	.loc 1 104 0
+	.loc 1 144 0
 	call	Line_Buffer
 .LVL31:
-	.loc 1 107 0
+	.loc 1 147 0
 	call	median_filter_RIGHT
 .LVL32:
-	.loc 1 108 0
+	.loc 1 148 0
 	call	Line_Buffer_RIGHT
 .LVL33:
-	.loc 1 112 0
+	.loc 1 152 0
 	call	threshold_LINE
 .LVL34:
-	.loc 1 113 0
+	.loc 1 153 0
 	call	threshold_LINE_RIGHT
 .LVL35:
-	.loc 1 116 0
+	.loc 1 156 0
 	ld.w	%d15, [%a15] lo:task_cnt_10m
 	mov	%d2, 50
 	div	%e2, %d15, %d2
-	jnz	%d3, .L34
-	.loc 1 117 0
-	movh.a	%a2, hi:IR_LineData
-	lea	%a2, [%a2] lo:IR_LineData
-	ld.bu	%d15, [%a2] 574
-	jnz	%d15, .L35
-	.loc 1 118 0
+	jnz	%d3, .L48
+	.loc 1 157 0
+	ld.bu	%d15, [%a13] 574
+	jnz	%d15, .L49
+	.loc 1 158 0
 	call	IsInSchoolZone_THRESHOLD
 .LVL36:
-.L34:
-	.loc 1 123 0
-	ld.bu	%d15, [%a12] lo:Obstacle_flag
-	jnz	%d15, .L37
-	.loc 1 124 0
-	movh.a	%a2, hi:IR_LineData
-	lea	%a2, [%a2] lo:IR_LineData
-	ld.bu	%d15, [%a2] 574
-	jnz	%d15, .L38
-	.loc 1 125 0
-	call	is_THRESHOLD
-.LVL37:
-	jnz	%d2, .L72
-	.loc 1 126 0
-	call	Boundary_RIGHT
-.LVL38:
-	jnz	%d2, .L75
-.L37:
-	.loc 1 176 0
+.L48:
+	.loc 1 163 0
+	ld.bu	%d15, [%a13] 574
+	jz	%d15, .L100
+	.loc 1 194 0
+	ld.w	%d15, [%a12] lo:Obstacle_flag
+	jz	%d15, .L100
+	.loc 1 223 0
+	jeq	%d15, 3, .L103
+.L53:
+	.loc 1 227 0
 	call	clearBuffer
-.LVL39:
-	.loc 1 177 0
+.LVL37:
+	.loc 1 228 0
 	call	clearBuffer_RIGHT
-.LVL40:
-	.loc 1 257 0
+.LVL38:
+	.loc 1 308 0
 	ld.w	%d15, [%a15] lo:task_cnt_10m
 	mov	%d2, 1000
-	jeq	%d15, %d2, .L76
-	.loc 1 261 0
-	jz.t	%d15, 0, .L46
+	jeq	%d15, %d2, .L104
+	.loc 1 312 0
+	jz.t	%d15, 0, .L62
 	ret
-.L73:
-.LBB23:
-.LBB24:
-	.loc 1 389 0
-	movh	%d4, 49024
-	call	IR_setMotor0Vol
-.LVL41:
-	j	.L31
-.L38:
-.LBE24:
-.LBE23:
-	.loc 1 155 0
-	call	is_THRESHOLD
-.LVL42:
-	jz	%d2, .L43
-.L72:
-	.loc 1 160 0
-	call	Boundary
-.LVL43:
-	jz	%d2, .L37
-	.loc 1 161 0
-	call	Over_Boundary
-.LVL44:
-	jz	%d2, .L77
-	.loc 1 165 0
-	call	isEndOfLEFT
-.LVL45:
-	jz	%d2, .L43
-.L41:
-.LVL46:
-.LBB25:
-.LBB26:
-	.loc 1 383 0
-	movh	%d4, 48841
-	addi	%d4, %d4, 485
-	call	IR_setSrvAngle
-.LVL47:
-	j	.L37
-.LVL48:
-.L76:
-.LBE26:
-.LBE25:
-	.loc 1 258 0
-	mov	%d15, 0
-	movh.a	%a15, hi:task_cnt_10m
-	st.w	[%a15] lo:task_cnt_10m, %d15
-.L46:
-.LBB27:
-	.loc 1 267 0
-	movh.a	%a15, hi:IR_Ctrl
-	lea	%a15, [%a15] lo:IR_Ctrl
-	.loc 1 263 0
-	call	BasicGtmTom_run
-.LVL49:
-	.loc 1 264 0
-	call	BasicPort_run
-.LVL50:
-	.loc 1 267 0
-	ld.bu	%d15, [%a15] 8
-	jz	%d15, .L78
-	.loc 1 276 0
-	j	AsclinShellInterface_runEncScan
-.LVL51:
-.L29:
-.LBE27:
-	.loc 1 95 0
-	movh.a	%a2, hi:testVol
-	ld.w	%d4, [%a2] lo:testVol
-	movh.a	%a12, hi:Obstacle_flag
-	call	IR_setMotor0Vol
-.LVL52:
-	j	.L31
-.L35:
-	.loc 1 120 0
-	call	IsOutSchoolZone_THRESHOLD
-.LVL53:
-	j	.L34
-.L43:
-.LVL54:
-.LBB28:
-.LBB29:
-	.loc 1 383 0
-	movh	%d4, 48844
-	addi	%d4, %d4, 21360
-	call	IR_setSrvAngle
-.LVL55:
-	j	.L37
-.LVL56:
-.L78:
-.LBE29:
-.LBE28:
-.LBB30:
-	.loc 1 269 0
-	call	InfineonRacer_control
-.LVL57:
-	.loc 1 276 0
-	j	AsclinShellInterface_runEncScan
-.LVL58:
-.L74:
-.LBE30:
-	.loc 1 86 0
-	call	is_THRESHOLD_RIGHT
-.LVL59:
-	jz	%d2, .L31
-	.loc 1 86 0 is_stmt 0 discriminator 1
-	call	is_THRESHOLD
-.LVL60:
-	jz	%d2, .L31
-	.loc 1 88 0 is_stmt 1
-	mov	%d15, 0
+.L30:
+	.loc 1 85 0
+	call	get_Dash
+.LVL39:
 	.loc 1 87 0
-	call	resetPSD
-.LVL61:
-	.loc 1 88 0
-	st.b	[%a12] lo:Obstacle_flag, %d15
-	j	.L31
-.L75:
-	.loc 1 127 0
+	movh.a	%a14, hi:WHICH_LANE
+	.loc 1 85 0
+	jeq	%d2, 1, .L33
+	jeq	%d2, 2, .L34
+.L32:
+	.loc 1 94 0
+	call	Avoid
+.LVL40:
+	.loc 1 96 0
+	ld.w	%d15, [%a14] lo:WHICH_LANE
+	jeq	%d15, 1, .L35
+.L107:
+	jne	%d15, 2, .L31
+	.loc 1 105 0
+	movh.a	%a2, hi:IR_AdcResult
+	lea	%a2, [%a2] lo:IR_AdcResult
+	ld.w	%d2, [%a2] 4
+	movh	%d15, 16000
+	cmp.f	%d15, %d2, %d15
+	jnz.t	%d15, 0, .L40
+	.loc 1 119 0
+	ld.w	%d15, [%a12] lo:Obstacle_flag
+	jne	%d15, 3, .L42
+	j	.L44
+.L100:
+	.loc 1 195 0
+	call	is_THRESHOLD
+.LVL41:
+	jnz	%d2, .L58
+	.loc 1 196 0
+	call	Boundary_RIGHT
+.LVL42:
+	jz	%d2, .L53
+	.loc 1 197 0
 	call	Over_Boundary_RIGHT
-.LVL62:
-	jnz	%d2, .L41
-	.loc 1 128 0
+.LVL43:
+	jnz	%d2, .L54
+	.loc 1 198 0
 	call	Direction_CENTER_RIGHT
-.LVL63:
-.L68:
-.LBB31:
-.LBB32:
-	.loc 1 382 0
+.LVL44:
+.L89:
+.LBB29:
+.LBB30:
+	.loc 1 433 0
 	movh	%d4, 17112
 	div.f	%d4, %d2, %d4
 	call	__extendsfdf2
-.LVL64:
+.LVL45:
 	mov	%e6, %d3, %d2
 	movh	%d5, 49114
 	movh	%d4, 39322
 	addi	%d5, %d5, -26215
 	addi	%d4, %d4, -26214
 	call	__subdf3
-.LVL65:
+.LVL46:
 	mov	%e4, %d3, %d2
 	call	__truncdfsf2
-.LVL66:
-	.loc 1 383 0
+.LVL47:
+	.loc 1 434 0
 	mov	%d4, %d2
 	call	IR_setSrvAngle
-.LVL67:
-	j	.L37
-.L77:
-.LBE32:
+.LVL48:
+	j	.L53
+.L104:
+.LBE30:
+.LBE29:
+	.loc 1 309 0
+	mov	%d15, 0
+	movh.a	%a15, hi:task_cnt_10m
+	st.w	[%a15] lo:task_cnt_10m, %d15
+.L62:
+.LBB31:
+	.loc 1 318 0
+	movh.a	%a15, hi:IR_Ctrl
+	lea	%a15, [%a15] lo:IR_Ctrl
+	.loc 1 314 0
+	call	BasicGtmTom_run
+.LVL49:
+	.loc 1 315 0
+	call	BasicPort_run
+.LVL50:
+	.loc 1 318 0
+	ld.bu	%d15, [%a15] 8
+	jz	%d15, .L105
+	.loc 1 327 0
+	j	AsclinShellInterface_runEncScan
+.LVL51:
+.L29:
 .LBE31:
-	.loc 1 162 0
-	call	Direction_CENTER
+	.loc 1 116 0
+	movh.a	%a2, hi:testVol
+	ld.w	%d4, [%a2] lo:testVol
+	movh.a	%a12, hi:Obstacle_flag
+	call	IR_setMotor0Vol
+.LVL52:
+	.loc 1 119 0
+	ld.w	%d15, [%a12] lo:Obstacle_flag
+	movh.a	%a13, hi:IR_LineData
+	lea	%a13, [%a13] lo:IR_LineData
+	jne	%d15, 3, .L42
+.L102:
+	movh.a	%a14, hi:WHICH_LANE
+.L39:
+	.loc 1 120 0
+	ld.w	%d15, [%a14] lo:WHICH_LANE
+	movh.a	%a2, hi:IR_AdcResult
+	lea	%a2, [%a2] lo:IR_AdcResult
+	jeq	%d15, 1, .L43
+	movh.a	%a2, hi:IR_AdcResult
+	lea	%a2, [%a2] lo:IR_AdcResult
+	jne	%d15, 2, .L42
+.L44:
+	.loc 1 129 0
+	ld.w	%d15, [%a2] 8
+	movh	%d2, 16000
+	cmp.f	%d15, %d15, %d2
+	jz.t	%d15, 0, .L42
+.L47:
+	.loc 1 123 0
+	mov	%d15, 0
+	st.w	[%a12] lo:Obstacle_flag, %d15
+	.loc 1 124 0
+	call	clear_Dash
+.LVL53:
+	j	.L42
+.L49:
+	.loc 1 160 0
+	call	IsOutSchoolZone_THRESHOLD
+.LVL54:
+	j	.L48
+.L58:
+	.loc 1 207 0
+	call	Boundary
+.LVL55:
+	jz	%d2, .L53
+	.loc 1 208 0
+	call	Over_Boundary
+.LVL56:
+	jz	%d2, .L106
+	.loc 1 212 0
+	call	isEndOfLEFT
+.LVL57:
+	jnz	%d2, .L54
+.LVL58:
+.LBB32:
+.LBB33:
+	.loc 1 434 0
+	movh	%d4, 48844
+	addi	%d4, %d4, 21360
+	call	IR_setSrvAngle
+.LVL59:
+	j	.L53
+.LVL60:
+.L34:
+.LBE33:
+.LBE32:
+	.loc 1 90 0
+	st.w	[%a14] lo:WHICH_LANE, %d8
+	.loc 1 94 0
+	call	Avoid
+.LVL61:
+	.loc 1 96 0
+	ld.w	%d15, [%a14] lo:WHICH_LANE
+	jne	%d15, 1, .L107
+.L35:
+	.loc 1 98 0
+	movh.a	%a2, hi:IR_AdcResult
+	lea	%a2, [%a2] lo:IR_AdcResult
+	ld.w	%d2, [%a2] 8
+	movh	%d15, 16000
+	cmp.f	%d15, %d2, %d15
+	jnz.t	%d15, 0, .L40
+	.loc 1 119 0
+	ld.w	%d15, [%a12] lo:Obstacle_flag
+	jne	%d15, 3, .L42
+.L43:
+	.loc 1 122 0
+	ld.w	%d15, [%a2] 4
+	movh	%d2, 16000
+	cmp.f	%d15, %d15, %d2
+	jz.t	%d15, 0, .L42
+	j	.L47
+.L105:
+.LBB34:
+	.loc 1 320 0
+	call	InfineonRacer_control
+.LVL62:
+	.loc 1 327 0
+	j	AsclinShellInterface_runEncScan
+.LVL63:
+.L54:
+.LBE34:
+.LBB35:
+.LBB36:
+	.loc 1 434 0
+	movh	%d4, 48841
+	addi	%d4, %d4, 485
+	call	IR_setSrvAngle
+.LVL64:
+	j	.L53
+.LVL65:
+.L33:
+.LBE36:
+.LBE35:
+	.loc 1 87 0
+	mov	%d15, 2
+	st.w	[%a14] lo:WHICH_LANE, %d15
+	.loc 1 88 0
+	j	.L32
+.L103:
+.LVL66:
+.LBB37:
+.LBB38:
+	.loc 1 434 0
+	movh	%d4, 48843
+	addi	%d4, %d4, -6311
+	call	IR_setSrvAngle
+.LVL67:
+	j	.L53
 .LVL68:
-	j	.L68
+.L40:
+.LBE38:
+.LBE37:
+	.loc 1 100 0
+	mov	%d15, 3
+	.loc 1 99 0
+	call	resetPSD
+.LVL69:
+	.loc 1 100 0
+	st.w	[%a12] lo:Obstacle_flag, %d15
+	j	.L39
+.L106:
+	.loc 1 209 0
+	call	Direction_CENTER
+.LVL70:
+	j	.L89
 .LFE726:
 	.size	appTaskfu_10ms, .-appTaskfu_10ms
 	.global	WHICH_LANE
@@ -543,10 +622,11 @@ WHICH_LANE:
 	.word	1
 	.global	Obstacle_flag
 .section .bss.Obstacle_flag,"aw",@nobits
+	.align 2
 	.type	Obstacle_flag, @object
-	.size	Obstacle_flag, 1
+	.size	Obstacle_flag, 4
 Obstacle_flag:
-	.zero	1
+	.zero	4
 	.global	signORunsign
 .section .bss.signORunsign,"aw",@nobits
 	.align 2
@@ -781,7 +861,7 @@ task_cnt_1m:
 	.file 16 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x16f4
+	.uaword	0x176e
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -1368,121 +1448,139 @@ task_cnt_1m:
 	.uleb128 0x7
 	.byte	0xc
 	.byte	0xa
-	.byte	0x2e
+	.byte	0x32
 	.uaword	0xa1d
 	.uleb128 0x8
 	.string	"Ls0Margin"
 	.byte	0xa
-	.byte	0x2f
+	.byte	0x33
 	.uaword	0x243
 	.byte	0
 	.uleb128 0x8
 	.string	"Ls1Margin"
 	.byte	0xa
-	.byte	0x30
+	.byte	0x34
 	.uaword	0x243
 	.byte	0x4
 	.uleb128 0x8
 	.string	"basicTest"
 	.byte	0xa
-	.byte	0x31
+	.byte	0x35
 	.uaword	0x26e
 	.byte	0x8
 	.byte	0
 	.uleb128 0x3
 	.string	"InfineonRacer_t"
 	.byte	0xa
-	.byte	0x32
+	.byte	0x36
 	.uaword	0x9de
 	.uleb128 0x10
-	.uahalf	0x240
+	.uahalf	0x24c
 	.byte	0xa
-	.byte	0x34
-	.uaword	0xb2b
+	.byte	0x38
+	.uaword	0xb65
 	.uleb128 0x8
 	.string	"Result"
 	.byte	0xa
-	.byte	0x35
-	.uaword	0xb2b
+	.byte	0x39
+	.uaword	0xb65
 	.byte	0
 	.uleb128 0x11
 	.string	"Transfer"
 	.byte	0xa
-	.byte	0x36
-	.uaword	0xb3b
+	.byte	0x3a
+	.uaword	0xb75
 	.uahalf	0x208
 	.uleb128 0x11
 	.string	"sample"
 	.byte	0xa
-	.byte	0x38
-	.uaword	0xb4b
+	.byte	0x3c
+	.uaword	0xb85
 	.uahalf	0x214
 	.uleb128 0x11
 	.string	"temp"
 	.byte	0xa
-	.byte	0x39
+	.byte	0x3d
 	.uaword	0x25f
 	.uahalf	0x228
 	.uleb128 0x11
 	.string	"previous"
 	.byte	0xa
-	.byte	0x3b
+	.byte	0x3f
 	.uaword	0x251
 	.uahalf	0x22c
 	.uleb128 0x11
 	.string	"present"
 	.byte	0xa
-	.byte	0x3c
+	.byte	0x40
 	.uaword	0x251
 	.uahalf	0x230
 	.uleb128 0x11
 	.string	"previous_RIGHT"
 	.byte	0xa
-	.byte	0x3d
+	.byte	0x41
 	.uaword	0x251
 	.uahalf	0x234
 	.uleb128 0x11
 	.string	"present_RIGHT"
 	.byte	0xa
-	.byte	0x3e
+	.byte	0x42
 	.uaword	0x251
 	.uahalf	0x238
 	.uleb128 0x11
 	.string	"Direction_Determined"
 	.byte	0xa
-	.byte	0x40
+	.byte	0x44
 	.uaword	0x26e
 	.uahalf	0x23c
 	.uleb128 0x11
 	.string	"Direction_Determined_RIGHT"
 	.byte	0xa
-	.byte	0x41
+	.byte	0x45
 	.uaword	0x26e
 	.uahalf	0x23d
 	.uleb128 0x11
 	.string	"School_Zone_flag"
 	.byte	0xa
-	.byte	0x42
+	.byte	0x46
 	.uaword	0x26e
 	.uahalf	0x23e
+	.uleb128 0x11
+	.string	"Dash_Left"
+	.byte	0xa
+	.byte	0x48
+	.uaword	0x251
+	.uahalf	0x240
+	.uleb128 0x11
+	.string	"Dash_Right"
+	.byte	0xa
+	.byte	0x49
+	.uaword	0x251
+	.uahalf	0x244
+	.uleb128 0x11
+	.string	"Next_Lane"
+	.byte	0xa
+	.byte	0x4a
+	.uaword	0x251
+	.uahalf	0x248
 	.byte	0
 	.uleb128 0x12
 	.uaword	0x1eb
-	.uaword	0xb3b
+	.uaword	0xb75
 	.uleb128 0x13
 	.uaword	0x33c
 	.byte	0x81
 	.byte	0
 	.uleb128 0x12
 	.uaword	0x1eb
-	.uaword	0xb4b
+	.uaword	0xb85
 	.uleb128 0x13
 	.uaword	0x33c
 	.byte	0x2
 	.byte	0
 	.uleb128 0x12
 	.uaword	0x251
-	.uaword	0xb5b
+	.uaword	0xb95
 	.uleb128 0x13
 	.uaword	0x33c
 	.byte	0x4
@@ -1490,32 +1588,32 @@ task_cnt_1m:
 	.uleb128 0x3
 	.string	"LineData"
 	.byte	0xa
-	.byte	0x43
+	.byte	0x4b
 	.uaword	0xa34
 	.uleb128 0x14
 	.byte	0x1
 	.string	"AEB"
 	.byte	0x1
-	.uahalf	0x184
+	.uahalf	0x1b7
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x15
 	.byte	0x1
 	.string	"SrvControl"
 	.byte	0x1
-	.uahalf	0x17c
+	.uahalf	0x1af
 	.byte	0x1
 	.byte	0x1
-	.uaword	0xba9
+	.uaword	0xbe3
 	.uleb128 0x16
 	.string	"diff"
 	.byte	0x1
-	.uahalf	0x17c
+	.uahalf	0x1af
 	.uaword	0x25f
 	.uleb128 0x17
 	.string	"result"
 	.byte	0x1
-	.uahalf	0x17e
+	.uahalf	0x1b1
 	.uaword	0x25f
 	.byte	0
 	.uleb128 0x18
@@ -1529,29 +1627,29 @@ task_cnt_1m:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xc0d
+	.uaword	0xc47
 	.uleb128 0x19
 	.uaword	.LVL0
-	.uaword	0x12c9
+	.uaword	0x133c
 	.uleb128 0x19
 	.uaword	.LVL1
-	.uaword	0x12e2
+	.uaword	0x1355
 	.uleb128 0x19
 	.uaword	.LVL2
-	.uaword	0x12f7
+	.uaword	0x136a
 	.uleb128 0x19
 	.uaword	.LVL3
-	.uaword	0x130e
+	.uaword	0x1381
 	.uleb128 0x19
 	.uaword	.LVL4
-	.uaword	0x1329
+	.uaword	0x139c
 	.uleb128 0x19
 	.uaword	.LVL5
-	.uaword	0x1342
+	.uaword	0x13b5
 	.uleb128 0x1a
 	.uaword	.LVL6
 	.byte	0x1
-	.uaword	0x1362
+	.uaword	0x13d5
 	.byte	0
 	.uleb128 0x18
 	.byte	0x1
@@ -1564,7 +1662,7 @@ task_cnt_1m:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xc84
+	.uaword	0xcbe
 	.uleb128 0x1b
 	.byte	0x1
 	.uaword	.LASF0
@@ -1572,38 +1670,38 @@ task_cnt_1m:
 	.byte	0x3c
 	.uaword	0x1eb
 	.byte	0x1
-	.uaword	0xc42
+	.uaword	0xc7c
 	.uleb128 0x1c
 	.byte	0
 	.uleb128 0x19
 	.uaword	.LVL7
-	.uaword	0x137b
+	.uaword	0x13ee
 	.uleb128 0x19
 	.uaword	.LVL8
-	.uaword	0x1393
+	.uaword	0x1406
 	.uleb128 0x1a
 	.uaword	.LVL9
 	.byte	0x1
-	.uaword	0x13aa
+	.uaword	0x141d
 	.uleb128 0x19
 	.uaword	.LVL10
-	.uaword	0x13bd
+	.uaword	0x1430
 	.uleb128 0x19
 	.uaword	.LVL11
-	.uaword	0x137b
+	.uaword	0x13ee
 	.uleb128 0x19
 	.uaword	.LVL12
-	.uaword	0x1393
+	.uaword	0x1406
 	.uleb128 0x1a
 	.uaword	.LVL13
 	.byte	0x1
-	.uaword	0x13aa
+	.uaword	0x141d
 	.byte	0
 	.uleb128 0x1d
 	.byte	0x1
 	.string	"appTaskfu_100ms"
 	.byte	0x1
-	.uahalf	0x119
+	.uahalf	0x14c
 	.byte	0x1
 	.uaword	.LFB727
 	.uaword	.LFE727
@@ -1614,7 +1712,7 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"appTaskfu_1000ms"
 	.byte	0x1
-	.uahalf	0x138
+	.uahalf	0x16b
 	.byte	0x1
 	.uaword	.LFB728
 	.uaword	.LFE728
@@ -1625,37 +1723,37 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"appTaskfu_idle"
 	.byte	0x1
-	.uahalf	0x161
+	.uahalf	0x194
 	.byte	0x1
 	.uaword	.LFB729
 	.uaword	.LFE729
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xd13
+	.uaword	0xd4d
 	.uleb128 0x1f
 	.byte	0x1
 	.uaword	.LASF1
 	.byte	0x1
-	.uahalf	0x168
+	.uahalf	0x19b
 	.uaword	0x1eb
 	.byte	0x1
-	.uaword	0xcff
+	.uaword	0xd39
 	.uleb128 0x1c
 	.byte	0
 	.uleb128 0x19
 	.uaword	.LVL14
-	.uaword	0x13e2
+	.uaword	0x1455
 	.uleb128 0x1a
 	.uaword	.LVL15
 	.byte	0x1
-	.uaword	0x1401
+	.uaword	0x1474
 	.byte	0
 	.uleb128 0x1d
 	.byte	0x1
 	.string	"appIsrCb_1ms"
 	.byte	0x1
-	.uahalf	0x16c
+	.uahalf	0x19f
 	.byte	0x1
 	.uaword	.LFB730
 	.uaword	.LFE730
@@ -1666,7 +1764,7 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"PID"
 	.byte	0x1
-	.uahalf	0x171
+	.uahalf	0x1a4
 	.byte	0x1
 	.uaword	.LFB731
 	.uaword	.LFE731
@@ -1677,7 +1775,7 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"Speed2Vol"
 	.byte	0x1
-	.uahalf	0x177
+	.uahalf	0x1aa
 	.byte	0x1
 	.uaword	.LFB732
 	.uaword	.LFE732
@@ -1685,36 +1783,36 @@ task_cnt_1m:
 	.byte	0x9c
 	.byte	0x1
 	.uleb128 0x20
-	.uaword	0xb76
+	.uaword	0xbb0
 	.uaword	.LFB733
 	.uaword	.LFE733
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xd92
+	.uaword	0xdcc
 	.uleb128 0x21
-	.uaword	0xb8c
+	.uaword	0xbc6
 	.uaword	.LLST0
 	.uleb128 0x22
-	.uaword	0xb99
+	.uaword	0xbd3
 	.uaword	.LLST1
 	.uleb128 0x1a
 	.uaword	.LVL21
 	.byte	0x1
-	.uaword	0x1415
+	.uaword	0x1488
 	.byte	0
 	.uleb128 0x23
-	.uaword	0xb6b
+	.uaword	0xba5
 	.uaword	.LFB734
 	.uaword	.LFE734
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xdbe
+	.uaword	0xdf8
 	.uleb128 0x24
 	.uaword	.LVL22
 	.byte	0x1
-	.uaword	0x1434
+	.uaword	0x14a7
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x54
@@ -1729,22 +1827,22 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"Avoid"
 	.byte	0x1
-	.uahalf	0x188
+	.uahalf	0x1bb
 	.byte	0x1
 	.uaword	.LFB735
 	.uaword	.LFE735
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0xdfb
+	.uaword	0xe35
 	.uleb128 0x1a
 	.uaword	.LVL23
 	.byte	0x1
-	.uaword	0x1415
+	.uaword	0x1488
 	.uleb128 0x24
 	.uaword	.LVL24
 	.byte	0x1
-	.uaword	0x1415
+	.uaword	0x1488
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x54
@@ -1766,17 +1864,17 @@ task_cnt_1m:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x103d
+	.uaword	0x10b0
 	.uleb128 0x27
-	.uaword	0xb6b
-	.uaword	.LBB23
-	.uaword	.LBE23
+	.uaword	0xba5
+	.uaword	.LBB27
+	.uaword	.LBE27
 	.byte	0x1
-	.byte	0x51
-	.uaword	0xe48
+	.byte	0x52
+	.uaword	0xe82
 	.uleb128 0x28
-	.uaword	.LVL41
-	.uaword	0x1434
+	.uaword	.LVL28
+	.uaword	0x14a7
 	.uleb128 0x25
 	.byte	0x1
 	.byte	0x54
@@ -1788,183 +1886,204 @@ task_cnt_1m:
 	.byte	0
 	.byte	0
 	.uleb128 0x27
-	.uaword	0xb76
-	.uaword	.LBB25
-	.uaword	.LBE25
+	.uaword	0xbb0
+	.uaword	.LBB29
+	.uaword	.LBE29
 	.byte	0x1
-	.byte	0x83
-	.uaword	0xe81
+	.byte	0xd1
+	.uaword	0xebb
 	.uleb128 0x21
-	.uaword	0xb8c
+	.uaword	0xbc6
 	.uaword	.LLST2
 	.uleb128 0x29
-	.uaword	.LBB26
-	.uaword	.LBE26
+	.uaword	.LBB30
+	.uaword	.LBE30
 	.uleb128 0x22
-	.uaword	0xb99
+	.uaword	0xbd3
 	.uaword	.LLST3
 	.uleb128 0x19
-	.uaword	.LVL47
-	.uaword	0x1415
+	.uaword	.LVL48
+	.uaword	0x1488
 	.byte	0
 	.byte	0
 	.uleb128 0x2a
 	.uaword	.Ldebug_ranges0+0
-	.uaword	0xece
+	.uaword	0xf08
 	.uleb128 0x1f
 	.byte	0x1
 	.uaword	.LASF2
 	.byte	0x1
-	.uahalf	0x114
+	.uahalf	0x147
 	.uaword	0x1eb
 	.byte	0x1
-	.uaword	0xe9e
+	.uaword	0xed8
 	.uleb128 0x1c
 	.byte	0
 	.uleb128 0x19
 	.uaword	.LVL49
-	.uaword	0x1454
+	.uaword	0x14c7
 	.uleb128 0x19
 	.uaword	.LVL50
-	.uaword	0x146a
+	.uaword	0x14dd
 	.uleb128 0x1a
 	.uaword	.LVL51
 	.byte	0x1
-	.uaword	0x147e
+	.uaword	0x14f1
 	.uleb128 0x19
-	.uaword	.LVL57
-	.uaword	0x1492
+	.uaword	.LVL62
+	.uaword	0x1505
 	.uleb128 0x1a
-	.uaword	.LVL58
+	.uaword	.LVL63
 	.byte	0x1
-	.uaword	0x147e
+	.uaword	0x14f1
 	.byte	0
 	.uleb128 0x27
-	.uaword	0xb76
-	.uaword	.LBB28
-	.uaword	.LBE28
-	.byte	0x1
-	.byte	0x93
-	.uaword	0xf07
-	.uleb128 0x21
-	.uaword	0xb8c
-	.uaword	.LLST4
-	.uleb128 0x29
-	.uaword	.LBB29
-	.uaword	.LBE29
-	.uleb128 0x22
-	.uaword	0xb99
-	.uaword	.LLST5
-	.uleb128 0x19
-	.uaword	.LVL55
-	.uaword	0x1415
-	.byte	0
-	.byte	0
-	.uleb128 0x27
-	.uaword	0xb76
-	.uaword	.LBB31
-	.uaword	.LBE31
-	.byte	0x1
-	.byte	0xa2
-	.uaword	0xf40
-	.uleb128 0x21
-	.uaword	0xb8c
-	.uaword	.LLST6
-	.uleb128 0x29
+	.uaword	0xbb0
 	.uaword	.LBB32
 	.uaword	.LBE32
+	.byte	0x1
+	.byte	0xba
+	.uaword	0xf41
+	.uleb128 0x21
+	.uaword	0xbc6
+	.uaword	.LLST4
+	.uleb128 0x29
+	.uaword	.LBB33
+	.uaword	.LBE33
 	.uleb128 0x22
-	.uaword	0xb99
+	.uaword	0xbd3
+	.uaword	.LLST5
+	.uleb128 0x19
+	.uaword	.LVL59
+	.uaword	0x1488
+	.byte	0
+	.byte	0
+	.uleb128 0x27
+	.uaword	0xbb0
+	.uaword	.LBB35
+	.uaword	.LBE35
+	.byte	0x1
+	.byte	0xaa
+	.uaword	0xf7a
+	.uleb128 0x21
+	.uaword	0xbc6
+	.uaword	.LLST6
+	.uleb128 0x29
+	.uaword	.LBB36
+	.uaword	.LBE36
+	.uleb128 0x22
+	.uaword	0xbd3
 	.uaword	.LLST7
 	.uleb128 0x19
+	.uaword	.LVL64
+	.uaword	0x1488
+	.byte	0
+	.byte	0
+	.uleb128 0x27
+	.uaword	0xbb0
+	.uaword	.LBB37
+	.uaword	.LBE37
+	.byte	0x1
+	.byte	0xe0
+	.uaword	0xfb3
+	.uleb128 0x21
+	.uaword	0xbc6
+	.uaword	.LLST8
+	.uleb128 0x29
+	.uaword	.LBB38
+	.uaword	.LBE38
+	.uleb128 0x22
+	.uaword	0xbd3
+	.uaword	.LLST9
+	.uleb128 0x19
 	.uaword	.LVL67
-	.uaword	0x1415
+	.uaword	0x1488
 	.byte	0
 	.byte	0
 	.uleb128 0x19
 	.uaword	.LVL25
-	.uaword	0x14ae
+	.uaword	0x1521
 	.uleb128 0x19
 	.uaword	.LVL26
-	.uaword	0x14be
+	.uaword	0x1531
 	.uleb128 0x19
 	.uaword	.LVL27
-	.uaword	0x14d8
-	.uleb128 0x19
-	.uaword	.LVL28
-	.uaword	0xdbe
+	.uaword	0x154b
 	.uleb128 0x19
 	.uaword	.LVL29
-	.uaword	0x14ef
+	.uaword	0x1562
 	.uleb128 0x19
 	.uaword	.LVL30
-	.uaword	0x1507
+	.uaword	0x157a
 	.uleb128 0x19
 	.uaword	.LVL31
-	.uaword	0x151b
+	.uaword	0x158e
 	.uleb128 0x19
 	.uaword	.LVL32
-	.uaword	0x152d
+	.uaword	0x15a0
 	.uleb128 0x19
 	.uaword	.LVL33
-	.uaword	0x1547
+	.uaword	0x15ba
 	.uleb128 0x19
 	.uaword	.LVL34
-	.uaword	0x155f
+	.uaword	0x15d2
 	.uleb128 0x19
 	.uaword	.LVL35
-	.uaword	0x1574
+	.uaword	0x15e7
 	.uleb128 0x19
 	.uaword	.LVL36
-	.uaword	0x158f
+	.uaword	0x1602
 	.uleb128 0x19
 	.uaword	.LVL37
-	.uaword	0x15b2
+	.uaword	0x1625
 	.uleb128 0x19
 	.uaword	.LVL38
-	.uaword	0x15c9
-	.uleb128 0x19
-	.uaword	.LVL39
-	.uaword	0x15e2
-	.uleb128 0x19
-	.uaword	.LVL40
-	.uaword	0x15f4
-	.uleb128 0x19
-	.uaword	.LVL42
-	.uaword	0x15b2
-	.uleb128 0x19
-	.uaword	.LVL43
-	.uaword	0x160c
-	.uleb128 0x19
-	.uaword	.LVL44
-	.uaword	0x161f
-	.uleb128 0x19
-	.uaword	.LVL45
 	.uaword	0x1637
 	.uleb128 0x19
+	.uaword	.LVL39
+	.uaword	0x164f
+	.uleb128 0x19
+	.uaword	.LVL40
+	.uaword	0xdf8
+	.uleb128 0x19
+	.uaword	.LVL41
+	.uaword	0x1662
+	.uleb128 0x19
+	.uaword	.LVL42
+	.uaword	0x1679
+	.uleb128 0x19
+	.uaword	.LVL43
+	.uaword	0x1692
+	.uleb128 0x19
+	.uaword	.LVL44
+	.uaword	0x16b0
+	.uleb128 0x19
 	.uaword	.LVL52
-	.uaword	0x1434
+	.uaword	0x14a7
 	.uleb128 0x19
 	.uaword	.LVL53
-	.uaword	0x164d
+	.uaword	0x16d1
 	.uleb128 0x19
-	.uaword	.LVL59
-	.uaword	0x1671
+	.uaword	.LVL54
+	.uaword	0x16e2
 	.uleb128 0x19
-	.uaword	.LVL60
-	.uaword	0x15b2
+	.uaword	.LVL55
+	.uaword	0x1706
+	.uleb128 0x19
+	.uaword	.LVL56
+	.uaword	0x1719
+	.uleb128 0x19
+	.uaword	.LVL57
+	.uaword	0x1731
 	.uleb128 0x19
 	.uaword	.LVL61
-	.uaword	0x168e
+	.uaword	0xdf8
 	.uleb128 0x19
-	.uaword	.LVL62
-	.uaword	0x169d
+	.uaword	.LVL69
+	.uaword	0x1747
 	.uleb128 0x19
-	.uaword	.LVL63
-	.uaword	0x16bb
-	.uleb128 0x19
-	.uaword	.LVL68
-	.uaword	0x16dc
+	.uaword	.LVL70
+	.uaword	0x1756
 	.byte	0
 	.uleb128 0x2b
 	.string	"task_cnt_1m"
@@ -2000,7 +2119,7 @@ task_cnt_1m:
 	.uaword	task_cnt_1000m
 	.uleb128 0x12
 	.uaword	0x312
-	.uaword	0x10b7
+	.uaword	0x112a
 	.uleb128 0x13
 	.uaword	0x33c
 	.byte	0x2
@@ -2009,11 +2128,11 @@ task_cnt_1m:
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x6
 	.byte	0x96
-	.uaword	0x10d4
+	.uaword	0x1147
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x2d
-	.uaword	0x10a7
+	.uaword	0x111a
 	.uleb128 0x2c
 	.string	"Assert_verboseLevel"
 	.byte	0xb
@@ -2023,14 +2142,14 @@ task_cnt_1m:
 	.byte	0x1
 	.uleb128 0x12
 	.uaword	0x25f
-	.uaword	0x1101
+	.uaword	0x1174
 	.uleb128 0x2e
 	.byte	0
 	.uleb128 0x2c
 	.string	"IR_AdcResult"
 	.byte	0xc
-	.byte	0x28
-	.uaword	0x10f6
+	.byte	0x29
+	.uaword	0x1169
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x2c
@@ -2050,15 +2169,15 @@ task_cnt_1m:
 	.uleb128 0x2c
 	.string	"IR_Ctrl"
 	.byte	0xa
-	.byte	0x48
+	.byte	0x50
 	.uaword	0xa1d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x2c
 	.string	"IR_LineData"
 	.byte	0xa
-	.byte	0x49
-	.uaword	0xb5b
+	.byte	0x51
+	.uaword	0xb95
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x2f
@@ -2173,7 +2292,7 @@ task_cnt_1m:
 	.string	"Obstacle_flag"
 	.byte	0x1
 	.byte	0x11
-	.uaword	0x26e
+	.uaword	0x251
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
@@ -2212,7 +2331,7 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"BasicVadcBgScan_init"
 	.byte	0xc
-	.byte	0x2f
+	.byte	0x30
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x30
@@ -2233,7 +2352,7 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"InfineonRacer_init"
 	.byte	0xa
-	.byte	0x52
+	.byte	0x5a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x30
@@ -2257,7 +2376,7 @@ task_cnt_1m:
 	.byte	0x3c
 	.uaword	0x1eb
 	.byte	0x1
-	.uaword	0x13bd
+	.uaword	0x1430
 	.uleb128 0x1c
 	.byte	0
 	.uleb128 0x30
@@ -2278,10 +2397,10 @@ task_cnt_1m:
 	.byte	0x1
 	.uaword	.LASF1
 	.byte	0x1
-	.uahalf	0x168
+	.uahalf	0x19b
 	.uaword	0x1eb
 	.byte	0x1
-	.uaword	0x1415
+	.uaword	0x1488
 	.uleb128 0x1c
 	.byte	0
 	.uleb128 0x31
@@ -2291,7 +2410,7 @@ task_cnt_1m:
 	.byte	0x78
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1434
+	.uaword	0x14a7
 	.uleb128 0xe
 	.uaword	0x25f
 	.byte	0
@@ -2302,7 +2421,7 @@ task_cnt_1m:
 	.byte	0x76
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x1454
+	.uaword	0x14c7
 	.uleb128 0xe
 	.uaword	0x25f
 	.byte	0
@@ -2324,17 +2443,17 @@ task_cnt_1m:
 	.byte	0x1
 	.uaword	.LASF2
 	.byte	0x1
-	.uahalf	0x114
+	.uahalf	0x147
 	.uaword	0x1eb
 	.byte	0x1
-	.uaword	0x1492
+	.uaword	0x1505
 	.uleb128 0x1c
 	.byte	0
 	.uleb128 0x30
 	.byte	0x1
 	.string	"InfineonRacer_control"
 	.byte	0xa
-	.byte	0x54
+	.byte	0x5c
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x30
@@ -2348,14 +2467,14 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"BasicVadcBgScan_run"
 	.byte	0xc
-	.byte	0x30
+	.byte	0x31
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x32
 	.byte	0x1
 	.string	"Checking_PSD"
 	.byte	0xc
-	.byte	0x31
+	.byte	0x32
 	.byte	0x1
 	.uaword	0x26e
 	.byte	0x1
@@ -2370,65 +2489,49 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"median_filter"
 	.byte	0xa
-	.byte	0x58
+	.byte	0x60
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x30
 	.byte	0x1
 	.string	"Line_Buffer"
 	.byte	0xa
-	.byte	0x57
+	.byte	0x5f
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x30
 	.byte	0x1
 	.string	"median_filter_RIGHT"
 	.byte	0xa
-	.byte	0x5c
+	.byte	0x64
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x30
 	.byte	0x1
 	.string	"Line_Buffer_RIGHT"
 	.byte	0xa
-	.byte	0x5b
+	.byte	0x63
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x30
 	.byte	0x1
 	.string	"threshold_LINE"
 	.byte	0xa
-	.byte	0x61
+	.byte	0x69
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x30
 	.byte	0x1
 	.string	"threshold_LINE_RIGHT"
 	.byte	0xa
-	.byte	0x62
+	.byte	0x6a
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x32
 	.byte	0x1
 	.string	"IsInSchoolZone_THRESHOLD"
 	.byte	0xa
-	.byte	0x73
-	.byte	0x1
-	.uaword	0x26e
-	.byte	0x1
-	.uleb128 0x32
-	.byte	0x1
-	.string	"is_THRESHOLD"
-	.byte	0xa
-	.byte	0x64
-	.byte	0x1
-	.uaword	0x26e
-	.byte	0x1
-	.uleb128 0x32
-	.byte	0x1
-	.string	"Boundary_RIGHT"
-	.byte	0xa
-	.byte	0x79
+	.byte	0x80
 	.byte	0x1
 	.uaword	0x26e
 	.byte	0x1
@@ -2436,68 +2539,45 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"clearBuffer"
 	.byte	0xa
-	.byte	0x68
+	.byte	0x75
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x30
 	.byte	0x1
 	.string	"clearBuffer_RIGHT"
 	.byte	0xa
+	.byte	0x79
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x32
+	.byte	0x1
+	.string	"get_Dash"
+	.byte	0xa
+	.byte	0x71
+	.byte	0x1
+	.uaword	0x251
+	.byte	0x1
+	.uleb128 0x32
+	.byte	0x1
+	.string	"is_THRESHOLD"
+	.byte	0xa
 	.byte	0x6c
 	.byte	0x1
-	.byte	0x1
-	.uleb128 0x32
-	.byte	0x1
-	.string	"Boundary"
-	.byte	0xa
-	.byte	0x76
-	.byte	0x1
 	.uaword	0x26e
 	.byte	0x1
 	.uleb128 0x32
 	.byte	0x1
-	.string	"Over_Boundary"
+	.string	"Boundary_RIGHT"
 	.byte	0xa
-	.byte	0x7b
+	.byte	0x86
 	.byte	0x1
 	.uaword	0x26e
-	.byte	0x1
-	.uleb128 0x32
-	.byte	0x1
-	.string	"isEndOfLEFT"
-	.byte	0xa
-	.byte	0x77
-	.byte	0x1
-	.uaword	0x26e
-	.byte	0x1
-	.uleb128 0x32
-	.byte	0x1
-	.string	"IsOutSchoolZone_THRESHOLD"
-	.byte	0xa
-	.byte	0x72
-	.byte	0x1
-	.uaword	0x26e
-	.byte	0x1
-	.uleb128 0x32
-	.byte	0x1
-	.string	"is_THRESHOLD_RIGHT"
-	.byte	0xa
-	.byte	0x65
-	.byte	0x1
-	.uaword	0x26e
-	.byte	0x1
-	.uleb128 0x30
-	.byte	0x1
-	.string	"resetPSD"
-	.byte	0xc
-	.byte	0x32
-	.byte	0x1
 	.byte	0x1
 	.uleb128 0x32
 	.byte	0x1
 	.string	"Over_Boundary_RIGHT"
 	.byte	0xa
-	.byte	0x7c
+	.byte	0x89
 	.byte	0x1
 	.uaword	0x26e
 	.byte	0x1
@@ -2505,15 +2585,61 @@ task_cnt_1m:
 	.byte	0x1
 	.string	"Direction_CENTER_RIGHT"
 	.byte	0xa
-	.byte	0x81
+	.byte	0x8e
 	.byte	0x1
 	.uaword	0x25f
+	.byte	0x1
+	.uleb128 0x30
+	.byte	0x1
+	.string	"clear_Dash"
+	.byte	0xa
+	.byte	0x72
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x32
+	.byte	0x1
+	.string	"IsOutSchoolZone_THRESHOLD"
+	.byte	0xa
+	.byte	0x7f
+	.byte	0x1
+	.uaword	0x26e
+	.byte	0x1
+	.uleb128 0x32
+	.byte	0x1
+	.string	"Boundary"
+	.byte	0xa
+	.byte	0x83
+	.byte	0x1
+	.uaword	0x26e
+	.byte	0x1
+	.uleb128 0x32
+	.byte	0x1
+	.string	"Over_Boundary"
+	.byte	0xa
+	.byte	0x88
+	.byte	0x1
+	.uaword	0x26e
+	.byte	0x1
+	.uleb128 0x32
+	.byte	0x1
+	.string	"isEndOfLEFT"
+	.byte	0xa
+	.byte	0x84
+	.byte	0x1
+	.uaword	0x26e
+	.byte	0x1
+	.uleb128 0x30
+	.byte	0x1
+	.string	"resetPSD"
+	.byte	0xc
+	.byte	0x33
+	.byte	0x1
 	.byte	0x1
 	.uleb128 0x32
 	.byte	0x1
 	.string	"Direction_CENTER"
 	.byte	0xa
-	.byte	0x80
+	.byte	0x8d
 	.byte	0x1
 	.uaword	0x25f
 	.byte	0x1
@@ -3255,51 +3381,15 @@ task_cnt_1m:
 	.uaword	0
 	.uaword	0
 .LLST2:
-	.uaword	.LVL46
-	.uaword	.LVL48
-	.uahalf	0x6
-	.byte	0x9e
-	.uleb128 0x4
-	.uaword	0xbf4ccccd
-	.uaword	0
-	.uaword	0
-.LLST3:
-	.uaword	.LVL46
-	.uaword	.LVL48
-	.uahalf	0x6
-	.byte	0x9e
-	.uleb128 0x4
-	.uaword	0xbec901e5
-	.uaword	0
-	.uaword	0
-.LLST4:
-	.uaword	.LVL54
-	.uaword	.LVL56
-	.uahalf	0x6
-	.byte	0x9e
-	.uleb128 0x4
-	.uaword	0xbdcccccd
-	.uaword	0
-	.uaword	0
-.LLST5:
-	.uaword	.LVL54
-	.uaword	.LVL56
-	.uahalf	0x6
-	.byte	0x9e
-	.uleb128 0x4
-	.uaword	0xbecc5370
-	.uaword	0
-	.uaword	0
-.LLST6:
-	.uaword	.LVL63
-	.uaword	.LVL64-1
+	.uaword	.LVL44
+	.uaword	.LVL45-1
 	.uahalf	0x1
 	.byte	0x52
 	.uaword	0
 	.uaword	0
-.LLST7:
-	.uaword	.LVL63
-	.uaword	.LVL64-1
+.LLST3:
+	.uaword	.LVL44
+	.uaword	.LVL45-1
 	.uahalf	0x21
 	.byte	0xf4
 	.uleb128 0x1c0
@@ -3320,6 +3410,60 @@ task_cnt_1m:
 	.byte	0xf7
 	.uleb128 0x1b7
 	.byte	0x9f
+	.uaword	0
+	.uaword	0
+.LLST4:
+	.uaword	.LVL58
+	.uaword	.LVL60
+	.uahalf	0x6
+	.byte	0x9e
+	.uleb128 0x4
+	.uaword	0xbdcccccd
+	.uaword	0
+	.uaword	0
+.LLST5:
+	.uaword	.LVL58
+	.uaword	.LVL60
+	.uahalf	0x6
+	.byte	0x9e
+	.uleb128 0x4
+	.uaword	0xbecc5370
+	.uaword	0
+	.uaword	0
+.LLST6:
+	.uaword	.LVL63
+	.uaword	.LVL65
+	.uahalf	0x6
+	.byte	0x9e
+	.uleb128 0x4
+	.uaword	0xbf4ccccd
+	.uaword	0
+	.uaword	0
+.LLST7:
+	.uaword	.LVL63
+	.uaword	.LVL65
+	.uahalf	0x6
+	.byte	0x9e
+	.uleb128 0x4
+	.uaword	0xbec901e5
+	.uaword	0
+	.uaword	0
+.LLST8:
+	.uaword	.LVL66
+	.uaword	.LVL68
+	.uahalf	0x6
+	.byte	0x9e
+	.uleb128 0x4
+	.uaword	0xbecccccd
+	.uaword	0
+	.uaword	0
+.LLST9:
+	.uaword	.LVL66
+	.uaword	.LVL68
+	.uahalf	0x6
+	.byte	0x9e
+	.uleb128 0x4
+	.uaword	0xbecae759
 	.uaword	0
 	.uaword	0
 .section .debug_aranges,"",@progbits
@@ -3358,10 +3502,10 @@ task_cnt_1m:
 	.uaword	0
 .section .debug_ranges,"",@progbits
 .Ldebug_ranges0:
-	.uaword	.LBB27
-	.uaword	.LBE27
-	.uaword	.LBB30
-	.uaword	.LBE30
+	.uaword	.LBB31
+	.uaword	.LBE31
+	.uaword	.LBB34
+	.uaword	.LBE34
 	.uaword	0
 	.uaword	0
 	.uaword	.LFB724
@@ -3400,23 +3544,25 @@ task_cnt_1m:
 .LASF0:
 	.string	"Speed_Buff"
 	.extern	Direction_CENTER,STT_FUNC,0
-	.extern	Direction_CENTER_RIGHT,STT_FUNC,0
-	.extern	Over_Boundary_RIGHT,STT_FUNC,0
 	.extern	resetPSD,STT_FUNC,0
-	.extern	is_THRESHOLD_RIGHT,STT_FUNC,0
 	.extern	InfineonRacer_control,STT_FUNC,0
+	.extern	isEndOfLEFT,STT_FUNC,0
+	.extern	Over_Boundary,STT_FUNC,0
+	.extern	Boundary,STT_FUNC,0
 	.extern	IsOutSchoolZone_THRESHOLD,STT_FUNC,0
+	.extern	clear_Dash,STT_FUNC,0
 	.extern	AsclinShellInterface_runEncScan,STT_FUNC,0
 	.extern	BasicPort_run,STT_FUNC,0
 	.extern	BasicGtmTom_run,STT_FUNC,0
 	.extern	IR_Ctrl,STT_OBJECT,12
-	.extern	isEndOfLEFT,STT_FUNC,0
-	.extern	Over_Boundary,STT_FUNC,0
-	.extern	Boundary,STT_FUNC,0
-	.extern	clearBuffer_RIGHT,STT_FUNC,0
-	.extern	clearBuffer,STT_FUNC,0
+	.extern	Direction_CENTER_RIGHT,STT_FUNC,0
+	.extern	Over_Boundary_RIGHT,STT_FUNC,0
 	.extern	Boundary_RIGHT,STT_FUNC,0
 	.extern	is_THRESHOLD,STT_FUNC,0
+	.extern	IR_AdcResult,STT_OBJECT,-1
+	.extern	get_Dash,STT_FUNC,0
+	.extern	clearBuffer_RIGHT,STT_FUNC,0
+	.extern	clearBuffer,STT_FUNC,0
 	.extern	IsInSchoolZone_THRESHOLD,STT_FUNC,0
 	.extern	threshold_LINE_RIGHT,STT_FUNC,0
 	.extern	threshold_LINE,STT_FUNC,0
@@ -3425,8 +3571,7 @@ task_cnt_1m:
 	.extern	Line_Buffer,STT_FUNC,0
 	.extern	median_filter,STT_FUNC,0
 	.extern	BasicLineScan_run,STT_FUNC,0
-	.extern	IR_AdcResult,STT_OBJECT,-1
-	.extern	IR_LineData,STT_OBJECT,576
+	.extern	IR_LineData,STT_OBJECT,588
 	.extern	Checking_PSD,STT_FUNC,0
 	.extern	BasicVadcBgScan_run,STT_FUNC,0
 	.extern	Speed_Avg,STT_FUNC,0

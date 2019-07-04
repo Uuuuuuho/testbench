@@ -29,7 +29,7 @@
 //macro
 #define LEFT_LANE 1
 #define RIGHT_LANE 2
-
+#define MIDDLE 3
 
 IFX_EXTERN boolean task_flag_1m;
 IFX_EXTERN boolean task_flag_10m;

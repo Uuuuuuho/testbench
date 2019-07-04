@@ -16205,7 +16205,7 @@ static inline __attribute__ ((always_inline)) Ifx_VADC_G_RESD IfxVadc_Adc_getDeb
     return IfxVadc_getDebugResult(channel->group->group, channel->resultreg);
 }
 # 16 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h" 2
-# 32 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h"
+# 33 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h"
 typedef struct{
  uint16 PSD_counter;
     boolean Stop;
@@ -27404,6 +27404,8 @@ boolean Checking_PSD(void){
     if(IR_AdcResult[1] > 0.25)
         IR_PSD_counter.PSD_counter++;
 
+    if(IR_AdcResult[2] > 0.25)
+        IR_PSD_counter.PSD_counter++;
 
 
     return 0;

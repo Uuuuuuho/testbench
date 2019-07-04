@@ -33,6 +33,10 @@
 #define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
 #define THRESHOLD 500
 #define THRESHOLD_RIGHT 1500
+
+#define LEFT_LANE 1
+#define RIGHT_LANE 2
+
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/
@@ -64,6 +68,10 @@ typedef struct{
     boolean Direction_Determined;
     boolean Direction_Determined_RIGHT;
     boolean School_Zone_flag;
+
+    uint32 Dash_Left;
+    uint32 Dash_Right;
+    uint32 Next_Lane;
 }LineData;
 
 /******************************************************************************/
@@ -98,7 +106,12 @@ IFX_EXTERN void threshold_LINE(void);
 IFX_EXTERN void threshold_LINE_RIGHT(void);
 
 IFX_EXTERN boolean is_THRESHOLD(void);
+IFX_EXTERN boolean is_THRESHOLD_MIDDLE(void);   //maybe useless
 IFX_EXTERN boolean is_THRESHOLD_RIGHT(void);
+
+//for school zone
+IFX_EXTERN uint32 get_Dash(void);
+IFX_EXTERN void clear_Dash(void);
 
 
 IFX_EXTERN void clearBuffer(void);

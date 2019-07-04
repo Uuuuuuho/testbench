@@ -16893,7 +16893,7 @@ extern IfxGtm_Tom_ToutMap IfxGtm_TOM2_9_TOUT52_P21_1_OUT;
 extern IfxGtm_Tom_ToutMap IfxGtm_TOM2_9_TOUT69_P20_13_OUT;
 # 19 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Cfg_Illd/Configuration.h" 2
 # 11 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 2
-# 46 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 50 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 typedef struct{
  sint32 Ls0Margin;
  sint32 Ls1Margin;
@@ -16915,6 +16915,10 @@ typedef struct{
     boolean Direction_Determined;
     boolean Direction_Determined_RIGHT;
     boolean School_Zone_flag;
+
+    uint32 Dash_Left;
+    uint32 Dash_Right;
+    uint32 Next_Lane;
 }LineData;
 
 
@@ -16922,7 +16926,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 82 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 90 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -16942,7 +16946,12 @@ extern void threshold_LINE(void);
 extern void threshold_LINE_RIGHT(void);
 
 extern boolean is_THRESHOLD(void);
+extern boolean is_THRESHOLD_MIDDLE(void);
 extern boolean is_THRESHOLD_RIGHT(void);
+
+
+extern uint32 get_Dash(void);
+extern void clear_Dash(void);
 
 
 extern void clearBuffer(void);
@@ -29031,7 +29040,7 @@ extern void BasicGtmTom_init(void);
 extern void BasicGtmTom_run(void);
 # 7 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h" 1
-# 32 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h"
+# 33 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/BasicVadcBgScan.h"
 typedef struct{
  uint16 PSD_counter;
     boolean Stop;
@@ -31926,6 +31935,17 @@ boolean is_THRESHOLD(void){
     }
     return 0;
 }
+boolean is_THRESHOLD_MIDDLE(void){
+    uint32 index = 0;
+    float32 threshold = 500;
+    uint32 half_index = 128/2;
+    for(index = 4; index < half_index; index++){
+        if(IR_LineScan.adcBuffer[0][index] < threshold){
+            return 1;
+        }
+    }
+    return 0;
+}
 
 boolean is_THRESHOLD_RIGHT(void){
     uint32 index = 0;
@@ -31939,6 +31959,29 @@ boolean is_THRESHOLD_RIGHT(void){
     return 0;
 }
 
+
+uint32 get_Dash(void){
+    if(is_THRESHOLD())
+        IR_LineData.Dash_Left++;
+
+    if(is_THRESHOLD_RIGHT())
+        IR_LineData.Dash_Right++;
+
+    if(IR_LineData.Dash_Left > IR_LineData.Dash_Right){
+        IR_LineData.Next_Lane = 2;
+        return 2;
+    }
+    else{
+        IR_LineData.Next_Lane = 1;
+        return 1;
+    }
+
+}
+
+void clear_Dash(void){
+    IR_LineData.Dash_Left = 0;
+    IR_LineData.Dash_Right = 0;
+}
 
 void threshold_LINE(void){
     uint32 index = 0;

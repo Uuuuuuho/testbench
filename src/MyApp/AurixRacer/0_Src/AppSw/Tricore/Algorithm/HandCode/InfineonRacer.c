@@ -189,6 +189,17 @@ boolean is_THRESHOLD(void){
     }
     return FALSE;
 }
+boolean is_THRESHOLD_MIDDLE(void){
+    uint32 index = 0;
+    float32 threshold = THRESHOLD;
+    uint32 half_index = LINEMAX/2;
+    for(index = IGNOREIDX; index < half_index; index++){
+        if(IR_LineScan.adcBuffer[0][index] < threshold){
+            return TRUE;
+        }
+    }
+    return FALSE;
+}
 
 boolean is_THRESHOLD_RIGHT(void){
     uint32 index = 0;
@@ -202,6 +213,29 @@ boolean is_THRESHOLD_RIGHT(void){
     return FALSE;
 }
 
+
+uint32 get_Dash(void){
+    if(is_THRESHOLD())  //left dash buffer
+        IR_LineData.Dash_Left++;
+
+    if(is_THRESHOLD_RIGHT())
+        IR_LineData.Dash_Right++;
+
+    if(IR_LineData.Dash_Left > IR_LineData.Dash_Right){
+        IR_LineData.Next_Lane = RIGHT_LANE; //다음에 우회전
+        return RIGHT_LANE;
+    }
+    else{
+        IR_LineData.Next_Lane = LEFT_LANE;  //다음에 좌회전
+        return LEFT_LANE;
+    }
+    
+}
+
+void clear_Dash(void){
+    IR_LineData.Dash_Left = 0;
+    IR_LineData.Dash_Right = 0;
+}
 
 void threshold_LINE(void){
     uint32 index = 0;

@@ -210,27 +210,37 @@ Checking_PSD:
 	movh.a	%a15, hi:IR_PSD_counter
 	ld.hu	%d15, [%a15] lo:IR_PSD_counter
 	lea	%a2, [%a15] lo:IR_PSD_counter
-	jge.u	%d15, 11, .L18
+	jge.u	%d15, 11, .L21
 	.loc 1 165 0
 	movh.a	%a2, hi:IR_AdcResult
 	lea	%a2, [%a2] lo:IR_AdcResult
-	ld.w	%d2, [%a2] 4
-	movh	%d3, 16000
-	cmp.f	%d2, %d2, %d3
-	jz.t	%d2, 2, .L17
+	ld.w	%d3, [%a2] 4
+	movh	%d2, 16000
+	cmp.f	%d2, %d3, %d2
+	jz.t	%d2, 2, .L14
 	.loc 1 166 0
 	add	%d15, 1
-	.loc 1 170 0
+	st.h	[%a15] lo:IR_PSD_counter, %d15
+.L14:
+	.loc 1 168 0
+	ld.w	%d15, [%a2] 8
+	movh	%d2, 16000
+	cmp.f	%d15, %d15, %d2
+	jz.t	%d15, 2, .L20
+	.loc 1 169 0
+	ld.h	%d15, [%a15] lo:IR_PSD_counter
+	.loc 1 172 0
 	mov	%d2, 0
-	.loc 1 166 0
+	.loc 1 169 0
+	add	%d15, 1
 	st.h	[%a15] lo:IR_PSD_counter, %d15
 	ret
-.L17:
-	.loc 1 170 0
+.L20:
+	.loc 1 172 0
 	mov	%d2, 0
-	.loc 1 171 0
+	.loc 1 173 0
 	ret
-.L18:
+.L21:
 	.loc 1 161 0
 	mov	%d15, 1
 	.loc 1 162 0
@@ -247,8 +257,8 @@ Checking_PSD:
 	.type	resetPSD, @function
 resetPSD:
 .LFB395:
-	.loc 1 173 0
-	.loc 1 174 0
+	.loc 1 175 0
+	.loc 1 176 0
 	mov	%d15, 0
 	movh.a	%a15, hi:IR_PSD_counter
 	st.h	[%a15] lo:IR_PSD_counter, %d15
@@ -9858,25 +9868,25 @@ g_VadcBackgroundScan:
 	.uleb128 0x8
 	.byte	0x4
 	.byte	0xa
-	.byte	0x20
+	.byte	0x21
 	.uaword	0x6b3d
 	.uleb128 0xa
 	.string	"PSD_counter"
 	.byte	0xa
-	.byte	0x21
+	.byte	0x22
 	.uaword	0x281
 	.byte	0
 	.uleb128 0xa
 	.string	"Stop"
 	.byte	0xa
-	.byte	0x22
+	.byte	0x23
 	.uaword	0x2cd
 	.byte	0x2
 	.byte	0
 	.uleb128 0x5
 	.string	"IR_PSD_cnt"
 	.byte	0xa
-	.byte	0x23
+	.byte	0x24
 	.uaword	0x6b13
 	.uleb128 0x8
 	.byte	0x30
@@ -10362,7 +10372,7 @@ g_VadcBackgroundScan:
 	.byte	0x1
 	.string	"resetPSD"
 	.byte	0x1
-	.byte	0xad
+	.byte	0xaf
 	.byte	0x1
 	.uaword	.LFB395
 	.uaword	.LFE395
