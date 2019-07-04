@@ -35486,6 +35486,7 @@ extern void threshold_LINE(void);
 extern void threshold_LINE_RIGHT(void);
 
 extern boolean is_THRESHOLD(void);
+extern boolean is_THRESHOLD_RIGHT(void);
 
 
 extern void clearBuffer(void);

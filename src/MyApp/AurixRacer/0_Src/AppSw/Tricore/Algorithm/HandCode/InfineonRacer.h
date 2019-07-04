@@ -31,7 +31,7 @@
 #define TURN_LEFT 1
 #define TURN_RIGHT 2
 #define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
-#define THRESHOLD 200
+#define THRESHOLD 500
 #define THRESHOLD_RIGHT 1500
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
@@ -98,6 +98,7 @@ IFX_EXTERN void threshold_LINE(void);
 IFX_EXTERN void threshold_LINE_RIGHT(void);
 
 IFX_EXTERN boolean is_THRESHOLD(void);
+IFX_EXTERN boolean is_THRESHOLD_RIGHT(void);
 
 
 IFX_EXTERN void clearBuffer(void);

@@ -16942,6 +16942,7 @@ extern void threshold_LINE(void);
 extern void threshold_LINE_RIGHT(void);
 
 extern boolean is_THRESHOLD(void);
+extern boolean is_THRESHOLD_RIGHT(void);
 
 
 extern void clearBuffer(void);
@@ -31783,7 +31784,7 @@ void InfineonRacer_init(void){
     IR_LineData.Transfer[1] = 0;
     IR_LineData.Transfer[2] = -1;
 
-    IR_LineData.School_Zone_flag = 0;
+    IR_LineData.School_Zone_flag = 1;
     IR_LineData.Direction_Determined = 0;
     IR_LineData.Direction_Determined_RIGHT = 0;
 }
@@ -31916,7 +31917,7 @@ void median_filter_RIGHT(void) {
 
 boolean is_THRESHOLD(void){
     uint32 index = 0;
-    float32 threshold = 200;
+    float32 threshold = 500;
 
     for(index = 4; index < 128 - 4; index++){
         if(IR_LineScan.adcBuffer[0][index] < threshold){
@@ -31926,9 +31927,22 @@ boolean is_THRESHOLD(void){
     return 0;
 }
 
+boolean is_THRESHOLD_RIGHT(void){
+    uint32 index = 0;
+    float32 threshold = 1500;
+
+    for(index = 4; index < 128 - 4; index++){
+        if(IR_LineScan.adcBuffer[1][index] < threshold){
+            return 1;
+        }
+    }
+    return 0;
+}
+
+
 void threshold_LINE(void){
     uint32 index = 0;
-    float32 threshold = 200;
+    float32 threshold = 500;
     float32 MinVal = 500000;
 
     if(!IR_LineData.Direction_Determined){
@@ -32043,28 +32057,95 @@ void getLineData_RIGHT (void){
 
 boolean IsInSchoolZone_THRESHOLD(void){
     uint32 index = 0;
-    uint32 MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present];
-    uint32 SCHOOLZONE_DETECTION = MinVal * 2;
+    uint32 half_index = 128 / 2;
+    float32 SCHOOLZONE_DETECTION = 500;
+    uint32 line_count = 0;
 
-    for(index = IR_LineData.present; index < 128 - 4; index++){
+
+
+    for(index = 4; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
-            IR_LineData.School_Zone_flag = 1;
-
+            line_count++;
+            break;
         }
     }
+
+    for(index = half_index; index < 128 - 4; index++){
+        if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+            break;
+        }
+    }
+
+    SCHOOLZONE_DETECTION = 1500;
+
+    for(index = 4; index < half_index; index ++){
+        if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+            break;
+        }
+    }
+
+    for(index = half_index; index < 128 - 4; index++){
+        if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+            break;
+        }
+    }
+
+    if(line_count > 2)
+        IR_LineData.School_Zone_flag = 1;
+
+    else
+        IR_LineData.School_Zone_flag = 0;
+
     return IR_LineData.School_Zone_flag;
 }
 
 boolean IsOutSchoolZone_THRESHOLD(void){
     uint32 index = 0;
-    uint32 MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present];
-    uint32 SCHOOLZONE_DETECTION = MinVal * 2;
+    uint32 half_index = 128 / 2;
+    float32 SCHOOLZONE_DETECTION = 500;
+    uint32 line_count = 0;
 
-    for(index = IR_LineData.present; index < 128 - 4; index++){
+
+
+    for(index = 4; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
-            IR_LineData.School_Zone_flag = 0;
+            line_count++;
+            break;
         }
     }
+
+    for(index = half_index; index < 128 - 4; index++){
+        if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+            break;
+        }
+    }
+
+    SCHOOLZONE_DETECTION = 1500;
+
+    for(index = 4; index < half_index; index ++){
+        if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+            break;
+        }
+    }
+
+    for(index = half_index; index < 128 - 4; index++){
+        if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
+            line_count++;
+            break;
+        }
+    }
+
+    if(line_count > 2)
+        IR_LineData.School_Zone_flag = 0;
+
+    else
+        IR_LineData.School_Zone_flag = 1;
+
     return IR_LineData.School_Zone_flag;
 }
 

@@ -27396,13 +27396,15 @@ void BasicVadcBgScan_run(void)
 }
 
 boolean Checking_PSD(void){
-    if(IR_AdcResult[1] > 0.4)
-        IR_PSD_counter.PSD_counter++;
-
     if(IR_PSD_counter.PSD_counter > 10){
         IR_PSD_counter.Stop = 1;
         return 1;
     }
+
+    if(IR_AdcResult[1] > 0.25)
+        IR_PSD_counter.PSD_counter++;
+
+
 
     return 0;
 }

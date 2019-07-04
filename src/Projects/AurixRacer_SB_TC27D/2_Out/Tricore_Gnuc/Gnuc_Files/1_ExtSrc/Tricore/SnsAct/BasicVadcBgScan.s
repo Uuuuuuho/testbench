@@ -199,8 +199,6 @@ BasicVadcBgScan_run:
 	ret
 .LFE393:
 	.size	BasicVadcBgScan_run, .-BasicVadcBgScan_run
-	.global	__extendsfdf2
-	.global	__gtdf2
 .section .text.Checking_PSD,"ax",@progbits
 	.align 1
 	.global	Checking_PSD
@@ -209,42 +207,37 @@ Checking_PSD:
 .LFB394:
 	.loc 1 159 0
 	.loc 1 160 0
-	movh.a	%a15, hi:IR_AdcResult
-	lea	%a15, [%a15] lo:IR_AdcResult
-	ld.w	%d4, [%a15] 4
-	.loc 1 161 0
 	movh.a	%a15, hi:IR_PSD_counter
-	.loc 1 160 0
-	call	__extendsfdf2
-.LVL19:
-	mov	%e4, %d3, %d2
-	movh	%d7, 16346
-	movh	%d6, 39322
-	addi	%d7, %d7, -26215
-	addi	%d6, %d6, -26214
-	call	__gtdf2
-.LVL20:
 	ld.hu	%d15, [%a15] lo:IR_PSD_counter
-	jlez	%d2, .L13
-	.loc 1 161 0
-	ld.h	%d15, [%a15] lo:IR_PSD_counter
-	add	%d15, 1
-	extr.u	%d15, %d15, 0, 16
-	st.h	[%a15] lo:IR_PSD_counter, %d15
-.L13:
-	.loc 1 168 0
-	mov	%d2, 0
-	.loc 1 163 0
-	jlt.u	%d15, 11, .L14
-	.loc 1 164 0
-	mov	%d15, 1
-	lea	%a15, [%a15] lo:IR_PSD_counter
+	lea	%a2, [%a15] lo:IR_PSD_counter
+	jge.u	%d15, 11, .L18
 	.loc 1 165 0
+	movh.a	%a2, hi:IR_AdcResult
+	lea	%a2, [%a2] lo:IR_AdcResult
+	ld.w	%d2, [%a2] 4
+	movh	%d3, 16000
+	cmp.f	%d2, %d2, %d3
+	jz.t	%d2, 2, .L17
+	.loc 1 166 0
+	add	%d15, 1
+	.loc 1 170 0
+	mov	%d2, 0
+	.loc 1 166 0
+	st.h	[%a15] lo:IR_PSD_counter, %d15
+	ret
+.L17:
+	.loc 1 170 0
+	mov	%d2, 0
+	.loc 1 171 0
+	ret
+.L18:
+	.loc 1 161 0
+	mov	%d15, 1
+	.loc 1 162 0
 	mov	%d2, 1
-	.loc 1 164 0
-	st.b	[%a15] 2, %d15
-.L14:
-	.loc 1 169 0
+	.loc 1 161 0
+	st.b	[%a2] 2, %d15
+	.loc 1 162 0
 	ret
 .LFE394:
 	.size	Checking_PSD, .-Checking_PSD
@@ -254,8 +247,8 @@ Checking_PSD:
 	.type	resetPSD, @function
 resetPSD:
 .LFB395:
-	.loc 1 171 0
-	.loc 1 172 0
+	.loc 1 173 0
+	.loc 1 174 0
 	mov	%d15, 0
 	movh.a	%a15, hi:IR_PSD_counter
 	st.h	[%a15] lo:IR_PSD_counter, %d15
@@ -10369,7 +10362,7 @@ g_VadcBackgroundScan:
 	.byte	0x1
 	.string	"resetPSD"
 	.byte	0x1
-	.byte	0xab
+	.byte	0xad
 	.byte	0x1
 	.uaword	.LFB395
 	.uaword	.LFE395
@@ -11295,7 +11288,7 @@ g_VadcBackgroundScan:
 	.uleb128 0x1
 	.uleb128 0x40
 	.uleb128 0xa
-	.uleb128 0x2116
+	.uleb128 0x2117
 	.uleb128 0xc
 	.byte	0
 	.byte	0

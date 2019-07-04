@@ -157,13 +157,15 @@ void BasicVadcBgScan_run(void)
 }
 
 boolean Checking_PSD(void){
-    if(IR_AdcResult[1] > THRESHOLD_VOL) //assuming #1 channel is used only
-        IR_PSD_counter.PSD_counter++;
-    
     if(IR_PSD_counter.PSD_counter > 10){
         IR_PSD_counter.Stop = TRUE;
         return TRUE;
     }
+    
+    if(IR_AdcResult[1] > THRESHOLD_VOL) //assuming #1 channel is used only
+        IR_PSD_counter.PSD_counter++;
+    
+
 
     return FALSE;
 }

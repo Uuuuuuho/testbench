@@ -47,7 +47,7 @@ void InfineonRacer_init(void){
     IR_LineData.Transfer[1] = 0;
     IR_LineData.Transfer[2] = -1;
     
-    IR_LineData.School_Zone_flag = FALSE;
+    IR_LineData.School_Zone_flag = TRUE;
     IR_LineData.Direction_Determined = FALSE;
     IR_LineData.Direction_Determined_RIGHT = FALSE;
 }
@@ -190,6 +190,19 @@ boolean is_THRESHOLD(void){
     return FALSE;
 }
 
+boolean is_THRESHOLD_RIGHT(void){
+    uint32 index = 0;
+    float32 threshold = THRESHOLD_RIGHT;
+
+    for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+        if(IR_LineScan.adcBuffer[1][index] < threshold){
+            return TRUE;
+        }
+    }
+    return FALSE;
+}
+
+
 void threshold_LINE(void){
     uint32 index = 0;
     float32 threshold = THRESHOLD;
@@ -307,9 +320,8 @@ void getLineData_RIGHT (void){    //left linescanner only
 
 boolean IsInSchoolZone_THRESHOLD(void){
     uint32 index = 0;
-    uint32 MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present];
     uint32 half_index = LINEMAX / 2;
-    float32 SCHOOLZONE_DETECTION = MinVal * 1.5;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+    float32 SCHOOLZONE_DETECTION = THRESHOLD;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
     uint32 line_count = 0;
 
     //left lane scanner school zone check
@@ -317,27 +329,30 @@ boolean IsInSchoolZone_THRESHOLD(void){
     for(index = IGNOREIDX; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
             line_count++;
+            break;
         }
     }
 
     for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
         if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
             line_count++;
+            break;
         }
     }
 
-    MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present_RIGHT];
-    SCHOOLZONE_DETECTION = MinVal * 1.5;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+    SCHOOLZONE_DETECTION = THRESHOLD_RIGHT;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
 
     for(index = IGNOREIDX; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
             line_count++;
+            break;
         }
     }
 
     for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
             line_count++;
+            break;
         }
     }
 
@@ -352,9 +367,8 @@ boolean IsInSchoolZone_THRESHOLD(void){
 
 boolean IsOutSchoolZone_THRESHOLD(void){
     uint32 index = 0;
-    uint32 MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present];
     uint32 half_index = LINEMAX / 2;
-    float32 SCHOOLZONE_DETECTION = MinVal * 1.5;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+    float32 SCHOOLZONE_DETECTION = THRESHOLD;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
     uint32 line_count = 0;
 
     //left lane scanner school zone check
@@ -362,27 +376,30 @@ boolean IsOutSchoolZone_THRESHOLD(void){
     for(index = IGNOREIDX; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
             line_count++;
+            break;
         }
     }
 
     for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
         if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
             line_count++;
+            break;
         }
     }
-
-    MinVal = IR_LineScan.adcBuffer[0][IR_LineData.present_RIGHT];
-    SCHOOLZONE_DETECTION = MinVal * 1.5;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
+    //right lane checking school zone
+    SCHOOLZONE_DETECTION = THRESHOLD_RIGHT;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
 
     for(index = IGNOREIDX; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
             line_count++;
+            break;
         }
     }
 
     for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
             line_count++;
+            break;
         }
     }
 
