@@ -77,12 +77,15 @@ void appTaskfu_10ms(void)
     
     if(Checking_PSD()){    //determine avoid or AEB
         Obstacle_flag = TRUE;   
+        IR_LineData.SchoolZone_Status = ON; //to debug
 
         if(!IR_LineData.School_Zone_flag){  //Out of school zone
             AEB();
         }
+        
         else{   //In school zone
             switch(get_Dash()){ //dash buffer를 활용하여 determine next lane direction
+            //for now it's set to LEFT_LANE
                 case LEFT_LANE :
                     WHICH_LANE = RIGHT_LANE;
                     break;
@@ -92,52 +95,28 @@ void appTaskfu_10ms(void)
             }
             
             Avoid();
-            IR_LineData.SchoolZone_Status = ON;
+            
+
             switch(WHICH_LANE){
-                case LEFT_LANE:
-                    if(IR_AdcResult[2] < THRESHOLD_VOL){ //right PSD can't detect anything
-                        resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
+                case LEFT_LANE: //when the car's on the left lane
+                    if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't detect anything
                         Obstacle_flag = MIDDLE;
                         IR_LineData.SchoolZone_Status = MIDDLE;
                     }
-                    break;
+                break;
                     
                 case RIGHT_LANE:
                     if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't detect anything
-                        resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
                         Obstacle_flag = MIDDLE;
                         IR_LineData.SchoolZone_Status = MIDDLE;
                     }
-                    break;
+                break;
             }
             
         }
     }
 
-    else{
-        IR_setMotor0Vol(testVol);
-    }
 
-    if(Obstacle_flag == MIDDLE){
-        switch(WHICH_LANE){
-            case LEFT_LANE:
-                if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
-                    Obstacle_flag = OFF;
-                    IR_LineData.SchoolZone_Status = OFF;
-                    clear_Dash();
-                }
-                break;
-                
-            case RIGHT_LANE:
-                if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
-                    Obstacle_flag = OFF;
-                    IR_LineData.SchoolZone_Status = OFF;
-                    clear_Dash();
-                }
-                break;
-        }
-
-    }
 
 
 
@@ -164,70 +143,81 @@ void appTaskfu_10ms(void)
             IsOutSchoolZone_THRESHOLD();
     }
     
-    if(!IR_LineData.School_Zone_flag){      //Out of school zone 
+    if(Obstacle_flag == OFF){   //regardless of school zone
         if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
-            if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
-                if(!Over_Boundary_RIGHT()){   //when over minimum boundary
-                    SrvControl(Direction_CENTER_RIGHT());    //determine wheel direction
+            if(is_THRESHOLD_RIGHT()){   //right lane detected
+                if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
+                    if(!Over_Boundary_RIGHT()){   
+                        //when stick to right side
+                        SrvControl(100);    //turn left
+                    }
+                    else{   //when out of boundary
+                        SrvControl(Direction_CENTER_RIGHT());     //turn left to detect line, when not able to detect on the left and right at the same time
+                    }
                 }
-                else{   //when out of boundary
-                    SrvControl(-0.8);    //turn left to detect line, when not able to detect on the left and right at the same time
-                }
+                else
+                    ;//right lane in the boundary. do nothing
             }
-            
+            else    //left & right lane not detected    
+                SrvControl(-100);   //turn right
         }
         
         else{   //left lane detected
-            if(Boundary()){ //if present index is out of boundary(0 ~ 40 or 60 ~ 120)
+            if(Boundary()){ //if present index is out of boundary
                 if(!Over_Boundary()){   //when over minimum boundary
                     SrvControl(Direction_CENTER());    //determine wheel direction
                 }
                 else{   //when out of boundary
                     if(isEndOfLEFT()){  //when car stick to left side
-                        SrvControl(-0.8);   //turn right
+                        SrvControl(-100);   //turn right
                     }
                     else{
-                        SrvControl(-0.1);    //turn left to detect line
+                        SrvControl(100);    //turn left to detect line
                     }
                 }
             }
         }
     }
 
-    else{       //In school zone
-        if(Obstacle_flag == OFF){
-            if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
-                if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
-                    if(!Over_Boundary_RIGHT()){   //when over minimum boundary
-                        SrvControl(Direction_CENTER_RIGHT());    //determine wheel direction
-                    }
-                    else{   //when out of boundary
-                        SrvControl(-0.8);    //turn left to detect line, when not able to detect on the left and right at the same time
-                    }
-                }
-            }
-            
-            else{   //left lane detected
-                if(Boundary()){ //if present index is out of boundary
-                    if(!Over_Boundary()){   //when over minimum boundary
-                        SrvControl(Direction_CENTER());    //determine wheel direction
-                    }
-                    else{   //when out of boundary
-                        if(isEndOfLEFT()){  //when car stick to left side
-                            SrvControl(-0.8);   //turn right
-                        }
-                        else{
-                            SrvControl(-0.1);    //turn left to detect line
-                        }
-                    }
-                }
-            }
+    else if(Obstacle_flag == MIDDLE){   //while changing lane
+        Avoid();
+        
+#if ADD_MIDDLE == ON    //lane을 잘못잡는 경우에 대한 대비
+        //in case of incorrect dotted lane detection        
+        switch(get_Dash()){ //dash buffer를 활용하여 determine next lane direction
+            case LEFT_LANE :
+                WHICH_LANE = RIGHT_LANE;    
+                break;
+            case RIGHT_LANE :
+                WHICH_LANE = LEFT_LANE;
+                break;
         }
+        
+#endif
 
-        else if(Obstacle_flag == MIDDLE){   //while changing lane
-            SrvControl(-0.4);   //straight forward
+        switch(WHICH_LANE){
+            case LEFT_LANE:
+                if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
+                    Obstacle_flag = OFF;
+                    IR_LineData.SchoolZone_Status = OFF;
+                    resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
+                    clear_Dash();
+                }
+                break;
+                
+            case RIGHT_LANE:
+                if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
+                    Obstacle_flag = OFF;
+                    IR_LineData.SchoolZone_Status = OFF;
+                    resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
+                    clear_Dash();
+                }
+                break;
         }
     }
+
+
+    
     clearBuffer();
     clearBuffer_RIGHT();
     
@@ -320,7 +310,7 @@ void appTaskfu_10ms(void)
     	BasicPort_run();
 
         
-		if(IR_Ctrl.basicTest == FALSE){
+		if(IR_Ctrl.basicTest == FALSE){ //no need. gonna be deleted
 			#if CODE == CODE_HAND
 				InfineonRacer_control();
 			#elif CODE == CODE_ERT

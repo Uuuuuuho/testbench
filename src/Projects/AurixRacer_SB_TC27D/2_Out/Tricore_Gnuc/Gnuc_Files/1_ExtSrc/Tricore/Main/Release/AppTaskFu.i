@@ -35448,6 +35448,8 @@ typedef struct{
     uint32 Dash_Left;
     uint32 Dash_Right;
     uint32 Next_Lane;
+
+    uint32 SchoolZone_Status;
 }LineData;
 
 
@@ -35455,7 +35457,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 90 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 92 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -35665,7 +35667,7 @@ extern void IR_Controller_terminate(void);
 
 extern RT_MODEL_IR_Controller *const IR_Controller_M;
 # 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
-# 34 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
+# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
 extern boolean task_flag_1m;
 extern boolean task_flag_10m;
 extern boolean task_flag_100m;
@@ -35763,12 +35765,15 @@ void appTaskfu_10ms(void)
 
     if(Checking_PSD()){
         Obstacle_flag = 1;
+        IR_LineData.SchoolZone_Status = 1;
 
         if(!IR_LineData.School_Zone_flag){
             AEB();
         }
+
         else{
             switch(get_Dash()){
+
                 case 1 :
                     WHICH_LANE = 2;
                     break;
@@ -35779,47 +35784,27 @@ void appTaskfu_10ms(void)
 
             Avoid();
 
+
             switch(WHICH_LANE){
                 case 1:
                     if(IR_AdcResult[2] < 0.25){
-                        resetPSD();
                         Obstacle_flag = 3;
+                        IR_LineData.SchoolZone_Status = 3;
                     }
-                    break;
+                break;
 
                 case 2:
                     if(IR_AdcResult[1] < 0.25){
-                        resetPSD();
                         Obstacle_flag = 3;
+                        IR_LineData.SchoolZone_Status = 3;
                     }
-                    break;
+                break;
             }
 
         }
     }
 
-    else{
-        IR_setMotor0Vol(testVol);
-    }
 
-    if(Obstacle_flag == 3){
-        switch(WHICH_LANE){
-            case 1:
-                if(IR_AdcResult[1] < 0.25){
-                    Obstacle_flag = 0;
-                    clear_Dash();
-                }
-                break;
-
-            case 2:
-                if(IR_AdcResult[2] < 0.25){
-                    Obstacle_flag = 0;
-                    clear_Dash();
-                }
-                break;
-        }
-
-    }
 
 
 
@@ -35846,17 +35831,23 @@ void appTaskfu_10ms(void)
             IsOutSchoolZone_THRESHOLD();
     }
 
-    if(!IR_LineData.School_Zone_flag){
+    if(Obstacle_flag == 0){
         if(!is_THRESHOLD()){
-            if(Boundary_RIGHT()){
-                if(!Over_Boundary_RIGHT()){
-                    SrvControl(Direction_CENTER_RIGHT());
-                }
-                else{
-                    SrvControl(-0.8);
-                }
-            }
+            if(is_THRESHOLD_RIGHT()){
+                if(Boundary_RIGHT()){
+                    if(!Over_Boundary_RIGHT()){
 
+                        SrvControl(100);
+                    }
+                    else{
+                        SrvControl(Direction_CENTER_RIGHT());
+                    }
+                }
+                else
+                    ;
+            }
+            else
+                SrvControl(-100);
         }
 
         else{
@@ -35866,53 +35857,45 @@ void appTaskfu_10ms(void)
                 }
                 else{
                     if(isEndOfLEFT()){
-                        SrvControl(-0.8);
+                        SrvControl(-100);
                     }
                     else{
-                        SrvControl(-0.1);
+                        SrvControl(100);
                     }
                 }
             }
         }
     }
 
-    else{
-        if(Obstacle_flag == 0){
-            if(!is_THRESHOLD()){
-                if(Boundary_RIGHT()){
-                    if(!Over_Boundary_RIGHT()){
-                        SrvControl(Direction_CENTER_RIGHT());
-                    }
-                    else{
-                        SrvControl(-0.8);
-                    }
+    else if(Obstacle_flag == 3){
+        Avoid();
+# 198 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+        switch(WHICH_LANE){
+            case 1:
+                if(IR_AdcResult[1] < 0.25){
+                    Obstacle_flag = 0;
+                    IR_LineData.SchoolZone_Status = 0;
+                    resetPSD();
+                    clear_Dash();
                 }
-            }
+                break;
 
-            else{
-                if(Boundary()){
-                    if(!Over_Boundary()){
-                        SrvControl(Direction_CENTER());
-                    }
-                    else{
-                        if(isEndOfLEFT()){
-                            SrvControl(-0.8);
-                        }
-                        else{
-                            SrvControl(-0.1);
-                        }
-                    }
+            case 2:
+                if(IR_AdcResult[2] < 0.25){
+                    Obstacle_flag = 0;
+                    IR_LineData.SchoolZone_Status = 0;
+                    resetPSD();
+                    clear_Dash();
                 }
-            }
-        }
-
-        else if(Obstacle_flag == 3){
-            SrvControl(-0.4);
+                break;
         }
     }
+
+
+
     clearBuffer();
     clearBuffer_RIGHT();
-# 308 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 303 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
  }
@@ -35940,17 +35923,17 @@ void appTaskfu_10ms(void)
 void appTaskfu_100ms(void)
 {
  task_cnt_100m++;
-# 347 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 342 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 361 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 356 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
-# 392 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 387 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
 

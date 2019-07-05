@@ -72,7 +72,7 @@ typedef struct{
     uint32 Dash_Left;
     uint32 Dash_Right;
     uint32 Next_Lane;
-
+    //for debugging
     uint32 SchoolZone_Status;
 }LineData;
 

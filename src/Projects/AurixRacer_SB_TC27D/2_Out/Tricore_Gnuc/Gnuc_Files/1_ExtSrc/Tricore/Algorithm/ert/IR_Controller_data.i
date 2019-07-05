@@ -31867,6 +31867,8 @@ typedef struct{
     uint32 Dash_Left;
     uint32 Dash_Right;
     uint32 Next_Lane;
+
+    uint32 SchoolZone_Status;
 }LineData;
 
 
@@ -31874,7 +31876,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 90 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 92 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);

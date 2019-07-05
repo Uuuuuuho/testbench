@@ -16919,6 +16919,8 @@ typedef struct{
     uint32 Dash_Left;
     uint32 Dash_Right;
     uint32 Next_Lane;
+
+    uint32 SchoolZone_Status;
 }LineData;
 
 
@@ -16926,7 +16928,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 90 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 92 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -31793,7 +31795,7 @@ void InfineonRacer_init(void){
     IR_LineData.Transfer[1] = 0;
     IR_LineData.Transfer[2] = -1;
 
-    IR_LineData.School_Zone_flag = 1;
+    IR_LineData.School_Zone_flag = 0;
     IR_LineData.Direction_Determined = 0;
     IR_LineData.Direction_Determined_RIGHT = 0;
 }
@@ -31929,7 +31931,7 @@ boolean is_THRESHOLD(void){
     float32 threshold = 500;
 
     for(index = 4; index < 128 - 4; index++){
-        if(IR_LineScan.adcBuffer[0][index] < threshold){
+        if(IR_LineScan.adcResult[0][index] < threshold){
             return 1;
         }
     }
@@ -31952,7 +31954,7 @@ boolean is_THRESHOLD_RIGHT(void){
     float32 threshold = 1500;
 
     for(index = 4; index < 128 - 4; index++){
-        if(IR_LineScan.adcBuffer[1][index] < threshold){
+        if(IR_LineScan.adcResult[1][index] < threshold){
             return 1;
         }
     }
@@ -31966,6 +31968,9 @@ uint32 get_Dash(void){
 
     if(is_THRESHOLD_RIGHT())
         IR_LineData.Dash_Right++;
+
+    IR_LineData.Next_Lane = 2;
+    return 2;
 
     if(IR_LineData.Dash_Left > IR_LineData.Dash_Right){
         IR_LineData.Next_Lane = 2;
@@ -32233,7 +32238,7 @@ float32 Direction_CENTER(void){
 }
 
 float32 Direction_CENTER_RIGHT(void){
-    return (IR_LineData.present_RIGHT - 40);
+    return (MIN_INDEX_RIGHT- IR_LineData.present_RIGHT);
 }
 
 boolean Boundary(void){

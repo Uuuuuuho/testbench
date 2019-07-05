@@ -47,7 +47,7 @@ void InfineonRacer_init(void){
     IR_LineData.Transfer[1] = 0;
     IR_LineData.Transfer[2] = -1;
     
-    IR_LineData.School_Zone_flag = TRUE;
+    IR_LineData.School_Zone_flag = FALSE;
     IR_LineData.Direction_Determined = FALSE;
     IR_LineData.Direction_Determined_RIGHT = FALSE;
 }
@@ -183,7 +183,7 @@ boolean is_THRESHOLD(void){
     float32 threshold = THRESHOLD;
 
     for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-        if(IR_LineScan.adcBuffer[0][index] < threshold){
+        if(IR_LineScan.adcResult[0][index] < threshold){
             return TRUE;
         }
     }
@@ -206,7 +206,7 @@ boolean is_THRESHOLD_RIGHT(void){
     float32 threshold = THRESHOLD_RIGHT;
 
     for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-        if(IR_LineScan.adcBuffer[1][index] < threshold){
+        if(IR_LineScan.adcResult[1][index] < threshold){
             return TRUE;
         }
     }
@@ -220,6 +220,9 @@ uint32 get_Dash(void){
 
     if(is_THRESHOLD_RIGHT())
         IR_LineData.Dash_Right++;
+//for test
+    IR_LineData.Next_Lane = RIGHT_LANE; //다음에 우회전
+    return RIGHT_LANE;
 
     if(IR_LineData.Dash_Left > IR_LineData.Dash_Right){
         IR_LineData.Next_Lane = RIGHT_LANE; //다음에 우회전
@@ -487,7 +490,7 @@ float32 Direction_CENTER(void){
 }
 
 float32 Direction_CENTER_RIGHT(void){
-    return (IR_LineData.present_RIGHT - CENTER_INDEX);
+    return (MIN_INDEX_RIGHT- IR_LineData.present_RIGHT);
 }
 
 boolean Boundary(void){
