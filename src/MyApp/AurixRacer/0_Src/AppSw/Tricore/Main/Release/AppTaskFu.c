@@ -92,12 +92,13 @@ void appTaskfu_10ms(void)
             }
             
             Avoid();
-            
+            IR_LineData.SchoolZone_Status = ON;
             switch(WHICH_LANE){
                 case LEFT_LANE:
                     if(IR_AdcResult[2] < THRESHOLD_VOL){ //right PSD can't detect anything
                         resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
                         Obstacle_flag = MIDDLE;
+                        IR_LineData.SchoolZone_Status = MIDDLE;
                     }
                     break;
                     
@@ -105,6 +106,7 @@ void appTaskfu_10ms(void)
                     if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't detect anything
                         resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
                         Obstacle_flag = MIDDLE;
+                        IR_LineData.SchoolZone_Status = MIDDLE;
                     }
                     break;
             }
@@ -121,6 +123,7 @@ void appTaskfu_10ms(void)
             case LEFT_LANE:
                 if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
                     Obstacle_flag = OFF;
+                    IR_LineData.SchoolZone_Status = OFF;
                     clear_Dash();
                 }
                 break;
@@ -128,6 +131,7 @@ void appTaskfu_10ms(void)
             case RIGHT_LANE:
                 if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
                     Obstacle_flag = OFF;
+                    IR_LineData.SchoolZone_Status = OFF;
                     clear_Dash();
                 }
                 break;
@@ -232,6 +236,7 @@ void appTaskfu_10ms(void)
 
 #endif
 
+//BUFFER idea를 사용하는 경우
 #if BUFFER == ON
     //get line data in every 0.01 sec
     if(task_cnt_10m % 5 == 0){

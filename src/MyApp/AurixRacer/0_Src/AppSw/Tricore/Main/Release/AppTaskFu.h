@@ -25,6 +25,7 @@
 #define CONVOLUTION OFF
 #define LINE_THRESHOLD ON
 #define BUFFER OFF
+#define ADD_MIDDLE OFF
 
 //macro
 #define LEFT_LANE 1

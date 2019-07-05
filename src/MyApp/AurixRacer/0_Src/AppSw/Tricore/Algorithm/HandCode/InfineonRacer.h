@@ -72,6 +72,8 @@ typedef struct{
     uint32 Dash_Left;
     uint32 Dash_Right;
     uint32 Next_Lane;
+
+    uint32 SchoolZone_Status;
 }LineData;
 
 /******************************************************************************/
