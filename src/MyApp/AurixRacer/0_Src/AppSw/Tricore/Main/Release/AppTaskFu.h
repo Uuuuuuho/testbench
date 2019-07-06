@@ -6,6 +6,7 @@
 #include "Basic.h"
 #include "AsclinShellInterface.h"
 #include "InfineonRacer.h"
+#include "PID.h"
 #include "IR_Controller.h"
 
 #if BOARD == APPLICATION_KIT_TC237

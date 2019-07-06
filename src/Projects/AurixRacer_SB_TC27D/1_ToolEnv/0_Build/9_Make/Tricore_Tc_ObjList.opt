@@ -9,6 +9,7 @@
 "2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Algorithm/ert/IR_Controller.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Algorithm/ert/IR_Controller_data.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Algorithm/HandCode/InfineonRacer.o"
+"2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Algorithm/HandCode/PID.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Main/Release/AppTaskFu.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Main/Release/Cpu0_Main.o"
 "2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Main/Release/Cpu1_Main.o"

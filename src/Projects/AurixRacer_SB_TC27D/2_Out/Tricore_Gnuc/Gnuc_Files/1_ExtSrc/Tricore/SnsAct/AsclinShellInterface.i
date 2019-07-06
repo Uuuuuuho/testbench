@@ -35537,6 +35537,48 @@ extern float32 Direction(void);
 extern float32 Direction_CENTER(void);
 extern float32 Direction_CENTER_RIGHT(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
+# 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.h" 1
+# 25 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.h"
+typedef struct{
+    float32 TargetSpeed;
+    float32 SamplingTime;
+    float32 Time;
+    float32 error;
+    float32 current;
+    float32 pre_error;
+    float32 max;
+    float32 min;
+    float32 Pout;
+    float32 Iout;
+    float32 integral;
+    float32 Dout;
+    float32 derivative;
+    float32 output;
+    float32 nextSpeed;
+
+
+    float32 Kp;
+    float32 Ki;
+    float32 Kd;
+}PID_Control;
+
+
+
+
+
+extern PID_Control IR_PID_Control;
+
+
+
+
+extern void PID_init (void);
+extern void PID_control(void);
+extern void get_Speed(float32 speed);
+extern void set_Speed(float32 target);
+extern void set_propotion(float32 P, float32 I, float32 D);
+extern void set_SamplingTime(float32 time);
+extern void set_Min_Max_Output(float32 min, float32 max);
+# 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h" 1
 # 24 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/rtwtypes.h" 1
@@ -35691,8 +35733,8 @@ extern void IR_Controller_terminate(void);
 
 
 extern RT_MODEL_IR_Controller *const IR_Controller_M;
-# 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
-# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
+# 11 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
+# 36 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
 extern boolean task_flag_1m;
 extern boolean task_flag_10m;
 extern boolean task_flag_100m;

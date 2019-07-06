@@ -35512,6 +35512,48 @@ extern float32 Direction(void);
 extern float32 Direction_CENTER(void);
 extern float32 Direction_CENTER_RIGHT(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
+# 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.h" 1
+# 25 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.h"
+typedef struct{
+    float32 TargetSpeed;
+    float32 SamplingTime;
+    float32 Time;
+    float32 error;
+    float32 current;
+    float32 pre_error;
+    float32 max;
+    float32 min;
+    float32 Pout;
+    float32 Iout;
+    float32 integral;
+    float32 Dout;
+    float32 derivative;
+    float32 output;
+    float32 nextSpeed;
+
+
+    float32 Kp;
+    float32 Ki;
+    float32 Kd;
+}PID_Control;
+
+
+
+
+
+extern PID_Control IR_PID_Control;
+
+
+
+
+extern void PID_init (void);
+extern void PID_control(void);
+extern void get_Speed(float32 speed);
+extern void set_Speed(float32 target);
+extern void set_propotion(float32 P, float32 I, float32 D);
+extern void set_SamplingTime(float32 time);
+extern void set_Min_Max_Output(float32 min, float32 max);
+# 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h" 1
 # 24 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/rtwtypes.h" 1
@@ -35666,8 +35708,8 @@ extern void IR_Controller_terminate(void);
 
 
 extern RT_MODEL_IR_Controller *const IR_Controller_M;
-# 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
-# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
+# 11 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
+# 36 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
 extern boolean task_flag_1m;
 extern boolean task_flag_10m;
 extern boolean task_flag_100m;
@@ -35708,21 +35750,28 @@ boolean task_flag_1000m = 0;
 
 float32 testVol = 1;
 float32 testSrv = 0;
-float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0, NextVol = 0;
 float32 signORunsign = 0;
 uint32 Obstacle_flag = 0;
+
+
 
 uint32 WHICH_LANE = 1;
 
 void appTaskfu_init(void){
- BasicLineScan_init();
- BasicPort_init();
+    BasicLineScan_init();
+    BasicPort_init();
     BasicGtmTom_init();
     BasicVadcBgScan_init();
     BasicGpt12Enc_init();
     AsclinShellInterface_init();
+    PID_init();
+
+
+
+
+
     IR_Encoder.buff = 0;
-# 38 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 45 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
     InfineonRacer_init();
 
 
@@ -35869,7 +35918,7 @@ void appTaskfu_10ms(void)
 
     else if(Obstacle_flag == 3){
         Avoid();
-# 198 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 205 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
         switch(WHICH_LANE){
             case 1:
                 if(IR_AdcResult[1] < 0.25){
@@ -35895,7 +35944,7 @@ void appTaskfu_10ms(void)
 
     clearBuffer();
     clearBuffer_RIGHT();
-# 303 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 310 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
  }
@@ -35923,17 +35972,17 @@ void appTaskfu_10ms(void)
 void appTaskfu_100ms(void)
 {
  task_cnt_100m++;
-# 342 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 349 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 356 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 363 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
-# 387 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 394 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
 
@@ -35962,11 +36011,6 @@ void appIsrCb_1ms(void){
 
 }
 
-void PID(void){
-    Current_Speed = IR_Encoder.speed;
-    error = Target_speeed - Current_Speed;
-    Current_Speed = Current_Speed + Kp * error;
-}
 
 void Speed2Vol(void){
 

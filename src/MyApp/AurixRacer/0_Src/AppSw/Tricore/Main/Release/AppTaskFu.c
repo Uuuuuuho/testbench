@@ -12,19 +12,26 @@ boolean task_flag_1000m = FALSE;
 
 float32 testVol = 1;
 float32 testSrv = 0;
-float32 Target_speeed = 0, error = 0, Kp = 0, Current_Speed = 0, NextVol = 0;
 float32 signORunsign = 0;
 uint32 Obstacle_flag = FALSE;
-
+//float32 P = 0,I = 0, D = 0;   //PID control test
+//float32 time = 0;             //PID sampling time
+//float32 speed_min = 0, speed_max = 0; //PID min, max configuration
 uint32 WHICH_LANE = LEFT_LANE;
 
 void appTaskfu_init(void){
-	BasicLineScan_init();
-	BasicPort_init();
+    BasicLineScan_init();
+    BasicPort_init();
     BasicGtmTom_init();
     BasicVadcBgScan_init();
     BasicGpt12Enc_init();
     AsclinShellInterface_init();
+    PID_init();
+    /* for PID tuning
+    set_propotion(P,I,D)
+    set_SamplingTime(time)
+    set_Min_Max_Output(speed_min, speed_max);
+    */
     IR_Encoder.buff = 0;
     
 #if BOARD == APPLICATION_KIT_TC237
@@ -412,11 +419,6 @@ void appIsrCb_1ms(void){
 //    Speed_Avg();
 }
 
-void PID(void){
-    Current_Speed = IR_Encoder.speed;
-    error = Target_speeed - Current_Speed;
-    Current_Speed = Current_Speed + Kp * error;
-}
 
 void Speed2Vol(void){
     //write equation to convert 'Current_Speed' to Vol through the linear equation
