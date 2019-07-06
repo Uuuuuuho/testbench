@@ -31684,7 +31684,7 @@ extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
 extern void Speed_Avg(void);
 
-void SpeedCalculation(void);
+extern float32 SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 7 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.h" 1
@@ -35554,6 +35554,7 @@ extern void set_propotion(float32 P, float32 I, float32 D);
 extern void set_SamplingTime(float32 time);
 extern void set_Min_Max_Output(float32 min, float32 max);
 extern float32 next_Vol();
+extern boolean initial_speed(void);
 # 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h" 1
 # 24 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h"
@@ -35751,10 +35752,10 @@ float32 testVol = 1;
 float32 testSrv = 0;
 float32 signORunsign = 0;
 uint32 Obstacle_flag = 0;
-float32 Speed_Out_Of_School_Zone = 1.0;
+float32 Speed_Out_Of_School_Zone = 10;
 float32 P = 10,I = 0.1, D = 1;
-float32 time = 1;
-float32 speed_min = -0.05, speed_max = 0.05;
+float32 time = 0.1;
+float32 speed_min = -0.005, speed_max = 0.005;
 uint32 WHICH_LANE = 1;
 
 void appTaskfu_init(void){
@@ -35767,8 +35768,8 @@ void appTaskfu_init(void){
     PID_init();
 
 
-    set_propotion(P,I,D)
-    set_SamplingTime(time)
+    set_propotion(P,I,D);
+    set_SamplingTime(time);
     set_Min_Max_Output(speed_min, speed_max);
 
     IR_Encoder.buff = 0;
@@ -35808,6 +35809,26 @@ void appTaskfu_10ms(void)
 {
  task_cnt_10m++;
 
+
+
+    Speed_Buff();
+    if(task_cnt_10m % 50 == 0){
+        Speed_Avg();
+        get_Speed(SpeedCalculation());
+
+        if(!initial_speed()){
+            IR_setMotor0Vol(-0.7);
+        }
+
+        else{
+            set_Speed(Speed_Out_Of_School_Zone);
+            PID_control();
+            IR_setMotor0Vol(next_Vol());
+        }
+    }
+
+
+
     Speed_Avg();
 
 
@@ -35818,7 +35839,7 @@ void appTaskfu_10ms(void)
         IR_LineData.SchoolZone_Status = 1;
 
         if(!IR_LineData.School_Zone_flag){
-            AEB();
+
         }
 
         else{
@@ -35887,7 +35908,7 @@ void appTaskfu_10ms(void)
                 if(Boundary_RIGHT()){
                     if(!Over_Boundary_RIGHT()){
 
-                        SrvControl(100);
+                        SrvControl(-100);
                     }
                     else{
                         SrvControl(Direction_CENTER_RIGHT());
@@ -35897,7 +35918,7 @@ void appTaskfu_10ms(void)
                     ;
             }
             else
-                SrvControl(-100);
+                SrvControl(100);
         }
 
         else{
@@ -35907,10 +35928,10 @@ void appTaskfu_10ms(void)
                 }
                 else{
                     if(isEndOfLEFT()){
-                        SrvControl(-100);
+                        SrvControl(100);
                     }
                     else{
-                        SrvControl(100);
+                        SrvControl(-100);
                     }
                 }
             }
@@ -35919,7 +35940,7 @@ void appTaskfu_10ms(void)
 
     else if(Obstacle_flag == 3){
         Avoid();
-# 207 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 227 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
         switch(WHICH_LANE){
             case 1:
                 if(IR_AdcResult[1] < 0.25){
@@ -35945,7 +35966,7 @@ void appTaskfu_10ms(void)
 
     clearBuffer();
     clearBuffer_RIGHT();
-# 308 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 328 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
  }
@@ -35976,12 +35997,6 @@ void appTaskfu_100ms(void)
 
 
 
-    get_Speed(IR_Encoder.speed/ 2 / 3.141592 / 13 *0.22));
-    set_Speed(Speed_Out_Of_School_Zone);
-    PID_control();
-    IR_setMotor0Vol(next_Vol());
-
-
 
 
 
@@ -35989,13 +36004,13 @@ void appTaskfu_100ms(void)
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 362 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 376 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
-# 393 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 407 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
 

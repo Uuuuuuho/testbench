@@ -31,8 +31,8 @@
 #define TURN_LEFT 1
 #define TURN_RIGHT 2
 #define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
-#define THRESHOLD 500
-#define THRESHOLD_RIGHT 1500
+#define THRESHOLD 1300
+#define THRESHOLD_RIGHT 500
 
 #define LEFT_LANE 1
 #define RIGHT_LANE 2

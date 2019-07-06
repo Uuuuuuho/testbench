@@ -16940,6 +16940,7 @@ extern void set_propotion(float32 P, float32 I, float32 D);
 extern void set_SamplingTime(float32 time);
 extern void set_Min_Max_Output(float32 min, float32 max);
 extern float32 next_Vol();
+extern boolean initial_speed(void);
 # 5 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.c" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 1
 
@@ -31733,7 +31734,7 @@ extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
 extern void Speed_Avg(void);
 
-void SpeedCalculation(void);
+extern float32 SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 6 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.c" 2
 # 23 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.c"
@@ -31797,6 +31798,7 @@ void PID_control(void){
 
 void get_Speed(float32 speed){
     IR_PID_Control.current = speed;
+    printf("%f \n", IR_PID_Control.current);
 }
 
 void set_Speed(float32 target){
@@ -31818,5 +31820,12 @@ void set_Min_Max_Output(float32 min, float32 max){
 }
 
 float32 next_Vol(){
-    return (IR_PID_Control.nextSpeed-1.943)/2;
+    return (IR_PID_Control.nextSpeed-1.12)/1.03;
+}
+
+boolean initial_speed(){
+    if(IR_PID_Control.current > 0.05)
+        return 1;
+    else
+        return 0;
 }

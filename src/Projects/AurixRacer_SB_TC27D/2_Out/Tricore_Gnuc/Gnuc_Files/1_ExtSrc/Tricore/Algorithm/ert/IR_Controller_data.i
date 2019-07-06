@@ -31837,7 +31837,7 @@ extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
 extern void Speed_Avg(void);
 
-void SpeedCalculation(void);
+extern float32 SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 26 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_private.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h" 1

@@ -35441,7 +35441,7 @@ extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
 extern void Speed_Avg(void);
 
-void SpeedCalculation(void);
+extern float32 SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 7 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.h" 1
@@ -35579,6 +35579,7 @@ extern void set_propotion(float32 P, float32 I, float32 D);
 extern void set_SamplingTime(float32 time);
 extern void set_Min_Max_Output(float32 min, float32 max);
 extern float32 next_Vol();
+extern boolean initial_speed(void);
 # 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h" 1
 # 24 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h"

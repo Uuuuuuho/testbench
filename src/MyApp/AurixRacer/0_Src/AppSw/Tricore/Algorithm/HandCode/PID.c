@@ -98,6 +98,7 @@ void PID_control(void){
 
 void get_Speed(float32 speed){
     IR_PID_Control.current = speed;
+    printf("%f \n", IR_PID_Control.current);
 }
 
 void set_Speed(float32 target){
@@ -119,10 +120,15 @@ void set_Min_Max_Output(float32 min, float32 max){
 }
 
 float32 next_Vol(){
-    return (IR_PID_Control.nextSpeed-1.943)/2;
+    return (IR_PID_Control.nextSpeed-1.12)/1.03;
 }
 
-
+boolean initial_speed(){
+    if(IR_PID_Control.current > 0.05)
+        return TRUE;
+    else
+        return FALSE;
+}
 
 
 

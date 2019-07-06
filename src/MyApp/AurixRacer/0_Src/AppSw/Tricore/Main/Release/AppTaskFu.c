@@ -14,10 +14,10 @@ float32 testVol = 1;
 float32 testSrv = 0;
 float32 signORunsign = 0;
 uint32 Obstacle_flag = FALSE;
-float32 Speed_Out_Of_School_Zone = 1.0;
+float32 Speed_Out_Of_School_Zone = 10;
 float32 P = 10,I = 0.1, D = 1;   //PID control test
-float32 time = 1;             //PID sampling time
-float32 speed_min = -0.05, speed_max = 0.05; //PID min, max configuration
+float32 time = 0.1;             //PID sampling time
+float32 speed_min = -0.005, speed_max = 0.005; //PID min, max configuration
 uint32 WHICH_LANE = LEFT_LANE;
 
 void appTaskfu_init(void){
@@ -30,8 +30,8 @@ void appTaskfu_init(void){
     PID_init();
 
     // for PID tuning
-    set_propotion(P,I,D)
-    set_SamplingTime(time)
+    set_propotion(P,I,D);
+    set_SamplingTime(time);
     set_Min_Max_Output(speed_min, speed_max);
     
     IR_Encoder.buff = 0;
@@ -78,6 +78,26 @@ void appTaskfu_1ms(void)
 void appTaskfu_10ms(void)
 {
 	task_cnt_10m++;
+    
+#if PID_TEST == ON
+
+    Speed_Buff();
+    if(task_cnt_10m % 50 == 0){
+        Speed_Avg();
+        get_Speed(SpeedCalculation());    //get current speed
+            
+        if(!initial_speed()){
+            IR_setMotor0Vol(-0.7);
+        }
+        
+        else{
+            set_Speed(Speed_Out_Of_School_Zone);                        //set next speed
+            PID_control();                                      //calculate next speed
+            IR_setMotor0Vol(next_Vol());    //set next speed voltage
+        }
+    }
+#endif
+
     //empty buffer after calculating average of speed
     Speed_Avg();
 #if BUFFER == OFF   
@@ -89,7 +109,7 @@ void appTaskfu_10ms(void)
         IR_LineData.SchoolZone_Status = ON; //to debug
 
         if(!IR_LineData.School_Zone_flag){  //Out of school zone
-            AEB();
+//            AEB();
         }
         
         else{   //In school zone
@@ -158,7 +178,7 @@ void appTaskfu_10ms(void)
                 if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
                     if(!Over_Boundary_RIGHT()){   
                         //when stick to right side
-                        SrvControl(100);    //turn left
+                        SrvControl(-100);    //turn left
                     }
                     else{   //when out of boundary
                         SrvControl(Direction_CENTER_RIGHT());     //turn left to detect line, when not able to detect on the left and right at the same time
@@ -168,7 +188,7 @@ void appTaskfu_10ms(void)
                     ;//right lane in the boundary. do nothing
             }
             else    //left & right lane not detected    
-                SrvControl(-100);   //turn right
+                SrvControl(100);   //turn right
         }
         
         else{   //left lane detected
@@ -178,10 +198,10 @@ void appTaskfu_10ms(void)
                 }
                 else{   //when out of boundary
                     if(isEndOfLEFT()){  //when car stick to left side
-                        SrvControl(-100);   //turn right
+                        SrvControl(100);   //turn right
                     }
                     else{
-                        SrvControl(100);    //turn left to detect line
+                        SrvControl(-100);    //turn left to detect line
                     }
                 }
             }
@@ -334,12 +354,6 @@ void appTaskfu_100ms(void)
 	task_cnt_100m++;
 
 
-#if PID_TEST == ON
-    get_Speed(IR_getEncSpeed()/ 2 / PI / 13 *0.22));    //get current speed
-    set_Speed(Speed_Out_Of_School_Zone);                        //set next speed
-    PID_control();                                      //calculate next speed
-    IR_setMotor0Vol(next_Vol());    //set next speed voltage
-#endif
 
 #if ENCODER_TEST == ON
     printf("%f\n", IR_Encoder.speed);
