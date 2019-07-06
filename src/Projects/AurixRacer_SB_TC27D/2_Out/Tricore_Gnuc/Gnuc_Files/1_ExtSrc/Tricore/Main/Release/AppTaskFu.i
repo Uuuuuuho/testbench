@@ -35553,6 +35553,7 @@ extern void set_Speed(float32 target);
 extern void set_propotion(float32 P, float32 I, float32 D);
 extern void set_SamplingTime(float32 time);
 extern void set_Min_Max_Output(float32 min, float32 max);
+extern float32 next_Vol();
 # 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h" 1
 # 24 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h"
@@ -35730,8 +35731,6 @@ typedef struct{
 
 
 
-void PID(void);
-void Speed2Vol(void);
 void SrvControl(float32);
 
 void AEB(void);
@@ -35752,9 +35751,10 @@ float32 testVol = 1;
 float32 testSrv = 0;
 float32 signORunsign = 0;
 uint32 Obstacle_flag = 0;
-
-
-
+float32 Speed_Out_Of_School_Zone = 1.0;
+float32 P = 10,I = 0.1, D = 1;
+float32 time = 1;
+float32 speed_min = -0.05, speed_max = 0.05;
 uint32 WHICH_LANE = 1;
 
 void appTaskfu_init(void){
@@ -35767,11 +35767,12 @@ void appTaskfu_init(void){
     PID_init();
 
 
-
-
+    set_propotion(P,I,D)
+    set_SamplingTime(time)
+    set_Min_Max_Output(speed_min, speed_max);
 
     IR_Encoder.buff = 0;
-# 45 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 47 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
     InfineonRacer_init();
 
 
@@ -35918,7 +35919,7 @@ void appTaskfu_10ms(void)
 
     else if(Obstacle_flag == 3){
         Avoid();
-# 205 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 207 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
         switch(WHICH_LANE){
             case 1:
                 if(IR_AdcResult[1] < 0.25){
@@ -35944,7 +35945,7 @@ void appTaskfu_10ms(void)
 
     clearBuffer();
     clearBuffer_RIGHT();
-# 310 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 308 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_10m == 1000){
   task_cnt_10m = 0;
  }
@@ -35972,17 +35973,29 @@ void appTaskfu_10ms(void)
 void appTaskfu_100ms(void)
 {
  task_cnt_100m++;
-# 349 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+
+
+
+    get_Speed(IR_Encoder.speed/ 2 / 3.141592 / 13 *0.22));
+    set_Speed(Speed_Out_Of_School_Zone);
+    PID_control();
+    IR_setMotor0Vol(next_Vol());
+
+
+
+
+
+
  if(task_cnt_100m == 1000){
   task_cnt_100m = 0;
  }
-# 363 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 362 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
 }
 
 void appTaskfu_1000ms(void)
 {
  task_cnt_1000m++;
-# 394 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
+# 393 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.c"
  if(task_cnt_1000m == 1000){
   task_cnt_1000m = 0;
 
@@ -36012,10 +36025,6 @@ void appIsrCb_1ms(void){
 }
 
 
-void Speed2Vol(void){
-
-
-}
 
 void SrvControl(float32 diff){
 

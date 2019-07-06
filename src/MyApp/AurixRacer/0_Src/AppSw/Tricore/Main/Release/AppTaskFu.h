@@ -22,7 +22,7 @@
 #define OFF 0
 
 #define ENCODER_TEST OFF
-#define PID_TEST OFF
+#define PID_TEST ON
 #define CONVOLUTION OFF
 #define LINE_THRESHOLD ON
 #define BUFFER OFF
@@ -53,8 +53,6 @@ typedef struct{
 
 //global variable
 
-void PID(void);
-void Speed2Vol(void);
 void SrvControl(float32);
 
 void AEB(void);

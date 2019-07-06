@@ -61,6 +61,7 @@ IFX_EXTERN void set_Speed(float32 target);
 IFX_EXTERN void set_propotion(float32 P, float32 I, float32 D);
 IFX_EXTERN void set_SamplingTime(float32 time);
 IFX_EXTERN void set_Min_Max_Output(float32 min, float32 max);
+IFX_EXTERN float32 next_Vol();
 
 
 #endif

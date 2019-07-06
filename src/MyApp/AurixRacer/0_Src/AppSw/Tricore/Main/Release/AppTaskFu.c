@@ -14,9 +14,10 @@ float32 testVol = 1;
 float32 testSrv = 0;
 float32 signORunsign = 0;
 uint32 Obstacle_flag = FALSE;
-//float32 P = 0,I = 0, D = 0;   //PID control test
-//float32 time = 0;             //PID sampling time
-//float32 speed_min = 0, speed_max = 0; //PID min, max configuration
+float32 Speed_Out_Of_School_Zone = 1.0;
+float32 P = 10,I = 0.1, D = 1;   //PID control test
+float32 time = 1;             //PID sampling time
+float32 speed_min = -0.05, speed_max = 0.05; //PID min, max configuration
 uint32 WHICH_LANE = LEFT_LANE;
 
 void appTaskfu_init(void){
@@ -27,11 +28,12 @@ void appTaskfu_init(void){
     BasicGpt12Enc_init();
     AsclinShellInterface_init();
     PID_init();
-    /* for PID tuning
+
+    // for PID tuning
     set_propotion(P,I,D)
     set_SamplingTime(time)
     set_Min_Max_Output(speed_min, speed_max);
-    */
+    
     IR_Encoder.buff = 0;
     
 #if BOARD == APPLICATION_KIT_TC237
@@ -302,10 +304,6 @@ void appTaskfu_10ms(void)
 	IR_setMotor0Vol(testVol);
 #endif
 
-#if PID_TEST == ON
-    IR_setMotor0Vol(NextVol);   //calculated by PID & Speed2Vol(void)
-#endif
-
     
 	if(task_cnt_10m == 1000){
 		task_cnt_10m = 0;
@@ -337,9 +335,10 @@ void appTaskfu_100ms(void)
 
 
 #if PID_TEST == ON
-    PID(void);
-    Speed2Vol(void);
-    
+    get_Speed(IR_getEncSpeed()/ 2 / PI / 13 *0.22));    //get current speed
+    set_Speed(Speed_Out_Of_School_Zone);                        //set next speed
+    PID_control();                                      //calculate next speed
+    IR_setMotor0Vol(next_Vol());    //set next speed voltage
 #endif
 
 #if ENCODER_TEST == ON
@@ -420,10 +419,6 @@ void appIsrCb_1ms(void){
 }
 
 
-void Speed2Vol(void){
-    //write equation to convert 'Current_Speed' to Vol through the linear equation
-    //NextVol = ~~~
-}
 
 void SrvControl(float32 diff){
 

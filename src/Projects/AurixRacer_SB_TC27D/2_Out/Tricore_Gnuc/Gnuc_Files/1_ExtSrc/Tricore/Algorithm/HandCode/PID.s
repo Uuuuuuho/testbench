@@ -228,6 +228,40 @@ set_Min_Max_Output:
 	ret
 .LFE583:
 	.size	set_Min_Max_Output, .-set_Min_Max_Output
+	.global	__extendsfdf2
+	.global	__subdf3
+	.global	__muldf3
+	.global	__truncdfsf2
+.section .text.next_Vol,"ax",@progbits
+	.align 1
+	.global	next_Vol
+	.type	next_Vol, @function
+next_Vol:
+.LFB584:
+	.loc 1 121 0
+	.loc 1 122 0
+	movh.a	%a15, hi:IR_PID_Control
+	lea	%a15, [%a15] lo:IR_PID_Control
+	ld.w	%d4, [%a15] 56
+	call	__extendsfdf2
+.LVL5:
+	mov	%e4, %d3, %d2
+	movh	%d7, 16383
+	movh	%d6, 11010
+	addi	%d7, %d7, 5767
+	addi	%d6, %d6, 3146
+	call	__subdf3
+.LVL6:
+	mov	%e4, %d3, %d2
+	imask	%e6, 0, 21, 9
+	call	__muldf3
+.LVL7:
+	mov	%e4, %d3, %d2
+	.loc 1 123 0
+	j	__truncdfsf2
+.LVL8:
+.LFE584:
+	.size	next_Vol, .-next_Vol
 	.global	IR_PID_Control
 .section .bss.IR_PID_Control,"aw",@nobits
 	.align 2
@@ -306,6 +340,14 @@ IR_PID_Control:
 	.uaword	.LFE583-.LFB583
 	.align 2
 .LEFDE12:
+.LSFDE14:
+	.uaword	.LEFDE14-.LASFDE14
+.LASFDE14:
+	.uaword	.Lframe0
+	.uaword	.LFB584
+	.uaword	.LFE584-.LFB584
+	.align 2
+.LEFDE14:
 .section .text,"ax",@progbits
 .Letext0:
 	.file 2 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Cpu/Std/Platform_Types.h"
@@ -315,7 +357,7 @@ IR_PID_Control:
 	.file 6 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/Service/CpuGeneric/SysSe/Bsp/Assert.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x622
+	.uaword	0x63d
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -707,6 +749,16 @@ IR_PID_Control:
 	.byte	0x55
 	.byte	0
 	.uleb128 0xd
+	.byte	0x1
+	.string	"next_Vol"
+	.byte	0x1
+	.byte	0x79
+	.uaword	0x23e
+	.uaword	.LFB584
+	.uaword	.LFE584
+	.byte	0x1
+	.byte	0x9c
+	.uleb128 0xe
 	.string	"IR_PID_Control"
 	.byte	0x1
 	.byte	0x17
@@ -715,23 +767,23 @@ IR_PID_Control:
 	.byte	0x5
 	.byte	0x3
 	.uaword	IR_PID_Control
-	.uleb128 0xe
-	.uaword	0x2c0
-	.uaword	0x5e6
 	.uleb128 0xf
+	.uaword	0x2c0
+	.uaword	0x601
+	.uleb128 0x10
 	.uaword	0x2ea
 	.byte	0x2
 	.byte	0
-	.uleb128 0x10
+	.uleb128 0x11
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x5
 	.byte	0x96
-	.uaword	0x603
+	.uaword	0x61e
 	.byte	0x1
 	.byte	0x1
+	.uleb128 0x12
+	.uaword	0x5f1
 	.uleb128 0x11
-	.uaword	0x5d6
-	.uleb128 0x10
 	.string	"Assert_verboseLevel"
 	.byte	0x6
 	.byte	0x79
@@ -914,6 +966,27 @@ IR_PID_Control:
 	.byte	0
 	.byte	0
 	.uleb128 0xd
+	.uleb128 0x2e
+	.byte	0
+	.uleb128 0x3f
+	.uleb128 0xc
+	.uleb128 0x3
+	.uleb128 0x8
+	.uleb128 0x3a
+	.uleb128 0xb
+	.uleb128 0x3b
+	.uleb128 0xb
+	.uleb128 0x49
+	.uleb128 0x13
+	.uleb128 0x11
+	.uleb128 0x1
+	.uleb128 0x12
+	.uleb128 0x1
+	.uleb128 0x40
+	.uleb128 0xa
+	.byte	0
+	.byte	0
+	.uleb128 0xe
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -930,7 +1003,7 @@ IR_PID_Control:
 	.uleb128 0xa
 	.byte	0
 	.byte	0
-	.uleb128 0xe
+	.uleb128 0xf
 	.uleb128 0x1
 	.byte	0x1
 	.uleb128 0x49
@@ -939,7 +1012,7 @@ IR_PID_Control:
 	.uleb128 0x13
 	.byte	0
 	.byte	0
-	.uleb128 0xf
+	.uleb128 0x10
 	.uleb128 0x21
 	.byte	0
 	.uleb128 0x49
@@ -948,7 +1021,7 @@ IR_PID_Control:
 	.uleb128 0xb
 	.byte	0
 	.byte	0
-	.uleb128 0x10
+	.uleb128 0x11
 	.uleb128 0x34
 	.byte	0
 	.uleb128 0x3
@@ -965,7 +1038,7 @@ IR_PID_Control:
 	.uleb128 0xc
 	.byte	0
 	.byte	0
-	.uleb128 0x11
+	.uleb128 0x12
 	.uleb128 0x26
 	.byte	0
 	.uleb128 0x49
@@ -974,7 +1047,7 @@ IR_PID_Control:
 	.byte	0
 	.byte	0
 .section .debug_aranges,"",@progbits
-	.uaword	0x4c
+	.uaword	0x54
 	.uahalf	0x2
 	.uaword	.Ldebug_info0
 	.byte	0x4
@@ -995,6 +1068,8 @@ IR_PID_Control:
 	.uaword	.LFE582-.LFB582
 	.uaword	.LFB583
 	.uaword	.LFE583-.LFB583
+	.uaword	.LFB584
+	.uaword	.LFE584-.LFB584
 	.uaword	0
 	.uaword	0
 .section .debug_ranges,"",@progbits
@@ -1013,6 +1088,8 @@ IR_PID_Control:
 	.uaword	.LFE582
 	.uaword	.LFB583
 	.uaword	.LFE583
+	.uaword	.LFB584
+	.uaword	.LFE584
 	.uaword	0
 	.uaword	0
 .section .debug_line,"",@progbits

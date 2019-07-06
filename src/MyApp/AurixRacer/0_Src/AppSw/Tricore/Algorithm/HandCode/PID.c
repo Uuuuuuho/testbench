@@ -118,3 +118,17 @@ void set_Min_Max_Output(float32 min, float32 max){
     IR_PID_Control.max = max;
 }
 
+float32 next_Vol(){
+    return (IR_PID_Control.nextSpeed-1.943)/2;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -35568,6 +35568,7 @@ extern void set_Speed(float32 target);
 extern void set_propotion(float32 P, float32 I, float32 D);
 extern void set_SamplingTime(float32 time);
 extern void set_Min_Max_Output(float32 min, float32 max);
+extern float32 next_Vol();
 # 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h" 1
 # 24 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h"
@@ -35745,8 +35746,6 @@ typedef struct{
 
 
 
-void PID(void);
-void Speed2Vol(void);
 void SrvControl(float32);
 
 void AEB(void);

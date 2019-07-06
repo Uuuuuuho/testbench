@@ -16939,6 +16939,7 @@ extern void set_Speed(float32 target);
 extern void set_propotion(float32 P, float32 I, float32 D);
 extern void set_SamplingTime(float32 time);
 extern void set_Min_Max_Output(float32 min, float32 max);
+extern float32 next_Vol();
 # 5 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.c" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 1
 
@@ -31814,4 +31815,8 @@ void set_SamplingTime(float32 time){
 void set_Min_Max_Output(float32 min, float32 max){
     IR_PID_Control.min = min;
     IR_PID_Control.max = max;
+}
+
+float32 next_Vol(){
+    return (IR_PID_Control.nextSpeed-1.943)/2;
 }
