@@ -120,7 +120,7 @@ void set_Min_Max_Output(float32 min, float32 max){
 }
 
 float32 next_Vol(){
-    return (IR_PID_Control.nextSpeed-1.12)/1.03;
+    return (IR_PID_Control.nextSpeed-0.494)/0.306;
 }
 
 boolean initial_speed(){

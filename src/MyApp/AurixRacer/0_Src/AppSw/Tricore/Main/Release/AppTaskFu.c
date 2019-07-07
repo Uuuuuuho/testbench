@@ -30,9 +30,9 @@ void appTaskfu_init(void){
     PID_init();
 
     // for PID tuning
-    set_propotion(P,I,D);
-    set_SamplingTime(time);
-    set_Min_Max_Output(speed_min, speed_max);
+//    set_propotion(P,I,D);
+//    set_SamplingTime(time);
+//    set_Min_Max_Output(speed_min, speed_max);
     
     IR_Encoder.buff = 0;
     
@@ -178,17 +178,17 @@ void appTaskfu_10ms(void)
                 if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
                     if(!Over_Boundary_RIGHT()){   
                         //when stick to right side
-                        SrvControl(-100);    //turn left
+                        SrvControl(100);    //turn left
                     }
                     else{   //when out of boundary
                         SrvControl(Direction_CENTER_RIGHT());     //turn left to detect line, when not able to detect on the left and right at the same time
                     }
                 }
                 else
-                    ;//right lane in the boundary. do nothing
+                    SrvControl(0);//right lane in the boundary. go straight
             }
             else    //left & right lane not detected    
-                SrvControl(100);   //turn right
+                SrvControl(100);   //turn left
         }
         
         else{   //left lane detected
@@ -198,12 +198,15 @@ void appTaskfu_10ms(void)
                 }
                 else{   //when out of boundary
                     if(isEndOfLEFT()){  //when car stick to left side
-                        SrvControl(100);   //turn right
+                        SrvControl(-100);   //turn right
                     }
                     else{
-                        SrvControl(-100);    //turn left to detect line
+                        SrvControl(100);    //turn left to detect line
                     }
                 }
+            }
+            else{   //go straight
+                SrvControl(0);
             }
         }
     }
