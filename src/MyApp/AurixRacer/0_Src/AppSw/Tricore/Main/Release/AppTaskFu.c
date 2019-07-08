@@ -235,29 +235,30 @@ void appTaskfu_10ms(void)
         }
         
 #endif
+        if(task_cnt_10m % 50 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
 
-        switch(WHICH_LANE){
-            case LEFT_LANE:
-                if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
-                    Obstacle_flag = OFF;
-                    IR_LineData.SchoolZone_Status = OFF;
-                    resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
-                    clear_Dash();
-                }
-                break;
-                
-            case RIGHT_LANE:
-                if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
-                    Obstacle_flag = OFF;
-                    IR_LineData.SchoolZone_Status = OFF;
-                    resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
-                    clear_Dash();
-                }
-                break;
+            switch(WHICH_LANE){
+                case LEFT_LANE:
+                    if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
+                        Obstacle_flag = OFF;
+                        IR_LineData.SchoolZone_Status = OFF;
+                        resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
+                        clear_Dash();
+                    }
+                    break;
+                    
+                case RIGHT_LANE:
+                    if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
+                        Obstacle_flag = OFF;
+                        IR_LineData.SchoolZone_Status = OFF;
+                        resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
+                        clear_Dash();
+                    }
+                    break;
+            }
         }
+
     }
-
-
     
     clearBuffer();
     clearBuffer_RIGHT();
