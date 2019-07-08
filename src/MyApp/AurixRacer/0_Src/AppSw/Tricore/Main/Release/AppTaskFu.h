@@ -24,7 +24,7 @@
 #define ENCODER_TEST OFF
 #define PID_TEST ON
 #define CONVOLUTION OFF
-#define LINE_THRESHOLD ON
+#define LINE_THRESHOLD OFF
 #define BUFFER OFF
 #define ADD_MIDDLE OFF
 

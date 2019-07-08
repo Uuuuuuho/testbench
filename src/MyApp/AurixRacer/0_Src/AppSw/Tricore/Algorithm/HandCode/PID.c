@@ -41,8 +41,8 @@ void PID_init (void){   //should be init in apptask init function
     IR_PID_Control.error = 0; 
     IR_PID_Control.current = 0;
     IR_PID_Control.pre_error = 0;
-    IR_PID_Control.max = 1;	//output maximum
-    IR_PID_Control.min = -1;	//output minimum
+    IR_PID_Control.max = 20;	//output maximum
+    IR_PID_Control.min = -20;	//output minimum
     IR_PID_Control.Pout = 0;
     IR_PID_Control.Iout = 0;
     IR_PID_Control.integral = 0;
@@ -52,9 +52,9 @@ void PID_init (void){   //should be init in apptask init function
     IR_PID_Control.nextSpeed= 0;
 
     //should be configured
-    IR_PID_Control.Kp = 0.1;
+    IR_PID_Control.Kp = 5;
     IR_PID_Control.Ki = 0.05;
-    IR_PID_Control.Kd = 0.001;
+    IR_PID_Control.Kd = 0.5;
 }
 
 
@@ -120,11 +120,12 @@ void set_Min_Max_Output(float32 min, float32 max){
 }
 
 float32 next_Vol(){
-    return (IR_PID_Control.nextSpeed-0.494)/0.306;
+    IR_PID_Control.nextVol = (IR_PID_Control.nextSpeed-376.612)/409.9;
+    return IR_PID_Control.nextVol;
 }
 
 boolean initial_speed(){
-    if(IR_PID_Control.current > 0.05)
+    if(IR_PID_Control.current > 50)
         return TRUE;
     else
         return FALSE;

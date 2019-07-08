@@ -35545,6 +35545,7 @@ typedef struct{
     float32 derivative;
     float32 output;
     float32 nextSpeed;
+    float32 nextVol;
 
 
     float32 Kp;

@@ -14,7 +14,7 @@ float32 testVol = 1;
 float32 testSrv = 0;
 float32 signORunsign = 0;
 uint32 Obstacle_flag = FALSE;
-float32 Speed_Out_Of_School_Zone = 10;
+float32 Speed_Out_Of_School_Zone = 100;
 float32 P = 10,I = 0.1, D = 1;   //PID control test
 float32 time = 0.1;             //PID sampling time
 float32 speed_min = -0.005, speed_max = 0.005; //PID min, max configuration
@@ -55,6 +55,9 @@ void appTaskfu_init(void){
 void appTaskfu_1ms(void)
 {
 	task_cnt_1m++;
+
+
+    
 	if(task_cnt_1m == 1000){
 		task_cnt_1m = 0;
 
@@ -64,6 +67,7 @@ void appTaskfu_1ms(void)
 
 		BasicGpt12Enc_IR_Encoder_reset();
 	}
+    
     BasicGpt12Enc_run();
     SpeedCalculation();
     Speed_Buff();
@@ -79,28 +83,33 @@ void appTaskfu_10ms(void)
 {
 	task_cnt_10m++;
     
-#if PID_TEST == ON
-
-    Speed_Buff();
-    if(task_cnt_10m % 50 == 0){
-        Speed_Avg();
-        get_Speed(SpeedCalculation());    //get current speed
-            
-        if(!initial_speed()){
-            IR_setMotor0Vol(-0.7);
-        }
-        
-        else{
-            set_Speed(Speed_Out_Of_School_Zone);                        //set next speed
-            PID_control();                                      //calculate next speed
-            IR_setMotor0Vol(next_Vol());    //set next speed voltage
-        }
-    }
-#endif
+    SrvControl(0);//go straight
 
     //empty buffer after calculating average of speed
-    Speed_Avg();
-#if BUFFER == OFF   
+//    Speed_Avg();
+    
+#if PID_TEST == ON
+//            IR_setMotor0Vol(-0.5);
+            if(task_cnt_10m % 10 == 0){        
+                Speed_Buff();
+            }
+            if(task_cnt_10m % 50 == 0){
+                Speed_Avg();
+                get_Speed(SpeedCalculation());    //get current speed
+                    
+//                if(!initial_speed()){
+ //                  IR_setMotor0Vol(-0.8);
+  //              }
+                
+   //             else{
+//                    set_Speed(Speed_Out_Of_School_Zone);                        //set next speed
+                    PID_control();                                      //calculate next speed
+                    IR_setMotor0Vol(next_Vol());    //set next speed voltage
+    //            }
+            }
+#endif
+
+#if BUFFER == OFF//SHOULD BE ON/////////////////////////////////////////////
     //checking PSD
     BasicVadcBgScan_run();
     

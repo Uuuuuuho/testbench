@@ -25755,7 +25755,7 @@ void BasicGpt12Enc_IR_Encoder_reset(void){
 }
 
 void Speed_Avg(void){
-    IR_Encoder.speed = IR_Encoder.buff / 50;
+    IR_Encoder.speed = IR_Encoder.buff / 5;
     IR_Encoder.buff = 0;
 }
 

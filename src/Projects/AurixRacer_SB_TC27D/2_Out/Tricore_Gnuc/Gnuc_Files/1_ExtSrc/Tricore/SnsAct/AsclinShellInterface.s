@@ -1784,10 +1784,10 @@ AsclinShellInterface_runLineScan:
 	ret
 .L102:
 	.loc 1 722 0
-	movh.a	%a15, hi:cnt.25943
-	ld.w	%d15, [%a15] lo:cnt.25943
+	movh.a	%a15, hi:cnt.25944
+	ld.w	%d15, [%a15] lo:cnt.25944
 	add	%d15, -1
-	st.w	[%a15] lo:cnt.25943, %d15
+	st.w	[%a15] lo:cnt.25944, %d15
 	.loc 1 723 0
 	jgez	%d15, .L97
 	.loc 1 724 0
@@ -1801,7 +1801,7 @@ AsclinShellInterface_runLineScan:
 	sub	%d15, %d2, %d15
 	movh.a	%a13, hi:.LC47
 	movh.a	%a12, hi:IR_LineScan
-	st.w	[%a15] lo:cnt.25943, %d15
+	st.w	[%a15] lo:cnt.25944, %d15
 .LVL207:
 	lea	%a14, [%a14] lo:g_AsclinShellInterface+12760
 	.loc 1 726 0
@@ -1863,11 +1863,11 @@ AsclinShellInterface_runEncScan:
 .LVL213:
 .LFE748:
 	.size	AsclinShellInterface_runEncScan, .-AsclinShellInterface_runEncScan
-.section .bss.cnt.25943,"aw",@nobits
+.section .bss.cnt.25944,"aw",@nobits
 	.align 2
-	.type	cnt.25943, @object
-	.size	cnt.25943, 4
-cnt.25943:
+	.type	cnt.25944, @object
+	.size	cnt.25944, 4
+cnt.25944:
 	.zero	4
 	.global	AppShell_commands
 .section .rodata,"a",@progbits
@@ -15919,7 +15919,7 @@ g_AsclinShellInterface:
 	.uaword	0x29c
 	.byte	0x5
 	.byte	0x3
-	.uaword	cnt.25943
+	.uaword	cnt.25944
 	.uleb128 0x37
 	.uaword	.LVL209
 	.uaword	0x8edf

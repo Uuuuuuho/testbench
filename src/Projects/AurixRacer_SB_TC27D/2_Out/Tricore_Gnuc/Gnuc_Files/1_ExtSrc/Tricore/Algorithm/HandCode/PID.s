@@ -12,14 +12,10 @@ PID_init:
 	.loc 1 38 0
 	mov	%d15, 0
 	movh.a	%a2, hi:IR_PID_Control
+	lea	%a15, [%a2] lo:IR_PID_Control
+	st.w	[%a2] lo:IR_PID_Control, %d15
 	.loc 1 39 0
 	movh	%d2, 15821
-	.loc 1 38 0
-	lea	%a15, [%a2] lo:IR_PID_Control
-	.loc 1 39 0
-	addi	%d2, %d2, -13107
-	.loc 1 38 0
-	st.w	[%a2] lo:IR_PID_Control, %d15
 	.loc 1 40 0
 	st.w	[%a15] 8, %d15
 	.loc 1 41 0
@@ -42,28 +38,31 @@ PID_init:
 	st.w	[%a15] 52, %d15
 	.loc 1 52 0
 	st.w	[%a15] 56, %d15
+	.loc 1 55 0
+	movh	%d15, 16544
+	.loc 1 39 0
+	addi	%d2, %d2, -13107
+	.loc 1 55 0
+	st.w	[%a15] 64, %d15
 	.loc 1 56 0
-	addih	%d15, %d2, 65408
-	.loc 1 44 0
-	movh	%d3, 16256
+	movh	%d15, 15693
+	addi	%d15, %d15, -13107
 	.loc 1 39 0
 	st.w	[%a15] 4, %d2
-	.loc 1 56 0
-	st.w	[%a15] 64, %d15
-	.loc 1 57 0
-	movh	%d15, 14979
 	.loc 1 44 0
-	st.w	[%a15] 24, %d3
-	.loc 1 57 0
-	addi	%d15, %d15, 4719
-	.loc 1 45 0
-	movh	%d3, 49024
-	.loc 1 55 0
-	st.w	[%a15] 60, %d2
-	.loc 1 57 0
+	movh	%d2, 16800
+	.loc 1 56 0
 	st.w	[%a15] 68, %d15
+	.loc 1 57 0
+	movh	%d15, 16128
+	.loc 1 44 0
+	st.w	[%a15] 24, %d2
 	.loc 1 45 0
-	st.w	[%a15] 28, %d3
+	movh	%d2, 49568
+	.loc 1 57 0
+	st.w	[%a15] 72, %d15
+	.loc 1 45 0
+	st.w	[%a15] 28, %d2
 	.loc 1 57 0
 	ret
 .LFE577:
@@ -88,11 +87,11 @@ PID_control:
 	ld.w	%d2, [%a15] 40
 	mul.f	%d5, %d15, %d4
 	.loc 1 73 0
-	ld.w	%d6, [%a15] 60
+	ld.w	%d6, [%a15] 64
 	.loc 1 76 0
 	add.f	%d5, %d5, %d2
 	.loc 1 77 0
-	ld.w	%d2, [%a15] 64
+	ld.w	%d2, [%a15] 68
 	.loc 1 73 0
 	mul.f	%d6, %d15, %d6
 	.loc 1 70 0
@@ -112,7 +111,7 @@ PID_control:
 	.loc 1 80 0
 	div.f	%d2, %d2, %d4
 	.loc 1 81 0
-	ld.w	%d4, [%a15] 68
+	ld.w	%d4, [%a15] 72
 	.loc 1 73 0
 	st.w	[%a15] 32, %d6
 	.loc 1 81 0
@@ -203,11 +202,11 @@ set_propotion:
 	.loc 1 109 0
 	movh.a	%a15, hi:IR_PID_Control
 	lea	%a15, [%a15] lo:IR_PID_Control
-	st.w	[%a15] 60, %d4
+	st.w	[%a15] 64, %d4
 	.loc 1 110 0
-	st.w	[%a15] 64, %d5
+	st.w	[%a15] 68, %d5
 	.loc 1 111 0
-	st.w	[%a15] 68, %d6
+	st.w	[%a15] 72, %d6
 	ret
 .LFE581:
 	.size	set_propotion, .-set_propotion
@@ -260,48 +259,42 @@ next_Vol:
 	call	__extendsfdf2
 .LVL7:
 	mov	%e4, %d3, %d2
-	movh	%d7, 16370
-	movh	%d6, 7864
-	addi	%d7, %d7, -5243
-	addi	%d6, %d6, 20972
+	movh	%d7, 16504
+	movh	%d6, 49283
+	addi	%d7, %d7, -30262
+	addi	%d6, %d6, 4719
 	call	__subdf3
 .LVL8:
 	mov	%e4, %d3, %d2
-	movh	%d7, 16368
-	movh	%d6, 18350
-	addi	%d7, %d7, 31457
-	addi	%d6, %d6, 5243
+	movh	%d7, 16506
+	movh	%d6, 26214
+	addi	%d7, %d7, -24986
+	addi	%d6, %d6, 26214
 	call	__divdf3
 .LVL9:
 	mov	%e4, %d3, %d2
-	.loc 1 124 0
-	j	__truncdfsf2
+	call	__truncdfsf2
 .LVL10:
+	st.w	[%a15] 60, %d2
+	.loc 1 125 0
+	ret
 .LFE584:
 	.size	next_Vol, .-next_Vol
-	.global	__gtdf2
 .section .text.initial_speed,"ax",@progbits
 	.align 1
 	.global	initial_speed
 	.type	initial_speed, @function
 initial_speed:
 .LFB585:
-	.loc 1 126 0
 	.loc 1 127 0
+	.loc 1 128 0
 	movh.a	%a15, hi:IR_PID_Control
 	lea	%a15, [%a15] lo:IR_PID_Control
-	ld.w	%d4, [%a15] 16
-	call	__extendsfdf2
-.LVL11:
-	mov	%e4, %d3, %d2
-	movh	%d7, 16298
-	movh	%d6, 39322
-	addi	%d7, %d7, -26215
-	addi	%d6, %d6, -26214
-	call	__gtdf2
-.LVL12:
-	.loc 1 131 0
-	ge	%d2, %d2, 1
+	ld.w	%d15, [%a15] 16
+	movh	%d2, 16968
+	cmp.f	%d2, %d15, %d2
+	.loc 1 132 0
+	extr.u	%d2, %d2, 2, 1
 	ret
 .LFE585:
 	.size	initial_speed, .-initial_speed
@@ -309,9 +302,9 @@ initial_speed:
 .section .bss.IR_PID_Control,"aw",@nobits
 	.align 2
 	.type	IR_PID_Control, @object
-	.size	IR_PID_Control, 72
+	.size	IR_PID_Control, 76
 IR_PID_Control:
-	.zero	72
+	.zero	76
 .section .debug_frame,"",@progbits
 .Lframe0:
 	.uaword	.LECIE0-.LSCIE0
@@ -413,7 +406,7 @@ IR_PID_Control:
 	.file 7 "c:\\hightec\\toolchains\\tricore\\v4.9.1.0-infineon-2.0\\tricore\\include\\stdio.h"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x6a7
+	.uaword	0x6b8
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -535,10 +528,10 @@ IR_PID_Control:
 	.byte	0x7
 	.string	"sizetype"
 	.uleb128 0x7
-	.byte	0x48
+	.byte	0x4c
 	.byte	0x4
 	.byte	0x19
-	.uaword	0x424
+	.uaword	0x434
 	.uleb128 0x8
 	.string	"TargetSpeed"
 	.byte	0x4
@@ -630,34 +623,40 @@ IR_PID_Control:
 	.uaword	0x247
 	.byte	0x38
 	.uleb128 0x8
-	.string	"Kp"
+	.string	"nextVol"
 	.byte	0x4
-	.byte	0x2b
+	.byte	0x29
 	.uaword	0x247
 	.byte	0x3c
 	.uleb128 0x8
-	.string	"Ki"
+	.string	"Kp"
 	.byte	0x4
 	.byte	0x2c
 	.uaword	0x247
 	.byte	0x40
 	.uleb128 0x8
-	.string	"Kd"
+	.string	"Ki"
 	.byte	0x4
 	.byte	0x2d
 	.uaword	0x247
 	.byte	0x44
+	.uleb128 0x8
+	.string	"Kd"
+	.byte	0x4
+	.byte	0x2e
+	.uaword	0x247
+	.byte	0x48
 	.byte	0
 	.uleb128 0x3
 	.string	"PID_Control"
 	.byte	0x4
-	.byte	0x2e
+	.byte	0x2f
 	.uaword	0x310
 	.uleb128 0x9
 	.byte	0x1
 	.byte	0x5
 	.byte	0x76
-	.uaword	0x487
+	.uaword	0x497
 	.uleb128 0xa
 	.string	"IfxCpu_Index_0"
 	.sleb128 0
@@ -704,7 +703,7 @@ IR_PID_Control:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x500
+	.uaword	0x510
 	.uleb128 0xd
 	.string	"speed"
 	.byte	0x1
@@ -714,7 +713,7 @@ IR_PID_Control:
 	.uleb128 0xe
 	.uaword	.LVL2
 	.byte	0x1
-	.uaword	0x692
+	.uaword	0x6a3
 	.uleb128 0xf
 	.byte	0x1
 	.byte	0x64
@@ -734,7 +733,7 @@ IR_PID_Control:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x52f
+	.uaword	0x53f
 	.uleb128 0x11
 	.string	"target"
 	.byte	0x1
@@ -754,7 +753,7 @@ IR_PID_Control:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x573
+	.uaword	0x583
 	.uleb128 0x11
 	.string	"P"
 	.byte	0x1
@@ -788,7 +787,7 @@ IR_PID_Control:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x5a7
+	.uaword	0x5b7
 	.uleb128 0x11
 	.string	"time"
 	.byte	0x1
@@ -808,7 +807,7 @@ IR_PID_Control:
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x5e9
+	.uaword	0x5f9
 	.uleb128 0x11
 	.string	"min"
 	.byte	0x1
@@ -834,11 +833,12 @@ IR_PID_Control:
 	.uaword	.LFE584
 	.byte	0x1
 	.byte	0x9c
+	.byte	0x1
 	.uleb128 0x13
 	.byte	0x1
 	.string	"initial_speed"
 	.byte	0x1
-	.byte	0x7e
+	.byte	0x7f
 	.byte	0x1
 	.uaword	0x260
 	.uaword	.LFB585
@@ -850,14 +850,14 @@ IR_PID_Control:
 	.string	"IR_PID_Control"
 	.byte	0x1
 	.byte	0x17
-	.uaword	0x424
+	.uaword	0x434
 	.byte	0x1
 	.byte	0x5
 	.byte	0x3
 	.uaword	IR_PID_Control
 	.uleb128 0x15
 	.uaword	0x2da
-	.uaword	0x653
+	.uaword	0x664
 	.uleb128 0x16
 	.uaword	0x304
 	.byte	0x2
@@ -866,11 +866,11 @@ IR_PID_Control:
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0x5
 	.byte	0x96
-	.uaword	0x670
+	.uaword	0x681
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x5
-	.uaword	0x643
+	.uaword	0x654
 	.uleb128 0x17
 	.string	"Assert_verboseLevel"
 	.byte	0x6
@@ -1151,6 +1151,8 @@ IR_PID_Control:
 	.uleb128 0x1
 	.uleb128 0x40
 	.uleb128 0xa
+	.uleb128 0x2116
+	.uleb128 0xc
 	.byte	0
 	.byte	0
 	.uleb128 0x13
@@ -1174,7 +1176,7 @@ IR_PID_Control:
 	.uleb128 0x1
 	.uleb128 0x40
 	.uleb128 0xa
-	.uleb128 0x2116
+	.uleb128 0x2117
 	.uleb128 0xc
 	.byte	0
 	.byte	0

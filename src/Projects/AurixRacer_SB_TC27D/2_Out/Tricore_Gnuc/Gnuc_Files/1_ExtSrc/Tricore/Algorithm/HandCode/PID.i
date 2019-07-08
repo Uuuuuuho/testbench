@@ -16916,6 +16916,7 @@ typedef struct{
     float32 derivative;
     float32 output;
     float32 nextSpeed;
+    float32 nextVol;
 
 
     float32 Kp;
@@ -31748,8 +31749,8 @@ void PID_init (void){
     IR_PID_Control.error = 0;
     IR_PID_Control.current = 0;
     IR_PID_Control.pre_error = 0;
-    IR_PID_Control.max = 1;
-    IR_PID_Control.min = -1;
+    IR_PID_Control.max = 20;
+    IR_PID_Control.min = -20;
     IR_PID_Control.Pout = 0;
     IR_PID_Control.Iout = 0;
     IR_PID_Control.integral = 0;
@@ -31759,9 +31760,9 @@ void PID_init (void){
     IR_PID_Control.nextSpeed= 0;
 
 
-    IR_PID_Control.Kp = 0.1;
+    IR_PID_Control.Kp = 5;
     IR_PID_Control.Ki = 0.05;
-    IR_PID_Control.Kd = 0.001;
+    IR_PID_Control.Kd = 0.5;
 }
 
 
@@ -31820,11 +31821,12 @@ void set_Min_Max_Output(float32 min, float32 max){
 }
 
 float32 next_Vol(){
-    return (IR_PID_Control.nextSpeed-1.12)/1.03;
+    IR_PID_Control.nextVol = (IR_PID_Control.nextSpeed-376.612)/409.9;
+    return IR_PID_Control.nextVol;
 }
 
 boolean initial_speed(){
-    if(IR_PID_Control.current > 0.05)
+    if(IR_PID_Control.current > 50)
         return 1;
     else
         return 0;
