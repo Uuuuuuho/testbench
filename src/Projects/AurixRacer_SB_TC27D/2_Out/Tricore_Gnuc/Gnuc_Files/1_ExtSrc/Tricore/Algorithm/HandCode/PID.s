@@ -9,13 +9,19 @@ PID_init:
 .LFB577:
 	.file 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.c"
 	.loc 1 36 0
+	.loc 1 39 0
+	movh	%d2, 15821
+	addi	%d2, %d2, -13107
 	.loc 1 38 0
 	mov	%d15, 0
 	movh.a	%a2, hi:IR_PID_Control
 	lea	%a15, [%a2] lo:IR_PID_Control
-	st.w	[%a2] lo:IR_PID_Control, %d15
 	.loc 1 39 0
-	movh	%d2, 15821
+	st.w	[%a15] 4, %d2
+	.loc 1 44 0
+	addih	%d2, %d2, 384
+	.loc 1 38 0
+	st.w	[%a2] lo:IR_PID_Control, %d15
 	.loc 1 40 0
 	st.w	[%a15] 8, %d15
 	.loc 1 41 0
@@ -40,30 +46,21 @@ PID_init:
 	st.w	[%a15] 56, %d15
 	.loc 1 55 0
 	movh	%d15, 16544
-	.loc 1 39 0
-	addi	%d2, %d2, -13107
+	.loc 1 44 0
+	st.w	[%a15] 24, %d2
+	.loc 1 45 0
+	addih	%d2, %d2, 32512
 	.loc 1 55 0
 	st.w	[%a15] 64, %d15
 	.loc 1 56 0
-	movh	%d15, 15693
-	addi	%d15, %d15, -13107
-	.loc 1 39 0
-	st.w	[%a15] 4, %d2
-	.loc 1 44 0
-	movh	%d2, 16800
+	addih	%d15, %d2, 32512
+	.loc 1 45 0
+	st.w	[%a15] 28, %d2
 	.loc 1 56 0
 	st.w	[%a15] 68, %d15
 	.loc 1 57 0
 	movh	%d15, 16128
-	.loc 1 44 0
-	st.w	[%a15] 24, %d2
-	.loc 1 45 0
-	movh	%d2, 49568
-	.loc 1 57 0
 	st.w	[%a15] 72, %d15
-	.loc 1 45 0
-	st.w	[%a15] 28, %d2
-	.loc 1 57 0
 	ret
 .LFE577:
 	.size	PID_init, .-PID_init
@@ -259,17 +256,17 @@ next_Vol:
 	call	__extendsfdf2
 .LVL7:
 	mov	%e4, %d3, %d2
-	movh	%d7, 16504
-	movh	%d6, 49283
-	addi	%d7, %d7, -30262
-	addi	%d6, %d6, 4719
+	movh	%d7, 16389
+	movh	%d6, 48234
+	addi	%d7, %d7, -27788
+	addi	%d6, %d6, 32506
 	call	__subdf3
 .LVL8:
 	mov	%e4, %d3, %d2
-	movh	%d7, 16506
-	movh	%d6, 26214
-	addi	%d7, %d7, -24986
-	addi	%d6, %d6, 26214
+	movh	%d7, 16388
+	movh	%d6, 5243
+	addi	%d7, %d7, -14418
+	addi	%d6, %d6, -7864
 	call	__divdf3
 .LVL9:
 	mov	%e4, %d3, %d2

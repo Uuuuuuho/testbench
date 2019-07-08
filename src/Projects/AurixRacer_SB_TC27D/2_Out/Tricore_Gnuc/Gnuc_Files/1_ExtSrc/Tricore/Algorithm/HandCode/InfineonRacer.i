@@ -16972,6 +16972,8 @@ extern boolean IsInSchoolZone_THRESHOLD(void);
 
 extern boolean Boundary(void);
 extern boolean isEndOfLEFT(void);
+extern boolean isEndOfRIGHT(void);
+
 
 extern boolean Boundary_RIGHT(void);
 
@@ -16982,6 +16984,7 @@ extern boolean Over_Boundary_RIGHT(void);
 extern float32 Direction(void);
 extern float32 Direction_CENTER(void);
 extern float32 Direction_CENTER_RIGHT(void);
+extern float32 Direction_CENTER_RIGHT_Inverse(void);
 # 5 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 1
 
@@ -31928,7 +31931,7 @@ void median_filter_RIGHT(void) {
 
 boolean is_THRESHOLD(void){
     uint32 index = 0;
-    float32 threshold = 1300;
+    float32 threshold = 500;
 
     for(index = 4; index < 128 - 4; index++){
         if(IR_LineScan.adcResult[0][index] < threshold){
@@ -31939,7 +31942,7 @@ boolean is_THRESHOLD(void){
 }
 boolean is_THRESHOLD_MIDDLE(void){
     uint32 index = 0;
-    float32 threshold = 1300;
+    float32 threshold = 500;
     uint32 half_index = 128/2;
     for(index = 4; index < half_index; index++){
         if(IR_LineScan.adcBuffer[0][index] < threshold){
@@ -31951,7 +31954,7 @@ boolean is_THRESHOLD_MIDDLE(void){
 
 boolean is_THRESHOLD_RIGHT(void){
     uint32 index = 0;
-    float32 threshold = 500;
+    float32 threshold = 1500;
 
     for(index = 4; index < 128 - 4; index++){
         if(IR_LineScan.adcResult[1][index] < threshold){
@@ -31969,13 +31972,11 @@ uint32 get_Dash(void){
     if(is_THRESHOLD_RIGHT())
         IR_LineData.Dash_Right++;
 
-    IR_LineData.Next_Lane = 2;
-    return 2;
-
     if(IR_LineData.Dash_Left > IR_LineData.Dash_Right){
         IR_LineData.Next_Lane = 2;
         return 2;
     }
+
     else{
         IR_LineData.Next_Lane = 1;
         return 1;
@@ -31990,7 +31991,7 @@ void clear_Dash(void){
 
 void threshold_LINE(void){
     uint32 index = 0;
-    float32 threshold = 1300;
+    float32 threshold = 500;
     float32 MinVal = 500000;
 
     if(!IR_LineData.Direction_Determined){
@@ -32020,7 +32021,7 @@ void threshold_LINE(void){
 
 void threshold_LINE_RIGHT(void){
     uint32 index = 0;
-    float32 threshold = 500;
+    float32 threshold = 1500;
     float32 MinVal = 500000;
 
     if(!IR_LineData.Direction_Determined_RIGHT){
@@ -32106,7 +32107,7 @@ void getLineData_RIGHT (void){
 boolean IsInSchoolZone_THRESHOLD(void){
     uint32 index = 0;
     uint32 half_index = 128 / 2;
-    float32 SCHOOLZONE_DETECTION = 1300;
+    float32 SCHOOLZONE_DETECTION = 500;
     uint32 line_count = 0;
 
 
@@ -32125,7 +32126,7 @@ boolean IsInSchoolZone_THRESHOLD(void){
         }
     }
 
-    SCHOOLZONE_DETECTION = 500;
+    SCHOOLZONE_DETECTION = 1500;
 
     for(index = 4; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
@@ -32153,7 +32154,7 @@ boolean IsInSchoolZone_THRESHOLD(void){
 boolean IsOutSchoolZone_THRESHOLD(void){
     uint32 index = 0;
     uint32 half_index = 128 / 2;
-    float32 SCHOOLZONE_DETECTION = 1300;
+    float32 SCHOOLZONE_DETECTION = 500;
     uint32 line_count = 0;
 
 
@@ -32172,7 +32173,7 @@ boolean IsOutSchoolZone_THRESHOLD(void){
         }
     }
 
-    SCHOOLZONE_DETECTION = 500;
+    SCHOOLZONE_DETECTION = 1500;
 
     for(index = 4; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
@@ -32238,7 +32239,11 @@ float32 Direction_CENTER(void){
 }
 
 float32 Direction_CENTER_RIGHT(void){
-    return (MIN_INDEX_RIGHT- IR_LineData.present_RIGHT);
+    return (IR_LineData.present_RIGHT - MIN_INDEX_RIGHT);
+}
+
+float32 Direction_CENTER_RIGHT_Inverse(void){
+    return (MIN_INDEX_RIGHT - IR_LineData.present_RIGHT);
 }
 
 boolean Boundary(void){
@@ -32266,6 +32271,13 @@ boolean Over_Boundary(void){
 
 boolean isEndOfLEFT(void){
     if(IR_LineData.present > 115)
+        return 1;
+    else
+        return 0;
+}
+
+boolean isEndOfRIGHT(void){
+    if(IR_LineData.present_RIGHT <20)
         return 1;
     else
         return 0;

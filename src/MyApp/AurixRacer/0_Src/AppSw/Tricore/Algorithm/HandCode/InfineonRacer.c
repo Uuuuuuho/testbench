@@ -220,14 +220,12 @@ uint32 get_Dash(void){
 
     if(is_THRESHOLD_RIGHT())
         IR_LineData.Dash_Right++;
-//for test
-    IR_LineData.Next_Lane = RIGHT_LANE; //다음에 우회전
-    return RIGHT_LANE;
 
     if(IR_LineData.Dash_Left > IR_LineData.Dash_Right){
         IR_LineData.Next_Lane = RIGHT_LANE; //다음에 우회전
         return RIGHT_LANE;
     }
+    
     else{
         IR_LineData.Next_Lane = LEFT_LANE;  //다음에 좌회전
         return LEFT_LANE;
@@ -490,7 +488,11 @@ float32 Direction_CENTER(void){
 }
 
 float32 Direction_CENTER_RIGHT(void){
-    return (MIN_INDEX_RIGHT- IR_LineData.present_RIGHT);
+    return (IR_LineData.present_RIGHT - MIN_INDEX_RIGHT);
+}
+
+float32 Direction_CENTER_RIGHT_Inverse(void){
+    return (MIN_INDEX_RIGHT - IR_LineData.present_RIGHT);
 }
 
 boolean Boundary(void){
@@ -518,6 +520,13 @@ boolean Over_Boundary(void){
 
 boolean isEndOfLEFT(void){
     if(IR_LineData.present > 115)   //恙祀쪽에 아주 많이 붙은 경우
+        return TRUE;
+    else
+        return FALSE;
+}
+
+boolean isEndOfRIGHT(void){
+    if(IR_LineData.present_RIGHT <20)   //恙祀쪽에 아주 많이 붙은 경우
         return TRUE;
     else
         return FALSE;

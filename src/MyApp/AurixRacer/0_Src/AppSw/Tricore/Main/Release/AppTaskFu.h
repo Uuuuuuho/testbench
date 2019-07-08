@@ -24,7 +24,7 @@
 #define ENCODER_TEST OFF
 #define PID_TEST ON
 #define CONVOLUTION OFF
-#define LINE_THRESHOLD OFF
+#define LINE_THRESHOLD ON
 #define BUFFER OFF
 #define ADD_MIDDLE OFF
 
@@ -32,6 +32,7 @@
 #define LEFT_LANE 1
 #define RIGHT_LANE 2
 #define MIDDLE 3
+#define TURNING_PHASE 4
 
 IFX_EXTERN boolean task_flag_1m;
 IFX_EXTERN boolean task_flag_10m;

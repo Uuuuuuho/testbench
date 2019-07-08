@@ -13,12 +13,13 @@ boolean task_flag_1000m = FALSE;
 float32 testVol = 1;
 float32 testSrv = 0;
 float32 signORunsign = 0;
-uint32 Obstacle_flag = FALSE;
-float32 Speed_Out_Of_School_Zone = 100;
+uint32 Obstacle_flag = OFF;
+float32 Speed_Out_Of_School_Zone = 0.7;
 float32 P = 10,I = 0.1, D = 1;   //PID control test
 float32 time = 0.1;             //PID sampling time
 float32 speed_min = -0.005, speed_max = 0.005; //PID min, max configuration
 uint32 WHICH_LANE = LEFT_LANE;
+boolean TEMP_REMAIN = FALSE;
 
 void appTaskfu_init(void){
     BasicLineScan_init();
@@ -59,17 +60,21 @@ void appTaskfu_1ms(void)
 
     
 	if(task_cnt_1m == 1000){
-		task_cnt_1m = 0;
+
+            task_cnt_1m = 0;
 
 		//printf("1000ms!\n");
 	}
 	if(task_cnt_1m %100 ==0){
+            BasicGpt12Enc_IR_Encoder_reset();
 
-		BasicGpt12Enc_IR_Encoder_reset();
 	}
     
     BasicGpt12Enc_run();
-    SpeedCalculation();
+    
+    
+    
+//    SpeedCalculation();
     Speed_Buff();
     //printf("1ms!\n");
 
@@ -83,30 +88,16 @@ void appTaskfu_10ms(void)
 {
 	task_cnt_10m++;
     
-    SrvControl(0);//go straight
 
-    //empty buffer after calculating average of speed
-//    Speed_Avg();
-    
 #if PID_TEST == ON
-//            IR_setMotor0Vol(-0.5);
-            if(task_cnt_10m % 10 == 0){        
-                Speed_Buff();
-            }
-            if(task_cnt_10m % 50 == 0){
-                Speed_Avg();
-                get_Speed(SpeedCalculation());    //get current speed
-                    
-//                if(!initial_speed()){
- //                  IR_setMotor0Vol(-0.8);
-  //              }
-                
-   //             else{
-//                    set_Speed(Speed_Out_Of_School_Zone);                        //set next speed
-                    PID_control();                                      //calculate next speed
-                    IR_setMotor0Vol(next_Vol());    //set next speed voltage
-    //            }
-            }
+    if(task_cnt_10m % 50 == 0){
+        Speed_Avg();
+        get_Speed(SpeedCalculation());    //get current speed
+
+        set_Speed(Speed_Out_Of_School_Zone);                        //set next speed
+        PID_control();                                      //calculate next speed
+        IR_setMotor0Vol(next_Vol());    //set next speed voltage
+    }
 #endif
 
 #if BUFFER == OFF//SHOULD BE ON/////////////////////////////////////////////
@@ -118,9 +109,9 @@ void appTaskfu_10ms(void)
         IR_LineData.SchoolZone_Status = ON; //to debug
 
         if(!IR_LineData.School_Zone_flag){  //Out of school zone
-//            AEB();
+            AEB();
         }
-        
+
         else{   //In school zone
             switch(get_Dash()){ //dash buffer를 활용하여 determine next lane direction
             //for now it's set to LEFT_LANE
@@ -174,23 +165,40 @@ void appTaskfu_10ms(void)
     threshold_LINE_RIGHT();
 
     //checking school zone
-    if(task_cnt_10m % 50 == 0){
-        if(!IR_LineData.School_Zone_flag)
+    if(task_cnt_10m % 25 == 0){
+        if(!IR_LineData.School_Zone_flag){
             IsInSchoolZone_THRESHOLD();
+            if(IR_LineData.School_Zone_flag){    
+                TEMP_REMAIN = TRUE; //to go straight when passing in the school zone
+            }
+        }
         else
             IsOutSchoolZone_THRESHOLD();
     }
-    
-    if(Obstacle_flag == OFF){   //regardless of school zone
+
+    if(task_cnt_10m % 50 == 0){ //keep remain state when entering school zone
+        TEMP_REMAIN = FALSE;
+    }
+
+    if(TEMP_REMAIN){    //only for entering the school zone
+        SrvControl(0);
+    }
+        
+    else if(Obstacle_flag == OFF){   //regardless of school zone
         if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
             if(is_THRESHOLD_RIGHT()){   //right lane detected
                 if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
                     if(!Over_Boundary_RIGHT()){   
                         //when stick to right side
-                        SrvControl(100);    //turn left
+                        SrvControl(-100);     //turn left to detect line, when not able to detect on the left and right at the same time
                     }
                     else{   //when out of boundary
-                        SrvControl(Direction_CENTER_RIGHT());     //turn left to detect line, when not able to detect on the left and right at the same time
+                        if(isEndOfRIGHT()){
+                            SrvControl(100);
+                        }
+                        else{
+                            SrvControl(Direction_CENTER_RIGHT());     //turn left to detect line, when not able to detect on the left and right at the same time
+                        }
                     }
                 }
                 else
@@ -206,12 +214,7 @@ void appTaskfu_10ms(void)
                     SrvControl(Direction_CENTER());    //determine wheel direction
                 }
                 else{   //when out of boundary
-                    if(isEndOfLEFT()){  //when car stick to left side
-                        SrvControl(-100);   //turn right
-                    }
-                    else{
-                        SrvControl(100);    //turn left to detect line
-                    }
+                    SrvControl(-100);    //turn right to detect line
                 }
             }
             else{   //go straight
@@ -221,7 +224,7 @@ void appTaskfu_10ms(void)
     }
 
     else if(Obstacle_flag == MIDDLE){   //while changing lane
-        Avoid();
+        SrvControl(0);  //go straight
         
 #if ADD_MIDDLE == ON    //lane을 잘못잡는 경우에 대한 대비
         //in case of incorrect dotted lane detection        
@@ -235,29 +238,60 @@ void appTaskfu_10ms(void)
         }
         
 #endif
-        if(task_cnt_10m % 50 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
+        //for 25ms go straight
+        if(task_cnt_10m % 25 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
 
             switch(WHICH_LANE){
                 case LEFT_LANE:
                     if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
-                        Obstacle_flag = OFF;
-                        IR_LineData.SchoolZone_Status = OFF;
-                        resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
-                        clear_Dash();
+                        Obstacle_flag = TURNING_PHASE;
+                        IR_LineData.SchoolZone_Status = TURNING_PHASE;
+                        WHICH_LANE = RIGHT_LANE;
                     }
                     break;
                     
                 case RIGHT_LANE:
                     if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
-                        Obstacle_flag = OFF;
-                        IR_LineData.SchoolZone_Status = OFF;
-                        resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
-                        clear_Dash();
+                        Obstacle_flag = TURNING_PHASE;
+                        IR_LineData.SchoolZone_Status = TURNING_PHASE;
+                        WHICH_LANE = LEFT_LANE;
                     }
                     break;
             }
         }
 
+    }
+
+    else if(Obstacle_flag == TURNING_PHASE){
+        //for 25ms move on the next lane
+        switch(WHICH_LANE){
+            case LEFT_LANE:
+                SrvControl(100);    //turn left after changing lane
+                break;
+                
+            case RIGHT_LANE:
+                SrvControl(-100);   //turn right after changing lane
+                break;
+        }
+
+        if(task_cnt_10m % 25 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
+            switch(WHICH_LANE){
+                case LEFT_LANE:
+                    Obstacle_flag = OFF;
+                    IR_LineData.SchoolZone_Status = OFF;
+                    resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
+                    clear_Dash();
+                    break;
+                    
+                case RIGHT_LANE:
+                    Obstacle_flag = OFF;
+                    IR_LineData.SchoolZone_Status = OFF;
+                    WHICH_LANE = LEFT_LANE;
+                    resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
+                    clear_Dash();
+                    break;
+            }
+        }
     }
     
     clearBuffer();
@@ -357,7 +391,7 @@ void appTaskfu_10ms(void)
 
 			#endif
 		}
-		AsclinShellInterface_runEncScan();
+		AsclinShellInterface_runLineScan();
 	}
 
 }
@@ -449,7 +483,7 @@ void appIsrCb_1ms(void){
 
 void SrvControl(float32 diff){
 
-    float32 result = -0.4 - (diff / 108);
+    float32 result = -0.4 - 2 * (diff / 108);
     IR_setSrvAngle(result);
 
 

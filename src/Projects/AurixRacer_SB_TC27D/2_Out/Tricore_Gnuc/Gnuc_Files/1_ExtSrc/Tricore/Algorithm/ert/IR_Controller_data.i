@@ -31920,6 +31920,8 @@ extern boolean IsInSchoolZone_THRESHOLD(void);
 
 extern boolean Boundary(void);
 extern boolean isEndOfLEFT(void);
+extern boolean isEndOfRIGHT(void);
+
 
 extern boolean Boundary_RIGHT(void);
 
@@ -31930,6 +31932,7 @@ extern boolean Over_Boundary_RIGHT(void);
 extern float32 Direction(void);
 extern float32 Direction_CENTER(void);
 extern float32 Direction_CENTER_RIGHT(void);
+extern float32 Direction_CENTER_RIGHT_Inverse(void);
 # 27 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_private.h" 2
 # 22 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_data.c" 2
 

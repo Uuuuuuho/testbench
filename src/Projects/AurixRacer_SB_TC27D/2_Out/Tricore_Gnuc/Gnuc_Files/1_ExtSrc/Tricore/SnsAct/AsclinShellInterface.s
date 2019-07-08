@@ -1545,13 +1545,13 @@ AppShell_info:
 	.word	0
 	.byte	0
 	.zero	3
-	.word	IfxAsclin3_RXD_P32_2_IN
+	.word	IfxAsclin0_RXB_P15_3_IN
 	.byte	0
 	.zero	3
 	.word	0
 	.byte	-128
 	.zero	3
-	.word	IfxAsclin3_TX_P15_7_OUT
+	.word	IfxAsclin0_TX_P15_2_OUT
 	.byte	-128
 	.byte	0
 	.zero	2
@@ -1570,9 +1570,9 @@ initSerialInterface:
 	sub.a	%SP, 96
 .LCFI15:
 .LBB90:
-	.loc 1 635 0
+	.loc 1 633 0
 	lea	%a4, [%SP] 36
-	lea	%a5, -268433152
+	lea	%a5, -268433920
 	call	IfxAsclin_Asc_initModuleConfig
 .LVL194:
 	.loc 1 637 0
@@ -1784,10 +1784,10 @@ AsclinShellInterface_runLineScan:
 	ret
 .L102:
 	.loc 1 722 0
-	movh.a	%a15, hi:cnt.25944
-	ld.w	%d15, [%a15] lo:cnt.25944
+	movh.a	%a15, hi:cnt.25948
+	ld.w	%d15, [%a15] lo:cnt.25948
 	add	%d15, -1
-	st.w	[%a15] lo:cnt.25944, %d15
+	st.w	[%a15] lo:cnt.25948, %d15
 	.loc 1 723 0
 	jgez	%d15, .L97
 	.loc 1 724 0
@@ -1801,7 +1801,7 @@ AsclinShellInterface_runLineScan:
 	sub	%d15, %d2, %d15
 	movh.a	%a13, hi:.LC47
 	movh.a	%a12, hi:IR_LineScan
-	st.w	[%a15] lo:cnt.25944, %d15
+	st.w	[%a15] lo:cnt.25948, %d15
 .LVL207:
 	lea	%a14, [%a14] lo:g_AsclinShellInterface+12760
 	.loc 1 726 0
@@ -1863,11 +1863,11 @@ AsclinShellInterface_runEncScan:
 .LVL213:
 .LFE748:
 	.size	AsclinShellInterface_runEncScan, .-AsclinShellInterface_runEncScan
-.section .bss.cnt.25944,"aw",@nobits
+.section .bss.cnt.25948,"aw",@nobits
 	.align 2
-	.type	cnt.25944, @object
-	.size	cnt.25944, 4
-cnt.25944:
+	.type	cnt.25948, @object
+	.size	cnt.25948, 4
+cnt.25948:
 	.zero	4
 	.global	AppShell_commands
 .section .rodata,"a",@progbits
@@ -15697,7 +15697,7 @@ g_AsclinShellInterface:
 	.byte	0x65
 	.byte	0x6
 	.byte	0x11
-	.sleb128 -268433152
+	.sleb128 -268433920
 	.uleb128 0x36
 	.byte	0x1
 	.byte	0x64
@@ -15919,7 +15919,7 @@ g_AsclinShellInterface:
 	.uaword	0x29c
 	.byte	0x5
 	.byte	0x3
-	.uaword	cnt.25944
+	.uaword	cnt.25948
 	.uleb128 0x37
 	.uaword	.LVL209
 	.uaword	0x8edf
@@ -16005,16 +16005,16 @@ g_AsclinShellInterface:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x4d
-	.string	"IfxAsclin3_RXD_P32_2_IN"
+	.string	"IfxAsclin0_RXB_P15_3_IN"
 	.byte	0xe
-	.byte	0x76
+	.byte	0x63
 	.uaword	0x557d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x4d
-	.string	"IfxAsclin3_TX_P15_7_OUT"
+	.string	"IfxAsclin0_TX_P15_2_OUT"
 	.byte	0xe
-	.byte	0xb9
+	.byte	0x9f
 	.uaword	0x5611
 	.byte	0x1
 	.byte	0x1
@@ -18840,8 +18840,8 @@ g_AsclinShellInterface:
 	.extern	IfxAsclin_Asc_stdIfDPipeInit,STT_FUNC,0
 	.extern	IfxAsclin_Asc_initModule,STT_FUNC,0
 	.extern	IfxAsclin_Asc_initModuleConfig,STT_FUNC,0
-	.extern	IfxAsclin3_TX_P15_7_OUT,STT_OBJECT,16
-	.extern	IfxAsclin3_RXD_P32_2_IN,STT_OBJECT,16
+	.extern	IfxAsclin0_TX_P15_2_OUT,STT_OBJECT,16
+	.extern	IfxAsclin0_RXB_P15_3_IN,STT_OBJECT,16
 	.extern	g_AppCpu0,STT_OBJECT,16
 	.extern	DateTime_get,STT_FUNC,0
 	.extern	IR_setSrvScanAngle,STT_FUNC,0

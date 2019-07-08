@@ -35516,6 +35516,8 @@ extern boolean IsInSchoolZone_THRESHOLD(void);
 
 extern boolean Boundary(void);
 extern boolean isEndOfLEFT(void);
+extern boolean isEndOfRIGHT(void);
+
 
 extern boolean Boundary_RIGHT(void);
 
@@ -35526,6 +35528,7 @@ extern boolean Over_Boundary_RIGHT(void);
 extern float32 Direction(void);
 extern float32 Direction_CENTER(void);
 extern float32 Direction_CENTER_RIGHT(void);
+extern float32 Direction_CENTER_RIGHT_Inverse(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.h" 1
 # 25 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.h"
@@ -35727,7 +35730,7 @@ extern void IR_Controller_terminate(void);
 
 extern RT_MODEL_IR_Controller *const IR_Controller_M;
 # 11 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
-# 36 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
+# 37 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
 extern boolean task_flag_1m;
 extern boolean task_flag_10m;
 extern boolean task_flag_100m;
