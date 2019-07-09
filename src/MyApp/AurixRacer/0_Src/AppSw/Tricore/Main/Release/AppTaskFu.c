@@ -89,7 +89,7 @@ void appTaskfu_1ms(void)
     }
 
     
-    if(task_cnt_1m % 5 != 0){
+    if(task_cnt_1m % 3 != 0){   //cross scheduling with DC PWM
     	GtmTomPwmHl_run();
     }
 
@@ -106,8 +106,19 @@ void appTaskfu_20ms(void){
         }
     }
     
-    else
+    else{
         IsOutSchoolZone_THRESHOLD();
+        
+        switch(get_Dash()){ //dash buffer를 활용하여 determine next lane direction
+        //for now it's set to LEFT_LANE
+            case LEFT_LANE :
+                WHICH_LANE = RIGHT_LANE;
+                break;
+            case RIGHT_LANE :
+                WHICH_LANE = LEFT_LANE;
+                break;
+        }
+    }
 
     
     if(TEMP_REMAIN){ //keep remain state when entering school zone
@@ -124,15 +135,6 @@ void appTaskfu_5ms(void){
         }
 
         else{   //In school zone
-            switch(get_Dash()){ //dash buffer를 활용하여 determine next lane direction
-            //for now it's set to LEFT_LANE
-                case LEFT_LANE :
-                    WHICH_LANE = RIGHT_LANE;
-                    break;
-                case RIGHT_LANE :
-                    WHICH_LANE = LEFT_LANE;
-                    break;
-            }
             
             Avoid();
             
@@ -157,7 +159,7 @@ void appTaskfu_5ms(void){
     }
 }
 
-void appTaskfu_10ms_2(void){
+void Lane_Direction(void){
     if(TEMP_REMAIN){    //only for entering the school zone
         SrvControl(0);
     }
@@ -217,14 +219,13 @@ void appTaskfu_10ms_2(void){
         
 #endif
         //for 25ms go straight
-        if(task_cnt_10m % 25 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
+        if(task_cnt_10m % 20 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
 
             switch(WHICH_LANE){
                 case LEFT_LANE:
                     if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
                         Obstacle_flag = TURNING_PHASE;
                         IR_LineData.SchoolZone_Status = TURNING_PHASE;
-                        WHICH_LANE = RIGHT_LANE;
                     }
                     break;
                     
@@ -232,7 +233,6 @@ void appTaskfu_10ms_2(void){
                     if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
                         Obstacle_flag = TURNING_PHASE;
                         IR_LineData.SchoolZone_Status = TURNING_PHASE;
-                        WHICH_LANE = LEFT_LANE;
                     }
                     break;
             }
@@ -252,11 +252,12 @@ void appTaskfu_10ms_2(void){
                 break;
         }
 
-        if(task_cnt_10m % 25 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
+        if(task_cnt_10m % 20 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
             switch(WHICH_LANE){
                 case LEFT_LANE:
                     Obstacle_flag = OFF;
                     IR_LineData.SchoolZone_Status = OFF;
+                    WHICH_LANE = RIGHT_LANE;
                     resetPSD();             //reset PSD counter. To avoid util the obstacle won't be found
                     clear_Dash();
                     break;
@@ -271,12 +272,13 @@ void appTaskfu_10ms_2(void){
             }
         }
     }
+    
+	GtmTomSrv_run();
+	GtmTomSrvScan_run();
 }
 
-void appTaskfu_10ms(void)
-{
-	task_cnt_10m++;
-
+void Lane_Scanning(void){
+    
     //10ms unit line scanning & schoolzone check
     BasicLineScan_run();
     //LEFT & RIGHT lane scanner
@@ -285,11 +287,15 @@ void appTaskfu_10ms(void)
     //get line data
     threshold_LINE();
 
+}
+
+void appTaskfu_10ms(void)
+{
+	task_cnt_10m++;
 
 
 
-	GtmTomSrv_run();
-	GtmTomSrvScan_run();
+
     
 	if(task_cnt_10m == 1000){
 		task_cnt_10m = 0;
@@ -321,10 +327,6 @@ void appTaskfu_100ms(void)
 
 
 
-#if ENCODER_TEST == ON
-    printf("%f\n", IR_Encoder.speed);
-#endif
-
 	if(task_cnt_100m == 1000){
 		task_cnt_100m = 0;
 	}
@@ -345,24 +347,6 @@ void appTaskfu_1000ms(void)
 {
 	task_cnt_1000m++;
     
-#if ENCODER_TEST == ON
-    if(task_cnt_1000m % 2 == 0){
-        testSrv = -0.3;
-    }
-
-    if(task_cnt_1000m % 2 == 1){
-        testSrv =-1;
-    }
-
-    
-    if(task_cnt_1000m % 5 == 0){
-        testVol += 0.1;
-    }
-    
-	if(testVol > 0.5)
-		testVol = -1;
-
-#endif
 
 	//IR_setMotor0Vol(testVol);
 	//testVol++;
@@ -376,9 +360,6 @@ void appTaskfu_1000ms(void)
 	}
 	//printf("1000ms!\n");
  
-#if ENCODER_TEST == ON
-	IR_setSrvAngle(testSrv);
-#endif
 
 }
 

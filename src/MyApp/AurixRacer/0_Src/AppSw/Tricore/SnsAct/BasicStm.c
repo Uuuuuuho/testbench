@@ -181,10 +181,26 @@ void BasicStm_run(void)
 		task_flag_1m = FALSE;
 	}
 
+    if(g_Stm.counter % 5 == 0){
+        appTaskfu_5ms();
+    }
+
+    //for short term LKA
+    
+    if(g_Stm.counter % 3 == 0){
+        Lane_Scanning();
+        Lane_Direction();
+    }
+    
 	if(task_flag_10m == TRUE){
 		appTaskfu_10ms();
+//        appTaskfu_10ms_2();
 		task_flag_10m = FALSE;
 	}
+
+    if(g_Stm.counter % 20 == 0){
+        appTaskfu_20ms();
+    }
 
 	if(task_flag_100m == TRUE){
 		appTaskfu_100ms();

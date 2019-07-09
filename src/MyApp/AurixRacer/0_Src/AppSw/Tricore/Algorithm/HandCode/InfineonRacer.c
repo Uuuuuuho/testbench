@@ -190,7 +190,7 @@ boolean is_THRESHOLD(void){
     uint32 index = 0;
     float32 threshold = THRESHOLD;
 
-    for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+    for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index += 2){
         if(IR_LineScan.adcResult[0][index] < threshold){
             return TRUE;
         }
@@ -201,7 +201,7 @@ boolean is_THRESHOLD_MIDDLE(void){
     uint32 index = 0;
     float32 threshold = THRESHOLD;
     uint32 half_index = LINEMAX/2;
-    for(index = IGNOREIDX; index < half_index; index++){
+    for(index = IGNOREIDX; index < half_index; index += 2){
         if(IR_LineScan.adcBuffer[0][index] < threshold){
             return TRUE;
         }
@@ -213,7 +213,7 @@ boolean is_THRESHOLD_RIGHT(void){
     uint32 index = 0;
     float32 threshold = THRESHOLD_RIGHT;
 
-    for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
+    for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index += 2){
         if(IR_LineScan.adcResult[1][index] < threshold){
             return TRUE;
         }
@@ -409,14 +409,14 @@ boolean IsOutSchoolZone_THRESHOLD(void){
 
     //left lane scanner school zone check
     
-    for(index = IGNOREIDX; index < half_index; index ++){
+    for(index = IGNOREIDX; index < half_index; index += 2){
         if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
             line_count++;
             break;
         }
     }
 
-    for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
+    for(index = half_index; index < LINEMAX - IGNOREIDX; index += 2){
         if(IR_LineScan.adcBuffer[0][index] < SCHOOLZONE_DETECTION){
             line_count++;
             break;
@@ -425,14 +425,14 @@ boolean IsOutSchoolZone_THRESHOLD(void){
     //right lane checking school zone
     SCHOOLZONE_DETECTION = THRESHOLD_RIGHT;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
 
-    for(index = IGNOREIDX; index < half_index; index ++){
+    for(index = IGNOREIDX; index < half_index; index += 2){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
             line_count++;
             break;
         }
     }
 
-    for(index = half_index; index < LINEMAX - IGNOREIDX; index++){
+    for(index = half_index; index < LINEMAX - IGNOREIDX; index += 2){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
             line_count++;
             break;

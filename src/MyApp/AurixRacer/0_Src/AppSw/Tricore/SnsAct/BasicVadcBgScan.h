@@ -21,8 +21,8 @@
 #define IR_getUsrAdcChn2()	IR_AdcResult[2]
 #define IR_getUsrAdcChn3()	IR_AdcResult[3]
 
-#define THRESHOLD_VOL 0.25
-#define THRESHOLD_VOL_RIGHT 0.25
+#define THRESHOLD_VOL 0.15
+#define THRESHOLD_VOL_RIGHT 0.15
 /******************************************************************************/
 /*--------------------------------Enumerations--------------------------------*/
 /******************************************************************************/

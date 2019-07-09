@@ -41,7 +41,14 @@ IFX_EXTERN boolean task_flag_1000m;
 
 void appTaskfu_init(void);
 void appTaskfu_1ms(void);
+void appTaskfu_5ms(void);
+
+void Lane_Scanning(void);
+void Lane_Direction(void);
+
 void appTaskfu_10ms(void);
+void appTaskfu_20ms(void);
+
 void appTaskfu_100ms(void);
 void appTaskfu_1000ms(void);
 void appTaskfu_idle(void);
