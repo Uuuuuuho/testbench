@@ -383,6 +383,12 @@ boolean IsInSchoolZone_THRESHOLD(void){
     float32 SCHOOLZONE_DETECTION = THRESHOLD;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
     uint32 line_count = 0;
 
+    //out school zone debug first//////////////////////////////
+    IR_LineData.School_Zone_flag = FALSE;
+    return IR_LineData.School_Zone_flag;
+    /////////////////////////////////////
+
+
     //left lane scanner school zone check
     
     for(index = IGNOREIDX; index < half_index; index ++){
@@ -415,7 +421,7 @@ boolean IsInSchoolZone_THRESHOLD(void){
         }
     }
 
-    if(line_count > 2)
+    if(line_count > 4)
         IR_LineData.School_Zone_flag = TRUE;
 
     else
@@ -543,7 +549,7 @@ boolean Over_Boundary(void){
 }
 
 boolean Over_Boundary2(void){
-    if(IR_LineData.present > MAX_INDEX)
+    if(IR_LineData.present > 60)
         return TRUE;
     else
         return FALSE;
@@ -564,7 +570,7 @@ boolean isEndOfRIGHT(void){
 }
 
 boolean Over_Boundary_RIGHT(void){
-    if(IR_LineData.present_RIGHT < MIN_INDEX_RIGHT)
+    if(IR_LineData.present_RIGHT < 50)
         return TRUE;
     else
         return FALSE;

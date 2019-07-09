@@ -14,7 +14,7 @@ float32 testVol = 1;
 float32 testSrv = 0;
 float32 signORunsign = 0;
 uint32 Obstacle_flag = OFF;
-float32 Speed_Out_Of_School_Zone = 0.7;
+float32 Speed_Out_Of_School_Zone = -0.3, Speed_In_School_Zone = -0.6;
 float32 P = 10,I = 0.1, D = 1;   //PID control test
 float32 time = 0.1;             //PID sampling time
 float32 speed_min = -0.005, speed_max = 0.005; //PID min, max configuration
@@ -90,15 +90,26 @@ void appTaskfu_1ms(void)
         Obstacle_flag = TRUE;   
     }
 
+    if(task_cnt_1m % 5 == 0){   
+        appTaskfu_5ms();
+    }
+
     
-    if(task_cnt_1m % 8 != 0){   //cross scheduling with DC PWM
+    if(task_cnt_1m % 10 == 0){   //cross scheduling with DC PWM
+        GtmTomSrv_run();
+        GtmTomSrvScan_run();
+
+    }
+    else{
+    	GtmTomPwmHl_run();
+
     }
     
 
 }
 
 
-void appTaskfu_20ms(void){
+void School_Zone_Schedule(void){
     
     //checking school zone
     if(!IR_LineData.School_Zone_flag){
@@ -159,11 +170,10 @@ void appTaskfu_5ms(void){
             
         }
     }
-    GtmTomSrv_run();
-    GtmTomSrvScan_run();
+    
 }
 
-void Lane_Direction(void){
+void Lane_Direction_Out_School_Zone(void){
     if(TEMP_REMAIN){    //only for entering the school zone
         SrvControl(IR_LineData.previous_servo);
     }
@@ -172,106 +182,164 @@ void Lane_Direction(void){
         if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
             if(is_THRESHOLD_RIGHT()){   //right lane detected
                 if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
-                    if(!Over_Boundary_RIGHT()){   
+                    if(!Over_Boundary_RIGHT()){ 
+                        printf("case1\n");
                         //when stick to right side
                         SrvControl(-100);     //turn left to detect line, when not able to detect on the left and right at the same time
                     }
                     else{   //when out of boundary
                         if(isEndOfRIGHT()){
+                            printf("case2\n");
                             SrvControl(-100);
                         }
                         else{
+                            printf("case3\n");
                             SrvControl(Direction_CENTER_RIGHT());     //turn left to detect line, when not able to detect on the left and right at the same time
                         }
                     }
                 }
-                else
+                else{
                     SrvControl(0);//right lane in the boundary. go straight
-            }
-            else{    //left & right lane not detected    
-                if(is_WIDE_LANE()){ //wide lane on the left side, turn right
-                    SrvControl(100);
-                    IR_LineData.previous_servo = 100;
-                    TEMP_REMAIN = TRUE;
+                    printf("case4\n");
                 }
-                else if(is_WIDE_LANE_RIGHT()){  //wide lane on the right side, turn left
-                    SrvControl(-100);
-                    IR_LineData.previous_servo = -100;
-                    TEMP_REMAIN = TRUE;
-                }
-                else    //until find any lane
-                    SrvControl(0);   //go straight
             }
+            
         }
         
         else{   //left lane detected
             if(Boundary()){ //if present index is out of boundary
                 if(Over_Boundary2()){   //when over minimum boundary
                     SrvControl(100);    //determine wheel direction
+                    printf("case6\n");
                 }
-                else if(!Over_Boundary()){   //when over minimum boundary
-                    SrvControl(Direction_CENTER());    //determine wheel direction
+                
+                else if(Over_Boundary()){   //when over minimum boundary
+                    SrvControl(-100);    //turn right to detect line
+                    printf("case7\n");
                 }
                 else{   //when out of boundary
-                    SrvControl(-100);    //turn right to detect line
+                    SrvControl(Direction_CENTER());    //determine wheel direction
+                    printf("case8\n");
                 }
+                
             }
             else{   //go straight
                 SrvControl(0);
+                printf("case9\n");
             }
         }
     }
 
-    else if(Obstacle_flag == MIDDLE){   //while changing lane
-        SrvControl(0);  //go straight
+
+
+}
+
+void Lane_Direction_In_School_Zone(void){
+    if(TEMP_REMAIN){    //only for entering the school zone
+        SrvControl(IR_LineData.previous_servo);
+    }
         
-#if ADD_MIDDLE == ON    //lane을 잘못잡는 경우에 대한 대비
-        //in case of incorrect dotted lane detection        
-        switch(get_Dash()){ //dash buffer를 활용하여 determine next lane direction
-            case LEFT_LANE :
-                WHICH_LANE = RIGHT_LANE;    
+    else if(Obstacle_flag == OFF){   //regardless of school zone
+        
+        switch(WHICH_LANE){
+            case LEFT_LANE:
+                if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
+                    SrvControl(-100);
+                }
+        
+                else{   //left lane detected
+                    if(Boundary()){ //if present index is out of boundary
+                        if(Over_Boundary2()){   //when over minimum boundary
+                            SrvControl(100);    //determine wheel direction
+                        }
+                        else if(!Over_Boundary()){   //when over minimum boundary
+                            SrvControl(Direction_CENTER());    //determine wheel direction
+                        }
+                        else{   //when out of boundary
+                            SrvControl(-100);    //turn right to detect line
+                        }
+                    }
+                    else{   //go straight
+                        if(is_WIDE_LANE()){ //wide lane on the left side, turn right
+                            SrvControl(100);
+                            IR_LineData.previous_servo = 100;
+                            TEMP_REMAIN = TRUE;
+                        }
+                        else
+                            SrvControl(0);
+                    }
+                }
                 break;
-            case RIGHT_LANE :
-                WHICH_LANE = LEFT_LANE;
+                
+            case RIGHT_LANE:
+                if(is_THRESHOLD_RIGHT()){   //right lane detected
+                    if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
+                        if(!Over_Boundary_RIGHT()){   
+                            //when stick to right side
+                            SrvControl(-100);     //turn left to detect line, when not able to detect on the left and right at the same time
+                        }
+                        else{   //when out of boundary
+                            if(isEndOfRIGHT()){
+                                SrvControl(-100);
+                            }
+                            else{
+                                SrvControl(Direction_CENTER_RIGHT());     //turn left to detect line, when not able to detect on the left and right at the same time
+                            }
+                        }
+                    }
+                    else
+                        SrvControl(0);//right lane in the boundary. go straight
+                }
+                else{    //left & right lane not detected    
+                    if(is_WIDE_LANE_RIGHT()){  //wide lane on the right side, turn left
+                        SrvControl(-100);
+                        IR_LineData.previous_servo = -100;
+                        TEMP_REMAIN = TRUE;
+                    }
+                    else    //until find any lane
+                        SrvControl(0);   //go straight
+                }
                 break;
         }
+    
         
-#endif
-        //for 25ms go straight
-        if(task_cnt_10m % 20 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
+    }
 
-            switch(WHICH_LANE){
-                case LEFT_LANE:
-                    if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
-                        Obstacle_flag = TURNING_PHASE;
-                        IR_LineData.SchoolZone_Status = TURNING_PHASE;
-                    }
-                    break;
-                    
-                case RIGHT_LANE:
-                    if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
-                        Obstacle_flag = TURNING_PHASE;
-                        IR_LineData.SchoolZone_Status = TURNING_PHASE;
-                    }
-                    break;
-            }
+    else if(Obstacle_flag == MIDDLE){   //while changing lane
+        SrvControl(0);  //go straight
+        IR_LineData.previous_servo = 0;
+        TEMP_REMAIN = TRUE;
+
+        switch(WHICH_LANE){
+            case LEFT_LANE:
+                if(IR_AdcResult[1] < THRESHOLD_VOL){ //left PSD can't find obstacle
+                    Obstacle_flag = TURNING_PHASE;
+                    IR_LineData.SchoolZone_Status = TURNING_PHASE;
+                }
+                break;
+                
+            case RIGHT_LANE:
+                if(IR_AdcResult[2] < THRESHOLD_VOL_RIGHT){ //right PSD can't find obstacle
+                    Obstacle_flag = TURNING_PHASE;
+                    IR_LineData.SchoolZone_Status = TURNING_PHASE;
+                }
+                break;
         }
 
     }
 
     else if(Obstacle_flag == TURNING_PHASE){
-        //for 25ms move on the next lane
         switch(WHICH_LANE){
             case LEFT_LANE:
-                SrvControl(100);    //turn left after changing lane
+                SrvControl(-100);    //turn left after changing lane
                 break;
                 
             case RIGHT_LANE:
-                SrvControl(-100);   //turn right after changing lane
+                SrvControl(100);   //turn right after changing lane
                 break;
         }
-
-        if(task_cnt_10m % 20 == 0){ //every 500ms check whether it's out of 'MIDDLE' state
+        
+        if(task_cnt_10m % 20 == 0){
             switch(WHICH_LANE){
                 case LEFT_LANE:
                     Obstacle_flag = OFF;
@@ -291,10 +359,6 @@ void Lane_Direction(void){
             }
         }
     }
-    
-//	GtmTomSrv_run();
-//	GtmTomSrvScan_run();
-    
 }
 
 void Lane_Scanning(void){
@@ -313,6 +377,14 @@ void appTaskfu_10ms(void)
 	task_cnt_10m++;
 
     //10ms unit line scanning & schoolzone check
+    Lane_Scanning();
+    
+    if(!IR_LineData.School_Zone_flag){
+        Lane_Direction_Out_School_Zone();
+    }
+    else{
+        Lane_Direction_In_School_Zone();
+    }
 
     IR_setMotor0Vol(-0.6);
 
@@ -325,6 +397,7 @@ void appTaskfu_10ms(void)
         
 //      BasicGtmTom_run();
     	BasicPort_run();
+        School_Zone_Schedule();
 
 
 
@@ -404,7 +477,7 @@ void appIsrCb_1ms(void){
 
 
 void SrvControl(float32 diff){
-    float32 result = 0.5 + 0.2 * (diff / 108);
+    float32 result = 0.5 + (diff / 100);
     IR_setSrvAngle(result);
 }
 

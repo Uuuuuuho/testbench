@@ -35748,10 +35748,11 @@ void appTaskfu_1ms(void);
 void appTaskfu_5ms(void);
 
 void Lane_Scanning(void);
-void Lane_Direction(void);
+void Lane_Direction_Out_School_Zone(void);
+void Lane_Direction_In_School_Zone(void);
 
 void appTaskfu_10ms(void);
-void appTaskfu_20ms(void);
+void School_Zone_Schedule(void);
 
 void appTaskfu_100ms(void);
 void appTaskfu_1000ms(void);
@@ -35809,20 +35810,6 @@ void STM_Int0Handler(void)
 
     task_flag_1m = 1;
 
-    if(g_Stm.counter % 5 == 0){
-        appTaskfu_5ms();
-    }
-
-
-
-    if(g_Stm.counter % 6 == 0){
-        Lane_Scanning();
-        Lane_Direction();
-    }
-
-    if(g_Stm.counter % 6 != 0){
-     GtmTomPwmHl_run();
-    }
 
 
     if(g_Stm.counter % 10 == 0){
@@ -35927,13 +35914,9 @@ void BasicStm_run(void)
  if(task_flag_10m == 1){
   appTaskfu_10ms();
 
-
   task_flag_10m = 0;
  }
 
-    if(g_Stm.counter % 20 == 0){
-        appTaskfu_20ms();
-    }
 
  if(task_flag_100m == 1){
   appTaskfu_100ms();

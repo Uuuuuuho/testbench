@@ -31799,7 +31799,7 @@ void PID_control(void){
 
 void get_Speed(float32 speed){
     IR_PID_Control.current = speed;
-    printf("%f \n", IR_PID_Control.current);
+
 }
 
 void set_Speed(float32 target){

@@ -23,16 +23,16 @@
 #define LEFTLINESCAN 0  //linescanner index
 #define RIGHTLINESCAN 1 //linescanner index
 
-#define CENTER_INDEX 40
+#define CENTER_INDEX 35
 #define BOUNDARY 10
-#define CENTER_INDEX_RIGHT 80
+#define CENTER_INDEX_RIGHT 100
 
 #define STAY 0
 #define TURN_LEFT 1
 #define TURN_RIGHT 2
 #define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
-#define THRESHOLD 400
-#define THRESHOLD_RIGHT 1000
+#define THRESHOLD 1000
+#define THRESHOLD_RIGHT 300
 
 #define LEFT_LANE 1
 #define RIGHT_LANE 2

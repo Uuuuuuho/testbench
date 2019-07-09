@@ -35758,10 +35758,11 @@ void appTaskfu_1ms(void);
 void appTaskfu_5ms(void);
 
 void Lane_Scanning(void);
-void Lane_Direction(void);
+void Lane_Direction_Out_School_Zone(void);
+void Lane_Direction_In_School_Zone(void);
 
 void appTaskfu_10ms(void);
-void appTaskfu_20ms(void);
+void School_Zone_Schedule(void);
 
 void appTaskfu_100ms(void);
 void appTaskfu_1000ms(void);
