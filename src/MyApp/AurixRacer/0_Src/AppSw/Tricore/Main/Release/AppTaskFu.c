@@ -71,26 +71,9 @@ void appTaskfu_1ms(void)
 	}
     
     BasicGpt12Enc_run();
-    
-    
-    
-//    SpeedCalculation();
     Speed_Buff();
-    //printf("1ms!\n");
-
-
-
-
-}
-
-
-void appTaskfu_10ms(void)
-{
-	task_cnt_10m++;
     
-
-#if PID_TEST == ON
-    if(task_cnt_10m % 50 == 0){
+    if(task_cnt_1m % 50 == 0){
         Speed_Avg();
         get_Speed(SpeedCalculation());    //get current speed
 
@@ -98,15 +81,43 @@ void appTaskfu_10ms(void)
         PID_control();                                      //calculate next speed
         IR_setMotor0Vol(next_Vol());    //set next speed voltage
     }
-#endif
 
-#if BUFFER == OFF//SHOULD BE ON/////////////////////////////////////////////
     //checking PSD
     BasicVadcBgScan_run();
-    
-    if(Checking_PSD()){    //determine avoid or AEB
+    if(Checking_PSD()){
         Obstacle_flag = TRUE;   
-        IR_LineData.SchoolZone_Status = ON; //to debug
+    }
+
+    
+    if(task_cnt_1m % 5 != 0){
+    	GtmTomPwmHl_run();
+    }
+
+}
+
+
+void appTaskfu_20ms(void){
+    
+    //checking school zone
+    if(!IR_LineData.School_Zone_flag){
+        IsInSchoolZone_THRESHOLD();
+        if(IR_LineData.School_Zone_flag){    
+            TEMP_REMAIN = TRUE; //to go straight when passing in the school zone
+        }
+    }
+    
+    else
+        IsOutSchoolZone_THRESHOLD();
+
+    
+    if(TEMP_REMAIN){ //keep remain state when entering school zone
+        TEMP_REMAIN = FALSE;
+    }
+}
+
+void appTaskfu_5ms(void){
+    
+    if(Obstacle_flag){    //determine avoid or AEB
 
         if(!IR_LineData.School_Zone_flag){  //Out of school zone
             AEB();
@@ -144,42 +155,9 @@ void appTaskfu_10ms(void)
             
         }
     }
+}
 
-
-
-
-
-    //10ms unit line scanning & schoolzone check
-    BasicLineScan_run();
-    //LEFT lane scanner
-    median_filter();
-    Line_Buffer();
-
-    //RIGHT lane scanner
-    median_filter_RIGHT();
-    Line_Buffer_RIGHT();
-    
-#if LINE_THRESHOLD == ON
-    //get line data
-    threshold_LINE();
-    threshold_LINE_RIGHT();
-
-    //checking school zone
-    if(task_cnt_10m % 25 == 0){
-        if(!IR_LineData.School_Zone_flag){
-            IsInSchoolZone_THRESHOLD();
-            if(IR_LineData.School_Zone_flag){    
-                TEMP_REMAIN = TRUE; //to go straight when passing in the school zone
-            }
-        }
-        else
-            IsOutSchoolZone_THRESHOLD();
-    }
-
-    if(task_cnt_10m % 50 == 0){ //keep remain state when entering school zone
-        TEMP_REMAIN = FALSE;
-    }
-
+void appTaskfu_10ms_2(void){
     if(TEMP_REMAIN){    //only for entering the school zone
         SrvControl(0);
     }
@@ -293,84 +271,25 @@ void appTaskfu_10ms(void)
             }
         }
     }
-    
-    clearBuffer();
-    clearBuffer_RIGHT();
-    
-    
-#endif
+}
 
-#endif
+void appTaskfu_10ms(void)
+{
+	task_cnt_10m++;
 
-//BUFFER idea를 사용하는 경우
-#if BUFFER == ON
-    //get line data in every 0.01 sec
-    if(task_cnt_10m % 5 == 0){
-        BasicLineScan_run();
+    //10ms unit line scanning & schoolzone check
+    BasicLineScan_run();
+    //LEFT & RIGHT lane scanner
+    median_filter();
 
-        //LEFT LINE
-        median_filter();
-        Line_Buffer();
-
-    //RIGHT LINE
-//    median_filter_RIGHT();
-//    Line_Buffer_RIGHT();
-    }
-    
-    if(task_cnt_10m % 25 == 0){
-    	//LEFT LINE
-    	Line_avgerage();
-
-#if CONVOLUTION == ON
-    	convolutionOP();
-        getLineData();
-#endif
-
-#if LINE_THRESHOLD == ON
-        threshold_LINE();
-#endif
-        //RIGHT LINE
-//        Line_avgerage_RIGHT();
-//        convolutionOP_RIGHT();
-//        getLineData_RIGHT();
-
-    }
-
-    if(task_cnt_10m % 50 == 0){
-        if(!IR_LineData.School_Zone_flag)
-            IsInSchoolZone();
-        else
-            IsOutSchoolZone();
-#if CONVOLUTION == ON
-        if(Boundary()){ //if present index is out of boundary
-          	SrvControl(Direction());    //determine wheel direction
-        }
-#endif
-
-#if LINE_THRESHOLD == ON
-        if(!is_THRESHOLD())
-            SrvControl(-0.1);    //turn left to detect line
-        else{
-            if(Boundary()){ //if present index is out of boundary
-                if(!Over_Boundary()){   //if is in the boundary
-                    SrvControl(Direction_CENTER());    //determine wheel direction
-                }
-                else{   //when out of boundary
-                    SrvControl(-0.1);    //turn left to detect line
-                }
-            }
-        }
-#endif
-    }
-    
-#endif
+    //get line data
+    threshold_LINE();
 
 
-    
-#if ENCODER_TEST == ON
-	IR_setMotor0Vol(testVol);
-#endif
 
+
+	GtmTomSrv_run();
+	GtmTomSrvScan_run();
     
 	if(task_cnt_10m == 1000){
 		task_cnt_10m = 0;
@@ -378,7 +297,7 @@ void appTaskfu_10ms(void)
 
 	if(task_cnt_10m%2 == 0){
         
-        BasicGtmTom_run();
+//        BasicGtmTom_run();
     	BasicPort_run();
 
         
@@ -482,11 +401,8 @@ void appIsrCb_1ms(void){
 
 
 void SrvControl(float32 diff){
-
-    float32 result = -0.4 - 2 * (diff / 108);
+    float32 result = 0.5 + 0.5 * (diff / 108);
     IR_setSrvAngle(result);
-
-
 }
 
 void AEB(void){
@@ -496,10 +412,10 @@ void AEB(void){
 void Avoid(void){
     switch(WHICH_LANE){
         case LEFT_LANE :    //when on the left lane
-            IR_setSrvAngle(-1);   //turn right, assuming second line is on the left
+            IR_setSrvAngle(1);   //turn right, assuming second line is on the left
             break;
         case RIGHT_LANE:    //when on the right lane
-            IR_setSrvAngle(-0.2);   //turn left
+            IR_setSrvAngle(0);   //turn left
             break;
     }
 }

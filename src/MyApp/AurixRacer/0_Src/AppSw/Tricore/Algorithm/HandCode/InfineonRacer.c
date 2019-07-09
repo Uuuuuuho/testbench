@@ -138,10 +138,11 @@ void clearBuffer_RIGHT(void){ //clear buffer function
     }
 }
 
-void median_filter(void) {
+void median_filter(void) {  //left & right lane together
 	for (uint32 i = (MEDIAN_SIZE / 2); i < LINEMAX- (MEDIAN_SIZE / 2); i++) {
 	      for (uint32 j = -(MEDIAN_SIZE / 2); j <= MEDIAN_SIZE / 2; j++) {
 	          IR_LineData.sample[j + (MEDIAN_SIZE / 2)] = IR_LineScan.adcResult[0][i + j];
+              IR_LineData.sample_RIGHT[j + (MEDIAN_SIZE / 2)] = IR_LineScan.adcResult[1][i + j];
 	          if (j == MEDIAN_SIZE / 2) {
 	              for (uint32 m = 0; m < MEDIAN_SIZE - 1; m++) { //SampleÀ» Á¤·Ä(Selection Sort)
 	                  for (uint32 n = m + 1; n < MEDIAN_SIZE; n++) {
@@ -150,9 +151,16 @@ void median_filter(void) {
 	                          IR_LineData.sample[m] = IR_LineData.sample[n];
 	                          IR_LineData.sample[n] = IR_LineData.temp;
 	                      }
+
+                          if (IR_LineData.sample_RIGHT[m] < IR_LineData.sample_RIGHT[n]) {
+	                          IR_LineData.temp = IR_LineData.sample_RIGHT[m];
+	                          IR_LineData.sample_RIGHT[m] = IR_LineData.sample_RIGHT[n];
+	                          IR_LineData.sample_RIGHT[n] = IR_LineData.temp;
+	                      }
 	                  }
 	              }
 	              IR_LineScan.adcResult[0][i] = IR_LineData.sample[j];
+  	              IR_LineScan.adcResult[1][i] = IR_LineData.sample_RIGHT[j];
 	          }
 	      }
 	  }
@@ -240,31 +248,24 @@ void clear_Dash(void){
 
 void threshold_LINE(void){
     uint32 index = 0;
-    float32 threshold = THRESHOLD;
-    float32 MinVal = 500000;
+    float32 threshold = THRESHOLD, threshold_RIGHT = THRESHOLD_RIGHT;
+    float32 MinVal = 500000, MinVal_RIGHT = 500000;
 
-    if(!IR_LineData.Direction_Determined){
-    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-            if(IR_LineScan.adcBuffer[0][index] < threshold){
-                if(IR_LineScan.adcBuffer[0][index] < MinVal){
-                    IR_LineData.previous = index;
-                    MinVal = IR_LineScan.adcBuffer[0][index];
-                }
+	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index += 2){
+        if(IR_LineScan.adcBuffer[0][index] < threshold){
+            if(IR_LineScan.adcBuffer[0][index] < MinVal){
+                IR_LineData.present = index;
+                MinVal = IR_LineScan.adcBuffer[0][index];
             }
         }
-    	IR_LineData.Direction_Determined = TRUE;
-    }
 
-    else{
-    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-            if(IR_LineScan.adcBuffer[0][index] < threshold){
-                if(IR_LineScan.adcBuffer[0][index] < MinVal){
-                    IR_LineData.present = index;
-                    MinVal = IR_LineScan.adcBuffer[0][index];
-                }
+        if(IR_LineScan.adcBuffer[1][index] < threshold_RIGHT){
+            if(IR_LineScan.adcBuffer[1][index] < MinVal_RIGHT){
+                IR_LineData.present_RIGHT = index;
+                MinVal_RIGHT = IR_LineScan.adcBuffer[1][index];
             }
         }
-    	IR_LineData.Direction_Determined = FALSE;
+        
     }
 }
 

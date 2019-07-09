@@ -58,6 +58,7 @@ typedef struct{
     int Transfer[3];
     
     uint32 sample[MEDIAN_SIZE];
+    uint32 sample_RIGHT[MEDIAN_SIZE];
     float32 temp;
     
     uint32 previous;
