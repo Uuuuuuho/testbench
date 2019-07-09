@@ -199,6 +199,8 @@ BasicVadcBgScan_run:
 	ret
 .LFE393:
 	.size	BasicVadcBgScan_run, .-BasicVadcBgScan_run
+	.global	__extendsfdf2
+	.global	__gtdf2
 .section .text.Checking_PSD,"ax",@progbits
 	.align 1
 	.global	Checking_PSD
@@ -212,21 +214,33 @@ Checking_PSD:
 	lea	%a2, [%a15] lo:IR_PSD_counter
 	jge.u	%d15, 11, .L21
 	.loc 1 165 0
-	movh.a	%a2, hi:IR_AdcResult
-	lea	%a2, [%a2] lo:IR_AdcResult
-	ld.w	%d3, [%a2] 4
-	movh	%d2, 16000
-	cmp.f	%d2, %d3, %d2
-	jz.t	%d2, 2, .L14
+	movh.a	%a12, hi:IR_AdcResult
+	lea	%a12, [%a12] lo:IR_AdcResult
+	ld.w	%d4, [%a12] 4
+	call	__extendsfdf2
+.LVL19:
+	movh	%d7, 16323
+	addi	%d7, %d7, 13107
+	mov	%e4, %d3, %d2
+	addih	%d6, %d7, 62320
+	call	__gtdf2
+.LVL20:
+	jlez	%d2, .L14
 	.loc 1 166 0
 	add	%d15, 1
 	st.h	[%a15] lo:IR_PSD_counter, %d15
 .L14:
 	.loc 1 168 0
-	ld.w	%d15, [%a2] 8
-	movh	%d2, 16000
-	cmp.f	%d15, %d15, %d2
-	jz.t	%d15, 2, .L20
+	ld.w	%d4, [%a12] 8
+	call	__extendsfdf2
+.LVL21:
+	movh	%d7, 16323
+	addi	%d7, %d7, 13107
+	mov	%e4, %d3, %d2
+	addih	%d6, %d7, 62320
+	call	__gtdf2
+.LVL22:
+	jlez	%d2, .L20
 	.loc 1 169 0
 	ld.h	%d15, [%a15] lo:IR_PSD_counter
 	.loc 1 172 0
@@ -11298,7 +11312,7 @@ g_VadcBackgroundScan:
 	.uleb128 0x1
 	.uleb128 0x40
 	.uleb128 0xa
-	.uleb128 0x2117
+	.uleb128 0x2116
 	.uleb128 0xc
 	.byte	0
 	.byte	0

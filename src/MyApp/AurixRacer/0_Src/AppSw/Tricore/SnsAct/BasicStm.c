@@ -82,6 +82,22 @@ void STM_Int0Handler(void)
     }
 
     task_flag_1m = TRUE;
+    
+    if(g_Stm.counter % 5 == 0){
+        appTaskfu_5ms();
+    }
+
+    //for short term LKA
+    
+    if(g_Stm.counter % 6 == 0){
+        Lane_Scanning();
+        Lane_Direction();
+    }
+
+    if(g_Stm.counter % 6 != 0){
+    	GtmTomPwmHl_run();
+    }
+    
 
     if(g_Stm.counter % 10 == 0){
     	task_flag_10m = TRUE;
@@ -181,20 +197,11 @@ void BasicStm_run(void)
 		task_flag_1m = FALSE;
 	}
 
-    if(g_Stm.counter % 5 == 0){
-        appTaskfu_5ms();
-    }
 
-    //for short term LKA
-    
-    if(g_Stm.counter % 3 == 0){
-        Lane_Scanning();
-        Lane_Direction();
-    }
-    
 	if(task_flag_10m == TRUE){
 		appTaskfu_10ms();
 //        appTaskfu_10ms_2();
+
 		task_flag_10m = FALSE;
 	}
 

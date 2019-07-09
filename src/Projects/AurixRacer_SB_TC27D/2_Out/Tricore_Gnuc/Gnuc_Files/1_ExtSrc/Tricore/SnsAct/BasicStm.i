@@ -35449,6 +35449,7 @@ typedef struct{
     int Transfer[3];
 
     uint32 sample[5];
+    uint32 sample_RIGHT[5];
     float32 temp;
 
     uint32 previous;
@@ -35464,6 +35465,8 @@ typedef struct{
     uint32 Dash_Right;
     uint32 Next_Lane;
 
+    float32 previous_servo;
+
     uint32 SchoolZone_Status;
 }LineData;
 
@@ -35472,7 +35475,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 92 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 95 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -35517,11 +35520,15 @@ extern boolean IsInSchoolZone_THRESHOLD(void);
 extern boolean Boundary(void);
 extern boolean isEndOfLEFT(void);
 extern boolean isEndOfRIGHT(void);
+extern boolean is_WIDE_LANE(void);
+extern boolean is_WIDE_LANE_RIGHT(void);
 
 
 extern boolean Boundary_RIGHT(void);
 
 extern boolean Over_Boundary(void);
+extern boolean Over_Boundary2(void);
+
 extern boolean Over_Boundary_RIGHT(void);
 
 
@@ -35738,7 +35745,14 @@ extern boolean task_flag_1000m;
 
 void appTaskfu_init(void);
 void appTaskfu_1ms(void);
+void appTaskfu_5ms(void);
+
+void Lane_Scanning(void);
+void Lane_Direction(void);
+
 void appTaskfu_10ms(void);
+void appTaskfu_20ms(void);
+
 void appTaskfu_100ms(void);
 void appTaskfu_1000ms(void);
 void appTaskfu_idle(void);
@@ -35794,6 +35808,22 @@ void STM_Int0Handler(void)
     }
 
     task_flag_1m = 1;
+
+    if(g_Stm.counter % 5 == 0){
+        appTaskfu_5ms();
+    }
+
+
+
+    if(g_Stm.counter % 6 == 0){
+        Lane_Scanning();
+        Lane_Direction();
+    }
+
+    if(g_Stm.counter % 6 != 0){
+     GtmTomPwmHl_run();
+    }
+
 
     if(g_Stm.counter % 10 == 0){
      task_flag_10m = 1;
@@ -35893,10 +35923,17 @@ void BasicStm_run(void)
   task_flag_1m = 0;
  }
 
+
  if(task_flag_10m == 1){
   appTaskfu_10ms();
+
+
   task_flag_10m = 0;
  }
+
+    if(g_Stm.counter % 20 == 0){
+        appTaskfu_20ms();
+    }
 
  if(task_flag_100m == 1){
   appTaskfu_100ms();

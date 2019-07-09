@@ -31853,6 +31853,7 @@ typedef struct{
     int Transfer[3];
 
     uint32 sample[5];
+    uint32 sample_RIGHT[5];
     float32 temp;
 
     uint32 previous;
@@ -31868,6 +31869,8 @@ typedef struct{
     uint32 Dash_Right;
     uint32 Next_Lane;
 
+    float32 previous_servo;
+
     uint32 SchoolZone_Status;
 }LineData;
 
@@ -31876,7 +31879,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 92 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 95 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -31921,11 +31924,15 @@ extern boolean IsInSchoolZone_THRESHOLD(void);
 extern boolean Boundary(void);
 extern boolean isEndOfLEFT(void);
 extern boolean isEndOfRIGHT(void);
+extern boolean is_WIDE_LANE(void);
+extern boolean is_WIDE_LANE_RIGHT(void);
 
 
 extern boolean Boundary_RIGHT(void);
 
 extern boolean Over_Boundary(void);
+extern boolean Over_Boundary2(void);
+
 extern boolean Over_Boundary_RIGHT(void);
 
 

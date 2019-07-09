@@ -27401,10 +27401,10 @@ boolean Checking_PSD(void){
         return 1;
     }
 
-    if(IR_AdcResult[1] > 0.25)
+    if(IR_AdcResult[1] > 0.15)
         IR_PSD_counter.PSD_counter++;
 
-    if(IR_AdcResult[2] > 0.25)
+    if(IR_AdcResult[2] > 0.15)
         IR_PSD_counter.PSD_counter++;
 
 

@@ -247,7 +247,7 @@ Speed_Avg:
 	movh.a	%a2, hi:IR_Encoder
 	lea	%a15, [%a2] lo:IR_Encoder
 	ld.w	%d2, [%a15] 16
-	movh	%d15, 17402
+	movh	%d15, 16968
 	div.f	%d15, %d2, %d15
 	st.w	[%a2] lo:IR_Encoder, %d15
 	.loc 1 156 0

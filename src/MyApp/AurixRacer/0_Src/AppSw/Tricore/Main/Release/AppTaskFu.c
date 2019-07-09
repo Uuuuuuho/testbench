@@ -77,9 +77,11 @@ void appTaskfu_1ms(void)
         Speed_Avg();
         get_Speed(SpeedCalculation());    //get current speed
 
-        set_Speed(Speed_Out_Of_School_Zone);                        //set next speed
-        PID_control();                                      //calculate next speed
-        IR_setMotor0Vol(next_Vol());    //set next speed voltage
+        IR_setMotor0Vol(-0.5);
+        
+//        set_Speed(Speed_Out_Of_School_Zone);                        //set next speed
+//        PID_control();                                      //calculate next speed
+//        IR_setMotor0Vol(next_Vol());    //set next speed voltage
     }
 
     //checking PSD
@@ -89,9 +91,9 @@ void appTaskfu_1ms(void)
     }
 
     
-    if(task_cnt_1m % 3 != 0){   //cross scheduling with DC PWM
-    	GtmTomPwmHl_run();
+    if(task_cnt_1m % 8 != 0){   //cross scheduling with DC PWM
     }
+    
 
 }
 
@@ -157,11 +159,13 @@ void appTaskfu_5ms(void){
             
         }
     }
+    GtmTomSrv_run();
+    GtmTomSrvScan_run();
 }
 
 void Lane_Direction(void){
     if(TEMP_REMAIN){    //only for entering the school zone
-        SrvControl(0);
+        SrvControl(IR_LineData.previous_servo);
     }
         
     else if(Obstacle_flag == OFF){   //regardless of school zone
@@ -174,7 +178,7 @@ void Lane_Direction(void){
                     }
                     else{   //when out of boundary
                         if(isEndOfRIGHT()){
-                            SrvControl(100);
+                            SrvControl(-100);
                         }
                         else{
                             SrvControl(Direction_CENTER_RIGHT());     //turn left to detect line, when not able to detect on the left and right at the same time
@@ -184,13 +188,28 @@ void Lane_Direction(void){
                 else
                     SrvControl(0);//right lane in the boundary. go straight
             }
-            else    //left & right lane not detected    
-                SrvControl(100);   //turn left
+            else{    //left & right lane not detected    
+                if(is_WIDE_LANE()){ //wide lane on the left side, turn right
+                    SrvControl(100);
+                    IR_LineData.previous_servo = 100;
+                    TEMP_REMAIN = TRUE;
+                }
+                else if(is_WIDE_LANE_RIGHT()){  //wide lane on the right side, turn left
+                    SrvControl(-100);
+                    IR_LineData.previous_servo = -100;
+                    TEMP_REMAIN = TRUE;
+                }
+                else    //until find any lane
+                    SrvControl(0);   //go straight
+            }
         }
         
         else{   //left lane detected
             if(Boundary()){ //if present index is out of boundary
-                if(!Over_Boundary()){   //when over minimum boundary
+                if(Over_Boundary2()){   //when over minimum boundary
+                    SrvControl(100);    //determine wheel direction
+                }
+                else if(!Over_Boundary()){   //when over minimum boundary
                     SrvControl(Direction_CENTER());    //determine wheel direction
                 }
                 else{   //when out of boundary
@@ -273,13 +292,13 @@ void Lane_Direction(void){
         }
     }
     
-	GtmTomSrv_run();
-	GtmTomSrvScan_run();
+//	GtmTomSrv_run();
+//	GtmTomSrvScan_run();
+    
 }
 
 void Lane_Scanning(void){
     
-    //10ms unit line scanning & schoolzone check
     BasicLineScan_run();
     //LEFT & RIGHT lane scanner
     median_filter();
@@ -293,8 +312,9 @@ void appTaskfu_10ms(void)
 {
 	task_cnt_10m++;
 
+    //10ms unit line scanning & schoolzone check
 
-
+    IR_setMotor0Vol(-0.6);
 
     
 	if(task_cnt_10m == 1000){
@@ -303,8 +323,10 @@ void appTaskfu_10ms(void)
 
 	if(task_cnt_10m%2 == 0){
         
-//        BasicGtmTom_run();
+//      BasicGtmTom_run();
     	BasicPort_run();
+
+
 
         
 		if(IR_Ctrl.basicTest == FALSE){ //no need. gonna be deleted
@@ -382,7 +404,7 @@ void appIsrCb_1ms(void){
 
 
 void SrvControl(float32 diff){
-    float32 result = 0.5 + 0.5 * (diff / 108);
+    float32 result = 0.5 + 0.2 * (diff / 108);
     IR_setSrvAngle(result);
 }
 

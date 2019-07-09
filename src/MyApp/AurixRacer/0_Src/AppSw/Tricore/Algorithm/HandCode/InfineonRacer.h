@@ -31,8 +31,8 @@
 #define TURN_LEFT 1
 #define TURN_RIGHT 2
 #define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
-#define THRESHOLD 500
-#define THRESHOLD_RIGHT 1500
+#define THRESHOLD 400
+#define THRESHOLD_RIGHT 1000
 
 #define LEFT_LANE 1
 #define RIGHT_LANE 2
@@ -73,6 +73,8 @@ typedef struct{
     uint32 Dash_Left;
     uint32 Dash_Right;
     uint32 Next_Lane;
+
+    float32 previous_servo;
     //for debugging
     uint32 SchoolZone_Status;
 }LineData;
@@ -134,11 +136,15 @@ IFX_EXTERN boolean IsInSchoolZone_THRESHOLD(void);
 IFX_EXTERN boolean Boundary(void);
 IFX_EXTERN boolean isEndOfLEFT(void);
 IFX_EXTERN boolean isEndOfRIGHT(void);
+IFX_EXTERN boolean is_WIDE_LANE(void);
+IFX_EXTERN boolean is_WIDE_LANE_RIGHT(void);
 
 
 IFX_EXTERN boolean Boundary_RIGHT(void);
 
 IFX_EXTERN boolean Over_Boundary(void);
+IFX_EXTERN boolean Over_Boundary2(void);
+
 IFX_EXTERN boolean Over_Boundary_RIGHT(void);
 
 

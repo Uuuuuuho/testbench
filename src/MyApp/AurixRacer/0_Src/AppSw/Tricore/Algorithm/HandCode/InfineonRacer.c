@@ -213,13 +213,14 @@ boolean is_THRESHOLD_RIGHT(void){
     uint32 index = 0;
     float32 threshold = THRESHOLD_RIGHT;
 
-    for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index += 2){
+    for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index+=2){
         if(IR_LineScan.adcResult[1][index] < threshold){
             return TRUE;
         }
     }
     return FALSE;
 }
+
 
 
 uint32 get_Dash(void){
@@ -252,21 +253,43 @@ void threshold_LINE(void){
     float32 MinVal = 500000, MinVal_RIGHT = 500000;
 
 	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index += 2){
-        if(IR_LineScan.adcBuffer[0][index] < threshold){
-            if(IR_LineScan.adcBuffer[0][index] < MinVal){
+        if(IR_LineScan.adcResult[0][index] < threshold){
+            if(IR_LineScan.adcResult[0][index] < MinVal){
                 IR_LineData.present = index;
-                MinVal = IR_LineScan.adcBuffer[0][index];
+                MinVal = IR_LineScan.adcResult[0][index];
             }
         }
 
-        if(IR_LineScan.adcBuffer[1][index] < threshold_RIGHT){
-            if(IR_LineScan.adcBuffer[1][index] < MinVal_RIGHT){
+        if(IR_LineScan.adcResult[1][index] < threshold_RIGHT){
+            if(IR_LineScan.adcResult[1][index] < MinVal_RIGHT){
                 IR_LineData.present_RIGHT = index;
-                MinVal_RIGHT = IR_LineScan.adcBuffer[1][index];
+                MinVal_RIGHT = IR_LineScan.adcResult[1][index];
             }
         }
         
     }
+}
+
+boolean is_WIDE_LANE(void){
+    if(IR_LineScan.adcResult[0][IR_LineData.present + BOUNDARY] < THRESHOLD){
+        return TRUE;
+    }
+    else if(IR_LineScan.adcResult[0][IR_LineData.present - BOUNDARY] < THRESHOLD){
+        return TRUE;
+    }
+    else
+        return FALSE;
+}
+
+boolean is_WIDE_LANE_RIGHT(void){
+    if(IR_LineScan.adcResult[1][IR_LineData.present + BOUNDARY] < THRESHOLD){
+        return TRUE;
+    }
+    else if(IR_LineScan.adcResult[1][IR_LineData.present - BOUNDARY] < THRESHOLD){
+        return TRUE;
+    }
+    else
+        return FALSE;
 }
 
 void threshold_LINE_RIGHT(void){
@@ -514,6 +537,13 @@ boolean Boundary_RIGHT(void){
 
 boolean Over_Boundary(void){
     if(IR_LineData.present < MIN_INDEX)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+boolean Over_Boundary2(void){
+    if(IR_LineData.present > MAX_INDEX)
         return TRUE;
     else
         return FALSE;
