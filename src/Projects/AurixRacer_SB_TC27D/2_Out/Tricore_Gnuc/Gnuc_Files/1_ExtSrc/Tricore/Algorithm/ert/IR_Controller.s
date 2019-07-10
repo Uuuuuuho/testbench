@@ -864,7 +864,7 @@ IR_Controller_DWork:
 	.uleb128 0x14
 	.string	"IR_Ctrl"
 	.byte	0xa
-	.byte	0x52
+	.byte	0x54
 	.uaword	0x669
 	.byte	0x1
 	.byte	0x1

@@ -138,10 +138,11 @@ void clearBuffer_RIGHT(void){ //clear buffer function
     }
 }
 
-void median_filter(void) {
+void median_filter(void) {  //left & right lane together
 	for (uint32 i = (MEDIAN_SIZE / 2); i < LINEMAX- (MEDIAN_SIZE / 2); i++) {
 	      for (uint32 j = -(MEDIAN_SIZE / 2); j <= MEDIAN_SIZE / 2; j++) {
 	          IR_LineData.sample[j + (MEDIAN_SIZE / 2)] = IR_LineScan.adcResult[0][i + j];
+              IR_LineData.sample_RIGHT[j + (MEDIAN_SIZE / 2)] = IR_LineScan.adcResult[1][i + j];
 	          if (j == MEDIAN_SIZE / 2) {
 	              for (uint32 m = 0; m < MEDIAN_SIZE - 1; m++) { //Sample을 정렬(Selection Sort)
 	                  for (uint32 n = m + 1; n < MEDIAN_SIZE; n++) {
@@ -150,13 +151,21 @@ void median_filter(void) {
 	                          IR_LineData.sample[m] = IR_LineData.sample[n];
 	                          IR_LineData.sample[n] = IR_LineData.temp;
 	                      }
+
+                          if (IR_LineData.sample_RIGHT[m] < IR_LineData.sample_RIGHT[n]) {
+	                          IR_LineData.temp = IR_LineData.sample_RIGHT[m];
+	                          IR_LineData.sample_RIGHT[m] = IR_LineData.sample_RIGHT[n];
+	                          IR_LineData.sample_RIGHT[n] = IR_LineData.temp;
+	                      }
 	                  }
 	              }
 	              IR_LineScan.adcResult[0][i] = IR_LineData.sample[j];
+  	              IR_LineScan.adcResult[1][i] = IR_LineData.sample_RIGHT[j];
 	          }
 	      }
 	  }
 }
+
 
 void median_filter_RIGHT(void) {
 	for (uint32 i = (MEDIAN_SIZE / 2); i < LINEMAX- (MEDIAN_SIZE / 2); i++) {
@@ -213,6 +222,12 @@ boolean is_THRESHOLD_RIGHT(void){
     return FALSE;
 }
 
+boolean left_FIRST(void){
+    if(IR_LineData.previous_Servo > 0.43){
+        return TRUE;
+    }
+    else return FALSE;
+}
 
 uint32 get_Dash(void){
     if(is_THRESHOLD())  //left dash buffer
@@ -240,62 +255,43 @@ void clear_Dash(void){
 
 void threshold_LINE(void){
     uint32 index = 0;
-    float32 threshold = THRESHOLD;
-    float32 MinVal = 500000;
+    float32 threshold = THRESHOLD, threshold_RIGHT = THRESHOLD_RIGHT;
+    float32 MinVal = 500000, MinVal_RIGHT = 500000;
 
-    if(!IR_LineData.Direction_Determined){
-    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-            if(IR_LineScan.adcBuffer[0][index] < threshold){
-                if(IR_LineScan.adcBuffer[0][index] < MinVal){
-                    IR_LineData.previous = index;
-                    MinVal = IR_LineScan.adcBuffer[0][index];
-                }
+	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index += 2){
+        if(IR_LineScan.adcResult[0][index] < threshold){
+            if(IR_LineScan.adcResult[0][index] < MinVal){
+                IR_LineData.present = index;
+                MinVal = IR_LineScan.adcResult[0][index];
             }
         }
-    	IR_LineData.Direction_Determined = TRUE;
-    }
 
-    else{
-    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-            if(IR_LineScan.adcBuffer[0][index] < threshold){
-                if(IR_LineScan.adcBuffer[0][index] < MinVal){
-                    IR_LineData.present = index;
-                    MinVal = IR_LineScan.adcBuffer[0][index];
-                }
+        if(IR_LineScan.adcResult[1][index] < threshold_RIGHT){
+            if(IR_LineScan.adcResult[1][index] < MinVal_RIGHT){
+                IR_LineData.present_RIGHT = index;
+                MinVal_RIGHT = IR_LineScan.adcResult[1][index];
             }
         }
-    	IR_LineData.Direction_Determined = FALSE;
+        
     }
 }
+
 
 void threshold_LINE_RIGHT(void){
     uint32 index = 0;
     float32 threshold = THRESHOLD_RIGHT;
     float32 MinVal = 500000;
 
-    if(!IR_LineData.Direction_Determined_RIGHT){
-    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-            if(IR_LineScan.adcBuffer[1][index] < threshold){
-                if(IR_LineScan.adcBuffer[1][index] < MinVal){
-                    IR_LineData.previous_RIGHT = index;
-                    MinVal = IR_LineScan.adcBuffer[1][index];
-                }
+	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index+=2){
+        if(IR_LineScan.adcBuffer[1][index] < threshold){
+            if(IR_LineScan.adcBuffer[1][index] < MinVal){
+                IR_LineData.present_RIGHT = index;
+                MinVal = IR_LineScan.adcBuffer[1][index];
             }
         }
-    	IR_LineData.Direction_Determined_RIGHT = TRUE;
     }
-
-    else{
-    	for(index = IGNOREIDX; index < LINEMAX - IGNOREIDX; index++){
-            if(IR_LineScan.adcBuffer[1][index] < threshold){
-                if(IR_LineScan.adcBuffer[1][index] < MinVal){
-                    IR_LineData.present_RIGHT = index;
-                    MinVal = IR_LineScan.adcBuffer[1][index];
-                }
-            }
-        }
-    	IR_LineData.Direction_Determined_RIGHT = FALSE;
-    }
+	IR_LineData.Direction_Determined_RIGHT = FALSE;
+    
 }
 
 
@@ -358,6 +354,11 @@ boolean IsInSchoolZone_THRESHOLD(void){
     uint32 half_index = LINEMAX / 2;
     float32 SCHOOLZONE_DETECTION = THRESHOLD;   //for test. 최솟값과 유사한 값이 나타나는지 측정. 라인이 하나 더 나타나는지 측정
     uint32 line_count = 0;
+
+///debug
+    IR_LineData.School_Zone_flag = TRUE;
+    return IR_LineData.School_Zone_flag;
+
 
     //left lane scanner school zone check
     
@@ -488,7 +489,7 @@ float32 Direction_CENTER(void){
 }
 
 float32 Direction_CENTER_RIGHT(void){
-    return (IR_LineData.present_RIGHT - MIN_INDEX_RIGHT);
+    return (IR_LineData.present_RIGHT - CENTER_INDEX_RIGHT);
 }
 
 float32 Direction_CENTER_RIGHT_Inverse(void){
@@ -512,7 +513,14 @@ boolean Boundary_RIGHT(void){
 
 
 boolean Over_Boundary(void){
-    if(IR_LineData.present < MIN_INDEX)
+    if(IR_LineData.present < 40)
+        return TRUE;
+    else
+        return FALSE;
+}
+
+boolean Over_Boundary2(void){
+    if(IR_LineData.present > 70)
         return TRUE;
     else
         return FALSE;
@@ -526,16 +534,25 @@ boolean isEndOfLEFT(void){
 }
 
 boolean isEndOfRIGHT(void){
-    if(IR_LineData.present_RIGHT <20)   //恙祀쪽에 아주 많이 붙은 경우
+    if(IR_LineData.present_RIGHT <55)   //恙祀쪽에 아주 많이 붙은 경우
         return TRUE;
     else
         return FALSE;
 }
 
 boolean Over_Boundary_RIGHT(void){
-    if(IR_LineData.present_RIGHT < MIN_INDEX_RIGHT)
+    if(IR_LineData.present_RIGHT < 25)
         return TRUE;
     else
         return FALSE;
 }
+
+
+boolean Over_Boundary_RIGHT2(void){
+    if(IR_LineData.present_RIGHT > 95) // 
+        return TRUE;
+    else
+        return FALSE;
+}
+
 

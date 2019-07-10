@@ -23,16 +23,16 @@
 #define LEFTLINESCAN 0  //linescanner index
 #define RIGHTLINESCAN 1 //linescanner index
 
-#define CENTER_INDEX 40
+#define CENTER_INDEX 35
 #define BOUNDARY 10
-#define CENTER_INDEX_RIGHT 80
+#define CENTER_INDEX_RIGHT 60
 
 #define STAY 0
 #define TURN_LEFT 1
 #define TURN_RIGHT 2
 #define RETURN_SCHOOLZONE_FLAG IR_LineData.School_Zone_flag;
-#define THRESHOLD 500
-#define THRESHOLD_RIGHT 1500
+#define THRESHOLD 1200
+#define THRESHOLD_RIGHT 500
 
 #define LEFT_LANE 1
 #define RIGHT_LANE 2
@@ -58,6 +58,7 @@ typedef struct{
     int Transfer[3];
     
     uint32 sample[MEDIAN_SIZE];
+    uint32 sample_RIGHT[MEDIAN_SIZE];
     float32 temp;
     
     uint32 previous;
@@ -74,6 +75,7 @@ typedef struct{
     uint32 Next_Lane;
     //for debugging
     uint32 SchoolZone_Status;
+    float32 previous_Servo;
 }LineData;
 
 /******************************************************************************/
@@ -110,6 +112,7 @@ IFX_EXTERN void threshold_LINE_RIGHT(void);
 IFX_EXTERN boolean is_THRESHOLD(void);
 IFX_EXTERN boolean is_THRESHOLD_MIDDLE(void);   //maybe useless
 IFX_EXTERN boolean is_THRESHOLD_RIGHT(void);
+IFX_EXTERN boolean left_FIRST(void);
 
 //for school zone
 IFX_EXTERN uint32 get_Dash(void);
@@ -138,6 +141,8 @@ IFX_EXTERN boolean isEndOfRIGHT(void);
 IFX_EXTERN boolean Boundary_RIGHT(void);
 
 IFX_EXTERN boolean Over_Boundary(void);
+IFX_EXTERN boolean Over_Boundary2(void);
+
 IFX_EXTERN boolean Over_Boundary_RIGHT(void);
 
 

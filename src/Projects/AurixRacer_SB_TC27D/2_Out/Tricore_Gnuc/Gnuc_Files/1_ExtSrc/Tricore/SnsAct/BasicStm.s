@@ -74,7 +74,7 @@ STM_Int0Handler:
 	.loc 1 80 0
 	ld.w	%d2, [%a15] 20
 	mov	%d15, 1000
-	jeq	%d2, %d15, .L8
+	jeq	%d2, %d15, .L10
 .L2:
 	.loc 1 86 0
 	ld.w	%d15, [%a15] 20
@@ -95,17 +95,35 @@ STM_Int0Handler:
 	movh.a	%a2, hi:task_flag_10m
 	st.b	[%a2] lo:task_flag_10m, %d4
 .L3:
-	.loc 1 89 0
+	.loc 1 90 0
+	ld.w	%d15, [%a15] 20
+	movh	%d2, 52429
+	addi	%d2, %d2, -13107
+	mul.u	%e2, %d15, %d2
+	sh	%d2, %d3, -3
+	madd	%d15, %d15, %d2, -10
+	jeq	%d15, 3, .L11
+.L4:
+	.loc 1 94 0
+	ld.w	%d15, [%a15] 20
+	movh	%d2, 52429
+	addi	%d2, %d2, -13107
+	mul.u	%e2, %d15, %d2
+	sh	%d2, %d3, -3
+	madd	%d15, %d15, %d2, -10
+	jeq	%d15, 5, .L12
+.L5:
+	.loc 1 98 0
 	ld.w	%d15, [%a15] 20
 	movh	%d2, 20972
 	addi	%d2, %d2, -31457
 	mul.u	%e2, %d15, %d2
 	sh	%d2, %d3, -5
 	madd	%d15, %d15, %d2, -100
-	jz	%d15, .L9
+	jz	%d15, .L13
 .LVL2:
-.L4:
-	.loc 1 93 0
+.L6:
+	.loc 1 102 0
 	ld.w	%d15, [%a15] 20
 	movh	%d2, 4194
 	addi	%d2, %d2, 19923
@@ -113,39 +131,39 @@ STM_Int0Handler:
 	sh	%d2, %d3, -6
 	mov	%d3, 1000
 	mul	%d2, %d3
-	jne	%d15, %d2, .L6
-	.loc 1 94 0
+	jne	%d15, %d2, .L8
+	.loc 1 103 0
 	mov	%d15, 1
 	movh.a	%a15, hi:task_flag_1000m
 	st.b	[%a15] lo:task_flag_1000m, %d15
-.L6:
-	.loc 1 97 0
+.L8:
+	.loc 1 106 0
 	call	appIsrCb_1ms
 .LVL3:
 	rslcx
 	rfe
 .LVL4:
-.L9:
-	.loc 1 90 0
+.L13:
+	.loc 1 99 0
 	mov	%d15, 1
 	movh.a	%a2, hi:task_flag_100m
 	st.b	[%a2] lo:task_flag_100m, %d15
 .LBB40:
 .LBB41:
-	.loc 1 109 0
+	.loc 1 118 0
 	ld.bu	%d15, [%a15] 16
-	.loc 1 112 0
+	.loc 1 121 0
 	movh.a	%a2, hi:IfxPort_P10_2
-	.loc 1 109 0
+	.loc 1 118 0
 	xor	%d15, %d15, 1
-	.loc 1 112 0
+	.loc 1 121 0
 	lea	%a3, [%a2] lo:IfxPort_P10_2
 	ld.a	%a2, [%a2] lo:IfxPort_P10_2
-	.loc 1 109 0
+	.loc 1 118 0
 	st.b	[%a15] 16, %d15
-	.loc 1 110 0
+	.loc 1 119 0
 	ld.bu	%d15, [%a15] 16
-	jeq	%d15, 1, .L10
+	jeq	%d15, 1, .L14
 .LVL5:
 .LBB42:
 .LBB43:
@@ -156,18 +174,30 @@ STM_Int0Handler:
 	sh	%d15, %d2, %d15
 	st.w	[%a2] 4, %d15
 .LVL6:
-	j	.L4
+	j	.L6
 .LVL7:
-.L8:
+.L12:
 .LBE43:
 .LBE42:
 .LBE41:
 .LBE40:
+	.loc 1 95 0
+	mov	%d15, 1
+	movh.a	%a2, hi:task_flag_10_5m
+	st.b	[%a2] lo:task_flag_10_5m, %d15
+	j	.L5
+.L11:
+	.loc 1 91 0
+	mov	%d15, 1
+	movh.a	%a2, hi:task_flag_10_3m
+	st.b	[%a2] lo:task_flag_10_3m, %d15
+	j	.L4
+.L10:
 	.loc 1 81 0
 	mov	%d15, 0
 	st.w	[%a15] 20, %d15
 	j	.L2
-.L10:
+.L14:
 .LVL8:
 .LBB47:
 .LBB46:
@@ -179,7 +209,7 @@ STM_Int0Handler:
 	sh	%d15, %d15, %d2
 	st.w	[%a2] 4, %d15
 .LVL9:
-	j	.L4
+	j	.L6
 .LBE45:
 .LBE44:
 .LBE46:
@@ -195,8 +225,8 @@ STM_Int0Handler:
 	.type	BasicStm_init, @function
 BasicStm_init:
 .LFB727:
-	.loc 1 137 0
-	.loc 1 138 0
+	.loc 1 146 0
+	.loc 1 147 0
 	movh.a	%a4, hi:.LC0
 	lea	%a4, [%a4] lo:.LC0
 	call	puts
@@ -238,56 +268,56 @@ BasicStm_init:
 .LBE53:
 .LBE49:
 .LBE48:
-	.loc 1 143 0
+	.loc 1 152 0
 	mov	%d15, 0
 	movh.a	%a12, hi:g_Stm
 	lea	%a15, [%a12] lo:g_Stm
 	st.b	[%a15] 16, %d15
-	.loc 1 144 0
+	.loc 1 153 0
 	mov	%d15, 0
-	.loc 1 152 0
+	.loc 1 161 0
 	lea	%a13, [%a15] 4
-	.loc 1 144 0
+	.loc 1 153 0
 	st.w	[%a15] 20, %d15
-	.loc 1 146 0
+	.loc 1 155 0
 	call	initTime
 .LVL13:
-	.loc 1 149 0
+	.loc 1 158 0
 	lea	%a4, -268435456
 	call	IfxStm_enableOcdsSuspend
 .LVL14:
-	.loc 1 151 0
+	.loc 1 160 0
 	movh	%d2, 61440
-	.loc 1 152 0
+	.loc 1 161 0
 	mov.aa	%a4, %a13
-	.loc 1 151 0
+	.loc 1 160 0
 	st.w	[%a12] lo:g_Stm, %d2
-	.loc 1 152 0
+	.loc 1 161 0
 	call	IfxStm_initCompareConfig
 .LVL15:
-	.loc 1 154 0
+	.loc 1 163 0
 	mov	%d2, 40
-	.loc 1 161 0
+	.loc 1 170 0
 	ld.a	%a4, [%a12] lo:g_Stm
-	.loc 1 159 0
+	.loc 1 168 0
 	movh.a	%a2, hi:TimeConst
 	lea	%a2, [%a2] lo:TimeConst
-	.loc 1 155 0
+	.loc 1 164 0
 	st.b	[%a15] 14, %d15
-	.loc 1 161 0
+	.loc 1 170 0
 	mov.aa	%a5, %a13
-	.loc 1 159 0
+	.loc 1 168 0
 	ld.w	%d15, [%a2] 40
-	.loc 1 154 0
+	.loc 1 163 0
 	st.h	[%a15] 12, %d2
-	.loc 1 159 0
+	.loc 1 168 0
 	st.w	[%a15] 8, %d15
-	.loc 1 161 0
+	.loc 1 170 0
 	call	IfxStm_initCompare
 .LVL16:
 .LBB55:
 .LBB56:
-	.loc 1 128 0
+	.loc 1 137 0
 	movh.a	%a2, hi:IfxPort_P10_2
 	lea	%a15, [%a2] lo:IfxPort_P10_2
 	ld.a	%a4, [%a2] lo:IfxPort_P10_2
@@ -297,20 +327,20 @@ BasicStm_init:
 .LVL17:
 .LBE56:
 .LBE55:
-	.loc 1 165 0
+	.loc 1 174 0
 	call	appTaskfu_init
 .LVL18:
 .LBB57:
 .LBB58:
 	.loc 3 916 0
-	jz	%d8, .L11
+	jz	%d8, .L15
 	.loc 3 918 0
 #APP
 	# 918 "../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.h" 1
 	enable
 	# 0 "" 2
 #NO_APP
-.L11:
+.L15:
 	ret
 .LBE58:
 .LBE57:
@@ -322,72 +352,106 @@ BasicStm_init:
 	.type	BasicStm_run, @function
 BasicStm_run:
 .LFB728:
-	.loc 1 177 0
-	.loc 1 179 0
+	.loc 1 186 0
+	.loc 1 188 0
 	movh.a	%a15, hi:task_flag_1m
 	ld.bu	%d15, [%a15] lo:task_flag_1m
-	jeq	%d15, 1, .L21
-	.loc 1 184 0
+	jeq	%d15, 1, .L27
+	.loc 1 193 0
 	movh.a	%a15, hi:task_flag_10m
 	ld.bu	%d15, [%a15] lo:task_flag_10m
-	jeq	%d15, 1, .L22
-.L18:
-	.loc 1 189 0
+	jeq	%d15, 1, .L28
+.L22:
+	.loc 1 198 0
+	movh.a	%a15, hi:task_flag_10_3m
+	ld.bu	%d15, [%a15] lo:task_flag_10_3m
+	jeq	%d15, 1, .L29
+.L23:
+	.loc 1 203 0
+	movh.a	%a15, hi:task_flag_10_5m
+	ld.bu	%d15, [%a15] lo:task_flag_10_5m
+	jeq	%d15, 1, .L30
+.L24:
+	.loc 1 208 0
 	movh.a	%a15, hi:task_flag_100m
 	ld.bu	%d15, [%a15] lo:task_flag_100m
-	jeq	%d15, 1, .L23
-.L19:
-	.loc 1 194 0
+	jeq	%d15, 1, .L31
+.L25:
+	.loc 1 213 0
 	movh.a	%a15, hi:task_flag_1000m
 	ld.bu	%d15, [%a15] lo:task_flag_1000m
-	jeq	%d15, 1, .L24
-	.loc 1 199 0
+	jeq	%d15, 1, .L32
+	.loc 1 218 0
 	j	appTaskfu_idle
 .LVL19:
-.L24:
-	.loc 1 196 0
+.L32:
+	.loc 1 215 0
 	mov	%d15, 0
-	.loc 1 195 0
+	.loc 1 214 0
 	call	appTaskfu_1000ms
 .LVL20:
-	.loc 1 196 0
+	.loc 1 215 0
 	st.b	[%a15] lo:task_flag_1000m, %d15
-	.loc 1 199 0
+	.loc 1 218 0
 	j	appTaskfu_idle
 .LVL21:
-.L21:
-	.loc 1 181 0
+.L27:
+	.loc 1 190 0
 	mov	%d15, 0
-	.loc 1 180 0
+	.loc 1 189 0
 	call	appTaskfu_1ms
 .LVL22:
-	.loc 1 181 0
+	.loc 1 190 0
 	st.b	[%a15] lo:task_flag_1m, %d15
-	.loc 1 184 0
+	.loc 1 193 0
 	movh.a	%a15, hi:task_flag_10m
 	ld.bu	%d15, [%a15] lo:task_flag_10m
-	jne	%d15, 1, .L18
-.L22:
-	.loc 1 186 0
+	jne	%d15, 1, .L22
+.L28:
+	.loc 1 195 0
 	mov	%d15, 0
-	.loc 1 185 0
+	.loc 1 194 0
 	call	appTaskfu_10ms
 .LVL23:
-	.loc 1 186 0
+	.loc 1 195 0
 	st.b	[%a15] lo:task_flag_10m, %d15
-	.loc 1 189 0
+	.loc 1 198 0
+	movh.a	%a15, hi:task_flag_10_3m
+	ld.bu	%d15, [%a15] lo:task_flag_10_3m
+	jne	%d15, 1, .L23
+.L29:
+	.loc 1 200 0
+	mov	%d15, 0
+	.loc 1 199 0
+	call	appTaskfu_10_3ms
+.LVL24:
+	.loc 1 200 0
+	st.b	[%a15] lo:task_flag_10_3m, %d15
+	.loc 1 203 0
+	movh.a	%a15, hi:task_flag_10_5m
+	ld.bu	%d15, [%a15] lo:task_flag_10_5m
+	jne	%d15, 1, .L24
+.L30:
+	.loc 1 205 0
+	mov	%d15, 0
+	.loc 1 204 0
+	call	appTaskfu_10_5ms
+.LVL25:
+	.loc 1 205 0
+	st.b	[%a15] lo:task_flag_10_5m, %d15
+	.loc 1 208 0
 	movh.a	%a15, hi:task_flag_100m
 	ld.bu	%d15, [%a15] lo:task_flag_100m
-	jne	%d15, 1, .L19
-.L23:
-	.loc 1 191 0
+	jne	%d15, 1, .L25
+.L31:
+	.loc 1 210 0
 	mov	%d15, 0
-	.loc 1 190 0
+	.loc 1 209 0
 	call	appTaskfu_100ms
-.LVL24:
-	.loc 1 191 0
+.LVL26:
+	.loc 1 210 0
 	st.b	[%a15] lo:task_flag_100m, %d15
-	j	.L19
+	j	.L25
 .LFE728:
 	.size	BasicStm_run, .-BasicStm_run
 	.global	g_Stm
@@ -455,7 +519,7 @@ g_Stm:
 	.file 20 "<built-in>"
 .section .debug_info,"",@progbits
 .Ldebug_info0:
-	.uaword	0x5223
+	.uaword	0x5295
 	.uahalf	0x3
 	.uaword	.Ldebug_abbrev0
 	.byte	0x4
@@ -7590,7 +7654,7 @@ g_Stm:
 	.uleb128 0x28
 	.string	"BlinkLed_init"
 	.byte	0x1
-	.byte	0x7e
+	.byte	0x87
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x25
@@ -7609,7 +7673,7 @@ g_Stm:
 	.uleb128 0x28
 	.string	"BlinkLed_run"
 	.byte	0x1
-	.byte	0x6b
+	.byte	0x74
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x29
@@ -7651,14 +7715,14 @@ g_Stm:
 	.uaword	.LBB40
 	.uaword	.Ldebug_ranges0+0
 	.byte	0x1
-	.byte	0x5b
+	.byte	0x64
 	.uaword	0x4da8
 	.uleb128 0x2a
 	.uaword	0x4bab
 	.uaword	.LBB42
 	.uaword	.LBE42
 	.byte	0x1
-	.byte	0x74
+	.byte	0x7d
 	.uaword	0x4d85
 	.uleb128 0x2c
 	.uaword	0x4be2
@@ -7674,7 +7738,7 @@ g_Stm:
 	.uaword	.LBB44
 	.uaword	.LBE44
 	.byte	0x1
-	.byte	0x70
+	.byte	0x79
 	.uleb128 0x30
 	.uaword	0x4be2
 	.byte	0x1
@@ -7688,16 +7752,16 @@ g_Stm:
 	.byte	0
 	.uleb128 0x32
 	.uaword	.LVL0
-	.uaword	0x506e
+	.uaword	0x50b2
 	.uleb128 0x32
 	.uaword	.LVL3
-	.uaword	0x509c
+	.uaword	0x50e0
 	.byte	0
 	.uleb128 0x29
 	.byte	0x1
 	.string	"BasicStm_init"
 	.byte	0x1
-	.byte	0x88
+	.byte	0x91
 	.byte	0x1
 	.uaword	.LFB727
 	.uaword	.LFE727
@@ -7708,14 +7772,14 @@ g_Stm:
 	.uleb128 0x33
 	.string	"interruptState"
 	.byte	0x1
-	.byte	0x8d
+	.byte	0x96
 	.uaword	0x2ff
 	.uleb128 0x2a
 	.uaword	0x4c58
 	.uaword	.LBB48
 	.uaword	.LBE48
 	.byte	0x1
-	.byte	0x8d
+	.byte	0x96
 	.uaword	0x4e5d
 	.uleb128 0x34
 	.uaword	.LBB49
@@ -7756,11 +7820,11 @@ g_Stm:
 	.uaword	.LBB55
 	.uaword	.LBE55
 	.byte	0x1
-	.byte	0xa3
+	.byte	0xac
 	.uaword	0x4e81
 	.uleb128 0x39
 	.uaword	.LVL17
-	.uaword	0x50af
+	.uaword	0x50f3
 	.uleb128 0x3a
 	.byte	0x1
 	.byte	0x55
@@ -7774,14 +7838,14 @@ g_Stm:
 	.uaword	.LBB57
 	.uaword	.LBE57
 	.byte	0x1
-	.byte	0xa8
+	.byte	0xb1
 	.uaword	0x4e9a
 	.uleb128 0x2b
 	.uaword	0x4cc6
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL10
-	.uaword	0x50dd
+	.uaword	0x5121
 	.uaword	0x4eb1
 	.uleb128 0x3a
 	.byte	0x1
@@ -7792,10 +7856,10 @@ g_Stm:
 	.byte	0
 	.uleb128 0x32
 	.uaword	.LVL13
-	.uaword	0x5105
+	.uaword	0x5149
 	.uleb128 0x3b
 	.uaword	.LVL14
-	.uaword	0x5114
+	.uaword	0x5158
 	.uaword	0x4ed0
 	.uleb128 0x3a
 	.byte	0x1
@@ -7808,7 +7872,7 @@ g_Stm:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL15
-	.uaword	0x513e
+	.uaword	0x5182
 	.uaword	0x4ee4
 	.uleb128 0x3a
 	.byte	0x1
@@ -7819,7 +7883,7 @@ g_Stm:
 	.byte	0
 	.uleb128 0x3b
 	.uaword	.LVL16
-	.uaword	0x516e
+	.uaword	0x51b2
 	.uaword	0x4ef8
 	.uleb128 0x3a
 	.byte	0x1
@@ -7830,40 +7894,46 @@ g_Stm:
 	.byte	0
 	.uleb128 0x32
 	.uaword	.LVL18
-	.uaword	0x51a6
+	.uaword	0x51ea
 	.byte	0
 	.uleb128 0x29
 	.byte	0x1
 	.string	"BasicStm_run"
 	.byte	0x1
-	.byte	0xb0
+	.byte	0xb9
 	.byte	0x1
 	.uaword	.LFB728
 	.uaword	.LFE728
 	.byte	0x1
 	.byte	0x9c
 	.byte	0x1
-	.uaword	0x4f5c
+	.uaword	0x4f6e
 	.uleb128 0x3c
 	.uaword	.LVL19
 	.byte	0x1
-	.uaword	0x51bb
+	.uaword	0x51ff
 	.uleb128 0x32
 	.uaword	.LVL20
-	.uaword	0x51d0
+	.uaword	0x5214
 	.uleb128 0x3c
 	.uaword	.LVL21
 	.byte	0x1
-	.uaword	0x51bb
+	.uaword	0x51ff
 	.uleb128 0x32
 	.uaword	.LVL22
-	.uaword	0x51e7
+	.uaword	0x522b
 	.uleb128 0x32
 	.uaword	.LVL23
-	.uaword	0x51fb
+	.uaword	0x523f
 	.uleb128 0x32
 	.uaword	.LVL24
-	.uaword	0x5210
+	.uaword	0x5254
+	.uleb128 0x32
+	.uaword	.LVL25
+	.uaword	0x526b
+	.uleb128 0x32
+	.uaword	.LVL26
+	.uaword	0x5282
 	.byte	0
 	.uleb128 0x3d
 	.string	"IfxPort_P10_2"
@@ -7881,7 +7951,7 @@ g_Stm:
 	.byte	0x1
 	.uleb128 0x3
 	.uaword	0x382
-	.uaword	0x4fa0
+	.uaword	0x4fb2
 	.uleb128 0x4
 	.uaword	0x266
 	.byte	0x2
@@ -7890,14 +7960,14 @@ g_Stm:
 	.string	"IfxCpu_cfg_indexMap"
 	.byte	0xd
 	.byte	0x96
-	.uaword	0x4fbd
+	.uaword	0x4fcf
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x7
-	.uaword	0x4f90
+	.uaword	0x4fa2
 	.uleb128 0x3
 	.uaword	0x323
-	.uaword	0x4fd2
+	.uaword	0x4fe4
 	.uleb128 0x4
 	.uaword	0x266
 	.byte	0xa
@@ -7906,7 +7976,7 @@ g_Stm:
 	.string	"TimeConst"
 	.byte	0x12
 	.byte	0x94
-	.uaword	0x4fc2
+	.uaword	0x4fd4
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3d
@@ -7931,16 +8001,30 @@ g_Stm:
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3d
-	.string	"task_flag_100m"
+	.string	"task_flag_10_3m"
 	.byte	0x13
 	.byte	0x27
 	.uaword	0x2ff
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3d
-	.string	"task_flag_1000m"
+	.string	"task_flag_10_5m"
 	.byte	0x13
 	.byte	0x28
+	.uaword	0x2ff
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x3d
+	.string	"task_flag_100m"
+	.byte	0x13
+	.byte	0x2a
+	.uaword	0x2ff
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x3d
+	.string	"task_flag_1000m"
+	.byte	0x13
+	.byte	0x2b
 	.uaword	0x2ff
 	.byte	0x1
 	.byte	0x1
@@ -7960,7 +8044,7 @@ g_Stm:
 	.uahalf	0x1be
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x509c
+	.uaword	0x50e0
 	.uleb128 0x1d
 	.uaword	0x4b3c
 	.uleb128 0x1d
@@ -7970,7 +8054,7 @@ g_Stm:
 	.byte	0x1
 	.string	"appIsrCb_1ms"
 	.byte	0x13
-	.byte	0x30
+	.byte	0x36
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x3f
@@ -7980,7 +8064,7 @@ g_Stm:
 	.uahalf	0x163
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x50dd
+	.uaword	0x5121
 	.uleb128 0x1d
 	.uaword	0x2630
 	.uleb128 0x1d
@@ -7997,7 +8081,7 @@ g_Stm:
 	.byte	0x1
 	.uaword	0x208
 	.byte	0x1
-	.uaword	0x5105
+	.uaword	0x5149
 	.uleb128 0x1d
 	.uaword	0x27c
 	.byte	0
@@ -8015,7 +8099,7 @@ g_Stm:
 	.uahalf	0x137
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x513e
+	.uaword	0x5182
 	.uleb128 0x1d
 	.uaword	0x4b3c
 	.byte	0
@@ -8026,9 +8110,9 @@ g_Stm:
 	.uahalf	0x1e0
 	.byte	0x1
 	.byte	0x1
-	.uaword	0x5168
+	.uaword	0x51ac
 	.uleb128 0x1d
-	.uaword	0x5168
+	.uaword	0x51ac
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
@@ -8041,57 +8125,71 @@ g_Stm:
 	.byte	0x1
 	.uaword	0x2ff
 	.byte	0x1
-	.uaword	0x519b
+	.uaword	0x51df
 	.uleb128 0x1d
 	.uaword	0x4b3c
 	.uleb128 0x1d
-	.uaword	0x519b
+	.uaword	0x51df
 	.byte	0
 	.uleb128 0x6
 	.byte	0x4
-	.uaword	0x51a1
+	.uaword	0x51e5
 	.uleb128 0x7
 	.uaword	0x4a8c
 	.uleb128 0x40
 	.byte	0x1
 	.string	"appTaskfu_init"
 	.byte	0x13
-	.byte	0x2a
+	.byte	0x2d
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x40
 	.byte	0x1
 	.string	"appTaskfu_idle"
 	.byte	0x13
-	.byte	0x2f
+	.byte	0x35
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x40
 	.byte	0x1
 	.string	"appTaskfu_1000ms"
 	.byte	0x13
-	.byte	0x2e
+	.byte	0x34
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x40
 	.byte	0x1
 	.string	"appTaskfu_1ms"
 	.byte	0x13
-	.byte	0x2b
+	.byte	0x2e
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x40
 	.byte	0x1
 	.string	"appTaskfu_10ms"
 	.byte	0x13
-	.byte	0x2c
+	.byte	0x2f
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x40
+	.byte	0x1
+	.string	"appTaskfu_10_3ms"
+	.byte	0x13
+	.byte	0x30
+	.byte	0x1
+	.byte	0x1
+	.uleb128 0x40
+	.byte	0x1
+	.string	"appTaskfu_10_5ms"
+	.byte	0x13
+	.byte	0x31
 	.byte	0x1
 	.byte	0x1
 	.uleb128 0x40
 	.byte	0x1
 	.string	"appTaskfu_100ms"
 	.byte	0x13
-	.byte	0x2d
+	.byte	0x33
 	.byte	0x1
 	.byte	0x1
 	.byte	0
@@ -9110,6 +9208,8 @@ g_Stm:
 .LASF8:
 	.string	"reserved_28"
 	.extern	appTaskfu_100ms,STT_FUNC,0
+	.extern	appTaskfu_10_5ms,STT_FUNC,0
+	.extern	appTaskfu_10_3ms,STT_FUNC,0
 	.extern	appTaskfu_10ms,STT_FUNC,0
 	.extern	appTaskfu_1ms,STT_FUNC,0
 	.extern	appTaskfu_1000ms,STT_FUNC,0
@@ -9121,6 +9221,8 @@ g_Stm:
 	.extern	IfxStm_enableOcdsSuspend,STT_FUNC,0
 	.extern	initTime,STT_FUNC,0
 	.extern	puts,STT_FUNC,0
+	.extern	task_flag_10_3m,STT_OBJECT,1
+	.extern	task_flag_10_5m,STT_OBJECT,1
 	.extern	IfxPort_P10_2,STT_OBJECT,8
 	.extern	task_flag_100m,STT_OBJECT,1
 	.extern	appIsrCb_1ms,STT_FUNC,0

@@ -35449,6 +35449,7 @@ typedef struct{
     int Transfer[3];
 
     uint32 sample[5];
+    uint32 sample_RIGHT[5];
     float32 temp;
 
     uint32 previous;
@@ -35465,6 +35466,7 @@ typedef struct{
     uint32 Next_Lane;
 
     uint32 SchoolZone_Status;
+    float32 previous_Servo;
 }LineData;
 
 
@@ -35472,7 +35474,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 92 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 94 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -35494,6 +35496,7 @@ extern void threshold_LINE_RIGHT(void);
 extern boolean is_THRESHOLD(void);
 extern boolean is_THRESHOLD_MIDDLE(void);
 extern boolean is_THRESHOLD_RIGHT(void);
+extern boolean left_FIRST(void);
 
 
 extern uint32 get_Dash(void);
@@ -35522,6 +35525,8 @@ extern boolean isEndOfRIGHT(void);
 extern boolean Boundary_RIGHT(void);
 
 extern boolean Over_Boundary(void);
+extern boolean Over_Boundary2(void);
+
 extern boolean Over_Boundary_RIGHT(void);
 
 
@@ -35733,12 +35738,18 @@ extern RT_MODEL_IR_Controller *const IR_Controller_M;
 # 37 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
 extern boolean task_flag_1m;
 extern boolean task_flag_10m;
+extern boolean task_flag_10_3m;
+extern boolean task_flag_10_5m;
+
 extern boolean task_flag_100m;
 extern boolean task_flag_1000m;
 
 void appTaskfu_init(void);
 void appTaskfu_1ms(void);
 void appTaskfu_10ms(void);
+void appTaskfu_10_3ms(void);
+void appTaskfu_10_5ms(void);
+
 void appTaskfu_100ms(void);
 void appTaskfu_1000ms(void);
 void appTaskfu_idle(void);
@@ -35798,6 +35809,15 @@ void STM_Int0Handler(void)
     if(g_Stm.counter % 10 == 0){
      task_flag_10m = 1;
     }
+
+    if((g_Stm.counter % 10) - 3 == 0){
+        task_flag_10_3m = 1;
+    }
+
+    if((g_Stm.counter % 10) - 5 == 0){
+     task_flag_10_5m = 1;
+    }
+
     if(g_Stm.counter % 100 == 0){
         task_flag_100m = 1;
         BlinkLed_run();
@@ -35896,6 +35916,16 @@ void BasicStm_run(void)
  if(task_flag_10m == 1){
   appTaskfu_10ms();
   task_flag_10m = 0;
+ }
+
+ if(task_flag_10_3m == 1){
+  appTaskfu_10_3ms();
+  task_flag_10_3m = 0;
+ }
+
+ if(task_flag_10_5m == 1){
+  appTaskfu_10_5ms();
+  task_flag_10_5m = 0;
  }
 
  if(task_flag_100m == 1){
