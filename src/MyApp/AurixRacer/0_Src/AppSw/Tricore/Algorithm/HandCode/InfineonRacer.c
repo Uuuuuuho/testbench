@@ -47,7 +47,8 @@ void InfineonRacer_init(void){
     IR_LineData.Transfer[1] = 0;
     IR_LineData.Transfer[2] = -1;
     
-    IR_LineData.School_Zone_flag = FALSE;
+    IR_LineData.School_Zone_flag = TRUE;
+    IR_LineData.Next_Lane = RIGHT_LANE;
     IR_LineData.Direction_Determined = FALSE;
     IR_LineData.Direction_Determined_RIGHT = FALSE;
 }
@@ -223,7 +224,7 @@ boolean is_THRESHOLD_RIGHT(void){
 }
 
 boolean left_FIRST(void){
-    if(IR_LineData.previous_Servo > 0.43){
+    if(IR_LineData.previous_Servo > 0.55){
         return TRUE;
     }
     else return FALSE;

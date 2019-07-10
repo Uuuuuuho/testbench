@@ -31795,15 +31795,16 @@ LineData IR_LineData
 float32 MIN_INDEX = 35 - 10;
 float32 MAX_INDEX = 35 + 10;
 
-float32 MIN_INDEX_RIGHT = 60 - 10;
-float32 MAX_INDEX_RIGHT = 60 + 10;
+float32 MIN_INDEX_RIGHT = 95 - 10;
+float32 MAX_INDEX_RIGHT = 95 + 10;
 # 45 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
 void InfineonRacer_init(void){
     IR_LineData.Transfer[0] = 1;
     IR_LineData.Transfer[1] = 0;
     IR_LineData.Transfer[2] = -1;
 
-    IR_LineData.School_Zone_flag = 0;
+    IR_LineData.School_Zone_flag = 1;
+    IR_LineData.Next_Lane = 2;
     IR_LineData.Direction_Determined = 0;
     IR_LineData.Direction_Determined_RIGHT = 0;
 }
@@ -31979,7 +31980,7 @@ boolean is_THRESHOLD_RIGHT(void){
 }
 
 boolean left_FIRST(void){
-    if(IR_LineData.previous_Servo > 0.43){
+    if(IR_LineData.previous_Servo > 0.55){
         return 1;
     }
     else return 0;
@@ -32245,7 +32246,7 @@ float32 Direction_CENTER(void){
 }
 
 float32 Direction_CENTER_RIGHT(void){
-    return (IR_LineData.present_RIGHT - 60);
+    return (IR_LineData.present_RIGHT - 95);
 }
 
 float32 Direction_CENTER_RIGHT_Inverse(void){

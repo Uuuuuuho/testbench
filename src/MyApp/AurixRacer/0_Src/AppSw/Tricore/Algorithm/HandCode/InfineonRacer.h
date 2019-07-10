@@ -25,7 +25,7 @@
 
 #define CENTER_INDEX 35
 #define BOUNDARY 10
-#define CENTER_INDEX_RIGHT 60
+#define CENTER_INDEX_RIGHT 95
 
 #define STAY 0
 #define TURN_LEFT 1

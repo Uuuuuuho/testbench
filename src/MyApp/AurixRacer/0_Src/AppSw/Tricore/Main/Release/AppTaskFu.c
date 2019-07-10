@@ -21,7 +21,7 @@ float32 testVol = 1;
 float32 testSrv = 0;
 float32 signORunsign = 0;
 uint32 Obstacle_flag = OFF;
-float32 Speed_Out_Of_School_Zone = -0.4, Speed_In_School_Zone = -0.7, Speed_swap = 0;
+float32 Speed_Out_Of_School_Zone = -0.7, Speed_In_School_Zone = -0.7, Speed_swap = 0;
 float32 P = 10,I = 0.1, D = 1;   //PID control test
 float32 time = 0.1;             //PID sampling time
 float32 speed_min = -0.005, speed_max = 0.005; //PID min, max configuration
@@ -113,18 +113,6 @@ void appTaskfu_10ms(void)
 #endif
 
 #if BUFFER == OFF//SHOULD BE ON/////////////////////////////////////////////
-    if(IR_LineData.School_Zone_flag){
-    
-        switch(get_Dash()){ //dash buffer를 활용하여 determine next lane direction
-        //for now it's set to LEFT_LANE
-            case LEFT_LANE :
-                WHICH_LANE = RIGHT_LANE;
-                break;
-            case RIGHT_LANE :
-                WHICH_LANE = LEFT_LANE;
-                break;
-        }
-    }
     //checking PSD
     BasicVadcBgScan_run();
     
@@ -178,7 +166,19 @@ void appTaskfu_10ms(void)
     //get line data
     threshold_LINE();
 //    threshold_LINE_RIGHT();
+    
+    if(IR_LineData.School_Zone_flag){
 
+    switch(get_Dash()){ //dash buffer를 활용하여 determine next lane direction
+    //for now it's set to LEFT_LANE
+        case LEFT_LANE :
+            WHICH_LANE = RIGHT_LANE;
+            break;
+        case RIGHT_LANE :
+            WHICH_LANE = LEFT_LANE;
+            break;
+    }
+}
 
     //checking school zone
     if(task_cnt_10m % 40 == 0){
@@ -208,91 +208,108 @@ void appTaskfu_10ms(void)
     if(TEMP_REMAIN){    //only for entering the school zone
         SrvControl(0);
     }
-        
+
+    
     else if(Obstacle_flag == OFF){   //regardless of school zone
-        if(left_FIRST()){
-            if(!is_THRESHOLD()){     //left lane을 전혀 찾지못하는 경우
-                if(is_THRESHOLD_RIGHT()){   //right lane detected
-                    if(Boundary_RIGHT()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
-                        if(Over_Boundary_RIGHT()){   
-                            //when stick to right side
+        if (left_FIRST()) {//right first
+            if (!is_THRESHOLD()) {     //left lane을 전혀 찾지못하는 경우
+                if (is_THRESHOLD_RIGHT()) {   //right lane detected
+                    if (Boundary_RIGHT()) { //if present_RIGHT index is out of boundary(0~60 or 80~120)
+                        if (Over_Boundary_RIGHT()) {
+                  //when stick to right side
                             SrvControl(100);     //turn right to detect line, when not able to detect on the left and right at the same time
                         }
-                        else{   //when out of boundary
-                            if(isEndOfRIGHT()){
-                                SrvControl(70);
+                        else {   //when out of boundary
+                            if (isEndOfRIGHT()) {
+                                SrvControl(-100);
                             }
-                            else{
-                                SrvControl(30);     //turn right to detect line, when not able to detect on the left and right at the same time
-                            }
-                        }
-                    }
-                    else
-                        SrvControl(0);//right lane in the boundary. go straight
-                }
-                else    //left & right lane not detected    
-                    SrvControl(100);   //turn left
-            }
-            
-            else{   //left lane detected
-                if(Boundary()){ //if present index is out of boundary
-                    if(Over_Boundary()){   //when over minimum boundary
-                        SrvControl(-50);    //determine wheel direction
-                    }
-                    else if(Over_Boundary2()){
-                        SrvControl(50);    //turn right to detect line
-                    }
-                    else{   //when out of boundary
-                        SrvControl(Direction_CENTER());    //determine wheel direction
-                    }
-                }
-                else{   //go straight
-                    SrvControl(0);
-                }
-            }
-        }
-        else{
-            if(!is_THRESHOLD_RIGHT()){   //right lane not detected
-                if(is_THRESHOLD()){
-                    if(Boundary()){ //if present_RIGHT index is out of boundary(0~60 or 80~120)
-                        if(Over_Boundary()){   
-                            //when stick to right side
-                            SrvControl(-100);     //turn left to detect line, when not able to detect on the left and right at the same time
-                        }
-                        else{   //when out of boundary
-                            if(isEndOfLEFT()){
-                                SrvControl(-50);
-                            }
-                            else{
-                                SrvControl(-30);     //turn left to detect line, when not able to detect on the left and right at the same time
-                            }
-                        }
-                    }
-                    else
-                        SrvControl(-100);//right lane in the boundary. go straight
-                }
-                else{
-                    if(Boundary_RIGHT()){
-                        if(Over_Boundary_RIGHT()){
-                            SrvControl(-80);
-                        }
-                        else if(Over_Boundary_RIGHT2()){
-                            SrvControl(100);
-                        }
-                        else{
-                            SrvControl(Direction_CENTER_RIGHT());// need diff
-                        }
-                    }
-                    else{
-                        SrvControl(0);
+                    else {
+                     SrvControl(-50);     //turn right to detect line, when not able to detect on the left and right at the same time
                     }
                 }
             }
-        }
+            else
+               SrvControl(0);//right lane in the boundary. go straight
+         }
+         else    //left & right lane not detected    
+            SrvControl(100);   //turn left
+      }
+      
+
+      else {   //left lane detected
+         if (Boundary()) { //if present index is out of boundary
+            if (Over_Boundary()) {   //when over minimum boundary
+               SrvControl(-50);    //determine wheel direction
+            }
+            else if (Over_Boundary2()) {
+               SrvControl(50);    //turn right to detect line
+            }
+            else {   //when out of boundary
+               SrvControl(Direction_CENTER());    //determine wheel direction
+            }
+         }
+         else {   //go straight
+            SrvControl(0);
+         }
+      }
+   }
+   else {
+      if (!is_THRESHOLD_RIGHT()) {   //right lane not detected
+         if (is_THRESHOLD()) {
+            if (Boundary()) { //if present_RIGHT index is out of boundary(0~60 or 80~120)
+               if (Over_Boundary()) {
+                  //when stick to right side
+                  SrvControl(-50);     //turn left to detect line, when not able to detect on the left and right at the same time
+               }
+               else {   //when out of boundary
+                  if (isEndOfLEFT()) {
+                     SrvControl(50);
+                  }
+                  else {
+                      SrvControl(Direction_CENTER());    //determine wheel direction
+                  }
+               }
+            }
+            else
+               SrvControl(-100);//right lane in the boundary. go straight
+         }
+         else {
+            if (Boundary_RIGHT()) {
+               if (Over_Boundary_RIGHT()) {
+                  SrvControl(50);
+               }
+               else if (Over_Boundary_RIGHT2()) {
+                  SrvControl(-50);
+               }
+               else {
+                  SrvControl(Direction_CENTER_RIGHT());// need diff
+               }
+            }
+            else {
+               SrvControl(0);
+            }
+         }
+      }
+      else{
+        if (Boundary_RIGHT()) { //if present_RIGHT index is out of boundary(0~60 or 80~120)
+            if (Over_Boundary_RIGHT()) {
+              //when stick to right side
+                SrvControl(100);     //turn right to detect line, when not able to detect on the left and right at the same time
+            }
+            else {   //when out of boundary
+                if (isEndOfRIGHT()) {
+                    SrvControl(-100);
+                }
+                else {
+                 SrvControl(-50);     //turn right to detect line, when not able to detect on the left and right at the same time
+                }
+            }
+        }   
+        else 
+            SrvControl(0);
     }
-                            
-                          
-                
+    }                     
+    }   
     
 
     else if(Obstacle_flag == MIDDLE){   //while changing lane
