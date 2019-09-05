@@ -35441,7 +35441,7 @@ extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
 extern void Speed_Avg(void);
 
-void SpeedCalculation(void);
+extern float32 SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 7 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/AsclinShellInterface.h" 1
@@ -35459,6 +35459,7 @@ typedef struct{
     int Transfer[3];
 
     uint32 sample[5];
+    uint32 sample_RIGHT[5];
     float32 temp;
 
     uint32 previous;
@@ -35475,6 +35476,7 @@ typedef struct{
     uint32 Next_Lane;
 
     uint32 SchoolZone_Status;
+    float32 previous_Servo;
 }LineData;
 
 
@@ -35482,7 +35484,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 92 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 94 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -35504,6 +35506,7 @@ extern void threshold_LINE_RIGHT(void);
 extern boolean is_THRESHOLD(void);
 extern boolean is_THRESHOLD_MIDDLE(void);
 extern boolean is_THRESHOLD_RIGHT(void);
+extern boolean left_FIRST(void);
 
 
 extern uint32 get_Dash(void);
@@ -35526,17 +35529,67 @@ extern boolean IsInSchoolZone_THRESHOLD(void);
 
 extern boolean Boundary(void);
 extern boolean isEndOfLEFT(void);
+extern boolean isEndOfRIGHT(void);
+
 
 extern boolean Boundary_RIGHT(void);
 
 extern boolean Over_Boundary(void);
+extern boolean Over_Boundary2(void);
+
 extern boolean Over_Boundary_RIGHT(void);
 
 
 extern float32 Direction(void);
 extern float32 Direction_CENTER(void);
 extern float32 Direction_CENTER_RIGHT(void);
+extern float32 Direction_CENTER_RIGHT_Inverse(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
+# 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.h" 1
+# 25 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.h"
+typedef struct{
+    float32 TargetSpeed;
+    float32 SamplingTime;
+    float32 Time;
+    float32 error;
+    float32 current;
+    float32 pre_error;
+    float32 max;
+    float32 min;
+    float32 Pout;
+    float32 Iout;
+    float32 integral;
+    float32 Dout;
+    float32 derivative;
+    float32 output;
+    float32 nextSpeed;
+    float32 nextVol;
+
+
+    float32 Kp;
+    float32 Ki;
+    float32 Kd;
+}PID_Control;
+
+
+
+
+
+extern PID_Control IR_PID_Control;
+
+
+
+
+extern void PID_init (void);
+extern void PID_control(void);
+extern void get_Speed(float32 speed);
+extern void set_Speed(float32 target);
+extern void set_propotion(float32 P, float32 I, float32 D);
+extern void set_SamplingTime(float32 time);
+extern void set_Min_Max_Output(float32 min, float32 max);
+extern float32 next_Vol();
+extern boolean initial_speed(void);
+# 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h" 1
 # 24 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h"
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/rtwtypes.h" 1
@@ -35691,16 +35744,22 @@ extern void IR_Controller_terminate(void);
 
 
 extern RT_MODEL_IR_Controller *const IR_Controller_M;
-# 10 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
-# 35 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
+# 11 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h" 2
+# 37 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Main/Release/AppTaskFu.h"
 extern boolean task_flag_1m;
 extern boolean task_flag_10m;
+extern boolean task_flag_10_3m;
+extern boolean task_flag_10_5m;
+
 extern boolean task_flag_100m;
 extern boolean task_flag_1000m;
 
 void appTaskfu_init(void);
 void appTaskfu_1ms(void);
 void appTaskfu_10ms(void);
+void appTaskfu_10_3ms(void);
+void appTaskfu_10_5ms(void);
+
 void appTaskfu_100ms(void);
 void appTaskfu_1000ms(void);
 void appTaskfu_idle(void);
@@ -35713,8 +35772,6 @@ typedef struct{
 
 
 
-void PID(void);
-void Speed2Vol(void);
 void SrvControl(float32);
 
 void AEB(void);
@@ -36112,9 +36169,9 @@ void initSerialInterface(void)
         IfxAsclin_Asc_Config config;
 
 
+        IfxAsclin_Asc_initModuleConfig(&config, &(*(Ifx_ASCLIN*)0xF0000600u));
 
 
-        IfxAsclin_Asc_initModuleConfig(&config, &(*(Ifx_ASCLIN*)0xF0000900u));
 
         config.baudrate.baudrate = (115200.0);
         config.baudrate.oversampling = IfxAsclin_OversamplingFactor_16;
@@ -36127,11 +36184,11 @@ void initSerialInterface(void)
         IfxAsclin_Asc_Pins ascPins = {
             .cts = ((void *)0),
             .ctsMode = IfxPort_InputMode_noPullDevice,
-            .rx = &IfxAsclin3_RXD_P32_2_IN,
+            .rx = &IfxAsclin0_RXB_P15_3_IN,
             .rxMode = IfxPort_InputMode_noPullDevice,
             .rts = ((void *)0),
             .rtsMode = IfxPort_OutputMode_pushPull,
-            .tx = &IfxAsclin3_TX_P15_7_OUT,
+            .tx = &IfxAsclin0_TX_P15_2_OUT,
             .txMode = IfxPort_OutputMode_pushPull,
             .pinDriver = IfxPort_PadDriver_cmosAutomotiveSpeed1
         };

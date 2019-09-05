@@ -86,6 +86,15 @@ void STM_Int0Handler(void)
     if(g_Stm.counter % 10 == 0){
     	task_flag_10m = TRUE;
     }
+
+    if((g_Stm.counter % 10) - 3 == 0){
+        task_flag_10_3m = TRUE;
+    }
+
+    if((g_Stm.counter % 10) - 5 == 0){
+    	task_flag_10_5m = TRUE;
+    }
+    
     if(g_Stm.counter % 100 == 0){
         task_flag_100m = TRUE;
         BlinkLed_run();
@@ -184,6 +193,16 @@ void BasicStm_run(void)
 	if(task_flag_10m == TRUE){
 		appTaskfu_10ms();
 		task_flag_10m = FALSE;
+	}
+
+	if(task_flag_10_3m == TRUE){
+		appTaskfu_10_3ms();
+		task_flag_10_3m = FALSE;
+	}
+
+	if(task_flag_10_5m == TRUE){
+		appTaskfu_10_5ms();
+		task_flag_10_5m = FALSE;
 	}
 
 	if(task_flag_100m == TRUE){

@@ -52,7 +52,7 @@ IFX_EXTERN void BasicGpt12Enc_run(void);
 IFX_EXTERN void BasicGpt12Enc_IR_Encoder_reset(void);
 IFX_EXTERN void Speed_Avg(void);
 
-void SpeedCalculation(void);
+IFX_EXTERN float32 SpeedCalculation(void);
 
 
 #ifdef ENCODER_EMUL

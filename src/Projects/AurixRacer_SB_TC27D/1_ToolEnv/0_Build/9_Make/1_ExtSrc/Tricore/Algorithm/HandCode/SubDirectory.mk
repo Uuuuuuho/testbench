@@ -47,3 +47,13 @@ B_GEN_OBJS_TRICORE_TC+= 2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Algorithm
 	@-rm -f $(B_GEN_ELF_TRICORE_TC) $(B_GEN_HEX_TRICORE_TC)
 	@echo 'Building source file InfineonRacer.c for Tricore'
 	$(B_GEN_TRICORE_GNUC_CC) $(B_GNUC_TRICORE_CC_OPTIONS) -DBOARD=SHIELD_BUDDY @$(B_GEN_INC_LISTFILE_TRICORE) $(B_GEN_EXT_INCLUDE_PATHS) -c $< -o $@ -save-temps=obj -MMD
+
+#Make-rule to build file: PID.c
+B_GEN_DEP_FILES+= 2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Algorithm/HandCode/PID.d
+B_GEN_OBJS_TRICORE_TC+= 2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Algorithm/HandCode/PID.o
+
+2_Out/Tricore_Gnuc/Gnuc_Files/1_ExtSrc/Tricore/Algorithm/HandCode/PID.o: ../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.c $(B_GEN_CONFIG_TRICORE_GNUC)
+	@mkdir -p $(@D)
+	@-rm -f $(B_GEN_ELF_TRICORE_TC) $(B_GEN_HEX_TRICORE_TC)
+	@echo 'Building source file PID.c for Tricore'
+	$(B_GEN_TRICORE_GNUC_CC) $(B_GNUC_TRICORE_CC_OPTIONS) -DBOARD=SHIELD_BUDDY @$(B_GEN_INC_LISTFILE_TRICORE) $(B_GEN_EXT_INCLUDE_PATHS) -c $< -o $@ -save-temps=obj -MMD

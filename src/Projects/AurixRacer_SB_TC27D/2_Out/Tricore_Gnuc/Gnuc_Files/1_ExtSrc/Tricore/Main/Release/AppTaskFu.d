@@ -110,6 +110,7 @@
  ../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.h \
  ../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/_Lib/DataHandling/Ifx_Fifo.h \
  ../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h \
+ ../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/PID.h \
  ../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller.h \
  ../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/rtwtypes.h \
  ../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/ert/IR_Controller_types.h

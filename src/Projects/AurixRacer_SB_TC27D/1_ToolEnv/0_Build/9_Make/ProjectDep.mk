@@ -1,5 +1,4 @@
 1_ToolEnv/0_Build/9_Make/Project.mk: \
- 0_Src \
  ../../MyApp/AurixRacer/0_Src/AppSw \
  ../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src \
  ../../_LibSrc/simio_pls \
@@ -155,8 +154,6 @@
  ../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Gtm/Tom/PwmHl \
  ../../_LibSrc/iLLD_1_0_1_8_0__TC27D/Src/BaseSw/iLLD/TC27D/Tricore/Gtm/Tom/Timer
 
-
-0_Src:
 
 ../../MyApp/AurixRacer/0_Src/AppSw:
 

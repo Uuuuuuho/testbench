@@ -16905,6 +16905,7 @@ typedef struct{
     int Transfer[3];
 
     uint32 sample[5];
+    uint32 sample_RIGHT[5];
     float32 temp;
 
     uint32 previous;
@@ -16921,6 +16922,7 @@ typedef struct{
     uint32 Next_Lane;
 
     uint32 SchoolZone_Status;
+    float32 previous_Servo;
 }LineData;
 
 
@@ -16928,7 +16930,7 @@ typedef struct{
 
 extern InfineonRacer_t IR_Ctrl;
 extern LineData IR_LineData;
-# 92 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
+# 94 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.h"
 extern void InfineonRacer_init(void);
 extern void InfineonRacer_detectLane();
 extern void InfineonRacer_control(void);
@@ -16950,6 +16952,7 @@ extern void threshold_LINE_RIGHT(void);
 extern boolean is_THRESHOLD(void);
 extern boolean is_THRESHOLD_MIDDLE(void);
 extern boolean is_THRESHOLD_RIGHT(void);
+extern boolean left_FIRST(void);
 
 
 extern uint32 get_Dash(void);
@@ -16972,16 +16975,21 @@ extern boolean IsInSchoolZone_THRESHOLD(void);
 
 extern boolean Boundary(void);
 extern boolean isEndOfLEFT(void);
+extern boolean isEndOfRIGHT(void);
+
 
 extern boolean Boundary_RIGHT(void);
 
 extern boolean Over_Boundary(void);
+extern boolean Over_Boundary2(void);
+
 extern boolean Over_Boundary_RIGHT(void);
 
 
 extern float32 Direction(void);
 extern float32 Direction_CENTER(void);
 extern float32 Direction_CENTER_RIGHT(void);
+extern float32 Direction_CENTER_RIGHT_Inverse(void);
 # 5 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c" 2
 # 1 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 1
 
@@ -31775,7 +31783,7 @@ extern void BasicGpt12Enc_run(void);
 extern void BasicGpt12Enc_IR_Encoder_reset(void);
 extern void Speed_Avg(void);
 
-void SpeedCalculation(void);
+extern float32 SpeedCalculation(void);
 # 9 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/SnsAct/Basic.h" 2
 # 6 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c" 2
 # 23 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
@@ -31784,18 +31792,19 @@ InfineonRacer_t IR_Ctrl
 LineData IR_LineData
   ={0,0,0,0,0,0,0};
 
-float32 MIN_INDEX = 40 - 10;
-float32 MAX_INDEX = 40 + 10;
+float32 MIN_INDEX = 35 - 10;
+float32 MAX_INDEX = 35 + 10;
 
-float32 MIN_INDEX_RIGHT = 80 - 10;
-float32 MAX_INDEX_RIGHT = 80 + 10;
+float32 MIN_INDEX_RIGHT = 95 - 10;
+float32 MAX_INDEX_RIGHT = 95 + 10;
 # 45 "../../MyApp/AurixRacer/0_Src/AppSw/Tricore/Algorithm/HandCode/InfineonRacer.c"
 void InfineonRacer_init(void){
     IR_LineData.Transfer[0] = 1;
     IR_LineData.Transfer[1] = 0;
     IR_LineData.Transfer[2] = -1;
 
-    IR_LineData.School_Zone_flag = 0;
+    IR_LineData.School_Zone_flag = 1;
+    IR_LineData.Next_Lane = 2;
     IR_LineData.Direction_Determined = 0;
     IR_LineData.Direction_Determined_RIGHT = 0;
 }
@@ -31890,6 +31899,7 @@ void median_filter(void) {
  for (uint32 i = (5 / 2); i < 128 - (5 / 2); i++) {
        for (uint32 j = -(5 / 2); j <= 5 / 2; j++) {
            IR_LineData.sample[j + (5 / 2)] = IR_LineScan.adcResult[0][i + j];
+              IR_LineData.sample_RIGHT[j + (5 / 2)] = IR_LineScan.adcResult[1][i + j];
            if (j == 5 / 2) {
                for (uint32 m = 0; m < 5 - 1; m++) {
                    for (uint32 n = m + 1; n < 5; n++) {
@@ -31898,13 +31908,21 @@ void median_filter(void) {
                            IR_LineData.sample[m] = IR_LineData.sample[n];
                            IR_LineData.sample[n] = IR_LineData.temp;
                        }
+
+                          if (IR_LineData.sample_RIGHT[m] < IR_LineData.sample_RIGHT[n]) {
+                           IR_LineData.temp = IR_LineData.sample_RIGHT[m];
+                           IR_LineData.sample_RIGHT[m] = IR_LineData.sample_RIGHT[n];
+                           IR_LineData.sample_RIGHT[n] = IR_LineData.temp;
+                       }
                    }
                }
                IR_LineScan.adcResult[0][i] = IR_LineData.sample[j];
+                 IR_LineScan.adcResult[1][i] = IR_LineData.sample_RIGHT[j];
            }
        }
    }
 }
+
 
 void median_filter_RIGHT(void) {
  for (uint32 i = (5 / 2); i < 128 - (5 / 2); i++) {
@@ -31928,7 +31946,7 @@ void median_filter_RIGHT(void) {
 
 boolean is_THRESHOLD(void){
     uint32 index = 0;
-    float32 threshold = 500;
+    float32 threshold = 1200;
 
     for(index = 4; index < 128 - 4; index++){
         if(IR_LineScan.adcResult[0][index] < threshold){
@@ -31939,7 +31957,7 @@ boolean is_THRESHOLD(void){
 }
 boolean is_THRESHOLD_MIDDLE(void){
     uint32 index = 0;
-    float32 threshold = 500;
+    float32 threshold = 1200;
     uint32 half_index = 128/2;
     for(index = 4; index < half_index; index++){
         if(IR_LineScan.adcBuffer[0][index] < threshold){
@@ -31951,7 +31969,7 @@ boolean is_THRESHOLD_MIDDLE(void){
 
 boolean is_THRESHOLD_RIGHT(void){
     uint32 index = 0;
-    float32 threshold = 1500;
+    float32 threshold = 500;
 
     for(index = 4; index < 128 - 4; index++){
         if(IR_LineScan.adcResult[1][index] < threshold){
@@ -31961,6 +31979,12 @@ boolean is_THRESHOLD_RIGHT(void){
     return 0;
 }
 
+boolean left_FIRST(void){
+    if(IR_LineData.previous_Servo > 0.55){
+        return 1;
+    }
+    else return 0;
+}
 
 uint32 get_Dash(void){
     if(is_THRESHOLD())
@@ -31969,13 +31993,11 @@ uint32 get_Dash(void){
     if(is_THRESHOLD_RIGHT())
         IR_LineData.Dash_Right++;
 
-    IR_LineData.Next_Lane = 2;
-    return 2;
-
     if(IR_LineData.Dash_Left > IR_LineData.Dash_Right){
         IR_LineData.Next_Lane = 2;
         return 2;
     }
+
     else{
         IR_LineData.Next_Lane = 1;
         return 1;
@@ -31990,62 +32012,43 @@ void clear_Dash(void){
 
 void threshold_LINE(void){
     uint32 index = 0;
-    float32 threshold = 500;
-    float32 MinVal = 500000;
+    float32 threshold = 1200, threshold_RIGHT = 500;
+    float32 MinVal = 500000, MinVal_RIGHT = 500000;
 
-    if(!IR_LineData.Direction_Determined){
-     for(index = 4; index < 128 - 4; index++){
-            if(IR_LineScan.adcBuffer[0][index] < threshold){
-                if(IR_LineScan.adcBuffer[0][index] < MinVal){
-                    IR_LineData.previous = index;
-                    MinVal = IR_LineScan.adcBuffer[0][index];
-                }
+ for(index = 4; index < 128 - 4; index += 2){
+        if(IR_LineScan.adcResult[0][index] < threshold){
+            if(IR_LineScan.adcResult[0][index] < MinVal){
+                IR_LineData.present = index;
+                MinVal = IR_LineScan.adcResult[0][index];
             }
         }
-     IR_LineData.Direction_Determined = 1;
-    }
 
-    else{
-     for(index = 4; index < 128 - 4; index++){
-            if(IR_LineScan.adcBuffer[0][index] < threshold){
-                if(IR_LineScan.adcBuffer[0][index] < MinVal){
-                    IR_LineData.present = index;
-                    MinVal = IR_LineScan.adcBuffer[0][index];
-                }
+        if(IR_LineScan.adcResult[1][index] < threshold_RIGHT){
+            if(IR_LineScan.adcResult[1][index] < MinVal_RIGHT){
+                IR_LineData.present_RIGHT = index;
+                MinVal_RIGHT = IR_LineScan.adcResult[1][index];
             }
         }
-     IR_LineData.Direction_Determined = 0;
+
     }
 }
 
+
 void threshold_LINE_RIGHT(void){
     uint32 index = 0;
-    float32 threshold = 1500;
+    float32 threshold = 500;
     float32 MinVal = 500000;
 
-    if(!IR_LineData.Direction_Determined_RIGHT){
-     for(index = 4; index < 128 - 4; index++){
-            if(IR_LineScan.adcBuffer[1][index] < threshold){
-                if(IR_LineScan.adcBuffer[1][index] < MinVal){
-                    IR_LineData.previous_RIGHT = index;
-                    MinVal = IR_LineScan.adcBuffer[1][index];
-                }
+ for(index = 4; index < 128 - 4; index+=2){
+        if(IR_LineScan.adcBuffer[1][index] < threshold){
+            if(IR_LineScan.adcBuffer[1][index] < MinVal){
+                IR_LineData.present_RIGHT = index;
+                MinVal = IR_LineScan.adcBuffer[1][index];
             }
         }
-     IR_LineData.Direction_Determined_RIGHT = 1;
     }
+ IR_LineData.Direction_Determined_RIGHT = 0;
 
-    else{
-     for(index = 4; index < 128 - 4; index++){
-            if(IR_LineScan.adcBuffer[1][index] < threshold){
-                if(IR_LineScan.adcBuffer[1][index] < MinVal){
-                    IR_LineData.present_RIGHT = index;
-                    MinVal = IR_LineScan.adcBuffer[1][index];
-                }
-            }
-        }
-     IR_LineData.Direction_Determined_RIGHT = 0;
-    }
 }
 
 
@@ -32106,8 +32109,13 @@ void getLineData_RIGHT (void){
 boolean IsInSchoolZone_THRESHOLD(void){
     uint32 index = 0;
     uint32 half_index = 128 / 2;
-    float32 SCHOOLZONE_DETECTION = 500;
+    float32 SCHOOLZONE_DETECTION = 1200;
     uint32 line_count = 0;
+
+
+    IR_LineData.School_Zone_flag = 1;
+    return IR_LineData.School_Zone_flag;
+
 
 
 
@@ -32125,7 +32133,7 @@ boolean IsInSchoolZone_THRESHOLD(void){
         }
     }
 
-    SCHOOLZONE_DETECTION = 1500;
+    SCHOOLZONE_DETECTION = 500;
 
     for(index = 4; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
@@ -32153,7 +32161,7 @@ boolean IsInSchoolZone_THRESHOLD(void){
 boolean IsOutSchoolZone_THRESHOLD(void){
     uint32 index = 0;
     uint32 half_index = 128 / 2;
-    float32 SCHOOLZONE_DETECTION = 500;
+    float32 SCHOOLZONE_DETECTION = 1200;
     uint32 line_count = 0;
 
 
@@ -32172,7 +32180,7 @@ boolean IsOutSchoolZone_THRESHOLD(void){
         }
     }
 
-    SCHOOLZONE_DETECTION = 1500;
+    SCHOOLZONE_DETECTION = 500;
 
     for(index = 4; index < half_index; index ++){
         if(IR_LineScan.adcBuffer[1][index] < SCHOOLZONE_DETECTION){
@@ -32234,11 +32242,15 @@ float32 Direction(void){
 
 float32 Direction_CENTER(void){
 
-    return (IR_LineData.present - 40);
+    return (IR_LineData.present - 35);
 }
 
 float32 Direction_CENTER_RIGHT(void){
-    return (MIN_INDEX_RIGHT- IR_LineData.present_RIGHT);
+    return (IR_LineData.present_RIGHT - 95);
+}
+
+float32 Direction_CENTER_RIGHT_Inverse(void){
+    return (MIN_INDEX_RIGHT - IR_LineData.present_RIGHT);
 }
 
 boolean Boundary(void){
@@ -32258,7 +32270,14 @@ boolean Boundary_RIGHT(void){
 
 
 boolean Over_Boundary(void){
-    if(IR_LineData.present < MIN_INDEX)
+    if(IR_LineData.present < 40)
+        return 1;
+    else
+        return 0;
+}
+
+boolean Over_Boundary2(void){
+    if(IR_LineData.present > 70)
         return 1;
     else
         return 0;
@@ -32271,8 +32290,23 @@ boolean isEndOfLEFT(void){
         return 0;
 }
 
+boolean isEndOfRIGHT(void){
+    if(IR_LineData.present_RIGHT <55)
+        return 1;
+    else
+        return 0;
+}
+
 boolean Over_Boundary_RIGHT(void){
-    if(IR_LineData.present_RIGHT < MIN_INDEX_RIGHT)
+    if(IR_LineData.present_RIGHT < 25)
+        return 1;
+    else
+        return 0;
+}
+
+
+boolean Over_Boundary_RIGHT2(void){
+    if(IR_LineData.present_RIGHT > 95)
         return 1;
     else
         return 0;

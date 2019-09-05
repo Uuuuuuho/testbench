@@ -24,7 +24,7 @@
 /* SHELL_ASCLIN assign, ASCLIN0 혹은 ASCLIN3 중에 한가지만 선택 */
 #define ASCLIN0			0		// For HC06 Bluetooth module
 #define ASCLIN3			3		// For USB
-#define SHELL_ASCLIN	ASCLIN3
+#define SHELL_ASCLIN	ASCLIN0
 
 /* 다음 3개중의 하나만 정의해서 사용*/
 #define CODE_HAND	0		// Hand code : default

@@ -152,7 +152,7 @@ void BasicGpt12Enc_IR_Encoder_reset(void){
 }
 
 void Speed_Avg(void){
-    IR_Encoder.speed = IR_Encoder.buff / 10;
+    IR_Encoder.speed = IR_Encoder.buff / 500;
     IR_Encoder.buff = 0;
 }
 
@@ -170,8 +170,8 @@ void BasicGpt12Enc_run(void){
 	IR_Encoder.turn   	   = IfxGpt12_IncrEnc_getTurn(&g_Gpt12Enc.incrEnc);
 }
 
-void SpeedCalculation(void){
-    IR_Encoder.speed = IR_Encoder.speed * 0.22 * 100 * 15 / 72 / 2 / PI;
+float32 SpeedCalculation(void){
+    return IR_Encoder.speed / 2 / PI / 13  *0.22;   //Or 8/23
 }
 
 /******************************************************************************/
